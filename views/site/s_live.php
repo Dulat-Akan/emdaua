@@ -138,13 +138,13 @@ use yii\helpers\Url;
 			}
 
 
-			setInterval(function(){
+			/*setInterval(function(){
 				updategame();
 			},5000);
 
 			$("#update").click(function(){
 				window.location.reload();
-			});
+			});*/
 				
 			
 
@@ -237,9 +237,14 @@ function MySearch(){
 			
 			var p1 = $("#pok_searh2");
 
-			var title = $("tr").children('td [colspan="2"]').children("a").children("b");
+			//var title = $("tr").children('td [colspan="2"]').children("a").children("b");
+			var title = $("tr").children('td [colspan="3"]').children("a").children("b"); /*nazvaniya kommand*/
 
-			var next = $("tr").find('td [colspan="2"]').children("a").children("b");
+			//alert(title.text());
+
+
+			var next = $("tr").find('td [colspan="3"]').children("a").children("b");	/*sledyushie nazvanie kommand*/
+
 
 			title.each(function(index,element){
 
@@ -265,6 +270,7 @@ function MySearch(){
 
 					if(z == 1){
 						ar1.push(string);
+						//alert(string);
 						z = 1;
 					}
 	
@@ -274,19 +280,31 @@ function MySearch(){
 
 
 			var title_name = $('a').parent().parent().prev().children().children().next().children("b").parent().parent().parent().next().children().next().children("a");
+
+
 			
 			title_name.each(function(index,element){
 
 				var str = $(element);
 				var string = str.text();
 
-				ar4.push(string);
+				
+
+				if(string != ""){
+					ar4.push(string);
+					//alert(string);
+				}
+				
 
 			});
 
-			var name = $('[width="99%"]').children("a");	/*"td > a"*/
+			var name = $('[width="99%"]').children("a");	/*"td > a nazvaniya komand"*/
 
-			var koef = $('[width="99%"]').children("font");	/*"td > font"*/
+
+
+			var koef = $('[width="99%"]').children("font");	/*"td > font" koeffisienti*/
+
+
 
 			name.each(function(index,element){
 
@@ -341,6 +359,7 @@ function MySearch(){
 						}
 
 					ar3.push(string3);
+
 					v++;
 					p = v;
 					}
@@ -384,6 +403,8 @@ function MySearch(){
 
 							var string6 =   '<div class="col-sm-10 col-sm-offset-1 ul-li"> <div class="col-sm-6"> <p class="load col-sm-10 col-sm-offset-1" v="' + arhref[i] + '">' + ar2[i] + '</p> </div> <div class="col-sm-6 "> <p class="load2 col-sm-10 col-sm-offset-1"><b>' + ar3[z] + '</b></p> </div> </div>';
 							p1.append($('.text2').append(string6));
+
+
 							z++;
 							
 

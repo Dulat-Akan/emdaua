@@ -112,6 +112,8 @@
 <td>::</td>
 <td nowrap><a href="index.php?page=bonus" id=bonus_div>Бонусы и акции</a></td><td>::</td><td class="sm-hide" nowrap><a id=betgames_div_d href="/preview">Прогнозы</a></td><td class="sm-hide">::</td><td nowrap><a id=betgames_div_d href="/betgames">BetGamesTV</a></td><td>::</td>
 <td nowrap><a href="index.php?page=rules">Правила</a></td><td>::</td>
+<td nowrap><a href="index.php?page=faqnew">FAQ</a></td>
+<td>::</td>
 <td nowrap><a href="index.php?page=support">Поддержка</a></td>
 <td>::</td>
 <td nowrap><a href="/result">Результаты</a></td>
@@ -130,6 +132,29 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 <td class="col_td" valign="top" id="oLeftSide">
+<table id="favorites_win" class="smallwnd" style="display:none;">
+<tr align="center" class="m_c">
+<td class="smwndcap">Избранное</td>
+</tr>
+<tr>
+<td id="favorites" align="center"></td>
+</tr>
+</table>
+<script type="text/javascript" src="/js/jquery.favorites.js?v=1.4"></script>
+<script type="text/javascript">
+					$(function() {
+						$('#favorites').olimpFavorites({
+							full:              true,
+							elements:          '.fav',
+							type:              'matches',
+							show_txt:          'Показать',
+							add_txt:           'Добавить в избранное',
+							remove_txt:        'Удалить из избранного',
+							clear_txt:         'Очистить избранное',
+							clear_confirm_txt: 'Вы действительно хотите очистить избранное?'
+						});
+					});
+				</script>
 <script type="text/javascript">
 						function lang_menu(id)
 						{
@@ -248,10 +273,10 @@
 <td align=left width=75% style='color: #800000'><u>Отключить Корзину</u></td></tr></table>
 </td></tr> <tr>
 <td align="center">
-<hr class="hr2"/><span id='hours'>27.08.2016 18:18:14</span>
+<hr class="hr2"/><span id='hours'>19.09.2016 16:15:42</span>
 <script type='text/javascript'>
-	            wr_hours(1472300294);
-	            setInterval('wr_hours(1472300294);',1000);
+	            wr_hours(1474280142);
+	            setInterval('wr_hours(1474280142);',1000);
 	            </script><br/>
 <a href="index.php?page=timezone">(GMT +06:00)</a>
 </td>
@@ -313,7 +338,7 @@ setInterval(function(){
 </tr>
 </tbody>
 </table>
-</td></tr><input type=hidden name='asid' value='3137639'><input type=hidden name='psid' value='68aebdb52b3e2d1760de1a33077d5a5e'>
+</td></tr><input type=hidden name='asid' value='7712918'><input type=hidden name='psid' value='c9866bf7c50ddec1db6b189747bef718'>
 </table></form>
 <script language='javascript'>
 function changeConn()
@@ -354,7 +379,7 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
-<font class=txtmed color=black>Ставки</font> Live (73)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>Ставки</font> Live (41)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
@@ -364,7 +389,7 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (1078)</a>
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (900)</a>
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -372,7 +397,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (161)</a>
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (169)</a>
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -380,7 +405,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (15)</a>
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (22)</a>
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -388,7 +413,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (50)</a>
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (185)</a>
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -396,7 +421,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (36)</a>
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (33)</a>
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -412,7 +437,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (37)</a>
+<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (24)</a>
 </td>
 <td>
 <input id="c6" type="checkbox" name="sel[]" value="6"/>
@@ -420,7 +445,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (19)</a>
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (16)</a>
 </td>
 <td>
 <input id="c7" type="checkbox" name="sel[]" value="29"/>
@@ -428,50 +453,34 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (2)</a>
+<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (23)</a>
 </td>
 <td>
-<input id="c8" type="checkbox" name="sel[]" value="7"/>
+<input id="c8" type="checkbox" name="sel[]" value="12"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (24)</a>
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (4)</a>
 </td>
 <td>
-<input id="c9" type="checkbox" name="sel[]" value="12"/>
+<input id="c9" type="checkbox" name="sel[]" value="10"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cycle-racing" style="color:#000;">Велоспорт (1)</a>
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (41)</a>
 </td>
 <td>
-<input id="c10" type="checkbox" name="sel[]" value="44"/>
+<input id="c10" type="checkbox" name="sel[]" value="9"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (1)</a>
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (6)</a>
 </td>
 <td>
-<input id="c11" type="checkbox" name="sel[]" value="10"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (36)</a>
-</td>
-<td>
-<input id="c12" type="checkbox" name="sel[]" value="9"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (40)</a>
-</td>
-<td>
-<input id="c13" type="checkbox" name="sel[]" value="90"/>
+<input id="c11" type="checkbox" name="sel[]" value="90"/>
 </td>
 </tr>
 <tr valign="top">
@@ -479,119 +488,119 @@ setInterval(function(){
 <a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (2)</a>
 </td>
 <td>
-<input id="c14" type="checkbox" name="sel[]" value="75"/>
+<input id="c12" type="checkbox" name="sel[]" value="75"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (7)</a>
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (10)</a>
 </td>
 <td>
-<input id="c15" type="checkbox" name="sel[]" value="47"/>
+<input id="c13" type="checkbox" name="sel[]" value="47"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (5)</a>
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (13)</a>
 </td>
 <td>
-<input id="c16" type="checkbox" name="sel[]" value="73"/>
+<input id="c14" type="checkbox" name="sel[]" value="73"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/skiing" style="color:#000;">Лыжи (2)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (9)</a>
 </td>
 <td>
-<input id="c17" type="checkbox" name="sel[]" value="38"/>
+<input id="c15" type="checkbox" name="sel[]" value="121"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (4)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (2)</a>
 </td>
 <td>
-<input id="c18" type="checkbox" name="sel[]" value="117"/>
+<input id="c16" type="checkbox" name="sel[]" value="117"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (4)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (14)</a>
 </td>
 <td>
-<input id="c19" type="checkbox" name="sel[]" value="40"/>
+<input id="c17" type="checkbox" name="sel[]" value="40"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=115" style="color:#000;">Песапалло (3)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=88" style="color:#000;">Политика (2)</a>
 </td>
 <td>
-<input id="c20" type="checkbox" name="sel[]" value="115"/>
+<input id="c18" type="checkbox" name="sel[]" value="88"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/beach-volleyball" style="color:#000;">Пляжный волейбол (11)</a>
+<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (6)</a>
 </td>
 <td>
-<input id="c21" type="checkbox" name="sel[]" value="60"/>
+<input id="c19" type="checkbox" name="sel[]" value="85"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=35" style="color:#000;">Пляжный футбол (3)</a>
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (17)</a>
 </td>
 <td>
-<input id="c22" type="checkbox" name="sel[]" value="35"/>
+<input id="c20" type="checkbox" name="sel[]" value="46"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (1)</a>
+<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (13)</a>
 </td>
 <td>
-<input id="c23" type="checkbox" name="sel[]" value="39"/>
+<input id="c21" type="checkbox" name="sel[]" value="96"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=119" style="color:#000;">Ралли (1)</a>
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (14)</a>
 </td>
 <td>
-<input id="c24" type="checkbox" name="sel[]" value="119"/>
+<input id="c22" type="checkbox" name="sel[]" value="4"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (14)</a>
+<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (1)</a>
 </td>
 <td>
-<input id="c25" type="checkbox" name="sel[]" value="85"/>
+<input id="c23" type="checkbox" name="sel[]" value="113"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (28)</a>
+<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (1)</a>
 </td>
 <td>
-<input id="c26" type="checkbox" name="sel[]" value="46"/>
+<input id="c24" type="checkbox" name="sel[]" value="33"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (22)</a>
+<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (8)</a>
 </td>
 <td>
-<input id="c27" type="checkbox" name="sel[]" value="96"/>
+<input id="c25" type="checkbox" name="sel[]" value="11"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (4)</a>
+<a class="txtmed" href="/betting/bowls" style="color:#000;">Шары (8)</a>
 </td>
 <td>
-<input id="c28" type="checkbox" name="sel[]" value="4"/>
+<input id="c26" type="checkbox" name="sel[]" value="93"/>
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -599,16 +608,16 @@ setInterval(function(){
                 {
                     if(checked==0) checked=1;
                     else checked=0;
-                    for(var ci=0;ci<29;ci++)
+                    for(var ci=0;ci<27;ci++)
                         document.getElementById('c'+ci).checked=checked;
-                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1614)</a>';
-                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1614)</a>'
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1546)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1546)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
 </td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1></td></tr>
 <tr><td colspan=2 id='selall' align=middle>
-<a href='javascript:selall();'>Выбрать все (1614)</a> </td>
+<a href='javascript:selall();'>Выбрать все (1546)</a> </td>
 </tr>
 <input type="hidden" name="page" value="line"/>
 <input type="hidden" name="action" value="1"/>
@@ -620,119 +629,111 @@ setInterval(function(){
 </td>
 <TD class=central_td vAlign=top>
 <center><H1>
-Линия на 27.08.2016 </H1>
+Линия на 19.09.2016 </H1>
+<style>._block{width:auto;padding:0;color:#424242;font-size:10px;font-family:tahoma,arial;font-weight:bold;position:relative;}._block ._list{padding:3px 3px;height:auto;white-space:nowrap;cursor:pointer;border-radius:1px;color:#424242;border:1px solid #b7b7b7;width:292px;z-index:11;background:#ffffff;}._list #btn{width:0;height:0;margin:5px 0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #424242;float:right;}._list span{padding:2px 0 0 2px;display:block;margin-right:15px;}._block ul.result_list{margin-top:-1px;z-index:10;background:#ffffff;position:absolute;border-radius:1px;width:99%;padding:0;border:1px solid #b7b7b7;display:none;max-height:200px;overflow:auto;}ul.result_list li:first-child{padding:6px 5px;list-style-type:none;border:0;}ul.result_list li{padding:6px 5px;list-style-type:none;border-top:1px solid #b7b7b7;}ul.result_list li:hover{cursor:pointer;color:#89221B;}</style>
+<script>
+		function getCookie(name) {
+			var cookie = " " + document.cookie;
+			var search = " " + name + "=";
+			var setStr = null;
+			var offset = 0;
+			var end = 0;
+			if (cookie.length > 0) {
+				offset = cookie.indexOf(search);
+				if (offset != -1) {
+					offset += search.length;
+					end = cookie.indexOf(";", offset)
+					if (end == -1) {
+						end = cookie.length;
+					}
+					setStr = unescape(cookie.substring(offset, end));
+				}
+			}
+			return(setStr);
+		}
+		$(function () {
+			$(document).delegate("._list",'click',function () {
+				var tv = $(this).attr("data-item");
+				$(".result_list[data-item="+tv+"]").slideToggle("fast");
+				$("._list[data-item="+tv+"]").css("background-color", "#F1f1f1");
+				console.info(tv);
+				if (getCookie("ten"+tv) == '1') {
+					document.cookie="ten"+tv+"=0;";
+				} else {
+					document.cookie="ten"+tv+"=1;";
+				}
+
+			}).delegate("ul.result_list li", 'click',function () {
+				var tx = $(this).html();
+				var tvs = $(this).attr("data-item");
+				var tv = $(this).attr("alt");
+				document.cookie="ten"+tvs+"=0;";
+				$(".result_list[data-item="+tvs+"]").slideUp("fast");
+				//$("._list span").html(tx);
+				$("._list[data-item="+tvs+"]").css("background-color", "#Ffffff");
+			});
+		})
+	</script>
 <div align="center">
 <form name="BetLine" action="index.php" method="post" target="_blank">
 <input type="hidden" name="page" value="setbet"/>
 <div id="betline">
 <table class="smallwnd2" style="width:99%"><tr class='m_c' align=center>
-<td class=smwndcap width='90%'>Футбол. Лига Европы УЕФА. Групповой этап. 1-й тур<a name='ch14776'></a></td>
+<td class=smwndcap width='90%'>Бейсбол. MLB. Регулярный сезон<a name='ch21156'></a></td>
 <td class=smwndcap width='10%' align=center valign=center nowrap>- - -</td></tr>
 <tr><td colspan=2>
 <i><div align=left style='WIDTH: 96%;'>
-<a href='javascript: void(0);' class='show_all_odds' data-champ-id='14776'>
-<span id='t14776_1' class=tab>Показать роспись</span></a><span class=tab><a href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316408, 0, 0);'><img id='i26316408' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Янг Бойз - Олимпиакос<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063209,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<a href='javascript: void(0);' class='show_all_odds' data-champ_id='21156'>
+<span id='t21156_1' class=tab>Показать роспись</span></a><span class=tab><a href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737169, 0, 0);'><img id='i26737169' src='/img/plus.jpg'></a></div>20.09.2016 00:15</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737169">Канзас Сити - Чикаго Уайт Сокс</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(9513673,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737169"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316408' data-match-id='26316408' data-match-count='0' data-cont='0' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871087.1" data-select="566871087.1" data-v1="2.64" data-v2="1" data-v3="1" data-match="26316408" data-id="566871087.1" data-live="b1" class="koefs"><b>2.64</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871088.1" data-select="566871088.1" data-v1="3.33" data-v2="1" data-v3="1" data-match="26316408" data-id="566871088.1" data-live="b1" class="koefs"><b>3.33</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871089.1" data-select="566871089.1" data-v1="2.77" data-v2="1" data-v3="1" data-match="26316408" data-id="566871089.1" data-live="b1" class="koefs"><b>2.77</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871090.1" data-select="566871090.1" data-v1="1.46" data-v2="1" data-v3="1" data-match="26316408" data-id="566871090.1" data-live="b1" class="koefs"><b>1.46</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871091.1" data-select="566871091.1" data-v1="1.34" data-v2="1" data-v3="1" data-match="26316408" data-id="566871091.1" data-live="b1" class="koefs"><b>1.34</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871092.1" data-select="566871092.1" data-v1="1.5" data-v2="1" data-v3="1" data-match="26316408" data-id="566871092.1" data-live="b1" class="koefs"><b>1.5</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316389, 1, 1);'><img id='i26316389' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>АЗ Алкмаар - Дундалк<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063221,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737169' data-match-id='26737169' data-match-count='0' data-cont='0' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908385.1" data-select="577908385.1" data-v1="1.78" data-v2="1" data-v3="1" data-match="26737169" data-id="577908385.1" data-live="b1" class="koefs"><b>1.78</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908386.1" data-select="577908386.1" data-v1="2.1" data-v2="1" data-v3="1" data-match="26737169" data-id="577908386.1" data-live="b1" class="koefs"><b>2.1</b></span>   &nbsp;</nobr> <nobr>Ф1(-1.5) -&nbsp;&nbsp;<span id="koefs_577910237:26737169:2:4:-1.5:1" data-select="26737169:2:4:-1.5:1" data-v1="-1.5" data-v2="2.55" data-v3="1" data-match="26737169" data-id="577910237:26737169:2:4:-1.5:1" data-live="b1" class="koefs"><b>2.55</b></span>   &nbsp;</nobr> <nobr>Ф2(1.5) -&nbsp;&nbsp;<span id="koefs_577910238:26737169:2:4:1.5:2" data-select="26737169:2:4:1.5:2" data-v1="1.5" data-v2="1.47" data-v3="1" data-match="26737169" data-id="577910238:26737169:2:4:1.5:2" data-live="b1" class="koefs"><b>1.47</b></span>   &nbsp;</nobr> <nobr>Тот(8.5) М -&nbsp;&nbsp;<span id="koefs_577910243:26737169:2:5:8.5:1" data-select="26737169:2:5:8.5:1" data-v1="8.5" data-v2="1.89" data-v3="1.84" data-match="26737169" data-id="577910243:26737169:2:5:8.5:1" data-live="b1" class="koefs"><b>1.89</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577910243:26737169:3:5:8.5:1" data-select="26737169:3:5:8.5:1" data-v1="8.5" data-v2="1.89" data-v3="1.84" data-match="26737169" data-id="577910243:26737169:3:5:8.5:1" data-live="b1" class="koefs"><b>1.84</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737170, 1, 1);'><img id='i26737170' src='/img/plus.jpg'></a></div>20.09.2016 05:05</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737170">Балтимор - Бостон</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822826,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737170"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316389' data-match-id='26316389' data-match-count='1' data-cont='1' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870768.1" data-select="566870768.1" data-v1="1.4" data-v2="1" data-v3="1" data-match="26316389" data-id="566870768.1" data-live="b2" class="koefs"><b>1.4</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870769.1" data-select="566870769.1" data-v1="5.12" data-v2="1" data-v3="1" data-match="26316389" data-id="566870769.1" data-live="b2" class="koefs"><b>5.12</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870770.1" data-select="566870770.1" data-v1="7.29" data-v2="1" data-v3="1" data-match="26316389" data-id="566870770.1" data-live="b2" class="koefs"><b>7.29</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870771.1" data-select="566870771.1" data-v1="1.1" data-v2="1" data-v3="1" data-match="26316389" data-id="566870771.1" data-live="b2" class="koefs"><b>1.1</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870772.1" data-select="566870772.1" data-v1="1.17" data-v2="1" data-v3="1" data-match="26316389" data-id="566870772.1" data-live="b2" class="koefs"><b>1.17</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566870773.1" data-select="566870773.1" data-v1="3" data-v2="1" data-v3="1" data-match="26316389" data-id="566870773.1" data-live="b2" class="koefs"><b>3</b></span>   &nbsp;</nobr> <nobr>Ф1(-1.5) -&nbsp;&nbsp;<span id="koefs_567255197:26316389:2:4:-1.5:1" data-select="26316389:2:4:-1.5:1" data-v1="-1.5" data-v2="2.02" data-v3="1" data-match="26316389" data-id="567255197:26316389:2:4:-1.5:1" data-live="b2" class="koefs"><b>2.02</b></span>   &nbsp;</nobr> <nobr>Ф2(1.5) -&nbsp;&nbsp;<span id="koefs_567255198:26316389:2:4:1.5:2" data-select="26316389:2:4:1.5:2" data-v1="1.5" data-v2="1.78" data-v3="1" data-match="26316389" data-id="567255198:26316389:2:4:1.5:2" data-live="b2" class="koefs"><b>1.78</b></span>   &nbsp;</nobr> <nobr>Тот(3.5) М -&nbsp;&nbsp;<span id="koefs_567255213:26316389:2:5:3.5:1" data-select="26316389:2:5:3.5:1" data-v1="3.5" data-v2="1.65" data-v3="2.2" data-match="26316389" data-id="567255213:26316389:2:5:3.5:1" data-live="b2" class="koefs"><b>1.65</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567255213:26316389:3:5:3.5:1" data-select="26316389:3:5:3.5:1" data-v1="3.5" data-v2="1.65" data-v3="2.2" data-match="26316389" data-id="567255213:26316389:3:5:3.5:1" data-live="b2" class="koefs"><b>2.2</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316391, 2, 2);'><img id='i26316391' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Рапид Вена - Генк<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063231,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737170' data-match-id='26737170' data-match-count='1' data-cont='1' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908387.1" data-select="577908387.1" data-v1="2.12" data-v2="1" data-v3="1" data-match="26737170" data-id="577908387.1" data-live="b2" class="koefs"><b>2.12</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908388.1" data-select="577908388.1" data-v1="1.76" data-v2="1" data-v3="1" data-match="26737170" data-id="577908388.1" data-live="b2" class="koefs"><b>1.76</b></span>   &nbsp;</nobr> <nobr>Ф1(1.5) -&nbsp;&nbsp;<span id="koefs_577910257:26737170:2:4:1.5:1" data-select="26737170:2:4:1.5:1" data-v1="1.5" data-v2="1.64" data-v3="1" data-match="26737170" data-id="577910257:26737170:2:4:1.5:1" data-live="b2" class="koefs"><b>1.64</b></span>   &nbsp;</nobr> <nobr>Ф2(-1.5) -&nbsp;&nbsp;<span id="koefs_577910258:26737170:2:4:-1.5:2" data-select="26737170:2:4:-1.5:2" data-v1="-1.5" data-v2="2.17" data-v3="1" data-match="26737170" data-id="577910258:26737170:2:4:-1.5:2" data-live="b2" class="koefs"><b>2.17</b></span>   &nbsp;</nobr> <nobr>Тот(8.5) М -&nbsp;&nbsp;<span id="koefs_577910263:26737170:2:5:8.5:1" data-select="26737170:2:5:8.5:1" data-v1="8.5" data-v2="2.05" data-v3="1.72" data-match="26737170" data-id="577910263:26737170:2:5:8.5:1" data-live="b2" class="koefs"><b>2.05</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577910263:26737170:3:5:8.5:1" data-select="26737170:3:5:8.5:1" data-v1="8.5" data-v2="2.05" data-v3="1.72" data-match="26737170" data-id="577910263:26737170:3:5:8.5:1" data-live="b2" class="koefs"><b>1.72</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737171, 2, 2);'><img id='i26737171' src='/img/plus.jpg'></a></div>20.09.2016 05:10</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737171">Н.Й. Метс - Атланта</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822828,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737171"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316391' data-match-id='26316391' data-match-count='2' data-cont='2' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870801.1" data-select="566870801.1" data-v1="2.02" data-v2="1" data-v3="1" data-match="26316391" data-id="566870801.1" data-live="b3" class="koefs"><b>2.02</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870802.1" data-select="566870802.1" data-v1="3.5" data-v2="1" data-v3="1" data-match="26316391" data-id="566870802.1" data-live="b3" class="koefs"><b>3.5</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870803.1" data-select="566870803.1" data-v1="3.81" data-v2="1" data-v3="1" data-match="26316391" data-id="566870803.1" data-live="b3" class="koefs"><b>3.81</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870804.1" data-select="566870804.1" data-v1="1.27" data-v2="1" data-v3="1" data-match="26316391" data-id="566870804.1" data-live="b3" class="koefs"><b>1.27</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870805.1" data-select="566870805.1" data-v1="1.31" data-v2="1" data-v3="1" data-match="26316391" data-id="566870805.1" data-live="b3" class="koefs"><b>1.31</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566870806.1" data-select="566870806.1" data-v1="1.81" data-v2="1" data-v3="1" data-match="26316391" data-id="566870806.1" data-live="b3" class="koefs"><b>1.81</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567253368:26316391:2:4:-1:1" data-select="26316391:2:4:-1:1" data-v1="-1" data-v2="2.86" data-v3="1" data-match="26316391" data-id="567253368:26316391:2:4:-1:1" data-live="b3" class="koefs"><b>2.86</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567253369:26316391:2:4:1:2" data-select="26316391:2:4:1:2" data-v1="1" data-v2="1.41" data-v3="1" data-match="26316391" data-id="567253369:26316391:2:4:1:2" data-live="b3" class="koefs"><b>1.41</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567253386:26316391:2:5:2.5:1" data-select="26316391:2:5:2.5:1" data-v1="2.5" data-v2="1.85" data-v3="1.95" data-match="26316391" data-id="567253386:26316391:2:5:2.5:1" data-live="b3" class="koefs"><b>1.85</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567253386:26316391:3:5:2.5:1" data-select="26316391:3:5:2.5:1" data-v1="2.5" data-v2="1.85" data-v3="1.95" data-match="26316391" data-id="567253386:26316391:3:5:2.5:1" data-live="b3" class="koefs"><b>1.95</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316407, 3, 3);'><img id='i26316407' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>АПОЭЛ - Астана<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063211,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737171' data-match-id='26737171' data-match-count='2' data-cont='2' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908402.1" data-select="577908402.1" data-v1="1.35" data-v2="1" data-v3="1" data-match="26737171" data-id="577908402.1" data-live="b3" class="koefs"><b>1.35</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908403.1" data-select="577908403.1" data-v1="3.32" data-v2="1" data-v3="1" data-match="26737171" data-id="577908403.1" data-live="b3" class="koefs"><b>3.32</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737173, 3, 3);'><img id='i26737173' src='/img/plus.jpg'></a></div>20.09.2016 05:10</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737173">Майами - Вашингтон</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822830,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737173"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316407' data-match-id='26316407' data-match-count='3' data-cont='3' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871077.1" data-select="566871077.1" data-v1="2" data-v2="1" data-v3="1" data-match="26316407" data-id="566871077.1" data-live="b4" class="koefs"><b>2</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871078.1" data-select="566871078.1" data-v1="3.29" data-v2="1" data-v3="1" data-match="26316407" data-id="566871078.1" data-live="b4" class="koefs"><b>3.29</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871079.1" data-select="566871079.1" data-v1="4.17" data-v2="1" data-v3="1" data-match="26316407" data-id="566871079.1" data-live="b4" class="koefs"><b>4.17</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871080.1" data-select="566871080.1" data-v1="1.23" data-v2="1" data-v3="1" data-match="26316407" data-id="566871080.1" data-live="b4" class="koefs"><b>1.23</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871081.1" data-select="566871081.1" data-v1="1.34" data-v2="1" data-v3="1" data-match="26316407" data-id="566871081.1" data-live="b4" class="koefs"><b>1.34</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871082.1" data-select="566871082.1" data-v1="1.83" data-v2="1" data-v3="1" data-match="26316407" data-id="566871082.1" data-live="b4" class="koefs"><b>1.83</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567254665:26316407:2:4:-1:1" data-select="26316407:2:4:-1:1" data-v1="-1" data-v2="2.93" data-v3="1" data-match="26316407" data-id="567254665:26316407:2:4:-1:1" data-live="b4" class="koefs"><b>2.93</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567254666:26316407:2:4:1:2" data-select="26316407:2:4:1:2" data-v1="1" data-v2="1.39" data-v3="1" data-match="26316407" data-id="567254666:26316407:2:4:1:2" data-live="b4" class="koefs"><b>1.39</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567254681:26316407:2:5:2.5:1" data-select="26316407:2:5:2.5:1" data-v1="2.5" data-v2="1.56" data-v3="2.38" data-match="26316407" data-id="567254681:26316407:2:5:2.5:1" data-live="b4" class="koefs"><b>1.56</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567254681:26316407:3:5:2.5:1" data-select="26316407:3:5:2.5:1" data-v1="2.5" data-v2="1.56" data-v3="2.38" data-match="26316407" data-id="567254681:26316407:3:5:2.5:1" data-live="b4" class="koefs"><b>2.38</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316392, 4, 4);'><img id='i26316392' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Сассуоло - Атлетик Б<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063233,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737173' data-match-id='26737173' data-match-count='3' data-cont='3' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908421.1" data-select="577908421.1" data-v1="2.1" data-v2="1" data-v3="1" data-match="26737173" data-id="577908421.1" data-live="b4" class="koefs"><b>2.1</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908422.1" data-select="577908422.1" data-v1="1.77" data-v2="1" data-v3="1" data-match="26737173" data-id="577908422.1" data-live="b4" class="koefs"><b>1.77</b></span>   &nbsp;</nobr> <nobr>Ф1(1.5) -&nbsp;&nbsp;<span id="koefs_577912277:26737173:2:4:1.5:1" data-select="26737173:2:4:1.5:1" data-v1="1.5" data-v2="1.61" data-v3="1" data-match="26737173" data-id="577912277:26737173:2:4:1.5:1" data-live="b4" class="koefs"><b>1.61</b></span>   &nbsp;</nobr> <nobr>Ф2(-1.5) -&nbsp;&nbsp;<span id="koefs_577912278:26737173:2:4:-1.5:2" data-select="26737173:2:4:-1.5:2" data-v1="-1.5" data-v2="2.22" data-v3="1" data-match="26737173" data-id="577912278:26737173:2:4:-1.5:2" data-live="b4" class="koefs"><b>2.22</b></span>   &nbsp;</nobr> <nobr>Тот(8.5) М -&nbsp;&nbsp;<span id="koefs_577911953:26737173:2:5:8.5:1" data-select="26737173:2:5:8.5:1" data-v1="8.5" data-v2="1.83" data-v3="1.91" data-match="26737173" data-id="577911953:26737173:2:5:8.5:1" data-live="b4" class="koefs"><b>1.83</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577911953:26737173:3:5:8.5:1" data-select="26737173:3:5:8.5:1" data-v1="8.5" data-v2="1.83" data-v3="1.91" data-match="26737173" data-id="577911953:26737173:3:5:8.5:1" data-live="b4" class="koefs"><b>1.91</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737175, 4, 4);'><img id='i26737175' src='/img/plus.jpg'></a></div>20.09.2016 06:05</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737175">Техас - Лос-Анджелес Эйнджелс</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822834,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737175"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316392' data-match-id='26316392' data-match-count='4' data-cont='4' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870807.1" data-select="566870807.1" data-v1="2.41" data-v2="1" data-v3="1" data-match="26316392" data-id="566870807.1" data-live="b5" class="koefs"><b>2.41</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870808.1" data-select="566870808.1" data-v1="3.35" data-v2="1" data-v3="1" data-match="26316392" data-id="566870808.1" data-live="b5" class="koefs"><b>3.35</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870809.1" data-select="566870809.1" data-v1="3.06" data-v2="1" data-v3="1" data-match="26316392" data-id="566870809.1" data-live="b5" class="koefs"><b>3.06</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870810.1" data-select="566870810.1" data-v1="1.39" data-v2="1" data-v3="1" data-match="26316392" data-id="566870810.1" data-live="b5" class="koefs"><b>1.39</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870811.1" data-select="566870811.1" data-v1="1.34" data-v2="1" data-v3="1" data-match="26316392" data-id="566870811.1" data-live="b5" class="koefs"><b>1.34</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566870812.1" data-select="566870812.1" data-v1="1.58" data-v2="1" data-v3="1" data-match="26316392" data-id="566870812.1" data-live="b5" class="koefs"><b>1.58</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567253172:26316392:2:4:-1:1" data-select="26316392:2:4:-1:1" data-v1="-1" data-v2="3.71" data-v3="1" data-match="26316392" data-id="567253172:26316392:2:4:-1:1" data-live="b5" class="koefs"><b>3.71</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567253173:26316392:2:4:1:2" data-select="26316392:2:4:1:2" data-v1="1" data-v2="1.27" data-v3="1" data-match="26316392" data-id="567253173:26316392:2:4:1:2" data-live="b5" class="koefs"><b>1.27</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567253188:26316392:2:5:2.5:1" data-select="26316392:2:5:2.5:1" data-v1="2.5" data-v2="1.77" data-v3="2.04" data-match="26316392" data-id="567253188:26316392:2:5:2.5:1" data-live="b5" class="koefs"><b>1.77</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567253188:26316392:3:5:2.5:1" data-select="26316392:3:5:2.5:1" data-v1="2.5" data-v2="1.77" data-v3="2.04" data-match="26316392" data-id="567253188:26316392:3:5:2.5:1" data-live="b5" class="koefs"><b>2.04</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316390, 5, 5);'><img id='i26316390' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Маккаби Тель-Авив - Зенит<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063223,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737175' data-match-id='26737175' data-match-count='4' data-cont='4' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908511.1" data-select="577908511.1" data-v1="1.61" data-v2="1" data-v3="1" data-match="26737175" data-id="577908511.1" data-live="b5" class="koefs"><b>1.61</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908512.1" data-select="577908512.1" data-v1="2.39" data-v2="1" data-v3="1" data-match="26737175" data-id="577908512.1" data-live="b5" class="koefs"><b>2.39</b></span>   &nbsp;</nobr> <nobr>Ф1(-1.5) -&nbsp;&nbsp;<span id="koefs_577915562:26737175:2:4:-1.5:1" data-select="26737175:2:4:-1.5:1" data-v1="-1.5" data-v2="2.18" data-v3="1" data-match="26737175" data-id="577915562:26737175:2:4:-1.5:1" data-live="b5" class="koefs"><b>2.18</b></span>   &nbsp;</nobr> <nobr>Ф2(1.5) -&nbsp;&nbsp;<span id="koefs_577915563:26737175:2:4:1.5:2" data-select="26737175:2:4:1.5:2" data-v1="1.5" data-v2="1.63" data-v3="1" data-match="26737175" data-id="577915563:26737175:2:4:1.5:2" data-live="b5" class="koefs"><b>1.63</b></span>   &nbsp;</nobr> <nobr>Тот(10.5) М -&nbsp;&nbsp;<span id="koefs_577915568:26737175:2:5:10.5:1" data-select="26737175:2:5:10.5:1" data-v1="10.5" data-v2="1.8" data-v3="1.95" data-match="26737175" data-id="577915568:26737175:2:5:10.5:1" data-live="b5" class="koefs"><b>1.8</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577915568:26737175:3:5:10.5:1" data-select="26737175:3:5:10.5:1" data-v1="10.5" data-v2="1.8" data-v3="1.95" data-match="26737175" data-id="577915568:26737175:3:5:10.5:1" data-live="b5" class="koefs"><b>1.95</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737174, 5, 5);'><img id='i26737174' src='/img/plus.jpg'></a></div>20.09.2016 06:05</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737174">Чикаго Кабз - Цинциннати</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822832,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737174"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316390' data-match-id='26316390' data-match-count='5' data-cont='5' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870776.1" data-select="566870776.1" data-v1="3.43" data-v2="1" data-v3="1" data-match="26316390" data-id="566870776.1" data-live="b6" class="koefs"><b>3.43</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870777.1" data-select="566870777.1" data-v1="3.16" data-v2="1" data-v3="1" data-match="26316390" data-id="566870777.1" data-live="b6" class="koefs"><b>3.16</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870778.1" data-select="566870778.1" data-v1="2.31" data-v2="1" data-v3="1" data-match="26316390" data-id="566870778.1" data-live="b6" class="koefs"><b>2.31</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870779.1" data-select="566870779.1" data-v1="1.63" data-v2="1" data-v3="1" data-match="26316390" data-id="566870779.1" data-live="b6" class="koefs"><b>1.63</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870780.1" data-select="566870780.1" data-v1="1.37" data-v2="1" data-v3="1" data-match="26316390" data-id="566870780.1" data-live="b6" class="koefs"><b>1.37</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566870781.1" data-select="566870781.1" data-v1="1.32" data-v2="1" data-v3="1" data-match="26316390" data-id="566870781.1" data-live="b6" class="koefs"><b>1.32</b></span>   &nbsp;</nobr> <nobr>Ф1(1) -&nbsp;&nbsp;<span id="koefs_567255407:26316390:2:4:1:1" data-select="26316390:2:4:1:1" data-v1="1" data-v2="1.28" data-v3="1" data-match="26316390" data-id="567255407:26316390:2:4:1:1" data-live="b6" class="koefs"><b>1.28</b></span>   &nbsp;</nobr> <nobr>Ф2(-1) -&nbsp;&nbsp;<span id="koefs_567255408:26316390:2:4:-1:2" data-select="26316390:2:4:-1:2" data-v1="-1" data-v2="3.61" data-v3="1" data-match="26316390" data-id="567255408:26316390:2:4:-1:2" data-live="b6" class="koefs"><b>3.61</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567255419:26316390:2:5:2.5:1" data-select="26316390:2:5:2.5:1" data-v1="2.5" data-v2="1.55" data-v3="2.4" data-match="26316390" data-id="567255419:26316390:2:5:2.5:1" data-live="b6" class="koefs"><b>1.55</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567255419:26316390:3:5:2.5:1" data-select="26316390:3:5:2.5:1" data-v1="2.5" data-v2="1.55" data-v3="2.4" data-match="26316390" data-id="567255419:26316390:3:5:2.5:1" data-live="b6" class="koefs"><b>2.4</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316410, 6, 6);'><img id='i26316410' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Виктория Плзень - Рома<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063227,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737174' data-match-id='26737174' data-match-count='5' data-cont='5' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908506.1" data-select="577908506.1" data-v1="1.42" data-v2="1" data-v3="1" data-match="26737174" data-id="577908506.1" data-live="b6" class="koefs"><b>1.42</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908507.1" data-select="577908507.1" data-v1="2.99" data-v2="1" data-v3="1" data-match="26737174" data-id="577908507.1" data-live="b6" class="koefs"><b>2.99</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737176, 6, 6);'><img id='i26737176' src='/img/plus.jpg'></a></div>20.09.2016 06:40</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737176">Колорадо - Сент-Луис</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822836,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737176"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316410' data-match-id='26316410' data-match-count='6' data-cont='6' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871163.1" data-select="566871163.1" data-v1="4.11" data-v2="1" data-v3="1" data-match="26316410" data-id="566871163.1" data-live="b7" class="koefs"><b>4.11</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871164.1" data-select="566871164.1" data-v1="3.66" data-v2="1" data-v3="1" data-match="26316410" data-id="566871164.1" data-live="b7" class="koefs"><b>3.66</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871165.1" data-select="566871165.1" data-v1="1.9" data-v2="1" data-v3="1" data-match="26316410" data-id="566871165.1" data-live="b7" class="koefs"><b>1.9</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871166.1" data-select="566871166.1" data-v1="1.93" data-v2="1" data-v3="1" data-match="26316410" data-id="566871166.1" data-live="b7" class="koefs"><b>1.93</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871167.1" data-select="566871167.1" data-v1="1.29" data-v2="1" data-v3="1" data-match="26316410" data-id="566871167.1" data-live="b7" class="koefs"><b>1.29</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871168.1" data-select="566871168.1" data-v1="1.24" data-v2="1" data-v3="1" data-match="26316410" data-id="566871168.1" data-live="b7" class="koefs"><b>1.24</b></span>   &nbsp;</nobr> <nobr>Ф1(1) -&nbsp;&nbsp;<span id="koefs_567252973:26316410:2:4:1:1" data-select="26316410:2:4:1:1" data-v1="1" data-v2="1.5" data-v3="1" data-match="26316410" data-id="567252973:26316410:2:4:1:1" data-live="b7" class="koefs"><b>1.5</b></span>   &nbsp;</nobr> <nobr>Ф2(-1) -&nbsp;&nbsp;<span id="koefs_567252974:26316410:2:4:-1:2" data-select="26316410:2:4:-1:2" data-v1="-1" data-v2="2.58" data-v3="1" data-match="26316410" data-id="567252974:26316410:2:4:-1:2" data-live="b7" class="koefs"><b>2.58</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567252989:26316410:2:5:2.5:1" data-select="26316410:2:5:2.5:1" data-v1="2.5" data-v2="1.94" data-v3="1.86" data-match="26316410" data-id="567252989:26316410:2:5:2.5:1" data-live="b7" class="koefs"><b>1.94</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567252989:26316410:3:5:2.5:1" data-select="26316410:3:5:2.5:1" data-v1="2.5" data-v2="1.94" data-v3="1.86" data-match="26316410" data-id="567252989:26316410:3:5:2.5:1" data-live="b7" class="koefs"><b>1.86</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316412, 7, 7);'><img id='i26316412' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Майнц 05 - Сент-Этьен<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063217,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737176' data-match-id='26737176' data-match-count='6' data-cont='6' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908516.1" data-select="577908516.1" data-v1="1.95" data-v2="1" data-v3="1" data-match="26737176" data-id="577908516.1" data-live="b7" class="koefs"><b>1.95</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908517.1" data-select="577908517.1" data-v1="1.9" data-v2="1" data-v3="1" data-match="26737176" data-id="577908517.1" data-live="b7" class="koefs"><b>1.9</b></span>   &nbsp;</nobr> <nobr>Ф1(1.5) -&nbsp;&nbsp;<span id="koefs_577915583:26737176:2:4:1.5:1" data-select="26737176:2:4:1.5:1" data-v1="1.5" data-v2="1.58" data-v3="1" data-match="26737176" data-id="577915583:26737176:2:4:1.5:1" data-live="b7" class="koefs"><b>1.58</b></span>   &nbsp;</nobr> <nobr>Ф2(-1.5) -&nbsp;&nbsp;<span id="koefs_577915584:26737176:2:4:-1.5:2" data-select="26737176:2:4:-1.5:2" data-v1="-1.5" data-v2="2.29" data-v3="1" data-match="26737176" data-id="577915584:26737176:2:4:-1.5:2" data-live="b7" class="koefs"><b>2.29</b></span>   &nbsp;</nobr> <nobr>Тот(11.5) М -&nbsp;&nbsp;<span id="koefs_577915589:26737176:2:5:11.5:1" data-select="26737176:2:5:11.5:1" data-v1="11.5" data-v2="1.81" data-v3="1.93" data-match="26737176" data-id="577915589:26737176:2:5:11.5:1" data-live="b7" class="koefs"><b>1.81</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577915589:26737176:3:5:11.5:1" data-select="26737176:3:5:11.5:1" data-v1="11.5" data-v2="1.81" data-v3="1.93" data-match="26737176" data-id="577915589:26737176:3:5:11.5:1" data-live="b7" class="koefs"><b>1.93</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737177, 7, 7);'><img id='i26737177' src='/img/plus.jpg'></a></div>20.09.2016 08:05</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737177">Окленд - Хьюстон</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822840,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737177"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316412' data-match-id='26316412' data-match-count='7' data-cont='7' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871226.1" data-select="566871226.1" data-v1="2.12" data-v2="1" data-v3="1" data-match="26316412" data-id="566871226.1" data-live="b8" class="koefs"><b>2.12</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871227.1" data-select="566871227.1" data-v1="3.35" data-v2="1" data-v3="1" data-match="26316412" data-id="566871227.1" data-live="b8" class="koefs"><b>3.35</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871228.1" data-select="566871228.1" data-v1="3.68" data-v2="1" data-v3="1" data-match="26316412" data-id="566871228.1" data-live="b8" class="koefs"><b>3.68</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871229.1" data-select="566871229.1" data-v1="1.29" data-v2="1" data-v3="1" data-match="26316412" data-id="566871229.1" data-live="b8" class="koefs"><b>1.29</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871230.1" data-select="566871230.1" data-v1="1.34" data-v2="1" data-v3="1" data-match="26316412" data-id="566871230.1" data-live="b8" class="koefs"><b>1.34</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871231.1" data-select="566871231.1" data-v1="1.73" data-v2="1" data-v3="1" data-match="26316412" data-id="566871231.1" data-live="b8" class="koefs"><b>1.73</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567252687:26316412:2:4:-1:1" data-select="26316412:2:4:-1:1" data-v1="-1" data-v2="3.09" data-v3="1" data-match="26316412" data-id="567252687:26316412:2:4:-1:1" data-live="b8" class="koefs"><b>3.09</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567252688:26316412:2:4:1:2" data-select="26316412:2:4:1:2" data-v1="1" data-v2="1.36" data-v3="1" data-match="26316412" data-id="567252688:26316412:2:4:1:2" data-live="b8" class="koefs"><b>1.36</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567252703:26316412:2:5:2.5:1" data-select="26316412:2:5:2.5:1" data-v1="2.5" data-v2="1.71" data-v3="2.12" data-match="26316412" data-id="567252703:26316412:2:5:2.5:1" data-live="b8" class="koefs"><b>1.71</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567252703:26316412:3:5:2.5:1" data-select="26316412:3:5:2.5:1" data-v1="2.5" data-v2="1.71" data-v3="2.12" data-match="26316412" data-id="567252703:26316412:3:5:2.5:1" data-live="b8" class="koefs"><b>2.12</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316405, 8, 8);'><img id='i26316405' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Заря - Фенербахче<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063201,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737177' data-match-id='26737177' data-match-count='7' data-cont='7' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908518.1" data-select="577908518.1" data-v1="1.95" data-v2="1" data-v3="1" data-match="26737177" data-id="577908518.1" data-live="b8" class="koefs"><b>1.95</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908519.1" data-select="577908519.1" data-v1="1.9" data-v2="1" data-v3="1" data-match="26737177" data-id="577908519.1" data-live="b8" class="koefs"><b>1.9</b></span>   &nbsp;</nobr> <nobr>Ф1(1.5) -&nbsp;&nbsp;<span id="koefs_577924654:26737177:2:4:1.5:1" data-select="26737177:2:4:1.5:1" data-v1="1.5" data-v2="1.51" data-v3="1" data-match="26737177" data-id="577924654:26737177:2:4:1.5:1" data-live="b8" class="koefs"><b>1.51</b></span>   &nbsp;</nobr> <nobr>Ф2(-1.5) -&nbsp;&nbsp;<span id="koefs_577924655:26737177:2:4:-1.5:2" data-select="26737177:2:4:-1.5:2" data-v1="-1.5" data-v2="2.45" data-v3="1" data-match="26737177" data-id="577924655:26737177:2:4:-1.5:2" data-live="b8" class="koefs"><b>2.45</b></span>   &nbsp;</nobr> <nobr>Тот(8.5) М -&nbsp;&nbsp;<span id="koefs_577924660:26737177:2:5:8.5:1" data-select="26737177:2:5:8.5:1" data-v1="8.5" data-v2="1.79" data-v3="1.95" data-match="26737177" data-id="577924660:26737177:2:5:8.5:1" data-live="b8" class="koefs"><b>1.79</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577924660:26737177:3:5:8.5:1" data-select="26737177:3:5:8.5:1" data-v1="8.5" data-v2="1.79" data-v3="1.95" data-match="26737177" data-id="577924660:26737177:3:5:8.5:1" data-live="b8" class="koefs"><b>1.95</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737178, 8, 8);'><img id='i26737178' src='/img/plus.jpg'></a></div>20.09.2016 08:10</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737178">Л.А. Доджерс - Сан-Франциско</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822844,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737178"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316405' data-match-id='26316405' data-match-count='8' data-cont='8' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871065.1" data-select="566871065.1" data-v1="5.08" data-v2="1" data-v3="1" data-match="26316405" data-id="566871065.1" data-live="b9" class="koefs"><b>5.08</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871066.1" data-select="566871066.1" data-v1="3.95" data-v2="1" data-v3="1" data-match="26316405" data-id="566871066.1" data-live="b9" class="koefs"><b>3.95</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871067.1" data-select="566871067.1" data-v1="1.68" data-v2="1" data-v3="1" data-match="26316405" data-id="566871067.1" data-live="b9" class="koefs"><b>1.68</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871068.1" data-select="566871068.1" data-v1="2.21" data-v2="1" data-v3="1" data-match="26316405" data-id="566871068.1" data-live="b9" class="koefs"><b>2.21</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871069.1" data-select="566871069.1" data-v1="1.25" data-v2="1" data-v3="1" data-match="26316405" data-id="566871069.1" data-live="b9" class="koefs"><b>1.25</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871070.1" data-select="566871070.1" data-v1="1.18" data-v2="1" data-v3="1" data-match="26316405" data-id="566871070.1" data-live="b9" class="koefs"><b>1.18</b></span>   &nbsp;</nobr> <nobr>Ф1(1) -&nbsp;&nbsp;<span id="koefs_567254379:26316405:2:4:1:1" data-select="26316405:2:4:1:1" data-v1="1" data-v2="1.7" data-v3="1" data-match="26316405" data-id="567254379:26316405:2:4:1:1" data-live="b9" class="koefs"><b>1.7</b></span>   &nbsp;</nobr> <nobr>Ф2(-1) -&nbsp;&nbsp;<span id="koefs_567254380:26316405:2:4:-1:2" data-select="26316405:2:4:-1:2" data-v1="-1" data-v2="2.14" data-v3="1" data-match="26316405" data-id="567254380:26316405:2:4:-1:2" data-live="b9" class="koefs"><b>2.14</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567254395:26316405:2:5:2.5:1" data-select="26316405:2:5:2.5:1" data-v1="2.5" data-v2="1.99" data-v3="1.81" data-match="26316405" data-id="567254395:26316405:2:5:2.5:1" data-live="b9" class="koefs"><b>1.99</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567254395:26316405:3:5:2.5:1" data-select="26316405:3:5:2.5:1" data-v1="2.5" data-v2="1.99" data-v3="1.81" data-match="26316405" data-id="567254395:26316405:3:5:2.5:1" data-live="b9" class="koefs"><b>1.81</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316409, 9, 9);'><img id='i26316409' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Астра Джурджу - Аустрия Вена<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063229,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737178' data-match-id='26737178' data-match-count='8' data-cont='8' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908525.1" data-select="577908525.1" data-v1="1.57" data-v2="1" data-v3="1" data-match="26737178" data-id="577908525.1" data-live="b9" class="koefs"><b>1.57</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908526.1" data-select="577908526.1" data-v1="2.47" data-v2="1" data-v3="1" data-match="26737178" data-id="577908526.1" data-live="b9" class="koefs"><b>2.47</b></span>   &nbsp;</nobr> <nobr>Ф1(-1.5) -&nbsp;&nbsp;<span id="koefs_577924694:26737178:2:4:-1.5:1" data-select="26737178:2:4:-1.5:1" data-v1="-1.5" data-v2="2.35" data-v3="1" data-match="26737178" data-id="577924694:26737178:2:4:-1.5:1" data-live="b9" class="koefs"><b>2.35</b></span>   &nbsp;</nobr> <nobr>Ф2(1.5) -&nbsp;&nbsp;<span id="koefs_577924695:26737178:2:4:1.5:2" data-select="26737178:2:4:1.5:2" data-v1="1.5" data-v2="1.55" data-v3="1" data-match="26737178" data-id="577924695:26737178:2:4:1.5:2" data-live="b9" class="koefs"><b>1.55</b></span>   &nbsp;</nobr> <nobr>Тот(6.5) М -&nbsp;&nbsp;<span id="koefs_577924700:26737178:2:5:6.5:1" data-select="26737178:2:5:6.5:1" data-v1="6.5" data-v2="1.74" data-v3="2.02" data-match="26737178" data-id="577924700:26737178:2:5:6.5:1" data-live="b9" class="koefs"><b>1.74</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577924700:26737178:3:5:6.5:1" data-select="26737178:3:5:6.5:1" data-v1="6.5" data-v2="1.74" data-v3="2.02" data-match="26737178" data-id="577924700:26737178:3:5:6.5:1" data-live="b9" class="koefs"><b>2.02</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737180, 9, 9);'><img id='i26737180' src='/img/plus.jpg'></a></div>20.09.2016 08:10</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737180">Сан-Диего - Аризона</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822842,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737180"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316409' data-match-id='26316409' data-match-count='9' data-cont='9' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871130.1" data-select="566871130.1" data-v1="2.45" data-v2="1" data-v3="1" data-match="26316409" data-id="566871130.1" data-live="b10" class="koefs"><b>2.45</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871131.1" data-select="566871131.1" data-v1="3.31" data-v2="1" data-v3="1" data-match="26316409" data-id="566871131.1" data-live="b10" class="koefs"><b>3.31</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871133.1" data-select="566871133.1" data-v1="3.02" data-v2="1" data-v3="1" data-match="26316409" data-id="566871133.1" data-live="b10" class="koefs"><b>3.02</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871134.1" data-select="566871134.1" data-v1="1.4" data-v2="1" data-v3="1" data-match="26316409" data-id="566871134.1" data-live="b10" class="koefs"><b>1.4</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871135.1" data-select="566871135.1" data-v1="1.34" data-v2="1" data-v3="1" data-match="26316409" data-id="566871135.1" data-live="b10" class="koefs"><b>1.34</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871136.1" data-select="566871136.1" data-v1="1.57" data-v2="1" data-v3="1" data-match="26316409" data-id="566871136.1" data-live="b10" class="koefs"><b>1.57</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567250230:26316409:2:4:-1:1" data-select="26316409:2:4:-1:1" data-v1="-1" data-v2="3.78" data-v3="1" data-match="26316409" data-id="567250230:26316409:2:4:-1:1" data-live="b10" class="koefs"><b>3.78</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567250231:26316409:2:4:1:2" data-select="26316409:2:4:1:2" data-v1="1" data-v2="1.26" data-v3="1" data-match="26316409" data-id="567250231:26316409:2:4:1:2" data-live="b10" class="koefs"><b>1.26</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567250246:26316409:2:5:2.5:1" data-select="26316409:2:5:2.5:1" data-v1="2.5" data-v2="1.79" data-v3="2.01" data-match="26316409" data-id="567250246:26316409:2:5:2.5:1" data-live="b10" class="koefs"><b>1.79</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567250246:26316409:3:5:2.5:1" data-select="26316409:3:5:2.5:1" data-v1="2.5" data-v2="1.79" data-v3="2.01" data-match="26316409" data-id="567250246:26316409:3:5:2.5:1" data-live="b10" class="koefs"><b>2.01</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316406, 10, 10);'><img id='i26316406' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Фейеноорд - Манчестер Юн<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063199,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
+<tr><td colspan=2><div class=tab id='odd26737180' data-match-id='26737180' data-match-count='9' data-cont='9' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908555.1" data-select="577908555.1" data-v1="1.85" data-v2="1" data-v3="1" data-match="26737180" data-id="577908555.1" data-live="b10" class="koefs"><b>1.85</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908557.1" data-select="577908557.1" data-v1="2" data-v2="1" data-v3="1" data-match="26737180" data-id="577908557.1" data-live="b10" class="koefs"><b>2</b></span>   &nbsp;</nobr> <nobr>Ф1(1.5) -&nbsp;&nbsp;<span id="koefs_577924674:26737180:2:4:1.5:1" data-select="26737180:2:4:1.5:1" data-v1="1.5" data-v2="1.48" data-v3="1" data-match="26737180" data-id="577924674:26737180:2:4:1.5:1" data-live="b10" class="koefs"><b>1.48</b></span>   &nbsp;</nobr> <nobr>Ф2(-1.5) -&nbsp;&nbsp;<span id="koefs_577924675:26737180:2:4:-1.5:2" data-select="26737180:2:4:-1.5:2" data-v1="-1.5" data-v2="2.53" data-v3="1" data-match="26737180" data-id="577924675:26737180:2:4:-1.5:2" data-live="b10" class="koefs"><b>2.53</b></span>   &nbsp;</nobr> <nobr>Тот(8.5) М -&nbsp;&nbsp;<span id="koefs_577924680:26737180:2:5:8.5:1" data-select="26737180:2:5:8.5:1" data-v1="8.5" data-v2="1.87" data-v3="1.86" data-match="26737180" data-id="577924680:26737180:2:5:8.5:1" data-live="b10" class="koefs"><b>1.87</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577924680:26737180:3:5:8.5:1" data-select="26737180:3:5:8.5:1" data-v1="8.5" data-v2="1.87" data-v3="1.86" data-match="26737180" data-id="577924680:26737180:3:5:8.5:1" data-live="b10" class="koefs"><b>1.86</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26737179, 10, 10);'><img id='i26737179' src='/img/plus.jpg'></a></div>20.09.2016 08:10</td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26737179">Сиэтл - Торонто</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(8822846,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26737179"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26316406' data-match-id='26316406' data-match-count='10' data-cont='10' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871071.1" data-select="566871071.1" data-v1="5.66" data-v2="1" data-v3="1" data-match="26316406" data-id="566871071.1" data-live="b11" class="koefs"><b>5.66</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871072.1" data-select="566871072.1" data-v1="4.3" data-v2="1" data-v3="1" data-match="26316406" data-id="566871072.1" data-live="b11" class="koefs"><b>4.3</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871073.1" data-select="566871073.1" data-v1="1.59" data-v2="1" data-v3="1" data-match="26316406" data-id="566871073.1" data-live="b11" class="koefs"><b>1.59</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871074.1" data-select="566871074.1" data-v1="2.41" data-v2="1" data-v3="1" data-match="26316406" data-id="566871074.1" data-live="b11" class="koefs"><b>2.41</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871075.1" data-select="566871075.1" data-v1="1.23" data-v2="1" data-v3="1" data-match="26316406" data-id="566871075.1" data-live="b11" class="koefs"><b>1.23</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871076.1" data-select="566871076.1" data-v1="1.15" data-v2="1" data-v3="1" data-match="26316406" data-id="566871076.1" data-live="b11" class="koefs"><b>1.15</b></span>   &nbsp;</nobr> <nobr>Ф1(1) -&nbsp;&nbsp;<span id="koefs_567252488:26316406:2:4:1:1" data-select="26316406:2:4:1:1" data-v1="1" data-v2="1.88" data-v3="1" data-match="26316406" data-id="567252488:26316406:2:4:1:1" data-live="b11" class="koefs"><b>1.88</b></span>   &nbsp;</nobr> <nobr>Ф2(-1) -&nbsp;&nbsp;<span id="koefs_567252489:26316406:2:4:-1:2" data-select="26316406:2:4:-1:2" data-v1="-1" data-v2="1.92" data-v3="1" data-match="26316406" data-id="567252489:26316406:2:4:-1:2" data-live="b11" class="koefs"><b>1.92</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567252506:26316406:2:5:2.5:1" data-select="26316406:2:5:2.5:1" data-v1="2.5" data-v2="2.15" data-v3="1.68" data-match="26316406" data-id="567252506:26316406:2:5:2.5:1" data-live="b11" class="koefs"><b>2.15</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567252506:26316406:3:5:2.5:1" data-select="26316406:3:5:2.5:1" data-v1="2.5" data-v2="2.15" data-v3="1.68" data-match="26316406" data-id="567252506:26316406:3:5:2.5:1" data-live="b11" class="koefs"><b>1.68</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316413, 11, 11);'><img id='i26316413' src='/img/plus.jpg'></a></div>15.09.2016 23:00</td>
-<td width='80%'><font class=m><b>Андерлехт - Габала<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063219,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316413' data-match-id='26316413' data-match-count='11' data-cont='11' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871262.1" data-select="566871262.1" data-v1="1.42" data-v2="1" data-v3="1" data-match="26316413" data-id="566871262.1" data-live="b12" class="koefs"><b>1.42</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871263.1" data-select="566871263.1" data-v1="4.69" data-v2="1" data-v3="1" data-match="26316413" data-id="566871263.1" data-live="b12" class="koefs"><b>4.69</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871264.1" data-select="566871264.1" data-v1="7.75" data-v2="1" data-v3="1" data-match="26316413" data-id="566871264.1" data-live="b12" class="koefs"><b>7.75</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871265.1" data-select="566871265.1" data-v1="1.09" data-v2="1" data-v3="1" data-match="26316413" data-id="566871265.1" data-live="b12" class="koefs"><b>1.09</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871266.1" data-select="566871266.1" data-v1="1.2" data-v2="1" data-v3="1" data-match="26316413" data-id="566871266.1" data-live="b12" class="koefs"><b>1.2</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871267.1" data-select="566871267.1" data-v1="2.92" data-v2="1" data-v3="1" data-match="26316413" data-id="566871267.1" data-live="b12" class="koefs"><b>2.92</b></span>   &nbsp;</nobr> <nobr>Ф1(-1.5) -&nbsp;&nbsp;<span id="koefs_567254877:26316413:2:4:-1.5:1" data-select="26316413:2:4:-1.5:1" data-v1="-1.5" data-v2="2.16" data-v3="1" data-match="26316413" data-id="567254877:26316413:2:4:-1.5:1" data-live="b12" class="koefs"><b>2.16</b></span>   &nbsp;</nobr> <nobr>Ф2(1.5) -&nbsp;&nbsp;<span id="koefs_567254878:26316413:2:4:1.5:2" data-select="26316413:2:4:1.5:2" data-v1="1.5" data-v2="1.69" data-v3="1" data-match="26316413" data-id="567254878:26316413:2:4:1.5:2" data-live="b12" class="koefs"><b>1.69</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567254895:26316413:2:5:2.5:1" data-select="26316413:2:5:2.5:1" data-v1="2.5" data-v2="2.01" data-v3="1.79" data-match="26316413" data-id="567254895:26316413:2:5:2.5:1" data-live="b12" class="koefs"><b>2.01</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567254895:26316413:3:5:2.5:1" data-select="26316413:3:5:2.5:1" data-v1="2.5" data-v2="2.01" data-v3="1.79" data-match="26316413" data-id="567254895:26316413:3:5:2.5:1" data-live="b12" class="koefs"><b>1.79</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316403, 12, 12);'><img id='i26316403' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Вильярреал - Цюрих<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063263,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316403' data-match-id='26316403' data-match-count='12' data-cont='12' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871032.1" data-select="566871032.1" data-v1="1.17" data-v2="1" data-v3="1" data-match="26316403" data-id="566871032.1" data-live="b13" class="koefs"><b>1.17</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871033.1" data-select="566871033.1" data-v1="7.5" data-v2="1" data-v3="1" data-match="26316403" data-id="566871033.1" data-live="b13" class="koefs"><b>7.5</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871034.1" data-select="566871034.1" data-v1="17.75" data-v2="1" data-v3="1" data-match="26316403" data-id="566871034.1" data-live="b13" class="koefs"><b>17.75</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871036.1" data-select="566871036.1" data-v1="1.09" data-v2="1" data-v3="1" data-match="26316403" data-id="566871036.1" data-live="b13" class="koefs"><b>1.09</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871037.1" data-select="566871037.1" data-v1="5.24" data-v2="1" data-v3="1" data-match="26316403" data-id="566871037.1" data-live="b13" class="koefs"><b>5.24</b></span>   &nbsp;</nobr> <nobr>Ф1(-2) -&nbsp;&nbsp;<span id="koefs_567250763:26316403:2:4:-2:1" data-select="26316403:2:4:-2:1" data-v1="-2" data-v2="1.81" data-v3="1" data-match="26316403" data-id="567250763:26316403:2:4:-2:1" data-live="b13" class="koefs"><b>1.81</b></span>   &nbsp;</nobr> <nobr>Ф2(2) -&nbsp;&nbsp;<span id="koefs_567250765:26316403:2:4:2:2" data-select="26316403:2:4:2:2" data-v1="2" data-v2="1.99" data-v3="1" data-match="26316403" data-id="567250765:26316403:2:4:2:2" data-live="b13" class="koefs"><b>1.99</b></span>   &nbsp;</nobr> <nobr>Тот(3.5) М -&nbsp;&nbsp;<span id="koefs_567250784:26316403:2:5:3.5:1" data-select="26316403:2:5:3.5:1" data-v1="3.5" data-v2="1.64" data-v3="2.23" data-match="26316403" data-id="567250784:26316403:2:5:3.5:1" data-live="b13" class="koefs"><b>1.64</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567250784:26316403:3:5:3.5:1" data-select="26316403:3:5:3.5:1" data-v1="3.5" data-v2="1.64" data-v3="2.23" data-match="26316403" data-id="567250784:26316403:3:5:3.5:1" data-live="b13" class="koefs"><b>2.23</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316402, 13, 13);'><img id='i26316402' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Интер М - Хапоэль Беер Шева<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063257,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316402' data-match-id='26316402' data-match-count='13' data-cont='13' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871026.1" data-select="566871026.1" data-v1="1.32" data-v2="1" data-v3="1" data-match="26316402" data-id="566871026.1" data-live="b14" class="koefs"><b>1.32</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871027.1" data-select="566871027.1" data-v1="5.66" data-v2="1" data-v3="1" data-match="26316402" data-id="566871027.1" data-live="b14" class="koefs"><b>5.66</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871028.1" data-select="566871028.1" data-v1="9.5" data-v2="1" data-v3="1" data-match="26316402" data-id="566871028.1" data-live="b14" class="koefs"><b>9.5</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871029.1" data-select="566871029.1" data-v1="1.06" data-v2="1" data-v3="1" data-match="26316402" data-id="566871029.1" data-live="b14" class="koefs"><b>1.06</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871030.1" data-select="566871030.1" data-v1="1.15" data-v2="1" data-v3="1" data-match="26316402" data-id="566871030.1" data-live="b14" class="koefs"><b>1.15</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871031.1" data-select="566871031.1" data-v1="3.5" data-v2="1" data-v3="1" data-match="26316402" data-id="566871031.1" data-live="b14" class="koefs"><b>3.5</b></span>   &nbsp;</nobr> <nobr>Ф1(-1.5) -&nbsp;&nbsp;<span id="koefs_567250535:26316402:2:4:-1.5:1" data-select="26316402:2:4:-1.5:1" data-v1="-1.5" data-v2="1.85" data-v3="1" data-match="26316402" data-id="567250535:26316402:2:4:-1.5:1" data-live="b14" class="koefs"><b>1.85</b></span>   &nbsp;</nobr> <nobr>Ф2(1.5) -&nbsp;&nbsp;<span id="koefs_567250536:26316402:2:4:1.5:2" data-select="26316402:2:4:1.5:2" data-v1="1.5" data-v2="1.95" data-v3="1" data-match="26316402" data-id="567250536:26316402:2:4:1.5:2" data-live="b14" class="koefs"><b>1.95</b></span>   &nbsp;</nobr> <nobr>Тот(3.5) М -&nbsp;&nbsp;<span id="koefs_567250555:26316402:2:5:3.5:1" data-select="26316402:2:5:3.5:1" data-v1="3.5" data-v2="1.58" data-v3="2.34" data-match="26316402" data-id="567250555:26316402:2:5:3.5:1" data-live="b14" class="koefs"><b>1.58</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567250555:26316402:3:5:3.5:1" data-select="26316402:3:5:3.5:1" data-v1="3.5" data-v2="1.58" data-v3="2.34" data-match="26316402" data-id="567250555:26316402:3:5:3.5:1" data-live="b14" class="koefs"><b>2.34</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316398, 14, 14);'><img id='i26316398' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Ницца - Шальке 04<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063245,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316398' data-match-id='26316398' data-match-count='14' data-cont='14' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870995.1" data-select="566870995.1" data-v1="2.64" data-v2="1" data-v3="1" data-match="26316398" data-id="566870995.1" data-live="b15" class="koefs"><b>2.64</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870996.1" data-select="566870996.1" data-v1="3.24" data-v2="1" data-v3="1" data-match="26316398" data-id="566870996.1" data-live="b15" class="koefs"><b>3.24</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870997.1" data-select="566870997.1" data-v1="2.81" data-v2="1" data-v3="1" data-match="26316398" data-id="566870997.1" data-live="b15" class="koefs"><b>2.81</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870998.1" data-select="566870998.1" data-v1="1.44" data-v2="1" data-v3="1" data-match="26316398" data-id="566870998.1" data-live="b15" class="koefs"><b>1.44</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870999.1" data-select="566870999.1" data-v1="1.35" data-v2="1" data-v3="1" data-match="26316398" data-id="566870999.1" data-live="b15" class="koefs"><b>1.35</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871000.1" data-select="566871000.1" data-v1="1.49" data-v2="1" data-v3="1" data-match="26316398" data-id="566871000.1" data-live="b15" class="koefs"><b>1.49</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567260025:26316398:2:4:-1:1" data-select="26316398:2:4:-1:1" data-v1="-1" data-v2="4.34" data-v3="1" data-match="26316398" data-id="567260025:26316398:2:4:-1:1" data-live="b15" class="koefs"><b>4.34</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567260026:26316398:2:4:1:2" data-select="26316398:2:4:1:2" data-v1="1" data-v2="1.21" data-v3="1" data-match="26316398" data-id="567260026:26316398:2:4:1:2" data-live="b15" class="koefs"><b>1.21</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567260037:26316398:2:5:2.5:1" data-select="26316398:2:5:2.5:1" data-v1="2.5" data-v2="1.68" data-v3="2.17" data-match="26316398" data-id="567260037:26316398:2:5:2.5:1" data-live="b15" class="koefs"><b>1.68</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567260037:26316398:3:5:2.5:1" data-select="26316398:3:5:2.5:1" data-v1="2.5" data-v2="1.68" data-v3="2.17" data-match="26316398" data-id="567260037:26316398:3:5:2.5:1" data-live="b15" class="koefs"><b>2.17</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316395, 15, 15);'><img id='i26316395' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Коньяспор - Шахтер Дн<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063239,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316395' data-match-id='26316395' data-match-count='15' data-cont='15' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870943.1" data-select="566870943.1" data-v1="3.75" data-v2="1" data-v3="1" data-match="26316395" data-id="566870943.1" data-live="b16" class="koefs"><b>3.75</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870944.1" data-select="566870944.1" data-v1="3.58" data-v2="1" data-v3="1" data-match="26316395" data-id="566870944.1" data-live="b16" class="koefs"><b>3.58</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870945.1" data-select="566870945.1" data-v1="2.02" data-v2="1" data-v3="1" data-match="26316395" data-id="566870945.1" data-live="b16" class="koefs"><b>2.02</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870946.1" data-select="566870946.1" data-v1="1.82" data-v2="1" data-v3="1" data-match="26316395" data-id="566870946.1" data-live="b16" class="koefs"><b>1.82</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870947.1" data-select="566870947.1" data-v1="1.3" data-v2="1" data-v3="1" data-match="26316395" data-id="566870947.1" data-live="b16" class="koefs"><b>1.3</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566870948.1" data-select="566870948.1" data-v1="1.28" data-v2="1" data-v3="1" data-match="26316395" data-id="566870948.1" data-live="b16" class="koefs"><b>1.28</b></span>   &nbsp;</nobr> <nobr>Ф1(1) -&nbsp;&nbsp;<span id="koefs_567277568:26316395:2:4:1:1" data-select="26316395:2:4:1:1" data-v1="1" data-v2="1.43" data-v3="1" data-match="26316395" data-id="567277568:26316395:2:4:1:1" data-live="b16" class="koefs"><b>1.43</b></span>   &nbsp;</nobr> <nobr>Ф2(-1) -&nbsp;&nbsp;<span id="koefs_567277569:26316395:2:4:-1:2" data-select="26316395:2:4:-1:2" data-v1="-1" data-v2="2.77" data-v3="1" data-match="26316395" data-id="567277569:26316395:2:4:-1:2" data-live="b16" class="koefs"><b>2.77</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567277584:26316395:2:5:2.5:1" data-select="26316395:2:5:2.5:1" data-v1="2.5" data-v2="2" data-v3="1.8" data-match="26316395" data-id="567277584:26316395:2:5:2.5:1" data-live="b16" class="koefs"><b>2</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567277584:26316395:3:5:2.5:1" data-select="26316395:3:5:2.5:1" data-v1="2.5" data-v2="2" data-v3="1.8" data-match="26316395" data-id="567277584:26316395:3:5:2.5:1" data-live="b16" class="koefs"><b>1.8</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316401, 16, 16);'><img id='i26316401' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Саутгемптон - Спарта Прага<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063259,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316401' data-match-id='26316401' data-match-count='16' data-cont='16' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871013.1" data-select="566871013.1" data-v1="1.56" data-v2="1" data-v3="1" data-match="26316401" data-id="566871013.1" data-live="b17" class="koefs"><b>1.56</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871014.1" data-select="566871014.1" data-v1="4.16" data-v2="1" data-v3="1" data-match="26316401" data-id="566871014.1" data-live="b17" class="koefs"><b>4.16</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871015.1" data-select="566871015.1" data-v1="6.33" data-v2="1" data-v3="1" data-match="26316401" data-id="566871015.1" data-live="b17" class="koefs"><b>6.33</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871016.1" data-select="566871016.1" data-v1="1.12" data-v2="1" data-v3="1" data-match="26316401" data-id="566871016.1" data-live="b17" class="koefs"><b>1.12</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871017.1" data-select="566871017.1" data-v1="1.24" data-v2="1" data-v3="1" data-match="26316401" data-id="566871017.1" data-live="b17" class="koefs"><b>1.24</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871018.1" data-select="566871018.1" data-v1="2.49" data-v2="1" data-v3="1" data-match="26316401" data-id="566871018.1" data-live="b17" class="koefs"><b>2.49</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567253796:26316401:2:4:-1:1" data-select="26316401:2:4:-1:1" data-v1="-1" data-v2="1.9" data-v3="1" data-match="26316401" data-id="567253796:26316401:2:4:-1:1" data-live="b17" class="koefs"><b>1.9</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567253797:26316401:2:4:1:2" data-select="26316401:2:4:1:2" data-v1="1" data-v2="1.9" data-v3="1" data-match="26316401" data-id="567253797:26316401:2:4:1:2" data-live="b17" class="koefs"><b>1.9</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567253812:26316401:2:5:2.5:1" data-select="26316401:2:5:2.5:1" data-v1="2.5" data-v2="1.88" data-v3="1.92" data-match="26316401" data-id="567253812:26316401:2:5:2.5:1" data-live="b17" class="koefs"><b>1.88</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567253812:26316401:3:5:2.5:1" data-select="26316401:3:5:2.5:1" data-v1="2.5" data-v2="1.88" data-v3="1.92" data-match="26316401" data-id="567253812:26316401:3:5:2.5:1" data-live="b17" class="koefs"><b>1.92</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316394, 17, 17);'><img id='i26316394' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Панатинаикос - Аякс<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063237,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316394' data-match-id='26316394' data-match-count='17' data-cont='17' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870937.1" data-select="566870937.1" data-v1="2.68" data-v2="1" data-v3="1" data-match="26316394" data-id="566870937.1" data-live="b18" class="koefs"><b>2.68</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870938.1" data-select="566870938.1" data-v1="3.22" data-v2="1" data-v3="1" data-match="26316394" data-id="566870938.1" data-live="b18" class="koefs"><b>3.22</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870939.1" data-select="566870939.1" data-v1="2.79" data-v2="1" data-v3="1" data-match="26316394" data-id="566870939.1" data-live="b18" class="koefs"><b>2.79</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870940.1" data-select="566870940.1" data-v1="1.45" data-v2="1" data-v3="1" data-match="26316394" data-id="566870940.1" data-live="b18" class="koefs"><b>1.45</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870941.1" data-select="566870941.1" data-v1="1.36" data-v2="1" data-v3="1" data-match="26316394" data-id="566870941.1" data-live="b18" class="koefs"><b>1.36</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566870942.1" data-select="566870942.1" data-v1="1.48" data-v2="1" data-v3="1" data-match="26316394" data-id="566870942.1" data-live="b18" class="koefs"><b>1.48</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567259422:26316394:2:4:-1:1" data-select="26316394:2:4:-1:1" data-v1="-1" data-v2="4.45" data-v3="1" data-match="26316394" data-id="567259422:26316394:2:4:-1:1" data-live="b18" class="koefs"><b>4.45</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567259423:26316394:2:4:1:2" data-select="26316394:2:4:1:2" data-v1="1" data-v2="1.2" data-v3="1" data-match="26316394" data-id="567259423:26316394:2:4:1:2" data-live="b18" class="koefs"><b>1.2</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567259438:26316394:2:5:2.5:1" data-select="26316394:2:5:2.5:1" data-v1="2.5" data-v2="1.68" data-v3="2.17" data-match="26316394" data-id="567259438:26316394:2:5:2.5:1" data-live="b18" class="koefs"><b>1.68</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567259438:26316394:3:5:2.5:1" data-select="26316394:3:5:2.5:1" data-v1="2.5" data-v2="1.68" data-v3="2.17" data-match="26316394" data-id="567259438:26316394:3:5:2.5:1" data-live="b18" class="koefs"><b>2.17</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316400, 18, 18);'><img id='i26316400' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>ПАОК - Фиорентина<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063255,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316400' data-match-id='26316400' data-match-count='18' data-cont='18' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871007.1" data-select="566871007.1" data-v1="2.58" data-v2="1" data-v3="1" data-match="26316400" data-id="566871007.1" data-live="b19" class="koefs"><b>2.58</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871008.1" data-select="566871008.1" data-v1="3.18" data-v2="1" data-v3="1" data-match="26316400" data-id="566871008.1" data-live="b19" class="koefs"><b>3.18</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871009.1" data-select="566871009.1" data-v1="2.93" data-v2="1" data-v3="1" data-match="26316400" data-id="566871009.1" data-live="b19" class="koefs"><b>2.93</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871010.1" data-select="566871010.1" data-v1="1.41" data-v2="1" data-v3="1" data-match="26316400" data-id="566871010.1" data-live="b19" class="koefs"><b>1.41</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871011.1" data-select="566871011.1" data-v1="1.36" data-v2="1" data-v3="1" data-match="26316400" data-id="566871011.1" data-live="b19" class="koefs"><b>1.36</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871012.1" data-select="566871012.1" data-v1="1.51" data-v2="1" data-v3="1" data-match="26316400" data-id="566871012.1" data-live="b19" class="koefs"><b>1.51</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567260501:26316400:2:4:-1:1" data-select="26316400:2:4:-1:1" data-v1="-1" data-v2="4.22" data-v3="1" data-match="26316400" data-id="567260501:26316400:2:4:-1:1" data-live="b19" class="koefs"><b>4.22</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567260502:26316400:2:4:1:2" data-select="26316400:2:4:1:2" data-v1="1" data-v2="1.21" data-v3="1" data-match="26316400" data-id="567260502:26316400:2:4:1:2" data-live="b19" class="koefs"><b>1.21</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567260515:26316400:2:5:2.5:1" data-select="26316400:2:5:2.5:1" data-v1="2.5" data-v2="1.62" data-v3="2.25" data-match="26316400" data-id="567260515:26316400:2:5:2.5:1" data-live="b19" class="koefs"><b>1.62</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567260515:26316400:3:5:2.5:1" data-select="26316400:3:5:2.5:1" data-v1="2.5" data-v2="1.62" data-v3="2.25" data-match="26316400" data-id="567260515:26316400:3:5:2.5:1" data-live="b19" class="koefs"><b>2.25</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316396, 19, 19);'><img id='i26316396' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Брага - Гент<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063241,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316396' data-match-id='26316396' data-match-count='19' data-cont='19' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870960.1" data-select="566870960.1" data-v1="2.1" data-v2="1" data-v3="1" data-match="26316396" data-id="566870960.1" data-live="b20" class="koefs"><b>2.1</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870961.1" data-select="566870961.1" data-v1="3.47" data-v2="1" data-v3="1" data-match="26316396" data-id="566870961.1" data-live="b20" class="koefs"><b>3.47</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870962.1" data-select="566870962.1" data-v1="3.62" data-v2="1" data-v3="1" data-match="26316396" data-id="566870962.1" data-live="b20" class="koefs"><b>3.62</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870963.1" data-select="566870963.1" data-v1="1.3" data-v2="1" data-v3="1" data-match="26316396" data-id="566870963.1" data-live="b20" class="koefs"><b>1.3</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870964.1" data-select="566870964.1" data-v1="1.32" data-v2="1" data-v3="1" data-match="26316396" data-id="566870964.1" data-live="b20" class="koefs"><b>1.32</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566870965.1" data-select="566870965.1" data-v1="1.75" data-v2="1" data-v3="1" data-match="26316396" data-id="566870965.1" data-live="b20" class="koefs"><b>1.75</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567253581:26316396:2:4:-1:1" data-select="26316396:2:4:-1:1" data-v1="-1" data-v2="2.98" data-v3="1" data-match="26316396" data-id="567253581:26316396:2:4:-1:1" data-live="b20" class="koefs"><b>2.98</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567253582:26316396:2:4:1:2" data-select="26316396:2:4:1:2" data-v1="1" data-v2="1.38" data-v3="1" data-match="26316396" data-id="567253582:26316396:2:4:1:2" data-live="b20" class="koefs"><b>1.38</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567253600:26316396:2:5:2.5:1" data-select="26316396:2:5:2.5:1" data-v1="2.5" data-v2="1.89" data-v3="1.91" data-match="26316396" data-id="567253600:26316396:2:5:2.5:1" data-live="b20" class="koefs"><b>1.89</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567253600:26316396:3:5:2.5:1" data-select="26316396:3:5:2.5:1" data-v1="2.5" data-v2="1.89" data-v3="1.91" data-match="26316396" data-id="567253600:26316396:3:5:2.5:1" data-live="b20" class="koefs"><b>1.91</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316397, 20, 20);'><img id='i26316397' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Зальцбург - ФК Краснодар<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063243,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316397' data-match-id='26316397' data-match-count='20' data-cont='20' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870967.1" data-select="566870967.1" data-v1="2.47" data-v2="1" data-v3="1" data-match="26316397" data-id="566870967.1" data-live="b21" class="koefs"><b>2.47</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870969.1" data-select="566870969.1" data-v1="3.39" data-v2="1" data-v3="1" data-match="26316397" data-id="566870969.1" data-live="b21" class="koefs"><b>3.39</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870970.1" data-select="566870970.1" data-v1="2.93" data-v2="1" data-v3="1" data-match="26316397" data-id="566870970.1" data-live="b21" class="koefs"><b>2.93</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870971.1" data-select="566870971.1" data-v1="1.42" data-v2="1" data-v3="1" data-match="26316397" data-id="566870971.1" data-live="b21" class="koefs"><b>1.42</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870973.1" data-select="566870973.1" data-v1="1.33" data-v2="1" data-v3="1" data-match="26316397" data-id="566870973.1" data-live="b21" class="koefs"><b>1.33</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566870974.1" data-select="566870974.1" data-v1="1.56" data-v2="1" data-v3="1" data-match="26316397" data-id="566870974.1" data-live="b21" class="koefs"><b>1.56</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567260245:26316397:2:4:-1:1" data-select="26316397:2:4:-1:1" data-v1="-1" data-v2="3.79" data-v3="1" data-match="26316397" data-id="567260245:26316397:2:4:-1:1" data-live="b21" class="koefs"><b>3.79</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567260246:26316397:2:4:1:2" data-select="26316397:2:4:1:2" data-v1="1" data-v2="1.26" data-v3="1" data-match="26316397" data-id="567260246:26316397:2:4:1:2" data-live="b21" class="koefs"><b>1.26</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567260261:26316397:2:5:2.5:1" data-select="26316397:2:5:2.5:1" data-v1="2.5" data-v2="1.89" data-v3="1.91" data-match="26316397" data-id="567260261:26316397:2:5:2.5:1" data-live="b21" class="koefs"><b>1.89</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567260261:26316397:3:5:2.5:1" data-select="26316397:3:5:2.5:1" data-v1="2.5" data-v2="1.89" data-v3="1.91" data-match="26316397" data-id="567260261:26316397:3:5:2.5:1" data-live="b21" class="koefs"><b>1.91</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316399, 21, 21);'><img id='i26316399' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Карабах - Слован Либерец<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063253,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316399' data-match-id='26316399' data-match-count='21' data-cont='21' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871001.1" data-select="566871001.1" data-v1="1.87" data-v2="1" data-v3="1" data-match="26316399" data-id="566871001.1" data-live="b22" class="koefs"><b>1.87</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871002.1" data-select="566871002.1" data-v1="3.41" data-v2="1" data-v3="1" data-match="26316399" data-id="566871002.1" data-live="b22" class="koefs"><b>3.41</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871003.1" data-select="566871003.1" data-v1="4.7" data-v2="1" data-v3="1" data-match="26316399" data-id="566871003.1" data-live="b22" class="koefs"><b>4.7</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871004.1" data-select="566871004.1" data-v1="1.2" data-v2="1" data-v3="1" data-match="26316399" data-id="566871004.1" data-live="b22" class="koefs"><b>1.2</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871005.1" data-select="566871005.1" data-v1="1.33" data-v2="1" data-v3="1" data-match="26316399" data-id="566871005.1" data-live="b22" class="koefs"><b>1.33</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871006.1" data-select="566871006.1" data-v1="1.96" data-v2="1" data-v3="1" data-match="26316399" data-id="566871006.1" data-live="b22" class="koefs"><b>1.96</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316393, 22, 22);'><img id='i26316393' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Стандард Льеж - Сельта<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063235,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316393' data-match-id='26316393' data-match-count='22' data-cont='22' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566870881.1" data-select="566870881.1" data-v1="3.29" data-v2="1" data-v3="1" data-match="26316393" data-id="566870881.1" data-live="b23" class="koefs"><b>3.29</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566870882.1" data-select="566870882.1" data-v1="3.18" data-v2="1" data-v3="1" data-match="26316393" data-id="566870882.1" data-live="b23" class="koefs"><b>3.18</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566870883.1" data-select="566870883.1" data-v1="2.37" data-v2="1" data-v3="1" data-match="26316393" data-id="566870883.1" data-live="b23" class="koefs"><b>2.37</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566870884.1" data-select="566870884.1" data-v1="1.6" data-v2="1" data-v3="1" data-match="26316393" data-id="566870884.1" data-live="b23" class="koefs"><b>1.6</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566870885.1" data-select="566870885.1" data-v1="1.37" data-v2="1" data-v3="1" data-match="26316393" data-id="566870885.1" data-live="b23" class="koefs"><b>1.37</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566870886.1" data-select="566870886.1" data-v1="1.35" data-v2="1" data-v3="1" data-match="26316393" data-id="566870886.1" data-live="b23" class="koefs"><b>1.35</b></span>   &nbsp;</nobr> <nobr>Ф1(1) -&nbsp;&nbsp;<span id="koefs_567259734:26316393:2:4:1:1" data-select="26316393:2:4:1:1" data-v1="1" data-v2="1.26" data-v3="1" data-match="26316393" data-id="567259734:26316393:2:4:1:1" data-live="b23" class="koefs"><b>1.26</b></span>   &nbsp;</nobr> <nobr>Ф2(-1) -&nbsp;&nbsp;<span id="koefs_567259735:26316393:2:4:-1:2" data-select="26316393:2:4:-1:2" data-v1="-1" data-v2="3.76" data-v3="1" data-match="26316393" data-id="567259735:26316393:2:4:-1:2" data-live="b23" class="koefs"><b>3.76</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567259750:26316393:2:5:2.5:1" data-select="26316393:2:5:2.5:1" data-v1="2.5" data-v2="1.57" data-v3="2.35" data-match="26316393" data-id="567259750:26316393:2:5:2.5:1" data-live="b23" class="koefs"><b>1.57</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567259750:26316393:3:5:2.5:1" data-select="26316393:3:5:2.5:1" data-v1="2.5" data-v2="1.57" data-v3="2.35" data-match="26316393" data-id="567259750:26316393:3:5:2.5:1" data-live="b23" class="koefs"><b>2.35</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26316404, 23, 23);'><img id='i26316404' src='/img/plus.jpg'></a></div>16.09.2016 01:05</td>
-<td width='80%'><font class=m><b>Османлыспор - Стяуа<div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10063261,0, false, "ru");'><img src='/img/mt.png'></a></div></b></font></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd26316404' data-match-id='26316404' data-match-count='23' data-cont='23' data-champ='14776'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_566871046.1" data-select="566871046.1" data-v1="2.04" data-v2="1" data-v3="1" data-match="26316404" data-id="566871046.1" data-live="b24" class="koefs"><b>2.04</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_566871047.1" data-select="566871047.1" data-v1="3.37" data-v2="1" data-v3="1" data-match="26316404" data-id="566871047.1" data-live="b24" class="koefs"><b>3.37</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_566871048.1" data-select="566871048.1" data-v1="3.93" data-v2="1" data-v3="1" data-match="26316404" data-id="566871048.1" data-live="b24" class="koefs"><b>3.93</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_566871049.1" data-select="566871049.1" data-v1="1.26" data-v2="1" data-v3="1" data-match="26316404" data-id="566871049.1" data-live="b24" class="koefs"><b>1.26</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_566871050.1" data-select="566871050.1" data-v1="1.33" data-v2="1" data-v3="1" data-match="26316404" data-id="566871050.1" data-live="b24" class="koefs"><b>1.33</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_566871051.1" data-select="566871051.1" data-v1="1.8" data-v2="1" data-v3="1" data-match="26316404" data-id="566871051.1" data-live="b24" class="koefs"><b>1.8</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_567251074:26316404:2:4:-1:1" data-select="26316404:2:4:-1:1" data-v1="-1" data-v2="2.98" data-v3="1" data-match="26316404" data-id="567251074:26316404:2:4:-1:1" data-live="b24" class="koefs"><b>2.98</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_567251075:26316404:2:4:1:2" data-select="26316404:2:4:1:2" data-v1="1" data-v2="1.38" data-v3="1" data-match="26316404" data-id="567251075:26316404:2:4:1:2" data-live="b24" class="koefs"><b>1.38</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_567251090:26316404:2:5:2.5:1" data-select="26316404:2:5:2.5:1" data-v1="2.5" data-v2="1.61" data-v3="2.27" data-match="26316404" data-id="567251090:26316404:2:5:2.5:1" data-live="b24" class="koefs"><b>1.61</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_567251090:26316404:3:5:2.5:1" data-select="26316404:3:5:2.5:1" data-v1="2.5" data-v2="1.61" data-v3="2.27" data-match="26316404" data-id="567251090:26316404:3:5:2.5:1" data-live="b24" class="koefs"><b>2.27</b></span>   &nbsp;</nobr>
+<tr><td colspan=2><div class=tab id='odd26737179' data-match-id='26737179' data-match-count='10' data-cont='10' data-champ='21156'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577908530.1" data-select="577908530.1" data-v1="1.85" data-v2="1" data-v3="1" data-match="26737179" data-id="577908530.1" data-live="b11" class="koefs"><b>1.85</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577908531.1" data-select="577908531.1" data-v1="2" data-v2="1" data-v3="1" data-match="26737179" data-id="577908531.1" data-live="b11" class="koefs"><b>2</b></span>   &nbsp;</nobr> <nobr>Ф1(1.5) -&nbsp;&nbsp;<span id="koefs_577924718:26737179:2:4:1.5:1" data-select="26737179:2:4:1.5:1" data-v1="1.5" data-v2="1.46" data-v3="1" data-match="26737179" data-id="577924718:26737179:2:4:1.5:1" data-live="b11" class="koefs"><b>1.46</b></span>   &nbsp;</nobr> <nobr>Ф2(-1.5) -&nbsp;&nbsp;<span id="koefs_577924719:26737179:2:4:-1.5:2" data-select="26737179:2:4:-1.5:2" data-v1="-1.5" data-v2="2.59" data-v3="1" data-match="26737179" data-id="577924719:26737179:2:4:-1.5:2" data-live="b11" class="koefs"><b>2.59</b></span>   &nbsp;</nobr> <nobr>Тот(8.5) М -&nbsp;&nbsp;<span id="koefs_577924724:26737179:2:5:8.5:1" data-select="26737179:2:5:8.5:1" data-v1="8.5" data-v2="1.82" data-v3="1.92" data-match="26737179" data-id="577924724:26737179:2:5:8.5:1" data-live="b11" class="koefs"><b>1.82</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577924724:26737179:3:5:8.5:1" data-select="26737179:3:5:8.5:1" data-v1="8.5" data-v2="1.82" data-v3="1.92" data-match="26737179" data-id="577924724:26737179:3:5:8.5:1" data-live="b11" class="koefs"><b>1.92</b></span>   &nbsp;</nobr>
 </table>
 </td>
 </tr>
 <tr class='m_c' align=center>
-<td class=smwndcap width='90%'>Футбол. Лига Европы УЕФА. Итоги турнира 2016/2017<a name='ch2230439'></a>
+<td class=smwndcap width='90%'>Бейсбол. MLB. Итоги<a name='ch1601008'></a>
 </td>
 <td class=smwndcap width='10%' align=center valign=center nowrap>- - -</td>
 </tr>
@@ -740,14 +741,42 @@ setInterval(function(){
 <td colspan='2'>
 <table class=koeftable2 cellspacing=3 cellpadding=3>
 <tr class=hi>
-<td width='20%' align=center>29.08.2016 10:00</td>
-<td><font class=m><b>Победитель 2016/2017</b></font></td>
+<td width='20%' align=center>20.09.2016 00:15</td>
+<td><font class=m><b>Победитель Американской Лиги 2016 (по итогам плей-офф)</b></font></td>
 </tr>
 <tr>
 <td colspan='2'>
-<div class=tab id='odd25703035' data-match-id='25703035' data-match-count='' data-cont='25' data-champ='14776'>
-<div id="r2230439_"><b><i>Победитель:</i></b><br/><nobr>Манчестер Юн -&nbsp;&nbsp;<span id="koefs_551459527.1" data-select="551459527.1" data-v1="6.75" data-v2="1" data-v3="1" data-match="25703035" data-id="551459527.1" data-live="b25" class="koefs"><b>6.75</b></span>   &nbsp;</nobr> <nobr>Рома -&nbsp;&nbsp;<span id="koefs_566690513.1" data-select="566690513.1" data-v1="10.75" data-v2="1" data-v3="1" data-match="25703035" data-id="566690513.1" data-live="b25" class="koefs"><b>10.75</b></span>   &nbsp;</nobr> <nobr>Интер -&nbsp;&nbsp;<span id="koefs_551459528.1" data-select="551459528.1" data-v1="17.25" data-v2="1" data-v3="1" data-match="25703035" data-id="551459528.1" data-live="b25" class="koefs"><b>17.25</b></span>   &nbsp;</nobr> <nobr>Атлетик Б -&nbsp;&nbsp;<span id="koefs_551459531.1" data-select="551459531.1" data-v1="17.5" data-v2="1" data-v3="1" data-match="25703035" data-id="551459531.1" data-live="b25" class="koefs"><b>17.5</b></span>   &nbsp;</nobr> <nobr>Фиорентина -&nbsp;&nbsp;<span id="koefs_551459530.1" data-select="551459530.1" data-v1="18.75" data-v2="1" data-v3="1" data-match="25703035" data-id="551459530.1" data-live="b25" class="koefs"><b>18.75</b></span>   &nbsp;</nobr> <nobr>Вильярреал -&nbsp;&nbsp;<span id="koefs_566690514.1" data-select="566690514.1" data-v1="19.25" data-v2="1" data-v3="1" data-match="25703035" data-id="566690514.1" data-live="b25" class="koefs"><b>19.25</b></span>   &nbsp;</nobr> <nobr>Зенит -&nbsp;&nbsp;<span id="koefs_551459532.1" data-select="551459532.1" data-v1="20" data-v2="1" data-v3="1" data-match="25703035" data-id="551459532.1" data-live="b25" class="koefs"><b>20</b></span>   &nbsp;</nobr> <nobr>Шальке 04 -&nbsp;&nbsp;<span id="koefs_551459529.1" data-select="551459529.1" data-v1="21" data-v2="1" data-v3="1" data-match="25703035" data-id="551459529.1" data-live="b25" class="koefs"><b>21</b></span>   &nbsp;</nobr> <nobr>Шахтер Дн -&nbsp;&nbsp;<span id="koefs_566690515.1" data-select="566690515.1" data-v1="22" data-v2="1" data-v3="1" data-match="25703035" data-id="566690515.1" data-live="b25" class="koefs"><b>22</b></span>   &nbsp;</nobr> <nobr>Саутгемптон -&nbsp;&nbsp;<span id="koefs_551459533.1" data-select="551459533.1" data-v1="30" data-v2="1" data-v3="1" data-match="25703035" data-id="551459533.1" data-live="b25" class="koefs"><b>30</b></span>   &nbsp;</nobr> <nobr>Сельта -&nbsp;&nbsp;<span id="koefs_551459534.1" data-select="551459534.1" data-v1="35" data-v2="1" data-v3="1" data-match="25703035" data-id="551459534.1" data-live="b25" class="koefs"><b>35</b></span>   &nbsp;</nobr> <nobr>Аякс -&nbsp;&nbsp;<span id="koefs_566690516.1" data-select="566690516.1" data-v1="40" data-v2="1" data-v3="1" data-match="25703035" data-id="566690516.1" data-live="b25" class="koefs"><b>40</b></span>   &nbsp;</nobr> <nobr>Фенербахче -&nbsp;&nbsp;<span id="koefs_566690518.1" data-select="566690518.1" data-v1="41" data-v2="1" data-v3="1" data-match="25703035" data-id="566690518.1" data-live="b25" class="koefs"><b>41</b></span>   &nbsp;</nobr> <nobr>Олимпиакос -&nbsp;&nbsp;<span id="koefs_566690519.1" data-select="566690519.1" data-v1="44" data-v2="1" data-v3="1" data-match="25703035" data-id="566690519.1" data-live="b25" class="koefs"><b>44</b></span>   &nbsp;</nobr> <nobr>Майнц -&nbsp;&nbsp;<span id="koefs_551459537.1" data-select="551459537.1" data-v1="46" data-v2="1" data-v3="1" data-match="25703035" data-id="551459537.1" data-live="b25" class="koefs"><b>46</b></span>   &nbsp;</nobr> <nobr>Сент-Этьен -&nbsp;&nbsp;<span id="koefs_551459546.1" data-select="551459546.1" data-v1="54" data-v2="1" data-v3="1" data-match="25703035" data-id="551459546.1" data-live="b25" class="koefs"><b>54</b></span>   &nbsp;</nobr> <nobr>Брага -&nbsp;&nbsp;<span id="koefs_551459536.1" data-select="551459536.1" data-v1="58" data-v2="1" data-v3="1" data-match="25703035" data-id="551459536.1" data-live="b25" class="koefs"><b>58</b></span>   &nbsp;</nobr> <nobr>Фейеноорд -&nbsp;&nbsp;<span id="koefs_551459541.1" data-select="551459541.1" data-v1="70" data-v2="1" data-v3="1" data-match="25703035" data-id="551459541.1" data-live="b25" class="koefs"><b>70</b></span>   &nbsp;</nobr> <nobr>Сассуоло -&nbsp;&nbsp;<span id="koefs_551459545.1" data-select="551459545.1" data-v1="70" data-v2="1" data-v3="1" data-match="25703035" data-id="551459545.1" data-live="b25" class="koefs"><b>70</b></span>   &nbsp;</nobr> <nobr>Ницца -&nbsp;&nbsp;<span id="koefs_551459540.1" data-select="551459540.1" data-v1="72" data-v2="1" data-v3="1" data-match="25703035" data-id="551459540.1" data-live="b25" class="koefs"><b>72</b></span>   &nbsp;</nobr> <nobr>Андерлехт -&nbsp;&nbsp;<span id="koefs_566690517.1" data-select="566690517.1" data-v1="74" data-v2="1" data-v3="1" data-match="25703035" data-id="566690517.1" data-live="b25" class="koefs"><b>74</b></span>   &nbsp;</nobr> <nobr>ФК Краснодар -&nbsp;&nbsp;<span id="koefs_551459543.1" data-select="551459543.1" data-v1="76" data-v2="1" data-v3="1" data-match="25703035" data-id="551459543.1" data-live="b25" class="koefs"><b>76</b></span>   &nbsp;</nobr> <nobr>Зальцбург -&nbsp;&nbsp;<span id="koefs_566690521.1" data-select="566690521.1" data-v1="80" data-v2="1" data-v3="1" data-match="25703035" data-id="566690521.1" data-live="b25" class="koefs"><b>80</b></span>   &nbsp;</nobr> <nobr>Гент -&nbsp;&nbsp;<span id="koefs_551459549.1" data-select="551459549.1" data-v1="84" data-v2="1" data-v3="1" data-match="25703035" data-id="551459549.1" data-live="b25" class="koefs"><b>84</b></span>   &nbsp;</nobr> <nobr>Стандард Льеж -&nbsp;&nbsp;<span id="koefs_551459542.1" data-select="551459542.1" data-v1="90" data-v2="1" data-v3="1" data-match="25703035" data-id="551459542.1" data-live="b25" class="koefs"><b>90</b></span>   &nbsp;</nobr> <nobr>АЗ Алкмаар -&nbsp;&nbsp;<span id="koefs_551459551.1" data-select="551459551.1" data-v1="92" data-v2="1" data-v3="1" data-match="25703035" data-id="551459551.1" data-live="b25" class="koefs"><b>92</b></span>   &nbsp;</nobr> <nobr>Панатинаикос -&nbsp;&nbsp;<span id="koefs_551459552.1" data-select="551459552.1" data-v1="96" data-v2="1" data-v3="1" data-match="25703035" data-id="551459552.1" data-live="b25" class="koefs"><b>96</b></span>   &nbsp;</nobr> <nobr>Генк -&nbsp;&nbsp;<span id="koefs_566690520.1" data-select="566690520.1" data-v1="115" data-v2="1" data-v3="1" data-match="25703035" data-id="566690520.1" data-live="b25" class="koefs"><b>115</b></span>   &nbsp;</nobr> <nobr>Спарта Прага -&nbsp;&nbsp;<span id="koefs_566690523.1" data-select="566690523.1" data-v1="115" data-v2="1" data-v3="1" data-match="25703035" data-id="566690523.1" data-live="b25" class="koefs"><b>115</b></span>   &nbsp;</nobr> <nobr>Янг Бойз -&nbsp;&nbsp;<span id="koefs_566690522.1" data-select="566690522.1" data-v1="135" data-v2="1" data-v3="1" data-match="25703035" data-id="566690522.1" data-live="b25" class="koefs"><b>135</b></span>   &nbsp;</nobr> <nobr>Цюрих -&nbsp;&nbsp;<span id="koefs_551459547.1" data-select="551459547.1" data-v1="140" data-v2="1" data-v3="1" data-match="25703035" data-id="551459547.1" data-live="b25" class="koefs"><b>140</b></span>   &nbsp;</nobr> <nobr>АПОЭЛ -&nbsp;&nbsp;<span id="koefs_566690532.1" data-select="566690532.1" data-v1="140" data-v2="1" data-v3="1" data-match="25703035" data-id="566690532.1" data-live="b25" class="koefs"><b>140</b></span>   &nbsp;</nobr> <nobr>Заря Лг -&nbsp;&nbsp;<span id="koefs_551459550.1" data-select="551459550.1" data-v1="145" data-v2="1" data-v3="1" data-match="25703035" data-id="551459550.1" data-live="b25" class="koefs"><b>145</b></span>   &nbsp;</nobr> <nobr>Виктория Пльзень -&nbsp;&nbsp;<span id="koefs_566690524.1" data-select="566690524.1" data-v1="145" data-v2="1" data-v3="1" data-match="25703035" data-id="566690524.1" data-live="b25" class="koefs"><b>145</b></span>   &nbsp;</nobr> <nobr>Рапид Вена -&nbsp;&nbsp;<span id="koefs_551459554.1" data-select="551459554.1" data-v1="150" data-v2="1" data-v3="1" data-match="25703035" data-id="551459554.1" data-live="b25" class="koefs"><b>150</b></span>   &nbsp;</nobr> <nobr>Аустрия Вена -&nbsp;&nbsp;<span id="koefs_566690525.1" data-select="566690525.1" data-v1="160" data-v2="1" data-v3="1" data-match="25703035" data-id="566690525.1" data-live="b25" class="koefs"><b>160</b></span>   &nbsp;</nobr> <nobr>Коньяспор -&nbsp;&nbsp;<span id="koefs_551459553.1" data-select="551459553.1" data-v1="175" data-v2="1" data-v3="1" data-match="25703035" data-id="551459553.1" data-live="b25" class="koefs"><b>175</b></span>   &nbsp;</nobr> <nobr>ПАОК -&nbsp;&nbsp;<span id="koefs_566690528.1" data-select="566690528.1" data-v1="175" data-v2="1" data-v3="1" data-match="25703035" data-id="566690528.1" data-live="b25" class="koefs"><b>175</b></span>   &nbsp;</nobr> <nobr>АФК Астра Джурджу -&nbsp;&nbsp;<span id="koefs_566690527.1" data-select="566690527.1" data-v1="190" data-v2="1" data-v3="1" data-match="25703035" data-id="566690527.1" data-live="b25" class="koefs"><b>190</b></span>   &nbsp;</nobr> <nobr>Стяуа -&nbsp;&nbsp;<span id="koefs_566690531.1" data-select="566690531.1" data-v1="195" data-v2="1" data-v3="1" data-match="25703035" data-id="566690531.1" data-live="b25" class="koefs"><b>195</b></span>   &nbsp;</nobr> <nobr>Хапоэль Беер-Шева -&nbsp;&nbsp;<span id="koefs_566690526.1" data-select="566690526.1" data-v1="210" data-v2="1" data-v3="1" data-match="25703035" data-id="566690526.1" data-live="b25" class="koefs"><b>210</b></span>   &nbsp;</nobr> <nobr>Слован Либерец -&nbsp;&nbsp;<span id="koefs_566690529.1" data-select="566690529.1" data-v1="220" data-v2="1" data-v3="1" data-match="25703035" data-id="566690529.1" data-live="b25" class="koefs"><b>220</b></span>   &nbsp;</nobr> <nobr>Маккаби Тель-Авив -&nbsp;&nbsp;<span id="koefs_566690535.1" data-select="566690535.1" data-v1="310" data-v2="1" data-v3="1" data-match="25703035" data-id="566690535.1" data-live="b25" class="koefs"><b>310</b></span>   &nbsp;</nobr> <nobr>Карабах -&nbsp;&nbsp;<span id="koefs_566690530.1" data-select="566690530.1" data-v1="400" data-v2="1" data-v3="1" data-match="25703035" data-id="566690530.1" data-live="b25" class="koefs"><b>400</b></span>   &nbsp;</nobr> <nobr>Османлыспор -&nbsp;&nbsp;<span id="koefs_566690534.1" data-select="566690534.1" data-v1="400" data-v2="1" data-v3="1" data-match="25703035" data-id="566690534.1" data-live="b25" class="koefs"><b>400</b></span>   &nbsp;</nobr> <nobr>Астана -&nbsp;&nbsp;<span id="koefs_566690533.1" data-select="566690533.1" data-v1="500" data-v2="1" data-v3="1" data-match="25703035" data-id="566690533.1" data-live="b25" class="koefs"><b>500</b></span>   &nbsp;</nobr> <nobr>Габала -&nbsp;&nbsp;<span id="koefs_566690536.1" data-select="566690536.1" data-v1="550" data-v2="1" data-v3="1" data-match="25703035" data-id="566690536.1" data-live="b25" class="koefs"><b>550</b></span>   &nbsp;</nobr> <nobr>Дундалк -&nbsp;&nbsp;<span id="koefs_566690537.1" data-select="566690537.1" data-v1="830" data-v2="1" data-v3="1" data-match="25703035" data-id="566690537.1" data-live="b25" class="koefs"><b>830</b></span>   &nbsp;</nobr> </td></tr></div></td></tr></table><i><a href="javascript:void(0);" class="show_all_odds" data-champ-id="14776">
-<span id="t14776_2" class="tab">Показать роспись</span></a><span class="tab"><a href="#top">Наверх</a></span><br/><br/></i></td></tr></table><div align="justify" style="width:96%"><hr class="hr2"/><a name="index"></a><b>Оглавление</b><br><br><table><tr><td valign="top" align="left"><i><a href="#ch14776">Футбол. Лига Европы УЕФА. Групповой этап. 1-й тур</a><br/></i></td></tr></table><br><i>&nbsp;<a href="#top">Наверх</a></i></div><input type="hidden" name="r_max" value="25"/><input type="hidden" name="currpage" value="line"/> </div>
+<div class=tab id='odd22443453' data-match-id='22443453' data-match-count='' data-cont='12' data-champ='21156'>
+<div id="r1601008_"><b><i>Победитель:</i></b><br/><nobr>Техас -&nbsp;&nbsp;<span id="koefs_470062251.1" data-select="470062251.1" data-v1="3.1" data-v2="1" data-v3="1" data-match="22443453" data-id="470062251.1" data-live="b12" class="koefs"><b>3.1</b></span>   &nbsp;</nobr> <nobr>Бостон -&nbsp;&nbsp;<span id="koefs_470062247.1" data-select="470062247.1" data-v1="4.25" data-v2="1" data-v3="1" data-match="22443453" data-id="470062247.1" data-live="b12" class="koefs"><b>4.25</b></span>   &nbsp;</nobr> <nobr>Кливленд -&nbsp;&nbsp;<span id="koefs_470062255.1" data-select="470062255.1" data-v1="4.3" data-v2="1" data-v3="1" data-match="22443453" data-id="470062255.1" data-live="b12" class="koefs"><b>4.3</b></span>   &nbsp;</nobr> <nobr>Торонто -&nbsp;&nbsp;<span id="koefs_470062248.1" data-select="470062248.1" data-v1="6.75" data-v2="1" data-v3="1" data-match="22443453" data-id="470062248.1" data-live="b12" class="koefs"><b>6.75</b></span>   &nbsp;</nobr> <nobr>Балтимор -&nbsp;&nbsp;<span id="koefs_470062259.1" data-select="470062259.1" data-v1="8" data-v2="1" data-v3="1" data-match="22443453" data-id="470062259.1" data-live="b12" class="koefs"><b>8</b></span>   &nbsp;</nobr> <nobr>Детройт -&nbsp;&nbsp;<span id="koefs_470062254.1" data-select="470062254.1" data-v1="18.5" data-v2="1" data-v3="1" data-match="22443453" data-id="470062254.1" data-live="b12" class="koefs"><b>18.5</b></span>   &nbsp;</nobr> <nobr>Сиэтл -&nbsp;&nbsp;<span id="koefs_470062256.1" data-select="470062256.1" data-v1="20" data-v2="1" data-v3="1" data-match="22443453" data-id="470062256.1" data-live="b12" class="koefs"><b>20</b></span>   &nbsp;</nobr> <nobr>Хьюстон -&nbsp;&nbsp;<span id="koefs_470062250.1" data-select="470062250.1" data-v1="24" data-v2="1" data-v3="1" data-match="22443453" data-id="470062250.1" data-live="b12" class="koefs"><b>24</b></span>   &nbsp;</nobr> <nobr>Н.Й. Янкиз -&nbsp;&nbsp;<span id="koefs_470062252.1" data-select="470062252.1" data-v1="36" data-v2="1" data-v3="1" data-match="22443453" data-id="470062252.1" data-live="b12" class="koefs"><b>36</b></span>   &nbsp;</nobr> <nobr>Канзас Сити -&nbsp;&nbsp;<span id="koefs_470062249.1" data-select="470062249.1" data-v1="68" data-v2="1" data-v3="1" data-match="22443453" data-id="470062249.1" data-live="b12" class="koefs"><b>68</b></span>   &nbsp;</nobr> </div><br></td></tr> <tr class=hi>
+<td width='20%' align=center>20.09.2016 05:05</td>
+<td><font class=m><b>Победитель Восточного дивизиона Американской Лиги 2016</b></font></td>
+</tr>
+<tr>
+<td colspan='2'>
+<div class=tab id='odd24612523' data-match-id='24612523' data-match-count='' data-cont='13' data-champ='21156'>
+<b><i>Победитель:</i></b><br/><nobr>Бостон -&nbsp;&nbsp;<span id="koefs_525123410.1" data-select="525123410.1" data-v1="1.2" data-v2="1" data-v3="1" data-match="24612523" data-id="525123410.1" data-live="b13" class="koefs"><b>1.2</b></span>   &nbsp;</nobr> <nobr>Балтимор -&nbsp;&nbsp;<span id="koefs_525123411.1" data-select="525123411.1" data-v1="6.75" data-v2="1" data-v3="1" data-match="24612523" data-id="525123411.1" data-live="b13" class="koefs"><b>6.75</b></span>   &nbsp;</nobr> <nobr>Торонто -&nbsp;&nbsp;<span id="koefs_525123412.1" data-select="525123412.1" data-v1="9.25" data-v2="1" data-v3="1" data-match="24612523" data-id="525123412.1" data-live="b13" class="koefs"><b>9.25</b></span>   &nbsp;</nobr> <nobr>Н.Й. Янкиз -&nbsp;&nbsp;<span id="koefs_525123413.1" data-select="525123413.1" data-v1="190" data-v2="1" data-v3="1" data-match="24612523" data-id="525123413.1" data-live="b13" class="koefs"><b>190</b></span>   &nbsp;</nobr> </div><br></td></tr> <tr class=hi>
+<td width='20%' align=center>20.09.2016 08:10</td>
+<td><font class=m><b>Победитель Западного дивизиона Национальной Лиги 2016</b></font></td>
+</tr>
+<tr>
+<td colspan='2'>
+<div class=tab id='odd24612527' data-match-id='24612527' data-match-count='' data-cont='14' data-champ='21156'>
+<b><i>Победитель:</i></b><br/><nobr>Л.А. Доджерс -&nbsp;&nbsp;<span id="koefs_525123463.1" data-select="525123463.1" data-v1="1.03" data-v2="1" data-v3="1" data-match="24612527" data-id="525123463.1" data-live="b14" class="koefs"><b>1.03</b></span>   &nbsp;</nobr> <nobr>Сан-Франциско -&nbsp;&nbsp;<span id="koefs_525123462.1" data-select="525123462.1" data-v1="9.25" data-v2="1" data-v3="1" data-match="24612527" data-id="525123462.1" data-live="b14" class="koefs"><b>9.25</b></span>   &nbsp;</nobr> </div><br></td></tr> <tr class=hi>
+<td width='20%' align=center>20.09.2016 00:15</td>
+<td><font class=m><b>Победитель Мировой серии 2016</b></font></td>
+</tr>
+<tr>
+<td colspan='2'>
+<div class=tab id='odd20540541' data-match-id='20540541' data-match-count='' data-cont='15' data-champ='21156'>
+<b><i>Победитель:</i></b><br/><nobr>Чикаго Кабз -&nbsp;&nbsp;<span id="koefs_428609477.1" data-select="428609477.1" data-v1="3.35" data-v2="1" data-v3="1" data-match="20540541" data-id="428609477.1" data-live="b15" class="koefs"><b>3.35</b></span>   &nbsp;</nobr> <nobr>Вашингтон -&nbsp;&nbsp;<span id="koefs_428609482.1" data-select="428609482.1" data-v1="5.75" data-v2="1" data-v3="1" data-match="20540541" data-id="428609482.1" data-live="b15" class="koefs"><b>5.75</b></span>   &nbsp;</nobr> <nobr>Техас -&nbsp;&nbsp;<span id="koefs_428609486.1" data-select="428609486.1" data-v1="6.75" data-v2="1" data-v3="1" data-match="20540541" data-id="428609486.1" data-live="b15" class="koefs"><b>6.75</b></span>   &nbsp;</nobr> <nobr>Бостон -&nbsp;&nbsp;<span id="koefs_428609487.1" data-select="428609487.1" data-v1="8.75" data-v2="1" data-v3="1" data-match="20540541" data-id="428609487.1" data-live="b15" class="koefs"><b>8.75</b></span>   &nbsp;</nobr> <nobr>Л.А. Доджерс -&nbsp;&nbsp;<span id="koefs_428609480.1" data-select="428609480.1" data-v1="9.25" data-v2="1" data-v3="1" data-match="20540541" data-id="428609480.1" data-live="b15" class="koefs"><b>9.25</b></span>   &nbsp;</nobr> <nobr>Кливленд -&nbsp;&nbsp;<span id="koefs_428609491.1" data-select="428609491.1" data-v1="9.25" data-v2="1" data-v3="1" data-match="20540541" data-id="428609491.1" data-live="b15" class="koefs"><b>9.25</b></span>   &nbsp;</nobr> <nobr>Торонто -&nbsp;&nbsp;<span id="koefs_428609478.1" data-select="428609478.1" data-v1="13" data-v2="1" data-v3="1" data-match="20540541" data-id="428609478.1" data-live="b15" class="koefs"><b>13</b></span>   &nbsp;</nobr> <nobr>Балтимор -&nbsp;&nbsp;<span id="koefs_428609496.1" data-select="428609496.1" data-v1="17" data-v2="1" data-v3="1" data-match="20540541" data-id="428609496.1" data-live="b15" class="koefs"><b>17</b></span>   &nbsp;</nobr> <nobr>Сан-Франциско -&nbsp;&nbsp;<span id="koefs_428609490.1" data-select="428609490.1" data-v1="21" data-v2="1" data-v3="1" data-match="20540541" data-id="428609490.1" data-live="b15" class="koefs"><b>21</b></span>   &nbsp;</nobr> <nobr>Н.Й. Метц -&nbsp;&nbsp;<span id="koefs_428609483.1" data-select="428609483.1" data-v1="26" data-v2="1" data-v3="1" data-match="20540541" data-id="428609483.1" data-live="b15" class="koefs"><b>26</b></span>   &nbsp;</nobr> <nobr>Сент-Луис -&nbsp;&nbsp;<span id="koefs_428609479.1" data-select="428609479.1" data-v1="35" data-v2="1" data-v3="1" data-match="20540541" data-id="428609479.1" data-live="b15" class="koefs"><b>35</b></span>   &nbsp;</nobr> <nobr>Детройт -&nbsp;&nbsp;<span id="koefs_428609493.1" data-select="428609493.1" data-v1="38" data-v2="1" data-v3="1" data-match="20540541" data-id="428609493.1" data-live="b15" class="koefs"><b>38</b></span>   &nbsp;</nobr> <nobr>Сиэтл -&nbsp;&nbsp;<span id="koefs_428609492.1" data-select="428609492.1" data-v1="40" data-v2="1" data-v3="1" data-match="20540541" data-id="428609492.1" data-live="b15" class="koefs"><b>40</b></span>   &nbsp;</nobr> <nobr>Хьюстон -&nbsp;&nbsp;<span id="koefs_428609485.1" data-select="428609485.1" data-v1="46" data-v2="1" data-v3="1" data-match="20540541" data-id="428609485.1" data-live="b15" class="koefs"><b>46</b></span>   &nbsp;</nobr> <nobr>Н.Й. Янкиз -&nbsp;&nbsp;<span id="koefs_428609488.1" data-select="428609488.1" data-v1="70" data-v2="1" data-v3="1" data-match="20540541" data-id="428609488.1" data-live="b15" class="koefs"><b>70</b></span>   &nbsp;</nobr> <nobr>Канзас Сити -&nbsp;&nbsp;<span id="koefs_428609481.1" data-select="428609481.1" data-v1="160" data-v2="1" data-v3="1" data-match="20540541" data-id="428609481.1" data-live="b15" class="koefs"><b>160</b></span>   &nbsp;</nobr> <nobr>Майами -&nbsp;&nbsp;<span id="koefs_428609494.1" data-select="428609494.1" data-v1="240" data-v2="1" data-v3="1" data-match="20540541" data-id="428609494.1" data-live="b15" class="koefs"><b>240</b></span>   &nbsp;</nobr> <nobr>Питтсбург -&nbsp;&nbsp;<span id="koefs_428609484.1" data-select="428609484.1" data-v1="270" data-v2="1" data-v3="1" data-match="20540541" data-id="428609484.1" data-live="b15" class="koefs"><b>270</b></span>   &nbsp;</nobr> <nobr>Колорадо -&nbsp;&nbsp;<span id="koefs_428609505.1" data-select="428609505.1" data-v1="1350" data-v2="1" data-v3="1" data-match="20540541" data-id="428609505.1" data-live="b15" class="koefs"><b>1350</b></span>   &nbsp;</nobr> </div><br></td></tr> <tr class=hi>
+<td width='20%' align=center>20.09.2016 05:10</td>
+<td><font class=m><b>Победитель Национальной Лиги 2016 (по итогам плей-офф)</b></font></td>
+</tr>
+<tr>
+<td colspan='2'>
+<div class=tab id='odd22443454' data-match-id='22443454' data-match-count='' data-cont='16' data-champ='21156'>
+<b><i>Победитель:</i></b><br/><nobr>Чикаго Кабз -&nbsp;&nbsp;<span id="koefs_470062262.1" data-select="470062262.1" data-v1="2.05" data-v2="1" data-v3="1" data-match="22443454" data-id="470062262.1" data-live="b16" class="koefs"><b>2.05</b></span>   &nbsp;</nobr> <nobr>Вашингтон -&nbsp;&nbsp;<span id="koefs_470062264.1" data-select="470062264.1" data-v1="3.1" data-v2="1" data-v3="1" data-match="22443454" data-id="470062264.1" data-live="b16" class="koefs"><b>3.1</b></span>   &nbsp;</nobr> <nobr>Л.А. Доджерс -&nbsp;&nbsp;<span id="koefs_470062267.1" data-select="470062267.1" data-v1="4.95" data-v2="1" data-v3="1" data-match="22443454" data-id="470062267.1" data-live="b16" class="koefs"><b>4.95</b></span>   &nbsp;</nobr> <nobr>Сан-Франциско -&nbsp;&nbsp;<span id="koefs_470062263.1" data-select="470062263.1" data-v1="11.5" data-v2="1" data-v3="1" data-match="22443454" data-id="470062263.1" data-live="b16" class="koefs"><b>11.5</b></span>   &nbsp;</nobr> <nobr>Н.Й. Метц -&nbsp;&nbsp;<span id="koefs_470062265.1" data-select="470062265.1" data-v1="12.25" data-v2="1" data-v3="1" data-match="22443454" data-id="470062265.1" data-live="b16" class="koefs"><b>12.25</b></span>   &nbsp;</nobr> <nobr>Сент-Луис -&nbsp;&nbsp;<span id="koefs_470062266.1" data-select="470062266.1" data-v1="18.5" data-v2="1" data-v3="1" data-match="22443454" data-id="470062266.1" data-live="b16" class="koefs"><b>18.5</b></span>   &nbsp;</nobr> <nobr>Майами -&nbsp;&nbsp;<span id="koefs_470062270.1" data-select="470062270.1" data-v1="125" data-v2="1" data-v3="1" data-match="22443454" data-id="470062270.1" data-live="b16" class="koefs"><b>125</b></span>   &nbsp;</nobr> <nobr>Питтсбург -&nbsp;&nbsp;<span id="koefs_470062268.1" data-select="470062268.1" data-v1="135" data-v2="1" data-v3="1" data-match="22443454" data-id="470062268.1" data-live="b16" class="koefs"><b>135</b></span>   &nbsp;</nobr> <nobr>Колорадо -&nbsp;&nbsp;<span id="koefs_470062275.1" data-select="470062275.1" data-v1="490" data-v2="1" data-v3="1" data-match="22443454" data-id="470062275.1" data-live="b16" class="koefs"><b>490</b></span>   &nbsp;</nobr> </td></tr></div></td></tr></table><i><a href="javascript:void(0);" class="show_all_odds" data-champ_id="21156">
+<span id="t21156_2" class="tab">Показать роспись</span></a><span class="tab"><a href="#top">Наверх</a></span><br/><br/></i></td></tr></table><div align="justify" style="width:96%"><hr class="hr2"/><a name="index"></a><b>Оглавление</b><br><br><table><tr><td valign="top" align="left"><i><a href="#ch21156">Бейсбол. MLB. Регулярный сезон</a><br/></i></td></tr></table><br><i>&nbsp;<a href="#top">Наверх</a></i></div><input type="hidden" name="r_max" value="16"/><input type="hidden" name="currpage" value="line"/> </div>
 </form>
 </div>
 <script type="text/javascript">
@@ -763,6 +792,17 @@ setInterval(function(){
 						return;
 					}*/
 					document.getElementById('betline').innerHTML=str;
+
+					$('#betline .show_all_odds').each(function(){
+						var champ_id = $(this).data('champ_id');
+						var c = getCookie('t'+champ_id);
+						console.log(c);
+						if(parseInt(c) == 1) {
+							ShowAddons(champ_id);
+							$(this).click();
+						}
+					});
+
 					change_rr();
 					betVisualisation();									}
 			);
@@ -798,7 +838,7 @@ setInterval(function(){
 		{
 			$('.show_all_odds').click(function()
 			{
-				var champ    = $(this).attr('data-champ-id'),
+				var champ    = $(this).data('champ_id'),
 					btn_this = this;
 
 				$('div[data-champ='+champ+']').each(function(index)
@@ -863,7 +903,7 @@ setInterval(function(){
 <br/>
 </div>
 <div id="betslip1" style="" class="">
-<style>.onoffswitch-inner:before{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"ON";background-color:#B33c36;color:#FFFFFF;text-align:center;}.onoffswitch-inner:after{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"OFF";color:#868686!important;text-align:center;}.quick_stake{margin:3px!important;padding:0!important;display:block;float:left;width:97%;height:25px;line-height:25px;font-size:14px;color:#000000;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;font-weight:bold;border:1px solid #999999;}.mn_all{padding:2px;cursor:pointer;}.fcl{top:5px;z-index:101;left:15px;}</style>
+<style>.onoffswitch-inner:before{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"ON";background-color:#B33c36;color:#FFFFFF;text-align:center;}.onoffswitch-inner:after{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"OFF";color:#868686!important;text-align:center;}</style>
 <script>
 	var max_calc = 500000000;
 	var MaxKoef = 1000;
@@ -896,17 +936,25 @@ setInterval(function(){
 	}
 
 </script>
-<link type="text/css" rel="stylesheet" href="/img/basket.css?29"/>
+<link type="text/css" rel="stylesheet" href="/img/basket.css?43"/>
 <script src="/img/jquery.modal.js"></script>
-<script src="/img/basket.js?18"></script>
+<script src="/img/basket.js?31"></script>
 <input type="hidden" value="0" name="usersumm" id="usersumm">
-<div>
 <div class="busket">
 <div class="busket-header">
-<div class="busket-title active">КУПОН</div>
+<div class="busket-title active" id="betslip-button">КУПОН</div>
+<div class="expand-button">
 </div>
-<div class="clear"></div>
-<div style="float:left" class="quick_stake group6">
+<div class="quickstake-title group5">БЫСТРАЯ СТАВКА <div class="onoffswitch" style="float:right">
+<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch_e">
+<label class="onoffswitch-label" for="myonoffswitch_e">
+<span class="onoffswitch-inner"></span>
+<span class="onoffswitch-switch"></span>
+</label>
+</div>
+</div>
+</div>
+<div class="quick_stake group6" style="display: none;">
 <div style="float:left">
 <span style="margin:auto 3px">БЫСТРАЯ СТАВКА</span>
 </div>
@@ -918,8 +966,7 @@ setInterval(function(){
 </label>
 </div>
 </div>
-<div class="clear"></div>
-<div id="wraper_basket">
+<div id="wraper_basket_b" style="display: none;">
 <div class="clear"></div>
 <div class="busket-nav">
 <a data-type="1" id="bn1" href="#">ОРДИНАР</a>
@@ -928,7 +975,7 @@ setInterval(function(){
 </div>
 <input type="hidden" id="busket-nav" value="1">
 <div class="clear"></div>
-<div id="error-wraper"></div>
+<div id="error-wraper-betslip"></div>
 <form name="F1" method="post" style="margin-bottom: 0;">
 <input type="hidden" name="action" value="submit">
 <input type="hidden" name="oc" value="0">
@@ -941,11 +988,26 @@ setInterval(function(){
 <div class="clear"></div>
 <div id="betok" class="warning-infoblock hide">
 <div>
-<img src="/img/accept.png" alt="warning">
+<div class="accept_icon"></div>
 Ваша ставка была принята </div>
 </div>
 </div>
-<div class="clear"></div>
+<input id="history_page_b" value="0" type="hidden"/>
+<input id="history_last_page_b" value="1" type="hidden"/>
+<div id="wraper_history_b" style="display: none;">
+<div style="position: relative;">
+<div id="history_body_b">
+<div class="content"></div>
+</div>
+<div id="history_b_progress_bar" style="display: none;"></div>
+</div>
+<div class="history_footer_b">
+<div id="error-wraper-history"></div>
+<div>
+<a href="/index.php?page=history" class="open-full">Открыть полную историю ставок</a>
+</div>
+</div>
+</div>
 </div>
 <div class="modal" id="alertmodal" style="display:none;">
 <div class="modal-header">
@@ -956,7 +1018,7 @@ setInterval(function(){
 <table cellspacing="0" cellpadding="0">
 <tr>
 <td style="vertical-align: top;">
-<div><img src="/img/warning.png" alt="warning"></div>
+<div class="warning_icon"></div>
 </td>
 <td>
 <span></span>Сменился коэффициент на событие</span>
@@ -985,7 +1047,6 @@ setInterval(function(){
 </tr>
 </table>
 </div>
-</div>
 </div> <div class="bs-clear"><br/></div>
 </div>
 </div>
@@ -1004,9 +1065,16 @@ window.__lc.chat_between_groups = false;
 window.__lc.group = 9;
 
 window.__lc.visitor = {
-	name: '',
+	name: '.',
 	email: ''
 };
+window.__lc.params = [
+  { name: 'Status', value: 'Not Authorized' },
+  { name: 'URL', value: 'http://olimp.kz/index.php?page=line&action=2&sel[]=13611' },
+  { name: 'Domain', value: 'kz' },
+  { name: 'Type', value: 'Website' },
+  { name: 'Lang', value: 'Русский' }
+];
 
 (function() {
   var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
@@ -1076,10 +1144,10 @@ ENGINE DEBUG INFORMATION
 DataBase Errors: 0
 Script Errors: 0
 Script Warnings: 0
-Total time: 0.066 s
+Total time: 0.035 s
 DataBase time(1): 0 s
-DataBase time(2): 0.036 s
-Served by: s77
+DataBase time(2): 0.021 s
+Served by: s78
 VK_I8Ud3
 </div>
  
