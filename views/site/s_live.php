@@ -379,7 +379,7 @@ function MySearch(){
 					if(ar4[j] == ar2[i]){
 
 					
-						var string5 =  '<div class="text2 slive"><div class="title-red col-sm-6"><p class="col-sm-offset-6">' + ar1[j] + '</p></div><div class="button-click col-sm-6 col-sm-6"><button type="button" class="btn btn-primary col-sm-pull-6 click">развернуть</button></div>  <div class="col-sm-10 col-sm-offset-1 ul-li"> <div class="col-sm-6"> <p class="load col-sm-10 col-sm-offset-1" v="' + arhref[i] + '">' + ar2[i] + '</p> </div> <div class="col-sm-6"> <p class="load2 col-sm-10 col-sm-offset-1"><b>' + ar3[z] + '</b></p> </div> </div></div>';
+var string5 =  '<div class="text2 slive"><div class="title-red col-sm-6 col-md-6">' +'<button type="button" class="">'+ar1[j]+'</button>'+'</div><div class="button-click col-sm-6"><button type="button" class="btn btn-primary col-sm-pull-6 click">развернуть</button></div>  <div class="col-sm-10 col-sm-offset-1 ul-li"> <div class="col-sm-6"> <p class="load col-sm-10 col-sm-offset-1" v="' + arhref[i] + '">'+ ar2[i] + '</p> </div> <div class="col-sm-6"> <p class="load2 col-sm-10 col-sm-offset-1"><b>' + ar3[z] + '</b></p> </div> </div></div>';
 
 							p1.append(string5);
 							

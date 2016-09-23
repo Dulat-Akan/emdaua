@@ -169,13 +169,13 @@ border-bottom:1px solid balck;
 	margin-bottom:0;
 }
 .slive .ul-li{
-margin-bottom:30px;border:1px solid rgba(0,0,0,0.03);padding:0;border-radius:10px;
+margin-bottom:25px;padding:0;border-radius:10px;
 }
 .slive .title-red{
 /*--заголовок с красным цветом--*/
 	
 		font-family: 'Times New Roman', Times, serif;
-		font-size:20px;
+		
 		
 		
 }
@@ -419,9 +419,64 @@ background-attachment: local, local, scroll, scroll;position:relative;
 	color:red;
 }
 
+/*-----------------------------------------------*/
+body{
+
+}
+.button-click button {
+font-size:16px;
+}
+.title-red{
+	cursor:default;
+}
+.title-red p{
+	text-align:center;
+}
+.button-click{
+	
+}
+.title-red button{
+	background:transparent;border:none;color:red;cursor:default;
+	width:165px;text-align:left;font-size:20px;padding:6px 12px;
+}
+
+.title-red button:hover{
+	background:transparent;color:red;
+	
+}
+.text2{
+margin-top:5px;
+}
+.bl{
+	text-align:center;
+}
 
 
+.ul-li div p:nth-child(odd){
+	/*background:rgba(0,0,0,0.03);*/
+}
+.load:hover{
+	background:#5bc0de;
+	color:black;
+}
+.load{
+	border:1px solid rgba(91,192,222,0.2);
+}
+.load2{
+	border:1px solid rgba(0,0,0,0.1);
+	margin-bottom:0;
+	padding:5px;border-radius:5px;
+}
 
+
+@media only screen and (min-width:0px) and (max-width:990px){
+.text2{
+
+}
+.title-red button{
+	width:100%;text-align:center;
+}
+}
 
 
 

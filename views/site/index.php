@@ -100,7 +100,7 @@ $this->title = 'Казино';
 
 			
         
-
+<?php echo Url::to('@img/totalizator.jpg'); ?>
 
 
 

@@ -273,10 +273,10 @@
 <td align=left width=75% style='color: #800000'><u>Отключить Корзину</u></td></tr></table>
 </td></tr> <tr>
 <td align="center">
-<hr class="hr2"/><span id='hours'>19.09.2016 16:23:52</span>
+<hr class="hr2"/><span id='hours'>23.09.2016 20:20:11</span>
 <script type='text/javascript'>
-	            wr_hours(1474280632);
-	            setInterval('wr_hours(1474280632);',1000);
+	            wr_hours(1474640411);
+	            setInterval('wr_hours(1474640411);',1000);
 	            </script><br/>
 <a href="index.php?page=timezone">(GMT +06:00)</a>
 </td>
@@ -338,7 +338,7 @@ setInterval(function(){
 </tr>
 </tbody>
 </table>
-</td></tr><input type=hidden name='asid' value='6263617'><input type=hidden name='psid' value='73adf926f0e930298cbee545c616c3bb'>
+</td></tr><input type=hidden name='asid' value='6053643'><input type=hidden name='psid' value='fd61c92f84672e4074869c856f7bc3f5'>
 </table></form>
 <script language='javascript'>
 function changeConn()
@@ -379,7 +379,7 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
-<font class=txtmed color=black>Ставки</font> Live (40)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>Ставки</font> Live (96)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
@@ -389,7 +389,7 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (900)</a>
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (1386)</a>
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -397,7 +397,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (168)</a>
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (66)</a>
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -405,7 +405,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (22)</a>
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (64)</a>
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -413,7 +413,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (185)</a>
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (199)</a>
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -421,7 +421,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (33)</a>
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (45)</a>
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -429,26 +429,42 @@ setInterval(function(){
 </tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/australian-football" style="color:#000;">Австралийский футбол (3)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=120" style="color:#000;">NASCAR (2)</a>
 </td>
 <td>
-<input id="c5" type="checkbox" name="sel[]" value="91"/>
+<input id="c5" type="checkbox" name="sel[]" value="120"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (24)</a>
+<a class="txtmed" href="/betting/australian-football" style="color:#000;">Австралийский футбол (1)</a>
 </td>
 <td>
-<input id="c6" type="checkbox" name="sel[]" value="6"/>
+<input id="c6" type="checkbox" name="sel[]" value="91"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (16)</a>
+<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (35)</a>
 </td>
 <td>
-<input id="c7" type="checkbox" name="sel[]" value="29"/>
+<input id="c7" type="checkbox" name="sel[]" value="6"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (4)</a>
+</td>
+<td>
+<input id="c8" type="checkbox" name="sel[]" value="51"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (19)</a>
+</td>
+<td>
+<input id="c9" type="checkbox" name="sel[]" value="29"/>
 </td>
 </tr>
 <tr valign="top">
@@ -456,39 +472,47 @@ setInterval(function(){
 <a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (2)</a>
 </td>
 <td>
-<input id="c8" type="checkbox" name="sel[]" value="7"/>
+<input id="c10" type="checkbox" name="sel[]" value="7"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (23)</a>
+<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (33)</a>
 </td>
 <td>
-<input id="c9" type="checkbox" name="sel[]" value="12"/>
+<input id="c11" type="checkbox" name="sel[]" value="12"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (4)</a>
+<a class="txtmed" href="/betting/cycle-racing" style="color:#000;">Велоспорт (1)</a>
 </td>
 <td>
-<input id="c10" type="checkbox" name="sel[]" value="10"/>
+<input id="c12" type="checkbox" name="sel[]" value="44"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (41)</a>
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (23)</a>
 </td>
 <td>
-<input id="c11" type="checkbox" name="sel[]" value="9"/>
+<input id="c13" type="checkbox" name="sel[]" value="10"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (6)</a>
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (100)</a>
 </td>
 <td>
-<input id="c12" type="checkbox" name="sel[]" value="90"/>
+<input id="c14" type="checkbox" name="sel[]" value="9"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (20)</a>
+</td>
+<td>
+<input id="c15" type="checkbox" name="sel[]" value="90"/>
 </td>
 </tr>
 <tr valign="top">
@@ -496,23 +520,23 @@ setInterval(function(){
 <a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (2)</a>
 </td>
 <td>
-<input id="c13" type="checkbox" name="sel[]" value="75"/>
+<input id="c16" type="checkbox" name="sel[]" value="75"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (10)</a>
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (11)</a>
 </td>
 <td>
-<input id="c14" type="checkbox" name="sel[]" value="47"/>
+<input id="c17" type="checkbox" name="sel[]" value="47"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (13)</a>
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (6)</a>
 </td>
 <td>
-<input id="c15" type="checkbox" name="sel[]" value="73"/>
+<input id="c18" type="checkbox" name="sel[]" value="73"/>
 </td>
 </tr>
 <tr valign="top">
@@ -520,31 +544,31 @@ setInterval(function(){
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (9)</a>
 </td>
 <td>
-<input id="c16" type="checkbox" name="sel[]" value="121"/>
+<input id="c19" type="checkbox" name="sel[]" value="121"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/skiing" style="color:#000;">Лыжи (1)</a>
+<a class="txtmed" href="/betting/skiing" style="color:#000;">Лыжи (2)</a>
 </td>
 <td>
-<input id="c17" type="checkbox" name="sel[]" value="38"/>
+<input id="c20" type="checkbox" name="sel[]" value="38"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (2)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (4)</a>
 </td>
 <td>
-<input id="c18" type="checkbox" name="sel[]" value="117"/>
+<input id="c21" type="checkbox" name="sel[]" value="117"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (14)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=115" style="color:#000;">Песапалло (1)</a>
 </td>
 <td>
-<input id="c19" type="checkbox" name="sel[]" value="40"/>
+<input id="c22" type="checkbox" name="sel[]" value="115"/>
 </td>
 </tr>
 <tr valign="top">
@@ -552,71 +576,79 @@ setInterval(function(){
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=88" style="color:#000;">Политика (2)</a>
 </td>
 <td>
-<input id="c20" type="checkbox" name="sel[]" value="88"/>
+<input id="c23" type="checkbox" name="sel[]" value="88"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (6)</a>
+<a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (1)</a>
 </td>
 <td>
-<input id="c21" type="checkbox" name="sel[]" value="85"/>
+<input id="c24" type="checkbox" name="sel[]" value="39"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (17)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=119" style="color:#000;">Ралли (1)</a>
 </td>
 <td>
-<input id="c22" type="checkbox" name="sel[]" value="46"/>
+<input id="c25" type="checkbox" name="sel[]" value="119"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (13)</a>
+<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (9)</a>
 </td>
 <td>
-<input id="c23" type="checkbox" name="sel[]" value="96"/>
+<input id="c26" type="checkbox" name="sel[]" value="85"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (14)</a>
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (57)</a>
 </td>
 <td>
-<input id="c24" type="checkbox" name="sel[]" value="4"/>
+<input id="c27" type="checkbox" name="sel[]" value="46"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (1)</a>
+<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (22)</a>
 </td>
 <td>
-<input id="c25" type="checkbox" name="sel[]" value="113"/>
+<input id="c28" type="checkbox" name="sel[]" value="96"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (1)</a>
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (4)</a>
 </td>
 <td>
-<input id="c26" type="checkbox" name="sel[]" value="33"/>
+<input id="c29" type="checkbox" name="sel[]" value="4"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (8)</a>
+<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (37)</a>
 </td>
 <td>
-<input id="c27" type="checkbox" name="sel[]" value="11"/>
+<input id="c30" type="checkbox" name="sel[]" value="113"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/bowls" style="color:#000;">Шары (8)</a>
+<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (3)</a>
 </td>
 <td>
-<input id="c28" type="checkbox" name="sel[]" value="93"/>
+<input id="c31" type="checkbox" name="sel[]" value="33"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (5)</a>
+</td>
+<td>
+<input id="c32" type="checkbox" name="sel[]" value="11"/>
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -624,16 +656,16 @@ setInterval(function(){
                 {
                     if(checked==0) checked=1;
                     else checked=0;
-                    for(var ci=0;ci<29;ci++)
+                    for(var ci=0;ci<33;ci++)
                         document.getElementById('c'+ci).checked=checked;
-                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1548)</a>';
-                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1548)</a>'
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (2176)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (2176)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
 </td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1></td></tr>
 <tr><td colspan=2 id='selall' align=middle>
-<a href='javascript:selall();'>Выбрать все (1548)</a> </td>
+<a href='javascript:selall();'>Выбрать все (2176)</a> </td>
 </tr>
 <input type="hidden" name="page" value="line"/>
 <input type="hidden" name="action" value="1"/>
@@ -695,7 +727,7 @@ Live-Ставки </H1>
 <input type="hidden" name="page" value="setbet"/>
 <div id="betline">
 <center><table><tr><td><input type='checkbox' checked='checked' id=refresh value='1' onclick='javascript:save_upd();'></td><td><b>
-<a href='javascript:window.location="index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=26731728";'>Обновлять</a> страницу автоматически (каждые <select class=loginbox style='width:40px;' id=refrate onChange='change_rr();'>
+<a href='javascript:window.location="index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=26782036";'>Обновлять</a> страницу автоматически (каждые <select class=loginbox style='width:40px;' id=refrate onChange='change_rr();'>
 <option value='5'>5</option>
 <option value='10' selected>10</option>
  
@@ -708,7 +740,7 @@ Live-Ставки </H1>
 										rr=document.getElementById('refrate').value;
 										document.cookie="refrate="+rr+";";
 										if(h_int) clearInterval(h_int);
-									  	h_int=setInterval("ajax_rload('ajax_index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=26731728')", rr*1000);
+									  	h_int=setInterval("ajax_rload('ajax_index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=26782036')", rr*1000);
 									  }
                                       function save_upd()
                                       {
@@ -717,16 +749,16 @@ Live-Ставки </H1>
                                       }
                                       change_rr();
 	                                  </script><table class="smallwnd2" style="width:99%"><tr class='m_c' align=center>
-<td class=smwndcap width='90%'><font class=g>Live. </font> Футбол. Япония. 3-й дивизион<a name='ch86922'></a></td>
+<td class=smwndcap width='90%'><font class=g>Live. </font> Футбол. ОАЭ. Про-лига<a name='ch11906'></a></td>
 <td class=smwndcap width='10%' align=center valign=center nowrap>- - -</td></tr>
 <tr><td colspan=2>
 <i><div align=left style='WIDTH: 96%;'>
-<a href='javascript: ShowAddons("86922")' class='show_all_odds' data-champ_id='86922'>
-<span id='t86922_1' class=tab>Показать роспись</span></a><span class=tab><a href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
-<td width='20%' align=center>19.09.2016 15:00<br><i><font class=m>Онлайн</font></i></td>
-<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b>ФК Рюкю - Грулья Мориока<div style='float: left; margin-right: 10px;'><a href='javascript:openmtbr(8999167,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26731728"></a><br><font class=txtmed style='color:red; white-space: nowrap;'>2:1 (2:1) 66", Счет по угловым 5:0</font></b></font></div></td>
+<a href='javascript: ShowAddons("11906")' class='show_all_odds' data-champ_id='11906'>
+<span id='t11906_1' class=tab>Показать роспись</span></a><span class=tab><a href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
+<td width='20%' align=center>23.09.2016 19:25<br><i><font class=m>Онлайн</font></i></td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b>Аль-Шарджа - Хатта<div style='float: left; margin-right: 10px;'><a href='javascript:openvideo(26782036);'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'><a href='javascript:openmtbr(9786001,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26782036"></a><br><font class=txtmed style='color:red; white-space: nowrap;'>2:0 (2:0) , Счет по угловым 1:0, Перерыв</font></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26731728' data-match-id='26731728' data-match-count='0' data-cont='0' data-champ='86922'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_577737897.1" data-select="577737897.1" data-v1="1.06" data-v2="1" data-v3="1" data-match="26731728" data-id="577737897.1" data-live="b1" class="koefs"><b>1.06</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_577737898.1" data-select="577737898.1" data-v1="10" data-v2="1" data-v3="1" data-match="26731728" data-id="577737898.1" data-live="b1" class="koefs"><b>10</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_577737899.1" data-select="577737899.1" data-v1="51" data-v2="1" data-v3="1" data-match="26731728" data-id="577737899.1" data-live="b1" class="koefs"><b>51</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_577737901.1" data-select="577737901.1" data-v1="1.05" data-v2="1" data-v3="1" data-match="26731728" data-id="577737901.1" data-live="b1" class="koefs"><b>1.05</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_577737902.1" data-select="577737902.1" data-v1="9" data-v2="1" data-v3="1" data-match="26731728" data-id="577737902.1" data-live="b1" class="koefs"><b>9</b></span>   &nbsp;</nobr> <nobr>Ф1(-1.5) -&nbsp;&nbsp;<span id="koefs_577737911:26731728:2:4:-1.5:1:0" data-select="26731728:2:4:-1.5:1:0" data-v1="-1.5" data-v2="1.93" data-v3="1" data-match="26731728" data-id="577737911:26731728:2:4:-1.5:1:0" data-live="b1" class="koefs"><b>1.93</b></span>   &nbsp;</nobr> <nobr>Ф2(1.5) -&nbsp;&nbsp;<span id="koefs_577737912:26731728:2:4:1.5:2:0" data-select="26731728:2:4:1.5:2:0" data-v1="1.5" data-v2="1.78" data-v3="1" data-match="26731728" data-id="577737912:26731728:2:4:1.5:2:0" data-live="b1" class="koefs"><b>1.78</b></span>   &nbsp;</nobr> <nobr>Тот(4) М -&nbsp;&nbsp;<span id="koefs_577737930:26731728:2:5:4:1:0" data-select="26731728:2:5:4:1:0" data-v1="4" data-v2="1.57" data-v3="2.26" data-match="26731728" data-id="577737930:26731728:2:5:4:1:0" data-live="b1" class="koefs"><b>1.57</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_577737930:26731728:3:5:4:1:0" data-select="26731728:3:5:4:1:0" data-v1="4" data-v2="1.57" data-v3="2.26" data-match="26731728" data-id="577737930:26731728:3:5:4:1:0" data-live="b1" class="koefs"><b>2.26</b></span>   &nbsp;</nobr> <div id="r86922_0"><br/><b><i>Голы:</i></b><br/><nobr>ФК Рюкю забьет 2-3 гола -&nbsp;&nbsp;<span id="koefs_578142729.1" data-select="578142729.1" data-v1="1.17" data-v2="1" data-v3="1" data-match="26731728" data-id="578142729.1" data-live="b1" class="koefs"><b>1.17</b></span>   &nbsp;</nobr> <nobr>ФК Рюкю забьет 4 гола и больше -&nbsp;&nbsp;<span id="koefs_578142730.1" data-select="578142730.1" data-v1="4.4" data-v2="1" data-v3="1" data-match="26731728" data-id="578142730.1" data-live="b1" class="koefs"><b>4.4</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока забьет 0-1 голов -&nbsp;&nbsp;<span id="koefs_578142731.1" data-select="578142731.1" data-v1="1.17" data-v2="1" data-v3="1" data-match="26731728" data-id="578142731.1" data-live="b1" class="koefs"><b>1.17</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока забьет 2-3 гола -&nbsp;&nbsp;<span id="koefs_578142732.1" data-select="578142732.1" data-v1="4.7" data-v2="1" data-v3="1" data-match="26731728" data-id="578142732.1" data-live="b1" class="koefs"><b>4.7</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока забьет 4 гола и больше -&nbsp;&nbsp;<span id="koefs_578142733.1" data-select="578142733.1" data-v1="34" data-v2="1" data-v3="1" data-match="26731728" data-id="578142733.1" data-live="b1" class="koefs"><b>34</b></span>   &nbsp;</nobr> <br/><br/><b><i>Инд.тотал:</i></b><br/><nobr>ФК Рюкю (2.5) мен -&nbsp;&nbsp;<span id="koefs_577737941:26731728:2:7:2.5:1:0" data-select="26731728:2:7:2.5:1:0" data-v1="2.5" data-v2="2.01" data-v3="1.71" data-match="26731728" data-id="577737941:26731728:2:7:2.5:1:0" data-live="b1" class="koefs"><b>2.01</b></span>   &nbsp;ФК Рюкю (2.5) бол -&nbsp;&nbsp;<span id="koefs_577737941:26731728:3:7:2.5:1:0" data-select="26731728:3:7:2.5:1:0" data-v1="2.5" data-v2="2.01" data-v3="1.71" data-match="26731728" data-id="577737941:26731728:3:7:2.5:1:0" data-live="b1" class="koefs"><b>1.71</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока (1.5) мен -&nbsp;&nbsp;<span id="koefs_577737946:26731728:2:8:1.5:1:0" data-select="26731728:2:8:1.5:1:0" data-v1="1.5" data-v2="1.17" data-v3="4.4" data-match="26731728" data-id="577737946:26731728:2:8:1.5:1:0" data-live="b1" class="koefs"><b>1.17</b></span>   &nbsp;Грулья Мориока (1.5) бол -&nbsp;&nbsp;<span id="koefs_577737946:26731728:3:8:1.5:1:0" data-select="26731728:3:8:1.5:1:0" data-v1="1.5" data-v2="1.17" data-v3="4.4" data-match="26731728" data-id="577737946:26731728:3:8:1.5:1:0" data-live="b1" class="koefs"><b>4.4</b></span>   &nbsp;</nobr> <nobr>ФК Рюкю (3) мен -&nbsp;&nbsp;<span id="koefs_577737942:26731728:2:7:3:1:0" data-select="26731728:2:7:3:1:0" data-v1="3" data-v2="1.32" data-v3="3.08" data-match="26731728" data-id="577737942:26731728:2:7:3:1:0" data-live="b1" class="koefs"><b>1.32</b></span>   &nbsp;ФК Рюкю (3) бол -&nbsp;&nbsp;<span id="koefs_577737942:26731728:3:7:3:1:0" data-select="26731728:3:7:3:1:0" data-v1="3" data-v2="1.32" data-v3="3.08" data-match="26731728" data-id="577737942:26731728:3:7:3:1:0" data-live="b1" class="koefs"><b>3.08</b></span>   &nbsp;</nobr> <br/><br/><b><i>Голы по командам:</i></b><br/><nobr>ФК Рюкю: 2 гола -&nbsp;&nbsp;<span id="koefs_577737984.1" data-select="577737984.1" data-v1="2.01" data-v2="1" data-v3="1" data-match="26731728" data-id="577737984.1" data-live="b1" class="koefs"><b>2.01</b></span>   &nbsp;</nobr> <nobr>ФК Рюкю: 3 гола -&nbsp;&nbsp;<span id="koefs_578142724.1" data-select="578142724.1" data-v1="2.3" data-v2="1" data-v3="1" data-match="26731728" data-id="578142724.1" data-live="b1" class="koefs"><b>2.3</b></span>   &nbsp;</nobr> <nobr>ФК Рюкю: 4 гола -&nbsp;&nbsp;<span id="koefs_578142725.1" data-select="578142725.1" data-v1="5.2" data-v2="1" data-v3="1" data-match="26731728" data-id="578142725.1" data-live="b1" class="koefs"><b>5.2</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока: 1 гол -&nbsp;&nbsp;<span id="koefs_577737987.1" data-select="577737987.1" data-v1="1.17" data-v2="1" data-v3="1" data-match="26731728" data-id="577737987.1" data-live="b1" class="koefs"><b>1.17</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока: 2 гола -&nbsp;&nbsp;<span id="koefs_577737988.1" data-select="577737988.1" data-v1="4.7" data-v2="1" data-v3="1" data-match="26731728" data-id="577737988.1" data-live="b1" class="koefs"><b>4.7</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока: 3 гола -&nbsp;&nbsp;<span id="koefs_578142726.1" data-select="578142726.1" data-v1="26" data-v2="1" data-v3="1" data-match="26731728" data-id="578142726.1" data-live="b1" class="koefs"><b>26</b></span>   &nbsp;</nobr> <br/><br/><b><i>Счет:</i></b><br/><nobr>2:1 -&nbsp;&nbsp;<span id="koefs_578142743.1" data-select="578142743.1" data-v1="2.4" data-v2="1" data-v3="1" data-match="26731728" data-id="578142743.1" data-live="b1" class="koefs"><b>2.4</b></span>   &nbsp;</nobr> <nobr>3:1 -&nbsp;&nbsp;<span id="koefs_578142745.1" data-select="578142745.1" data-v1="2.35" data-v2="1" data-v3="1" data-match="26731728" data-id="578142745.1" data-live="b1" class="koefs"><b>2.35</b></span>   &nbsp;</nobr> <nobr>3:2 -&nbsp;&nbsp;<span id="koefs_578142746.1" data-select="578142746.1" data-v1="7.25" data-v2="1" data-v3="1" data-match="26731728" data-id="578142746.1" data-live="b1" class="koefs"><b>7.25</b></span>   &nbsp;</nobr> <nobr>4:1 -&nbsp;&nbsp;<span id="koefs_578142748.1" data-select="578142748.1" data-v1="4.7" data-v2="1" data-v3="1" data-match="26731728" data-id="578142748.1" data-live="b1" class="koefs"><b>4.7</b></span>   &nbsp;</nobr> <nobr>4:2 -&nbsp;&nbsp;<span id="koefs_578142749.1" data-select="578142749.1" data-v1="12" data-v2="1" data-v3="1" data-match="26731728" data-id="578142749.1" data-live="b1" class="koefs"><b>12</b></span>   &nbsp;</nobr> <nobr>4:3 -&nbsp;&nbsp;<span id="koefs_578142750.1" data-select="578142750.1" data-v1="29" data-v2="1" data-v3="1" data-match="26731728" data-id="578142750.1" data-live="b1" class="koefs"><b>29</b></span>   &nbsp;</nobr> <nobr>5:1 -&nbsp;&nbsp;<span id="koefs_578142752.1" data-select="578142752.1" data-v1="10.5" data-v2="1" data-v3="1" data-match="26731728" data-id="578142752.1" data-live="b1" class="koefs"><b>10.5</b></span>   &nbsp;</nobr> <nobr>2:2 -&nbsp;&nbsp;<span id="koefs_578142739.1" data-select="578142739.1" data-v1="6.75" data-v2="1" data-v3="1" data-match="26731728" data-id="578142739.1" data-live="b1" class="koefs"><b>6.75</b></span>   &nbsp;</nobr> <nobr>3:3 -&nbsp;&nbsp;<span id="koefs_578142740.1" data-select="578142740.1" data-v1="21" data-v2="1" data-v3="1" data-match="26731728" data-id="578142740.1" data-live="b1" class="koefs"><b>21</b></span>   &nbsp;</nobr> <nobr>2:3 -&nbsp;&nbsp;<span id="koefs_578142758.1" data-select="578142758.1" data-v1="21" data-v2="1" data-v3="1" data-match="26731728" data-id="578142758.1" data-live="b1" class="koefs"><b>21</b></span>   &nbsp;</nobr> <nobr>6:1 -&nbsp;&nbsp;<span id="koefs_578151645.1" data-select="578151645.1" data-v1="21" data-v2="1" data-v3="1" data-match="26731728" data-id="578151645.1" data-live="b1" class="koefs"><b>21</b></span>   &nbsp;</nobr> <nobr>5:2 -&nbsp;&nbsp;<span id="koefs_578150220.1" data-select="578150220.1" data-v1="21" data-v2="1" data-v3="1" data-match="26731728" data-id="578150220.1" data-live="b1" class="koefs"><b>21</b></span>   &nbsp;</nobr> <br/><br/><b><i>Доп. тотал:</i></b><br/><nobr>Тотал (3.5) мен -&nbsp;&nbsp;<span id="koefs_577737931:26731728:2:5:3.5:1:0" data-select="26731728:2:5:3.5:1:0" data-v1="3.5" data-v2="2.4" data-v3="1.49" data-match="26731728" data-id="577737931:26731728:2:5:3.5:1:0" data-live="b1" class="koefs"><b>2.4</b></span>   &nbsp;Тотал (3.5) бол -&nbsp;&nbsp;<span id="koefs_577737931:26731728:3:5:3.5:1:0" data-select="26731728:3:5:3.5:1:0" data-v1="3.5" data-v2="2.4" data-v3="1.49" data-match="26731728" data-id="577737931:26731728:3:5:3.5:1:0" data-live="b1" class="koefs"><b>1.49</b></span>   &nbsp;</nobr> <nobr>Тотал (4.5) мен -&nbsp;&nbsp;<span id="koefs_577737932:26731728:2:5:4.5:1:0" data-select="26731728:2:5:4.5:1:0" data-v1="4.5" data-v2="1.28" data-v3="3.3" data-match="26731728" data-id="577737932:26731728:2:5:4.5:1:0" data-live="b1" class="koefs"><b>1.28</b></span>   &nbsp;Тотал (4.5) бол -&nbsp;&nbsp;<span id="koefs_577737932:26731728:3:5:4.5:1:0" data-select="26731728:3:5:4.5:1:0" data-v1="4.5" data-v2="1.28" data-v3="3.3" data-match="26731728" data-id="577737932:26731728:3:5:4.5:1:0" data-live="b1" class="koefs"><b>3.3</b></span>   &nbsp;</nobr> <br/><br/><b><i>Тотал матча:</i></b><br/><nobr>Чет -&nbsp;&nbsp;<span id="koefs_577737980.1" data-select="577737980.1" data-v1="2.15" data-v2="1" data-v3="1" data-match="26731728" data-id="577737980.1" data-live="b1" class="koefs"><b>2.15</b></span>   &nbsp;</nobr> <nobr>Нечет -&nbsp;&nbsp;<span id="koefs_577737981.1" data-select="577737981.1" data-v1="1.62" data-v2="1" data-v3="1" data-match="26731728" data-id="577737981.1" data-live="b1" class="koefs"><b>1.62</b></span>   &nbsp;</nobr> <br/><br/><b><i>Победа с учетом форы:</i></b><br/><nobr>ФК Рюкю (-2.5) -&nbsp;&nbsp;<span id="koefs_577737909:26731728:2:4:-2.5:1:0" data-select="26731728:2:4:-2.5:1:0" data-v1="-2.5" data-v2="4.87" data-v3="1" data-match="26731728" data-id="577737909:26731728:2:4:-2.5:1:0" data-live="b1" class="koefs"><b>4.87</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока (2.5) -&nbsp;&nbsp;<span id="koefs_577737910:26731728:2:4:2.5:2:0" data-select="26731728:2:4:2.5:2:0" data-v1="2.5" data-v2="1.14" data-v3="1" data-match="26731728" data-id="577737910:26731728:2:4:2.5:2:0" data-live="b1" class="koefs"><b>1.14</b></span>   &nbsp;</nobr> <nobr>ФК Рюкю (-2) -&nbsp;&nbsp;<span id="koefs_577737913:26731728:2:4:-2:1:0" data-select="26731728:2:4:-2:1:0" data-v1="-2" data-v2="3.7" data-v3="1" data-match="26731728" data-id="577737913:26731728:2:4:-2:1:0" data-live="b1" class="koefs"><b>3.7</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока (2) -&nbsp;&nbsp;<span id="koefs_577737914:26731728:2:4:2:2:0" data-select="26731728:2:4:2:2:0" data-v1="2" data-v2="1.23" data-v3="1" data-match="26731728" data-id="577737914:26731728:2:4:2:2:0" data-live="b1" class="koefs"><b>1.23</b></span>   &nbsp;</nobr> <nobr>ФК Рюкю (-1) -&nbsp;&nbsp;<span id="koefs_577737915:26731728:2:4:-1:1:0" data-select="26731728:2:4:-1:1:0" data-v1="-1" data-v2="1.13" data-v3="1" data-match="26731728" data-id="577737915:26731728:2:4:-1:1:0" data-live="b1" class="koefs"><b>1.13</b></span>   &nbsp;</nobr> <nobr>Грулья Мориока (1) -&nbsp;&nbsp;<span id="koefs_577737916:26731728:2:4:1:2:0" data-select="26731728:2:4:1:2:0" data-v1="1" data-v2="5.14" data-v3="1" data-match="26731728" data-id="577737916:26731728:2:4:1:2:0" data-live="b1" class="koefs"><b>5.14</b></span>   &nbsp;</nobr> <br/><br/><b><i>Следующий гол:</i></b><br/><nobr>4-й гол ФК Рюкю -&nbsp;&nbsp;<span id="koefs_578159353.1" data-select="578159353.1" data-v1="1.85" data-v2="1" data-v3="1" data-match="26731728" data-id="578159353.1" data-live="b1" class="koefs"><b>1.85</b></span>   &nbsp;</nobr> <nobr>4-й гол Грулья Мориока -&nbsp;&nbsp;<span id="koefs_578159355.1" data-select="578159355.1" data-v1="6.5" data-v2="1" data-v3="1" data-match="26731728" data-id="578159355.1" data-live="b1" class="koefs"><b>6.5</b></span>   &nbsp;</nobr> <nobr>4-го гола не будет -&nbsp;&nbsp;<span id="koefs_578159354.1" data-select="578159354.1" data-v1="2.4" data-v2="1" data-v3="1" data-match="26731728" data-id="578159354.1" data-live="b1" class="koefs"><b>2.4</b></span>   &nbsp;</nobr> <br/><br/><b><i>Время следующего гола:</i></b><br/><nobr>4-й гол с 61-й до 70-й мин -&nbsp;&nbsp;<span id="koefs_578159358.1" data-select="578159358.1" data-v1="6" data-v2="1" data-v3="1" data-match="26731728" data-id="578159358.1" data-live="b1" class="koefs"><b>6</b></span>   &nbsp;</nobr> <nobr>4-й гол с 71-й до 80-й мин -&nbsp;&nbsp;<span id="koefs_578159359.1" data-select="578159359.1" data-v1="3.4" data-v2="1" data-v3="1" data-match="26731728" data-id="578159359.1" data-live="b1" class="koefs"><b>3.4</b></span>   &nbsp;</nobr> <nobr>4-й гол с 81-й до 90-й мин -&nbsp;&nbsp;<span id="koefs_578159360.1" data-select="578159360.1" data-v1="3.5" data-v2="1" data-v3="1" data-match="26731728" data-id="578159360.1" data-live="b1" class="koefs"><b>3.5</b></span>   &nbsp;</nobr> <nobr>4-го гола не будет -&nbsp;&nbsp;<span id="koefs_578159361.1" data-select="578159361.1" data-v1="2.4" data-v2="1" data-v3="1" data-match="26731728" data-id="578159361.1" data-live="b1" class="koefs"><b>2.4</b></span>   &nbsp;</nobr> <br/><br/><b><i>Точное количество голов:</i></b><br/><nobr>3 гола -&nbsp;&nbsp;<span id="koefs_577738000.1" data-select="577738000.1" data-v1="2.4" data-v2="1" data-v3="1" data-match="26731728" data-id="577738000.1" data-live="b1" class="koefs"><b>2.4</b></span>   &nbsp;</nobr> <nobr>4 гола -&nbsp;&nbsp;<span id="koefs_577738001.1" data-select="577738001.1" data-v1="2.05" data-v2="1" data-v3="1" data-match="26731728" data-id="577738001.1" data-live="b1" class="koefs"><b>2.05</b></span>   &nbsp;</nobr> <nobr>5 голов -&nbsp;&nbsp;<span id="koefs_577738002.1" data-select="577738002.1" data-v1="3.4" data-v2="1" data-v3="1" data-match="26731728" data-id="577738002.1" data-live="b1" class="koefs"><b>3.4</b></span>   &nbsp;</nobr> <nobr>6 голов -&nbsp;&nbsp;<span id="koefs_578142734.1" data-select="578142734.1" data-v1="8" data-v2="1" data-v3="1" data-match="26731728" data-id="578142734.1" data-live="b1" class="koefs"><b>8</b></span>   &nbsp;</nobr> <nobr>7 голов -&nbsp;&nbsp;<span id="koefs_578142735.1" data-select="578142735.1" data-v1="16.5" data-v2="1" data-v3="1" data-match="26731728" data-id="578142735.1" data-live="b1" class="koefs"><b>16.5</b></span>   &nbsp;</nobr> <nobr>8 голов -&nbsp;&nbsp;<span id="koefs_578142736.1" data-select="578142736.1" data-v1="29" data-v2="1" data-v3="1" data-match="26731728" data-id="578142736.1" data-live="b1" class="koefs"><b>29</b></span>   &nbsp;</nobr> </div></div></td></tr></table></td></tr></table><div align="justify" style="width:96%"><hr class="hr2"/><a name="index"></a><b>Оглавление</b><br><br><table><tr><td valign="top" align="left"><i><span id="t86922_2" style="display:none"></span><a href="#ch86922">Футбол. Япония. 3-й дивизион</a><br/></i></td></tr></table><br><i>&nbsp;<a href="#top">Наверх</a></i></div><input type="hidden" name="r_max" value="1"/><input type="hidden" name="currpage" value="live"/> </div>
+<tr><td colspan=2><div class=tab id='odd26782036' data-match-id='26782036' data-match-count='0' data-cont='0' data-champ='11906'><nobr>Ф1(-2.5) -&nbsp;&nbsp;<span id="koefs_579741974:26782036:2:4:-2.5:1:0" data-select="26782036:2:4:-2.5:1:0" data-v1="-2.5" data-v2="1.81" data-v3="1" data-match="26782036" data-id="579741974:26782036:2:4:-2.5:1:0" data-live="b1" class="koefs"><b>1.81</b></span>   &nbsp;</nobr> <nobr>Ф2(2.5) -&nbsp;&nbsp;<span id="koefs_579741975:26782036:2:4:2.5:2:0" data-select="26782036:2:4:2.5:2:0" data-v1="2.5" data-v2="1.89" data-v3="1" data-match="26782036" data-id="579741975:26782036:2:4:2.5:2:0" data-live="b1" class="koefs"><b>1.89</b></span>   &nbsp;</nobr> <nobr>Тот(3.5) М -&nbsp;&nbsp;<span id="koefs_579741994:26782036:2:5:3.5:1:0" data-select="26782036:2:5:3.5:1:0" data-v1="3.5" data-v2="2.01" data-v3="1.71" data-match="26782036" data-id="579741994:26782036:2:5:3.5:1:0" data-live="b1" class="koefs"><b>2.01</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_579741994:26782036:3:5:3.5:1:0" data-select="26782036:3:5:3.5:1:0" data-v1="3.5" data-v2="2.01" data-v3="1.71" data-match="26782036" data-id="579741994:26782036:3:5:3.5:1:0" data-live="b1" class="koefs"><b>1.71</b></span>   &nbsp;</nobr> <div id="r11906_0"><br/><b><i>Голы:</i></b><br/><nobr>Обе забьют: да -&nbsp;&nbsp;<span id="koefs_579742032.2" data-select="579742032.2" data-v1="1" data-v2="2.06" data-v3="1.68" data-match="26782036" data-id="579742032.2" data-live="b1" class="koefs"><b>2.06</b></span>  &nbsp; Обе забьют: нет -&nbsp;&nbsp;<span id="koefs_579742032.3" data-select="579742032.3" data-v1="1" data-v2="2.06" data-v3="1.68" data-match="26782036" data-id="579742032.3" data-live="b1" class="koefs"><b>1.68</b></span>   &nbsp;</nobr> <nobr>Аль-Шарджа забьет 2-3 гола -&nbsp;&nbsp;<span id="koefs_580352530.1" data-select="580352530.1" data-v1="1.42" data-v2="1" data-v3="1" data-match="26782036" data-id="580352530.1" data-live="b1" class="koefs"><b>1.42</b></span>   &nbsp;</nobr> <nobr>Аль-Шарджа забьет 4 гола и больше -&nbsp;&nbsp;<span id="koefs_580352531.1" data-select="580352531.1" data-v1="2.64" data-v2="1" data-v3="1" data-match="26782036" data-id="580352531.1" data-live="b1" class="koefs"><b>2.64</b></span>   &nbsp;</nobr> <nobr>Хатта забьет 0-1 голов -&nbsp;&nbsp;<span id="koefs_580352532.1" data-select="580352532.1" data-v1="1.1" data-v2="1" data-v3="1" data-match="26782036" data-id="580352532.1" data-live="b1" class="koefs"><b>1.1</b></span>   &nbsp;</nobr> <nobr>Хатта забьет 2-3 гола -&nbsp;&nbsp;<span id="koefs_580352533.1" data-select="580352533.1" data-v1="7" data-v2="1" data-v3="1" data-match="26782036" data-id="580352533.1" data-live="b1" class="koefs"><b>7</b></span>   &nbsp;</nobr> <nobr>Хатта забьет 4 гола и больше -&nbsp;&nbsp;<span id="koefs_580352534.1" data-select="580352534.1" data-v1="34" data-v2="1" data-v3="1" data-match="26782036" data-id="580352534.1" data-live="b1" class="koefs"><b>34</b></span>   &nbsp;</nobr> <br/><br/><b><i>Инд.тотал:</i></b><br/><nobr>Аль-Шарджа (3) мен -&nbsp;&nbsp;<span id="koefs_579742005:26782036:2:7:3:1:0" data-select="26782036:2:7:3:1:0" data-v1="3" data-v2="1.97" data-v3="1.75" data-match="26782036" data-id="579742005:26782036:2:7:3:1:0" data-live="b1" class="koefs"><b>1.97</b></span>   &nbsp;Аль-Шарджа (3) бол -&nbsp;&nbsp;<span id="koefs_579742005:26782036:3:7:3:1:0" data-select="26782036:3:7:3:1:0" data-v1="3" data-v2="1.97" data-v3="1.75" data-match="26782036" data-id="579742005:26782036:3:7:3:1:0" data-live="b1" class="koefs"><b>1.75</b></span>   &nbsp;</nobr> <nobr>Хатта (1) мен -&nbsp;&nbsp;<span id="koefs_579742012:26782036:2:8:1:1:0" data-select="26782036:2:8:1:1:0" data-v1="1" data-v2="1.16" data-v3="4.63" data-match="26782036" data-id="579742012:26782036:2:8:1:1:0" data-live="b1" class="koefs"><b>1.16</b></span>   &nbsp;Хатта (1) бол -&nbsp;&nbsp;<span id="koefs_579742012:26782036:3:8:1:1:0" data-select="26782036:3:8:1:1:0" data-v1="1" data-v2="1.16" data-v3="4.63" data-match="26782036" data-id="579742012:26782036:3:8:1:1:0" data-live="b1" class="koefs"><b>4.63</b></span>   &nbsp;</nobr> <nobr>Аль-Шарджа (3.5) мен -&nbsp;&nbsp;<span id="koefs_579742006:26782036:2:7:3.5:1:0" data-select="26782036:2:7:3.5:1:0" data-v1="3.5" data-v2="1.42" data-v3="2.64" data-match="26782036" data-id="579742006:26782036:2:7:3.5:1:0" data-live="b1" class="koefs"><b>1.42</b></span>   &nbsp;Аль-Шарджа (3.5) бол -&nbsp;&nbsp;<span id="koefs_579742006:26782036:3:7:3.5:1:0" data-select="26782036:3:7:3.5:1:0" data-v1="3.5" data-v2="1.42" data-v3="2.64" data-match="26782036" data-id="579742006:26782036:3:7:3.5:1:0" data-live="b1" class="koefs"><b>2.64</b></span>   &nbsp;</nobr> <br/><br/><b><i>Голы по командам:</i></b><br/><nobr>Аль-Шарджа: 2 гола -&nbsp;&nbsp;<span id="koefs_579742092.1" data-select="579742092.1" data-v1="2.98" data-v2="1" data-v3="1" data-match="26782036" data-id="579742092.1" data-live="b1" class="koefs"><b>2.98</b></span>   &nbsp;</nobr> <nobr>Аль-Шарджа: 3 гола -&nbsp;&nbsp;<span id="koefs_580352525.1" data-select="580352525.1" data-v1="2.3" data-v2="1" data-v3="1" data-match="26782036" data-id="580352525.1" data-live="b1" class="koefs"><b>2.3</b></span>   &nbsp;</nobr> <nobr>Аль-Шарджа: 4 гола -&nbsp;&nbsp;<span id="koefs_580352526.1" data-select="580352526.1" data-v1="3.5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352526.1" data-live="b1" class="koefs"><b>3.5</b></span>   &nbsp;</nobr> <nobr>Хатта: 0 голов -&nbsp;&nbsp;<span id="koefs_579742094.1" data-select="579742094.1" data-v1="1.61" data-v2="1" data-v3="1" data-match="26782036" data-id="579742094.1" data-live="b1" class="koefs"><b>1.61</b></span>   &nbsp;</nobr> <nobr>Хатта: 1 гол -&nbsp;&nbsp;<span id="koefs_579742095.1" data-select="579742095.1" data-v1="2.5" data-v2="1" data-v3="1" data-match="26782036" data-id="579742095.1" data-live="b1" class="koefs"><b>2.5</b></span>   &nbsp;</nobr> <nobr>Хатта: 2 гола -&nbsp;&nbsp;<span id="koefs_579742096.1" data-select="579742096.1" data-v1="7" data-v2="1" data-v3="1" data-match="26782036" data-id="579742096.1" data-live="b1" class="koefs"><b>7</b></span>   &nbsp;</nobr> <nobr>Хатта: 3 гола -&nbsp;&nbsp;<span id="koefs_580352527.1" data-select="580352527.1" data-v1="23" data-v2="1" data-v3="1" data-match="26782036" data-id="580352527.1" data-live="b1" class="koefs"><b>23</b></span>   &nbsp;</nobr> <nobr>Хатта: 4 гола -&nbsp;&nbsp;<span id="koefs_580352528.1" data-select="580352528.1" data-v1="34" data-v2="1" data-v3="1" data-match="26782036" data-id="580352528.1" data-live="b1" class="koefs"><b>34</b></span>   &nbsp;</nobr> <br/><br/><b><i>Счет:</i></b><br/><nobr>2:0 -&nbsp;&nbsp;<span id="koefs_580352546.1" data-select="580352546.1" data-v1="5.25" data-v2="1" data-v3="1" data-match="26782036" data-id="580352546.1" data-live="b1" class="koefs"><b>5.25</b></span>   &nbsp;</nobr> <nobr>2:1 -&nbsp;&nbsp;<span id="koefs_580352547.1" data-select="580352547.1" data-v1="5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352547.1" data-live="b1" class="koefs"><b>5</b></span>   &nbsp;</nobr> <nobr>3:0 -&nbsp;&nbsp;<span id="koefs_580352548.1" data-select="580352548.1" data-v1="3.11" data-v2="1" data-v3="1" data-match="26782036" data-id="580352548.1" data-live="b1" class="koefs"><b>3.11</b></span>   &nbsp;</nobr> <nobr>3:1 -&nbsp;&nbsp;<span id="koefs_580352549.1" data-select="580352549.1" data-v1="4.5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352549.1" data-live="b1" class="koefs"><b>4.5</b></span>   &nbsp;</nobr> <nobr>3:2 -&nbsp;&nbsp;<span id="koefs_580352550.1" data-select="580352550.1" data-v1="9.5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352550.1" data-live="b1" class="koefs"><b>9.5</b></span>   &nbsp;</nobr> <nobr>4:0 -&nbsp;&nbsp;<span id="koefs_580352551.1" data-select="580352551.1" data-v1="4.5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352551.1" data-live="b1" class="koefs"><b>4.5</b></span>   &nbsp;</nobr> <nobr>4:1 -&nbsp;&nbsp;<span id="koefs_580352552.1" data-select="580352552.1" data-v1="6.5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352552.1" data-live="b1" class="koefs"><b>6.5</b></span>   &nbsp;</nobr> <nobr>4:2 -&nbsp;&nbsp;<span id="koefs_580352553.1" data-select="580352553.1" data-v1="12.5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352553.1" data-live="b1" class="koefs"><b>12.5</b></span>   &nbsp;</nobr> <nobr>4:3 -&nbsp;&nbsp;<span id="koefs_580352554.1" data-select="580352554.1" data-v1="23" data-v2="1" data-v3="1" data-match="26782036" data-id="580352554.1" data-live="b1" class="koefs"><b>23</b></span>   &nbsp;</nobr> <nobr>5:0 -&nbsp;&nbsp;<span id="koefs_580352555.1" data-select="580352555.1" data-v1="8.25" data-v2="1" data-v3="1" data-match="26782036" data-id="580352555.1" data-live="b1" class="koefs"><b>8.25</b></span>   &nbsp;</nobr> <nobr>5:1 -&nbsp;&nbsp;<span id="koefs_580352556.1" data-select="580352556.1" data-v1="11" data-v2="1" data-v3="1" data-match="26782036" data-id="580352556.1" data-live="b1" class="koefs"><b>11</b></span>   &nbsp;</nobr> <nobr>6:0 -&nbsp;&nbsp;<span id="koefs_580352558.1" data-select="580352558.1" data-v1="14.5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352558.1" data-live="b1" class="koefs"><b>14.5</b></span>   &nbsp;</nobr> <nobr>2:2 -&nbsp;&nbsp;<span id="koefs_580352562.1" data-select="580352562.1" data-v1="11" data-v2="1" data-v3="1" data-match="26782036" data-id="580352562.1" data-live="b1" class="koefs"><b>11</b></span>   &nbsp;</nobr> <nobr>3:3 -&nbsp;&nbsp;<span id="koefs_580352563.1" data-select="580352563.1" data-v1="21" data-v2="1" data-v3="1" data-match="26782036" data-id="580352563.1" data-live="b1" class="koefs"><b>21</b></span>   &nbsp;</nobr> <nobr>2:3 -&nbsp;&nbsp;<span id="koefs_580352569.1" data-select="580352569.1" data-v1="23" data-v2="1" data-v3="1" data-match="26782036" data-id="580352569.1" data-live="b1" class="koefs"><b>23</b></span>   &nbsp;</nobr> <nobr>7:0 -&nbsp;&nbsp;<span id="koefs_580356045.1" data-select="580356045.1" data-v1="26" data-v2="1" data-v3="1" data-match="26782036" data-id="580356045.1" data-live="b1" class="koefs"><b>26</b></span>   &nbsp;</nobr> <nobr>6:1 -&nbsp;&nbsp;<span id="koefs_580352559.1" data-select="580352559.1" data-v1="19" data-v2="1" data-v3="1" data-match="26782036" data-id="580352559.1" data-live="b1" class="koefs"><b>19</b></span>   &nbsp;</nobr> <nobr>7:1 -&nbsp;&nbsp;<span id="koefs_580356046.1" data-select="580356046.1" data-v1="29" data-v2="1" data-v3="1" data-match="26782036" data-id="580356046.1" data-live="b1" class="koefs"><b>29</b></span>   &nbsp;</nobr> <nobr>5:2 -&nbsp;&nbsp;<span id="koefs_580352557.1" data-select="580352557.1" data-v1="19" data-v2="1" data-v3="1" data-match="26782036" data-id="580352557.1" data-live="b1" class="koefs"><b>19</b></span>   &nbsp;</nobr> <nobr>6:2 -&nbsp;&nbsp;<span id="koefs_580356044.1" data-select="580356044.1" data-v1="29" data-v2="1" data-v3="1" data-match="26782036" data-id="580356044.1" data-live="b1" class="koefs"><b>29</b></span>   &nbsp;</nobr> <nobr>5:3 -&nbsp;&nbsp;<span id="koefs_580356043.1" data-select="580356043.1" data-v1="29" data-v2="1" data-v3="1" data-match="26782036" data-id="580356043.1" data-live="b1" class="koefs"><b>29</b></span>   &nbsp;</nobr> <br/><br/><b><i>Доп. тотал:</i></b><br/><nobr>Тотал (2.5) мен -&nbsp;&nbsp;<span id="koefs_579741995:26782036:2:5:2.5:1:0" data-select="26782036:2:5:2.5:1:0" data-v1="2.5" data-v2="5.25" data-v3="1.11" data-match="26782036" data-id="579741995:26782036:2:5:2.5:1:0" data-live="b1" class="koefs"><b>5.25</b></span>   &nbsp;Тотал (2.5) бол -&nbsp;&nbsp;<span id="koefs_579741995:26782036:3:5:2.5:1:0" data-select="26782036:3:5:2.5:1:0" data-v1="2.5" data-v2="5.25" data-v3="1.11" data-match="26782036" data-id="579741995:26782036:3:5:2.5:1:0" data-live="b1" class="koefs"><b>1.11</b></span>   &nbsp;</nobr> <nobr>Тотал (3) мен -&nbsp;&nbsp;<span id="koefs_579741996:26782036:2:5:3:1:0" data-select="26782036:2:5:3:1:0" data-v1="3" data-v2="3.7" data-v3="1.23" data-match="26782036" data-id="579741996:26782036:2:5:3:1:0" data-live="b1" class="koefs"><b>3.7</b></span>   &nbsp;Тотал (3) бол -&nbsp;&nbsp;<span id="koefs_579741996:26782036:3:5:3:1:0" data-select="26782036:3:5:3:1:0" data-v1="3" data-v2="3.7" data-v3="1.23" data-match="26782036" data-id="579741996:26782036:3:5:3:1:0" data-live="b1" class="koefs"><b>1.23</b></span>   &nbsp;</nobr> <nobr>Тотал (4) мен -&nbsp;&nbsp;<span id="koefs_579741997:26782036:2:5:4:1:0" data-select="26782036:2:5:4:1:0" data-v1="4" data-v2="1.49" data-v3="2.43" data-match="26782036" data-id="579741997:26782036:2:5:4:1:0" data-live="b1" class="koefs"><b>1.49</b></span>   &nbsp;Тотал (4) бол -&nbsp;&nbsp;<span id="koefs_579741997:26782036:3:5:4:1:0" data-select="26782036:3:5:4:1:0" data-v1="4" data-v2="1.49" data-v3="2.43" data-match="26782036" data-id="579741997:26782036:3:5:4:1:0" data-live="b1" class="koefs"><b>2.43</b></span>   &nbsp;</nobr> <nobr>Тотал (4.5) мен -&nbsp;&nbsp;<span id="koefs_579741998:26782036:2:5:4.5:1:0" data-select="26782036:2:5:4.5:1:0" data-v1="4.5" data-v2="1.3" data-v3="3.19" data-match="26782036" data-id="579741998:26782036:2:5:4.5:1:0" data-live="b1" class="koefs"><b>1.3</b></span>   &nbsp;Тотал (4.5) бол -&nbsp;&nbsp;<span id="koefs_579741998:26782036:3:5:4.5:1:0" data-select="26782036:3:5:4.5:1:0" data-v1="4.5" data-v2="1.3" data-v3="3.19" data-match="26782036" data-id="579741998:26782036:3:5:4.5:1:0" data-live="b1" class="koefs"><b>3.19</b></span>   &nbsp;</nobr> <br/><br/><b><i>Тотал матча:</i></b><br/><nobr>Чет -&nbsp;&nbsp;<span id="koefs_579742088.1" data-select="579742088.1" data-v1="1.81" data-v2="1" data-v3="1" data-match="26782036" data-id="579742088.1" data-live="b1" class="koefs"><b>1.81</b></span>   &nbsp;</nobr> <nobr>Нечет -&nbsp;&nbsp;<span id="koefs_579742089.1" data-select="579742089.1" data-v1="1.89" data-v2="1" data-v3="1" data-match="26782036" data-id="579742089.1" data-live="b1" class="koefs"><b>1.89</b></span>   &nbsp;</nobr> <br/><br/><b><i>Победа с учетом форы:</i></b><br/><nobr>Аль-Шарджа (-3.5) -&nbsp;&nbsp;<span id="koefs_579741972:26782036:2:4:-3.5:1:0" data-select="26782036:2:4:-3.5:1:0" data-v1="-3.5" data-v2="3.56" data-v3="1" data-match="26782036" data-id="579741972:26782036:2:4:-3.5:1:0" data-live="b1" class="koefs"><b>3.56</b></span>   &nbsp;</nobr> <nobr>Хатта (3.5) -&nbsp;&nbsp;<span id="koefs_579741973:26782036:2:4:3.5:2:0" data-select="26782036:2:4:3.5:2:0" data-v1="3.5" data-v2="1.25" data-v3="1" data-match="26782036" data-id="579741973:26782036:2:4:3.5:2:0" data-live="b1" class="koefs"><b>1.25</b></span>   &nbsp;</nobr> <nobr>Аль-Шарджа (-3) -&nbsp;&nbsp;<span id="koefs_579741976:26782036:2:4:-3:1:0" data-select="26782036:2:4:-3:1:0" data-v1="-3" data-v2="2.72" data-v3="1" data-match="26782036" data-id="579741976:26782036:2:4:-3:1:0" data-live="b1" class="koefs"><b>2.72</b></span>   &nbsp;</nobr> <nobr>Хатта (3) -&nbsp;&nbsp;<span id="koefs_579741977:26782036:2:4:3:2:0" data-select="26782036:2:4:3:2:0" data-v1="3" data-v2="1.4" data-v3="1" data-match="26782036" data-id="579741977:26782036:2:4:3:2:0" data-live="b1" class="koefs"><b>1.4</b></span>   &nbsp;</nobr> <nobr>Аль-Шарджа (-2) -&nbsp;&nbsp;<span id="koefs_579741978:26782036:2:4:-2:1:0" data-select="26782036:2:4:-2:1:0" data-v1="-2" data-v2="1.28" data-v3="1" data-match="26782036" data-id="579741978:26782036:2:4:-2:1:0" data-live="b1" class="koefs"><b>1.28</b></span>   &nbsp;</nobr> <nobr>Хатта (2) -&nbsp;&nbsp;<span id="koefs_579741979:26782036:2:4:2:2:0" data-select="26782036:2:4:2:2:0" data-v1="2" data-v2="3.3" data-v3="1" data-match="26782036" data-id="579741979:26782036:2:4:2:2:0" data-live="b1" class="koefs"><b>3.3</b></span>   &nbsp;</nobr> <nobr>Аль-Шарджа (-1.5) -&nbsp;&nbsp;<span id="koefs_579741980:26782036:2:4:-1.5:1:0" data-select="26782036:2:4:-1.5:1:0" data-v1="-1.5" data-v2="1.17" data-v3="1" data-match="26782036" data-id="579741980:26782036:2:4:-1.5:1:0" data-live="b1" class="koefs"><b>1.17</b></span>   &nbsp;</nobr> <nobr>Хатта (1.5) -&nbsp;&nbsp;<span id="koefs_579741981:26782036:2:4:1.5:2:0" data-select="26782036:2:4:1.5:2:0" data-v1="1.5" data-v2="4.4" data-v3="1" data-match="26782036" data-id="579741981:26782036:2:4:1.5:2:0" data-live="b1" class="koefs"><b>4.4</b></span>   &nbsp;</nobr> <br/><br/><b><i>Следующий гол:</i></b><br/><nobr>3-й гол Аль-Шарджа -&nbsp;&nbsp;<span id="koefs_580362977.1" data-select="580362977.1" data-v1="1.64" data-v2="1" data-v3="1" data-match="26782036" data-id="580362977.1" data-live="b1" class="koefs"><b>1.64</b></span>   &nbsp;</nobr> <nobr>3-й гол Хатта -&nbsp;&nbsp;<span id="koefs_580362979.1" data-select="580362979.1" data-v1="3.2" data-v2="1" data-v3="1" data-match="26782036" data-id="580362979.1" data-live="b1" class="koefs"><b>3.2</b></span>   &nbsp;</nobr> <nobr>3-го гола не будет -&nbsp;&nbsp;<span id="koefs_580362978.1" data-select="580362978.1" data-v1="5.25" data-v2="1" data-v3="1" data-match="26782036" data-id="580362978.1" data-live="b1" class="koefs"><b>5.25</b></span>   &nbsp;</nobr> <br/><br/><b><i>Время следующего гола:</i></b><br/><nobr>3-й гол с 41-й до 50-й мин -&nbsp;&nbsp;<span id="koefs_580362981.1" data-select="580362981.1" data-v1="6" data-v2="1" data-v3="1" data-match="26782036" data-id="580362981.1" data-live="b1" class="koefs"><b>6</b></span>   &nbsp;</nobr> <nobr>3-й гол с 51-й до 60-й мин -&nbsp;&nbsp;<span id="koefs_580362982.1" data-select="580362982.1" data-v1="3.4" data-v2="1" data-v3="1" data-match="26782036" data-id="580362982.1" data-live="b1" class="koefs"><b>3.4</b></span>   &nbsp;</nobr> <nobr>3-й гол с 61-й до 70-й мин -&nbsp;&nbsp;<span id="koefs_580362983.1" data-select="580362983.1" data-v1="4.5" data-v2="1" data-v3="1" data-match="26782036" data-id="580362983.1" data-live="b1" class="koefs"><b>4.5</b></span>   &nbsp;</nobr> <nobr>3-й гол с 71-й до 80-й мин -&nbsp;&nbsp;<span id="koefs_580362984.1" data-select="580362984.1" data-v1="6.25" data-v2="1" data-v3="1" data-match="26782036" data-id="580362984.1" data-live="b1" class="koefs"><b>6.25</b></span>   &nbsp;</nobr> <nobr>3-й гол с 81-й до 90-й мин -&nbsp;&nbsp;<span id="koefs_580362985.1" data-select="580362985.1" data-v1="7" data-v2="1" data-v3="1" data-match="26782036" data-id="580362985.1" data-live="b1" class="koefs"><b>7</b></span>   &nbsp;</nobr> <nobr>3-го гола не будет -&nbsp;&nbsp;<span id="koefs_580362986.1" data-select="580362986.1" data-v1="5.25" data-v2="1" data-v3="1" data-match="26782036" data-id="580362986.1" data-live="b1" class="koefs"><b>5.25</b></span>   &nbsp;</nobr> <br/><br/><b><i>Точное количество голов:</i></b><br/><nobr>2 гола -&nbsp;&nbsp;<span id="koefs_579742142.1" data-select="579742142.1" data-v1="5.25" data-v2="1" data-v3="1" data-match="26782036" data-id="579742142.1" data-live="b1" class="koefs"><b>5.25</b></span>   &nbsp;</nobr> <nobr>3 гола -&nbsp;&nbsp;<span id="koefs_579742143.1" data-select="579742143.1" data-v1="2.4" data-v2="1" data-v3="1" data-match="26782036" data-id="579742143.1" data-live="b1" class="koefs"><b>2.4</b></span>   &nbsp;</nobr> <nobr>4 гола -&nbsp;&nbsp;<span id="koefs_579742144.1" data-select="579742144.1" data-v1="2.55" data-v2="1" data-v3="1" data-match="26782036" data-id="579742144.1" data-live="b1" class="koefs"><b>2.55</b></span>   &nbsp;</nobr> <nobr>5 голов -&nbsp;&nbsp;<span id="koefs_579742145.1" data-select="579742145.1" data-v1="3.75" data-v2="1" data-v3="1" data-match="26782036" data-id="579742145.1" data-live="b1" class="koefs"><b>3.75</b></span>   &nbsp;</nobr> <nobr>6 голов -&nbsp;&nbsp;<span id="koefs_580352535.1" data-select="580352535.1" data-v1="7" data-v2="1" data-v3="1" data-match="26782036" data-id="580352535.1" data-live="b1" class="koefs"><b>7</b></span>   &nbsp;</nobr> <nobr>7 голов -&nbsp;&nbsp;<span id="koefs_580352536.1" data-select="580352536.1" data-v1="12.5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352536.1" data-live="b1" class="koefs"><b>12.5</b></span>   &nbsp;</nobr> <nobr>8 голов -&nbsp;&nbsp;<span id="koefs_580352537.1" data-select="580352537.1" data-v1="23" data-v2="1" data-v3="1" data-match="26782036" data-id="580352537.1" data-live="b1" class="koefs"><b>23</b></span>   &nbsp;</nobr> <nobr>9 голов -&nbsp;&nbsp;<span id="koefs_580352538.1" data-select="580352538.1" data-v1="34" data-v2="1" data-v3="1" data-match="26782036" data-id="580352538.1" data-live="b1" class="koefs"><b>34</b></span>   &nbsp;</nobr> <br/><br/><b><i>Угловые:</i></b><br/><nobr>Тотал (4.5) мен -&nbsp;&nbsp;<span id="koefs_580352522:26782036:2:949:4.5:1:0" data-select="26782036:2:949:4.5:1:0" data-v1="4.5" data-v2="2.85" data-v3="1.38" data-match="26782036" data-id="580352522:26782036:2:949:4.5:1:0" data-live="b1" class="koefs"><b>2.85</b></span>   &nbsp;Тотал (4.5) бол -&nbsp;&nbsp;<span id="koefs_580352522:26782036:3:949:4.5:1:0" data-select="26782036:3:949:4.5:1:0" data-v1="4.5" data-v2="2.85" data-v3="1.38" data-match="26782036" data-id="580352522:26782036:3:949:4.5:1:0" data-live="b1" class="koefs"><b>1.38</b></span>   &nbsp;</nobr> <nobr>Тотал (5.5) мен -&nbsp;&nbsp;<span id="koefs_580352523:26782036:2:949:5.5:1:0" data-select="26782036:2:949:5.5:1:0" data-v1="5.5" data-v2="1.85" data-v3="1.85" data-match="26782036" data-id="580352523:26782036:2:949:5.5:1:0" data-live="b1" class="koefs"><b>1.85</b></span>   &nbsp;Тотал (5.5) бол -&nbsp;&nbsp;<span id="koefs_580352523:26782036:3:949:5.5:1:0" data-select="26782036:3:949:5.5:1:0" data-v1="5.5" data-v2="1.85" data-v3="1.85" data-match="26782036" data-id="580352523:26782036:3:949:5.5:1:0" data-live="b1" class="koefs"><b>1.85</b></span>   &nbsp;</nobr> <nobr>Тотал (6.5) мен -&nbsp;&nbsp;<span id="koefs_580352524:26782036:2:949:6.5:1:0" data-select="26782036:2:949:6.5:1:0" data-v1="6.5" data-v2="1.4" data-v3="2.75" data-match="26782036" data-id="580352524:26782036:2:949:6.5:1:0" data-live="b1" class="koefs"><b>1.4</b></span>   &nbsp;Тотал (6.5) бол -&nbsp;&nbsp;<span id="koefs_580352524:26782036:3:949:6.5:1:0" data-select="26782036:3:949:6.5:1:0" data-v1="6.5" data-v2="1.4" data-v3="2.75" data-match="26782036" data-id="580352524:26782036:3:949:6.5:1:0" data-live="b1" class="koefs"><b>2.75</b></span>   &nbsp;</nobr> <br/><br/><b><i>Количество угловых:</i></b><br/><nobr>0-4 -&nbsp;&nbsp;<span id="koefs_580352539.1" data-select="580352539.1" data-v1="2.85" data-v2="1" data-v3="1" data-match="26782036" data-id="580352539.1" data-live="b1" class="koefs"><b>2.85</b></span>   &nbsp;</nobr> <nobr>5-7 -&nbsp;&nbsp;<span id="koefs_580352543.1" data-select="580352543.1" data-v1="1.88" data-v2="1" data-v3="1" data-match="26782036" data-id="580352543.1" data-live="b1" class="koefs"><b>1.88</b></span>   &nbsp;</nobr> <nobr>8-10 -&nbsp;&nbsp;<span id="koefs_580352544.1" data-select="580352544.1" data-v1="5" data-v2="1" data-v3="1" data-match="26782036" data-id="580352544.1" data-live="b1" class="koefs"><b>5</b></span>   &nbsp;</nobr> <nobr>11-13 -&nbsp;&nbsp;<span id="koefs_580352540.1" data-select="580352540.1" data-v1="12" data-v2="1" data-v3="1" data-match="26782036" data-id="580352540.1" data-live="b1" class="koefs"><b>12</b></span>   &nbsp;</nobr> <nobr>14-16 -&nbsp;&nbsp;<span id="koefs_580352541.1" data-select="580352541.1" data-v1="12" data-v2="1" data-v3="1" data-match="26782036" data-id="580352541.1" data-live="b1" class="koefs"><b>12</b></span>   &nbsp;</nobr> <nobr>17 и более -&nbsp;&nbsp;<span id="koefs_580352542.1" data-select="580352542.1" data-v1="13" data-v2="1" data-v3="1" data-match="26782036" data-id="580352542.1" data-live="b1" class="koefs"><b>13</b></span>   &nbsp;</nobr> </div></div></td></tr></table></td></tr></table><div align="justify" style="width:96%"><hr class="hr2"/><a name="index"></a><b>Оглавление</b><br><br><table><tr><td valign="top" align="left"><i><span id="t11906_2" style="display:none"></span><a href="#ch11906">Футбол. ОАЭ. Про-лига</a><br/></i></td></tr></table><br><i>&nbsp;<a href="#top">Наверх</a></i></div><input type="hidden" name="r_max" value="1"/><input type="hidden" name="currpage" value="live"/> </div>
 </form>
 </div>
 <script type="text/javascript">
@@ -886,9 +918,9 @@ Live-Ставки </H1>
 	}
 
 </script>
-<link type="text/css" rel="stylesheet" href="/img/basket.css?43"/>
+<link type="text/css" rel="stylesheet" href="/img/basket.css?53"/>
 <script src="/img/jquery.modal.js"></script>
-<script src="/img/basket.js?31"></script>
+<script src="/img/basket.js?52"></script>
 <input type="hidden" value="0" name="usersumm" id="usersumm">
 <div class="busket">
 <div class="busket-header">
@@ -942,8 +974,8 @@ Live-Ставки </H1>
 Ваша ставка была принята </div>
 </div>
 </div>
-<input id="history_page_b" value="0" type="hidden"/>
-<input id="history_last_page_b" value="1" type="hidden"/>
+<input id="history_upload_b" value="1" type="hidden"/>
+<input id="history_last_bet_b" value="0" type="hidden"/>
 <div id="wraper_history_b" style="display: none;">
 <div style="position: relative;">
 <div id="history_body_b">
@@ -1020,7 +1052,7 @@ window.__lc.visitor = {
 };
 window.__lc.params = [
   { name: 'Status', value: 'Not Authorized' },
-  { name: 'URL', value: 'http://olimp.kz/http://olimp.kz/index.php?page=line&action=2&live[]=26731728' },
+  { name: 'URL', value: 'http://olimp.kz/http://olimp.kz/index.php?page=line&amp;action=2&amp;live[]=26782036' },
   { name: 'Domain', value: 'kz' },
   { name: 'Type', value: 'Website' },
   { name: 'Lang', value: 'Русский' }
@@ -1094,10 +1126,11 @@ ENGINE DEBUG INFORMATION
 DataBase Errors: 0
 Script Errors: 0
 Script Warnings: 0
-Total time: 0.048 s
+Total time: 0.03 s
 DataBase time(1): 0 s
-DataBase time(2): 0.028 s
-Served by: s72
+DataBase time(2): 0.007 s
+Served by: s57
+C: true
 VK_I8Ud3
 </div>
  
