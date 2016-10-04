@@ -3,15 +3,6 @@
 use yii\helpers\Url;
  ?>
 
- <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-
-
 <input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/livetwo">
 
 
@@ -26,7 +17,7 @@ use yii\helpers\Url;
 <input id="baseupdatek2" type="hidden" value="<?php echo Url::to('@base'); ?>/site/liverequest">
 
 
-<div class="container" style="margin-top: 15px;">
+<div class="" style="margin-top: 15px;">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="col-md-8 col-md-offset-2">
@@ -38,7 +29,7 @@ use yii\helpers\Url;
 	</div>
 </div>
 
-<div class="container" style="margin-top: 15px;">
+<div class="" style="margin-top: 15px;">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="col-md-3 col-md-offset-4">
@@ -55,7 +46,7 @@ use yii\helpers\Url;
 </div>
 
 
-<div class="container">
+<div class="">
 	<div class="row" style="display:none;" id="pok_res1">
 		
 
@@ -73,7 +64,7 @@ use yii\helpers\Url;
 
 
 
-<div class="container" style="margin-top:30px;">
+<div class="" style="">
 	<div class="row" id="pok_searh3">
 
 		
@@ -152,7 +143,7 @@ function updategame(){
 
 			}
 
-
+/*
 			setInterval(function(){
 				updategame();
 			},8000);
@@ -160,7 +151,7 @@ function updategame(){
 			setInterval(function(){
 				updategametwo();
 			},5000);
-
+*/
 
 /*function srab pri dobavlenii stavki*/
 
@@ -375,7 +366,7 @@ window.onload = function(){
 
            		var str7 = str6.replace(f2str,f2str + " )");
 
-           		var u = '<div class="col-md-12"><div class="col-md-9 col-md-offset-2 t1"><div><h4 class="u4">' + str7 + " - " + y + " , " + y2 + '</h4></div></div></div>';
+           		var u = '<div class="col-md-12 title-red livep"><div>' + str7 + " - " + y + " , " + y2 + '</div></div>';
 
 				p1.append(u);
 
@@ -384,7 +375,7 @@ window.onload = function(){
 
 
 
-					var h = '<div class="col-md-12"><div class="col-md-9 col-md-offset-2"><h2 class="t2">' + namear[0] + ' ,счет '  + namear[1] + " минута" + '</h2></div></div>';
+var h = '<div class="col-md-12 title2"><div class="col-md-12"><h3 class="title2">' + namear[0]+ ' ,счет '  + namear[1] + " минута" + '</h3></div></div>';
 
 					p1.append(h);
 
@@ -392,7 +383,7 @@ window.onload = function(){
 
             /*polnii sikl verhnei chasti*/
             
-
+var mycount=0;
             two.each(function(index,element){
 
             	var str = $(element).html();
@@ -504,25 +495,25 @@ window.onload = function(){
             	}
             	/*koef Б*/
 
-            	var grone = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
+
+            	var grone = '<div class="col-md-4 blok1-livep"> <div class="tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
+				
 
             	if(string15 != ""){
 
-            		var grtwo = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string15 + '" anttwo="' + string16 + '">' + string15 + ' ' + string16 + '</div></div>';
+            		var grtwo = '<div class="col-md-4 blok1-livep"> <div class="tit g" n="' + namear[0] + '"  ant="' + string15 + '" anttwo="' + string16 + '">' + string15 + ' ' + string16 + '</div></div>';
 
             		p1.append(grtwo);
 
             	}
 				
             		stopping = 1;
-					p1.append(grone);
+					p1.append(grone);//первый столбец с результатом
 
             });
-
+p1.append("<div class='clearfix'></div>");
             	
-            if(stopping == 0){
-
-            	var s = '<div class="col-md-8 col-md-offset-4 "> <div class="col-md-5">' + '<h3 class="jp">Ставки завершены..!</h3>' + '</div></div>';
+ if(stopping == 0){var s = '<div class="col-md-8 col-md-offset-4 "> <div class="col-md-5">' + '<h3 class="jp">Ставки завершены..!</h3>' + '</div></div>';
 
             	p1.append(s);
             }
@@ -761,39 +752,58 @@ window.onload = function(){
 			var kak_opredel = /[\wА-Я][\wа-я]+\s\-\s[\wа-я]\s[\wа-я]+\s[\wа-я]+\s\-/gi;
 			
 			if((string10.match(goli)) && (fix63 <= 0)){
-				p1.append(b + "Голы:" + b2 + "<br>");
+	p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Голы:</h3>");
+				
+				
 				fix63 += 1;
 			}else if((string10.match(indiv)) && (fix55 <= 0)){
-				p1.append(b + "Индивидуальный тотал:" + b2 + "<br>");
+				p1.append("<div class='clearfix'></div>");
+				p1.append("<h3 class='title2'>Индивидуальный тотал 1-го тайма::</h3>");//индивидуальный тотал
+				//p1.append(b + "Индивидуальный тотал:" + b2 + "<br>");
 				fix55 += 1;
 			}else if((string10.match(goli_po_command))  && (fix56 <= 0)){
-
-				p1.append(b + "Голы по командам:" + b2 + "<br>");
+	p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Голы по командам:</h3>");
+				
 				fix56 += 1;
 
 				
 			}else if((string10.match(schet))  && (fix60 <= 0)){
-				p1.append(b + "Счет:" + b2 + "<br>");
+				p1.append("<div class='clearfix'></div>");
+				p1.append("<h3 class='title2'>Счет:</h3>");//счет
 				fix60 += 1;
 			}else if((string10.match(dop_total))  && (fix57 <= 0)){
-				p1.append(b + "Дополнительный тотал:" + b2 + "<br>");
+					p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Дополнительный тотал:</h3>");
+				
 				fix57 += 1;
 			}else if((string10.match(total_matcha)) && (fix64 <= 0)){
-				p1.append(b + "Тотал голов:" + b2 + "<br>");
+					p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Тотал голов:</h3>");
+				
 				fix64 += 1;
 
 			}else if((string10.match(total_matcha)) && (fix74 <= 0) && (index > fixed22)){
-				p1.append(b + "Тотал 1-го тайма:" + b2 + "<br>");
+						p1.append("<div class='clearfix'></div>");
+              p1.append("<h3 class='title2'>Тотал 1-го тайма:</h3>");
+				
+				
 				fix74 += 1;
 			}else if((string10.match(pobeda_s_uchetom)) && (fix58 <= 0)){
-				p1.append(b + "Победа с учетом форы:" + b2 + "<br>");
+				p1.append("<div class='clearfix'></div>");
+				p1.append("<h3 class='title2'>Победа с учетом форы:</h3>");//победа с учетом форы
 				fix58 += 1;
 			}else if((string10.match(pobeda_s_uchetom_for_free)) && (fix81 <= 0)){
-				p1.append(b + "Победа с учетом форы 3 исхода:" + b2 + "<br>");
+					p1.append("<div class='clearfix'></div>");
+              p1.append("<h3 class='title2'>Победа с учетом форы 3 исхода:</h3>");
+				
+				
 				fix81 += 1;
 			}else if((string10.match(ish_po_time)) && (fix72 <= 0)){
-
-				p1.append(b + "Исходы по таймам:" + b2 + "<br>");
+				p1.append("<div class='clearfix'></div>");
+              p1.append("<h3 class='title2'>Исходы по таймам</h3>");
+				//p1.append(b + "Исходы по таймам:" + b2 + "<br>");
 				fix72 += 1;
 				
 
@@ -805,95 +815,144 @@ window.onload = function(){
 
 
 			}else if((string10.match(resultativnost)) && (fix71 <= 0)){
-
-				p1.append(b + "Результативность таймов:" + b2 + "<br>");
+	p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Результативность таймов:</h3>");
+				
 				fix71 += 1;
 
 			}else if((string10.match(sled_gol)) && (fix66 <= 0)){
 
-				p1.append(b + "Следующий гол:" + b2 + "<br>");
+				p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Следующий гол:</h3>");
+			
 				fix66 += 1;
 
 			}else if((string10.match(time_sled_gol)) && (fix67 <= 0)){
-
-				p1.append(b + "Время следующего гола:" + b2 + "<br>");
+	p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Время следующего гола:</h3>");
+				
 				fix67 += 1;
 
 			}else if((string10.match(tochnoe)) && (fix68 <= 0) && (fix67 == 1)){
 
-			p1.append(b + "Точное количество голов:" + b2 + "<br>");
+	p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Точное количество голов:</h3>");
+			
+			
 
 			fix68 += 1;
 			fixed20 = index;
 
 			
 			}else if((string10.match(kol_ugl)) && (fix70 <= 0)){
-
-			p1.append(b + "Количество угловых:" + b2 + "<br>");
+p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Количество угловых:</h3>");
+			
 
 			fix70 += 1;
 
 			}else if((string10.match(schet))&& (fix73 <= 0) && (index > fixed24)){
-				p1.append(b + "Счет 1-го тайма:" + b2 + "<br>");
+				p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Счет 1-го тайма:</h3>");
+			
 				fix73 += 1;
 			}else if((string10.match(ishod_one_time)) && (fix76 <= 0)){
-				p1.append(b + "Исход 1-го тайма и всего матча:" + b2 + "<br>");
+				
+					p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Исход 1-го тайма и всего матча:</h3>");
+				
+				
 				fix76 += 1;
 			}else if((string10.match(uglovie)) && (fix77 <= 0) && (index > fixed20) && (fix68 != 1)){
 
-				
-					p1.append(b + "Угловые:" + b2 + "<br>");
+		p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Угловые:</h3>");
+					
 					fix77 += 1;
 				
 				
 			}else if((string10.match(itogi_turnira)) && (fix78 <= 0)){
-				p1.append(b + "Итоги турнира:" + b2 + "<br>");
+				p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Итоги турнира:</h3>");
+				
 				fix78 += 1;
 			}else if((string10.match(aziatskii_total)) && (fix79 <= 0)){
-				p1.append(b + "Азиатские тоталы:" + b2 + "<br>");
+							p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Азиатские тоталы:</h3>");
+				
+				
 				fix79 += 1;
 			}else if((string10.match(raznisa_golov)) && (fix80 <= 0)){
-				p1.append(b + "Разница голов:" + b2 + "<br>");
+		p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Разница голов:</h3>");
 				fix80 += 1;
 			}else if((string10.match(azia_for)) && (fix82 <= 0)){
-				p1.append(b + "Азиатские форы:" + b2 + "<br>");
+											p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Азиатские форы:</h3>");
+				
 				fix82 += 1;
 			}else if((string10.match(ind_total_first)) && (fix84 <= 0) && (index > fixed22)){
-				p1.append(b + "Индивидуальный тотал 1-го тайма:" + b2 + "<br>");
+				p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Индивидуальный тотал 1-го тайма:</h3>");
+				
+			
 				fix84 += 1;
 				fixed23 = index;
 
 			}else if((string10.match(tochnoe_gol_first_time)) && (fix85 <= 0) && (index > fixed23)){
-				p1.append(b + "Точное количество голов в 1-м тайме:" + b2 + "<br>");
+							p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Точное количество голов в 1-м тайме:</h3>");
+				
+				
 				fix85 += 1;
 			}else if((string10.match(kol_gol_first_time)) && (fix86 <= 0) && (index > fixed23)){
-				p1.append(b + "Количество голов в 1-м тайме" + b2 + "<br>");
+			
+				p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Количество голов в 1-м тайме:</h3>");
 				fix86 += 1;
 				fixed24 = index;
 			}else if((string10.match(pobeda_and_total)) && (fix87 <= 0)){
-				p1.append(b + "Победа и тотал:" + b2 + "<br>");
+					p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Победа и тотал:</h3>");
+				
+				
 				fix87 += 1;
 				
 			}else if((string10.match(pob_matcha)) && (fix88 <= 0)){
-				p1.append(b + "Как определится победитель матча:" + b2 + "<br>");
+	p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Как определится победитель матча:</h3>");
+				
+				//p1.append(b + "Как определится победитель матча:" + b2 + "<br>");
 				fix88 += 1;
 				
 			}else if((string10.match(p_o)) && (fix89 <= 0)){
-				p1.append(b + "Победа и обе забьют:" + b2 + "<br>");
+				
+					p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Победа и обе забьют:</h3>");
+				
+				
 				fix89 += 1;
 				
 			}else if((string10.match(p_v_techenii_matcha)) && (fix90 <= 0)){
 
-				p1.append(b + "Победа в течение матча:" + b2 + "<br>");
+								p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Победа в течение матча:</h3>");
+				
 				fix90 += 1;
 				fixed25 = index;
 
 			}else if((string10.match(fori_v_techenii_m)) && (fix91 <= 0) && (index > fixed25+11)){
-				p1.append(b + "Форы в течение матча:" + b2 + "<br>");
+				
+			p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Форы в течение матча:</h3>");
+				
 				fix91 += 1;
 				fixed26 = index;
 			}else if((string10.match(tital_v_techenii_m)) && (fix92 <= 0) && (index > fixed26+21)){
-				p1.append(b + "Тотал в течение матча:" + b2 + "<br>");
+				
+					p1.append("<div class='clearfix'></div>");
+	p1.append("<h3 class='title2'>Тотал в течение матча:</h3>");
+				
 				fix92 += 1;
 				fixed27 = index;
 			}else if((string10.match(tital_matcha_po_comandam)) && (fix93 <= 0) && (index > fixed27)){
@@ -908,14 +967,19 @@ window.onload = function(){
 				
 			}
 
-			
+			//alert(string10);
 
-			var gr = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
+			var gr = '<div class="col-md-4 blok2-livep"> <div tit g" n="' + namear[0] + '"  ant="' + string10 + 'anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
 
-			var gr2 = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string11 + '" anttwo="' + string13 + '">' + string11 + ' ' + string13 + '</div></div>';
+			var gr2 = '<div class="col-md-8 total"> <div class="tit" style="text-align:center" n="' + namear[0] + '"  ant="' + string11 + '" anttwo="' + string13 + '">' + string11 + ' ' + string13 + '</div></div>';
 			p1.append(gr);
+			
+			if(string11){
+	$('.blok2-livep').addClass('blok3-livep');		
+     
 			p1.append(gr2);
-
+			p1.append("<div class='clearfix'></div>");
+			}
 			
 
 
@@ -923,7 +987,8 @@ window.onload = function(){
 
 			});
 
-
+	p1.append("<div class='clearfix'></div>");
+$('#pok_searh2').wrap('<div class="pok_searh12"></div>');
 
 
 				var oi = '<script>$(".tit").click(function(){ant = $(this).attr("ant");anttwo = $(this).attr("anttwo"); n = $(this).attr("n"); game(ant,anttwo,n); $("#korzina").show(); });</' + 'script>';
@@ -947,10 +1012,7 @@ window.onload = function(){
 
 
 
-
 	
 
 
 
-</body>
-</html>

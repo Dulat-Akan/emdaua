@@ -9,10 +9,12 @@ use yii\helpers\Url;
 			</div>
 		</div>
 	</div> -->
+	<!--
 	<div class='header-middle'>
 
   <button style="" id="update" class="btn btn-primary btn-sm" type="button">обновить страницу</button>
   </div>
+  --->
 <hr/>
 
 
@@ -298,11 +300,11 @@ function MySearch(){
 
 			});
 
-			var name = $('[width="99%"]').children("a");	/*"td > a nazvaniya komand"*/
+			var name = $('[align="left"]').children("a");	/*"td > a nazvaniya komand"*/
 
 
 
-			var koef = $('[width="99%"]').children("font");	/*"td > font" koeffisienti*/
+			var koef = $('[align="left"]').children("font");	/*"td > font" koeffisienti*/
 
 
 

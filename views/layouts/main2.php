@@ -40,11 +40,68 @@ function googleTranslateElementInit() {
 </head>
 <body>
 
-<div class="col-md-12">
+
 
 <?php $this->beginBody() ?>
+		<nav class="navbar navbar-default menu2 clearfix">
+ 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
 
-<div class="wrap">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse menu-bot" id="bs-example-navbar-collapse-2">
+	<div class="" id="mylink">
+      	<ul class="nav nav-pills nav-justified">
+       <li style="margin-left: 15px;font-size:17px;" class="nav-header">Сейчас в линии</li>
+                 
+                  <li><a href="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
+
+                  <li><a href="<?php echo Url::to('@control/request'); ?>" r="<?php echo Url::to('@base'); ?>/site/p">результаты</a></li>
+                  <li><a href="<?php echo Url::to('@control/requestlive'); ?>" r="<?php echo Url::to('@base'); ?>/site/ptwo">результаты Live</a></li>
+
+               
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Футбол</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Теннис</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Хоккей</a></li>
+              
+             
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Американский футбол</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Бейсбол</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Биатлон</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Бокс</a></li>
+                  
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Гандбол</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Гольф</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Горные лыжи</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Дартс</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Киберспорт</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Крикет</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Лыжи</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Мотоспорт</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Песапалло</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Прыжки с трамплина</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Ралли</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Регби-лига</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Регби-союз</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Смешанные боевые искусства</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Снукер</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Формула 1</a></li>
+                  
+      </ul>
+    </div>
+  
+    </div><!-- /.navbar-collapse -->
+
+			</nav>
+
 
 
 	
@@ -85,8 +142,8 @@ function googleTranslateElementInit() {
     NavBar::end();
     ?>
 
-    </div>
-</div>
+  
+
 
 
     <div class="container-fluid" style="margin-top:0px;">
