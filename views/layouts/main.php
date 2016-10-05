@@ -299,7 +299,7 @@ function googleTranslateElementInit() {
                              link2.click(function(event){
 
                     event.preventDefault();
-alert(9)
+//alert(9)
                     var perenapravit = $(this).attr("href"); /*kuda perenapravit*/
                     var zapros = $(this).attr("r");    /*kuda otpravit zapros*/
 
@@ -391,7 +391,7 @@ alert(9)
 				
 				
                 link.click(function(event){
-alert(8)
+//alert(8)
                     event.preventDefault();
 
                     var perenapravit = $(this).attr("href"); /*kuda perenapravit*/
