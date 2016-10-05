@@ -969,7 +969,7 @@ p1.append("<div class='clearfix'></div>");
 
 			//alert(string10);
 
-			var gr = '<div class="col-md-4 blok2-livep"> <div tit g" n="' + namear[0] + '"  ant="' + string10 + 'anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
+			var gr = '<div class="col-md-4 blok2-livep"> <div class="tit g" n="' + namear[0] + '"  ant="' + string10 + 'anttwo="' + string12 + '">' + string10 +' ' + string12 + '</div></div>';
 
 			var gr2 = '<div class="col-md-8 total"> <div class="tit" style="text-align:center" n="' + namear[0] + '"  ant="' + string11 + '" anttwo="' + string13 + '">' + string11 + ' ' + string13 + '</div></div>';
 			p1.append(gr);

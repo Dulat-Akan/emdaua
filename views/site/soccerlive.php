@@ -274,10 +274,10 @@
 <td align=left width=75% style='color: #800000'><u>Отключить Корзину</u></td></tr></table>
 </td></tr> <tr>
 <td align="center">
-<hr class="hr2"/><span id='hours'>05.10.2016 12:24:24</span>
+<hr class="hr2"/><span id='hours'>06.10.2016 00:39:18</span>
 <script type='text/javascript'>
-	            wr_hours(1475648664);
-	            setInterval('wr_hours(1475648664);',1000);
+	            wr_hours(1475692758);
+	            setInterval('wr_hours(1475692758);',1000);
 	            </script><br/>
 <a href="index.php?page=timezone">(GMT +06:00)</a>
 </td>
@@ -339,7 +339,7 @@ setInterval(function(){
 </tr>
 </tbody>
 </table>
-</td></tr><input type=hidden name='asid' value='8487589'><input type=hidden name='psid' value='eeac8e8b361444399f09eae60ab12ca5'>
+</td></tr><input type=hidden name='asid' value='3100866'><input type=hidden name='psid' value='b9dbb1d6327e853c2a91c90c89656a4d'>
 </table></form>
 <script language='javascript'>
 function changeConn()
@@ -380,8 +380,8 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
-<font class=txtmed color=black>Ставки</font> Live (26)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
-<font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
+<font class=txtmed color=black>Ставки</font> Live (87)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>BetGamesTV</font></font></b></a></td>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
  
@@ -390,7 +390,7 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (839)</a>
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (932)</a>
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -398,7 +398,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (72)</a>
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (66)</a>
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -406,7 +406,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (88)</a>
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (82)</a>
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -414,7 +414,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (175)</a>
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (139)</a>
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -422,7 +422,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (10)</a>
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (12)</a>
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -446,7 +446,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (20)</a>
+<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (16)</a>
 </td>
 <td>
 <input id="c7" type="checkbox" name="sel[]" value="51"/>
@@ -454,7 +454,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (8)</a>
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (6)</a>
 </td>
 <td>
 <input id="c8" type="checkbox" name="sel[]" value="29"/>
@@ -486,7 +486,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (22)</a>
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (20)</a>
 </td>
 <td>
 <input id="c12" type="checkbox" name="sel[]" value="10"/>
@@ -494,7 +494,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (84)</a>
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (46)</a>
 </td>
 <td>
 <input id="c13" type="checkbox" name="sel[]" value="9"/>
@@ -502,7 +502,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (6)</a>
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (31)</a>
 </td>
 <td>
 <input id="c14" type="checkbox" name="sel[]" value="90"/>
@@ -518,7 +518,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (9)</a>
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (10)</a>
 </td>
 <td>
 <input id="c16" type="checkbox" name="sel[]" value="47"/>
@@ -526,7 +526,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (5)</a>
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (4)</a>
 </td>
 <td>
 <input id="c17" type="checkbox" name="sel[]" value="73"/>
@@ -558,18 +558,10 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (10)</a>
-</td>
-<td>
-<input id="c21" type="checkbox" name="sel[]" value="40"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=88" style="color:#000;">Политика (2)</a>
 </td>
 <td>
-<input id="c22" type="checkbox" name="sel[]" value="88"/>
+<input id="c21" type="checkbox" name="sel[]" value="88"/>
 </td>
 </tr>
 <tr valign="top">
@@ -577,7 +569,7 @@ setInterval(function(){
 <a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (1)</a>
 </td>
 <td>
-<input id="c23" type="checkbox" name="sel[]" value="39"/>
+<input id="c22" type="checkbox" name="sel[]" value="39"/>
 </td>
 </tr>
 <tr valign="top">
@@ -585,15 +577,15 @@ setInterval(function(){
 <a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (2)</a>
 </td>
 <td>
-<input id="c24" type="checkbox" name="sel[]" value="85"/>
+<input id="c23" type="checkbox" name="sel[]" value="85"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (46)</a>
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (49)</a>
 </td>
 <td>
-<input id="c25" type="checkbox" name="sel[]" value="46"/>
+<input id="c24" type="checkbox" name="sel[]" value="46"/>
 </td>
 </tr>
 <tr valign="top">
@@ -601,23 +593,23 @@ setInterval(function(){
 <a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (33)</a>
 </td>
 <td>
-<input id="c26" type="checkbox" name="sel[]" value="96"/>
+<input id="c25" type="checkbox" name="sel[]" value="96"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (11)</a>
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (7)</a>
 </td>
 <td>
-<input id="c27" type="checkbox" name="sel[]" value="4"/>
+<input id="c26" type="checkbox" name="sel[]" value="4"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (3)</a>
+<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (8)</a>
 </td>
 <td>
-<input id="c28" type="checkbox" name="sel[]" value="113"/>
+<input id="c27" type="checkbox" name="sel[]" value="113"/>
 </td>
 </tr>
 <tr valign="top">
@@ -625,15 +617,7 @@ setInterval(function(){
 <a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (5)</a>
 </td>
 <td>
-<input id="c29" type="checkbox" name="sel[]" value="33"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (1)</a>
-</td>
-<td>
-<input id="c30" type="checkbox" name="sel[]" value="11"/>
+<input id="c28" type="checkbox" name="sel[]" value="33"/>
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -641,16 +625,16 @@ setInterval(function(){
                 {
                     if(checked==0) checked=1;
                     else checked=0;
-                    for(var ci=0;ci<31;ci++)
+                    for(var ci=0;ci<29;ci++)
                         document.getElementById('c'+ci).checked=checked;
-                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1518)</a>';
-                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1518)</a>'
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1537)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1537)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
 </td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1></td></tr>
 <tr><td colspan=2 id='selall' align=middle>
-<a href='javascript:selall();'>Выбрать все (1518)</a> </div>
+<a href='javascript:selall();'>Выбрать все (1537)</a> </div>
 </td>
 </tr>
 <input type="hidden" name="page" value="line"/>
@@ -663,7 +647,7 @@ setInterval(function(){
 </td>
 <TD class=central_td vAlign=top>
 <center><H1>
-Линия на 05.10.2016 </H1>
+Линия на 06.10.2016 </H1>
 <style type="text/css">._block{width:250px;padding:0;color:#424242;font-size:10px;font-family:tahoma,arial;font-weight:bold;}._block ._list{padding:3px 3px;height:16px;cursor:pointer;border-radius:1px;margin:0 20px 0 0;color:#424242;border:1px solid #b7b7b7;width:242px;z-index:11;background:#ffffff;}._list #btn{width:0;height:0;margin:5px 0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #424242;float:right;}._list span{padding:2px 0 0 2px;display:inline-block;max-width:225px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}._block ul.result_list{margin-top:0px;z-index:10;background:#ffffff;position:absolute;border-radius:1px;width:248px;padding:0;border:1px solid #b7b7b7;display:none;max-height:100px;overflow:auto;}ul.result_list li{padding:6px 9px;list-style-type:none;border-top:1px solid #b7b7b7;}ul.result_list li span{color:#882211;}ul.result_list li:hover{cursor:pointer;color:#89221B;}</style>
 <script type="text/javascript">
 	function getCookie(name)
@@ -720,7 +704,7 @@ setInterval(function(){
 <tr><td colspan=2>
 <i><div align=left style='WIDTH: 96%;'>
 <a href='javascript: void(0);' class='show_all_odds' data-champ_id='124563'>
-<span id='t124563_1' class=tab>Показать роспись</span></a><span class=tab><a href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
+<span id='t124563_1' class=tab>Показать роспись</span></a><span class=tab><a class='index_lnk' href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
 <td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26903778, 0, 0);'><img id='i26903778' src='/img/plus.jpg'></a></div>19.10.2016 00:45</td>
 <td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26903778">Лион - Ювентус</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10058837,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26903778"></a></b></font></div></td>
 </tr>
@@ -728,7 +712,7 @@ setInterval(function(){
 <td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26903775, 1, 1);'><img id='i26903775' src='/img/plus.jpg'></a></div>19.10.2016 00:45</td>
 <td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26903775">Лестер - Копенгаген</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10058839,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26903775"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26903775' data-match-id='26903775' data-match-count='1' data-cont='1' data-champ='124563'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_582623855.1" data-select="582623855.1" data-v1="1.98" data-v2="1" data-v3="1" data-match="26903775" data-id="582623855.1" data-live="b2" class="koefs"><b>1.98</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_582623856.1" data-select="582623856.1" data-v1="3.52" data-v2="1" data-v3="1" data-match="26903775" data-id="582623856.1" data-live="b2" class="koefs"><b>3.52</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_582623857.1" data-select="582623857.1" data-v1="4.08" data-v2="1" data-v3="1" data-match="26903775" data-id="582623857.1" data-live="b2" class="koefs"><b>4.08</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_582623858.1" data-select="582623858.1" data-v1="1.26" data-v2="1" data-v3="1" data-match="26903775" data-id="582623858.1" data-live="b2" class="koefs"><b>1.26</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_582623859.1" data-select="582623859.1" data-v1="1.32" data-v2="1" data-v3="1" data-match="26903775" data-id="582623859.1" data-live="b2" class="koefs"><b>1.32</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_582623860.1" data-select="582623860.1" data-v1="1.88" data-v2="1" data-v3="1" data-match="26903775" data-id="582623860.1" data-live="b2" class="koefs"><b>1.88</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_582936741:26903775:2:4:-1:1" data-select="26903775:2:4:-1:1" data-v1="-1" data-v2="2.88" data-v3="1" data-match="26903775" data-id="582936741:26903775:2:4:-1:1" data-live="b2" class="koefs"><b>2.88</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_582936742:26903775:2:4:1:2" data-select="26903775:2:4:1:2" data-v1="1" data-v2="1.46" data-v3="1" data-match="26903775" data-id="582936742:26903775:2:4:1:2" data-live="b2" class="koefs"><b>1.46</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_582936755:26903775:2:5:2.5:1" data-select="26903775:2:5:2.5:1" data-v1="2.5" data-v2="1.78" data-v3="2.11" data-match="26903775" data-id="582936755:26903775:2:5:2.5:1" data-live="b2" class="koefs"><b>1.78</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_582936755:26903775:3:5:2.5:1" data-select="26903775:3:5:2.5:1" data-v1="2.5" data-v2="1.78" data-v3="2.11" data-match="26903775" data-id="582936755:26903775:3:5:2.5:1" data-live="b2" class="koefs"><b>2.11</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<tr><td colspan=2><div class=tab id='odd26903775' data-match-id='26903775' data-match-count='1' data-cont='1' data-champ='124563'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_582623855.1" data-select="582623855.1" data-v1="1.96" data-v2="1" data-v3="1" data-match="26903775" data-id="582623855.1" data-live="b2" class="koefs"><b>1.96</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_582623856.1" data-select="582623856.1" data-v1="3.52" data-v2="1" data-v3="1" data-match="26903775" data-id="582623856.1" data-live="b2" class="koefs"><b>3.52</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_582623857.1" data-select="582623857.1" data-v1="4.2" data-v2="1" data-v3="1" data-match="26903775" data-id="582623857.1" data-live="b2" class="koefs"><b>4.2</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_582623858.1" data-select="582623858.1" data-v1="1.25" data-v2="1" data-v3="1" data-match="26903775" data-id="582623858.1" data-live="b2" class="koefs"><b>1.25</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_582623859.1" data-select="582623859.1" data-v1="1.33" data-v2="1" data-v3="1" data-match="26903775" data-id="582623859.1" data-live="b2" class="koefs"><b>1.33</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_582623860.1" data-select="582623860.1" data-v1="1.9" data-v2="1" data-v3="1" data-match="26903775" data-id="582623860.1" data-live="b2" class="koefs"><b>1.9</b></span>   &nbsp;</nobr> <nobr>Ф1(-1) -&nbsp;&nbsp;<span id="koefs_582936741:26903775:2:4:-1:1" data-select="26903775:2:4:-1:1" data-v1="-1" data-v2="2.81" data-v3="1" data-match="26903775" data-id="582936741:26903775:2:4:-1:1" data-live="b2" class="koefs"><b>2.81</b></span>   &nbsp;</nobr> <nobr>Ф2(1) -&nbsp;&nbsp;<span id="koefs_582936742:26903775:2:4:1:2" data-select="26903775:2:4:1:2" data-v1="1" data-v2="1.47" data-v3="1" data-match="26903775" data-id="582936742:26903775:2:4:1:2" data-live="b2" class="koefs"><b>1.47</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_582936755:26903775:2:5:2.5:1" data-select="26903775:2:5:2.5:1" data-v1="2.5" data-v2="1.78" data-v3="2.11" data-match="26903775" data-id="582936755:26903775:2:5:2.5:1" data-live="b2" class="koefs"><b>1.78</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_582936755:26903775:3:5:2.5:1" data-select="26903775:3:5:2.5:1" data-v1="2.5" data-v2="1.78" data-v3="2.11" data-match="26903775" data-id="582936755:26903775:3:5:2.5:1" data-live="b2" class="koefs"><b>2.11</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
 <td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26903776, 2, 2);'><img id='i26903776' src='/img/plus.jpg'></a></div>19.10.2016 00:45</td>
 <td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26903776">Брюгге - Порту</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10058841,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26903776"></a></b></font></div></td>
 </tr>
@@ -736,7 +720,7 @@ setInterval(function(){
 <td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26903773, 3, 3);'><img id='i26903773' src='/img/plus.jpg'></a></div>19.10.2016 00:45</td>
 <td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26903773">Спортинг Л - Боруссия Д</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10058869,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26903773"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26903773' data-match-id='26903773' data-match-count='3' data-cont='3' data-champ='124563'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_582623843.1" data-select="582623843.1" data-v1="4.36" data-v2="1" data-v3="1" data-match="26903773" data-id="582623843.1" data-live="b4" class="koefs"><b>4.36</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_582623844.1" data-select="582623844.1" data-v1="3.91" data-v2="1" data-v3="1" data-match="26903773" data-id="582623844.1" data-live="b4" class="koefs"><b>3.91</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_582623845.1" data-select="582623845.1" data-v1="1.83" data-v2="1" data-v3="1" data-match="26903773" data-id="582623845.1" data-live="b4" class="koefs"><b>1.83</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_582623846.1" data-select="582623846.1" data-v1="2.04" data-v2="1" data-v3="1" data-match="26903773" data-id="582623846.1" data-live="b4" class="koefs"><b>2.04</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_582623847.1" data-select="582623847.1" data-v1="1.28" data-v2="1" data-v3="1" data-match="26903773" data-id="582623847.1" data-live="b4" class="koefs"><b>1.28</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_582623848.1" data-select="582623848.1" data-v1="1.24" data-v2="1" data-v3="1" data-match="26903773" data-id="582623848.1" data-live="b4" class="koefs"><b>1.24</b></span>   &nbsp;</nobr> <nobr>Ф1(1) -&nbsp;&nbsp;<span id="koefs_582936504:26903773:2:4:1:1" data-select="26903773:2:4:1:1" data-v1="1" data-v2="1.61" data-v3="1" data-match="26903773" data-id="582936504:26903773:2:4:1:1" data-live="b4" class="koefs"><b>1.61</b></span>   &nbsp;</nobr> <nobr>Ф2(-1) -&nbsp;&nbsp;<span id="koefs_582936505:26903773:2:4:-1:2" data-select="26903773:2:4:-1:2" data-v1="-1" data-v2="2.41" data-v3="1" data-match="26903773" data-id="582936505:26903773:2:4:-1:2" data-live="b4" class="koefs"><b>2.41</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_582936522:26903773:2:5:2.5:1" data-select="26903773:2:5:2.5:1" data-v1="2.5" data-v2="2.23" data-v3="1.69" data-match="26903773" data-id="582936522:26903773:2:5:2.5:1" data-live="b4" class="koefs"><b>2.23</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_582936522:26903773:3:5:2.5:1" data-select="26903773:3:5:2.5:1" data-v1="2.5" data-v2="2.23" data-v3="1.69" data-match="26903773" data-id="582936522:26903773:3:5:2.5:1" data-live="b4" class="koefs"><b>1.69</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<tr><td colspan=2><div class=tab id='odd26903773' data-match-id='26903773' data-match-count='3' data-cont='3' data-champ='124563'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_582623843.1" data-select="582623843.1" data-v1="4.36" data-v2="1" data-v3="1" data-match="26903773" data-id="582623843.1" data-live="b4" class="koefs"><b>4.36</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_582623844.1" data-select="582623844.1" data-v1="3.91" data-v2="1" data-v3="1" data-match="26903773" data-id="582623844.1" data-live="b4" class="koefs"><b>3.91</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_582623845.1" data-select="582623845.1" data-v1="1.83" data-v2="1" data-v3="1" data-match="26903773" data-id="582623845.1" data-live="b4" class="koefs"><b>1.83</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_582623846.1" data-select="582623846.1" data-v1="2.04" data-v2="1" data-v3="1" data-match="26903773" data-id="582623846.1" data-live="b4" class="koefs"><b>2.04</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_582623847.1" data-select="582623847.1" data-v1="1.28" data-v2="1" data-v3="1" data-match="26903773" data-id="582623847.1" data-live="b4" class="koefs"><b>1.28</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_582623848.1" data-select="582623848.1" data-v1="1.24" data-v2="1" data-v3="1" data-match="26903773" data-id="582623848.1" data-live="b4" class="koefs"><b>1.24</b></span>   &nbsp;</nobr> <nobr>Ф1(1) -&nbsp;&nbsp;<span id="koefs_582936504:26903773:2:4:1:1" data-select="26903773:2:4:1:1" data-v1="1" data-v2="1.61" data-v3="1" data-match="26903773" data-id="582936504:26903773:2:4:1:1" data-live="b4" class="koefs"><b>1.61</b></span>   &nbsp;</nobr> <nobr>Ф2(-1) -&nbsp;&nbsp;<span id="koefs_582936505:26903773:2:4:-1:2" data-select="26903773:2:4:-1:2" data-v1="-1" data-v2="2.41" data-v3="1" data-match="26903773" data-id="582936505:26903773:2:4:-1:2" data-live="b4" class="koefs"><b>2.41</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_582936522:26903773:2:5:2.5:1" data-select="26903773:2:5:2.5:1" data-v1="2.5" data-v2="2.18" data-v3="1.73" data-match="26903773" data-id="582936522:26903773:2:5:2.5:1" data-live="b4" class="koefs"><b>2.18</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_582936522:26903773:3:5:2.5:1" data-select="26903773:3:5:2.5:1" data-v1="2.5" data-v2="2.18" data-v3="1.73" data-match="26903773" data-id="582936522:26903773:3:5:2.5:1" data-live="b4" class="koefs"><b>1.73</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
 <td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26903769, 4, 4);'><img id='i26903769' src='/img/plus.jpg'></a></div>19.10.2016 00:45</td>
 <td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26903769">ЦСКА М - Монако</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10058873,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26903769"></a></b></font></div></td>
 </tr>
@@ -760,7 +744,7 @@ setInterval(function(){
 <td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26921055, 9, 9);'><img id='i26921055' src='/img/plus.jpg'></a></div>20.10.2016 00:45</td>
 <td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26921055">Бавария - ПСВ Эйндховен</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10058879,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26921055"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26921055' data-match-id='26921055' data-match-count='9' data-cont='9' data-champ='124563'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_583114913.1" data-select="583114913.1" data-v1="1.18" data-v2="1" data-v3="1" data-match="26921055" data-id="583114913.1" data-live="b10" class="koefs"><b>1.18</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_583114914.1" data-select="583114914.1" data-v1="8.25" data-v2="1" data-v3="1" data-match="26921055" data-id="583114914.1" data-live="b10" class="koefs"><b>8.25</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_583114915.1" data-select="583114915.1" data-v1="14.75" data-v2="1" data-v3="1" data-match="26921055" data-id="583114915.1" data-live="b10" class="koefs"><b>14.75</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_583114916.1" data-select="583114916.1" data-v1="1.03" data-v2="1" data-v3="1" data-match="26921055" data-id="583114916.1" data-live="b10" class="koefs"><b>1.03</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_583114917.1" data-select="583114917.1" data-v1="1.09" data-v2="1" data-v3="1" data-match="26921055" data-id="583114917.1" data-live="b10" class="koefs"><b>1.09</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_583114918.1" data-select="583114918.1" data-v1="5.3" data-v2="1" data-v3="1" data-match="26921055" data-id="583114918.1" data-live="b10" class="koefs"><b>5.3</b></span>   &nbsp;</nobr> <nobr>Ф1(-2) -&nbsp;&nbsp;<span id="koefs_583325549:26921055:2:4:-2:1" data-select="26921055:2:4:-2:1" data-v1="-2" data-v2="1.74" data-v3="1" data-match="26921055" data-id="583325549:26921055:2:4:-2:1" data-live="b10" class="koefs"><b>1.74</b></span>   &nbsp;</nobr> <nobr>Ф2(2) -&nbsp;&nbsp;<span id="koefs_583325550:26921055:2:4:2:2" data-select="26921055:2:4:2:2" data-v1="2" data-v2="2.17" data-v3="1" data-match="26921055" data-id="583325550:26921055:2:4:2:2" data-live="b10" class="koefs"><b>2.17</b></span>   &nbsp;</nobr> <nobr>Тот(3.5) М -&nbsp;&nbsp;<span id="koefs_583325571:26921055:2:5:3.5:1" data-select="26921055:2:5:3.5:1" data-v1="3.5" data-v2="2.11" data-v3="1.78" data-match="26921055" data-id="583325571:26921055:2:5:3.5:1" data-live="b10" class="koefs"><b>2.11</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_583325571:26921055:3:5:3.5:1" data-select="26921055:3:5:3.5:1" data-v1="3.5" data-v2="2.11" data-v3="1.78" data-match="26921055" data-id="583325571:26921055:3:5:3.5:1" data-live="b10" class="koefs"><b>1.78</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<tr><td colspan=2><div class=tab id='odd26921055' data-match-id='26921055' data-match-count='9' data-cont='9' data-champ='124563'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_583114913.1" data-select="583114913.1" data-v1="1.18" data-v2="1" data-v3="1" data-match="26921055" data-id="583114913.1" data-live="b10" class="koefs"><b>1.18</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_583114914.1" data-select="583114914.1" data-v1="8.25" data-v2="1" data-v3="1" data-match="26921055" data-id="583114914.1" data-live="b10" class="koefs"><b>8.25</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_583114915.1" data-select="583114915.1" data-v1="15.25" data-v2="1" data-v3="1" data-match="26921055" data-id="583114915.1" data-live="b10" class="koefs"><b>15.25</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_583114916.1" data-select="583114916.1" data-v1="1.02" data-v2="1" data-v3="1" data-match="26921055" data-id="583114916.1" data-live="b10" class="koefs"><b>1.02</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_583114917.1" data-select="583114917.1" data-v1="1.09" data-v2="1" data-v3="1" data-match="26921055" data-id="583114917.1" data-live="b10" class="koefs"><b>1.09</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_583114918.1" data-select="583114918.1" data-v1="5.33" data-v2="1" data-v3="1" data-match="26921055" data-id="583114918.1" data-live="b10" class="koefs"><b>5.33</b></span>   &nbsp;</nobr> <nobr>Ф1(-2) -&nbsp;&nbsp;<span id="koefs_583325549:26921055:2:4:-2:1" data-select="26921055:2:4:-2:1" data-v1="-2" data-v2="1.74" data-v3="1" data-match="26921055" data-id="583325549:26921055:2:4:-2:1" data-live="b10" class="koefs"><b>1.74</b></span>   &nbsp;</nobr> <nobr>Ф2(2) -&nbsp;&nbsp;<span id="koefs_583325550:26921055:2:4:2:2" data-select="26921055:2:4:2:2" data-v1="2" data-v2="2.17" data-v3="1" data-match="26921055" data-id="583325550:26921055:2:4:2:2" data-live="b10" class="koefs"><b>2.17</b></span>   &nbsp;</nobr> <nobr>Тот(3.5) М -&nbsp;&nbsp;<span id="koefs_583325571:26921055:2:5:3.5:1" data-select="26921055:2:5:3.5:1" data-v1="3.5" data-v2="2.08" data-v3="1.81" data-match="26921055" data-id="583325571:26921055:2:5:3.5:1" data-live="b10" class="koefs"><b>2.08</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_583325571:26921055:3:5:3.5:1" data-select="26921055:3:5:3.5:1" data-v1="3.5" data-v2="2.08" data-v3="1.81" data-match="26921055" data-id="583325571:26921055:3:5:3.5:1" data-live="b10" class="koefs"><b>1.81</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
 <td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26921048, 10, 10);'><img id='i26921048' src='/img/plus.jpg'></a></div>20.10.2016 00:45</td>
 <td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26921048">ПСЖ - Базель</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10058889,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26921048"></a></b></font></div></td>
 </tr>
@@ -780,7 +764,7 @@ setInterval(function(){
 <td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26921054, 14, 14);'><img id='i26921054' src='/img/plus.jpg'></a></div>20.10.2016 00:45</td>
 <td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26921054">ФК Ростов - Атлетико Мадрид</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10058877,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26921054"></a></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd26921054' data-match-id='26921054' data-match-count='14' data-cont='14' data-champ='124563'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_583114907.1" data-select="583114907.1" data-v1="9.75" data-v2="1" data-v3="1" data-match="26921054" data-id="583114907.1" data-live="b15" class="koefs"><b>9.75</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_583114908.1" data-select="583114908.1" data-v1="4.58" data-v2="1" data-v3="1" data-match="26921054" data-id="583114908.1" data-live="b15" class="koefs"><b>4.58</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_583114909.1" data-select="583114909.1" data-v1="1.4" data-v2="1" data-v3="1" data-match="26921054" data-id="583114909.1" data-live="b15" class="koefs"><b>1.4</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_583114910.1" data-select="583114910.1" data-v1="3.1" data-v2="1" data-v3="1" data-match="26921054" data-id="583114910.1" data-live="b15" class="koefs"><b>3.1</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_583114911.1" data-select="583114911.1" data-v1="1.22" data-v2="1" data-v3="1" data-match="26921054" data-id="583114911.1" data-live="b15" class="koefs"><b>1.22</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_583114912.1" data-select="583114912.1" data-v1="1.07" data-v2="1" data-v3="1" data-match="26921054" data-id="583114912.1" data-live="b15" class="koefs"><b>1.07</b></span>   &nbsp;</nobr> <nobr>Ф1(1.5) -&nbsp;&nbsp;<span id="koefs_583325824:26921054:2:4:1.5:1" data-select="26921054:2:4:1.5:1" data-v1="1.5" data-v2="1.69" data-v3="1" data-match="26921054" data-id="583325824:26921054:2:4:1.5:1" data-live="b15" class="koefs"><b>1.69</b></span>   &nbsp;</nobr> <nobr>Ф2(-1.5) -&nbsp;&nbsp;<span id="koefs_583325825:26921054:2:4:-1.5:2" data-select="26921054:2:4:-1.5:2" data-v1="-1.5" data-v2="2.26" data-v3="1" data-match="26921054" data-id="583325825:26921054:2:4:-1.5:2" data-live="b15" class="koefs"><b>2.26</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_583325838:26921054:2:5:2.5:1" data-select="26921054:2:5:2.5:1" data-v1="2.5" data-v2="1.71" data-v3="2.22" data-match="26921054" data-id="583325838:26921054:2:5:2.5:1" data-live="b15" class="koefs"><b>1.71</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_583325838:26921054:3:5:2.5:1" data-select="26921054:3:5:2.5:1" data-v1="2.5" data-v2="1.71" data-v3="2.22" data-match="26921054" data-id="583325838:26921054:3:5:2.5:1" data-live="b15" class="koefs"><b>2.22</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
+<tr><td colspan=2><div class=tab id='odd26921054' data-match-id='26921054' data-match-count='14' data-cont='14' data-champ='124563'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_583114907.1" data-select="583114907.1" data-v1="10" data-v2="1" data-v3="1" data-match="26921054" data-id="583114907.1" data-live="b15" class="koefs"><b>10</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_583114908.1" data-select="583114908.1" data-v1="4.62" data-v2="1" data-v3="1" data-match="26921054" data-id="583114908.1" data-live="b15" class="koefs"><b>4.62</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_583114909.1" data-select="583114909.1" data-v1="1.39" data-v2="1" data-v3="1" data-match="26921054" data-id="583114909.1" data-live="b15" class="koefs"><b>1.39</b></span>   &nbsp;</nobr> <nobr>1Х -&nbsp;&nbsp;<span id="koefs_583114910.1" data-select="583114910.1" data-v1="3.15" data-v2="1" data-v3="1" data-match="26921054" data-id="583114910.1" data-live="b15" class="koefs"><b>3.15</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_583114911.1" data-select="583114911.1" data-v1="1.21" data-v2="1" data-v3="1" data-match="26921054" data-id="583114911.1" data-live="b15" class="koefs"><b>1.21</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_583114912.1" data-select="583114912.1" data-v1="1.07" data-v2="1" data-v3="1" data-match="26921054" data-id="583114912.1" data-live="b15" class="koefs"><b>1.07</b></span>   &nbsp;</nobr> <nobr>Ф1(1.5) -&nbsp;&nbsp;<span id="koefs_583325824:26921054:2:4:1.5:1" data-select="26921054:2:4:1.5:1" data-v1="1.5" data-v2="1.71" data-v3="1" data-match="26921054" data-id="583325824:26921054:2:4:1.5:1" data-live="b15" class="koefs"><b>1.71</b></span>   &nbsp;</nobr> <nobr>Ф2(-1.5) -&nbsp;&nbsp;<span id="koefs_583325825:26921054:2:4:-1.5:2" data-select="26921054:2:4:-1.5:2" data-v1="-1.5" data-v2="2.22" data-v3="1" data-match="26921054" data-id="583325825:26921054:2:4:-1.5:2" data-live="b15" class="koefs"><b>2.22</b></span>   &nbsp;</nobr> <nobr>Тот(2.5) М -&nbsp;&nbsp;<span id="koefs_583325838:26921054:2:5:2.5:1" data-select="26921054:2:5:2.5:1" data-v1="2.5" data-v2="1.71" data-v3="2.22" data-match="26921054" data-id="583325838:26921054:2:5:2.5:1" data-live="b15" class="koefs"><b>1.71</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_583325838:26921054:3:5:2.5:1" data-select="26921054:3:5:2.5:1" data-v1="2.5" data-v2="1.71" data-v3="2.22" data-match="26921054" data-id="583325838:26921054:3:5:2.5:1" data-live="b15" class="koefs"><b>2.22</b></span>   &nbsp;</nobr> </div><br></td></tr><tr class=hi>
 <td width='20%' align=center><div style='float: left;'><a href='javascript:loadadd(26921052, 15, 15);'><img id='i26921052' src='/img/plus.jpg'></a></div>20.10.2016 00:45</td>
 <td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b><a style="text-decoration: none;" href="/index.php?page=line&addons=1&action=2&mid=26921052">Селтик - Боруссия М</a><div style='float: left; margin-right: 10px;'><a href='javascript:openmt(10058881,0, false, "ru");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26921052"></a></b></font></div></td>
 </tr>
@@ -1105,7 +1089,7 @@ setInterval(function(){
 <td colspan='2'>
 <div class=tab id='odd24778025' data-match-id='24778025' data-match-count='' data-cont='60' data-champ='124563'>
 <b><i>Победитель:</i></b><br/><nobr>Барселона -&nbsp;&nbsp;<span id="koefs_529152384.1" data-select="529152384.1" data-v1="3.85" data-v2="1" data-v3="1" data-match="24778025" data-id="529152384.1" data-live="b60" class="koefs"><b>3.85</b></span>   &nbsp;</nobr> <nobr>Бавария -&nbsp;&nbsp;<span id="koefs_529152385.1" data-select="529152385.1" data-v1="4.4" data-v2="1" data-v3="1" data-match="24778025" data-id="529152385.1" data-live="b60" class="koefs"><b>4.4</b></span>   &nbsp;</nobr> <nobr>Реал М -&nbsp;&nbsp;<span id="koefs_529152386.1" data-select="529152386.1" data-v1="6.5" data-v2="1" data-v3="1" data-match="24778025" data-id="529152386.1" data-live="b60" class="koefs"><b>6.5</b></span>   &nbsp;</nobr> <nobr>Манчестер Сити -&nbsp;&nbsp;<span id="koefs_529152387.1" data-select="529152387.1" data-v1="10" data-v2="1" data-v3="1" data-match="24778025" data-id="529152387.1" data-live="b60" class="koefs"><b>10</b></span>   &nbsp;</nobr> <nobr>Атлетико Мадрид -&nbsp;&nbsp;<span id="koefs_529152388.1" data-select="529152388.1" data-v1="12.25" data-v2="1" data-v3="1" data-match="24778025" data-id="529152388.1" data-live="b60" class="koefs"><b>12.25</b></span>   &nbsp;</nobr> <nobr>Ювентус -&nbsp;&nbsp;<span id="koefs_529152390.1" data-select="529152390.1" data-v1="12.25" data-v2="1" data-v3="1" data-match="24778025" data-id="529152390.1" data-live="b60" class="koefs"><b>12.25</b></span>   &nbsp;</nobr> <nobr>Боруссия Д -&nbsp;&nbsp;<span id="koefs_529152391.1" data-select="529152391.1" data-v1="17" data-v2="1" data-v3="1" data-match="24778025" data-id="529152391.1" data-live="b60" class="koefs"><b>17</b></span>   &nbsp;</nobr> <nobr>ПСЖ -&nbsp;&nbsp;<span id="koefs_529152389.1" data-select="529152389.1" data-v1="21" data-v2="1" data-v3="1" data-match="24778025" data-id="529152389.1" data-live="b60" class="koefs"><b>21</b></span>   &nbsp;</nobr> <nobr>Арсенал -&nbsp;&nbsp;<span id="koefs_529152392.1" data-select="529152392.1" data-v1="24" data-v2="1" data-v3="1" data-match="24778025" data-id="529152392.1" data-live="b60" class="koefs"><b>24</b></span>   &nbsp;</nobr> <nobr>Наполи -&nbsp;&nbsp;<span id="koefs_529152394.1" data-select="529152394.1" data-v1="38" data-v2="1" data-v3="1" data-match="24778025" data-id="529152394.1" data-live="b60" class="koefs"><b>38</b></span>   &nbsp;</nobr> <nobr>Лестер -&nbsp;&nbsp;<span id="koefs_529152399.1" data-select="529152399.1" data-v1="40" data-v2="1" data-v3="1" data-match="24778025" data-id="529152399.1" data-live="b60" class="koefs"><b>40</b></span>   &nbsp;</nobr> <nobr>Тоттенхэм -&nbsp;&nbsp;<span id="koefs_529152393.1" data-select="529152393.1" data-v1="47" data-v2="1" data-v3="1" data-match="24778025" data-id="529152393.1" data-live="b60" class="koefs"><b>47</b></span>   &nbsp;</nobr> <nobr>Севилья -&nbsp;&nbsp;<span id="koefs_529152395.1" data-select="529152395.1" data-v1="66" data-v2="1" data-v3="1" data-match="24778025" data-id="529152395.1" data-live="b60" class="koefs"><b>66</b></span>   &nbsp;</nobr> <nobr>Байер 04 -&nbsp;&nbsp;<span id="koefs_529152397.1" data-select="529152397.1" data-v1="100" data-v2="1" data-v3="1" data-match="24778025" data-id="529152397.1" data-live="b60" class="koefs"><b>100</b></span>   &nbsp;</nobr> <nobr>Монако -&nbsp;&nbsp;<span id="koefs_529152404.1" data-select="529152404.1" data-v1="130" data-v2="1" data-v3="1" data-match="24778025" data-id="529152404.1" data-live="b60" class="koefs"><b>130</b></span>   &nbsp;</nobr> <nobr>Порту -&nbsp;&nbsp;<span id="koefs_529152402.1" data-select="529152402.1" data-v1="135" data-v2="1" data-v3="1" data-match="24778025" data-id="529152402.1" data-live="b60" class="koefs"><b>135</b></span>   &nbsp;</nobr> <nobr>Бенфика -&nbsp;&nbsp;<span id="koefs_529152401.1" data-select="529152401.1" data-v1="170" data-v2="1" data-v3="1" data-match="24778025" data-id="529152401.1" data-live="b60" class="koefs"><b>170</b></span>   &nbsp;</nobr> <nobr>Спортинг Л -&nbsp;&nbsp;<span id="koefs_529152409.1" data-select="529152409.1" data-v1="185" data-v2="1" data-v3="1" data-match="24778025" data-id="529152409.1" data-live="b60" class="koefs"><b>185</b></span>   &nbsp;</nobr> <nobr>Лион -&nbsp;&nbsp;<span id="koefs_529152410.1" data-select="529152410.1" data-v1="210" data-v2="1" data-v3="1" data-match="24778025" data-id="529152410.1" data-live="b60" class="koefs"><b>210</b></span>   &nbsp;</nobr> <nobr>Боруссия М -&nbsp;&nbsp;<span id="koefs_529152403.1" data-select="529152403.1" data-v1="240" data-v2="1" data-v3="1" data-match="24778025" data-id="529152403.1" data-live="b60" class="koefs"><b>240</b></span>   &nbsp;</nobr> <nobr>Динамо Киев -&nbsp;&nbsp;<span id="koefs_529152412.1" data-select="529152412.1" data-v1="390" data-v2="1" data-v3="1" data-match="24778025" data-id="529152412.1" data-live="b60" class="koefs"><b>390</b></span>   &nbsp;</nobr> <nobr>Бешикташ -&nbsp;&nbsp;<span id="koefs_529152414.1" data-select="529152414.1" data-v1="390" data-v2="1" data-v3="1" data-match="24778025" data-id="529152414.1" data-live="b60" class="koefs"><b>390</b></span>   &nbsp;</nobr> <nobr>ПСВ Эйндховен -&nbsp;&nbsp;<span id="koefs_529152411.1" data-select="529152411.1" data-v1="410" data-v2="1" data-v3="1" data-match="24778025" data-id="529152411.1" data-live="b60" class="koefs"><b>410</b></span>   &nbsp;</nobr> <nobr>ЦСКА М -&nbsp;&nbsp;<span id="koefs_529152408.1" data-select="529152408.1" data-v1="430" data-v2="1" data-v3="1" data-match="24778025" data-id="529152408.1" data-live="b60" class="koefs"><b>430</b></span>   &nbsp;</nobr> <nobr>Копенгаген -&nbsp;&nbsp;<span id="koefs_529152425.1" data-select="529152425.1" data-v1="520" data-v2="1" data-v3="1" data-match="24778025" data-id="529152425.1" data-live="b60" class="koefs"><b>520</b></span>   &nbsp;</nobr> <nobr>Базель -&nbsp;&nbsp;<span id="koefs_529152417.1" data-select="529152417.1" data-v1="600" data-v2="1" data-v3="1" data-match="24778025" data-id="529152417.1" data-live="b60" class="koefs"><b>600</b></span>   &nbsp;</nobr> <nobr>Селтик -&nbsp;&nbsp;<span id="koefs_529152418.1" data-select="529152418.1" data-v1="870" data-v2="1" data-v3="1" data-match="24778025" data-id="529152418.1" data-live="b60" class="koefs"><b>870</b></span>   &nbsp;</nobr> <nobr>Лудогорец Разград -&nbsp;&nbsp;<span id="koefs_529152429.1" data-select="529152429.1" data-v1="910" data-v2="1" data-v3="1" data-match="24778025" data-id="529152429.1" data-live="b60" class="koefs"><b>910</b></span>   &nbsp;</nobr> <nobr>Динамо Загреб -&nbsp;&nbsp;<span id="koefs_529152430.1" data-select="529152430.1" data-v1="930" data-v2="1" data-v3="1" data-match="24778025" data-id="529152430.1" data-live="b60" class="koefs"><b>930</b></span>   &nbsp;</nobr> <nobr>Брюгге -&nbsp;&nbsp;<span id="koefs_529152420.1" data-select="529152420.1" data-v1="940" data-v2="1" data-v3="1" data-match="24778025" data-id="529152420.1" data-live="b60" class="koefs"><b>940</b></span>   &nbsp;</nobr> <nobr>ФК Ростов -&nbsp;&nbsp;<span id="koefs_529152419.1" data-select="529152419.1" data-v1="1100" data-v2="1" data-v3="1" data-match="24778025" data-id="529152419.1" data-live="b60" class="koefs"><b>1100</b></span>   &nbsp;</nobr> <nobr>Легия -&nbsp;&nbsp;<span id="koefs_529152427.1" data-select="529152427.1" data-v1="1600" data-v2="1" data-v3="1" data-match="24778025" data-id="529152427.1" data-live="b60" class="koefs"><b>1600</b></span>   &nbsp;</nobr> </td></tr></div></td></tr></table><i><a href="javascript:void(0);" class="show_all_odds" data-champ_id="124563">
-<span id="t124563_2" class="tab">Показать роспись</span></a><span class="tab"><a href="#top">Наверх</a></span><br/><br/></i></td></tr></table><div align="justify" style="width:96%"><hr class="hr2"/><a name="index"></a><b>Оглавление</b><br><br><table><tr><td valign="top" align="left"><i><a href="#ch124563">Футбол. Лига Чемпионов УЕФА. Групповой этап. 3-й тур</a><br/></i></td></tr></table><br><i>&nbsp;<a href="#top">Наверх</a></i></div><input type="hidden" name="r_max" value="60"/><input type="hidden" name="currpage" value="line"/> </div>
+<span id="t124563_2" class="tab">Показать роспись</span></a><span class="tab"><a href="#top">Наверх</a></span><br/><br/></i></td></tr></table><input type="hidden" name="r_max" value="60"/><input type="hidden" name="currpage" value="line"/> </div>
 </form>
 </div>
 <script type="text/javascript">
@@ -1511,7 +1495,7 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
     Total time: 0.092 s
     DataBase time(1): 0 s
     DataBase time(2): 0.005 s
-    Served by: s77
+    Served by: s58
     C: true
 
     VK_I8Ud3

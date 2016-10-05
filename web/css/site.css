@@ -15,6 +15,18 @@ hr{
 	margin-top:20px;
 }
 
+.text2{
+	/*--блок, где содержится весь контент--*/
+	padding:20px 0px;overflow:hidden;
+	width:100%;margin:0 auto;text-align:center;
+		margin-top: 10px;
+		color:black;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+	margin-top:5px;border-radius:5px;
+	border:1px solid #ccc;
+	
+}
 
 .blok{
 	margin-bottom:20px;
@@ -218,12 +230,6 @@ margin-bottom:30px;border:1px solid rgba(0,0,0,0.5);padding:0;border-radius:10px
 /*-------------------------------------*/
 /*---страница soccer_request футбол----*/
 
-.text2{
-	/*--блок, где содержится весь контент--*/
-	padding:20px 0px;overflow:hidden;
-	width:100%;margin:0 auto;text-align:center;
-	
-}
 
 .soccerpage .ul-li{
 	display:block;
@@ -390,21 +396,7 @@ float:left;width:100%;
 }
 
 
-.text2{
-	margin-top: 10px;
-		color:black;
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 22px;
-	
-	
-	
-	
-	
-	
 
-	
-	
-}
 
 
 /* s_live style */
@@ -450,9 +442,7 @@ font-size:16px;
 .border{
 	
 }
-.text2{
-margin-top:5px;border-radius:5px;border:1px solid #ccc;
-}
+
 .bl{
 	text-align:center;
 }
@@ -465,8 +455,17 @@ margin-top:5px;border-radius:5px;border:1px solid #ccc;
 	/*background:#5bc0de;*/
 	color:#5bc0de;
 }
+.vr .load{
+	border:none;padding:0;margin:0;padding:10px 0;
+}
+.vr .load2{
+	border:none;padding:0;margin:0;padding:5px 0;padding:10px 0;
+}
 .load{
 	border:1px solid rgba(91,192,222,0.2);border-left:none;border-right:none;padding:10px 0;
+}
+.vr{
+	border:1px solid rgba(91,192,222,0.2);border-left:none;border-right:none;margin-bottom:15px;
 }
 .load2{
 	border:1px solid rgba(0,0,0,0.1);
@@ -780,7 +779,9 @@ text-align:left!important;margin-bottom:50px;
 	
 }
 
-
+.text1{
+	border:6px solid red;overflow:hidden;
+}
 
 
 

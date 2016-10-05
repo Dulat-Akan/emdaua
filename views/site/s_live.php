@@ -9,12 +9,10 @@ use yii\helpers\Url;
 			</div>
 		</div>
 	</div> -->
-	<!--
 	<div class='header-middle'>
 
   <button style="" id="update" class="btn btn-primary btn-sm" type="button">обновить страницу</button>
   </div>
-  --->
 <hr/>
 
 
@@ -140,27 +138,16 @@ use yii\helpers\Url;
 			}
 
 
-			/*setInterval(function(){
+			setInterval(function(){
 				updategame();
 			},5000);
 
 			$("#update").click(function(){
 				window.location.reload();
-			});*/
+			});
 				
 			
 
-
-
-
-
-
-
-
-
-
-
-			
 			$(".load").click(function(){
 
 				$("#download").show();
@@ -225,30 +212,27 @@ use yii\helpers\Url;
 
 <script>
 
-
-
 function MySearch(){
 			
+			/*arrays*/
 			var arsearch = new Array();		/*"search name"*/
 			var arsearchkoef = new Array();		/*"search koef"*/
 			var arhref = new Array();		/*"ssilki na igri"*/
 			var ar1 = new Array();		/*"title"*/
-			var ar2 = new Array();		/*"name"*/
-			var ar3 = new Array();		/*"koeffisient"*/
-			var ar4 = new Array();		/*"title_name"*/
+			var ar4 = new Array();		/*"title_first_name"*/
+			var ar5 = new Array();		/*"new name kommand"*/
+			var ar6 = new Array();		/*"new name koeffisient"*/
+
+			var center = new Array();
+
+			/*arrays*/
 			
-			var p1 = $("#pok_searh2");
+			var p1 = $("#pok_searh2");		/*contant*/
 
-			//var title = $("tr").children('td [colspan="2"]').children("a").children("b");
-			var title = $("tr").children('td [colspan="3"]').children("a").children("b"); /*nazvaniya kommand*/
+			var title = $("tr").children('td [colspan="3"]').children("a").children("b"); /*title kommand*/
+			var next = $("tr").find('td [colspan="3"]').children("a").children("b");	/*first name of command*/
 
-			//alert(title.text());
-
-
-			var next = $("tr").find('td [colspan="3"]').children("a").children("b");	/*sledyushie nazvanie kommand*/
-
-
-			title.each(function(index,element){
+			title.each(function(index,element){	/*search and filtering title*/
 
 				var str = $(element);
 
@@ -278,35 +262,21 @@ function MySearch(){
 	
 			});
 
-
-
-
+			/*first name of command*/
 			var title_name = $('a').parent().parent().prev().children().children().next().children("b").parent().parent().parent().next().children().next().children("a");
 
-
-			
-			title_name.each(function(index,element){
+			title_name.each(function(index,element){		/*filtering and putting array4*/
 
 				var str = $(element);
 				var string = str.text();
 
-				
-
 				if(string != ""){
 					ar4.push(string);
-					//alert(string);
 				}
-				
 
 			});
 
 			var name = $('[align="left"]').children("a");	/*"td > a nazvaniya komand"*/
-
-
-
-			var koef = $('[align="left"]').children("font");	/*"td > font" koeffisienti*/
-
-
 
 			name.each(function(index,element){
 
@@ -315,119 +285,253 @@ function MySearch(){
 				var string = str.text();
 				var href = str.attr("href");
 
-				ar2.push(string);
+
 				arhref.push(href);
 
 			});
 
 
-			var p = 0;
-			var v = 0;
-			
-			koef.each(function(index,element){
+			var name_new = $('[align="left"]');	/*"new name of komand"*/
 
-				var str = $(element);
-				var string = str.text();
+			//new function
 
-				arsearchkoef[0] = "Live";
-				arsearchkoef[1] = "www";
+			name_new.each(function(index,element){
+
+				var str = $(element).html();
+
+
+				//filtration 
+				var kommand_filtration = /\>[\wа-я]+\s*[\wа-я]*\<\/\u|\>[\wа-я]+\s*\<\/\a\>|>Қазақша|>中文|>ქართული|>Español|>Français|>Українська|>Português|>Română|\>\<b\>[\wа-я]+\s[\wа-я]+\<\/b\>\<\/\a\>|^\>Türkçe\<\/a\>$|\>\s\<a\shref\=\"\/\"\sid\=\"olimp\_logo\"\>\<img\ssrc\=\"\/img\/logo\_L0\.gif\"\sborder\=\"\d\"\>\<\/a\>\s\<\/div\>|\>Включить\sнумерацию\sматчей\sв\sлинии\<\/b\>/gi;	
+				//filtration 
+
+				var f1 = 0;	//fixed variable
+				var f2 = 0;	//fixed variable
 				
-				var check = 0;
-				for(var a = 0;a < arsearchkoef.length;a++){
-					if(string == arsearchkoef[a]){
-						check = 1;
+				var stringify = "";		//collect letters
+
+
+				for(var i = 0;i < str.length;i++){
+
+					//start filtration
+
+					if(str[i] == ">"){
+				
+							f1 = i;
+
 					}
-				}
+					//start filtration
 
-				if(string == "Приостановлен"){
 
-					var count = p - 1;
-					var stringstar = ar3[count];
-					var newstring = stringstar + " " + string;
-					ar3[count] = newstring;
-				}else{
+					//stop filtration
 
-					if(check == 0){
-						var string3 = "";
-						var string2 = string.split("");
+					if(str[i] == "<"){
 
-						for(var u = 0; u < string2.length;u++){
-							if(string2[u] != '"'){
-								if(string2[u] != '-'){
-									string3 += string2[u];
-								}
-								
+						if(str[i+1] == "/"){
+
+							if(str[i+2] == "f"){
+								f2 = i;
 							}
+							
 						}
+						
 
-					ar3.push(string3);
-
-					v++;
-					p = v;
 					}
 
+					//stop filtration
+
+
+					if(f1 != 0){
+
+						if(f2 != 1){
+
+							stringify += str[i];
+							//p1.append(str[i]);
+
+						}
+						
+					}
+
+
 				}
+
+				if(!stringify.match(kommand_filtration)){
+
+								var f5 = 0;
+								var string_k = "";
+
+								//p1.append(stringify);
+																		//fixator komand
+								for(var i = 0;i < stringify.length;i++){
+									if(stringify[i] == "<"){
+
+										if(f5 == 0){
+											f5 = i;
+										}
+										
+									}
+
+
+								}
+
+								for(var i = 1;i < stringify.length;i++){
+									
+									if(i < f5){
+
+										string_k += stringify[i];
+
+									}
+
+								}
+
+								//fixator komand
+
+								//fixator resultatov
+								var f6 = 0;
+								var f7 = 0;
+								var f8 = 0;
+								var f9 = 0;
+								var f10 = 0;
+								var f11 = 0;
+								var string_koef = "";
+								for(var i = 0;i < stringify.length - 25;i++){
+									if(stringify[i] == ">"){
+	
+											//f6 = i;
+									
+									}
+
+								}
+
+								for(var i = stringify.length;i > 0 ;i--){
+									if(stringify[i] == ">"){
+											
+											//p1.append(stringify[i]);
+
+												f10 += 1;
+
+											
+									
+									}
+
+									if(f10 == 1){
+										f6 = i - 1;	//standart
+									}
+
+									if(f10 == 2){
+										f11 = i - 1;//kogda pusto
+									}
+
+								}
+
+								for(var i = f6 + 1;i < stringify.length;i++){	//standartnii poisk
+
+									if(stringify[i] == "<"){
+										break;
+									}
+									if(stringify[i] != '"'){
+
+												string_koef += stringify[i];
+
+									}
+
+								}
+
+								for(var i = f11 + 1;i < stringify.length;i++){	//nahodit gde pusto
+
+									if(stringify[i] == "<"){
+										break;
+									}
+									if(stringify[i] != '"'){
+											
+												string_koef += stringify[i];
+
+									}
+
+								}
+
+
+								//fixator resultatov
+
+								ar5.push(string_k);
+								ar6.push(string_koef);
+								
+								
+
+							}
+	
 
 			});
 
-
-			var i;
+			//new function
+			
 			var j=0;
 			var z = 0;
-		
-			for(i = 0;i < ar2.length;i++){
+			var s = 15;
+		var cot=-1;
+			for(var i = 0;i < ar5.length;i++){
+
+					//comparison first command and name command
+					if(ar4[j] == ar5[i]){	//1 - nazvanie zagolovka == 2 - nazvaniya pervih kommand
+
+					cot++
+						var string5 =  '<div class="text2 text4'+cot+' slive"><div class="title-red col-sm-6"><p class="col-sm-offset-6">' + ar1[j] + '</p></div><div class="button-click col-sm-6 col-sm-6"><button type="button" class="btn btn-primary col-sm-pull-6 click">развернуть</button></div>  <div class="col-sm-10 col-sm-offset-1 ul-li"> <div class="col-sm-6"> <p class="load col-sm-10 col-sm-offset-1" v="' + arhref[s] + '">' + ar5[z] + '</p> </div> <div class="col-sm-6"> <p class="load2 col-sm-10 col-sm-offset-1"><b>' + ar6[z] + '</b></p> </div> </div></div>';
 
 
-					if(ar4[j] == ar2[i]){
+						
 
-					
-var string5 =  '<div class="text2 slive"><div class="title-red col-sm-6 col-md-6">' +'<button type="button" class="">'+ar1[j]+'</button>'+'</div><div class="button-click col-sm-6"><button type="button" class="btn btn-primary col-sm-pull-6 click">развернуть</button></div>  <div class="col-sm-10 col-sm-offset-1 ul-li"> <div class="col-sm-6"> <p class="load col-sm-10 col-sm-offset-1" v="' + arhref[i] + '">'+ ar2[i] + '</p> </div> <div class="col-sm-6"> <p class="load2 col-sm-10 col-sm-offset-1"><b>' + ar3[z] + '</b></p> </div> </div></div>';
 
-							p1.append(string5);
-							
+							//p1.append(string5);	//show content
+       p1.append(string5);
+							//center.push(string5);
+						
 							j++;
 
 							z++;
+							s++;
 
 
 					}else{
 
+							var string6 =   '<div class="col-sm-10 col-sm-offset-1 ul-li"> <div class="col-sm-6"> <p class="load col-sm-10 col-sm-offset-1" v="' + arhref[s] + '">' + ar5[z] + '</p> </div> <div class="col-sm-6 "> <p class="load2 col-sm-10 col-sm-offset-1"><b>' + ar6[z] + '</b></p> </div> </div>';
 
-						if(ar2[i] == "Победитель ЕВРО 2016"){
 
-							var string6 =  '<div class="col-sm-12 col-sm-offset-2"> <div class="col-sm-5"> <p class="load" v="' + arhref[i] + '">' + ar2[i] + '</p> </div>  </div>';
-							
-							p1.append(string6);
 
-							
-
-						}else{
-
-							var string6 =   '<div class="col-sm-10 col-sm-offset-1 ul-li"> <div class="col-sm-6"> <p class="load col-sm-10 col-sm-offset-1" v="' + arhref[i] + '">' + ar2[i] + '</p> </div> <div class="col-sm-6 "> <p class="load2 col-sm-10 col-sm-offset-1"><b>' + ar3[z] + '</b></p> </div> </div>';
-							p1.append($('.text2').append(string6));
-
+							//p1.append(string6);	//show content
+							p1.append($('.text4'+cot).append(string6));
+							//center.push(string6);
 
 							z++;
-							
-
-						}
-
-						
-							
+							s++;
+			
 					}
 
 
 			}
 
-
 			var script = '<script> $(".load").click(function(){$("#download").show(); var v = $(this).attr("v"); var urltwo = $("#basetwo").val(); var baseaction = $("#baseaction").val(); var o = {"hid":v, }; $.ajax({"type":"POST", "url":urltwo, "datatype":"json html script", "data":o, "success":kx, "error":errorfunc }); function kx(result){if(result == "ok"){$("#download").hide(); window.location.href = baseaction; } } function errorfunc(){alert("oshibka zaprosa"); } });' + '</' + 'script>';
 
+			p1.append(script);	/*click*/
+			center.push(script);
 
-			
-			p1.append(script);
 
+			for(var i = 0;i < center.length;i++){
+
+				var p1 = $("#pok_searh2");		/*content*/
+
+				//p1.append(center[i]);
+
+			}
 
 	};
+
+
+	/*show content*/
+
+
+	
+
+
+	/*show content*/
 
 
 	window.onload = function(){
@@ -438,251 +542,4 @@ var string5 =  '<div class="text2 slive"><div class="title-red col-sm-6 col-md-6
 	};
 
 
-
-
-	
-
-	$("#par").click(function(){
-
-			
-			var url = $("#base").val();
-
-			
-			
-			var nachalo = $("#nachalo");
-
-			nachalo.text("Внимание началось сканирование...");
-
-			nachalo.show(2000);
-
-			var status = 0;
-
-
-			 $.ajax({
-                    "type":"POST",
-                    "url":url,
-                  
-                    "datatype":"json html script",
-                    
-                  
-                    "success":kx,
-                    "error":errorfunc
-                    
-                  });
-
-                function kx(result){
-
-                
-
-                  nachalo.hide();
-
-                  var uv = $("#uvedom");
-
-					uv.text("Скрипт обновлен показ результатов..");
-
-					uv.show(2000);
-
-					uv.delay(3000);
-
-					uv.hide(1000);
-
-					status = 1;
-
-					$("#pok_res1").html(result);
-
-					
-					
-                              }
-
-                   function errorfunc(){
-                      alert("oshibka zaprosa");
-                   }
-
-                   setInterval(function(){
-
-                   		if(status == 1){
-		                   	MySearch();
-		                   	status = 0;
-		                   }
-
-
-
-
-                   },100)
-                   
-
-	});
-
-
-	$("#search").click(function(){
-
-			var arsearch = new Array();		/*"search name"*/
-			var arsearchkoef = new Array();		/*"search koef"*/
-			var arhref = new Array();		/*"ssilki na igri"*/
-			var ar1 = new Array();		/*"title"*/
-			var ar2 = new Array();		/*"name"*/
-			var ar3 = new Array();		/*"koeffisient"*/
-			var ar4 = new Array();		/*"title_name"*/
-			
-			var p1 = $("#pok_searh2");
-
-			var title = $("tr").children('td [colspan="2"]').children("a").children("b");
-
-			var next = $("tr").find('td [colspan="2"]').children("a").children("b");
-
-			title.each(function(index,element){
-
-				var str = $(element);
-
-				var string = str.text();
-
-				arsearch[0] = "Ставки";
-				arsearch[1] = "BetGamesTV";
-				arsearch[2] = "ЕВРО-2016";
-				arsearch[3] = "Долгосрочные ставки";
-
-					if(string.indexOf(arsearch[index]) >= 0){	
-					}else{
-						ar1.push(string);
-					}
-	
-			});
-
-			var title_name = $('a').parent().parent().prev().children().children().next().children("b").parent().parent().parent().next().children().next().children("a");
-			
-			title_name.each(function(index,element){
-
-				var str = $(element);
-				var string = str.text();
-
-				ar4.push(string);
-
-			});
-
-			var name = $('[width="99%"]').children("a");	/*"td > a"*/
-
-			var koef = $('[width="99%"]').children("font");	/*"td > font"*/
-
-			name.each(function(index,element){
-
-				var str = $(element);
-
-				var string = str.text();
-				var href = str.attr("href");
-
-				ar2.push(string);
-				arhref.push(href);
-
-			});
-
-
-			var p = 0;
-			var v = 0;
-			
-			koef.each(function(index,element){
-
-				var str = $(element);
-				var string = str.text();
-
-				arsearchkoef[0] = "Live";
-				arsearchkoef[1] = "www";
-				
-				var check = 0;
-				for(var a = 0;a < arsearchkoef.length;a++){
-					if(string == arsearchkoef[a]){
-						check = 1;
-					}
-				}
-
-				if(string == "Приостановлен"){
-
-					var count = p - 1;
-					var stringstar = ar3[count];
-					var newstring = stringstar + " " + string;
-					ar3[count] = newstring;
-				}else{
-
-					if(check == 0){
-						var string3 = "";
-						var string2 = string.split("");
-
-						for(var u = 0; u < string2.length;u++){
-							if(string2[u] != '"'){
-								if(string2[u] != '-'){
-									string3 += string2[u];
-								}
-								
-							}
-						}
-
-					ar3.push(string3);
-					v++;
-					p = v;
-					}
-
-				}
-
-			});
-
-
-			var i;
-			var j=0;
-			var z = 0;
-		
-			for(i = 0;i < ar2.length;i++){
-
-
-					if(ar4[j] == ar2[i]){
-
-						var string5 =  '<div class="col-md-4 col-md-offset-4"> <h4 class="title1" style="margin-left:30px;">' + ar1[j] + '</h4> </div> <div class="col-md-12 col-md-offset-2"> <div class="col-md-5"> <p class="load" v="' + arhref[i] + '">' + ar2[i] + '</p> </div> <div style="" class="col-md-5"> <p><b>' + ar3[z] + '</b></p> </div> </div>';
-
-							/*p1.append(string5);*/
-							
-							j++;
-
-							z++;
-
-
-					}else{
-
-
-						if(ar2[i] == "Победитель ЕВРО 2016"){
-
-							var string6 =  '<div class="col-md-12 col-md-offset-2"> <div class="col-md-5"> <p class="load" v="' + arhref[i] + '">' + ar2[i] + '</p> </div>  </div>';
-							
-						/*	p1.append(string6);*/
-
-							
-
-						}else{
-
-							var string6 =  '<div class="col-md-12 col-md-offset-2 blue"> <div class="col-md-5"><p class="load" v="' + arhref[i] + '">' + ar2[i] + '</p> </div> <div style="" class="col-md-5"> <p><b>' + ar3[z] + '</b></p> </div> </div>';
-							
-							/*p1.append(string6);*/
-
-							z++;
-							
-
-						}
-
-						
-							
-					}
-
-
-			}
-
-
-			var script = '<script> $(".load").click(function(){$("#download").show(); var v = $(this).attr("v"); var urltwo = $("#basetwo").val(); var baseaction = $("#baseaction").val(); var o = {"hid":v, }; $.ajax({"type":"POST", "url":urltwo, "datatype":"json html script", "data":o, "success":kx, "error":errorfunc }); function kx(result){if(result == "ok"){$("#download").hide(); window.location.href = baseaction; } } function errorfunc(){alert("oshibka zaprosa"); } });' + '</' + 'script>';
-
-			/*p1.append(script);*/
-
-	});
-
-
-
 </script>
-
-
-
-
