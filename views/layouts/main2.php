@@ -53,14 +53,14 @@ function googleTranslateElementInit() {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     
+      <span class="navbar-brand">Сейчас в линии</span>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse menu-bot" id="bs-example-navbar-collapse-2">
 	<div class="" id="mylink">
-      	<ul class="nav nav-pills nav-justified">
-       <li style="margin-left: 15px;font-size:17px;" class="nav-header">Сейчас в линии</li>
+      	<ul class="nav nav-pills nav-justified ">
+     
                  
                   <li><a href="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
 

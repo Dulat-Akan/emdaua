@@ -53,7 +53,7 @@ function googleTranslateElementInit() {
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse menu-bot" id="bs-example-navbar-collapse-2">
-	<div class="" id="mylink">
+	<div class="" id="mylink2">
       	<ul class="nav nav-pills nav-justified">
        <li style="margin-left: 15px;font-size:17px;" class="nav-header">Сейчас в линии</li>
                  
@@ -295,9 +295,103 @@ function googleTranslateElementInit() {
 
                 
                 var link = $("#mylink").children("ul").children("li").children("a");
+				var link2 = $("#mylink2").children("ul").children("li").children("a");
+                             link2.click(function(event){
 
+                    event.preventDefault();
+alert(9)
+                    var perenapravit = $(this).attr("href"); /*kuda perenapravit*/
+                    var zapros = $(this).attr("r");    /*kuda otpravit zapros*/
+
+                    
+                    var t = $(this).text();
+
+                    switch(t){
+                        case "Футбол":
+                        MyLink(perenapravit,zapros,t);
+
+                        break;
+                        case "Теннис":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Хоккей":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Американский футбол":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Бейсбол":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Биатлон":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Бокс":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Гандбол":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Гольф":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Горные лыжи":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Дартс":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Киберспорт":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Крикет":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Лыжи":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Мотоспорт":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Песапалло":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Прыжки с трамплина":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Ралли":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Регби-лига":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Регби-союз":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Снукер":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "Формула 1":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "результаты":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "результаты Live":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                        case "ставки LIVE":
+                        MyLink(perenapravit,zapros,t);
+                        break;
+                    }
+                    
+
+
+                });
+				
+				
                 link.click(function(event){
-
+alert(8)
                     event.preventDefault();
 
                     var perenapravit = $(this).attr("href"); /*kuda perenapravit*/

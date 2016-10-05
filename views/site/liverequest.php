@@ -274,10 +274,10 @@
 <td align=left width=75% style='color: #800000'><u>Отключить Корзину</u></td></tr></table>
 </td></tr> <tr>
 <td align="center">
-<hr class="hr2"/><span id='hours'>04.10.2016 17:30:27</span>
+<hr class="hr2"/><span id='hours'>05.10.2016 16:19:00</span>
 <script type='text/javascript'>
-	            wr_hours(1475580627);
-	            setInterval('wr_hours(1475580627);',1000);
+	            wr_hours(1475662740);
+	            setInterval('wr_hours(1475662740);',1000);
 	            </script><br/>
 <a href="index.php?page=timezone">(GMT +06:00)</a>
 </td>
@@ -339,7 +339,7 @@ setInterval(function(){
 </tr>
 </tbody>
 </table>
-</td></tr><input type=hidden name='asid' value='3154960'><input type=hidden name='psid' value='37e37ff96daf1ab3d60cc4696fda822f'>
+</td></tr><input type=hidden name='asid' value='1173082'><input type=hidden name='psid' value='991ffb9684f6d249667e9ebcec907c10'>
 </table></form>
 <script language='javascript'>
 function changeConn()
@@ -380,7 +380,7 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
-<font class=txtmed color=black>Ставки</font> Live (59)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>Ставки</font> Live (56)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
@@ -390,7 +390,7 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (820)</a>
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (880)</a>
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -398,7 +398,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (86)</a>
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (58)</a>
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -406,7 +406,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (85)</a>
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (103)</a>
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -414,7 +414,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (222)</a>
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (211)</a>
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -422,7 +422,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (22)</a>
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (14)</a>
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -438,7 +438,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (29)</a>
+<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (33)</a>
 </td>
 <td>
 <input id="c6" type="checkbox" name="sel[]" value="6"/>
@@ -446,7 +446,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (64)</a>
+<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (22)</a>
 </td>
 <td>
 <input id="c7" type="checkbox" name="sel[]" value="51"/>
@@ -454,7 +454,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (7)</a>
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (6)</a>
 </td>
 <td>
 <input id="c8" type="checkbox" name="sel[]" value="29"/>
@@ -494,7 +494,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (89)</a>
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (87)</a>
 </td>
 <td>
 <input id="c13" type="checkbox" name="sel[]" value="9"/>
@@ -502,7 +502,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (5)</a>
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (10)</a>
 </td>
 <td>
 <input id="c14" type="checkbox" name="sel[]" value="90"/>
@@ -518,7 +518,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (13)</a>
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (12)</a>
 </td>
 <td>
 <input id="c16" type="checkbox" name="sel[]" value="47"/>
@@ -526,7 +526,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (6)</a>
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (5)</a>
 </td>
 <td>
 <input id="c17" type="checkbox" name="sel[]" value="73"/>
@@ -558,7 +558,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (3)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (4)</a>
 </td>
 <td>
 <input id="c21" type="checkbox" name="sel[]" value="40"/>
@@ -590,7 +590,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (30)</a>
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (49)</a>
 </td>
 <td>
 <input id="c25" type="checkbox" name="sel[]" value="46"/>
@@ -606,7 +606,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (6)</a>
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (10)</a>
 </td>
 <td>
 <input id="c27" type="checkbox" name="sel[]" value="4"/>
@@ -614,7 +614,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (1)</a>
+<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (3)</a>
 </td>
 <td>
 <input id="c28" type="checkbox" name="sel[]" value="113"/>
@@ -622,10 +622,18 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (4)</a>
+<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (5)</a>
 </td>
 <td>
 <input id="c29" type="checkbox" name="sel[]" value="33"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (1)</a>
+</td>
+<td>
+<input id="c30" type="checkbox" name="sel[]" value="11"/>
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -633,16 +641,16 @@ setInterval(function(){
                 {
                     if(checked==0) checked=1;
                     else checked=0;
-                    for(var ci=0;ci<30;ci++)
+                    for(var ci=0;ci<31;ci++)
                         document.getElementById('c'+ci).checked=checked;
-                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1586)</a>';
-                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1586)</a>'
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1607)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1607)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
 </td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1></td></tr>
 <tr><td colspan=2 id='selall' align=middle>
-<a href='javascript:selall();'>Выбрать все (1586)</a> </div>
+<a href='javascript:selall();'>Выбрать все (1607)</a> </div>
 </td>
 </tr>
 <input type="hidden" name="page" value="line"/>
@@ -656,2783 +664,4690 @@ setInterval(function(){
 <TD class=central_td vAlign=top>
 <center><H1>
 Live-Ставки </H1>
-<FORM name=BetLine action=index.php method=post>
-<table class=smallwnd3 style='WIDTH: 99%;'>
-<TR class='m_c' align=middle>
-<TD Align=center valign=middle width='1%'>
-<INPUT onclick='javascript:set_lcheck(vl,this.checked);' type=checkbox></TD>
-<TD class=smwndcap Align=center valign=middle width='99%' colspan='2'><font class=g>Live</font>-Ставки</TD>
-</TR><SCRIPT language=Javascript>var v0=0;
-						var vc0=0;
-						var ordc0=0;
-	            		</SCRIPT><TR><td colspan=3>
-<a href='javascript:set_lshow(0, ordc1, 1);' id=a1><div style="float:left; margin-right: 5px;"><img src='/img/right.png'></div></a>
-<a href='javascript:set_lcheck2(0,v1,vc1, 1);'><b>Футбол</b></a></td></tr><tr id=s0>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27020104 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020104"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27020104'>Рангдажиед Юнайтед - Шиллонг Лайонг</a><br><font class=txtmed style='color:red;'>1:0 (1:0) 91"</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr class=bg id=s1>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27004705 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004705"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27004705'>Австрия (до 19) - Азербайджан (до 19)<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10261953,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:0 31", Счет по угловым 1:2</font></td></tr><tr id=s2>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27005983 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005983"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27005983'>Ческе-Будеёвице (до 19) - Иглава (до 19)<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(9901353,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>2:2 (2:1) 72", Счет по угловым 4:2</font></td></tr><tr class=bg id=s3>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27011831 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011831"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27011831'>НБУ Осийо - Динамо Самарканд<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10324937,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:1 (0:1) , Перерыв</font></td></tr><tr id=s4>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27020221 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020221"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27020221'>Васко (до 20) - Корпс оф Сигналс (до 20)</a><br><font class=txtmed style='color:red;'>1:1 (1:1) , Счет по угловым 1:6, Перерыв</font></td></tr><tr class=bg id=s5>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27006308 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006308"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27006308'>Динамо II Бухарест - Дунэря Кэлэраши<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10290789,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:0 (1:0) 72"</font></td></tr><tr id=s6>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27006310 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006310"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27006310'>Металоспорт Галати - АСК Бакау<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10290767,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 Матч не начался</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr class=bg id=s7>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27006311 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006311"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27006311'>Авантул Регин - Олимпия Сату-Маре<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10296069,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 Матч не начался</font></td></tr><tr id=s8>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27006312 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006312"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27006312'>Попешти-Леордени - Балотешти<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10290759,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 Матч не начался</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr class=bg id=s9>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27018811 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018811"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27018811'>Нуова - УТА Арад<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10290763,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 Матч не начался</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr id=s10>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27018812 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018812"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27018812'>Ювентус Бухарест - Клинчени<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10290785,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 Матч не начался</font></td></tr><tr class=bg id=s11>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27004595 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004595"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27004595'>Подилля Хмельницкий (до 19) - Мункач Мукачево (до 19)<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10318515,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>2:0 (1:0) 72"</font></td></tr><tr id=s12>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27004596 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004596"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27004596'>Жемчужина Одесса (до 19) - Олимпик-Сдушор (до 19)<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10323971,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>5:0 (4:0) 65"</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr class=bg id=s13>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27020227 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020227"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27020227'>МОИК Баку - Шахдаг Кусар ФК</a><br><font class=txtmed style='color:red;'>0:0 28", Счет по угловым 2:3</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr id=s14>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27020236 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020236"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27020236'>Карадаг Локбатан - ФК Серурспор</a><br><font class=txtmed style='color:red;'>0:1 28"</font></td></tr><tr class=bg id=s15>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27022098 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022098"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27022098'>Урал-Д Екатеренбург - СДЮШОР Пермь</a><br><font class=txtmed style='color:red;'>0:0 29"</font></td></tr><SCRIPT language=Javascript>var v1=16;
-						var vc1=0;
-						var ordc1=16;
-	            		</SCRIPT><TR><td colspan=3>
-<a href='javascript:set_lshow(16, ordc2, 2);' id=a2><div style="float:left; margin-right: 5px;"><img src='/img/right.png'></div></a>
-<a href='javascript:set_lcheck2(16,v2,vc2, 2);'><b>Теннис</b></a></td></tr><tr id=s16>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26974097 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974097"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26974097'>Цибулкова Д. - Корне А.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10323423,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (0:2) 40:40</font></td></tr><tr class=bg id=s17>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26988578 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988578"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26988578'>Риске А. - Чжан Шуай<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10325319,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (0:0) 0:0, Матч не начался</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr id=s18>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26967933 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26967933"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26967933'>Тим Д. - Зверев А.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10321553,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (3:4) 40:40</font></td></tr><tr class=bg id=s19>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26968705 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26968705"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26968705'>Сок Дж. - Чжан Ц.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10321555,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (5:3) 30:15</font></td></tr><tr id=s20>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26984531 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26984531"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26984531'>Мельцер Ю. - Браун Д.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10323463,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:1 (3:6, 5:2) 30:15</font></td></tr><tr class=bg id=s21>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26986884 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26986884"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26986884'>Ян Дж. - Рамирес-Идальго Р.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10323885,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (0:0) 0:0, Матч не начался</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr id=s22>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26986901 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26986901"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26986901'>Тситсипас С. - Сафват М.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10323883,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (5:5) 0:30</font></td></tr><tr class=bg id=s23>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26999068 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999068"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26999068'>Рууд К. - Отте О.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10325391,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:0 (6:2, 0:0) 0:0</font></td></tr><tr id=s24>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27011159 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011159"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27011159'>Думбия С. - Марти Я.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10341373,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (1:4) 30:40</font></td></tr><tr class=bg id=s25>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27008313 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27008313"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27008313'>Окала Ж. - Бутиллье Р.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10341559,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (2:2) 0:40</font></td></tr><tr id=s26>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27010217 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010217"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27010217'>Меландер Х. - Юрикова Л.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10341949,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:0 (6:4, 0:3) 0:0</font></td></tr><tr class=bg id=s27>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27010218 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010218"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27010218'>Загорац Е. - Реберсак П.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10341951,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:1 (6:7, 2:5) 0:0</font></td></tr><tr id=s28>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27010219 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010219"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27010219'>Столмар Р. - Остожич К.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10341967,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:1 (6:4, 4:6, 2:1) 40:15</font></td></tr><tr class=bg id=s29>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27010467 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010467"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27010467'>Денолли К. - Бенсуссан С.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10342267,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:1 (1:6, 4:3) 0:15</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr id=s30>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27010468 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010468"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27010468'>Риццути Дж. - Траваглиа С.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10342259,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:1 (1:6, 1:2) 15:40</font></td></tr><tr class=bg id=s31>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27010832 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010832"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27010832'>Личиарди П. - Беллотти Р.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10341969,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:1 (3:6, 6:0, 3:5) 15:40</font></td></tr><tr id=s32>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27011581 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011581"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27011581'>Аршинкова П. - Эсен Х.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10341399,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:0 (6:4, 2:3) 0:0</font></td></tr><tr class=bg id=s33>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27016310 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27016310"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27016310'>Прокаччи А.-М. - Кёниг П.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10342023,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:1 (1:6, 3:3) 30:15</font></td></tr><tr id=s34>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27016737 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27016737"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27016737'>Фейтт Ф. - Фавре П.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10342047,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (2:4) 0:30</font></td></tr><tr class=bg id=s35>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27016746 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27016746"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27016746'>Ле Бьян К. - Мурта И.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10342195,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:1 (2:6, 6:4, 5:5) 15:15</font></td></tr><tr id=s36>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27017386 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27017386"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27017386'>Эклунд М. - Палхото М.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10342199,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:0 (6:0, 0:1) 0:15</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr class=bg id=s37>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27011582 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011582"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27011582'>Стаматова Ю. - Еру И.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10341395,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:1 (6:7, 6:0, 0:3) 0:30</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr id=s38>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27008074 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27008074"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27008074'>Ван Кессел Дж - Фрикова М.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10339815,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:0 (6:0, 2:1) 40:0</font></td></tr><tr class=bg id=s39>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27010106 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010106"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27010106'>Нагал С. - Пирос З.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10340835,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:1 (2:6, 6:4, 0:0) 0:0</font></td></tr><tr id=s40>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27018457 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018457"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27018457'>Шимич Е. - Дентони К.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div><div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10342241,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>1:1 (3:6, 6:3, 0:1) 40:40</font></td></tr><tr class=bg id=s41>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27013156 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27013156"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27013156'>Стойр Дж.-М.-Ж. - Калкенова К.<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10337409,2, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 (4:1) 30:15</font></td></tr><SCRIPT language=Javascript>var v2=42;
-						var vc2=0;
-						var ordc2=42;
-	            		</SCRIPT><TR><td colspan=3>
-<a href='javascript:set_lshow(42, ordc3, 3);' id=a3><div style="float:left; margin-right: 5px;"><img src='/img/right.png'></div></a>
-<a href='javascript:set_lcheck2(42,v3,vc3, 3);'><b>Баскетбол</b></a></td></tr><tr id=s42>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27005034 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005034"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27005034'>Сан-Мигель Бирмен - Гинебра Сан-Мигель<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10325365,3, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>12:33 (12:33) Окончание 1-ой четверти</font></td></tr><tr class=bg id=s43>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27003513 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003513"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27003513'>Дос-Душ-Дор - Говерла<div style='float: left; margin-right: 10px;'>
-<a href='javascript:openmtbr(10305417,3, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div></a><br><font class=txtmed style='color:red;'>20:43 (16:29, 4:14) 17" 2-я четверть</font></td></tr><SCRIPT language=Javascript>var v3=44;
-						var vc3=0;
-						var ordc3=44;
-	            		</SCRIPT><TR><td colspan=3>
-<a href='javascript:set_lshow(44, ordc4, 4);' id=a4><div style="float:left; margin-right: 5px;"><img src='/img/right.png'></div></a>
-<a href='javascript:set_lcheck2(44,v4,vc4, 4);'><b>Хоккей</b></a></td></tr><tr id=s44>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26956794 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26956794"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26956794'>Адмирал - Торпедо НН</a><br><font class=txtmed style='color:red;'>4:2 (1:0, 3:2, 0:0) 48" 3-й период</font></td></tr><tr class=bg id=s45>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26970776 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970776"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26970776'>Амур - Спартак М</a><br><font class=txtmed style='color:red;'>2:1 (0:0, 2:1, 0:0) 50" 3-й период</font></td></tr><tr id=s46>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26970777 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970777"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26970777'>Куньлунь Ред Стар - ХК Сочи<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div></a><br><font class=txtmed style='color:red;'>0:0 Матч не начался</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr class=bg id=s47>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26989732 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26989732"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26989732'>Омские ястребы - Белые медведи</a><br><font class=txtmed style='color:red;'>1:0 (1:0) 19" 1-й период</font></td></tr><SCRIPT language=Javascript>var v4=48;
-						var vc4=0;
-						var ordc4=48;
-	            		</SCRIPT><TR><td colspan=3>
-<a href='javascript:set_lshow(48, ordc5, 5);' id=a5><div style="float:left; margin-right: 5px;"><img src='/img/right.png'></div></a>
-<a href='javascript:set_lcheck2(48,v5,vc5, 5);'><b>Бейсбол</b></a></td></tr><tr id=s48>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27007506 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27007506"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27007506'>Тиба Мэринс - Ракутен Голден Иглс</a><br><font class=txtmed style='color:red;'>4:0 (2:0, 0:0, 0:0, 1:0, 0:0, 0:0, 1:0, 0:0) 8 иннинг, верх</font></td></tr><tr class=bg id=s49>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27005038 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005038"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27005038'>НЦ Динос - Нексен Хероуз</a><br><font class=txtmed style='color:red;'>1:1 (0:0, 0:0, 0:0, 1:0, 0:0, 0:0, 0:0, 0:0, 0:1) 9 иннинг, верх</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr id=s50>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27011619 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011619"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27011619'>Дусан Беарс - Лотте Джайнтс</a><br><font class=txtmed style='color:red;'>3:4 (3:1, 0:0, 0:2, 0:1, 0:0)</font></td></tr><tr class=bg id=s51>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27015983 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27015983"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27015983'>Самсунг Лайонс - Твинс</a><br><font class=txtmed style='color:red;'>0:1 (0:0, 0:0, 0:0, 0:0, 0:1) 5 иннинг, низ</font></td></tr><SCRIPT language=Javascript>var v5=52;
-						var vc5=0;
-						var ordc5=52;
-	            		</SCRIPT><TR><td colspan=3>
-<a href='javascript:set_lshow(52, ordc6, 6);' id=a6><div style="float:left; margin-right: 5px;"><img src='/img/right.png'></div></a>
-<a href='javascript:set_lcheck2(52,v6,vc6, 6);'><b>Снукер</b></a></td></tr><tr id=s52>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=26982358 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982358"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=26982358'>Вуллестон Б. - Трамп Дж.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div></a><br><font class=txtmed style='color:red;'>3:2 </font></td></tr><SCRIPT language=Javascript>var v6=53;
-						var vc6=0;
-						var ordc6=53;
-	            		</SCRIPT><TR class=bg><td colspan=3>
-<a href='javascript:set_lshow(53, ordc7, 7);' id=a7><div style="float:left; margin-right: 5px;"><img src='/img/right.png'></div></a>
-<a href='javascript:set_lcheck2(53,v7,vc7, 7);'><b>Настольный теннис</b></a></td></tr><tr class=bg id=s53>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27009355 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009355"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27009355'>Деметер Л. - Янчарик Л.<div style='float: left; margin-right: 10px;'><a href='javascript:alert("Для просмотра видео необходимо авторизоваться!");'><img src='/img/video.png'></a></div></a><br><font class=txtmed style='color:red;'>0:2 (5:11, 12:14, 4:6)</font></td></tr><tr id=s54>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27020003 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020003"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27020003'>Мищенко А. - Суковатый И.</a><br><font class=txtmed style='color:red;'>1:0 (11:9, 10:10)</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr class=bg id=s55>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27017968 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27017968"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27017968'>Паламарчук У. - Хмилевская Н.</a><br><font class=txtmed style='color:red;'>0:0 (1:2)</font></td></tr><SCRIPT language=Javascript>var v7=56;
-						var vc7=0;
-						var ordc7=56;
-	            		</SCRIPT><TR><td colspan=3>
-<a href='javascript:set_lshow(56, ordc8, 8);' id=a8><div style="float:left; margin-right: 5px;"><img src='/img/right.png'></div></a>
-<a href='javascript:set_lcheck2(56,v8,vc8, 8);'><b>Волейбол</b></a></td></tr><tr id=s56>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27007090 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27007090"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27007090'>Кванг Нин - Винх Лонг</a><br><font class=txtmed style='color:red;'>0:0 (3:7)</font><br><font class=txtmed><i>Приостановлен</i></font></td></tr><tr class=bg id=s57>
-<td Align=center valign=middle width='1%'>
-<INPUT type=checkbox value=27004252 name='live[]'/>
-</td>
-<td align=center valign=center width='1%'>
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004252"></a>
-</td>
-<td vAlign=middle align=left width='99%'>
-<a href='index.php?page=line&action=2&live[]=27004252'>Караганда - Астана</a><br><font class=txtmed style='color:red;'>1:2 (25:27, 16:25, 25:18, 13:14)</font></td></tr><SCRIPT language=Javascript>var v8=58;
-				var vl=58;
-				var vc8=0;
-				var ordc8=58;
-				</SCRIPT><tr><td colspan=3 class=bg><center>
-<TABLE cellSpacing=0 cellPadding=2 width='50%' border=0>
-<TR>
-<TD width='25%' align=right><INPUT type=checkbox name=line_nums value=1 checked></TD>
-<TD width='75%' nowrap align=left><b>Включить нумерацию матчей в линии</b></TD>
-</TR>
-</TABLE><br>
-<INPUT class=msbtn1 onclick='javascript:set_lcheck(vl,true);' type=button value='Выделить все' style='WIDTH: 135px;'>
-<INPUT class=msbtn1 type=reset value='Отменить все' style='WIDTH: 120px;'>
-<INPUT class=msbtn1 type=submit value='Далее' style='WIDTH: 120px;'><br><br></center></td></tr><TR class='m_c' align=middle><TD colspan=3 class=smwndcap Align=center valign=middle width='99%'>Планируются <font class=g>Live</font>-Ставки<br>
-Начало <SELECT class=loginbox name=ltime onchange='javascript:change_list();'>
-<OPTION value=7201 selected>в ближайшие 2 часа</OPTION>
-<OPTION value=21600>в ближайшие 6 часов</OPTION>
-<OPTION value=86400>в ближайшие сутки</OPTION>
-<OPTION value=0>в любое время</OPTION>
-</SELECT> &nbsp; &nbsp; Вид спорта <select class=loginbox name=sportid onchange='javascript:change_list();'>
-<option value='-1' selected>- - - Все виды - - -</option><option value='19'>Американский футбол</option><option value='33'>Бадминтон</option><option value='3'>Баскетбол</option><option value='6'>Бейсбол</option><option value='15'>Волейбол</option><option value='11'>Гандбол</option><option value='29'>Дартс</option><option value='14'>Настольный теннис</option><option value='28'>Регби-Союз</option><option value='7'>Снукер</option><option value='2'>Теннис</option><option value='1'>Футбол</option><option value='21'>Футзал</option><option value='4'>Хоккей</option></select></TD></TR><tr id='t0'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005299"></a>
-</td>
-<td colspan=2><input type=hidden id='spid20' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27005299'>Футбол. Национал Себиш - Лушефарул Орадя</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:30:00 04.10.2016</i></font><input type=hidden value='1475580600' id='v0'><hr class=hr1></td></tr>
-<tr id='t1'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006309"></a>
-</td>
-<td colspan=2><input type=hidden id='spid21' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27006309'>Футбол. Аэростар Бакау - Фореста Сукеава</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:30:00 04.10.2016</i></font><input type=hidden value='1475580600' id='v1'><hr class=hr1></td></tr>
-<tr id='t2'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26969264"></a>
-</td>
-<td colspan=2><input type=hidden id='spid22' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26969264'>Теннис. Викмайер Я. - Халеп С.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:30:00 04.10.2016</i></font><input type=hidden value='1475580600' id='v2'><hr class=hr1></td></tr>
-<tr id='t3'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985312"></a>
-</td>
-<td colspan=2><input type=hidden id='spid23' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26985312'>Теннис. Дои М. - Кузнецова С.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:30:00 04.10.2016</i></font><input type=hidden value='1475580600' id='v3'><hr class=hr1></td></tr>
-<tr id='t4'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26991290"></a>
-</td>
-<td colspan=2><input type=hidden id='spid24' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26991290'>Теннис. Возняцки К. - Винчи Р.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:30:00 04.10.2016</i></font><input type=hidden value='1475580600' id='v4'><hr class=hr1></td></tr>
-<tr id='t5'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018317"></a>
-</td>
-<td colspan=2><input type=hidden id='spid25' value='33'><b><a href='index.php?page=line&addons=1&action=2&mid=27018317'>Бадминтон. Сансомбунсук Т. - Пангистху М.-Б.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:35:00 04.10.2016</i></font><input type=hidden value='1475580900' id='v5'><hr class=hr1></td></tr>
-<tr id='t6'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981261"></a>
-</td>
-<td colspan=2><input type=hidden id='spid26' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26981261'>Теннис. Брайан Б./Брайан М. - Баутиста-Агут Р./Феррер Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:40:00 04.10.2016</i></font><input type=hidden value='1475581200' id='v6'><hr class=hr1></td></tr>
-<tr id='t7'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26967928"></a>
-</td>
-<td colspan=2><input type=hidden id='spid27' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26967928'>Теннис. Димитров Г. - Джонсон С.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:40:00 04.10.2016</i></font><input type=hidden value='1475581200' id='v7'><hr class=hr1></td></tr>
-<tr id='t8'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27013260"></a>
-</td>
-<td colspan=2><input type=hidden id='spid28' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27013260'>Теннис. Маштаков Н. - Феррари Ф.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:40:00 04.10.2016</i></font><input type=hidden value='1475581200' id='v8'><hr class=hr1></td></tr>
-<tr id='t9'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018950"></a>
-</td>
-<td colspan=2><input type=hidden id='spid29' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27018950'>Теннис. Монкагатто Ф./Стефанини Я. - Алтмайер Д./Мусялек А.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:40:00 04.10.2016</i></font><input type=hidden value='1475581200' id='v9'><hr class=hr1></td></tr>
-<tr id='t10'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26987899"></a>
-</td>
-<td colspan=2><input type=hidden id='spid210' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26987899'>Теннис. Рамос-Винолас А. - Маннарино А.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:40:00 04.10.2016</i></font><input type=hidden value='1475581200' id='v10'><hr class=hr1></td></tr>
-<tr id='t11'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26967929"></a>
-</td>
-<td colspan=2><input type=hidden id='spid211' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26967929'>Теннис. Гаске Р. - Куэрри С.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:40:00 04.10.2016</i></font><input type=hidden value='1475581200' id='v11'><hr class=hr1></td></tr>
-<tr id='t12'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26967931"></a>
-</td>
-<td colspan=2><input type=hidden id='spid212' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26967931'>Теннис. Каррено-Буста П. - Томич Б.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:40:00 04.10.2016</i></font><input type=hidden value='1475581200' id='v12'><hr class=hr1></td></tr>
-<tr id='t13'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26968129"></a>
-</td>
-<td colspan=2><input type=hidden id='spid213' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26968129'>Теннис. Пелла Г. - Жазири М.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:40:00 04.10.2016</i></font><input type=hidden value='1475581200' id='v13'><hr class=hr1></td></tr>
-<tr id='t14'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020004"></a>
-</td>
-<td colspan=2><input type=hidden id='spid214' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27020004'>Настольный теннис. Гавриш Д. - Щербак Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:50:00 04.10.2016</i></font><input type=hidden value='1475581800' id='v14'><hr class=hr1></td></tr>
-<tr id='t15'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009356"></a>
-</td>
-<td colspan=2><input type=hidden id='spid215' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27009356'>Настольный теннис. Давид П. - Герольд Г.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:50:00 04.10.2016</i></font><input type=hidden value='1475581800' id='v15'><hr class=hr1></td></tr>
-<tr id='t16'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27016417"></a>
-</td>
-<td colspan=2><input type=hidden id='spid216' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27016417'>Теннис. Лапустина И. - Спасоевич Т.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:55:00 04.10.2016</i></font><input type=hidden value='1475582100' id='v16'><hr class=hr1></td></tr>
-<tr id='t17'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970778"></a>
-</td>
-<td colspan=2><input type=hidden id='spid217' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26970778'>Хоккей. Металлург Нк - Сибирь</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v17'><hr class=hr1></td></tr>
-<tr id='t18'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018473"></a>
-</td>
-<td colspan=2><input type=hidden id='spid218' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27018473'>Теннис. Драганья М./Драганья Т. - Шафранек В./Станек Р</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v18'><hr class=hr1></td></tr>
-<tr id='t19'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018479"></a>
-</td>
-<td colspan=2><input type=hidden id='spid219' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27018479'>Настольный теннис. Иванова Е. - Чунихина Е.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v19'><hr class=hr1></td></tr>
-<tr id='t20'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27012173"></a>
-</td>
-<td colspan=2><input type=hidden id='spid220' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27012173'>Теннис. Поляк Д. - Райнвайн С.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v20'><hr class=hr1></td></tr>
-<tr id='t21'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004015"></a>
-</td>
-<td colspan=2><input type=hidden id='spid221' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004015'>Футбол. Хиберниан (до 20) - Инвернесс (до 20)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v21'><hr class=hr1></td></tr>
-<tr id='t22'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011161"></a>
-</td>
-<td colspan=2><input type=hidden id='spid222' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27011161'>Теннис. Отом М. - Матье П.-А.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v22'><hr class=hr1></td></tr>
-<tr id='t23'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020538"></a>
-</td>
-<td colspan=2><input type=hidden id='spid223' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27020538'>Футбол. Атлетико Тукуман (рез) - Хуракан (рез)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v23'><hr class=hr1></td></tr>
-<tr id='t24'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010109"></a>
-</td>
-<td colspan=2><input type=hidden id='spid224' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27010109'>Теннис. Секулич М. - Корри Э.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v24'><hr class=hr1></td></tr>
-<tr id='t25'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004597"></a>
-</td>
-<td colspan=2><input type=hidden id='spid225' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004597'>Футбол. Данубио (до 19) - Расинг (до 19)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v25'><hr class=hr1></td></tr>
-<tr id='t26'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004021"></a>
-</td>
-<td colspan=2><input type=hidden id='spid226' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004021'>Футбол. ФК Лубны - Академи Восркла Полтава</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v26'><hr class=hr1></td></tr>
-<tr id='t27'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003890"></a>
-</td>
-<td colspan=2><input type=hidden id='spid227' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27003890'>Футбол. ФК Шукура ( до 19) - Торпедо Кутаиси (до 19)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 04.10.2016</i></font><input type=hidden value='1475582400' id='v27'><hr class=hr1></td></tr>
-<tr id='t28'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018460"></a>
-</td>
-<td colspan=2><input type=hidden id='spid228' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27018460'>Теннис. Робиллард-Миллетти Ш. - Ди Джузеппе М.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:05:00 04.10.2016</i></font><input type=hidden value='1475582700' id='v28'><hr class=hr1></td></tr>
-<tr id='t29'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26986895"></a>
-</td>
-<td colspan=2><input type=hidden id='spid229' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26986895'>Теннис. Мартин Ан. - Наполитано С.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:10:00 04.10.2016</i></font><input type=hidden value='1475583000' id='v29'><hr class=hr1></td></tr>
-<tr id='t30'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018321"></a>
-</td>
-<td colspan=2><input type=hidden id='spid230' value='33'><b><a href='index.php?page=line&addons=1&action=2&mid=27018321'>Бадминтон. Сюй Ж.-Х. - Имнарк К.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:10:00 04.10.2016</i></font><input type=hidden value='1475583000' id='v30'><hr class=hr1></td></tr>
-<tr id='t31'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26986902"></a>
-</td>
-<td colspan=2><input type=hidden id='spid231' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26986902'>Теннис. Имер Э. - Жди М.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:10:00 04.10.2016</i></font><input type=hidden value='1475583000' id='v31'><hr class=hr1></td></tr>
-<tr id='t32'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018320"></a>
-</td>
-<td colspan=2><input type=hidden id='spid232' value='33'><b><a href='index.php?page=line&addons=1&action=2&mid=27018320'>Бадминтон. Лаотракул К. - Лю Вэй Чи<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:10:00 04.10.2016</i></font><input type=hidden value='1475583000' id='v32'><hr class=hr1></td></tr>
-<tr id='t33'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011160"></a>
-</td>
-<td colspan=2><input type=hidden id='spid233' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27011160'>Теннис. Милло В. - Табатруонг М.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:15:00 04.10.2016</i></font><input type=hidden value='1475583300' id='v33'><hr class=hr1></td></tr>
-<tr id='t34'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009357"></a>
-</td>
-<td colspan=2><input type=hidden id='spid234' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27009357'>Настольный теннис. Койич Ф. - Янчарик Л.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:30:00 04.10.2016</i></font><input type=hidden value='1475584200' id='v34'><hr class=hr1></td></tr>
-<tr id='t35'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003511"></a>
-</td>
-<td colspan=2><input type=hidden id='spid235' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27003511'>Футзал. Алмаз АЛРОСА - ИрАэро</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:30:00 04.10.2016</i></font><input type=hidden value='1475584200' id='v35'><hr class=hr1></td></tr>
-<tr id='t36'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020102"></a>
-</td>
-<td colspan=2><input type=hidden id='spid236' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27020102'>Настольный теннис. Рубцов Э. - Мищенко А.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:30:00 04.10.2016</i></font><input type=hidden value='1475584200' id='v36'><hr class=hr1></td></tr>
-<tr id='t37'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018481"></a>
-</td>
-<td colspan=2><input type=hidden id='spid237' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27018481'>Настольный теннис. Кандыбина В. - Хорошилова Е.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:30:00 04.10.2016</i></font><input type=hidden value='1475584200' id='v37'><hr class=hr1></td></tr>
-<tr id='t38'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011604"></a>
-</td>
-<td colspan=2><input type=hidden id='spid238' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27011604'>Теннис. Лопес Перес Фустер Х. - Розье С.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:40:00 04.10.2016</i></font><input type=hidden value='1475584800' id='v38'><hr class=hr1></td></tr>
-<tr id='t39'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018323"></a>
-</td>
-<td colspan=2><input type=hidden id='spid239' value='33'><b><a href='index.php?page=line&addons=1&action=2&mid=27018323'>Бадминтон. Руставито Ш.Х. - Чань Янь Кит<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:45:00 04.10.2016</i></font><input type=hidden value='1475585100' id='v39'><hr class=hr1></td></tr>
-<tr id='t40'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004001"></a>
-</td>
-<td colspan=2><input type=hidden id='spid240' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004001'>Футбол. Джебла - Аль-Навайр</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v40'><hr class=hr1></td></tr>
-<tr id='t41'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004000"></a>
-</td>
-<td colspan=2><input type=hidden id='spid241' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004000'>Футбол. Аль-Хория - Аль Джахед</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v41'><hr class=hr1></td></tr>
-<tr id='t42'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004699"></a>
-</td>
-<td colspan=2><input type=hidden id='spid242' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004699'>Футбол. Молдавия (до 19) - Кипр (до 19)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v42'><hr class=hr1></td></tr>
-<tr id='t43'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004365"></a>
-</td>
-<td colspan=2><input type=hidden id='spid243' value='15'><b><a href='index.php?page=line&addons=1&action=2&mid=27004365'>Волейбол. Иску-Волей - Хуррикани-Лоймаа</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v43'><hr class=hr1></td></tr>
-<tr id='t44'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018485"></a>
-</td>
-<td colspan=2><input type=hidden id='spid244' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27018485'>Настольный теннис. Ли Виктория - Гулевская Ю.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v44'><hr class=hr1></td></tr>
-<tr id='t45'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021840"></a>
-</td>
-<td colspan=2><input type=hidden id='spid245' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021840'>Футбол. ГИФ Сундсвалл (до 21) - Гефле ИФ (до 21)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v45'><hr class=hr1></td></tr>
-<tr id='t46'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018471"></a>
-</td>
-<td colspan=2><input type=hidden id='spid246' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27018471'>Футбол. Турция (жен) (до 17) - Латвия (жен) (до 17)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v46'><hr class=hr1></td></tr>
-<tr id='t47'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27012614"></a>
-</td>
-<td colspan=2><input type=hidden id='spid247' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27012614'>Теннис. Гёлльнер Ш./Стрикрот М. - Пречтель С./Статзбергер Т.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v47'><hr class=hr1></td></tr>
-<tr id='t48'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26968713"></a>
-</td>
-<td colspan=2><input type=hidden id='spid248' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26968713'>Теннис. Майер Ф. - Раонич М.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v48'><hr class=hr1></td></tr>
-<tr id='t49'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005758"></a>
-</td>
-<td colspan=2><input type=hidden id='spid249' value='15'><b><a href='index.php?page=line&addons=1&action=2&mid=27005758'>Волейбол. Сана Кхан Хоа - Куандоан 4</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v49'><hr class=hr1></td></tr>
-<tr id='t50'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988611"></a>
-</td>
-<td colspan=2><input type=hidden id='spid250' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26988611'>Футбол. Нигерия (жен) (до 17) - Англия (жен) (до 17)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v50'><hr class=hr1></td></tr>
-<tr id='t51'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004023"></a>
-</td>
-<td colspan=2><input type=hidden id='spid251' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004023'>Футбол. Ривер Плейт (рез) - Атлетико Феникс Монтевидео (рез)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v51'><hr class=hr1></td></tr>
-<tr id='t52'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002331"></a>
-</td>
-<td colspan=2><input type=hidden id='spid252' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27002331'>Теннис. Гинс К./Ройтер Я. - Скупски К./Скупски Н.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v52'><hr class=hr1></td></tr>
-<tr id='t53'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988621"></a>
-</td>
-<td colspan=2><input type=hidden id='spid253' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26988621'>Футбол. США (жен) (до 17) - Гана (жен) (до 17)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v53'><hr class=hr1></td></tr>
-<tr id='t54'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27008196"></a>
-</td>
-<td colspan=2><input type=hidden id='spid254' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27008196'>Теннис. Мишель Л. - Савич А.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 04.10.2016</i></font><input type=hidden value='1475586000' id='v54'><hr class=hr1></td></tr>
-<tr id='t55'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018423"></a>
-</td>
-<td colspan=2><input type=hidden id='spid255' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27018423'>Теннис. Апонасенко В. - Мескьюта И.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:05:00 04.10.2016</i></font><input type=hidden value='1475586300' id='v55'><hr class=hr1></td></tr>
-<tr id='t56'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005050"></a>
-</td>
-<td colspan=2><input type=hidden id='spid256' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27005050'>Футбол. Хатта - Аль-Шарджа<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:10:00 04.10.2016</i></font><input type=hidden value='1475586600' id='v56'><hr class=hr1></td></tr>
-<tr id='t57'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009358"></a>
-</td>
-<td colspan=2><input type=hidden id='spid257' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27009358'>Настольный теннис. Хузяк Й. - Хендлунд Дж.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:10:00 04.10.2016</i></font><input type=hidden value='1475586600' id='v57'><hr class=hr1></td></tr>
-<tr id='t58'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019876"></a>
-</td>
-<td colspan=2><input type=hidden id='spid258' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27019876'>Теннис. Керфс Д./Лукаш В. - Редди С.С./Шимич Е.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:10:00 04.10.2016</i></font><input type=hidden value='1475586600' id='v58'><hr class=hr1></td></tr>
-<tr id='t59'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020103"></a>
-</td>
-<td colspan=2><input type=hidden id='spid259' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27020103'>Настольный теннис. Гавриш Д. - Талалай И.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:10:00 04.10.2016</i></font><input type=hidden value='1475586600' id='v59'><hr class=hr1></td></tr>
-<tr id='t60'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011372"></a>
-</td>
-<td colspan=2><input type=hidden id='spid260' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27011372'>Теннис. Дринич М./Милович Ж. - Бекуззи Е./Капекки Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:10:00 04.10.2016</i></font><input type=hidden value='1475586600' id='v60'><hr class=hr1></td></tr>
-<tr id='t61'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009879"></a>
-</td>
-<td colspan=2><input type=hidden id='spid261' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27009879'>Теннис. Ананье С./Хайльер Х. - Лукас Т./Приморац И.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:10:00 04.10.2016</i></font><input type=hidden value='1475586600' id='v61'><hr class=hr1></td></tr>
-<tr id='t62'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985213"></a>
-</td>
-<td colspan=2><input type=hidden id='spid262' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26985213'>Теннис. Марченко И. - Истомин Д.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:20:00 04.10.2016</i></font><input type=hidden value='1475587200' id='v62'><hr class=hr1></td></tr>
-<tr id='t63'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005051"></a>
-</td>
-<td colspan=2><input type=hidden id='spid263' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27005051'>Футбол. Аль Вахда - Эмират<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:20:00 04.10.2016</i></font><input type=hidden value='1475587200' id='v63'><hr class=hr1></td></tr>
-<tr id='t64'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018325"></a>
-</td>
-<td colspan=2><input type=hidden id='spid264' value='33'><b><a href='index.php?page=line&addons=1&action=2&mid=27018325'>Бадминтон. Лу Ц. Х. - Тек Жи Су<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:20:00 04.10.2016</i></font><input type=hidden value='1475587200' id='v64'><hr class=hr1></td></tr>
-<tr id='t65'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018326"></a>
-</td>
-<td colspan=2><input type=hidden id='spid265' value='33'><b><a href='index.php?page=line&addons=1&action=2&mid=27018326'>Бадминтон. Ли Чок Ий - Игараси Ю.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:20:00 04.10.2016</i></font><input type=hidden value='1475587200' id='v65'><hr class=hr1></td></tr>
-<tr id='t66'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011374"></a>
-</td>
-<td colspan=2><input type=hidden id='spid266' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27011374'>Теннис. Де Гуйен Б./Виллекес Макдональд Р. - Годжо Б./Видак А.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:25:00 04.10.2016</i></font><input type=hidden value='1475587500' id='v66'><hr class=hr1></td></tr>
-<tr id='t67'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003523"></a>
-</td>
-<td colspan=2><input type=hidden id='spid267' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003523'>Гандбол. ЗТР-Буревестник Запорожье - ЦСКА Киев</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v67'><hr class=hr1></td></tr>
-<tr id='t68'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010136"></a>
-</td>
-<td colspan=2><input type=hidden id='spid268' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27010136'>Теннис. Мораинг М. - Эрикссон М.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v68'><hr class=hr1></td></tr>
-<tr id='t69'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010147"></a>
-</td>
-<td colspan=2><input type=hidden id='spid269' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27010147'>Теннис. Бублик А. - Фрилянич С.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v69'><hr class=hr1></td></tr>
-<tr id='t70'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006204"></a>
-</td>
-<td colspan=2><input type=hidden id='spid270' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27006204'>Футбол. Нептун Конские (мол) - Корона Кельце (мол)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v70'><hr class=hr1></td></tr>
-<tr id='t71'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999062"></a>
-</td>
-<td colspan=2><input type=hidden id='spid271' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26999062'>Футбол. Норт Ист Юнайтед - ФК Гоа<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v71'><hr class=hr1></td></tr>
-<tr id='t72'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002889"></a>
-</td>
-<td colspan=2><input type=hidden id='spid272' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27002889'>Теннис. Мельцер Г./Новак Д. - Марцан Д./Санчич А.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v72'><hr class=hr1></td></tr>
-<tr id='t73'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002891"></a>
-</td>
-<td colspan=2><input type=hidden id='spid273' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27002891'>Теннис. Дьере Л./Крстин П - Ахуда А./Идмбарек Я.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v73'><hr class=hr1></td></tr>
-<tr id='t74'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002890"></a>
-</td>
-<td colspan=2><input type=hidden id='spid274' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27002890'>Теннис. Карбальес Баэна Р./Сампер-Монтана Х. - Игнатик В./Попко Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v74'><hr class=hr1></td></tr>
-<tr id='t75'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020560"></a>
-</td>
-<td colspan=2><input type=hidden id='spid275' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27020560'>Футбол. Словакия (до 16) - Турция (до 16)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v75'><hr class=hr1></td></tr>
-<tr id='t76'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27010159"></a>
-</td>
-<td colspan=2><input type=hidden id='spid276' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27010159'>Теннис. Райсма К. - Симонссон Ф.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v76'><hr class=hr1></td></tr>
-<tr id='t77'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018486"></a>
-</td>
-<td colspan=2><input type=hidden id='spid277' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27018486'>Настольный теннис. Хорошилова Е. - Чунихина Е.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v77'><hr class=hr1></td></tr>
-<tr id='t78'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27007853"></a>
-</td>
-<td colspan=2><input type=hidden id='spid278' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27007853'>Теннис. Хоанг А./Жак Г - Буке Л./Гинар М.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 04.10.2016</i></font><input type=hidden value='1475587800' id='v78'><hr class=hr1></td></tr>
-<tr id='t79'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019875"></a>
-</td>
-<td colspan=2><input type=hidden id='spid279' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27019875'>Теннис. Джовине К./Росателло К. - Даскалу Н./Жухажова В.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:35:00 04.10.2016</i></font><input type=hidden value='1475588100' id='v79'><hr class=hr1></td></tr>
-<tr id='t80'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022183"></a>
-</td>
-<td colspan=2><input type=hidden id='spid280' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27022183'>Настольный теннис. Суковатый И. - Щербак Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:50:00 04.10.2016</i></font><input type=hidden value='1475589000' id='v80'><hr class=hr1></td></tr>
-<tr id='t81'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27007730"></a>
-</td>
-<td colspan=2><input type=hidden id='spid281' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27007730'>Теннис. Шантрэн К./Шантрэн Э. - Кунг Л./Вольфф В.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 04.10.2016</i></font><input type=hidden value='1475589600' id='v81'><hr class=hr1></td></tr>
-<tr id='t82'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003524"></a>
-</td>
-<td colspan=2><input type=hidden id='spid282' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003524'>Гандбол. Политехника Львов - ЗНТУ-ЗАС Запорожье</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 04.10.2016</i></font><input type=hidden value='1475589600' id='v82'><hr class=hr1></td></tr>
-<tr id='t83'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004017"></a>
-</td>
-<td colspan=2><input type=hidden id='spid283' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004017'>Футбол. Барцичанка Барцице - Попрад Мушина</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 04.10.2016</i></font><input type=hidden value='1475589600' id='v83'><hr class=hr1></td></tr>
-<tr id='t84'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970779"></a>
-</td>
-<td colspan=2><input type=hidden id='spid284' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26970779'>Хоккей. Металлург Мг - Салават Юлаев</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 04.10.2016</i></font><input type=hidden value='1475589600' id='v84'><hr class=hr1></td></tr>
-<tr id='t85'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018489"></a>
-</td>
-<td colspan=2><input type=hidden id='spid285' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27018489'>Настольный теннис. Иванова Е. - Гулевская Ю.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 04.10.2016</i></font><input type=hidden value='1475589600' id='v85'><hr class=hr1></td></tr>
-<tr id='t86'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004706"></a>
-</td>
-<td colspan=2><input type=hidden id='spid286' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004706'>Футбол. Литва (до 19) - Босния и Герцеговина (до 19)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 04.10.2016</i></font><input type=hidden value='1475589600' id='v86'><hr class=hr1></td></tr>
-<tr id='t87'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003887"></a>
-</td>
-<td colspan=2><input type=hidden id='spid287' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27003887'>Футбол. Тигре (рез) - Бока Хуниорс (рез)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 04.10.2016</i></font><input type=hidden value='1475589600' id='v87'><hr class=hr1></td></tr>
-<tr id='t88'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021940"></a>
-</td>
-<td colspan=2><input type=hidden id='spid288' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021940'>Футбол. Хальмстад БК (до 21) - Кальмар ФФ (до 21)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 04.10.2016</i></font><input type=hidden value='1475589600' id='v88'><hr class=hr1></td></tr>
-<tr id='t89'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002333"></a>
-</td>
-<td colspan=2><input type=hidden id='spid289' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27002333'>Теннис. Даниелл М./Демолинер М. - Мектич Н./Скугор Ф.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:20:00 04.10.2016</i></font><input type=hidden value='1475590800' id='v89'><hr class=hr1></td></tr>
-<tr id='t90'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022191"></a>
-</td>
-<td colspan=2><input type=hidden id='spid290' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27022191'>Настольный теннис. Рубцов Э. - Гавриш Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:30:00 04.10.2016</i></font><input type=hidden value='1475591400' id='v90'><hr class=hr1></td></tr>
-<tr id='t91'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003489"></a>
-</td>
-<td colspan=2><input type=hidden id='spid291' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27003489'>Баскетбол. Аудентес - Таллинн Унив.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:30:00 04.10.2016</i></font><input type=hidden value='1475591400' id='v91'><hr class=hr1></td></tr>
-<tr id='t92'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018491"></a>
-</td>
-<td colspan=2><input type=hidden id='spid292' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27018491'>Настольный теннис. Ли Виктория - Кандыбина В.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:30:00 04.10.2016</i></font><input type=hidden value='1475591400' id='v92'><hr class=hr1></td></tr>
-<tr id='t93'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002893"></a>
-</td>
-<td colspan=2><input type=hidden id='spid293' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27002893'>Теннис. Майхшак К./Зекич М. - Беднарек Т./Джунайд Р.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:50:00 04.10.2016</i></font><input type=hidden value='1475592600' id='v93'><hr class=hr1></td></tr>
-<tr id='t94'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003859"></a>
-</td>
-<td colspan=2><input type=hidden id='spid294' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27003859'>Хоккей. МХК Дмитров - Драгуны</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v94'><hr class=hr1></td></tr>
-<tr id='t95'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003861"></a>
-</td>
-<td colspan=2><input type=hidden id='spid295' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27003861'>Хоккей. Скиф НН - Агидель Уфа</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v95'><hr class=hr1></td></tr>
-<tr id='t96'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021842"></a>
-</td>
-<td colspan=2><input type=hidden id='spid296' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021842'>Футбол. Атвидабергс ФФ (до 21) - Дегерфорс ИФ (до 21)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v96'><hr class=hr1></td></tr>
-<tr id='t97'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021933"></a>
-</td>
-<td colspan=2><input type=hidden id='spid297' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021933'>Футбол. Фалкенбергс ФФ (до 21) - Хельсинборг ИФ (до 21)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v97'><hr class=hr1></td></tr>
-<tr id='t98'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27007855"></a>
-</td>
-<td colspan=2><input type=hidden id='spid298' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27007855'>Теннис. Мертль Я./Риччи А. - Жонкур Р./Окала Ж.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v98'><hr class=hr1></td></tr>
-<tr id='t99'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26948290"></a>
-</td>
-<td colspan=2><input type=hidden id='spid299' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26948290'>Хоккей. Либерец - Ферьестад<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v99'><hr class=hr1></td></tr>
-<tr id='t100'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916467"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2100' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916467'>Хоккей. Витковице - Нитра<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v100'><hr class=hr1></td></tr>
-<tr id='t101'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005630"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2101' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27005630'>Футбол. МО Беджая (до 21) - Релизан (до 21)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v101'><hr class=hr1></td></tr>
-<tr id='t102'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26941563"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2102' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26941563'>Хоккей. Юность-Минск - Фрелунда<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v102'><hr class=hr1></td></tr>
-<tr id='t103'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003512"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2103' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27003512'>Футзал. Элекс Фаворит - Спартак М</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v103'><hr class=hr1></td></tr>
-<tr id='t104'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916468"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2104' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916468'>Хоккей. Калпа - Юргорден<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v104'><hr class=hr1></td></tr>
-<tr id='t105'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999629"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2105' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26999629'>Теннис. Северино К.-Э. - Велотти А.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v105'><hr class=hr1></td></tr>
-<tr id='t106'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003522"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2106' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27003522'>Футзал. Кардинал-Ровно - Хит Киев</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v106'><hr class=hr1></td></tr>
-<tr id='t107'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985781"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2107' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26985781'>Теннис. Оливо Р. - Кория Ф.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v107'><hr class=hr1></td></tr>
-<tr id='t108'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26920926"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2108' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26920926'>Футбол. Новы-Сонч - Хойничанка</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v108'><hr class=hr1></td></tr>
-<tr id='t109'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27017067"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2109' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27017067'>Гандбол. Аль Насар - Аль Джазира</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v109'><hr class=hr1></td></tr>
-<tr id='t110'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27017066"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2110' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27017066'>Гандбол. Аль Шабаб - Дихк</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v110'><hr class=hr1></td></tr>
-<tr id='t111'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003490"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2111' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27003490'>Баскетбол. Сиренос - Кибиркстис</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v111'><hr class=hr1></td></tr>
-<tr id='t112'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002480"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2112' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27002480'>Футбол. Сигма Оломоуц - Таборско</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v112'><hr class=hr1></td></tr>
-<tr id='t113'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003518"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2113' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003518'>Гандбол. Бурган - Аль Саэль</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v113'><hr class=hr1></td></tr>
-<tr id='t114'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004716"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2114' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27004716'>Баскетбол. МЗТ Скопье - Партизан</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v114'><hr class=hr1></td></tr>
-<tr id='t115'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019184"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2115' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27019184'>Баскетбол. Лукойл Академик - Орадя</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v115'><hr class=hr1></td></tr>
-<tr id='t116'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009323"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2116' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27009323'>Баскетбол. Невежис - Алитус<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 04.10.2016</i></font><input type=hidden value='1475593200' id='v116'><hr class=hr1></td></tr>
-<tr id='t117'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022295"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2117' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27022295'>Настольный теннис. Мищенко А. - Щербак Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:10:00 04.10.2016</i></font><input type=hidden value='1475593800' id='v117'><hr class=hr1></td></tr>
-<tr id='t118'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970780"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2118' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26970780'>Хоккей. Йокерит - Витязь</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 04.10.2016</i></font><input type=hidden value='1475595000' id='v118'><hr class=hr1></td></tr>
-<tr id='t119'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26989949"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2119' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26989949'>Хоккей. ХК Рига - МХК Крылья Советов</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 04.10.2016</i></font><input type=hidden value='1475595000' id='v119'><hr class=hr1></td></tr>
-<tr id='t120'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003516"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2120' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003516'>Гандбол. СК Ферлах - Эдельвай Линц</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 04.10.2016</i></font><input type=hidden value='1475595000' id='v120'><hr class=hr1></td></tr>
-<tr id='t121'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26941564"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2121' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26941564'>Хоккей. Спарта Пр - Кэрпет<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 04.10.2016</i></font><input type=hidden value='1475595000' id='v121'><hr class=hr1></td></tr>
-<tr id='t122'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004133"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2122' value='15'><b><a href='index.php?page=line&addons=1&action=2&mid=27004133'>Волейбол. Аль Раян - Полис</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 04.10.2016</i></font><input type=hidden value='1475595000' id='v122'><hr class=hr1></td></tr>
-<tr id='t123'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002332"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2123' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27002332'>Теннис. Отом М./Мертенс Я. - Шамасдин А./Сильестрём А.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:40:00 04.10.2016</i></font><input type=hidden value='1475595600' id='v123'><hr class=hr1></td></tr>
-<tr id='t124'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003530"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2124' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003530'>Гандбол. Фивер - Юнион Леобэн</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:45:00 04.10.2016</i></font><input type=hidden value='1475595900' id='v124'><hr class=hr1></td></tr>
-<tr id='t125'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022296"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2125' value='14'><b><a href='index.php?page=line&addons=1&action=2&mid=27022296'>Настольный теннис. Талалай И. - Суковатый И.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:50:00 04.10.2016</i></font><input type=hidden value='1475596200' id='v125'><hr class=hr1></td></tr>
-<tr id='t126'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27013788"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2126' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27013788'>Теннис. Бекташ Э. - Castillo Huerta, Fernanda</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v126'><hr class=hr1></td></tr>
-<tr id='t127'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27013789"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2127' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27013789'>Теннис. Коутино Кастилло А. - Гузман А.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v127'><hr class=hr1></td></tr>
-<tr id='t128'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988622"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2128' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26988622'>Футбол. Парагвай (жен) (до 17) - Япония (жен) (до 17)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v128'><hr class=hr1></td></tr>
-<tr id='t129'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021934"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2129' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021934'>Футбол. ИФ Элфсборг (до 21) - ИФК Норрчёпинг (до 21)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v129'><hr class=hr1></td></tr>
-<tr id='t130'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916472"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2130' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916472'>Хоккей. ТПС - ХИФК</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v130'><hr class=hr1></td></tr>
-<tr id='t131'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993074"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2131' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993074'>Хоккей. Пардубице - Карловы Вары</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v131'><hr class=hr1></td></tr>
-<tr id='t132'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003508"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2132' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27003508'>Футзал. Варна Академик - МАГ Варна</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v132'><hr class=hr1></td></tr>
-<tr id='t133'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982360"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2133' value='7'><b><a href='index.php?page=line&addons=1&action=2&mid=26982360'>Снукер. Брецел Л. - Дональдсон С.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v133'><hr class=hr1></td></tr>
-<tr id='t134'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916471"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2134' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916471'>Хоккей. Таппара - СайПа<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v134'><hr class=hr1></td></tr>
-<tr id='t135'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916469"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2135' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916469'>Хоккей. Ювяскюля - Шеллефтео<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v135'><hr class=hr1></td></tr>
-<tr id='t136'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988024"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2136' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26988024'>Хоккей. Кристалл Саратов - Дизель</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v136'><hr class=hr1></td></tr>
-<tr id='t137'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999055"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2137' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26999055'>Хоккей. Зволен - Оранж 20</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v137'><hr class=hr1></td></tr>
-<tr id='t138'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26935552"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2138' value='15'><b><a href='index.php?page=line&addons=1&action=2&mid=26935552'>Волейбол. Радом - Ченстохова</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v138'><hr class=hr1></td></tr>
-<tr id='t139'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916470"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2139' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916470'>Хоккей. Ред Булл Мюнхен - Векшё Лейкерс<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v139'><hr class=hr1></td></tr>
-<tr id='t140'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003996"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2140' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27003996'>Футбол. Астория Вальдорф (до 19) - Айнтрахт Брауншвейг (до 19)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v140'><hr class=hr1></td></tr>
-<tr id='t141'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006439"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2141' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27006439'>Гандбол. Веспрем - Целе Пивоварна Ласко</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v141'><hr class=hr1></td></tr>
-<tr id='t142'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982361"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2142' value='7'><b><a href='index.php?page=line&addons=1&action=2&mid=26982361'>Снукер. Мерфи Ш. - Дэвис М.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v142'><hr class=hr1></td></tr>
-<tr id='t143'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004355"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2143' value='15'><b><a href='index.php?page=line&addons=1&action=2&mid=27004355'>Волейбол. Тхриамвос Чаидариоу - Амазонес</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v143'><hr class=hr1></td></tr>
-<tr id='t144'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003521"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2144' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003521'>Гандбол. Бешикташ - Антальяспор</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v144'><hr class=hr1></td></tr>
-<tr id='t145'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009549"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2145' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27009549'>Гандбол. Саласпилс - Добелес СС</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v145'><hr class=hr1></td></tr>
-<tr id='t146'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003493"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2146' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27003493'>Теннис. Фелдер М./Неис Ф. - Бернарди П./Пас Х.-П.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v146'><hr class=hr1></td></tr>
-<tr id='t147'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27007504"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2147' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27007504'>Гандбол. Потаисса Турда - Бухарест ЦСМ</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v147'><hr class=hr1></td></tr>
-<tr id='t148'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005049"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2148' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27005049'>Футбол. Аль Наср Дубай - Аль Шабаб Дубай<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v148'><hr class=hr1></td></tr>
-<tr id='t149'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003510"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2149' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27003510'>Баскетбол. Гданьск унив. - Мон-Пол Плоцк</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v149'><hr class=hr1></td></tr>
-<tr id='t150'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019188"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2150' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27019188'>Баскетбол. Цмоки-Минск - Ирони Нагария</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v150'><hr class=hr1></td></tr>
-<tr id='t151'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019185"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2151' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27019185'>Баскетбол. Тарту Рок - Баккен</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v151'><hr class=hr1></td></tr>
-<tr id='t152'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019186"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2152' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27019186'>Баскетбол. Ушак - У-БТ Клуж</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v152'><hr class=hr1></td></tr>
-<tr id='t153'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003517"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2153' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003517'>Гандбол. Арукюла - Пылва Сервити</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v153'><hr class=hr1></td></tr>
-<tr id='t154'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988620"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2154' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26988620'>Футбол. Бразилия (жен) (до 17) - Сев. Корея (жен) (до 17)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 04.10.2016</i></font><input type=hidden value='1475596800' id='v154'><hr class=hr1></td></tr>
-<tr id='t155'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011605"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2155' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27011605'>Теннис. Хиральди Рекуэна М. - Форнелл М.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:05:00 04.10.2016</i></font><input type=hidden value='1475597100' id='v155'><hr class=hr1></td></tr>
-<tr id='t156'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26986131"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2156' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26986131'>Теннис. Липовсек Пучес Т. - Луз О.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:20:00 04.10.2016</i></font><input type=hidden value='1475598000' id='v156'><hr class=hr1></td></tr>
-<tr id='t157'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985881"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2157' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26985881'>Теннис. Ямасита Ф. - Соуса П.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:20:00 04.10.2016</i></font><input type=hidden value='1475598000' id='v157'><hr class=hr1></td></tr>
-<tr id='t158'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981407"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2158' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=26981407'>Гандбол. Мидтьюлланд - Сённерйюск</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 04.10.2016</i></font><input type=hidden value='1475598600' id='v158'><hr class=hr1></td></tr>
-<tr id='t159'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27007502"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2159' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27007502'>Гандбол. Ваци КШЕ - Пик Сегед</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 04.10.2016</i></font><input type=hidden value='1475598600' id='v159'><hr class=hr1></td></tr>
-<tr id='t160'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970781"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2160' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26970781'>Хоккей. Динамо-Минск - Локомотив</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 04.10.2016</i></font><input type=hidden value='1475598600' id='v160'><hr class=hr1></td></tr>
-<tr id='t161'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003519"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2161' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003519'>Гандбол. Аль Салибикает - Хаитан</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 04.10.2016</i></font><input type=hidden value='1475598600' id='v161'><hr class=hr1></td></tr>
-<tr id='t162'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006442"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2162' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27006442'>Гандбол. Виве Кельце - Гвардя Ополе</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 04.10.2016</i></font><input type=hidden value='1475598600' id='v162'><hr class=hr1></td></tr>
-<tr id='t163'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985214"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2163' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26985214'>Теннис. Брандс Д. - Коппеянс К.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 04.10.2016</i></font><input type=hidden value='1475598600' id='v163'><hr class=hr1></td></tr>
-<tr id='t164'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020829"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2164' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27020829'>Футбол. Одд Гренланд 3 - Холмен</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v164'><hr class=hr1></td></tr>
-<tr id='t165'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003486"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2165' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27003486'>Баскетбол. Шкрльево - Загреб</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v165'><hr class=hr1></td></tr>
-<tr id='t166'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004356"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2166' value='15'><b><a href='index.php?page=line&addons=1&action=2&mid=27004356'>Волейбол. Канн - Волеро</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v166'><hr class=hr1></td></tr>
-<tr id='t167'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003893"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2167' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27003893'>Футбол. Гессен - Ульм</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v167'><hr class=hr1></td></tr>
-<tr id='t168'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003487"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2168' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27003487'>Баскетбол. Забок - Шибеник</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v168'><hr class=hr1></td></tr>
-<tr id='t169'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26992377"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2169' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26992377'>Хоккей. Херлев - Рунгстед</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v169'><hr class=hr1></td></tr>
-<tr id='t170'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004016"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2170' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004016'>Футбол. Данди Юнайтед (до 20) - Глазго Рейнджерс (до 20)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v170'><hr class=hr1></td></tr>
-<tr id='t171'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004018"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2171' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27004018'>Футбол. Росс Каунти (до 20) - Партик Тисл (до 20)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v171'><hr class=hr1></td></tr>
-<tr id='t172'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003895"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2172' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27003895'>Футбол. Штутгартер Киккерс - Саарбрюкен</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v172'><hr class=hr1></td></tr>
-<tr id='t173'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26900149"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2173' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26900149'>Футбол. Варберг - Ассириска Фёренинген</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v173'><hr class=hr1></td></tr>
-<tr id='t174'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26992376"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2174' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26992376'>Хоккей. Рёдовре - Эсбьерг</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v174'><hr class=hr1></td></tr>
-<tr id='t175'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970784"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2175' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26970784'>Хоккей. Загреб - ЦСКА<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v175'><hr class=hr1></td></tr>
-<tr id='t176'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002483"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2176' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27002483'>Хоккей. Бьёрклёвен - МоДо</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v176'><hr class=hr1></td></tr>
-<tr id='t177'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993298"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2177' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993298'>Хоккей. Волеренга - Ставангер</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v177'><hr class=hr1></td></tr>
-<tr id='t178'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002482"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2178' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27002482'>Хоккей. Вита-Хестен - Вастервикс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v178'><hr class=hr1></td></tr>
-<tr id='t179'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003892"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2179' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27003892'>Футбол. Вилзинг - Фк Исманинг</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v179'><hr class=hr1></td></tr>
-<tr id='t180'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003998"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2180' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27003998'>Футбол. Стремсгодсет III - Конгсберг</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v180'><hr class=hr1></td></tr>
-<tr id='t181'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003897"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2181' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27003897'>Футбол. Хоффенхайм II - ФК Нёттинген</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v181'><hr class=hr1></td></tr>
-<tr id='t182'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26992378"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2182' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26992378'>Хоккей. Ольборг - Хернинг Блю Фокс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v182'><hr class=hr1></td></tr>
-<tr id='t183'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970782"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2183' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26970782'>Хоккей. Слован Братислава - СКА<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v183'><hr class=hr1></td></tr>
-<tr id='t184'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020669"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2184' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27020669'>Футбол. Стенлосе (до 21) - Баллеруп Сковлунде (до 21)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v184'><hr class=hr1></td></tr>
-<tr id='t185'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981382"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2185' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981382'>Хоккей. Мальме - Лександ<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v185'><hr class=hr1></td></tr>
-<tr id='t186'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004599"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2186' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27004599'>Баскетбол. ФМП Белград - Мега Лекс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v186'><hr class=hr1></td></tr>
-<tr id='t187'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988588"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2187' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988588'>Теннис. Клезар Г. - Рубин Н.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v187'><hr class=hr1></td></tr>
-<tr id='t188'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988596"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2188' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988596'>Теннис. Фратанджело Б. - Де Лооре Й.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v188'><hr class=hr1></td></tr>
-<tr id='t189'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003529"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2189' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003529'>Гандбол. Брук - Швац</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v189'><hr class=hr1></td></tr>
-<tr id='t190'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003531"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2190' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003531'>Гандбол. Кремс - Альпла</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v190'><hr class=hr1></td></tr>
-<tr id='t191'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981411"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2191' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=26981411'>Гандбол. Скёвде - Алингсос</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v191'><hr class=hr1></td></tr>
-<tr id='t192'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27015006"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2192' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27015006'>Теннис. Мантилья Ф. - Монтеро Х.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v192'><hr class=hr1></td></tr>
-<tr id='t193'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988598"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2193' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988598'>Теннис. Хиральдо С. - Аревало М.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v193'><hr class=hr1></td></tr>
-<tr id='t194'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018495"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2194' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27018495'>Теннис. Кляйн Б. - Халис К.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 04.10.2016</i></font><input type=hidden value='1475600400' id='v194'><hr class=hr1></td></tr>
-<tr id='t195'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999633"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2195' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26999633'>Хоккей. Филлах - Линц</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:15:00 04.10.2016</i></font><input type=hidden value='1475601300' id='v195'><hr class=hr1></td></tr>
-<tr id='t196'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26986919"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2196' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=26986919'>Гандбол. Редбергслидс - Рикох</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:16:00 04.10.2016</i></font><input type=hidden value='1475601360' id='v196'><hr class=hr1></td></tr>
-<tr id='t197'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916473"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2197' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916473'>Хоккей. Зальцбург - Берн</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 04.10.2016</i></font><input type=hidden value='1475602200' id='v197'><hr class=hr1></td></tr>
-<tr id='t198'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26992379"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2198' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26992379'>Хоккей. Оденсе - Гентофте</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 04.10.2016</i></font><input type=hidden value='1475602200' id='v198'><hr class=hr1></td></tr>
-<tr id='t199'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003532"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2199' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003532'>Гандбол. СК Ферлах - Линц</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 04.10.2016</i></font><input type=hidden value='1475602200' id='v199'><hr class=hr1></td></tr>
-<tr id='t200'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993292"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2200' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993292'>Хоккей. Цель ам Зе - Есенице</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 04.10.2016</i></font><input type=hidden value='1475602200' id='v200'><hr class=hr1></td></tr>
-<tr id='t201'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26994918"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2201' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26994918'>Хоккей. Кортина - Лустенау</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 04.10.2016</i></font><input type=hidden value='1475602200' id='v201'><hr class=hr1></td></tr>
-<tr id='t202'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27013791"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2202' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27013791'>Теннис. Франко Х. - Люк С<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 04.10.2016</i></font><input type=hidden value='1475602200' id='v202'><hr class=hr1></td></tr>
-<tr id='t203'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003509"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2203' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27003509'>Футзал. Черно Море Мания - Гранд Про Коктейлс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 04.10.2016</i></font><input type=hidden value='1475602200' id='v203'><hr class=hr1></td></tr>
-<tr id='t204'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916474"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2204' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916474'>Хоккей. Вольфсбург - Цюрих<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 04.10.2016</i></font><input type=hidden value='1475602200' id='v204'><hr class=hr1></td></tr>
-<tr id='t205'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916475"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2205' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916475'>Хоккей. Айсберен - Цуг<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 04.10.2016</i></font><input type=hidden value='1475602200' id='v205'><hr class=hr1></td></tr>
-<tr id='t206'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999630"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2206' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26999630'>Теннис. Берлок К. - Сакамото П.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:40:00 04.10.2016</i></font><input type=hidden value='1475602800' id='v206'><hr class=hr1></td></tr>
-<tr id='t207'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26986133"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2207' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26986133'>Теннис. Эстевес М. - Лондера Х.-И.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:40:00 04.10.2016</i></font><input type=hidden value='1475602800' id='v207'><hr class=hr1></td></tr>
-<tr id='t208'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26983505"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2208' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26983505'>Хоккей. Лангнау - Амбри-Пиотта</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:45:00 04.10.2016</i></font><input type=hidden value='1475603100' id='v208'><hr class=hr1></td></tr>
-<tr id='t209'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916477"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2209' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916477'>Хоккей. Кошице - Фрибург<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:45:00 04.10.2016</i></font><input type=hidden value='1475603100' id='v209'><hr class=hr1></td></tr>
-<tr id='t210'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916476"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2210' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916476'>Хоккей. Давос - Линчёпинг<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:45:00 04.10.2016</i></font><input type=hidden value='1475603100' id='v210'><hr class=hr1></td></tr>
-<tr id='t211'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26990147"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2211' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26990147'>Хоккей. Цуг Академи - Тичино Рокетс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:45:00 04.10.2016</i></font><input type=hidden value='1475603100' id='v211'><hr class=hr1></td></tr>
-<tr id='t212'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26990148"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2212' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26990148'>Хоккей. Рапперсвиль - Шо-де-Фон</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:45:00 04.10.2016</i></font><input type=hidden value='1475603100' id='v212'><hr class=hr1></td></tr>
-<tr id='t213'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26916478"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2213' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26916478'>Хоккей. Лугано - Пльзень<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:45:00 04.10.2016</i></font><input type=hidden value='1475603100' id='v213'><hr class=hr1></td></tr>
-<tr id='t214'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26973778"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2214' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26973778'>Футбол. Кембридж Юн - Мидлсбро (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:00:00 05.10.2016</i></font><input type=hidden value='1475604000' id='v214'><hr class=hr1></td></tr>
-<tr id='t215'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004357"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2215' value='15'><b><a href='index.php?page=line&addons=1&action=2&mid=27004357'>Волейбол. Нант ВБ - Эврё</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:00:00 05.10.2016</i></font><input type=hidden value='1475604000' id='v215'><hr class=hr1></td></tr>
-<tr id='t216'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26973775"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2216' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26973775'>Футбол. Болтон - Блэкпул</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:00:00 05.10.2016</i></font><input type=hidden value='1475604000' id='v216'><hr class=hr1></td></tr>
-<tr id='t217'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26935553"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2217' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26935553'>Хоккей. ХВ71 - Лукко<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:00:00 05.10.2016</i></font><input type=hidden value='1475604000' id='v217'><hr class=hr1></td></tr>
-<tr id='t218'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26998514"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2218' value='29'><b><a href='index.php?page=line&addons=1&action=2&mid=26998514'>Дартс. Дженкинс Т. - Ван де Пас Б.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:00:00 05.10.2016</i></font><input type=hidden value='1475604000' id='v218'><hr class=hr1></td></tr>
-<tr id='t219'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003533"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2219' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003533'>Гандбол. Брегенц - СГ Вествиен</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:00:00 05.10.2016</i></font><input type=hidden value='1475604000' id='v219'><hr class=hr1></td></tr>
-<tr id='t220'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988591"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2220' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988591'>Теннис. Жемля Г. - Смычек Т.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:20:00 05.10.2016</i></font><input type=hidden value='1475605200' id='v220'><hr class=hr1></td></tr>
-<tr id='t221'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018844"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2221' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27018844'>Теннис. Карузо С. - Новиков Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:20:00 05.10.2016</i></font><input type=hidden value='1475605200' id='v221'><hr class=hr1></td></tr>
-<tr id='t222'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981381"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2222' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981381'>Хоккей. Анже - Руан</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v222'><hr class=hr1></td></tr>
-<tr id='t223'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26973776"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2223' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26973776'>Футбол. Крю - Вулверхэмптон Уондерерс (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v223'><hr class=hr1></td></tr>
-<tr id='t224'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27001942"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2224' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27001942'>Теннис. Линделл К./Северино К.-Э. - Колларини А./Велотти А.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v224'><hr class=hr1></td></tr>
-<tr id='t225'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021034"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2225' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021034'>Футбол. Аргентино де Кильмес - Дефенсорес Камбасерес</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v225'><hr class=hr1></td></tr>
-<tr id='t226'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002058"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2226' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27002058'>Баскетбол. Антверп Джайентс - Лойвен</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v226'><hr class=hr1></td></tr>
-<tr id='t227'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26973777"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2227' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26973777'>Футбол. Хартлпул - Сандерленд (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v227'><hr class=hr1></td></tr>
-<tr id='t228'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021242"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2228' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021242'>Футбол. Форфар Атлетик (до 20) - Коуденбит (до 20)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v228'><hr class=hr1></td></tr>
-<tr id='t229'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26973975"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2229' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26973975'>Футбол. Питерборо - Милтон К.Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v229'><hr class=hr1></td></tr>
-<tr id='t230'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021035"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2230' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021035'>Футбол. Феррокаррил Мидланд - Беразатегуи</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v230'><hr class=hr1></td></tr>
-<tr id='t231'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021245"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2231' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021245'>Футбол. Рэйт Роверс (до 20) - Ливингстон (до 20)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v231'><hr class=hr1></td></tr>
-<tr id='t232'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26984532"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2232' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26984532'>Теннис. Дарси С. - Кьюдинелли М.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 05.10.2016</i></font><input type=hidden value='1475605800' id='v232'><hr class=hr1></td></tr>
-<tr id='t233'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974126"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2233' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974126'>Футбол. Шеффилд Юнайтед - Уолсолл</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v233'><hr class=hr1></td></tr>
-<tr id='t234'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021509"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2234' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021509'>Футбол. Уэртинг - Мерстхам</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v234'><hr class=hr1></td></tr>
-<tr id='t235'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974323"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2235' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974323'>Футбол. Уикомб - Вест Хэм (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v235'><hr class=hr1></td></tr>
-<tr id='t236'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974132"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2236' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974132'>Футбол. Стивенэйдж - Брайтон энд Хоув Альбион (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v236'><hr class=hr1></td></tr>
-<tr id='t237'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974129"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2237' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974129'>Футбол. Суиндон - Оксфорд Юн</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v237'><hr class=hr1></td></tr>
-<tr id='t238'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974467"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2238' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974467'>Футбол. Довер Атлетик - Саттон Юнайтед</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v238'><hr class=hr1></td></tr>
-<tr id='t239'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974464"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2239' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974464'>Футбол. Рексхэм - Линкольн Сити</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v239'><hr class=hr1></td></tr>
-<tr id='t240'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26973947"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2240' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26973947'>Футбол. Бристоль Роверс - Йовил Таун</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v240'><hr class=hr1></td></tr>
-<tr id='t241'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26973910"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2241' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26973910'>Футбол. Карлайл - Блэкберн (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v241'><hr class=hr1></td></tr>
-<tr id='t242'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26973885"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2242' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26973885'>Футбол. Челтенхэм - Эвертон (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v242'><hr class=hr1></td></tr>
-<tr id='t243'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009086"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2243' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27009086'>Футбол. Дерри Сити - Дундалк</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v243'><hr class=hr1></td></tr>
-<tr id='t244'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974463"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2244' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974463'>Футбол. Бромли - Уокинг</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v244'><hr class=hr1></td></tr>
-<tr id='t245'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974460"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2245' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974460'>Футбол. Истли - Мейдстон Юнайтед</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v245'><hr class=hr1></td></tr>
-<tr id='t246'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974081"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2246' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974081'>Футбол. Гримсби - Лестер (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v246'><hr class=hr1></td></tr>
-<tr id='t247'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021518"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2247' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021518'>Футбол. Саттон Колдфилд Таун - Хеднесфорд Таун</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v247'><hr class=hr1></td></tr>
-<tr id='t248'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974080"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2248' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974080'>Футбол. Донкастер - Дерби Каунти (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v248'><hr class=hr1></td></tr>
-<tr id='t249'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26973979"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2249' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26973979'>Футбол. Моркамб - Сток Сити (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v249'><hr class=hr1></td></tr>
-<tr id='t250'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974128"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2250' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974128'>Футбол. Ньюпорт Каунти - Суонси Сити (до 23)</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v250'><hr class=hr1></td></tr>
-<tr id='t251'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26974470"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2251' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26974470'>Футбол. Транмер Роверс - Гейтсхэд</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 05.10.2016</i></font><input type=hidden value='1475606700' id='v251'><hr class=hr1></td></tr>
-<tr id='t252'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988595"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2252' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988595'>Теннис. Гонсалес А. - Ммо М.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:50:00 05.10.2016</i></font><input type=hidden value='1475607000' id='v252'><hr class=hr1></td></tr>
-<tr id='t253'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988590"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2253' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988590'>Теннис. Бангура С. - Кинг Д.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:50:00 05.10.2016</i></font><input type=hidden value='1475607000' id='v253'><hr class=hr1></td></tr>
-<tr id='t254'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005635"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2254' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27005635'>Футзал. Эль Палмар - Эль Посо Мурсия</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 01:00:00 05.10.2016</i></font><input type=hidden value='1475607600' id='v254'><hr class=hr1></td></tr>
-<tr id='t255'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006092"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2255' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27006092'>Баскетбол. Цибона - Морнар Бар</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 01:00:00 05.10.2016</i></font><input type=hidden value='1475607600' id='v255'><hr class=hr1></td></tr>
-<tr id='t256'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26998515"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2256' value='29'><b><a href='index.php?page=line&addons=1&action=2&mid=26998515'>Дартс. Бантинг С. - Хёйбрехтс К.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 01:00:00 05.10.2016</i></font><input type=hidden value='1475607600' id='v256'><hr class=hr1></td></tr>
-<tr id='t257'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985783"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2257' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26985783'>Теннис. Мелигени Родригес Алвес Ф - Киккер Н.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 01:00:00 05.10.2016</i></font><input type=hidden value='1475607600' id='v257'><hr class=hr1></td></tr>
-<tr id='t258'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988593"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2258' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988593'>Теннис. Пол Т. - Данцевич Ф.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 01:40:00 05.10.2016</i></font><input type=hidden value='1475610000' id='v258'><hr class=hr1></td></tr>
-<tr id='t259'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988599"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2259' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988599'>Теннис. Макдональд М. - Вербеек С</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 01:40:00 05.10.2016</i></font><input type=hidden value='1475610000' id='v259'><hr class=hr1></td></tr>
-<tr id='t260'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26998516"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2260' value='29'><b><a href='index.php?page=line&addons=1&action=2&mid=26998516'>Дартс. Андерсон Г. - Андерсон К.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 02:00:00 05.10.2016</i></font><input type=hidden value='1475611200' id='v260'><hr class=hr1></td></tr>
-<tr id='t261'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018845"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2261' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27018845'>Теннис. Неволо Д. - Нильсен Ф.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 02:10:00 05.10.2016</i></font><input type=hidden value='1475611800' id='v261'><hr class=hr1></td></tr>
-<tr id='t262'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27001941"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2262' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27001941'>Теннис. Галдос С./Гонзалез М - Дишингер Э./Гем А.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 02:20:00 05.10.2016</i></font><input type=hidden value='1475612400' id='v262'><hr class=hr1></td></tr>
-<tr id='t263'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004372"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2263' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27004372'>Теннис. Бангоура С./О'Хэйр Д. - Де Ваард С./Тиафо Ф.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 02:30:00 05.10.2016</i></font><input type=hidden value='1475613000' id='v263'><hr class=hr1></td></tr>
-<tr id='t264'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988600"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2264' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988600'>Теннис. Джаннесси А. - Чамба Гомес Х.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 03:00:00 05.10.2016</i></font><input type=hidden value='1475614800' id='v264'><hr class=hr1></td></tr>
-<tr id='t265'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26998517"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2265' value='29'><b><a href='index.php?page=line&addons=1&action=2&mid=26998517'>Дартс. Льюис А. - ван Барневельд Р.<div style='float: left; margin-right: 10px;'>
-<img src='/img/video.png'></div></a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 03:00:00 05.10.2016</i></font><input type=hidden value='1475614800' id='v265'><hr class=hr1></td></tr>
-<tr id='t266'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004371"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2266' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27004371'>Теннис. Рейд М./Смит Дж.-П. - Бхамбри Ю./Фрутерро Дж.-П.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 03:00:00 05.10.2016</i></font><input type=hidden value='1475614800' id='v266'><hr class=hr1></td></tr>
-<tr id='t267'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021621"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2267' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27021621'>Баскетбол. Паулистано - Трувиль</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 03:15:00 05.10.2016</i></font><input type=hidden value='1475615700' id='v267'><hr class=hr1></td></tr>
-<tr id='t268'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003494"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2268' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27003494'>Теннис. Дутра Да Силва Д./Русси Э. - Ромболи Ф./Зампиери К.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 03:30:00 05.10.2016</i></font><input type=hidden value='1475616600' id='v268'><hr class=hr1></td></tr>
-<tr id='t269'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002226"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2269' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27002226'>Футбол. Альянца Петролера - Индепендьенте М</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 04:00:00 05.10.2016</i></font><input type=hidden value='1475618400' id='v269'><hr class=hr1></td></tr>
-<tr id='t270'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982204"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2270' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26982204'>Футбол. Лондрина - Баия</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 04:15:00 05.10.2016</i></font><input type=hidden value='1475619300' id='v270'><hr class=hr1></td></tr>
-<tr id='t271'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982202"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2271' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26982202'>Футбол. Тупи - Крисиума</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 04:15:00 05.10.2016</i></font><input type=hidden value='1475619300' id='v271'><hr class=hr1></td></tr>
-<tr id='t272'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982201"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2272' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26982201'>Футбол. Брагантину - Наутико</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 04:15:00 05.10.2016</i></font><input type=hidden value='1475619300' id='v272'><hr class=hr1></td></tr>
-<tr id='t273'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985786"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2273' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26985786'>Теннис. Перейра Х. - Соуза Ж.-О.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 04:30:00 05.10.2016</i></font><input type=hidden value='1475620200' id='v273'><hr class=hr1></td></tr>
-<tr id='t274'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021631"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2274' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=27021631'>Футбол. Мирасол - Сан-Паулу</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 04:30:00 05.10.2016</i></font><input type=hidden value='1475620200' id='v274'><hr class=hr1></td></tr>
-<tr id='t275'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021017"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2275' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27021017'>Хоккей. Айлендерс - Рейнджерс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 05:00:00 05.10.2016</i></font><input type=hidden value='1475622000' id='v275'><hr class=hr1></td></tr>
-<tr id='t276'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982206"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2276' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26982206'>Футбол. Сеара - Жоинвилли</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 05:30:00 05.10.2016</i></font><input type=hidden value='1475623800' id='v276'><hr class=hr1></td></tr>
-<tr id='t277'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982205"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2277' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26982205'>Футбол. Регатас - Атлетико ГО</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 05:30:00 05.10.2016</i></font><input type=hidden value='1475623800' id='v277'><hr class=hr1></td></tr>
-<tr id='t278'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982203"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2278' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26982203'>Футбол. Вила Нова - Оэсте</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 05:30:00 05.10.2016</i></font><input type=hidden value='1475623800' id='v278'><hr class=hr1></td></tr>
-<tr id='t279'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021622"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2279' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27021622'>Баскетбол. Гуарос де Лара - Букарос Де Букараманга</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 05:30:00 05.10.2016</i></font><input type=hidden value='1475623800' id='v279'><hr class=hr1></td></tr>
-<tr id='t280'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27016320"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2280' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27016320'>Баскетбол. Байя Бланка - Кильмес</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 05:30:00 05.10.2016</i></font><input type=hidden value='1475623800' id='v280'><hr class=hr1></td></tr>
-<tr id='t281'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26991638"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2281' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26991638'>Футбол. Толима - Джуниор</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:00:00 05.10.2016</i></font><input type=hidden value='1475625600' id='v281'><hr class=hr1></td></tr>
-<tr id='t282'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27011620"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2282' value='6'><b><a href='index.php?page=line&addons=1&action=2&mid=27011620'>Бейсбол. Торонто - Балтимор</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:08:00 05.10.2016</i></font><input type=hidden value='1475626080' id='v282'><hr class=hr1></td></tr>
-<tr id='t283'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020908"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2283' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020908'>Баскетбол. Борхес - Макаби</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:15:00 05.10.2016</i></font><input type=hidden value='1475626500' id='v283'><hr class=hr1></td></tr>
-<tr id='t284'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020909"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2284' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020909'>Баскетбол. Велком - Дефенсор Спортинг</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:15:00 05.10.2016</i></font><input type=hidden value='1475626500' id='v284'><hr class=hr1></td></tr>
-<tr id='t285'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020910"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2285' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020910'>Баскетбол. Атлетико Кордон - Бигуа</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:15:00 05.10.2016</i></font><input type=hidden value='1475626500' id='v285'><hr class=hr1></td></tr>
-<tr id='t286'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020907"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2286' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020907'>Баскетбол. Гоэс - Урундай</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:15:00 05.10.2016</i></font><input type=hidden value='1475626500' id='v286'><hr class=hr1></td></tr>
-<tr id='t287'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020216"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2287' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020216'>Баскетбол. Эстудиантес Конкордия - Институто</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:30:00 05.10.2016</i></font><input type=hidden value='1475627400' id='v287'><hr class=hr1></td></tr>
-<tr id='t288'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982209"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2288' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26982209'>Футбол. Бразил Пелотас - Сампаю Корреа</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:30:00 05.10.2016</i></font><input type=hidden value='1475627400' id='v288'><hr class=hr1></td></tr>
-<tr id='t289'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982208"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2289' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26982208'>Футбол. Пайзанду - Васко да Гама</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:30:00 05.10.2016</i></font><input type=hidden value='1475627400' id='v289'><hr class=hr1></td></tr>
-<tr id='t290'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982207"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2290' value='1'><b><a href='index.php?page=line&addons=1&action=2&mid=26982207'>Футбол. Аваи - Гояс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:30:00 05.10.2016</i></font><input type=hidden value='1475627400' id='v290'><hr class=hr1></td></tr>
-<tr id='t291'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021021"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2291' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27021021'>Хоккей. Колорадо - Миннесота</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 07:00:00 05.10.2016</i></font><input type=hidden value='1475629200' id='v291'><hr class=hr1></td></tr>
-<tr id='t292'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27004436"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2292' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27004436'>Теннис. Хингис М./Вандевеге К. - Гергес Ю./Плискова Кар.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 08:00:00 05.10.2016</i></font><input type=hidden value='1475632800' id='v292'><hr class=hr1></td></tr>
-<tr id='t293'>
-<td align="center" valign="center">
+<form name="BetLine" action="index.php" method=post>
+<table class="smallwnd3" style="width:99%">
+<tr class="m_c" align="middle">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" onclick="javascript:set_lcheck(vl, this.checked);"/>
+</td>
+<td class="smwndcap" width="99%" colspan="2" align="center" valign="middle">
+<font class="g">Live</font>-Ставки </td>
+</tr>
+<script type="text/javascript">
+                        var v0    = 0,
+                            vc0   = 0,
+                            ordc0 = 0;
+	            	</script>
+<tr>
+<td colspan="3">
+<a id="a1" href="javascript:set_lshow(0, ordc1, 1);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(0, v1, vc1, 1);">
+<b>Футбол</b>
+</a>
+</td>
+</tr>
+<tr id=s0>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="26982679"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982679"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=26982679">Гамба Осака - Йокогама ФМ<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10261201,1, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 15", Счет по угловым 0:0</font> </td>
+</tr>
+<tr id=s1 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="26982680"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26982680"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=26982680">ФК Токио - Урава Ред Даймондс<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10261203,1, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 </font> </td>
+</tr>
+<tr id=s2>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="26990156"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26990156"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=26990156">Чхунджу Хуммел - Тэгу ФК<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(8854132,1, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:1 19", Счет по угловым 0:1</font> </td>
+</tr>
+<tr id=s3 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="26990157"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26990157"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=26990157">Кённам - Анян<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(8854136,1, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 19", Счет по угловым 0:1</font> </td>
+</tr>
+<tr id=s4>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27022307"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022307"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27022307">Мафра - Ангренсе<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10163585,1, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 17"</font> </td>
+</tr>
+<tr id=s5 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27025555"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025555"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27025555">Портимоненсе - Фаренсе<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10346764,1, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 (1:0) 64"</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<tr id=s6>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27024066"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024066"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27024066">БИИК-Казыгурт (жен) - АГСМ Верона (жен)<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10106339,1, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">2:1 (2:0) 62", Счет по угловым 3:0</font> </td>
+</tr>
+<tr id=s7 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27039988"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27039988"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27039988">Кан Тхо (до 21) - Донг Тап (до 21)</a> <br/><font class="txtmed" style="color:red;">0:0 9"</font> </td>
+</tr>
+<tr id=s8>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27021843"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021843"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27021843">ФК ФСМ - Химки-М<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10323997,1, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">4:0 16"</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<tr id=s9 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27036560"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036560"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27036560">Виктория Жижков - Славия Прага<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347178,1, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:3 (1:2) 67"</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<tr id=s10>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27039182"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27039182"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27039182">Бакили Баку - ПФК Закатала</a> <br/><font class="txtmed" style="color:red;">2:4 (2:2) 60"</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<script type="text/javascript">
+                        var v1    = 11,
+                            vc1   = 0,
+                            ordc1 = 11;
+	            	</script>
+<tr class="bg">
+<td colspan="3">
+<a id="a2" href="javascript:set_lshow(11, ordc2, 2);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(11, v2, vc2, 2);">
+<b>Теннис</b>
+</a>
+</td>
+</tr>
+<tr id=s11 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27006327"/>
+</td>
+<td width="1%" align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006327"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2293' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=27006327'>Теннис. Бачински Т./Остапенко Е. - Бабош Т./Шведова Я.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 08:00:00 05.10.2016</i></font><input type=hidden value='1475632800' id='v293'><hr class=hr1></td></tr>
-<tr id='t294'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985313"></a>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27006327">Бачински Т./Остапенко Е. - Бабош Т./Шведова Я.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10339829,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 (7:6, 0:1) 0:30</font> </td>
+</tr>
+<tr id=s12>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27005326"/>
 </td>
-<td colspan=2><input type=hidden id='spid2294' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26985313'>Теннис. Бабош Т. - Конта Дж.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 08:00:00 05.10.2016</i></font><input type=hidden value='1475632800' id='v294'><hr class=hr1></td></tr>
-<tr id='t295'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26990153"></a>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27005326"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2295' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26990153'>Теннис. Клепач А./Среботник К. - Арруабаррена Л./Калашникова О.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 08:00:00 05.10.2016</i></font><input type=hidden value='1475632800' id='v295'><hr class=hr1></td></tr>
-<tr id='t296'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988627"></a>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27005326">Кербер А. - Стрыцова Б.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10339713,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 (6:3, 0:0) 0:0</font> </td>
+</tr>
+<tr id=s13 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27019054"/>
 </td>
-<td colspan=2><input type=hidden id='spid2296' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988627'>Теннис. Гарсия К./Младенович К. - Крунич А./Синякова К.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 08:00:00 05.10.2016</i></font><input type=hidden value='1475632800' id='v296'><hr class=hr1></td></tr>
-<tr id='t297'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26987695"></a>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019054"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2297' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26987695'>Теннис. Добровски Г./Мартинес-Санчес М.-Х. - Мирза С./Стрыцова Б.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 08:00:00 05.10.2016</i></font><input type=hidden value='1475632800' id='v297'><hr class=hr1></td></tr>
-<tr id='t298'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988626"></a>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27019054">Веселы И. - Гоффин Д.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10342985,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:1 (3:6, 4:4) 0:0</font> </td>
+</tr>
+<tr id=s14>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="26967928"/>
 </td>
-<td colspan=2><input type=hidden id='spid2298' value='2'><b><a href='index.php?page=line&addons=1&action=2&mid=26988626'>Теннис. МакХэйл К./Пэнг Ш. - Макарова Е./Веснина Е.</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 08:00:00 05.10.2016</i></font><input type=hidden value='1475632800' id='v298'><hr class=hr1></td></tr>
-<tr id='t299'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020557"></a>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26967928"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2299' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020557'>Баскетбол. Адамсон Фальконс - Гроулин Тайгерс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 12:00:00 05.10.2016</i></font><input type=hidden value='1475647200' id='v299'><hr class=hr1></td></tr>
-<tr id='t300'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999060"></a>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=26967928">Димитров Г. - Джонсон С.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10321571,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">2:1 (7:5, 6:7, 6:4, 0:0) 0:0, Матч завершен</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<tr id=s15 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="26985211"/>
 </td>
-<td colspan=2><input type=hidden id='spid2300' value='28'><b><a href='index.php?page=line&addons=1&action=2&mid=26999060'>Регби-Союз. Манавату - Веллингтон</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 12:35:00 05.10.2016</i></font><input type=hidden value='1475649300' id='v300'><hr class=hr1></td></tr>
-<tr id='t301'>
-<td align="center" valign="center">
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985211"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=26985211">Додиг И. - Гомбос Н.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10323457,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 (0:1) 0:0</font> </td>
+</tr>
+<tr id=s16>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27025566"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025566"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27025566">Мартин Ан. - Рока Баталья О.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347060,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 (3:3) 15:15</font> </td>
+</tr>
+<tr id=s17 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27025567"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025567"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27025567">Рууд К. - Мельцер Г.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10346756,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:1 (1:6, 0:1) 0:15</font> </td>
+</tr>
+<tr id=s18>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27040389"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040389"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27040389">Штруфф Я-Л. - Баррере Г.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div></a> <br/><font class="txtmed" style="color:red;">0:0 (2:2) 0:0</font> </td>
+</tr>
+<tr id=s19 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="26981262"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981262"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=26981262">Беннето Ж./Роже-Васселин Э. - Раонич М./Зимоньич Н<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10322263,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 (6:4, 5:5) 15:40</font> </td>
+</tr>
+<tr id=s20>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="26981264"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981264"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=26981264">Куэвас П./Троицки В. - Кубот Л./Мело М.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10322265,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 (6:6) 3:5</font> </td>
+</tr>
+<tr id=s21 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27018474"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018474"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27018474">Маргароли Л./Наполитано С. - Мьес А./Отте О.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10341979,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:1 (2:6, 0:5) 0:0</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<tr id=s22>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27025419"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025419"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27025419">Пилуду Н. - Янушкова П.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10346924,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:1 (2:6, 7:6, 3:3) 30:0</font> </td>
+</tr>
+<tr id=s23 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27025513"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025513"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27025513">Ронкалли С. - Ван Терхейден Т.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10346920,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:1 (6:3, 2:6, 0:1) 15:15</font> </td>
+</tr>
+<tr id=s24>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27028881"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27028881"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27028881">Лазаров А. - Кубелиц К.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347230,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 (6:3, 4:2) 15:0</font> </td>
+</tr>
+<tr id=s25 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27028882"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27028882"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27028882">Рюль Т. - Негриту К.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347246,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 (3:4) 30:15</font> </td>
+</tr>
+<tr id=s26>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27028960"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27028960"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27028960">Бургер С. - Скамлова Ш.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347418,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 (3:4) 30:30</font> </td>
+</tr>
+<tr id=s27 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27028961"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27028961"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27028961">Джовине К. - Тайхманн Дж.-Б.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347384,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 (2:5) 0:0</font> </td>
+</tr>
+<tr id=s28>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27029513"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029513"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27029513">Жак Г. - Фурнесс Э.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347496,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 (6:3, 4:2) 15:0</font> </td>
+</tr>
+<tr id=s29 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27029643"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029643"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27029643">Бркич Т. - Клейн Л.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347022,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 (2:1) A:40</font> </td>
+</tr>
+<tr id=s30>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27030087"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27030087"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27030087">Шантрэн К. - Перера Рос М.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347080,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 (6:4, 1:1) 15:40</font> </td>
+</tr>
+<tr id=s31 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27030204"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27030204"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27030204">Джустино Л. - Монтейру Ж.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347268,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 (3:3) 15:30</font> </td>
+</tr>
+<tr id=s32>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27030206"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27030206"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27030206">Оливейра Г. - Семмлер М.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347282,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:1 (2:6, 1:3) 15:15</font> </td>
+</tr>
+<tr id=s33 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27034462"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27034462"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27034462">Ден Хеер Г. - Эхарги М.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347346,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:1 (3:6, 5:4) 0:0</font> </td>
+</tr>
+<tr id=s34>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27035113"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27035113"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27035113">Чианчи К. - Добрилова Н.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347276,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 (6:4, 0:0) 30:30</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<tr id=s35 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27037126"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27037126"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27037126">Гримальска А. - Брианти А.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div><div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10347430,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:1 (2:6, 1:3) 30:15</font> </td>
+</tr>
+<tr id=s36>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27027034"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27027034"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27027034">Сосновски А. - Стинга Т.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10346968,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:1 (2:6, 5:0) 0:0</font> </td>
+</tr>
+<tr id=s37 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27029750"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029750"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27029750">Колобаев Н. - Смит О.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10346854,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:0 (5:4) 30:30</font> </td>
+</tr>
+<tr id=s38>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27029833"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029833"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27029833">Сонг Е. - Кобелт П.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10346858,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">0:1 (6:7, 6:6) 4:6</font> </td>
+</tr>
+<tr id=s39 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27030060"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27030060"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27030060">Охана Н. - Шломо К.<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10346878,2, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">1:0 (7:5, 0:0) 0:0</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<script type="text/javascript">
+                        var v2    = 40,
+                            vc2   = 0,
+                            ordc2 = 40;
+	            	</script>
+<tr>
+<td colspan="3">
+<a id="a3" href="javascript:set_lshow(40, ordc3, 3);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(40, v3, vc3, 3);">
+<b>Баскетбол</b>
+</a>
+</td>
+</tr>
+<tr id=s40>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27020558"/>
+</td>
+<td width="1%" align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020558"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2301' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020558'>Баскетбол. Тамароуз - НУ Буллдогз</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 14:00:00 05.10.2016</i></font><input type=hidden value='1475654400' id='v301'><hr class=hr1></td></tr>
-<tr id='t302'>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27020558">Тамароуз - НУ Буллдогз<div style="float:left;margin-right: 10px;">
+<a href="javascript:openmtbr(10159305,3, true, 'ru', 'Asia:Dhaka');">
+<img src="/img/mt.png"/>
+</a>
+</div></a> <br/><font class="txtmed" style="color:red;">77:75 (17:14, 22:18, 20:18, 18:25) 40" 4-я четверть</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<script type="text/javascript">
+                        var v3    = 41,
+                            vc3   = 0,
+                            ordc3 = 41;
+	            	</script>
+<tr class="bg">
+<td colspan="3">
+<a id="a4" href="javascript:set_lshow(41, ordc4, 4);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(41, v4, vc4, 4);">
+<b>Хоккей</b>
+</a>
+</td>
+</tr>
+<tr id=s41 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27022816"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022816"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27022816">Кузнецкие Медведи - Тюменский Легион</a> <br/><font class="txtmed" style="color:red;">1:0 (1:0) 13" 1-й период</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<tr id=s42>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27022817"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022817"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27022817">Спутник Алметьевск - Снежные Барсы</a> <br/><font class="txtmed" style="color:red;">2:0 (2:0) 11" 1-й период</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<script type="text/javascript">
+                        var v4    = 43,
+                            vc4   = 0,
+                            ordc4 = 43;
+	            	</script>
+<tr class="bg">
+<td colspan="3">
+<a id="a5" href="javascript:set_lshow(43, ordc5, 5);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(43, v5, vc5, 5);">
+<b>Киберспорт</b>
+</a>
+</td>
+</tr>
+<tr id=s43 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27039993"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27039993"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27039993">Newbee - EHOME</a> <br/><font class="txtmed" style="color:red;">1:0 (21:9, 6:12)</font> </td>
+</tr>
+<script type="text/javascript">
+                        var v5    = 44,
+                            vc5   = 0,
+                            ordc5 = 44;
+	            	</script>
+<tr>
+<td colspan="3">
+<a id="a6" href="javascript:set_lshow(44, ordc6, 6);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(44, v6, vc6, 6);">
+<b>Бейсбол</b>
+</a>
+</td>
+</tr>
+<tr id=s44>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27028946"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27028946"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27028946">Тиба Мэринс - Ракутен Голден Иглс</a> <br/><font class="txtmed" style="color:red;">1:1 (0:0, 1:0, 0:1, 0:0, 0:0) 5 иннинг, верх</font> </td>
+</tr>
+<tr id=s45 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27026231"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27026231"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27026231">КТ Виз - Хануа Иглс</a> <br/><font class="txtmed" style="color:red;">1:2 (1:2, 0:0) 2 иннинг, низ</font> </td>
+</tr>
+<tr id=s46>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27031537"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27031537"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27031537">НЦ Динос - Нексен Хероуз</a> <br/><font class="txtmed" style="color:red;">3:0 (3:0, 0:0, 0:0)</font> </td>
+</tr>
+<script type="text/javascript">
+                        var v6    = 47,
+                            vc6   = 0,
+                            ordc6 = 47;
+	            	</script>
+<tr class="bg">
+<td colspan="3">
+<a id="a7" href="javascript:set_lshow(47, ordc7, 7);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(47, v7, vc7, 7);">
+<b>Снукер</b>
+</a>
+</td>
+</tr>
+<tr id=s47 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27028901"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27028901"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27028901">Хиггинс Дж. - Форд Т.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div></a> <br/><font class="txtmed" style="color:red;">0:0 </font> </td>
+</tr>
+<script type="text/javascript">
+                        var v7    = 48,
+                            vc7   = 0,
+                            ordc7 = 48;
+	            	</script>
+<tr>
+<td colspan="3">
+<a id="a8" href="javascript:set_lshow(48, ordc8, 8);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(48, v8, vc8, 8);">
+<b>Настольный теннис</b>
+</a>
+</td>
+</tr>
+<tr id=s48>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27025315"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025315"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27025315">Герольд Г. - Янчарик Л.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div></a> <br/><font class="txtmed" style="color:red;">1:2 (9:11, 11:8, 7:11, 3:3)</font><br><font class="txtmed"><i>Приостановлен</i></font> </td>
+</tr>
+<tr id=s49 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27036919"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036919"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27036919">Куликова О./Лю Цзы Цянь - Чи Гэ/Чернобаев С.</a> <br/><font class="txtmed" style="color:red;">0:0 (6:5)</font> </td>
+</tr>
+<tr id=s50>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27036453"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036453"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27036453">Бойко С. - Вакуленко Д.</a> <br/><font class="txtmed" style="color:red;">2:2 (9:11, 11:8, 7:11, 11:3, 6:6)</font> </td>
+</tr>
+<script type="text/javascript">
+                        var v8    = 51,
+                            vc8   = 0,
+                            ordc8 = 51;
+	            	</script>
+<tr class="bg">
+<td colspan="3">
+<a id="a9" href="javascript:set_lshow(51, ordc9, 9);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(51, v9, vc9, 9);">
+<b>Волейбол</b>
+</a>
+</td>
+</tr>
+<tr id=s51 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27024448"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024448"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27024448">Покари Суэтто - Филиппин Аир Форсе</a> <br/><font class="txtmed" style="color:red;">2:2 (20:25, 25:22, 7:25, 25:22, 2:6)</font> </td>
+</tr>
+<tr id=s52>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27040001"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040001"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27040001">Лонган - Виньлонг</a> <br/><font class="txtmed" style="color:red;">2:1 (20:25, 25:17, 25:22, 19:14)</font> </td>
+</tr>
+<tr id=s53 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27029276"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029276"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27029276">Алтай - Караганда</a> <br/><font class="txtmed" style="color:red;">1:0 (25:8, 2:1)</font> </td>
+</tr>
+<script type="text/javascript">
+                        var v9    = 54,
+                            vc9   = 0,
+                            ordc9 = 54;
+	            	</script>
+<tr>
+<td colspan="3">
+<a id="a10" href="javascript:set_lshow(54, ordc10, 10);">
+<div style="float:left;margin-right:5px;">
+<img src="/img/right.png"/>
+</div>
+</a>
+<a href="javascript:set_lcheck2(54, v10, vc10, 10);">
+<b>Бадминтон</b>
+</a>
+</td>
+</tr>
+<tr id=s54>
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27018439"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018439"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27018439">Цзян Гай Синь/Хун Ши Хань - Киттихаракул Й./Прагонджай Р.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div></a> <br/><font class="txtmed" style="color:red;">1:1 (7:21, 21:14, 1:5)</font> </td>
+</tr>
+<tr id=s55 class="bg">
+<td width="1%" align="center" valign="middle">
+<input type="checkbox" name="live[]" value="27038248"/>
+</td>
+<td width="1%" align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27038248"></a>
+</td>
+<td width="98%" align="left" valign="middle">
+<a href="index.php?page=line&action=2&live[]=27038248">Ляо Минь Чунь/Цзя Хун Лу - Абдул Латиф М.-А./Буранакуэа В.<div style="float:left;margin-right:10px;">
+<a href="javascript:alert('Для просмотра видео необходимо авторизоваться!');">
+<img src="/img/video.png"/>
+</a></div></a> <br/><font class="txtmed" style="color:red;">0:0 (16:16)</font> </td>
+</tr>
+<script type="text/javascript">
+            var v10    = 56,
+                vl                = 56,
+				vc10   = 0,
+				ordc10 = 56;
+		</script>
+<tr>
+<td class="bg" colspan="3" align="center">
+<table width="50%" border="0" cellspacing="0" cellpadding="2">
+<tr>
+<td width="25%" align="right">
+<input type="checkbox" name="line_nums" value="1" checked="checked"/>
+</td>
+<td width="75%" align="left" nowrap>
+<b>Включить нумерацию матчей в линии</b>
+</td>
+</tr>
+</table>
+<br/>
+<input class="msbtn1" style="width:135px;" type="button" value="Выделить все" onclick="javascript:set_lcheck(vl, true);"/>
+<input class="msbtn1" style="width:120px;" type="reset" value="Отменить все"/>
+<input class="msbtn1" style="width:120px;" type="submit" value="Далее"/>
+<br/><br/>
+</td>
+</tr>
+<tr class="m_c" align="middle">
+<td class="smwndcap" width="99%" colspan="3" align="center" valign="middle">
+Планируются <font class="g">Live</font>-Ставки <br/>
+Начало <select class="loginbox" name="ltime" onchange="javascript:change_list();">
+<option value="7201" selected="selected">в ближайшие 2 часа</option>
+<option value="21600">в ближайшие 6 часов</option>
+<option value="86400">в ближайшие сутки</option>
+<option value="0">в любое время</option>
+</select> &nbsp; &nbsp;
+Вид спорта <select class="loginbox" name="sportid" onchange="javascript:change_list();">
+<option value="-1" selected="selected">- - - Все виды - - -</option>
+<option value="19">Американский футбол</option>
+<option value="3">Баскетбол</option>
+<option value="6">Бейсбол</option>
+<option value="15">Волейбол</option>
+<option value="11">Гандбол</option>
+<option value="55">Крикет</option>
+<option value="14">Настольный теннис</option>
+<option value="28">Регби-Союз</option>
+<option value="7">Снукер</option>
+<option value="2">Теннис</option>
+<option value="1">Футбол</option>
+<option value="21">Футзал</option>
+<option value="4">Хоккей</option> </select>
+</td>
+</tr>
+<tr id="t0">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27026558"></a>
+</td>
+<td colspan="2">
+<input id="spid20" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27026558">Теннис. Зверев А. - Сок Дж.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:20:00 05.10.2016</i></font>
+<input id="v0" type="hidden" value="1475662800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t1">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025316"></a>
+</td>
+<td colspan="2">
+<input id="spid21" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27025316">Настольный теннис. Койич Ф. - Хузяк Й.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:30:00 05.10.2016</i></font>
+<input id="v1" type="hidden" value="1475663400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t2">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27026684"></a>
+</td>
+<td colspan="2">
+<input id="spid22" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27026684">Теннис. Маттек-Сандс Б./Шафарова Л. - Бондаренко К./Чанг Ч.-Ю.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:30:00 05.10.2016</i></font>
+<input id="v2" type="hidden" value="1475663400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t3">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029283"></a>
+</td>
+<td colspan="2">
+<input id="spid23" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029283">Футбол. Семенчи Фаргона - Гиждуван</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:30:00 05.10.2016</i></font>
+<input id="v3" type="hidden" value="1475663400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t4">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040002"></a>
+</td>
+<td colspan="2">
+<input id="spid24" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040002">Футбол. Сао Мингуел де Талиао - Бардез</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:30:00 05.10.2016</i></font>
+<input id="v4" type="hidden" value="1475663400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t5">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029282"></a>
+</td>
+<td colspan="2">
+<input id="spid25" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029282">Футбол. ФК Йозавон Лочинглари - Нурафшон-Бухара</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:30:00 05.10.2016</i></font>
+<input id="v5" type="hidden" value="1475663400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t6">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036454"></a>
+</td>
+<td colspan="2">
+<input id="spid26" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036454">Настольный теннис. Ковалев А. - Рябухин А.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:30:00 05.10.2016</i></font>
+<input id="v6" type="hidden" value="1475663400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t7">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020224"></a>
+</td>
+<td colspan="2">
+<input id="spid27" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020224">Теннис. Монако Х. - Дакворт Дж.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:35:00 05.10.2016</i></font>
+<input id="v7" type="hidden" value="1475663700">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t8">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27037862"></a>
+</td>
+<td colspan="2">
+<input id="spid28" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27037862">Теннис. Рыбаков А. - Траваглиа С.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:40:00 05.10.2016</i></font>
+<input id="v8" type="hidden" value="1475664000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t9">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27017047"></a>
+</td>
+<td colspan="2">
+<input id="spid29" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27017047">Теннис. Майхржак К. - Де Баккер Т.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:50:00 05.10.2016</i></font>
+<input id="v9" type="hidden" value="1475664600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t10">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27026224"></a>
+</td>
+<td colspan="2">
+<input id="spid210" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27026224">Теннис. Имер Э. - Карбальес Баэна Р.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:50:00 05.10.2016</i></font>
+<input id="v10" type="hidden" value="1475664600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t11">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27016853"></a>
+</td>
+<td colspan="2">
+<input id="spid211" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27016853">Теннис. Дьере Л. - Игнатик В.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:50:00 05.10.2016</i></font>
+<input id="v11" type="hidden" value="1475664600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t12">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036126"></a>
+</td>
+<td colspan="2">
+<input id="spid212" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036126">Теннис. Джордже Ф. - Негряну Д.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:55:00 05.10.2016</i></font>
+<input id="v12" type="hidden" value="1475664900">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t13">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27030207"></a>
+</td>
+<td colspan="2">
+<input id="spid213" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27030207">Теннис. Семедо М. - Домингеш Ж.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:55:00 05.10.2016</i></font>
+<input id="v13" type="hidden" value="1475664900">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t14">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27026319"></a>
+</td>
+<td colspan="2">
+<input id="spid214" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27026319">Теннис. Киз М. - Кузнецова С.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 16:55:00 05.10.2016</i></font>
+<input id="v14" type="hidden" value="1475664900">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t15">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27028902"></a>
+</td>
+<td colspan="2">
+<input id="spid215" type="hidden" value="7"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27028902">Снукер. Бёрден А. - Уолден Р.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:00:00 05.10.2016</i></font>
+<input id="v15" type="hidden" value="1475665200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t16">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003870"></a>
+</td>
+<td colspan="2">
+<input id="spid216" type="hidden" value="55"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27003870">Крикет. Пакистан - Вест Индия</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:00:00 05.10.2016</i></font>
+<input id="v16" type="hidden" value="1475665200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t17">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27032814"></a>
+</td>
+<td colspan="2">
+<input id="spid217" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27032814">Баскетбол. БК Иркут - МБА Москва</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:00:00 05.10.2016</i></font>
+<input id="v17" type="hidden" value="1475665200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t18">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27037015"></a>
+</td>
+<td colspan="2">
+<input id="spid218" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27037015">Настольный теннис. Кирица Л./Пульный П. - Шишмарева О./Куимов Ф.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:00:00 05.10.2016</i></font>
+<input id="v18" type="hidden" value="1475665200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t19">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021845"></a>
+</td>
+<td colspan="2">
+<input id="spid219" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021845">Футбол. Крылья Советов Москва - Родина</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:00:00 05.10.2016</i></font>
+<input id="v19" type="hidden" value="1475665200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t20">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27031534"></a>
+</td>
+<td colspan="2">
+<input id="spid220" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27031534">Хоккей. Омские ястребы - Белые медведи</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:00:00 05.10.2016</i></font>
+<input id="v20" type="hidden" value="1475665200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t21">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036797"></a>
+</td>
+<td colspan="2">
+<input id="spid221" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036797">Теннис. Джиакалон О. - Делла Томмасина Д.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:05:00 05.10.2016</i></font>
+<input id="v21" type="hidden" value="1475665500">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t22">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036456"></a>
+</td>
+<td colspan="2">
+<input id="spid222" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036456">Настольный теннис. Вакуленко Д. - Макаренко Р.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:10:00 05.10.2016</i></font>
+<input id="v22" type="hidden" value="1475665800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t23">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025317"></a>
+</td>
+<td colspan="2">
+<input id="spid223" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27025317">Настольный теннис. Шрирам С. - Хендлунд Дж.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:10:00 05.10.2016</i></font>
+<input id="v23" type="hidden" value="1475665800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t24">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024085"></a>
+</td>
+<td colspan="2">
+<input id="spid224" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024085">Теннис. Де Шеппер К. - Мельцер Ю.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:20:00 05.10.2016</i></font>
+<input id="v24" type="hidden" value="1475666400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t25">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024064"></a>
+</td>
+<td colspan="2">
+<input id="spid225" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024064">Теннис. Янович Е. - Беранкис Р.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:20:00 05.10.2016</i></font>
+<input id="v25" type="hidden" value="1475666400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t26">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024103"></a>
+</td>
+<td colspan="2">
+<input id="spid226" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024103">Футбол. Вииторул Домнешть - Униря Тэрлунджени</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:30:00 05.10.2016</i></font>
+<input id="v26" type="hidden" value="1475667000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t27">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27037016"></a>
+</td>
+<td colspan="2">
+<input id="spid227" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27037016">Настольный теннис. Моцык И./Цыбин А. - Чи Гэ/Чернобаев С.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:30:00 05.10.2016</i></font>
+<input id="v27" type="hidden" value="1475667000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t28">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024101"></a>
+</td>
+<td colspan="2">
+<input id="spid228" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024101">Футбол. АС Стинта Мирослава - КФ Брайла</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:30:00 05.10.2016</i></font>
+<input id="v28" type="hidden" value="1475667000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t29">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003871"></a>
+</td>
+<td colspan="2">
+<input id="spid229" type="hidden" value="55"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27003871">Крикет. ЮАР - Австралия</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:30:00 05.10.2016</i></font>
+<input id="v29" type="hidden" value="1475667000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t30">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024102"></a>
+</td>
+<td colspan="2">
+<input id="spid230" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024102">Футбол. Афумати - Берчени</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:30:00 05.10.2016</i></font>
+<input id="v30" type="hidden" value="1475667000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t31">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024100"></a>
+</td>
+<td colspan="2">
+<input id="spid231" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024100">Футбол. Арджеш - Киндия Тырговиште</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:30:00 05.10.2016</i></font>
+<input id="v31" type="hidden" value="1475667000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t32">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27026682"></a>
+</td>
+<td colspan="2">
+<input id="spid232" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27026682">Теннис. Маррей Э. - Кузнецов Анд.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:30:00 05.10.2016</i></font>
+<input id="v32" type="hidden" value="1475667000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t33">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025318"></a>
+</td>
+<td colspan="2">
+<input id="spid233" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27025318">Настольный теннис. Давид П. - Деметер Л.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:50:00 05.10.2016</i></font>
+<input id="v33" type="hidden" value="1475668200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t34">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036457"></a>
+</td>
+<td colspan="2">
+<input id="spid234" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036457">Настольный теннис. Бойко С. - Масько Е.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:50:00 05.10.2016</i></font>
+<input id="v34" type="hidden" value="1475668200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t35">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27039031"></a>
+</td>
+<td colspan="2">
+<input id="spid235" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27039031">Баскетбол. Олимпи Тбилиси - Мгзавреби</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v35" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t36">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022359"></a>
+</td>
+<td colspan="2">
+<input id="spid236" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022359">Футбол. Анкара Демирспор - Кижилчаболюкспор</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v36" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t37">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029167"></a>
+</td>
+<td colspan="2">
+<input id="spid237" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029167">Баскетбол. Да Нанг Дрэгонс - Сайгон Хит</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v37" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t38">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021846"></a>
+</td>
+<td colspan="2">
+<input id="spid238" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021846">Футбол. ФК Спортакадемклуб Москва - Буревестник</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v38" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t39">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27037019"></a>
+</td>
+<td colspan="2">
+<input id="spid239" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27037019">Настольный теннис. Кирица Л./Пульный П. - Куликова О./Лю Цзы Цянь</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v39" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t40">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006810"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2302' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27006810'>Хоккей. Сокол Кр - Динамо Балашиха</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 05.10.2016</i></font><input type=hidden value='1475668800' id='v302'><hr class=hr1></td></tr>
-<tr id='t303'>
+<td colspan="2">
+<input id="spid240" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006810">Хоккей. Сокол Кр - Динамо Балашиха</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v40" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t41">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27039030"></a>
+</td>
+<td colspan="2">
+<input id="spid241" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27039030">Гандбол. Городничанка - БНТУ-БелАЗ Минск</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v41" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t42">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021013"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2303' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27021013'>Футзал. Охрана Динамо Минск - Борисов-900</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 05.10.2016</i></font><input type=hidden value='1475668800' id='v303'><hr class=hr1></td></tr>
-<tr id='t304'>
+<td colspan="2">
+<input id="spid242" type="hidden" value="21"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021013">Футзал. Охрана Динамо Минск - Борисов-900</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v42" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t43">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27039032"></a>
+</td>
+<td colspan="2">
+<input id="spid243" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27039032">Баскетбол. Хо Чи Минх Сити Вингс - Кан Тхо Катфиш</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v43" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t44">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020896"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2304' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020896'>Баскетбол. Новосибирск - Университет-Югра</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:00:00 05.10.2016</i></font><input type=hidden value='1475668800' id='v304'><hr class=hr1></td></tr>
-<tr id='t305'>
+<td colspan="2">
+<input id="spid244" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020896">Баскетбол. Новосибирск - Университет-Югра</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v44" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t45">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022681"></a>
+</td>
+<td colspan="2">
+<input id="spid245" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022681">Футбол. Тай Хонда ФК - Касима Антлерс</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:00:00 05.10.2016</i></font>
+<input id="v45" type="hidden" value="1475668800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t46">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024086"></a>
+</td>
+<td colspan="2">
+<input id="spid246" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024086">Теннис. Джумхур Д. - Имер М.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:10:00 05.10.2016</i></font>
+<input id="v46" type="hidden" value="1475669400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t47">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024087"></a>
+</td>
+<td colspan="2">
+<input id="spid247" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024087">Теннис. Химено-Травер Д. - Попко Д.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:10:00 05.10.2016</i></font>
+<input id="v47" type="hidden" value="1475669400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t48">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040014"></a>
+</td>
+<td colspan="2">
+<input id="spid248" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040014">Футбол. Депортиво Риестра (рез) - Клуб Атлетико Тальерес (рез)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v48" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t49">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022187"></a>
+</td>
+<td colspan="2">
+<input id="spid249" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022187">Футбол. Ифайстос Перистериоу - АО Микрасиатэкос</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v49" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t50">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025535"></a>
+</td>
+<td colspan="2">
+<input id="spid250" type="hidden" value="15"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27025535">Волейбол. Протон - Марица Пловдив</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v50" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t51">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022188"></a>
+</td>
+<td colspan="2">
+<input id="spid251" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022188">Футбол. Кентаврос Врилиссион - Аякс Тавру</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v51" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t52">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021841"></a>
+</td>
+<td colspan="2">
+<input id="spid252" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021841">Футбол. Септември София (до 19) - Левски София (до 19)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v52" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t53">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040013"></a>
+</td>
+<td colspan="2">
+<input id="spid253" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040013">Футбол. Текирдагспор - Козан Беледиеспор</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v53" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t54">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040140"></a>
+</td>
+<td colspan="2">
+<input id="spid254" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040140">Футбол. Монтана (до 19) - Ботев Пловдив (до 19)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v54" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t55">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036458"></a>
+</td>
+<td colspan="2">
+<input id="spid255" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036458">Настольный теннис. Ковалев А. - Вакуленко Д.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v55" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t56">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022189"></a>
+</td>
+<td colspan="2">
+<input id="spid256" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022189">Футбол. Мелиссия - Каматэро</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v56" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t57">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040146"></a>
+</td>
+<td colspan="2">
+<input id="spid257" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040146">Футбол. Сливен 2000 (до 19) - Лудогорец Разград (до 19)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v57" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t58">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025319"></a>
+</td>
+<td colspan="2">
+<input id="spid258" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27025319">Настольный теннис. Хендлунд Дж. - Янчарик Л.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v58" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t59">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022194"></a>
+</td>
+<td colspan="2">
+<input id="spid259" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022194">Футбол. Анаргирои - Агия Параскеви</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v59" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t60">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27039043"></a>
+</td>
+<td colspan="2">
+<input id="spid260" type="hidden" value="15"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27039043">Волейбол. Иттихад Сейюн - Аль Вехда</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v60" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t61">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021608"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2305' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27021608'>Футзал. ИрАэро - Спартак М</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 18:30:00 05.10.2016</i></font><input type=hidden value='1475670600' id='v305'><hr class=hr1></td></tr>
-<tr id='t306'>
+<td colspan="2">
+<input id="spid261" type="hidden" value="21"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021608">Футзал. ИрАэро - Спартак М</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v61" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t62">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029281"></a>
+</td>
+<td colspan="2">
+<input id="spid262" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029281">Футбол. Кутахиаспор - Байбурт Генчлик</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v62" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t63">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022193"></a>
+</td>
+<td colspan="2">
+<input id="spid263" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022193">Футбол. Триамвос Атинон - Тиелла Аг Димитриу</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v63" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t64">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040135"></a>
+</td>
+<td colspan="2">
+<input id="spid264" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040135">Футбол. Дунав Русе (до 19) - Черно Море Варна (до 19)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v64" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t65">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002224"></a>
+</td>
+<td colspan="2">
+<input id="spid265" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27002224">Футбол. Паганезе - Виртус Франчавилла</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v65" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t66">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022192"></a>
+</td>
+<td colspan="2">
+<input id="spid266" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022192">Футбол. Атинаида - Панеритраикос</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v66" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t67">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029280"></a>
+</td>
+<td colspan="2">
+<input id="spid267" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029280">Футбол. Манавгат Эвренсекиспор - Коджаелиспор</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v67" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t68">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040141"></a>
+</td>
+<td colspan="2">
+<input id="spid268" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040141">Футбол. ПФК Нефтохимик Бургас (до 19) - Берое (до 19)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v68" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t69">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040139"></a>
+</td>
+<td colspan="2">
+<input id="spid269" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040139">Футбол. Локомотив Пловдив (до 19) - Ботев Вратца (до 19)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v69" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t70">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022190"></a>
+</td>
+<td colspan="2">
+<input id="spid270" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022190">Футбол. Харавгиакос - Паниониос Кесарианис</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:30:00 05.10.2016</i></font>
+<input id="v70" type="hidden" value="1475670600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t71">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024065"></a>
+</td>
+<td colspan="2">
+<input id="spid271" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024065">Теннис. Шарди Дж. - Рублев А.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 18:40:00 05.10.2016</i></font>
+<input id="v71" type="hidden" value="1475671200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t72">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040050"></a>
+</td>
+<td colspan="2">
+<input id="spid272" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040050">Футбол. Клуб Альмиранте Браун (рез) - КА Экскурсионистас (рез)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v72" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t73">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029292"></a>
+</td>
+<td colspan="2">
+<input id="spid273" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029292">Футбол. Аль-Шахел - Хирафие Халаб</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v73" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t74">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021993"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2306' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27021993'>Гандбол. Динамо Бухарест - Сучава</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 05.10.2016</i></font><input type=hidden value='1475672400' id='v306'><hr class=hr1></td></tr>
-<tr id='t307'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021994"></a>
+<td colspan="2">
+<input id="spid274" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021993">Гандбол. Динамо Бухарест - Сучава</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v74" type="hidden" value="1475672400">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2307' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27021994'>Гандбол. Сату Маре - Поли Тимишоара</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 05.10.2016</i></font><input type=hidden value='1475672400' id='v307'><hr class=hr1></td></tr>
-<tr id='t308'>
+</tr>
+<tr id="t75">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021847"></a>
+</td>
+<td colspan="2">
+<input id="spid275" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021847">Футбол. Тимирязевец - КАИТ-Спорт</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v75" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t76">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020226"></a>
+</td>
+<td colspan="2">
+<input id="spid276" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020226">Теннис. Квитова П. - Мугуруса Бланко Г.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v76" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t77">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27040040"></a>
+</td>
+<td colspan="2">
+<input id="spid277" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27040040">Футбол. Аргентинос Хуниорс (резерв) - Алмагро (рез)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v77" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t78">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029277"></a>
+</td>
+<td colspan="2">
+<input id="spid278" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029277">Футбол. Баник Горна Нитра - Нове Замки</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v78" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t79">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018472"></a>
+</td>
+<td colspan="2">
+<input id="spid279" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27018472">Теннис. Арендс С./Колхоф У. - Коппеянс К./Дарси С.<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v79" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t80">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024605"></a>
+</td>
+<td colspan="2">
+<input id="spid280" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024605">Баскетбол. Олимпиакос - Колоссос</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v80" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t81">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022716"></a>
+</td>
+<td colspan="2">
+<input id="spid281" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022716">Футбол. Таджикистан - Палестина</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v81" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t82">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029275"></a>
+</td>
+<td colspan="2">
+<input id="spid282" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029275">Футбол. Летний дождик - Троицк</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v82" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t83">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024105"></a>
+</td>
+<td colspan="2">
+<input id="spid283" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024105">Футбол. СКМ Липтовски Храдок - Локомотив Кошице</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v83" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t84">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022564"></a>
+</td>
+<td colspan="2">
+<input id="spid284" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022564">Футбол. Хувентуд де Лас Пьедрас (рез) - Бостон Ривер (рез)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v84" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t85">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022317"></a>
+</td>
+<td colspan="2">
+<input id="spid285" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022317">Футбол. МСК Зермаль Велки Медер - Сурани</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v85" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t86">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022316"></a>
+</td>
+<td colspan="2">
+<input id="spid286" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022316">Футбол. ФК Зарково - Телеоптик</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v86" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t87">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022682"></a>
+</td>
+<td colspan="2">
+<input id="spid287" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022682">Футбол. Дунаканьяр Вац - Вашаш</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v87" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t88">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021953"></a>
+</td>
+<td colspan="2">
+<input id="spid288" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021953">Футбол. Чакарита Хуниорс - КA Акасусо</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v88" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t89">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022301"></a>
+</td>
+<td colspan="2">
+<input id="spid289" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022301">Футбол. Оркан Раба - Лубан Маниовы</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v89" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t90">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022337"></a>
+</td>
+<td colspan="2">
+<input id="spid290" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022337">Футбол. Аль Талиа - Аль Ватбах</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v90" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t91">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022563"></a>
+</td>
+<td colspan="2">
+<input id="spid291" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022563">Футбол. Стара Синява - Агробизнес Волочиск</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 05.10.2016</i></font>
+<input id="v91" type="hidden" value="1475672400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t92">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036461"></a>
+</td>
+<td colspan="2">
+<input id="spid292" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036461">Настольный теннис. Бойко С. - Рябухин А.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:10:00 05.10.2016</i></font>
+<input id="v92" type="hidden" value="1475673000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t93">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019748"></a>
+</td>
+<td colspan="2">
+<input id="spid293" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27019748">Футбол. Аль Иттихад Калба - Дабба Аль-Фуджайра</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:10:00 05.10.2016</i></font>
+<input id="v93" type="hidden" value="1475673000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t94">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019749"></a>
+</td>
+<td colspan="2">
+<input id="spid294" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27019749">Футбол. Аль Ахли Дубай - Банияс</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:15:00 05.10.2016</i></font>
+<input id="v94" type="hidden" value="1475673300">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t95">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021959"></a>
+</td>
+<td colspan="2">
+<input id="spid295" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021959">Футбол. Бийело Брдо - Вуковар 91</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v95" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t96">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029166"></a>
+</td>
+<td colspan="2">
+<input id="spid296" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029166">Баскетбол. Урал - Купол-Родники</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v96" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t97">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022302"></a>
+</td>
+<td colspan="2">
+<input id="spid297" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022302">Футбол. Козлова Гора - Гварек Тарновске-Гуры</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v97" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t98">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022303"></a>
+</td>
+<td colspan="2">
+<input id="spid298" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022303">Футбол. ЛКС Зарки - МКС Тшебиня-Серша</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v98" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t99">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024107"></a>
+</td>
+<td colspan="2">
+<input id="spid299" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024107">Футбол. ТЖ Друзстевник Велки Людинке - Спишска Нова Вес</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v99" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t100">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999378"></a>
+</td>
+<td colspan="2">
+<input id="spid2100" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26999378">Футбол. Керала Бластерс - Атлетико де Калькутта</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v100" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t101">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024067"></a>
+</td>
+<td colspan="2">
+<input id="spid2101" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024067">Футбол. Медык Конин (жен) - Брешиа (жен)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v101" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t102">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970788"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2308' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26970788'>Хоккей. Барыс - Ак Барс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 05.10.2016</i></font><input type=hidden value='1475674200' id='v308'><hr class=hr1></td></tr>
-<tr id='t309'>
+<td colspan="2">
+<input id="spid2102" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26970788">Хоккей. Барыс - Ак Барс</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v102" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t103">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029296"></a>
+</td>
+<td colspan="2">
+<input id="spid2103" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029296">Теннис. Бублик А. - Фриберг К</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v103" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t104">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029297"></a>
+</td>
+<td colspan="2">
+<input id="spid2104" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029297">Теннис. Илкел К. - Борг С.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v104" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t105">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025565"></a>
+</td>
+<td colspan="2">
+<input id="spid2105" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27025565">Теннис. Тситсипас С. - Рамирес-Идальго Р.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v105" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t106">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029171"></a>
+</td>
+<td colspan="2">
+<input id="spid2106" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029171">Футбол. Пирин Бл (до 19) - ЦСКА София (до 19)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v106" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t107">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024106"></a>
+</td>
+<td colspan="2">
+<input id="spid2107" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024106">Футбол. Слован Дусло Сала - Спартак Миява</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 05.10.2016</i></font>
+<input id="v107" type="hidden" value="1475674200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t108">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27039042"></a>
+</td>
+<td colspan="2">
+<input id="spid2108" type="hidden" value="15"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27039042">Волейбол. Аль Вакра - Аль Гарафа</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:45:00 05.10.2016</i></font>
+<input id="v108" type="hidden" value="1475675100">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t109">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036443"></a>
+</td>
+<td colspan="2">
+<input id="spid2109" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036443">Теннис. Бушкэ К. - Рибейро М.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:45:00 05.10.2016</i></font>
+<input id="v109" type="hidden" value="1475675100">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t110">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036462"></a>
+</td>
+<td colspan="2">
+<input id="spid2110" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036462">Настольный теннис. Макаренко Р. - Масько Е.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:50:00 05.10.2016</i></font>
+<input id="v110" type="hidden" value="1475675400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t111">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27030303"></a>
+</td>
+<td colspan="2">
+<input id="spid2111" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27030303">Теннис. Фариа Ф. - Хута Галунг Дж.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:55:00 05.10.2016</i></font>
+<input id="v111" type="hidden" value="1475675700">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t112">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024841"></a>
+</td>
+<td colspan="2">
+<input id="spid2112" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024841">Хоккей. Ирбис - Стальные лисы</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v112" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t113">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022306"></a>
+</td>
+<td colspan="2">
+<input id="spid2113" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022306">Футбол. Зиелони Зарки - Полония Пораж</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v113" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t114">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27039388"></a>
+</td>
+<td colspan="2">
+<input id="spid2114" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27039388">Баскетбол. Кассовия Кошице - Попрад</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v114" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t115">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022318"></a>
+</td>
+<td colspan="2">
+<input id="spid2115" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022318">Футбол. НК Добровице - СД Видэм</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v115" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t116">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006585"></a>
+</td>
+<td colspan="2">
+<input id="spid2116" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006585">Баскетбол. Астана - УНИКС<div style="float:left;margin-right:10px;"><img src="/img/video.png"/></div></a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v116" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t117">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020554"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2309' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020554'>Баскетбол. Монтана 2003 - Атлет Целе</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 05.10.2016</i></font><input type=hidden value='1475676000' id='v309'><hr class=hr1></td></tr>
-<tr id='t310'>
+<td colspan="2">
+<input id="spid2117" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020554">Баскетбол. Монтана 2003 - Атлет Целе</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v117" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t118">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021994"></a>
+</td>
+<td colspan="2">
+<input id="spid2118" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021994">Гандбол. Сату Маре - Поли Тимишоара</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v118" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t119">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021949"></a>
+</td>
+<td colspan="2">
+<input id="spid2119" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021949">Футбол. Силламае Калев (до 19) - ФК Тарту (до 19)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v119" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t120">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021950"></a>
+</td>
+<td colspan="2">
+<input id="spid2120" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021950">Футбол. ФК Калев Таллинн (до 19) - ФК Флора Таллинн (до 19)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v120" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t121">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002479"></a>
+</td>
+<td colspan="2">
+<input id="spid2121" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27002479">Футбол. Тахов - Злин</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v121" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t122">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029165"></a>
+</td>
+<td colspan="2">
+<input id="spid2122" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029165">Баскетбол. Сухуми - Энерги Инвест Рустави</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v122" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t123">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024068"></a>
+</td>
+<td colspan="2">
+<input id="spid2123" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024068">Футбол. Сараево (жен) - Россиянка (жен)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v123" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t124">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022304"></a>
+</td>
+<td colspan="2">
+<input id="spid2124" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022304">Футбол. Пяст Пржиров - МКС Мижков</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v124" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t125">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27037929"></a>
+</td>
+<td colspan="2">
+<input id="spid2125" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27037929">Теннис. Балди Ф./Брицци А. - Котроне Д./Рыбаков А.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v125" type="hidden" value="1475676000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t126">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970794"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2310' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26970794'>Хоккей. Автомобилист - Лада</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 05.10.2016</i></font><input type=hidden value='1475676000' id='v310'><hr class=hr1></td></tr>
-<tr id='t311'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020897"></a>
+<td colspan="2">
+<input id="spid2126" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26970794">Хоккей. Автомобилист - Лада</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 05.10.2016</i></font>
+<input id="v126" type="hidden" value="1475676000">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2311' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020897'>Баскетбол. Йежица - Домжале</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 05.10.2016</i></font><input type=hidden value='1475679600' id='v311'><hr class=hr1></td></tr>
-<tr id='t312'>
+</tr>
+<tr id="t127">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27037931"></a>
+</td>
+<td colspan="2">
+<input id="spid2127" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27037931">Теннис. Бенсоуссан С./Меуффелс А. - Джаколоне О./Маккари Ф.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:05:00 05.10.2016</i></font>
+<input id="v127" type="hidden" value="1475676300">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t128">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036463"></a>
+</td>
+<td colspan="2">
+<input id="spid2128" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036463">Настольный теннис. Ковалев А. - Бойко С.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:30:00 05.10.2016</i></font>
+<input id="v128" type="hidden" value="1475677800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t129">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024842"></a>
+</td>
+<td colspan="2">
+<input id="spid2129" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024842">Хоккей. Ладья - Сарматы Оренбуржья</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:30:00 05.10.2016</i></font>
+<input id="v129" type="hidden" value="1475677800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t130">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022717"></a>
+</td>
+<td colspan="2">
+<input id="spid2130" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022717">Футбол. Бен Гердан - УС Татуин</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:30:00 05.10.2016</i></font>
+<input id="v130" type="hidden" value="1475677800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t131">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26989734"></a>
+</td>
+<td colspan="2">
+<input id="spid2131" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26989734">Футбол. Спортинг Ковильян - Академика</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:30:00 05.10.2016</i></font>
+<input id="v131" type="hidden" value="1475677800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t132">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021848"></a>
+</td>
+<td colspan="2">
+<input id="spid2132" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021848">Футбол. Строгино-М - Чертаново-М</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:30:00 05.10.2016</i></font>
+<input id="v132" type="hidden" value="1475677800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t133">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009324"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2312' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27009324'>Баскетбол. Пено Жвайгждес - Жальгирис</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 05.10.2016</i></font><input type=hidden value='1475679600' id='v312'><hr class=hr1></td></tr>
-<tr id='t313'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020895"></a>
+<td colspan="2">
+<input id="spid2133" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27009324">Баскетбол. Пено Жвайгждес - Жальгирис</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v133" type="hidden" value="1475679600">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2313' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020895'>Баскетбол. Олимпик Байа Маре - Тимишоара</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 05.10.2016</i></font><input type=hidden value='1475679600' id='v313'><hr class=hr1></td></tr>
-<tr id='t314'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021499"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2314' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27021499'>Гандбол. ГК Гомель - Березина Бобруйск</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 05.10.2016</i></font><input type=hidden value='1475679600' id='v314'><hr class=hr1></td></tr>
-<tr id='t315'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020898"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2315' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020898'>Баскетбол. Конжице - Илирия</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 05.10.2016</i></font><input type=hidden value='1475679600' id='v315'><hr class=hr1></td></tr>
-<tr id='t316'>
+</tr>
+<tr id="t134">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021609"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2316' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27021609'>Футзал. Алмаз АЛРОСА - Элекс Фаворит</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 05.10.2016</i></font><input type=hidden value='1475679600' id='v316'><hr class=hr1></td></tr>
-<tr id='t317'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021996"></a>
+<td colspan="2">
+<input id="spid2134" type="hidden" value="21"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021609">Футзал. Алмаз АЛРОСА - Элекс Фаворит</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v134" type="hidden" value="1475679600">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2317' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27021996'>Гандбол. Фоксани - Адрьян Петря</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v317'><hr class=hr1></td></tr>
-<tr id='t318'>
+</tr>
+<tr id="t135">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009325"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27038585"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2318' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27009325'>Баскетбол. Лиеткабелис - Нептунас</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v318'><hr class=hr1></td></tr>
-<tr id='t319'>
+<td colspan="2">
+<input id="spid2135" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27038585">Хоккей. Спишска Нова Вес - Скалица</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v135" type="hidden" value="1475679600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t136">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009326"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27022565"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2319' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27009326'>Баскетбол. Витаутас - Литувос Ритас</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v319'><hr class=hr1></td></tr>
-<tr id='t320'>
+<td colspan="2">
+<input id="spid2136" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27022565">Футбол. Расинг Клуб Монтевидео (рез) - Данубио (рез)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v136" type="hidden" value="1475679600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t137">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970795"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27038584"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2320' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26970795'>Хоккей. Йокерит - Динамо Москва</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v320'><hr class=hr1></td></tr>
-<tr id='t321'>
+<td colspan="2">
+<input id="spid2137" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27038584">Хоккей. Трнава - Детва</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v137" type="hidden" value="1475679600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t138">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020892"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021499"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2321' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020892'>Баскетбол. Гафана - Вале Де Камбра</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v321'><hr class=hr1></td></tr>
-<tr id='t322'>
+<td colspan="2">
+<input id="spid2138" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021499">Гандбол. ГК Гомель - Березина Бобруйск</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v138" type="hidden" value="1475679600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t139">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006814"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27025537"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2322' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27006814'>Хоккей. Нефтяник Алм - Южный Урал</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v322'><hr class=hr1></td></tr>
-<tr id='t323'>
+<td colspan="2">
+<input id="spid2139" type="hidden" value="15"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27025537">Волейбол. Азеррейл - Бурса Б.Шехир Блд</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v139" type="hidden" value="1475679600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t140">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981370"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020898"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2323' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981370'>Хоккей. Эссет - Ваасан Спорт</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v323'><hr class=hr1></td></tr>
-<tr id='t324'>
+<td colspan="2">
+<input id="spid2140" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020898">Баскетбол. Конжице - Илирия</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v140" type="hidden" value="1475679600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t141">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018054"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020897"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2324' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27018054'>Хоккей. Мост - Кадань</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v324'><hr class=hr1></td></tr>
-<tr id='t325'>
+<td colspan="2">
+<input id="spid2141" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020897">Баскетбол. Йежица - Домжале</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v141" type="hidden" value="1475679600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t142">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021997"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020895"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2325' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27021997'>Гандбол. Васлуй - Доброгеа</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v325'><hr class=hr1></td></tr>
-<tr id='t326'>
+<td colspan="2">
+<input id="spid2142" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020895">Баскетбол. Олимпик Байа Маре - Тимишоара</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v142" type="hidden" value="1475679600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t143">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018055"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27033156"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2326' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27018055'>Хоккей. Йиглава - Слован Усти-над-Лабем</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v326'><hr class=hr1></td></tr>
-<tr id='t327'>
+<td colspan="2">
+<input id="spid2143" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27033156">Теннис. Ороско Ранхель Э. - Галан Риверос Д.Э.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 05.10.2016</i></font>
+<input id="v143" type="hidden" value="1475679600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t144">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036464"></a>
+</td>
+<td colspan="2">
+<input id="spid2144" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036464">Настольный теннис. Вакуленко Д. - Масько Е.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:10:00 05.10.2016</i></font>
+<input id="v144" type="hidden" value="1475680200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t145">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036460"></a>
+</td>
+<td colspan="2">
+<input id="spid2145" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036460">Теннис. Гаспар К. - Хофманн Л.М.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:15:00 05.10.2016</i></font>
+<input id="v145" type="hidden" value="1475680500">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t146">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27031208"></a>
+</td>
+<td colspan="2">
+<input id="spid2146" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27031208">Теннис. Гранольерс-Пуйоль Х. - Гомес-Эррера К.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:25:00 05.10.2016</i></font>
+<input id="v146" type="hidden" value="1475681100">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t147">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020891"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2327' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020891'>Баскетбол. Алгес э Дафундо - Келус</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v327'><hr class=hr1></td></tr>
-<tr id='t328'>
+<td colspan="2">
+<input id="spid2147" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020891">Баскетбол. Алгес э Дафундо - Келус</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v147" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t148">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021996"></a>
+</td>
+<td colspan="2">
+<input id="spid2148" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021996">Гандбол. Фоксани - Адрьян Петря</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v148" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t149">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024729"></a>
+</td>
+<td colspan="2">
+<input id="spid2149" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024729">Баскетбол. Екабпилс - Лиепаяс Лаувас</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v149" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t150">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981370"></a>
+</td>
+<td colspan="2">
+<input id="spid2150" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981370">Хоккей. Эссет - Ваасан Спорт</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v150" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t151">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024069"></a>
+</td>
+<td colspan="2">
+<input id="spid2151" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024069">Футбол. Брейдаблик Копавогур (жен) - Русенгорд (жен)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v151" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t152">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988623"></a>
+</td>
+<td colspan="2">
+<input id="spid2152" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26988623">Футбол. Исландия (до 21) - Шотландия (до 21)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v152" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t153">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009325"></a>
+</td>
+<td colspan="2">
+<input id="spid2153" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27009325">Баскетбол. Лиеткабелис - Нептунас</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v153" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t154">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981372"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2328' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981372'>Хоккей. ХПК - Юкурит</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 05.10.2016</i></font><input type=hidden value='1475681400' id='v328'><hr class=hr1></td></tr>
-<tr id='t329'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006817"></a>
+<td colspan="2">
+<input id="spid2154" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981372">Хоккей. ХПК - Юкурит</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v154" type="hidden" value="1475681400">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2329' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27006817'>Хоккей. СКА-Нева - Ижсталь</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v329'><hr class=hr1></td></tr>
-<tr id='t330'>
+</tr>
+<tr id="t155">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021982"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27031535"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2330' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27021982'>Гандбол. Бенфика - Аванка</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v330'><hr class=hr1></td></tr>
-<tr id='t331'>
+<td colspan="2">
+<input id="spid2155" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27031535">Хоккей. ХК Рига - МХК Крылья Советов</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v155" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t156">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020555"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018054"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2331' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020555'>Баскетбол. ЗКК Кралджево - Триглав</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v331'><hr class=hr1></td></tr>
-<tr id='t332'>
+<td colspan="2">
+<input id="spid2156" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27018054">Хоккей. Мост - Кадань</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v156" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t157">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006818"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006814"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2332' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27006818'>Хоккей. Барс - Челмет</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v332'><hr class=hr1></td></tr>
-<tr id='t333'>
+<td colspan="2">
+<input id="spid2157" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006814">Хоккей. Нефтяник Алм - Южный Урал</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v157" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t158">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020556"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021997"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2333' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020556'>Баскетбол. Будучност Подгорица - Црвена Звезда</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v333'><hr class=hr1></td></tr>
-<tr id='t334'>
+<td colspan="2">
+<input id="spid2158" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021997">Гандбол. Васлуй - Доброгеа</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v158" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t159">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021502"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26970795"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2334' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27021502'>Гандбол. Глоговец - Татран Прешов</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v334'><hr class=hr1></td></tr>
-<tr id='t335'>
+<td colspan="2">
+<input id="spid2159" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26970795">Хоккей. Йокерит - Динамо Москва</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v159" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t160">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26953958"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009326"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2335' value='15'><b><a href='index.php?page=line&addons=1&action=2&mid=26953958'>Волейбол. Белхатов - Бедзин</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v335'><hr class=hr1></td></tr>
-<tr id='t336'>
+<td colspan="2">
+<input id="spid2160" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27009326">Баскетбол. Витаутас - Литувос Ритас</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v160" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t161">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021618"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024597"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2336' value='21'><b><a href='index.php?page=line&addons=1&action=2&mid=27021618'>Футзал. Нефтехимик Бургас - Спартак Варна</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v336'><hr class=hr1></td></tr>
-<tr id='t337'>
+<td colspan="2">
+<input id="spid2161" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024597">Баскетбол. Острава - Простеёв</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v161" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t162">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009327"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020892"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2337' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27009327'>Баскетбол. Ювентус Утена - Шяуляй</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v337'><hr class=hr1></td></tr>
-<tr id='t338'>
+<td colspan="2">
+<input id="spid2162" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020892">Баскетбол. Гафана - Вале Де Камбра</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v162" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t163">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003771"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024606"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2338' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003771'>Гандбол. Беккелагет - Хаслум</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v338'><hr class=hr1></td></tr>
-<tr id='t339'>
+<td colspan="2">
+<input id="spid2163" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024606">Баскетбол. Панатинаикос - ПАОК</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v163" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t164">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006468"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27028913"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2339' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27006468'>Гандбол. Горенье - РК Извидац Любуски</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v339'><hr class=hr1></td></tr>
-<tr id='t340'>
+<td colspan="2">
+<input id="spid2164" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27028913">Баскетбол. ТТУ - Аудентезе/Ноортекоондис</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v164" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t165">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006819"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27018055"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2340' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27006819'>Хоккей. Звезда Чехов - Торос</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v340'><hr class=hr1></td></tr>
-<tr id='t341'>
+<td colspan="2">
+<input id="spid2165" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27018055">Хоккей. Йиглава - Слован Усти-над-Лабем</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 05.10.2016</i></font>
+<input id="v165" type="hidden" value="1475681400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t166">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27002330"></a>
+</td>
+<td colspan="2">
+<input id="spid2166" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27002330">Теннис. Ноул Ю./Мельцер Ю. - Бетов С./Ивашка И.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:40:00 05.10.2016</i></font>
+<input id="v166" type="hidden" value="1475682000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t167">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036467"></a>
+</td>
+<td colspan="2">
+<input id="spid2167" type="hidden" value="14"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036467">Настольный теннис. Рябухин А. - Макаренко Р.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:50:00 05.10.2016</i></font>
+<input id="v167" type="hidden" value="1475682600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t168">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006820"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2341' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27006820'>Хоккей. Рязань - Молот-Прикамье</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 05.10.2016</i></font><input type=hidden value='1475683200' id='v341'><hr class=hr1></td></tr>
-<tr id='t342'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003737"></a>
+<td colspan="2">
+<input id="spid2168" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006820">Хоккей. Рязань - Молот-Прикамье</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v168" type="hidden" value="1475683200">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2342' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003737'>Гандбол. Фленсбург-Хандэвитт - Барселона</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 05.10.2016</i></font><input type=hidden value='1475685000' id='v342'><hr class=hr1></td></tr>
-<tr id='t343'>
+</tr>
+<tr id="t169">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26953958"></a>
+</td>
+<td colspan="2">
+<input id="spid2169" type="hidden" value="15"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26953958">Волейбол. Белхатов - Бедзин</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v169" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t170">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019750"></a>
+</td>
+<td colspan="2">
+<input id="spid2170" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27019750">Футбол. Аль Джазира - Аль Васл Дубай</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v170" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t171">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006817"></a>
+</td>
+<td colspan="2">
+<input id="spid2171" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006817">Хоккей. СКА-Нева - Ижсталь</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v171" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t172">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006818"></a>
+</td>
+<td colspan="2">
+<input id="spid2172" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006818">Хоккей. Барс - Челмет</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v172" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t173">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27023632"></a>
+</td>
+<td colspan="2">
+<input id="spid2173" type="hidden" value="15"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27023632">Волейбол. Преболд - СИ Градец II</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v173" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t174">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024730"></a>
+</td>
+<td colspan="2">
+<input id="spid2174" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024730">Баскетбол. Юрмала - Огре</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v174" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t175">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020555"></a>
+</td>
+<td colspan="2">
+<input id="spid2175" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020555">Баскетбол. ЗКК Кралджево - Триглав</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v175" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t176">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020556"></a>
+</td>
+<td colspan="2">
+<input id="spid2176" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020556">Баскетбол. Будучност Подгорица - Црвена Звезда</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v176" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t177">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021502"></a>
+</td>
+<td colspan="2">
+<input id="spid2177" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021502">Гандбол. Глоговец - Татран Прешов</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v177" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t178">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024598"></a>
+</td>
+<td colspan="2">
+<input id="spid2178" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024598">Баскетбол. УСК Прага - Дечин</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v178" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t179">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020783"></a>
+</td>
+<td colspan="2">
+<input id="spid2179" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020783">Баскетбол. Гдыня - Фрибург</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v179" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t180">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006819"></a>
+</td>
+<td colspan="2">
+<input id="spid2180" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006819">Хоккей. Звезда Чехов - Торос</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v180" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t181">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27026097"></a>
+</td>
+<td colspan="2">
+<input id="spid2181" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27026097">Футбол. Аполлон (жен) - Славия Прага (жен)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v181" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t182">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024071"></a>
+</td>
+<td colspan="2">
+<input id="spid2182" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024071">Футбол. Авальдснес (жен) - Лион (жен)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v182" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t183">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024070"></a>
+</td>
+<td colspan="2">
+<input id="spid2183" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024070">Футбол. Штурм Грац/Штаттег (жен) - Цюрих (жен)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v183" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t184">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024599"></a>
+</td>
+<td colspan="2">
+<input id="spid2184" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024599">Баскетбол. Усти над Лабем - Колин</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v184" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t185">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024731"></a>
+</td>
+<td colspan="2">
+<input id="spid2185" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024731">Баскетбол. Вентспилс - Баронс</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v185" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t186">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27029289"></a>
+</td>
+<td colspan="2">
+<input id="spid2186" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27029289">Гандбол. Словения - Чехия</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v186" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t187">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003771"></a>
+</td>
+<td colspan="2">
+<input id="spid2187" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27003771">Гандбол. Беккелагет - Хаслум</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v187" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t188">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27009327"></a>
+</td>
+<td colspan="2">
+<input id="spid2188" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27009327">Баскетбол. Ювентус Утена - Шяуляй</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v188" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t189">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021618"></a>
+</td>
+<td colspan="2">
+<input id="spid2189" type="hidden" value="21"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021618">Футзал. Нефтехимик Бургас - Спартак Варна</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v189" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t190">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27032629"></a>
+</td>
+<td colspan="2">
+<input id="spid2190" type="hidden" value="7"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27032629">Снукер. О'Салливан Р. - Аллен М.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v190" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t191">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006468"></a>
+</td>
+<td colspan="2">
+<input id="spid2191" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006468">Гандбол. Горенье - РК Извидац Любуски</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v191" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t192">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021982"></a>
+</td>
+<td colspan="2">
+<input id="spid2192" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021982">Гандбол. Бенфика - Аванка</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 05.10.2016</i></font>
+<input id="v192" type="hidden" value="1475683200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t193">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26985204"></a>
+</td>
+<td colspan="2">
+<input id="spid2193" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26985204">Теннис. Медведев Д. - Геенс К.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 05.10.2016</i></font>
+<input id="v193" type="hidden" value="1475685000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t194">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020893"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2343' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020893'>Баскетбол. Гайя - КДЖР</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 05.10.2016</i></font><input type=hidden value='1475685000' id='v343'><hr class=hr1></td></tr>
-<tr id='t344'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019183"></a>
+<td colspan="2">
+<input id="spid2194" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020893">Баскетбол. Гайя - КДЖР</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 05.10.2016</i></font>
+<input id="v194" type="hidden" value="1475685000">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2344' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27019183'>Баскетбол. Хорсхольм - Рандерс Симбрия</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 05.10.2016</i></font><input type=hidden value='1475685000' id='v344'><hr class=hr1></td></tr>
-<tr id='t345'>
+</tr>
+<tr id="t195">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003737"></a>
+</td>
+<td colspan="2">
+<input id="spid2195" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27003737">Гандбол. Фленсбург-Хандэвитт - Барселона</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 05.10.2016</i></font>
+<input id="v195" type="hidden" value="1475685000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t196">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024604"></a>
+</td>
+<td colspan="2">
+<input id="spid2196" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024604">Баскетбол. Градец Кралове - Острава</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 05.10.2016</i></font>
+<input id="v196" type="hidden" value="1475685000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t197">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981408"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2345' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=26981408'>Гандбол. Бьеррингбро-Силькеборг - Ольборг</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 05.10.2016</i></font><input type=hidden value='1475685000' id='v345'><hr class=hr1></td></tr>
-<tr id='t346'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26986920"></a>
+<td colspan="2">
+<input id="spid2197" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981408">Гандбол. Бьеррингбро-Силькеборг - Ольборг</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 05.10.2016</i></font>
+<input id="v197" type="hidden" value="1475685000">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2346' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=26986920'>Гандбол. Кристианстад - ИФК Йстад</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 05.10.2016</i></font><input type=hidden value='1475686800' id='v346'><hr class=hr1></td></tr>
-<tr id='t347'>
+</tr>
+<tr id="t198">
 <td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26992946"></a>
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27019183"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2347' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=26992946'>Гандбол. Гуммерсбах - Рейн-Некар</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 05.10.2016</i></font><input type=hidden value='1475686800' id='v347'><hr class=hr1></td></tr>
-<tr id='t348'>
+<td colspan="2">
+<input id="spid2198" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27019183">Баскетбол. Хорсхольм - Рандерс Симбрия</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 05.10.2016</i></font>
+<input id="v198" type="hidden" value="1475685000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t199">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003736"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2348' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003736'>Гандбол. Фюксе Берлин - ТХВ Киль</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 05.10.2016</i></font><input type=hidden value='1475686800' id='v348'><hr class=hr1></td></tr>
-<tr id='t349'>
+<td colspan="2">
+<input id="spid2199" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27003736">Гандбол. Фюксе Берлин - ТХВ Киль</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 05.10.2016</i></font>
+<input id="v199" type="hidden" value="1475686800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t200">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27028903"></a>
+</td>
+<td colspan="2">
+<input id="spid2200" type="hidden" value="7"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27028903">Снукер. Робертсон Н. - Кларк Р.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 05.10.2016</i></font>
+<input id="v200" type="hidden" value="1475686800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t201">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26992946"></a>
+</td>
+<td colspan="2">
+<input id="spid2201" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26992946">Гандбол. Гуммерсбах - Рейн-Некар</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 05.10.2016</i></font>
+<input id="v201" type="hidden" value="1475686800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t202">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26986920"></a>
+</td>
+<td colspan="2">
+<input id="spid2202" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26986920">Гандбол. Кристианстад - ИФК Йстад</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 05.10.2016</i></font>
+<input id="v202" type="hidden" value="1475686800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t203">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26992947"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2349' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=26992947'>Гандбол. Ветцлар - Кобург 2000</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 05.10.2016</i></font><input type=hidden value='1475686800' id='v349'><hr class=hr1></td></tr>
-<tr id='t350'>
+<td colspan="2">
+<input id="spid2203" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26992947">Гандбол. Ветцлар - Кобург 2000</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 05.10.2016</i></font>
+<input id="v203" type="hidden" value="1475686800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t204">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021014"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2350' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27021014'>Баскетбол. Тельге - Удоминейт Умео</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 05.10.2016</i></font><input type=hidden value='1475686800' id='v350'><hr class=hr1></td></tr>
-<tr id='t351'>
+<td colspan="2">
+<input id="spid2204" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021014">Баскетбол. Тельге - Удоминейт Умео</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 05.10.2016</i></font>
+<input id="v204" type="hidden" value="1475686800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t205">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024072"></a>
+</td>
+<td colspan="2">
+<input id="spid2205" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024072">Футбол. Твенте (жен) - Спарта Прага (жен)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 05.10.2016</i></font>
+<input id="v205" type="hidden" value="1475686800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t206">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024600"></a>
+</td>
+<td colspan="2">
+<input id="spid2206" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024600">Баскетбол. Брно - Свитави</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 05.10.2016</i></font>
+<input id="v206" type="hidden" value="1475686800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t207">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27036441"></a>
+</td>
+<td colspan="2">
+<input id="spid2207" type="hidden" value="21"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27036441">Футзал. Славия - Спарта</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:05:00 05.10.2016</i></font>
+<input id="v207" type="hidden" value="1475687100">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t208">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021495"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2351' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27021495'>Баскетбол. Маккаби Ирони Раанана - Маккаби Кирьят Гат</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:20:00 05.10.2016</i></font><input type=hidden value='1475688000' id='v351'><hr class=hr1></td></tr>
-<tr id='t352'>
+<td colspan="2">
+<input id="spid2208" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021495">Баскетбол. Маккаби Ирони Раанана - Маккаби Кирьят Гат</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:20:00 05.10.2016</i></font>
+<input id="v208" type="hidden" value="1475688000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t209">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020894"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2352' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27020894'>Баскетбол. Барселуш - Салесиано</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 05.10.2016</i></font><input type=hidden value='1475688600' id='v352'><hr class=hr1></td></tr>
-<tr id='t353'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021496"></a>
+<td colspan="2">
+<input id="spid2209" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020894">Баскетбол. Барселуш - Салесиано</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:30:00 05.10.2016</i></font>
+<input id="v209" type="hidden" value="1475688600">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2353' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27021496'>Баскетбол. Хапоэль Мигдаль-ха-Эмек - Хапоэль И</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:00:00 06.10.2016</i></font><input type=hidden value='1475690400' id='v353'><hr class=hr1></td></tr>
-<tr id='t354'>
+</tr>
+<tr id="t210">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024073"></a>
+</td>
+<td colspan="2">
+<input id="spid2210" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024073">Футбол. Атлетик Б (жен) - Фортуна Йёрринг (жен)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:30:00 05.10.2016</i></font>
+<input id="v210" type="hidden" value="1475688600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t211">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26988628"></a>
+</td>
+<td colspan="2">
+<input id="spid2211" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26988628">Футбол. Сан-Марино (до 21) - Испания (до 21)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:30:00 05.10.2016</i></font>
+<input id="v211" type="hidden" value="1475688600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t212">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024607"></a>
+</td>
+<td colspan="2">
+<input id="spid2212" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024607">Баскетбол. Арис - ГС Кимис</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:30:00 05.10.2016</i></font>
+<input id="v212" type="hidden" value="1475688600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t213">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006587"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2354' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27006587'>Баскетбол. Карпош Соколи - Игокеа</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:00:00 06.10.2016</i></font><input type=hidden value='1475690400' id='v354'><hr class=hr1></td></tr>
-<tr id='t355'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993295"></a>
+<td colspan="2">
+<input id="spid2213" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006587">Баскетбол. Карпош Соколи - Игокеа</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:00:00 06.10.2016</i></font>
+<input id="v213" type="hidden" value="1475690400">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2355' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993295'>Хоккей. Пустерталь - Риттен Спорт</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 06.10.2016</i></font><input type=hidden value='1475692200' id='v355'><hr class=hr1></td></tr>
-<tr id='t356'>
+</tr>
+<tr id="t214">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021496"></a>
+</td>
+<td colspan="2">
+<input id="spid2214" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021496">Баскетбол. Хапоэль Мигдаль-ха-Эмек - Хапоэль И</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:00:00 06.10.2016</i></font>
+<input id="v214" type="hidden" value="1475690400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t215">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27024074"></a>
+</td>
+<td colspan="2">
+<input id="spid2215" type="hidden" value="1"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27024074">Футбол. Челси (жен) - Вольфсбург (жен)</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:00:00 06.10.2016</i></font>
+<input id="v215" type="hidden" value="1475690400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t216">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26984542"></a>
+</td>
+<td colspan="2">
+<input id="spid2216" type="hidden" value="2"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26984542">Теннис. Бемельманс Р. - Албот Р.</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:30:00 06.10.2016</i></font>
+<input id="v216" type="hidden" value="1475692200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t217">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981410"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2356' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=26981410'>Гандбол. КИФ Колдинг - Скьерн</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 06.10.2016</i></font><input type=hidden value='1475692200' id='v356'><hr class=hr1></td></tr>
-<tr id='t357'>
+<td colspan="2">
+<input id="spid2217" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981410">Гандбол. КИФ Колдинг - Скьерн</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:30:00 06.10.2016</i></font>
+<input id="v217" type="hidden" value="1475692200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t218">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993295"></a>
+</td>
+<td colspan="2">
+<input id="spid2218" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993295">Хоккей. Пустерталь - Риттен Спорт</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:30:00 06.10.2016</i></font>
+<input id="v218" type="hidden" value="1475692200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t219">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003629"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2357' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003629'>Гандбол. Кретель - Селестат</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 06.10.2016</i></font><input type=hidden value='1475692200' id='v357'><hr class=hr1></td></tr>
-<tr id='t358'>
+<td colspan="2">
+<input id="spid2219" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27003629">Гандбол. Кретель - Селестат</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:30:00 06.10.2016</i></font>
+<input id="v219" type="hidden" value="1475692200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t220">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003630"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2358' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003630'>Гандбол. Шамбери - Иври</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 06.10.2016</i></font><input type=hidden value='1475693100' id='v358'><hr class=hr1></td></tr>
-<tr id='t359'>
+<td colspan="2">
+<input id="spid2220" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27003630">Гандбол. Шамбери - Иври</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:45:00 06.10.2016</i></font>
+<input id="v220" type="hidden" value="1475693100">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t221">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006457"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2359' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27006457'>Гандбол. ПСЖ - Экс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 06.10.2016</i></font><input type=hidden value='1475693100' id='v359'><hr class=hr1></td></tr>
-<tr id='t360'>
+<td colspan="2">
+<input id="spid2221" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006457">Гандбол. ПСЖ - Экс</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:45:00 06.10.2016</i></font>
+<input id="v221" type="hidden" value="1475693100">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t222">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27021980"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2360' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27021980'>Гандбол. Валюр Рейкьявик - Фрам</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 01:30:00 06.10.2016</i></font><input type=hidden value='1475695800' id='v360'><hr class=hr1></td></tr>
-<tr id='t361'>
+<td colspan="2">
+<input id="spid2222" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27021980">Гандбол. Валюр Рейкьявик - Фрам</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 01:30:00 06.10.2016</i></font>
+<input id="v222" type="hidden" value="1475695800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t223">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999061"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2361' value='28'><b><a href='index.php?page=line&addons=1&action=2&mid=26999061'>Регби-Союз. Оклэнд - Тасман</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 12:35:00 06.10.2016</i></font><input type=hidden value='1475735700' id='v361'><hr class=hr1></td></tr>
-<tr id='t362'>
+<td colspan="2">
+<input id="spid2223" type="hidden" value="28"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26999061">Регби-Союз. Оклэнд - Тасман</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 12:35:00 06.10.2016</i></font>
+<input id="v223" type="hidden" value="1475735700">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t224">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26965773"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2362' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=26965773'>Баскетбол. Брисбен - Перт</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 14:30:00 06.10.2016</i></font><input type=hidden value='1475742600' id='v362'><hr class=hr1></td></tr>
-<tr id='t363'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993412"></a>
+<td colspan="2">
+<input id="spid2224" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26965773">Баскетбол. Брисбен - Перт</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 14:30:00 06.10.2016</i></font>
+<input id="v224" type="hidden" value="1475742600">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2363' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993412'>Хоккей. Амур - Торпедо НН</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 15:30:00 06.10.2016</i></font><input type=hidden value='1475746200' id='v363'><hr class=hr1></td></tr>
-<tr id='t364'>
+</tr>
+<tr id="t225">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993413"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2364' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993413'>Хоккей. Адмирал - ХК Сочи</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 15:30:00 06.10.2016</i></font><input type=hidden value='1475746200' id='v364'><hr class=hr1></td></tr>
-<tr id='t365'>
+<td colspan="2">
+<input id="spid2225" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993413">Хоккей. Адмирал - ХК Сочи</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 15:30:00 06.10.2016</i></font>
+<input id="v225" type="hidden" value="1475746200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t226">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993412"></a>
+</td>
+<td colspan="2">
+<input id="spid2226" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993412">Хоккей. Амур - Торпедо НН</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 15:30:00 06.10.2016</i></font>
+<input id="v226" type="hidden" value="1475746200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t227">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993414"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2365' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993414'>Хоккей. Куньлунь Ред Стар - Спартак М</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 17:30:00 06.10.2016</i></font><input type=hidden value='1475753400' id='v365'><hr class=hr1></td></tr>
-<tr id='t366'>
+<td colspan="2">
+<input id="spid2227" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993414">Хоккей. Куньлунь Ред Стар - Спартак М</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 17:30:00 06.10.2016</i></font>
+<input id="v227" type="hidden" value="1475753400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t228">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993415"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2366' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993415'>Хоккей. Авангард - Сибирь</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:00:00 06.10.2016</i></font><input type=hidden value='1475758800' id='v366'><hr class=hr1></td></tr>
-<tr id='t367'>
+<td colspan="2">
+<input id="spid2228" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993415">Хоккей. Авангард - Сибирь</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:00:00 06.10.2016</i></font>
+<input id="v228" type="hidden" value="1475758800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t229">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993501"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2367' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993501'>Хоккей. Металлург Мг - Трактор</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 06.10.2016</i></font><input type=hidden value='1475762400' id='v367'><hr class=hr1></td></tr>
-<tr id='t368'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981373"></a>
+<td colspan="2">
+<input id="spid2229" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993501">Хоккей. Металлург Мг - Трактор</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 06.10.2016</i></font>
+<input id="v229" type="hidden" value="1475762400">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2368' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981373'>Хоккей. Лукко - Ку-Ку</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 06.10.2016</i></font><input type=hidden value='1475767800' id='v368'><hr class=hr1></td></tr>
-<tr id='t369'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981375"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2369' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981375'>Хоккей. СайПа - ТПС</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 06.10.2016</i></font><input type=hidden value='1475767800' id='v369'><hr class=hr1></td></tr>
-<tr id='t370'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981374"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2370' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981374'>Хоккей. Кэрпет - Калпа</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 06.10.2016</i></font><input type=hidden value='1475767800' id='v370'><hr class=hr1></td></tr>
-<tr id='t371'>
+</tr>
+<tr id="t230">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981376"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2371' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981376'>Хоккей. Ильвес - ХПК</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 06.10.2016</i></font><input type=hidden value='1475767800' id='v371'><hr class=hr1></td></tr>
-<tr id='t372'>
+<td colspan="2">
+<input id="spid2230" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981376">Хоккей. Ильвес - ХПК</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 06.10.2016</i></font>
+<input id="v230" type="hidden" value="1475767800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t231">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981374"></a>
+</td>
+<td colspan="2">
+<input id="spid2231" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981374">Хоккей. Кэрпет - Калпа</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 06.10.2016</i></font>
+<input id="v231" type="hidden" value="1475767800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t232">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981373"></a>
+</td>
+<td colspan="2">
+<input id="spid2232" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981373">Хоккей. Лукко - Ку-Ку</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 06.10.2016</i></font>
+<input id="v232" type="hidden" value="1475767800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t233">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981375"></a>
+</td>
+<td colspan="2">
+<input id="spid2233" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981375">Хоккей. СайПа - ТПС</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 06.10.2016</i></font>
+<input id="v233" type="hidden" value="1475767800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t234">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006778"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2372' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27006778'>Гандбол. Чеховские медведи - Металлург Скопье</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 06.10.2016</i></font><input type=hidden value='1475769600' id='v372'><hr class=hr1></td></tr>
-<tr id='t373'>
+<td colspan="2">
+<input id="spid2234" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006778">Гандбол. Чеховские медведи - Металлург Скопье</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 06.10.2016</i></font>
+<input id="v234" type="hidden" value="1475769600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t235">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993504"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2373' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993504'>Хоккей. СКА - ЦСКА</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 06.10.2016</i></font><input type=hidden value='1475771400' id='v373'><hr class=hr1></td></tr>
-<tr id='t374'>
+<td colspan="2">
+<input id="spid2235" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993504">Хоккей. СКА - ЦСКА</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 06.10.2016</i></font>
+<input id="v235" type="hidden" value="1475771400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t236">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993503"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2374' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993503'>Хоккей. Динамо Р - Локомотив</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 06.10.2016</i></font><input type=hidden value='1475771400' id='v374'><hr class=hr1></td></tr>
-<tr id='t375'>
+<td colspan="2">
+<input id="spid2236" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993503">Хоккей. Динамо Р - Локомотив</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 06.10.2016</i></font>
+<input id="v236" type="hidden" value="1475771400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t237">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993502"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2375' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993502'>Хоккей. Динамо-Минск - Витязь</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 06.10.2016</i></font><input type=hidden value='1475771400' id='v375'><hr class=hr1></td></tr>
-<tr id='t376'>
+<td colspan="2">
+<input id="spid2237" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993502">Хоккей. Динамо-Минск - Витязь</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 06.10.2016</i></font>
+<input id="v237" type="hidden" value="1475771400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t238">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26972462"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2376' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=26972462'>Баскетбол. Задар - Црвена Звезда</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 06.10.2016</i></font><input type=hidden value='1475773200' id='v376'><hr class=hr1></td></tr>
-<tr id='t377'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981387"></a>
+<td colspan="2">
+<input id="spid2238" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26972462">Баскетбол. Задар - Црвена Звезда</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 06.10.2016</i></font>
+<input id="v238" type="hidden" value="1475773200">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2377' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981387'>Хоккей. Брюнес - Лулео</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 06.10.2016</i></font><input type=hidden value='1475773200' id='v377'><hr class=hr1></td></tr>
-<tr id='t378'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993505"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2378' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993505'>Хоккей. Слован Братислава - Северсталь</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 06.10.2016</i></font><input type=hidden value='1475773200' id='v378'><hr class=hr1></td></tr>
-<tr id='t379'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981386"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2379' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981386'>Хоккей. Линчёпинг - Лександ</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 06.10.2016</i></font><input type=hidden value='1475773200' id='v379'><hr class=hr1></td></tr>
-<tr id='t380'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981384"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2380' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981384'>Хоккей. Ферьестад - ХВ71</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 06.10.2016</i></font><input type=hidden value='1475773200' id='v380'><hr class=hr1></td></tr>
-<tr id='t381'>
+</tr>
+<tr id="t239">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981388"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2381' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981388'>Хоккей. Фрелунда - Векшё Лейкерс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 06.10.2016</i></font><input type=hidden value='1475773200' id='v381'><hr class=hr1></td></tr>
-<tr id='t382'>
+<td colspan="2">
+<input id="spid2239" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981388">Хоккей. Фрелунда - Векшё Лейкерс</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 06.10.2016</i></font>
+<input id="v239" type="hidden" value="1475773200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t240">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993505"></a>
+</td>
+<td colspan="2">
+<input id="spid2240" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993505">Хоккей. Слован Братислава - Северсталь</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 06.10.2016</i></font>
+<input id="v240" type="hidden" value="1475773200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t241">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981383"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2382' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26981383'>Хоккей. Юргорден - Шеллефтео</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 06.10.2016</i></font><input type=hidden value='1475773200' id='v382'><hr class=hr1></td></tr>
-<tr id='t383'>
+<td colspan="2">
+<input id="spid2241" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981383">Хоккей. Юргорден - Шеллефтео</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 06.10.2016</i></font>
+<input id="v241" type="hidden" value="1475773200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t242">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981387"></a>
+</td>
+<td colspan="2">
+<input id="spid2242" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981387">Хоккей. Брюнес - Лулео</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 06.10.2016</i></font>
+<input id="v242" type="hidden" value="1475773200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t243">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981384"></a>
+</td>
+<td colspan="2">
+<input id="spid2243" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981384">Хоккей. Ферьестад - ХВ71</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 06.10.2016</i></font>
+<input id="v243" type="hidden" value="1475773200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t244">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26981386"></a>
+</td>
+<td colspan="2">
+<input id="spid2244" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26981386">Хоккей. Линчёпинг - Лександ</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 06.10.2016</i></font>
+<input id="v244" type="hidden" value="1475773200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t245">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006460"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2383' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27006460'>Баскетбол. Валенсия - Реал М</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:00:00 07.10.2016</i></font><input type=hidden value='1475776800' id='v383'><hr class=hr1></td></tr>
-<tr id='t384'>
+<td colspan="2">
+<input id="spid2245" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006460">Баскетбол. Валенсия - Реал М</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:00:00 07.10.2016</i></font>
+<input id="v245" type="hidden" value="1475776800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t246">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006461"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2384' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27006461'>Баскетбол. Реал Бетис - Манреса</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:30:00 07.10.2016</i></font><input type=hidden value='1475778600' id='v384'><hr class=hr1></td></tr>
-<tr id='t385'>
+<td colspan="2">
+<input id="spid2246" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006461">Баскетбол. Реал Бетис - Манреса</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:30:00 07.10.2016</i></font>
+<input id="v246" type="hidden" value="1475778600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t247">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27003631"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2385' value='11'><b><a href='index.php?page=line&addons=1&action=2&mid=27003631'>Гандбол. Сен-Рафаэль - Дюнкерк</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 00:45:00 07.10.2016</i></font><input type=hidden value='1475779500' id='v385'><hr class=hr1></td></tr>
-<tr id='t386'>
+<td colspan="2">
+<input id="spid2247" type="hidden" value="11"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27003631">Гандбол. Сен-Рафаэль - Дюнкерк</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 00:45:00 07.10.2016</i></font>
+<input id="v247" type="hidden" value="1475779500">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t248">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006462"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2386' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27006462'>Баскетбол. Андорра - Гран Канария</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 01:00:00 07.10.2016</i></font><input type=hidden value='1475780400' id='v386'><hr class=hr1></td></tr>
-<tr id='t387'>
+<td colspan="2">
+<input id="spid2248" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006462">Баскетбол. Андорра - Гран Канария</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 01:00:00 07.10.2016</i></font>
+<input id="v248" type="hidden" value="1475780400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t249">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27015986"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2387' value='6'><b><a href='index.php?page=line&addons=1&action=2&mid=27015986'>Бейсбол. Кливленд - Бостон</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:08:00 07.10.2016</i></font><input type=hidden value='1475798880' id='v387'><hr class=hr1></td></tr>
-<tr id='t388'>
+<td colspan="2">
+<input id="spid2249" type="hidden" value="6"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27015986">Бейсбол. Кливленд - Бостон</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 06:08:00 07.10.2016</i></font>
+<input id="v249" type="hidden" value="1475798880">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t250">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27007505"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2388' value='19'><b><a href='index.php?page=line&addons=1&action=2&mid=27007505'>Американский футбол. Сан-Франциско - Аризона</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 06:25:00 07.10.2016</i></font><input type=hidden value='1475799900' id='v388'><hr class=hr1></td></tr>
-<tr id='t389'>
+<td colspan="2">
+<input id="spid2250" type="hidden" value="19"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27007505">Американский футбол. Сан-Франциско - Аризона</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 06:25:00 07.10.2016</i></font>
+<input id="v250" type="hidden" value="1475799900">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t251">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26965774"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2389' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=26965774'>Баскетбол. Нью Зилэнд - Мельбурн</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 12:30:00 07.10.2016</i></font><input type=hidden value='1475821800' id='v389'><hr class=hr1></td></tr>
-<tr id='t390'>
+<td colspan="2">
+<input id="spid2251" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26965774">Баскетбол. Нью Зилэнд - Мельбурн</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 12:30:00 07.10.2016</i></font>
+<input id="v251" type="hidden" value="1475821800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t252">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999282"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2390' value='28'><b><a href='index.php?page=line&addons=1&action=2&mid=26999282'>Регби-Союз. Кантербэри - Норт Харбор</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 12:35:00 07.10.2016</i></font><input type=hidden value='1475822100' id='v390'><hr class=hr1></td></tr>
-<tr id='t391'>
+<td colspan="2">
+<input id="spid2252" type="hidden" value="28"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26999282">Регби-Союз. Кантербэри - Норт Харбор</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 12:35:00 07.10.2016</i></font>
+<input id="v252" type="hidden" value="1475822100">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t253">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26965775"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2391' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=26965775'>Баскетбол. Иллавара Хоукс - Аделаида</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 14:30:00 07.10.2016</i></font><input type=hidden value='1475829000' id='v391'><hr class=hr1></td></tr>
-<tr id='t392'>
+<td colspan="2">
+<input id="spid2253" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26965775">Баскетбол. Иллавара Хоукс - Аделаида</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 14:30:00 07.10.2016</i></font>
+<input id="v253" type="hidden" value="1475829000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t254">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993506"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2392' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993506'>Хоккей. Барыс - Лада</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 19:30:00 07.10.2016</i></font><input type=hidden value='1475847000' id='v392'><hr class=hr1></td></tr>
-<tr id='t393'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993507"></a>
+<td colspan="2">
+<input id="spid2254" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993506">Хоккей. Барыс - Лада</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 19:30:00 07.10.2016</i></font>
+<input id="v254" type="hidden" value="1475847000">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2393' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993507'>Хоккей. Югра - Ак Барс</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 07.10.2016</i></font><input type=hidden value='1475848800' id='v393'><hr class=hr1></td></tr>
-<tr id='t394'>
+</tr>
+<tr id="t255">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993508"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2394' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993508'>Хоккей. Автомобилист - Нефтехимик</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 20:00:00 07.10.2016</i></font><input type=hidden value='1475848800' id='v394'><hr class=hr1></td></tr>
-<tr id='t395'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999850"></a>
+<td colspan="2">
+<input id="spid2255" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993508">Хоккей. Автомобилист - Нефтехимик</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 07.10.2016</i></font>
+<input id="v255" type="hidden" value="1475848800">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2395' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26999850'>Хоккей. Л.Микулаш - Жилина</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 07.10.2016</i></font><input type=hidden value='1475852400' id='v395'><hr class=hr1></td></tr>
-<tr id='t396'>
+</tr>
+<tr id="t256">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993507"></a>
+</td>
+<td colspan="2">
+<input id="spid2256" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993507">Хоккей. Югра - Ак Барс</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 20:00:00 07.10.2016</i></font>
+<input id="v256" type="hidden" value="1475848800">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t257">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993075"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2396' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993075'>Хоккей. Тршинец - Комета Брно</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:00:00 07.10.2016</i></font><input type=hidden value='1475852400' id='v396'><hr class=hr1></td></tr>
-<tr id='t397'>
+<td colspan="2">
+<input id="spid2257" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993075">Хоккей. Тршинец - Комета Брно</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 07.10.2016</i></font>
+<input id="v257" type="hidden" value="1475852400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t258">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999850"></a>
+</td>
+<td colspan="2">
+<input id="spid2258" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26999850">Хоккей. Л.Микулаш - Жилина</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:00:00 07.10.2016</i></font>
+<input id="v258" type="hidden" value="1475852400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t259">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993077"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2397' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993077'>Хоккей. Хомутов - Злин</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 07.10.2016</i></font><input type=hidden value='1475854200' id='v397'><hr class=hr1></td></tr>
-<tr id='t398'>
+<td colspan="2">
+<input id="spid2259" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993077">Хоккей. Хомутов - Злин</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 07.10.2016</i></font>
+<input id="v259" type="hidden" value="1475854200">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t260">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993076"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2398' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993076'>Хоккей. Пльзень - Бенжина Литвинов</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 21:30:00 07.10.2016</i></font><input type=hidden value='1475854200' id='v398'><hr class=hr1></td></tr>
-<tr id='t399'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993078"></a>
+<td colspan="2">
+<input id="spid2260" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993076">Хоккей. Пльзень - Бенжина Литвинов</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 21:30:00 07.10.2016</i></font>
+<input id="v260" type="hidden" value="1475854200">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2399' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993078'>Хоккей. Либерец - Витковице</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 07.10.2016</i></font><input type=hidden value='1475856000' id='v399'><hr class=hr1></td></tr>
-<tr id='t400'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999852"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2400' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26999852'>Хоккей. Нове Замки - Зволен</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 07.10.2016</i></font><input type=hidden value='1475856000' id='v400'><hr class=hr1></td></tr>
-<tr id='t401'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999854"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2401' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26999854'>Хоккей. Попрад - Кошице</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 07.10.2016</i></font><input type=hidden value='1475856000' id='v401'><hr class=hr1></td></tr>
-<tr id='t402'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999853"></a>
-</td>
-<td colspan=2><input type=hidden id='spid2402' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26999853'>Хоккей. Маунтфилд Мартин - Тренчин</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 07.10.2016</i></font><input type=hidden value='1475856000' id='v402'><hr class=hr1></td></tr>
-<tr id='t403'>
+</tr>
+<tr id="t261">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993079"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2403' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993079'>Хоккей. Оломоуц - Маунтфилд ХК</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:00:00 07.10.2016</i></font><input type=hidden value='1475856000' id='v403'><hr class=hr1></td></tr>
-<tr id='t404'>
+<td colspan="2">
+<input id="spid2261" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993079">Хоккей. Оломоуц - Маунтфилд ХК</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 07.10.2016</i></font>
+<input id="v261" type="hidden" value="1475856000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t262">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999852"></a>
+</td>
+<td colspan="2">
+<input id="spid2262" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26999852">Хоккей. Нове Замки - Зволен</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 07.10.2016</i></font>
+<input id="v262" type="hidden" value="1475856000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t263">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993078"></a>
+</td>
+<td colspan="2">
+<input id="spid2263" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993078">Хоккей. Либерец - Витковице</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 07.10.2016</i></font>
+<input id="v263" type="hidden" value="1475856000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t264">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999854"></a>
+</td>
+<td colspan="2">
+<input id="spid2264" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26999854">Хоккей. Попрад - Кошице</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 07.10.2016</i></font>
+<input id="v264" type="hidden" value="1475856000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t265">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26999853"></a>
+</td>
+<td colspan="2">
+<input id="spid2265" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26999853">Хоккей. Маунтфилд Мартин - Тренчин</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:00:00 07.10.2016</i></font>
+<input id="v265" type="hidden" value="1475856000">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t266">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993080"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2404' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993080'>Хоккей. Спарта Пр - Млада Болеслав</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 22:30:00 07.10.2016</i></font><input type=hidden value='1475857800' id='v404'><hr class=hr1></td></tr>
-<tr id='t405'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993513"></a>
+<td colspan="2">
+<input id="spid2266" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993080">Хоккей. Спарта Пр - Млада Болеслав</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 22:30:00 07.10.2016</i></font>
+<input id="v266" type="hidden" value="1475857800">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2405' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993513'>Хоккей. Карлскрона - Рёгле</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 07.10.2016</i></font><input type=hidden value='1475859600' id='v405'><hr class=hr1></td></tr>
-<tr id='t406'>
+</tr>
+<tr id="t267">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993514"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2406' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=26993514'>Хоккей. Мальме - Эребру</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:00:00 07.10.2016</i></font><input type=hidden value='1475859600' id='v406'><hr class=hr1></td></tr>
-<tr id='t407'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006465"></a>
+<td colspan="2">
+<input id="spid2267" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993514">Хоккей. Мальме - Эребру</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 07.10.2016</i></font>
+<input id="v267" type="hidden" value="1475859600">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2407' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27006465'>Баскетбол. Бильбао - Эстудиантес</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:15:00 07.10.2016</i></font><input type=hidden value='1475860500' id='v407'><hr class=hr1></td></tr>
-<tr id='t408'>
+</tr>
+<tr id="t268">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="26993513"></a>
+</td>
+<td colspan="2">
+<input id="spid2268" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=26993513">Хоккей. Карлскрона - Рёгле</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:00:00 07.10.2016</i></font>
+<input id="v268" type="hidden" value="1475859600">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t269">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006464"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2408' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27006464'>Баскетбол. Ховентут - Фуэнлабрада</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:15:00 07.10.2016</i></font><input type=hidden value='1475860500' id='v408'><hr class=hr1></td></tr>
-<tr id='t409'>
+<td colspan="2">
+<input id="spid2269" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006464">Баскетбол. Ховентут - Фуэнлабрада</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:15:00 07.10.2016</i></font>
+<input id="v269" type="hidden" value="1475860500">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t270">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006463"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2409' value='3'><b><a href='index.php?page=line&addons=1&action=2&mid=27006463'>Баскетбол. Баскония - Мурсия</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:15:00 07.10.2016</i></font><input type=hidden value='1475860500' id='v409'><hr class=hr1></td></tr>
-<tr id='t410'>
+<td colspan="2">
+<input id="spid2270" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006463">Баскетбол. Баскония - Мурсия</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:15:00 07.10.2016</i></font>
+<input id="v270" type="hidden" value="1475860500">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t271">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27006465"></a>
+</td>
+<td colspan="2">
+<input id="spid2271" type="hidden" value="3"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27006465">Баскетбол. Бильбао - Эстудиантес</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:15:00 07.10.2016</i></font>
+<input id="v271" type="hidden" value="1475860500">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t272">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27001288"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2410' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27001288'>Хоккей. Инсбрук - Фехервар АВ</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:15:00 07.10.2016</i></font><input type=hidden value='1475860500' id='v410'><hr class=hr1></td></tr>
-<tr id='t411'>
+<td colspan="2">
+<input id="spid2272" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27001288">Хоккей. Инсбрук - Фехервар АВ</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:15:00 07.10.2016</i></font>
+<input id="v272" type="hidden" value="1475860500">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t273">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27001290"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2411' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27001290'>Хоккей. Дорнбирн - Зноймо</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:15:00 07.10.2016</i></font><input type=hidden value='1475860500' id='v411'><hr class=hr1></td></tr>
-<tr id='t412'>
+<td colspan="2">
+<input id="spid2273" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27001290">Хоккей. Дорнбирн - Зноймо</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:15:00 07.10.2016</i></font>
+<input id="v273" type="hidden" value="1475860500">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t274">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020211"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2412' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27020211'>Хоккей. Дюссельдорф - Швеннингер</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 07.10.2016</i></font><input type=hidden value='1475861400' id='v412'><hr class=hr1></td></tr>
-<tr id='t413'>
-<td align="center" valign="center">
-<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020209"></a>
+<td colspan="2">
+<input id="spid2274" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020211">Хоккей. Дюссельдорф - Швеннингер</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:30:00 07.10.2016</i></font>
+<input id="v274" type="hidden" value="1475861400">
+<hr class="hr1"/>
 </td>
-<td colspan=2><input type=hidden id='spid2413' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27020209'>Хоккей. Изерлон - Аугсбургер</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 07.10.2016</i></font><input type=hidden value='1475861400' id='v413'><hr class=hr1></td></tr>
-<tr id='t414'>
+</tr>
+<tr id="t275">
 <td align="center" valign="center">
 <a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020212"></a>
 </td>
-<td colspan=2><input type=hidden id='spid2414' value='4'><b><a href='index.php?page=line&addons=1&action=2&mid=27020212'>Хоккей. Крефельд - Вольфсбург</a></b><span class=tab></span><br><font class=txtmed style='color: red;'><i>Начало 23:30:00 07.10.2016</i></font><input type=hidden value='1475861400' id='v414'><hr class=hr1></td></tr>
-<SCRIPT language=Javascript>
+<td colspan="2">
+<input id="spid2275" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020212">Хоккей. Крефельд - Вольфсбург</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:30:00 07.10.2016</i></font>
+<input id="v275" type="hidden" value="1475861400">
+<hr class="hr1"/>
+</td>
+</tr>
+<tr id="t276">
+<td align="center" valign="center">
+<a class="fav" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27020209"></a>
+</td>
+<td colspan="2">
+<input id="spid2276" type="hidden" value="4"/>
+<b><a href="index.php?page=line&addons=1&action=2&mid=27020209">Хоккей. Изерлон - Аугсбургер</a></b>
+<span class="tab"></span><br/>
+<font class="txtmed" style="color:red"><i>Начало 23:30:00 07.10.2016</i></font>
+<input id="v276" type="hidden" value="1475861400">
+<hr class="hr1"/>
+</td>
+</tr>
+<script type="text/javascript">
 	         	function change_list()
 	         	{
-	         		var p_cnt=415;
-	         		var show_sport=0;
-	         		var curr_sport=document.forms.BetLine.sportid.options[document.forms.BetLine.sportid.selectedIndex].value;
-	         		var filter=(curr_tstamp.getTime()/1000-(curr_tstamp.getTimezoneOffset()+360)*60)+(document.forms.BetLine.ltime.options[document.forms.BetLine.ltime.selectedIndex].value-0);
-	         		if(document.forms.BetLine.ltime.options[document.forms.BetLine.ltime.selectedIndex].value<=0) filter=9999999999;
-	         		for(i=0;i<p_cnt;i++)
+	         		var p_cnt       = 277,
+	         		    show_sport  = 0,
+	         		    curr_sport  = document.forms.BetLine.sportid.options[document.forms.BetLine.sportid.selectedIndex].value,
+	         		    filter      = (curr_tstamp.getTime() / 1000 - (curr_tstamp.getTimezoneOffset() + 360) * 60) + (document.forms.BetLine.ltime.options[document.forms.BetLine.ltime.selectedIndex].value - 0);
+
+                    if (document.forms.BetLine.ltime.options[document.forms.BetLine.ltime.selectedIndex].value<=0)
+                        filter = 9999999999;
+
+                    for(var i=0; i < p_cnt; i++)
 	         		{
-                        show_sport=0;
-                        if(document.getElementById('spid2'+i).value==curr_sport || curr_sport=='-1')  show_sport=1;
-	         			if((document.getElementById('v'+i).value-0)>filter || !show_sport) document.getElementById('t'+i).style.display='none';
-	         			else document.getElementById('t'+i).style.display='';
+                        show_sport = 0;
+                        if ((document.getElementById('spid2'+i).value == curr_sport) || (curr_sport == '-1'))
+                            show_sport = 1;
+
+	         			if (((document.getElementById('v'+i).value - 0) > filter) || !show_sport)
+                            document.getElementById('t'+i).style.display = 'none';
+	         			else
+                            document.getElementById('t'+i).style.display = '';
 	         		}
 	         	}
 	         	change_list();
-	         	</SCRIPT></TABLE><BR><CENTER><SCRIPT language=Javascript>
-        function set_lcheck(last, status)
-	    {
-	    for(var i=0; i<last; i++) document.forms.BetLine['live[]'][i].checked=status;
-	    }
-	    function set_lcheck2(start, last, status, pos)
-	    {
-	    	if(status==0) status=1;
-            else status=0;
-            eval('vc'+pos+'='+status+';');
-	    for(var i=start; i<last; i++) {
-	        document.forms.BetLine['live[]'][i].checked=status;
-	        document.forms.BetLine['live[]'][i].focus();
-	    }
-	    }
-		$(document).ready(function () {
-			$('.is_outright1').change(function () {
-				$('#addons').prop('checked', false);
-				$('.is_outright').each(function () {
-					if ($(this).prop('checked')) {
-						$('#addons').prop('checked', true);return true;
-					}
-				})
-			})
-		})
+	        </script>
+</table>
+<br/>
+<center>
+<script type="text/javascript">
+            function set_lcheck(last, status)
+    	    {
+    	        for(var i=0; i<last; i++) { document.forms.BetLine['live[]'][i].checked=status; }    	    }
 
-	    function set_check(start, last, status)
-	    {
-	        console.log(last);
-	    document.forms.BetLine['sel[]'].checked=status;
-	    }
-	    function set_lshow(start, last, pos)
-	    {
-	    	for(var i=start; i<last; i++)
-	    	{
-	             if(document.getElementById('s'+i).style.display=='none')
-	             	document.getElementById('s'+i).style.display='';
-	             else document.getElementById('s'+i).style.display='none';
+    	    function set_lcheck2(start, last, status, pos)
+    	    {
+    	    	if (status == 0)
+                    status = 1;
+                else
+                    status = 0;
 
-	             if(document.getElementById('s'+start).style.display=='none')
-	             	document.getElementById('a'+pos).innerHTML='<div style="float:left; margin-right: 5px;"><img src="/img/down.png"></div>';
-	             else document.getElementById('a'+pos).innerHTML='<div style="float:left; margin-right: 5px;"><img src="/img/right.png"></div>';
-            }
-	    }
-        </script> <INPUT type=hidden name='page' value='line'>
-<INPUT type=hidden name='action' value=2>
-<INPUT type=hidden name='currpage' value="live">
-</FORM> </td>
+                eval('vc'+pos+' = '+status+';');
+    	        for(var i=start; i<last; i++) {
+    	            document.forms.BetLine['live[]'][i].checked = status;
+    	            document.forms.BetLine['live[]'][i].focus();
+    	        }    	    }
+
+    		$(document).ready(function()
+            {
+    			$('.is_outright1').change(function ()
+                {
+    				$('#addons').prop('checked', false);
+    				$('.is_outright').each(function()
+                    {
+    					if ($(this).prop('checked')) {
+    						$('#addons').prop('checked', true);
+                            return true;
+    					}
+    				})
+    			})
+    		});
+
+    	    function set_check(start, last, status)
+    	    {
+    	        console.log(last);
+    	        document.forms.BetLine['sel[]'].checked = status;    	    }
+
+    	    function set_lshow(start, last, pos)
+    	    {
+    	    	for(var i=start; i<last; i++)
+    	    	{
+    	             if(document.getElementById('s'+i).style.display == 'none')
+    	             	document.getElementById('s'+i).style.display = '';
+    	             else
+                        document.getElementById('s'+i).style.display = 'none';
+
+    	             if(document.getElementById('s'+start).style.display == 'none')
+    	             	document.getElementById('a'+pos).innerHTML = '<div style="float:left;margin-right:5px;"><img src="/img/down.png" /></div>';
+    	             else
+                        document.getElementById('a'+pos).innerHTML='<div style="float:left;margin-right:5px;"><img src="/img/right.png" /></div>';
+                }
+    	    }
+        </script>
+<input type="hidden" name="page" value="line"/>
+<input type="hidden" name="action" value="2"/>
+<input type="hidden" name="currpage" value="live"/>
+</form>
+</td>
 <td class="col_td right" style="width:262px; position: relative;" valign="top">
 <div id="scroll_block" style="position: absolute; top: 0; transition: 0.4s;">
 <div id="betradar_frame" data-fullurl="Открыть полную версию">
@@ -3454,39 +5369,20 @@ Live-Ставки </H1>
 									});
 								});
 							</script>
-							<table class="smallwnd" style="display:none;">
-								<tbody>
-								<tr class="m_c" align="middle"><td class="smwndcap">Матч трекер</td></tr>
-								<tr>
-									<td align="middle">
-										<div id="widget_betradar"></div>
-									</td>
-								</tr>
-								</tbody>
-							</table>
-							<br />
-						</div>
-
-						<div id="betslip1" style="" class="">
-							
-<style>
-	.onoffswitch-inner:before {
-		font-size: 12px;
-		font-family: Tahoma, Verdana, Helvetica, sans-serif !important;
-		content: "ON";
-		background-color: #B33c36;
-		color: #FFFFFF;
-		text-align: center;
-	}
-
-	.onoffswitch-inner:after {
-		font-size: 12px;
-		font-family: Tahoma, Verdana, Helvetica, sans-serif !important;
-		content: "OFF";
-		color: #868686 !important;
-		text-align: center;
-	}
-</style>
+<table class="smallwnd" style="display:none;">
+<tbody>
+<tr class="m_c" align="middle"><td class="smwndcap">Матч трекер</td></tr>
+<tr>
+<td align="middle">
+<div id="widget_betradar"></div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+</div>
+<div id="betslip1" style="" class="">
+<style>.onoffswitch-inner:before{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"ON";background-color:#B33c36;color:#FFFFFF;text-align:center;}.onoffswitch-inner:after{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"OFF";color:#868686!important;text-align:center;}</style>
 <script>
 	var max_calc = 500000000;
 	var MaxKoef = 1000;
@@ -3521,14 +5417,13 @@ Live-Ставки </H1>
 </script>
 <link type="text/css" rel="stylesheet" href="/img/basket.css?83"/>
 <script src="/img/jquery.modal.js"></script>
-<script src="/img/basket.js?86"></script>
+<script src="/img/basket.js?91"></script>
 <input type="hidden" value="0" name="usersumm" id="usersumm">
-
 <div class="busket">
-	<div class="busket-header">
-		<div class="busket-title active" id="betslip-button">КУПОН</div>
-				<div class="busket-title" id="history-button">История</div>
-					<div class="expand-button">
+<div class="busket-header">
+<div class="busket-title active" id="betslip-button">КУПОН</div>
+<div class="busket-title" id="history-button">История</div>
+<div class="expand-button">
 			</div>
 			<div class="quickstake-title group5">БЫСТРАЯ СТАВКА				<div class="onoffswitch" style="float:right">
 					<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch_e" >
@@ -3745,10 +5640,10 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
     DataBase Errors: 0
     Script Errors: 0
     Script Warnings: 0
-    Total time: 0.061 s
+    Total time: 0.048 s
     DataBase time(1): 0 s
-    DataBase time(2): 0.019 s
-    Served by: s58
+    DataBase time(2): 0.014 s
+    Served by: s61
     C: true
 
     VK_I8Ud3
