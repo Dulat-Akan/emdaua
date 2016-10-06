@@ -26,7 +26,7 @@ $this->title = 'Казино';
 					<div class="row blok">
 						<div class="col-sm-4">
 								<div class="product">
-								  <a href="<?php echo Url::to('@control/request'); ?>"><img  v="line" style="margin-top: 5px;"  src="<?php echo Url::to('@img/liniya.jpg'); ?>"/></a>
+								  <a href="<?php echo Url::to('@control/slive'); ?>"><img  v="line" style="margin-top: 5px;"  src="<?php echo Url::to('@img/liniya.jpg'); ?>"/></a>
 								</div><!-- /.product -->
 							</div>
 							<div class="col-sm-4">
