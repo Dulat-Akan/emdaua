@@ -215,8 +215,8 @@ return $this->refresh();
     }
 
     public function actionRequestlive(){
-
-        return $this->render('request_live');
+$this->layout = 'main3';
+        return $this->render('request_live',['model'=>$layout]);
     }
 
     public function actionSoccerpage(){

@@ -274,10 +274,10 @@
 <td align=left width=75% style='color: #800000'><u>Отключить Корзину</u></td></tr></table>
 </td></tr> <tr>
 <td align="center">
-<hr class="hr2"/><span id='hours'>05.10.2016 13:00:51</span>
+<hr class="hr2"/><span id='hours'>06.10.2016 14:05:06</span>
 <script type='text/javascript'>
-	            wr_hours(1475650851);
-	            setInterval('wr_hours(1475650851);',1000);
+	            wr_hours(1475741106);
+	            setInterval('wr_hours(1475741106);',1000);
 	            </script><br/>
 <a href="index.php?page=timezone">(GMT +06:00)</a>
 </td>
@@ -339,7 +339,7 @@ setInterval(function(){
 </tr>
 </tbody>
 </table>
-</td></tr><input type=hidden name='asid' value='3921178'><input type=hidden name='psid' value='105b24f0de2fc6147381ab815bb0d0a7'>
+</td></tr><input type=hidden name='asid' value='6561168'><input type=hidden name='psid' value='155b10d872979ea989d42d134987d6bd'>
 </table></form>
 <script language='javascript'>
 function changeConn()
@@ -380,7 +380,7 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
-<font class=txtmed color=black>Ставки</font> Live (21)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>Ставки</font> Live (28)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
@@ -390,7 +390,7 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (850)</a>
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (958)</a>
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -398,7 +398,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (74)</a>
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (62)</a>
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -406,7 +406,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (88)</a>
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (79)</a>
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -414,7 +414,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (175)</a>
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (163)</a>
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -422,7 +422,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (14)</a>
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (82)</a>
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -446,7 +446,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (28)</a>
+<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (36)</a>
 </td>
 <td>
 <input id="c7" type="checkbox" name="sel[]" value="51"/>
@@ -454,7 +454,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (8)</a>
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (9)</a>
 </td>
 <td>
 <input id="c8" type="checkbox" name="sel[]" value="29"/>
@@ -470,7 +470,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (15)</a>
+<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (22)</a>
 </td>
 <td>
 <input id="c10" type="checkbox" name="sel[]" value="12"/>
@@ -486,7 +486,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (22)</a>
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (23)</a>
 </td>
 <td>
 <input id="c12" type="checkbox" name="sel[]" value="10"/>
@@ -494,7 +494,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (83)</a>
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (44)</a>
 </td>
 <td>
 <input id="c13" type="checkbox" name="sel[]" value="9"/>
@@ -502,7 +502,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (6)</a>
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (27)</a>
 </td>
 <td>
 <input id="c14" type="checkbox" name="sel[]" value="90"/>
@@ -526,7 +526,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (5)</a>
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (4)</a>
 </td>
 <td>
 <input id="c17" type="checkbox" name="sel[]" value="73"/>
@@ -558,7 +558,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (9)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (4)</a>
 </td>
 <td>
 <input id="c21" type="checkbox" name="sel[]" value="40"/>
@@ -582,7 +582,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (2)</a>
+<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (3)</a>
 </td>
 <td>
 <input id="c24" type="checkbox" name="sel[]" value="85"/>
@@ -590,7 +590,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (45)</a>
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (47)</a>
 </td>
 <td>
 <input id="c25" type="checkbox" name="sel[]" value="46"/>
@@ -598,7 +598,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (33)</a>
+<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (36)</a>
 </td>
 <td>
 <input id="c26" type="checkbox" name="sel[]" value="96"/>
@@ -606,7 +606,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (11)</a>
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (8)</a>
 </td>
 <td>
 <input id="c27" type="checkbox" name="sel[]" value="4"/>
@@ -614,7 +614,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (3)</a>
+<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (26)</a>
 </td>
 <td>
 <input id="c28" type="checkbox" name="sel[]" value="113"/>
@@ -627,30 +627,22 @@ setInterval(function(){
 <td>
 <input id="c29" type="checkbox" name="sel[]" value="33"/>
 </td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (1)</a>
-</td>
-<td>
-<input id="c30" type="checkbox" name="sel[]" value="11"/>
-</td>
 </tr><script language='javascript'>
                 var checked=0;
                 function selall()
                 {
                     if(checked==0) checked=1;
                     else checked=0;
-                    for(var ci=0;ci<31;ci++)
+                    for(var ci=0;ci<30;ci++)
                         document.getElementById('c'+ci).checked=checked;
-                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1540)</a>';
-                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1540)</a>'
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1701)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1701)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
 </td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1></td></tr>
 <tr><td colspan=2 id='selall' align=middle>
-<a href='javascript:selall();'>Выбрать все (1540)</a> </div>
+<a href='javascript:selall();'>Выбрать все (1701)</a> </div>
 </td>
 </tr>
 <input type="hidden" name="page" value="line"/>
@@ -666,7 +658,7 @@ setInterval(function(){
 <center>
 <form method="POST" action="index.php">Вид спорта: <select class=loginbox name=id>
 <option selected value='0'>- - - Все виды - - -</option><option value=118>DTM</option><option value=120>NASCAR</option><option value=91>Австралийский футбол</option><option value=6>Американский футбол</option><option value=51>Бадминтон</option><option value=5>Баскетбол</option><option value=29>Бейсбол</option><option value=7>Биатлон</option><option value=74>Бобслей</option><option value=12>Бокс</option><option value=44>Велоспорт</option><option value=41>Водное поло</option><option value=10>Волейбол</option><option value=69>Вольная борьба</option><option value=9>Гандбол</option><option value=90>Гольф</option><option value=75>Горные лыжи</option><option value=58>Гребля академическая</option><option value=68>Гребля на байдарках и каноэ</option><option value=66>Греко-римская борьба</option><option value=47>Дартс</option><option value=52>Дзюдо</option><option value=37>Керлинг</option><option value=112>Киберспорт</option><option value=76>Конькобежный спорт</option><option value=73>Крикет</option><option value=72>Лакросс</option><option value=53>Легкая атлетика</option><option value=38>Лыжи</option><option value=77>Лыжное двоеборье</option><option value=114>Лыжное двоебоье</option><option value=89>Минифутбол</option><option value=117>Мотоспорт</option><option value=40>Настольный теннис</option><option value=50>Олимпиада-2008</option><option value=13>Олимпийские игры</option><option value=54>Парусный спорт</option><option value=115>Песапалло</option><option value=59>Плавание</option><option value=60>Пляжный волейбол</option><option value=45>Пляжный гандбол</option><option value=35>Пляжный футбол</option><option value=88>Политика</option><option value=61>Прыжки в воду</option><option value=39>Прыжки с трамплина</option><option value=55>Пулевая стрельба</option><option value=119>Ралли</option><option value=32>Регби</option><option value=101>Регби-7</option><option value=85>Регби-лига</option><option value=46>Регби-Союз</option><option value=111>Рыбная ловля</option><option value=79>Сани</option><option value=70>Синхронное плавание</option><option value=110>Скачки</option><option value=49>Скачки</option><option value=80>Скелетон</option><option value=96>Смешанные боевые искусства</option><option value=81>Сноубординг</option><option value=4>Снукер</option><option value=62>Софтбол</option><option value=116>Спидвей</option><option value=63>Спортивная гимнастика</option><option value=64>Стендовая стрельба</option><option value=56>Стрельба из лука</option><option value=57>Стрельба из пистолета</option><option value=3>Теннис</option><option value=65>Тяжелая атлетика</option><option value=82>Фигурное катание</option><option value=113>Флорбол</option><option value=33>Формула 1</option><option value=83>Фристайл</option><option value=1>Футбол</option><option value=11>Футзал</option><option value=2>Хоккей</option><option value=67>Хоккей на траве</option><option value=8>Хоккей с мячом</option><option value=93>Шары</option><option value=30>Шахматы</option><option value=84>Шорт-трек</option> </select>&nbsp;&nbsp;Дата: <select class=loginbox name=day>
-<option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option selected value=5>5</option><option value=6>6</option><option value=7>7</option><option value=8>8</option><option value=9>9</option><option value=10>10</option><option value=11>11</option><option value=12>12</option><option value=13>13</option><option value=14>14</option><option value=15>15</option><option value=16>16</option><option value=17>17</option><option value=18>18</option><option value=19>19</option><option value=20>20</option><option value=21>21</option><option value=22>22</option><option value=23>23</option><option value=24>24</option><option value=25>25</option><option value=26>26</option><option value=27>27</option><option value=28>28</option><option value=29>29</option><option value=30>30</option><option value=31>31</option></select>&nbsp;<select class=loginbox name=month>
+<option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option selected value=6>6</option><option value=7>7</option><option value=8>8</option><option value=9>9</option><option value=10>10</option><option value=11>11</option><option value=12>12</option><option value=13>13</option><option value=14>14</option><option value=15>15</option><option value=16>16</option><option value=17>17</option><option value=18>18</option><option value=19>19</option><option value=20>20</option><option value=21>21</option><option value=22>22</option><option value=23>23</option><option value=24>24</option><option value=25>25</option><option value=26>26</option><option value=27>27</option><option value=28>28</option><option value=29>29</option><option value=30>30</option><option value=31>31</option></select>&nbsp;<select class=loginbox name=month>
 <option value=1>
 января</option><option value=2>
 февраля</option><option value=3>
@@ -691,7 +683,7 @@ setInterval(function(){
 2014</option><option value=2015>
 2015</option><option selected value=2016>
 2016</option></select>&nbsp;&nbsp;<INPUT type=submit value='Показать ' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1>
-<br><font class=txtmed><a target=_blank href='index.php?page=print_res&id=0&day=5&month=10&year=2016'>Версия для печати</a></font>
+<br><font class=txtmed><a target=_blank href='index.php?page=print_res&id=0&day=6&month=10&year=2016'>Версия для печати</a></font>
 <br>
 <input type='hidden' name='page' value='result'>
 </form>
@@ -726,1388 +718,1404 @@ setInterval(function(){
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Косецкая Евгения - Слободянюк В.</b><br>
-05.10.2016 07:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (12:21 30:28 21:8)<br></b><div id='e27022686' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Радченко Д. - Комендровская Е.</b><br>
-05.10.2016 07:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (13:21 9:21)<br></b><div id='e27022687' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Евгенова К. - Дорошенко С.</b><br>
-05.10.2016 08:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:10 21:14)<br></b><div id='e27022691' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Шарапова А. - Пантаване А.</b><br>
-05.10.2016 08:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (5:21 9:21)<br></b><div id='e27022692' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пятина Е. - Серебрякова Д.</b><br>
-05.10.2016 09:40:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:12 21:15)<br></b><div id='e27022690' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Деревягина В. - Кут Е.</b><br>
-05.10.2016 10:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (17:21 14:21)<br></b><div id='e27022688' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Макогонова П. - Семенова А.</b><br>
-05.10.2016 10:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (11:21 10:21)<br></b><div id='e27022689' style='display: none;'></div></td></tr></table>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лад Т. - Кут Е.</b><br>
+06.10.2016 12:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (21:10 21:13)<br></b><div id='e27054934' style='display: none;'></div></td></tr></table>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Бадминтон. Женщины. Thailand Open  </TD>
+<TD class=smwndcap Align=center valign=middle>Бадминтон. Женщины. Russian Open  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Охори А. - Ли Ч.-С.</b><br>
-05.10.2016 08:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:15 21:18)<br></b><div id='e27018851' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Порнпави Ч. - Чуа Х.-Ч.-Г.</b><br>
-05.10.2016 09:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:8 21:8)<br></b><div id='e27018852' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Суваннакитборихан С. - Цзя Минь Ео</b><br>
-05.10.2016 09:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>отмена (матч завершен при счете 0:0 (8:16))<br></b><div id='e27018857' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тэ Ц.-И. - Риодинджин Р.А.</b><br>
-05.10.2016 10:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (22:20 21:8)<br></b><div id='e27018873' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Йиндиапол Н. - Такахаси С.</b><br>
-05.10.2016 11:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (20:22 21:19 21:11)<br></b><div id='e27018898' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Семенова А. - Тарасова Е.</b><br>
+06.10.2016 11:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (21:19 19:21 21:18)<br></b><div id='e27040842' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Абибулаева Л. - Комендровская Е.</b><br>
+06.10.2016 12:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (15:21 16:21)<br></b><div id='e27040845' style='display: none;'></div></td></tr></table>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Бадминтон. Женщины. Пары. Thailand Open  </TD>
+<TD class=smwndcap Align=center valign=middle>Бадминтон. Женщины. Пары. Russian Open  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нг Цз Яу/Ен Нга Тин Л. - Канчанасака C./Сукклад К.</b><br>
-05.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:15 21:15)<br></b><div id='e27018432' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ямратанаметхикул Р./Мингчуа С. - Лин Фан Ху/Чэн Юй Цзе</b><br>
-05.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (16:21 13:21)<br></b><div id='e27018433' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чумнибаннакарн С./Чатапорнкарнчана Н. - Цзунь Юй Линь/Ко Юй Вэнь</b><br>
-05.10.2016 08:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (11:21 16:21)<br></b><div id='e27018434' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чочувонг П./Течаворасинскун Ч. - Мацумото М./Нагахара В.</b><br>
-05.10.2016 09:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (20:22 15:21)<br></b><div id='e27018435' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Херлоардхо Н./Путри Р.-С. - Чаянит Ч./Муэнвонг Ф.</b><br>
-05.10.2016 09:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:21 4:21)<br></b><div id='e27018436' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бибик Т./Комендровская Е. - Димова Е./Сорокина В.</b><br>
+06.10.2016 07:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (21:12 21:18)<br></b><div id='e27046539' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Игнатьева Я./Вырвич К. - Минадзе Л./Шарапова А.</b><br>
+06.10.2016 07:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (21:18 19:21 21:16)<br></b><div id='e27046540' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Слободянюк В./Тарасова Е. - Мегхама Дж./Рам С. П.</b><br>
+06.10.2016 07:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (21:12 16:21 12:21)<br></b><div id='e27046541' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Евгенова К./Шегурова М. - Болотова Е./Давлетова А.</b><br>
+06.10.2016 07:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (18:21 22:20 21:18)<br></b><div id='e27046542' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Макковеева В./Радченко Д. - Поликарпова К./Косецкая Е.</b><br>
+06.10.2016 07:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (8:21 10:21)<br></b><div id='e27046543' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Перминова Н./Семенова А. - Кут Е./Серебрякова Д.</b><br>
+06.10.2016 07:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (21:18 20:22 21:18)<br></b><div id='e27046544' style='display: none;'></div></td></tr></table>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Бадминтон. Мужчины. Russia Open  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Карпов А. - Ефанов Е.</b><br>
-05.10.2016 07:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:14 21:6)<br></b><div id='e27021235' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Зулкиффли З. - Котсаренко П.</b><br>
-05.10.2016 07:10:01</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:9 21:2)<br></b><div id='e27033482' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Параходин А. - Зулкиффли Зулхелми</b><br>
-05.10.2016 07:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (18:21 15:21)<br></b><div id='e27021236' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Почтарев А. - Ефремов М.</b><br>
-05.10.2016 07:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:17 21:14)<br></b><div id='e27033691' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гуломзода Ш. - Сирант С.</b><br>
-05.10.2016 07:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (9:21 9:21)<br></b><div id='e27021237' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Грачев Д. - Хориучи К.</b><br>
-05.10.2016 07:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27022685' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Алимов Р. - Шипиленко В.</b><br>
-05.10.2016 08:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:17 21:17)<br></b><div id='e27021238' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Русин В. - Зильберман М</b><br>
-05.10.2016 09:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (13:21 22:20 10:21)<br></b><div id='e27021240' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Малков В. - Тимофеев К</b><br>
-05.10.2016 09:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:16 21:12)<br></b><div id='e27034898' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бутовецкий А. - Маруо Р.</b><br>
-05.10.2016 09:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27021241' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ярцев А. - Рзаев К.</b><br>
-05.10.2016 09:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:4 21:9)<br></b><div id='e27035233' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Зулкифли З. - Карпов А.</b><br>
+06.10.2016 11:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (21:10 21:10)<br></b><div id='e27055245' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мальков В. - Вонг Хин Шун</b><br>
+06.10.2016 11:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (21:14 21:17)<br></b><div id='e27054932' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Бадминтон. Мужчины. Пары. Thailand Open  </TD>
+<TD class=smwndcap Align=center valign=middle>Бадминтон. Мужчины. Russian Open  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Анугритаявон С./Вилайлак П. - Онг Ю.-С./Тео Йи Ее</b><br>
-05.10.2016 08:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (19:21 14:21)<br></b><div id='e27019154' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тан К. Т./Тан В. Г. - Ампунсуван В./Исриянате Т.</b><br>
-05.10.2016 09:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (19:21 17:21)<br></b><div id='e27019155' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ку Ки Кет/Тан Бун Хонг - Канеко Ю./Иноэ Т.</b><br>
-05.10.2016 11:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (20:22 21:19 15:21)<br></b><div id='e27019156' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Верма С. - Зильберман М</b><br>
+06.10.2016 12:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (21:15 21:9)<br></b><div id='e27040820' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Грачев Д. - Сирант С.</b><br>
+06.10.2016 13:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (17:21 13:21)<br></b><div id='e27040821' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Бадминтон. Смешанные пары. Russia Open  </TD>
+<TD class=smwndcap Align=center valign=middle>Бадминтон. Мужчины. Пары. Russian Open  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Шипиленко В./Макковеева В. - Клименко Д./Минадзе Л.</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:18 21:19)<br></b><div id='e27030990' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Рябов Д./ Шегурова М. - Малков В./Запольская Дж.</b><br>
-05.10.2016 06:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (21:14 17:21 26:24)<br></b><div id='e27030996' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Русин В./Кут Е. - Рзаев К./Мехдиева А.</b><br>
-05.10.2016 06:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (21:6 21:11)<br></b><div id='e27033140' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Жданов А./Кистер О. - Серпионов А./Бибик Т.</b><br>
-05.10.2016 06:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (10:21 15:21)<br></b><div id='e27033147' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Иванов В./Созонов И. - Русин В./Жданов И.</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (21:18 21:11)<br></b><div id='e27040836' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дворников Р./Золотуев А. - Ефанов Е./Тимофеев К.</b><br>
+06.10.2016 06:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (21:17 20:22 21:15)<br></b><div id='e27040837' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Никулов В./Серпионов А. - Алимов Р./Коцаренко П.</b><br>
+06.10.2016 06:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27040838' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Клименко Д./Шипиленко В. - Абрамов К./Зинченко А.</b><br>
+06.10.2016 06:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (5:21 8:21)<br></b><div id='e27040839' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Яковлев С./Жданов А. - Цукамото Ё./Ямамура С.</b><br>
+06.10.2016 06:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27040840' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Бадминтон. Смешанные пары. Thailand Open  </TD>
+<TD class=smwndcap Align=center valign=middle>Бадминтон. Смешанные пары. Russian Open  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тань Вэй Хань/Юн Кай Терри Хи - Нугрохо Л.А./Амелиа Р.</b><br>
-05.10.2016 08:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (13:21 26:24 21:19)<br></b><div id='e27019597' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сауфика А./Прасетя Э.А. - Синь Тень Чан/Гэ Чи Чан</b><br>
-05.10.2016 09:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (17:21 21:14 17:21)<br></b><div id='e27019621' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Джомкох С./Супажиракул П. - Ли Дж. Х./Ву Т. Ю.</b><br>
-05.10.2016 09:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (21:15 17:21 21:17)<br></b><div id='e27035112' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вонгиа Т./Вириянгкура Танупат - Чэнь Хуань Cяо/Ляо Минь Чунь</b><br>
-05.10.2016 09:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (14:21 15:21)<br></b><div id='e27019640' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нипорнрам П./Лайсуан Р. - Виджая Г. Э./Видианто Р.</b><br>
-05.10.2016 10:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (21:23 13:21)<br></b><div id='e27035118' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Иамратанамаетхеекул Р. /Саттанако Н. - Кришнан Й./Савант П.</b><br>
-05.10.2016 10:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (15:21 10:21)<br></b><div id='e27019641' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Амитрапай С./Исcара Б. - Цзэн Мин-Хао/Ху Линг-Фан</b><br>
-05.10.2016 10:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (21:11 15:21 20:22)<br></b><div id='e27019642' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лу Чиа Пинь/Ченг Чи Я - Янг По Хан/Ченг Ю.Ч.</b><br>
-05.10.2016 11:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (21:12 17:21 21:14)<br></b><div id='e27019771' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Буранакуэа В./Клибисун Т. - Тхонгнуам П./Саенгчоте Н.</b><br>
-05.10.2016 11:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (11:21 12:21)<br></b><div id='e27035215' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Евгенова К./Жданов И. - Алимов Р./Давлетова А.</b><br>
+06.10.2016 10:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (10:21 19:21)<br></b><div id='e27046906' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Червякова А./Параходин А. - Шегурова М./Рябов Д.</b><br>
+06.10.2016 10:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (21:18 22:20)<br></b><div id='e27046907' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Болотова Е./Грачев Д. - Сорокина В./Иванов В.</b><br>
+06.10.2016 10:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (14:21 14:21)<br></b><div id='e27046908' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кут Е./Русин В. - Морозова О./Зинченко А.</b><br>
+06.10.2016 10:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (21:16 18:21 14:21)<br></b><div id='e27046909' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Серебрякова Д./Никулов В. - Ярцев А./Косетская Е.</b><br>
+06.10.2016 10:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27046930' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бибик Т./Серпионов А. - Чопра П./Рэдди С.</b><br>
+06.10.2016 10:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (19:21 13:21)<br></b><div id='e27046965' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Василькин А./Вырвич К. - Радченко Д./Яковлев С.</b><br>
+06.10.2016 10:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (21:10 21:11)<br></b><div id='e27047793' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Баскетбол. NBA. Предсезонные матчи  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вашингтон - Майами</b><br>
-05.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 95:106 (22:35 22:26 26:25 25:20)<br></b><div id='e27022332' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Филадельфия - Бостон</b><br>
-05.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 92:89 (15:25 16:18 30:20 31:26)<br></b><div id='e27022340' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нью-Орлеан - Индиана</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 96:113 (26:26 24:33 28:25 18:29)<br></b><div id='e27022342' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хьюстон - Нью-Йорк</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 130:103 (27:15 41:27 36:35 26:26)<br></b><div id='e27022354' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лейкерс - Сакраменто</b><br>
-05.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 103:84 (21:31 18:21 25:17 39:15)<br></b><div id='e27022360' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Голден Стэйт - Клипперс</b><br>
-05.10.2016 08:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 120:75 (35:19 36:14 31:18 18:24)<br></b><div id='e27022455' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Барселона - Оклахома</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 89:92 (25:26 22:19 21:22 21:25)<br></b><div id='e27044207' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кливленд - Орландо</b><br>
+06.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 117:102 (31:21 37:21 29:27 20:33)<br></b><div id='e27044208' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Финикс - Юта</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 99:104 (23:31 22:18 27:26 27:29)<br></b><div id='e27044209' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Клипперс - Торонто</b><br>
+06.10.2016 08:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 104:98 (33:21 29:30 23:17 19:30)<br></b><div id='e27044210' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Баскетбол. WNBA. Плей-офф. 1/2 финала. До 3-х побед  </TD>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Женщины. Чемпионат Бразилии. Лига Паулиста  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чикаго Скай - Лос-Анджелес Спаркс</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 75:95 (11:23 20:32 28:14 16:26)<br></b><div id='e26996709' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сан-Бернарду - Дивину Жундиаи</b><br>
+06.10.2016 02:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 71:62 (21:6 16:12 20:20 14:24)<br></b><div id='e27025541' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Баскетбол. Женщины. Филиппины. Чемпионaт UAAP.  </TD>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Женщины. Чемпионат Исландии  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Адамсон Леди Фальконс - Уст Тайгрессес</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 66:62 (9:13 18:22 16:16 23:11)<br></b><div id='e27028330' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Леди Тамароуз - НУ Леди Буллдогз</b><br>
-05.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 69:80 (16:19 7:25 18:20 28:16)<br></b><div id='e27028331' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кефлавик - Стьярнан</b><br>
+06.10.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 56:61 (20:18 13:18 14:17 9:8)<br></b><div id='e27040488' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гриндавик - Хаукар</b><br>
+06.10.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 78:63 (18:16 30:4 19:20 11:23)<br></b><div id='e27040489' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УМФ Ньярдвик - Валюр Рейкьявик</b><br>
+06.10.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 77:74 (18:21 22:15 19:16 18:22)<br></b><div id='e27044403' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Адриатическая лига  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Цибона - Морнар Бар</b><br>
-05.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 91:89 (28:16 20:21 23:28 20:24)<br></b><div id='e27006092' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Карпош Соколи - Игокеа</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 79:84 (18:26 14:21 22:20 25:17)<br></b><div id='e27006587' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Кубок Израиля  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хапоэль Мигдаль-ха-Эмек - Хапоэль И</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 57:94 (15:28 22:19 12:28 8:19)<br></b><div id='e27021496' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Кубок Португалии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Виана/Норталуга - Брага</b><br>
+06.10.2016 02:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 46:87 (17:22 15:21 5:20 9:24)<br></b><div id='e27025544' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Лига ВТБ. До 21 Года  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Енисей Красноярск - ЦСКА Москва</b><br>
+06.10.2016 12:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 60:108 (18:34 14:16 17:24 11:34)<br></b><div id='e27054194' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Аргентины  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Байя Бланка - Кильмес</b><br>
-05.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 107:101 (17:22 26:16 17:26 30:26) Овертайм (17:11)<br></b><div id='e27016320' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эстудиантес Конкордия - Институто</b><br>
-05.10.2016 06:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 58:71 (15:19 9:15 18:17 16:20)<br></b><div id='e27020216' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кимса - Сиклиста Олимпико</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 72:62 (21:17 15:9 25:20 11:16)<br></b><div id='e27034674' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ферро Каррил Оесте - Пеньяроль</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 78:52 (9:12 19:7 23:22 27:11)<br></b><div id='e27034675' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико Эчагуе - Сан-Мартин</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 77:95 (19:18 12:28 19:24 27:25)<br></b><div id='e27039062' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Химнасия Эсгрима - Сан-Лоренсо</b><br>
+06.10.2016 06:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 84:83 (31:19 13:27 21:23 19:14)<br></b><div id='e27039063' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Бельгии  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Антверп Джайентс - Лойвен</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 88:72 (22:12 27:25 24:18 15:17)<br></b><div id='e27002058' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Антверпен-2 - Роял-4 Брюссель</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 101:57 (24:8 26:17 21:18 30:14)<br></b><div id='e27047008' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Бразилии (до 19 лет).  </TD>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Бразилии. Лига Паулиста  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Виннер Лимейра - Гремио Моджиано</b><br>
-05.10.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 63:71 (15:23 17:13 18:18 13:17)<br></b><div id='e27026442' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
-</TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Германии. Про А  </TD>
-</TR>
-<TR><TD vAlign=middle align=left>
-<table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Баунах - Крайльсхайм Мерлинс</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 62:84 (11:24 17:22 13:23 21:15)<br></b><div id='e27020914' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Америка Эспорте - Можи дас Крузес</b><br>
+06.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 71:101 (20:27 15:22 21:22 15:30)<br></b><div id='e27049242' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Виво Франка - Рио Кларо</b><br>
+06.10.2016 05:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 93:56 (23:11 23:22 32:13 15:10)<br></b><div id='e27049337' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Сальвадора  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Брухос де Изалко - Сентро Эдукативо</b><br>
-05.10.2016 07:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 113:77 (38:14 27:12 17:22 31:29)<br></b><div id='e27028440' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Альконес де Сонзакате - Кохуте</b><br>
-05.10.2016 07:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 111:99 (24:26 31:24 22:34 34:15)<br></b><div id='e27028441' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>СД Агуила - Лобос Чалчуапа</b><br>
+06.10.2016 07:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 91:87 (29:18 21:17 14:20 27:32)<br></b><div id='e27049343' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Куэзалтепеке Биомедикал - Арсенсе Биомедикал</b><br>
+06.10.2016 07:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 79:58 (14:11 23:14 9:17 33:16)<br></b><div id='e27049352' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ахенсия де Виахес Бонилья - Гиант</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 64:81 (18:11 22:15 14:21 10:34)<br></b><div id='e27049360' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Уругвая  </TD>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Чили  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сальто - Ферро Кариил</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 68:81 (14:19 15:23 22:19 17:20)<br></b><div id='e27028334' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гоэс - Урундай</b><br>
-05.10.2016 06:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 62:64 (23:16 12:16 13:19 14:13)<br></b><div id='e27020907' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Борхес - Макаби</b><br>
-05.10.2016 06:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 86:67 (21:25 19:14 22:18 24:10)<br></b><div id='e27020908' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Велком - Дефенсор Спортинг</b><br>
-05.10.2016 06:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 69:85 (14:23 19:17 22:29 14:16)<br></b><div id='e27020909' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико Кордон - Бигуа</b><br>
-05.10.2016 06:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 69:77 (18:17 17:18 17:18 17:24)<br></b><div id='e27020910' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
-</TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Франции. Кубок лиги. 2-й дивизион. Групповой этап  </TD>
-</TR>
-<TR><TD vAlign=middle align=left>
-<table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лилль - СТБ Ле Хавре</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 77:61 (17:17 24:11 16:12 20:21)<br></b><div id='e27003488' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Универсидад Католика - Тингуиририка Сан Фернандо</b><br>
+06.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 73:92 (21:20 8:20 21:26 23:26)<br></b><div id='e27038133' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эспаньол де Талка - Универсидад де Консепсион</b><br>
+06.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 85:79 (24:20 16:15 15:28 30:16)<br></b><div id='e27041249' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Южноамериканская лига. Групповой этап  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Паулистано - Трувиль</b><br>
-05.10.2016 03:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 81:66 (16:19 23:16 17:20 25:11)<br></b><div id='e27021621' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гуарос де Лара - Букарос Де Букараманга</b><br>
-05.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 70:46 (18:9 13:6 23:16 16:15)<br></b><div id='e27021622' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Букарос Де Букараманга - Паулистано</b><br>
+06.10.2016 03:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 63:87 (19:17 16:27 14:24 14:19)<br></b><div id='e27044404' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Трувиль - Гуарос де Лара</b><br>
+06.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 78:84 (18:17 16:22 21:15 23:30)<br></b><div id='e27044405' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Бейсбол. MLB. Wild Card Game  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Торонто - Балтимор</b><br>
-05.10.2016 06:08:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 5:2 (0:0 1:0 0:0 0:2 1:0 0:0 0:0 0:0 0:0 3:0)<br></b><div id='e27011620' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Н.Й. Метс - Сан-Франциско</b><br>
+06.10.2016 06:08:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:0 0:0 0:0 0:0 0:0 0:0 0:0 0:0 0:3)<br></b><div id='e27001921' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Аргентина. Лига А1  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сьюдад Буэнос-Айрес - Сан Лоренцо</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3 (21:25 25:14 17:25 21:25)<br></b><div id='e27051185' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Кубок Кaзaхстaнa. Кaрaгaндa  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Иртыш-Казхром - Алтай Усть-Каменогорск-2</b><br>
+06.10.2016 10:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (25:9 25:19 26:24)<br></b><div id='e27053533' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Кубок Казахстана. Алматы  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ВК Алматы - Жетысу</b><br>
+06.10.2016 12:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (29:31 25:16 15:25 25:21 15:9)<br></b><div id='e27040491' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. США. NCAA  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Блэк Хиллз Стэйт - Аугустано</b><br>
-05.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:3 (15:25 21:25 19:25)<br></b><div id='e27031090' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Регис Рэйнджерс - Коларадо Оредиггерс</b><br>
-05.10.2016 06:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:2 (25:15 16:25 21:25 25:19 16:14)<br></b><div id='e27033692' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нью-Мексико Ст. - Техас Эль-Пасо</b><br>
+06.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (26:24 25:23 25:15)<br></b><div id='e27051731' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УСК Троянс - Аризона Стейт</b><br>
+06.10.2016 07:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (25:15 25:18 25:27 25:20)<br></b><div id='e27052542' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Азуса Пасифик - Пойнт Лома</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (23:25 25:16 25:23 25:16)<br></b><div id='e27052752' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чапман - Ла Сьерра</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (26:24 25:23 25:13)<br></b><div id='e27053209' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Товарищеские матчи  </TD>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Чемпионат Аргентины  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нант ВБ - Эврё</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:1 (25:19 25:27 25:15 26:24)<br></b><div id='e27004357' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Амазонес - Тхриамвос Чаидариоу</b><br>
-05.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:3 (26:28 23:25 25:19 21:25)<br></b><div id='e27025534' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Наутико - Ривер Плейт</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (24:26 13:25 20:25)<br></b><div id='e27039044' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Волейбол. Мужчины. Чемпионат Филиппин. Spikers’ Turf  </TD>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Чемпионат Бразилии. Кампеонато Паулиста  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Филиппин Арми - 100Плюс</b><br>
-05.10.2016 10:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:1 (28:26 25:21 19:25 25:18)<br></b><div id='e27023531' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пинейрос - Сан-Бернарду</b><br>
+06.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (25:13 25:14 25:20)<br></b><div id='e27025545' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Валиньос - Сао Каэтано</b><br>
+06.10.2016 04:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (18:25 19:25 20:25)<br></b><div id='e27045236' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Австрии  </TD>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Мужчины. Кубок Словении  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фивер - Юнион Леобэн</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 33:27 (17:14)<br></b><div id='e27003530' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Брегенц - СГ Вествиен</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 25:23 (17:10)<br></b><div id='e27003533' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чрнуче Ач 1 - ГО Волей</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (16:25 25:20 26:24 22:25 16:14)<br></b><div id='e27023631' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Мужчины. Россия. Высшая лига Б  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Подмосковье - Ока</b><br>
+06.10.2016 10:40:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (25:15 25:17 25:14)<br></b><div id='e27054933' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Мужчины. Чемпионат Уругвая  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Албимаррон - Банко Република</b><br>
+06.10.2016 07:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3 (22:25 25:22 25:17 15:25 8:15)<br></b><div id='e27045247' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Дании  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>КИФ Колдинг - Скьерн</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 27:30 (10:13)<br></b><div id='e26981410' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Исландии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>КА Акюрейри - Хаукар</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 26:29 (10:14)<br></b><div id='e27021979' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Валюр Рейкьявик - Фрам</b><br>
+06.10.2016 01:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 31:25 (12:14)<br></b><div id='e27021980' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хафнарфьярдар - Сельфосс</b><br>
+06.10.2016 01:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 32:36 (11:18)<br></b><div id='e27021981' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Испании  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пуэрто Сагунто - Натурхаус Ла Риоха</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 25:28 (13:13)<br></b><div id='e26992954' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Норвегии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Элверум - Будё</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 32:30 (16:15)<br></b><div id='e27003804' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Франции  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Саран - Нант</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 27:31 (11:11)<br></b><div id='e27003626' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ним - Тулуза</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 22:27 (8:15)<br></b><div id='e27003627' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Монпелье - Сессон-Ренн</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 35:28 (18:13)<br></b><div id='e27003628' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кретель - Селестат</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 30:24 (13:9)<br></b><div id='e27003629' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Дартс. Международный. World Grand Prix 2016  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дженкинс Т. - Ван де Пас Б.</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:3<br></b><div id='e26998514' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бантинг С. - Хёйбрехтс К.</b><br>
-05.10.2016 01:08:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:3<br></b><div id='e26998515' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Андерсон Г. - Андерсон К.</b><br>
-05.10.2016 01:48:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:1<br></b><div id='e26998516' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Льюис А. - ван Барневельд Р.</b><br>
-05.10.2016 02:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:3<br></b><div id='e26998517' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Норрис А. - Уитлок С.</b><br>
+06.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3<br></b><div id='e27016202' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Долан Б. - Чизнолл Д.</b><br>
+06.10.2016 01:13:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3<br></b><div id='e27016203' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Уэст С - Гёни Д.</b><br>
+06.10.2016 02:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3<br></b><div id='e27016204' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ван Гервен М. - Уилсон Дж.</b><br>
+06.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0<br></b><div id='e27016205' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. ESL. Europe  </TD>
+<TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. EPICENTER  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>EnVyUs - HellRaisers</b><br>
-05.10.2016 00:06:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (16:10)<br></b><div id='e27019286' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Heroic - FlipSid3</b><br>
-05.10.2016 00:12:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (16:9)<br></b><div id='e27019536' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>NiP - Fnatic</b><br>
-05.10.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 14:16<br></b><div id='e27019765' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Virtus Pro - Mousesports</b><br>
-05.10.2016 01:22:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (8:16)<br></b><div id='e27019759' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>NiP - Fnatic</b><br>
-05.10.2016 02:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 9:16<br></b><div id='e27019770' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Virtus Pro - Mousesports</b><br>
-05.10.2016 02:55:55</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (28:25)<br></b><div id='e27019762' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>HellRaisers - Tengri</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (16:9 11:16)<br></b><div id='e27035556' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. ESL Pro League  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>NIP - FlipSid3</b><br>
+06.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (16:7)<br></b><div id='e27039386' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>EnVyUs - Fnatic</b><br>
+06.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (8:16)<br></b><div id='e27039643' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Mousesports - Heroic</b><br>
+06.10.2016 01:22:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (16:14)<br></b><div id='e27042134' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Natus Vincere - Dignitas</b><br>
+06.10.2016 01:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (8:16)<br></b><div id='e27042109' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Mousesports - Heroic</b><br>
+06.10.2016 02:31:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (16:4)<br></b><div id='e27042221' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Natus Vincere - Dignitas</b><br>
+06.10.2016 02:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (4:16)<br></b><div id='e27042125' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. ESL. North America  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Splyce - Eunited</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (16:14)<br></b><div id='e27020117' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Splyce - Eunited</b><br>
-05.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (16:3)<br></b><div id='e27020207' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>OpTic - CLG</b><br>
-05.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (16:9)<br></b><div id='e27020215' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>OpTic - CLG</b><br>
-05.10.2016 09:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (16:5)<br></b><div id='e27020219' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Immortals - Liquid</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1<br></b><div id='e27042541' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>NRG - Splyce</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 16:4<br></b><div id='e27042553' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>NRG - Splyce</b><br>
+06.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 16:8<br></b><div id='e27039066' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Liquid - Immortals</b><br>
+06.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1<br></b><div id='e27039067' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Winterfox - Splyce</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0<br></b><div id='e27042444' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Renegades - CLG</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0<br></b><div id='e27042874' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Winterfox - Splyce</b><br>
+06.10.2016 09:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0<br></b><div id='e27039068' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Renegades - CLG</b><br>
+06.10.2016 09:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1<br></b><div id='e27039069' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. Gauntlet  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>fnatic Academy - GODSENT Academy</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (16:10)<br></b><div id='e27018075' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>INETKOXTV - Alpha</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (14:16 8:16)<br></b><div id='e27037307' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Киберспорт. Overwatch. Dino PC Challenger  </TD>
+<TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. QuickShot Arena  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ninjas With Attitude - T for Tilt</b><br>
-05.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0<br></b><div id='e27017948' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
-</TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Крикет. Australia Matador One Day Cup  </TD>
-</TR>
-<TR><TD vAlign=middle align=left>
-<table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тасмания - Крикет Аустралиа XI</b><br>
-05.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Тасмания Тайгерс won by 8 wickets.<br></b><div id='e27004717' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Epsilon Hype - Venatores</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (14:16)<br></b><div id='e27037866' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Настольный теннис. Мужчины. Challenger Series  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Деметер Л. - Шрирам С.</b><br>
-05.10.2016 12:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:3 (3:11 9:11 7:11)<br></b><div id='e27025310' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Герольд Г. - Хузяк Й.</b><br>
+06.10.2016 12:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (14:12 12:10 11:2)<br></b><div id='e27047788' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Койич Ф. - Деметер Л.</b><br>
+06.10.2016 13:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3 (5:11 6:11 11:5 11:6 6:11)<br></b><div id='e27047789' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Настольный теннис. Мужчины. Master-tour  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Цыбин А. - Лю Цзы Цянь</b><br>
+06.10.2016 13:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (13:15 9:11 4:11)<br></b><div id='e27055388' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чернобаев С. - Куимов Ф.</b><br>
+06.10.2016 13:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (11:7 9:11 12:10 11:6)<br></b><div id='e27055390' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Настольный теннис. Мужчины. TT-Cup. Украина  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ковалев А. - Масько Е.</b><br>
-05.10.2016 12:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:3 (13:15 7:11 9:11)<br></b><div id='e27036444' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сидорак В. - Довгань Р.</b><br>
+06.10.2016 12:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (11:6 11:9 9:11 10:12 11:7)<br></b><div id='e27055247' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гордий А. - Майовец Р.</b><br>
+06.10.2016 12:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3 (11:6 12:14 6:11 9:11)<br></b><div id='e27055248' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Мехико-Сити. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Флорес Б.-М. - Вацник Дж.</b><br>
-05.10.2016 00:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 4:6)<br></b><div class=rd><a href='javascript:showres(97);'><img id='rd_97' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_97' style='display: none;'>1 сет: 1 гейм - Вацник Дж., 2 гейм - Вацник Дж., 3 гейм - Флорес Б.-М., 4 гейм - Флорес Б.-М., 5 гейм - Флорес Б.-М., 6 гейм - Вацник Дж., 7 гейм - Вацник Дж., 8 гейм - Вацник Дж., 9 гейм - Вацник Дж.<br>2 сет: 1 гейм - Вацник Дж., 2 гейм - Вацник Дж., 3 гейм - Вацник Дж., 4 гейм - Вацник Дж., 5 гейм - Вацник Дж., 6 гейм - Флорес Б.-М., 7 гейм - Флорес Б.-М., 8 гейм - Флорес Б.-М., 9 гейм - Флорес Б.-М., 10 гейм - Вацник Дж.<br></div><div>&nbsp;</div><br><div id='e27013797' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ликок И. - Эрнандо Гутьеррес А.</b><br>
-05.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:1 7:5)<br></b><div class=rd><a href='javascript:showres(100);'><img id='rd_100' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_100' style='display: none;'>1 сет: 1 гейм - Ликок И., 2 гейм - Ликок И., 3 гейм - Эрнандо Гутьеррес А. , 4 гейм - Ликок И., 5 гейм - Ликок И., 6 гейм - Ликок И., 7 гейм - Ликок И.<br>2 сет: 1 гейм - Ликок И., 2 гейм - Эрнандо Гутьеррес А. , 3 гейм - Эрнандо Гутьеррес А. , 4 гейм - Ликок И., 5 гейм - Ликок И., 6 гейм - Эрнандо Гутьеррес А. , 7 гейм - Эрнандо Гутьеррес А. , 8 гейм - Ликок И., 9 гейм - Эрнандо Гутьеррес А. , 10 гейм - Ликок И., 11 гейм - Ликок И., 12 гейм - Ликок И.<br></div><div>&nbsp;</div><br><div id='e27030217' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ротаэче П. - Леон С.</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 6:7)<br></b><div class=rd><a href='javascript:showres(103);'><img id='rd_103' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_103' style='display: none;'>1 сет: 1 гейм - Леон С., 2 гейм - Леон С., 3 гейм - Леон С., 4 гейм - Леон С., 5 гейм - Ротаэче П., 6 гейм - Леон С., 7 гейм - Ротаэче П., 8 гейм - Ротаэче П., 9 гейм - Леон С.<br>2 сет: 1 гейм - Леон С., 2 гейм - Ротаэче П., 3 гейм - Ротаэче П., 4 гейм - Ротаэче П., 5 гейм - Леон С., 6 гейм - Леон С., 7 гейм - Леон С., 8 гейм - Ротаэче П., 9 гейм - Ротаэче П., 10 гейм - Леон С., 11 гейм - Леон С., 12 гейм - Ротаэче П.<br></div><div>&nbsp;</div><br><div id='e27033149' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Немцова C. - Миллан И.-К.</b><br>
+06.10.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:2)<br></b><div class=rd><a href='javascript:showres(106);'><img id='rd_106' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_106' style='display: none;'>1 сет: 1 гейм - Миллан И.-К., 2 гейм - Немцова C., 3 гейм - Миллан И.-К., 4 гейм - Немцова C., 5 гейм - Немцова C., 6 гейм - Немцова C., 7 гейм - Немцова C., 8 гейм - Немцова C.<br>2 сет: 1 гейм - Немцова C., 2 гейм - Немцова C., 3 гейм - Миллан И.-К., 4 гейм - Миллан И.-К., 5 гейм - Немцова C., 6 гейм - Немцова C., 7 гейм - Немцова C., 8 гейм - Немцова C.<br></div><div>&nbsp;</div><br><div id='e27033150' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Элизаррарас Б.-Ю. - Перез Гарсия М.-П.</b><br>
+06.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:6 1:6)<br></b><div class=rd><a href='javascript:showres(109);'><img id='rd_109' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_109' style='display: none;'>1 сет: 1 гейм - Перез Гарсия М.-П., 2 гейм - Перез Гарсия М.-П., 3 гейм - Перез Гарсия М.-П., 4 гейм - Перез Гарсия М.-П., 5 гейм - Перез Гарсия М.-П., 6 гейм - Перез Гарсия М.-П.<br>2 сет: 1 гейм - Элизаррарас Б.-Ю., 2 гейм - Перез Гарсия М.-П., 3 гейм - Перез Гарсия М.-П., 4 гейм - Перез Гарсия М.-П., 5 гейм - Перез Гарсия М.-П., 6 гейм - Перез Гарсия М.-П., 7 гейм - Перез Гарсия М.-П.<br></div><div>&nbsp;</div><br><div id='e27033151' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тотка Н. - Кисено В.</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:4 7:5)<br></b><div class=rd><a href='javascript:showres(112);'><img id='rd_112' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_112' style='display: none;'>1 сет: 1 гейм - Тотка Н., 2 гейм - Кисено В., 3 гейм - Тотка Н., 4 гейм - Тотка Н., 5 гейм - Кисено В., 6 гейм - Тотка Н., 7 гейм - Кисено В., 8 гейм - Кисено В., 9 гейм - Тотка Н., 10 гейм - Тотка Н.<br>2 сет: 1 гейм - Тотка Н., 2 гейм - Тотка Н., 3 гейм - Кисено В., 4 гейм - Тотка Н., 5 гейм - Тотка Н., 6 гейм - Тотка Н., 7 гейм - Кисено В., 8 гейм - Кисено В., 9 гейм - Кисено В., 10 гейм - Кисено В., 11 гейм - Тотка Н., 12 гейм - Тотка Н.<br></div><div>&nbsp;</div><br><div id='e27033152' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Пары. Мехико-Сити. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пеус Р. /Санчес А. - Миллан И.-К./Гарсия К.</b><br>
-05.10.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (6:4 3:6 1:0)<br></b><div class=rd><a href='javascript:showres(103);'><img id='rd_103' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_103' style='display: none;'>1 сет: 1 гейм - Миллан И.-К./Гарсия К., 2 гейм - Пеус Р. /Санчес А., 3 гейм - Пеус Р. /Санчес А., 4 гейм - Пеус Р. /Санчес А., 5 гейм - Пеус Р. /Санчес А., 6 гейм - Пеус Р. /Санчес А., 7 гейм - Миллан И.-К./Гарсия К., 8 гейм - Миллан И.-К./Гарсия К., 9 гейм - Миллан И.-К./Гарсия К., 10 гейм - Пеус Р. /Санчес А.<br>2 сет: 1 гейм - Пеус Р. /Санчес А., 2 гейм - Миллан И.-К./Гарсия К., 3 гейм - Миллан И.-К./Гарсия К., 4 гейм - Пеус Р. /Санчес А., 5 гейм - Миллан И.-К./Гарсия К., 6 гейм - Миллан И.-К./Гарсия К., 7 гейм - Миллан И.-К./Гарсия К., 8 гейм - Пеус Р. /Санчес А., 9 гейм - Миллан И.-К./Гарсия К.<br>3 сет: 1 гейм - Пеус Р. /Санчес А.<br></div><div>&nbsp;</div><br><div id='e27022328' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Немцова С./Тотка Н. - Люк С./Соса М.</b><br>
-05.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:0)<br></b><div class=rd><a href='javascript:showres(107);'><img id='rd_107' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_107' style='display: none;'>1 сет: 1 гейм - Немцова С./Тотка Н., 2 гейм - Немцова С./Тотка Н., 3 гейм - Люк С./Соса М., 4 гейм - Немцова С./Тотка Н., 5 гейм - Немцова С./Тотка Н., 6 гейм - Немцова С./Тотка Н., 7 гейм - Немцова С./Тотка Н.<br>2 сет: 1 гейм - Немцова С./Тотка Н., 2 гейм - Немцова С./Тотка Н., 3 гейм - Немцова С./Тотка Н., 4 гейм - Немцова С./Тотка Н., 5 гейм - Немцова С./Тотка Н., 6 гейм - Немцова С./Тотка Н.<br></div><div>&nbsp;</div><br><div id='e27022329' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гузман А./Ротаече П. - Леон С./Закариас М.</b><br>
-05.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 3:6)<br></b><div class=rd><a href='javascript:showres(110);'><img id='rd_110' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_110' style='display: none;'>1 сет: 1 гейм - Гузман А./Ротаече П., 2 гейм - Гузман А./Ротаече П., 3 гейм - Леон С./Закариас М., 4 гейм - Гузман А./Ротаече П., 5 гейм - Леон С./Закариас М., 6 гейм - Леон С./Закариас М., 7 гейм - Леон С./Закариас М., 8 гейм - Леон С./Закариас М., 9 гейм - Леон С./Закариас М.<br>2 сет: 1 гейм - Гузман А./Ротаече П., 2 гейм - Гузман А./Ротаече П., 3 гейм - Леон С./Закариас М., 4 гейм - Леон С./Закариас М., 5 гейм - Леон С./Закариас М., 6 гейм - Леон С./Закариас М., 7 гейм - Гузман А./Ротаече П., 8 гейм - Леон С./Закариас М., 9 гейм - Леон С./Закариас М.<br></div><div>&nbsp;</div><br><div id='e27022330' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бекташ Э./Вацник Дж. - Перез-Гарсия М. П./Квисено В.</b><br>
-05.10.2016 04:40:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:0 6:3)<br></b><div class=rd><a href='javascript:showres(113);'><img id='rd_113' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_113' style='display: none;'>1 сет: 1 гейм - Бекташ Э./Вацник Дж., 2 гейм - Бекташ Э./Вацник Дж., 3 гейм - Бекташ Э./Вацник Дж., 4 гейм - Бекташ Э./Вацник Дж., 5 гейм - Бекташ Э./Вацник Дж., 6 гейм - Бекташ Э./Вацник Дж.<br>2 сет: 1 гейм - Перез-Гарсия М. П./Квисено В., 2 гейм - Бекташ Э./Вацник Дж., 3 гейм - Перез-Гарсия М. П./Квисено В., 4 гейм - Бекташ Э./Вацник Дж., 5 гейм - Бекташ Э./Вацник Дж., 6 гейм - Бекташ Э./Вацник Дж., 7 гейм - Перез-Гарсия М. П./Квисено В., 8 гейм - Бекташ Э./Вацник Дж., 9 гейм - Бекташ Э./Вацник Дж.<br></div><div>&nbsp;</div><br><div id='e27022331' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Франко Х./Галиндо Р. - Леон С./Закариас М.</b><br>
+06.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (1:6 2:6)<br></b><div class=rd><a href='javascript:showres(115);'><img id='rd_115' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_115' style='display: none;'>1 сет: 1 гейм - Леон С./Закариас М., 2 гейм - Франко Х./Галиндо Р., 3 гейм - Леон С./Закариас М., 4 гейм - Леон С./Закариас М., 5 гейм - Леон С./Закариас М., 6 гейм - Леон С./Закариас М., 7 гейм - Леон С./Закариас М.<br>2 сет: 1 гейм - Леон С./Закариас М., 2 гейм - Леон С./Закариас М., 3 гейм - Франко Х./Галиндо Р., 4 гейм - Леон С./Закариас М., 5 гейм - Франко Х./Галиндо Р., 6 гейм - Леон С./Закариас М., 7 гейм - Леон С./Закариас М., 8 гейм - Леон С./Закариас М.<br></div><div>&nbsp;</div><br><div id='e27040855' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пеус Р. /Санчес А. - Коутиньо Кастильо А./Родригез В.</b><br>
+06.10.2016 04:40:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (2:6 0:6)<br></b><div class=rd><a href='javascript:showres(118);'><img id='rd_118' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_118' style='display: none;'>1 сет: 1 гейм - Пеус Р. /Санчес А., 2 гейм - Коутиньо Кастильо А./Родригез В., 3 гейм - Пеус Р. /Санчес А., 4 гейм - Коутиньо Кастильо А./Родригез В., 5 гейм - Коутиньо Кастильо А./Родригез В., 6 гейм - Коутиньо Кастильо А./Родригез В., 7 гейм - Коутиньо Кастильо А./Родригез В., 8 гейм - Коутиньо Кастильо А./Родригез В.<br>2 сет: 1 гейм - Коутиньо Кастильо А./Родригез В., 2 гейм - Коутиньо Кастильо А./Родригез В., 3 гейм - Коутиньо Кастильо А./Родригез В., 4 гейм - Коутиньо Кастильо А./Родригез В., 5 гейм - Коутиньо Кастильо А./Родригез В., 6 гейм - Коутиньо Кастильо А./Родригез В.<br></div><div>&nbsp;</div><br><div id='e27040856' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Пары. Реддинг. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ван Нгуйен Ш./Юровски Р. - Кристи Ф./Робсон Л.</b><br>
-05.10.2016 01:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:5 7:5)<br></b><div class=rd><a href='javascript:showres(116);'><img id='rd_116' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_116' style='display: none;'>1 сет: 1 гейм - Кристи Ф./Робсон Л., 2 гейм - Ван Нгуйен Ш./Юровски Р., 3 гейм - Кристи Ф./Робсон Л., 4 гейм - Ван Нгуйен Ш./Юровски Р., 5 гейм - Ван Нгуйен Ш./Юровски Р., 6 гейм - Кристи Ф./Робсон Л., 7 гейм - Кристи Ф./Робсон Л., 8 гейм - Кристи Ф./Робсон Л., 9 гейм - Ван Нгуйен Ш./Юровски Р., 10 гейм - Ван Нгуйен Ш./Юровски Р., 11 гейм - Ван Нгуйен Ш./Юровски Р., 12 гейм - Ван Нгуйен Ш./Юровски Р.<br>2 сет: 1 гейм - Ван Нгуйен Ш./Юровски Р., 2 гейм - Кристи Ф./Робсон Л., 3 гейм - Кристи Ф./Робсон Л., 4 гейм - Ван Нгуйен Ш./Юровски Р., 5 гейм - Ван Нгуйен Ш./Юровски Р., 6 гейм - Кристи Ф./Робсон Л., 7 гейм - Кристи Ф./Робсон Л., 8 гейм - Ван Нгуйен Ш./Юровски Р., 9 гейм - Ван Нгуйен Ш./Юровски Р., 10 гейм - Кристи Ф./Робсон Л., 11 гейм - Ван Нгуйен Ш./Юровски Р., 12 гейм - Ван Нгуйен Ш./Юровски Р.<br></div><div>&nbsp;</div><br><div id='e27023401' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лайне Э./Веселинович А. - Абанда Ф./Викери С.</b><br>
-05.10.2016 01:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (4:6 7:6 1:0)<br></b><div class=rd><a href='javascript:showres(119);'><img id='rd_119' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_119' style='display: none;'>1 сет: 1 гейм - Лайне Э./Веселинович А., 2 гейм - Лайне Э./Веселинович А., 3 гейм - Лайне Э./Веселинович А., 4 гейм - Абанда Ф./Викери С., 5 гейм - Абанда Ф./Викери С., 6 гейм - Лайне Э./Веселинович А., 7 гейм - Абанда Ф./Викери С., 8 гейм - Абанда Ф./Викери С., 9 гейм - Абанда Ф./Викери С., 10 гейм - Абанда Ф./Викери С.<br>2 сет: 1 гейм - Лайне Э./Веселинович А., 2 гейм - Абанда Ф./Викери С., 3 гейм - Лайне Э./Веселинович А., 4 гейм - Абанда Ф./Викери С., 5 гейм - Абанда Ф./Викери С., 6 гейм - Абанда Ф./Викери С., 7 гейм - Лайне Э./Веселинович А., 8 гейм - Лайне Э./Веселинович А., 9 гейм - Лайне Э./Веселинович А., 10 гейм - Абанда Ф./Викери С., 11 гейм - Абанда Ф./Викери С., 12 гейм - Лайне Э./Веселинович А.<br>3 сет: 1 гейм - Лайне Э./Веселинович А.<br></div><div>&nbsp;</div><br><div id='e27023402' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фейси А./Фейси К. - Босио В./Санчес Палау А. С.</b><br>
-05.10.2016 02:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:0)<br></b><div class=rd><a href='javascript:showres(123);'><img id='rd_123' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_123' style='display: none;'>1 сет: 1 гейм - Босио В./Санчес Палау А. С., 2 гейм - Фейси А./Фейси К., 3 гейм - Фейси А./Фейси К., 4 гейм - Босио В./Санчес Палау А. С., 5 гейм - Фейси А./Фейси К., 6 гейм - Фейси А./Фейси К., 7 гейм - Босио В./Санчес Палау А. С., 8 гейм - Фейси А./Фейси К., 9 гейм - Босио В./Санчес Палау А. С., 10 гейм - Фейси А./Фейси К.<br>2 сет: 1 гейм - Фейси А./Фейси К., 2 гейм - Фейси А./Фейси К., 3 гейм - Фейси А./Фейси К., 4 гейм - Фейси А./Фейси К., 5 гейм - Фейси А./Фейси К., 6 гейм - Фейси А./Фейси К.<br></div><div>&nbsp;</div><br><div id='e27023403' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Каур П./Мккорд Я. - Хиби М./Ланчук Е.</b><br>
-05.10.2016 03:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27023404' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Борен Б./Кратзер А. - Дарт Х./Шаедер Л.</b><br>
-05.10.2016 03:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (7:5 2:6 0:1)<br></b><div class=rd><a href='javascript:showres(127);'><img id='rd_127' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_127' style='display: none;'>1 сет: 1 гейм - Дарт Х./Шаедер Л., 2 гейм - Дарт Х./Шаедер Л., 3 гейм - Борен Б./Кратзер А., 4 гейм - Борен Б./Кратзер А., 5 гейм - Дарт Х./Шаедер Л., 6 гейм - Дарт Х./Шаедер Л., 7 гейм - Борен Б./Кратзер А., 8 гейм - Дарт Х./Шаедер Л., 9 гейм - Борен Б./Кратзер А., 10 гейм - Борен Б./Кратзер А., 11 гейм - Борен Б./Кратзер А., 12 гейм - Борен Б./Кратзер А.<br>2 сет: 1 гейм - Дарт Х./Шаедер Л., 2 гейм - Дарт Х./Шаедер Л., 3 гейм - Борен Б./Кратзер А., 4 гейм - Дарт Х./Шаедер Л., 5 гейм - Борен Б./Кратзер А., 6 гейм - Дарт Х./Шаедер Л., 7 гейм - Дарт Х./Шаедер Л., 8 гейм - Дарт Х./Шаедер Л.<br>3 сет: 1 гейм - Дарт Х./Шаедер Л.<br></div><div>&nbsp;</div><br><div id='e27023405' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кравчук Д./Олмос Г. - Эльбаба Дж./Пера Б.</b><br>
-05.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:6 4:6)<br></b><div class=rd><a href='javascript:showres(131);'><img id='rd_131' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_131' style='display: none;'>1 сет: 1 гейм - Кравчук Д./Олмос Г., 2 гейм - Эльбаба Дж./Пера Б., 3 гейм - Кравчук Д./Олмос Г., 4 гейм - Эльбаба Дж./Пера Б., 5 гейм - Кравчук Д./Олмос Г., 6 гейм - Эльбаба Дж./Пера Б., 7 гейм - Эльбаба Дж./Пера Б., 8 гейм - Кравчук Д./Олмос Г., 9 гейм - Эльбаба Дж./Пера Б., 10 гейм - Эльбаба Дж./Пера Б.<br>2 сет: 1 гейм - Эльбаба Дж./Пера Б., 2 гейм - Эльбаба Дж./Пера Б., 3 гейм - Кравчук Д./Олмос Г., 4 гейм - Эльбаба Дж./Пера Б., 5 гейм - Кравчук Д./Олмос Г., 6 гейм - Эльбаба Дж./Пера Б., 7 гейм - Кравчук Д./Олмос Г., 8 гейм - Эльбаба Дж./Пера Б., 9 гейм - Кравчук Д./Олмос Г., 10 гейм - Эльбаба Дж./Пера Б.<br></div><div>&nbsp;</div><br><div id='e27024329' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Каур П./Мккорд Я. - Бургич Бучко Э./Сантамария С.</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (2:6 0:6)<br></b><div class=rd><a href='javascript:showres(121);'><img id='rd_121' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_121' style='display: none;'>1 сет: 1 гейм - Каур П./Мккорд Я., 2 гейм - Бургич Бучко Э./Сантамария С., 3 гейм - Каур П./Мккорд Я., 4 гейм - Бургич Бучко Э./Сантамария С., 5 гейм - Бургич Бучко Э./Сантамария С., 6 гейм - Бургич Бучко Э./Сантамария С., 7 гейм - Бургич Бучко Э./Сантамария С., 8 гейм - Бургич Бучко Э./Сантамария С.<br>2 сет: 1 гейм - Бургич Бучко Э./Сантамария С., 2 гейм - Бургич Бучко Э./Сантамария С., 3 гейм - Бургич Бучко Э./Сантамария С., 4 гейм - Бургич Бучко Э./Сантамария С., 5 гейм - Бургич Бучко Э./Сантамария С., 6 гейм - Бургич Бучко Э./Сантамария С.<br></div><div>&nbsp;</div><br><div id='e27040866' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Пары. Хилтон-Хед-Айленд. Грунт  </TD>
+<TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Пары. Таракан. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Анхелуску А./Вудард К. - Хо Дж./Люсеро К.</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:3)<br></b><div id='e27023386' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Берьяне Ф./Наит Омар З. - Кухарчук Н./Шмидт М.</b><br>
-05.10.2016 00:40:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (0:6 3:6)<br></b><div class=rd><a href='javascript:showres(135);'><img id='rd_135' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_135' style='display: none;'>1 сет: 1 гейм - Кухарчук Н./Шмидт М., 2 гейм - Кухарчук Н./Шмидт М., 3 гейм - Кухарчук Н./Шмидт М., 4 гейм - Кухарчук Н./Шмидт М., 5 гейм - Кухарчук Н./Шмидт М., 6 гейм - Кухарчук Н./Шмидт М.<br>2 сет: 1 гейм - Кухарчук Н./Шмидт М., 2 гейм - Кухарчук Н./Шмидт М., 3 гейм - Кухарчук Н./Шмидт М., 4 гейм - Кухарчук Н./Шмидт М., 5 гейм - Берьяне Ф./Наит Омар З., 6 гейм - Берьяне Ф./Наит Омар З., 7 гейм - Кухарчук Н./Шмидт М., 8 гейм - Берьяне Ф./Наит Омар З., 9 гейм - Кухарчук Н./Шмидт М.<br></div><div>&nbsp;</div><br><div id='e27023374' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бортлз А./Льюис Дж. - Блэйк Э./Киссел Дж.</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:1)<br></b><div id='e27022822' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Окуда А./Уберой Н. - Ледю К./Поланска П.</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:6 6:4)<br></b><div id='e27023385' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нг К.-Я./Шао И. - Вайдя К./Вань Д.-Н.</b><br>
+06.10.2016 11:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (2:6 4:6)<br></b><div id='e27044744' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Пары. Тувумба. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Глушко Ю./Родионова Ар. - Брешиа Г./Талкотт С.</b><br>
+06.10.2016 10:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:3)<br></b><div class=rd><a href='javascript:showres(125);'><img id='rd_125' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_125' style='display: none;'>1 сет: 1 гейм - Глушко Ю./Родионова Ар., 2 гейм - Глушко Ю./Родионова Ар., 3 гейм - Брешиа Г./Талкотт С., 4 гейм - Глушко Ю./Родионова Ар., 5 гейм - Брешиа Г./Талкотт С., 6 гейм - Глушко Ю./Родионова Ар., 7 гейм - Глушко Ю./Родионова Ар., 8 гейм - Брешиа Г./Талкотт С., 9 гейм - Глушко Ю./Родионова Ар.<br></div><div>&nbsp;</div><br><div id='e27041876' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Аюкова М./Баи А. - Галфи Д./Кузмова В.</b><br>
+06.10.2016 10:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 3:6)<br></b><div class=rd><a href='javascript:showres(127);'><img id='rd_127' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_127' style='display: none;'>1 сет: 1 гейм - Галфи Д./Кузмова В., 2 гейм - Галфи Д./Кузмова В., 3 гейм - Галфи Д./Кузмова В., 4 гейм - Галфи Д./Кузмова В., 5 гейм - Аюкова М./Баи А., 6 гейм - Аюкова М./Баи А., 7 гейм - Аюкова М./Баи А., 8 гейм - Галфи Д./Кузмова В., 9 гейм - Галфи Д./Кузмова В.<br>2 сет: 1 гейм - Галфи Д./Кузмова В., 2 гейм - Аюкова М./Баи А., 3 гейм - Галфи Д./Кузмова В., 4 гейм - Галфи Д./Кузмова В., 5 гейм - Галфи Д./Кузмова В., 6 гейм - Аюкова М./Баи А., 7 гейм - Галфи Д./Кузмова В., 8 гейм - Аюкова М./Баи А., 9 гейм - Галфи Д./Кузмова В.<br></div><div>&nbsp;</div><br><div id='e27041879' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Да Сильва Фик Г./Хает М. - Се Г./Михалкова Т.</b><br>
+06.10.2016 11:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 3:6)<br></b><div class=rd><a href='javascript:showres(130);'><img id='rd_130' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_130' style='display: none;'>1 сет: 1 гейм - Да Сильва Фик Г./Хает М., 2 гейм - Да Сильва Фик Г./Хает М., 3 гейм - Се Г./Михалкова Т., 4 гейм - Се Г./Михалкова Т., 5 гейм - Се Г./Михалкова Т., 6 гейм - Се Г./Михалкова Т., 7 гейм - Да Сильва Фик Г./Хает М., 8 гейм - Се Г./Михалкова Т., 9 гейм - Се Г./Михалкова Т.<br>2 сет: 1 гейм - Се Г./Михалкова Т., 2 гейм - Да Сильва Фик Г./Хает М., 3 гейм - Се Г./Михалкова Т., 4 гейм - Се Г./Михалкова Т., 5 гейм - Да Сильва Фик Г./Хает М., 6 гейм - Да Сильва Фик Г./Хает М., 7 гейм - Се Г./Михалкова Т., 8 гейм - Се Г./Михалкова Т., 9 гейм - Се Г./Михалкова Т.<br></div><div>&nbsp;</div><br><div id='e27041741' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Аиава Д./ Смит А. - Бэйнс Н./Майерс А.</b><br>
+06.10.2016 11:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (6:3 1:6 1:0)<br></b><div class=rd><a href='javascript:showres(133);'><img id='rd_133' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_133' style='display: none;'>1 сет: 1 гейм - Аиава Д./ Смит А., 2 гейм - Аиава Д./ Смит А., 3 гейм - Бэйнс Н./Майерс А., 4 гейм - Аиава Д./ Смит А., 5 гейм - Аиава Д./ Смит А., 6 гейм - Аиава Д./ Смит А., 7 гейм - Бэйнс Н./Майерс А., 8 гейм - Бэйнс Н./Майерс А., 9 гейм - Аиава Д./ Смит А.<br>2 сет: 1 гейм - Аиава Д./ Смит А., 2 гейм - Бэйнс Н./Майерс А., 3 гейм - Бэйнс Н./Майерс А., 4 гейм - Бэйнс Н./Майерс А., 5 гейм - Бэйнс Н./Майерс А., 6 гейм - Бэйнс Н./Майерс А., 7 гейм - Бэйнс Н./Майерс А.<br>3 сет: 1 гейм - Аиава Д./ Смит А.<br></div><div>&nbsp;</div><br><div id='e27041878' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Пары. Шарм-Эль-Шейх. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мелисс В./Вайсс А. - Бекефи Б./Жлавикович З.</b><br>
-05.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (6:4 4:6 1:0)<br></b><div class=rd><a href='javascript:showres(140);'><img id='rd_140' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_140' style='display: none;'>1 сет: 1 гейм - Мелисс В./Вайсс А., 2 гейм - Мелисс В./Вайсс А., 3 гейм - Бекефи Б./Жлавикович З., 4 гейм - Бекефи Б./Жлавикович З., 5 гейм - Мелисс В./Вайсс А., 6 гейм - Мелисс В./Вайсс А., 7 гейм - Мелисс В./Вайсс А., 8 гейм - Бекефи Б./Жлавикович З., 9 гейм - Бекефи Б./Жлавикович З., 10 гейм - Мелисс В./Вайсс А.<br>2 сет: 1 гейм - Бекефи Б./Жлавикович З., 2 гейм - Бекефи Б./Жлавикович З., 3 гейм - Мелисс В./Вайсс А., 4 гейм - Бекефи Б./Жлавикович З., 5 гейм - Мелисс В./Вайсс А., 6 гейм - Бекефи Б./Жлавикович З., 7 гейм - Мелисс В./Вайсс А., 8 гейм - Мелисс В./Вайсс А., 9 гейм - Бекефи Б./Жлавикович З., 10 гейм - Бекефи Б./Жлавикович З.<br>3 сет: 1 гейм - Мелисс В./Вайсс А.<br></div><div>&nbsp;</div><br><div id='e27008963' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кадагидзе А./Вагнер Ж. - Чарник П./Секулич С.-Р.</b><br>
+06.10.2016 00:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27029322' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хердзелаш Д./Самир С. - Бонич Б./Кадар Е.-Т.</b><br>
+06.10.2016 01:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (6:3 1:6 0:1)<br></b><div class=rd><a href='javascript:showres(138);'><img id='rd_138' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_138' style='display: none;'>1 сет: 1 гейм - Бонич Б./Кадар Е.-Т., 2 гейм - Бонич Б./Кадар Е.-Т., 3 гейм - Хердзелаш Д./Самир С., 4 гейм - Хердзелаш Д./Самир С., 5 гейм - Хердзелаш Д./Самир С., 6 гейм - Хердзелаш Д./Самир С., 7 гейм - Хердзелаш Д./Самир С., 8 гейм - Бонич Б./Кадар Е.-Т., 9 гейм - Хердзелаш Д./Самир С.<br>2 сет: 1 гейм - Хердзелаш Д./Самир С., 2 гейм - Бонич Б./Кадар Е.-Т., 3 гейм - Бонич Б./Кадар Е.-Т., 4 гейм - Бонич Б./Кадар Е.-Т., 5 гейм - Бонич Б./Кадар Е.-Т., 6 гейм - Бонич Б./Кадар Е.-Т., 7 гейм - Бонич Б./Кадар Е.-Т.<br>3 сет: 1 гейм - Бонич Б./Кадар Е.-Т.<br></div><div>&nbsp;</div><br><div id='e27029321' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Пары. Шымкент. Грунт  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Прибилова А./Стойр Дж. - Яковлева А./Мун В.</b><br>
+06.10.2016 11:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:3)<br></b><div class=rd><a href='javascript:showres(142);'><img id='rd_142' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_142' style='display: none;'>1 сет: 1 гейм - Яковлева А./Мун В., 2 гейм - Яковлева А./Мун В., 3 гейм - Прибилова А./Стойр Дж., 4 гейм - Прибилова А./Стойр Дж., 5 гейм - Яковлева А./Мун В., 6 гейм - Прибилова А./Стойр Дж., 7 гейм - Прибилова А./Стойр Дж., 8 гейм - Прибилова А./Стойр Дж., 9 гейм - Прибилова А./Стойр Дж.<br>2 сет: 1 гейм - Прибилова А./Стойр Дж., 2 гейм - Яковлева А./Мун В., 3 гейм - Прибилова А./Стойр Дж., 4 гейм - Прибилова А./Стойр Дж., 5 гейм - Яковлева А./Мун В., 6 гейм - Прибилова А./Стойр Дж., 7 гейм - Прибилова А./Стойр Дж., 8 гейм - Яковлева А./Мун В., 9 гейм - Прибилова А./Стойр Дж.<br></div><div>&nbsp;</div><br><div id='e27045473' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Реддинг. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Зайя А. - Хиби М.</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (3:6 6:1 6:3)<br></b><div class=rd><a href='javascript:showres(144);'><img id='rd_144' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_144' style='display: none;'>1 сет: 1 гейм - Хиби М., 2 гейм - Хиби М., 3 гейм - Зайя А., 4 гейм - Хиби М., 5 гейм - Зайя А., 6 гейм - Хиби М., 7 гейм - Зайя А., 8 гейм - Хиби М., 9 гейм - Хиби М.<br>2 сет: 1 гейм - Зайя А., 2 гейм - Зайя А., 3 гейм - Зайя А., 4 гейм - Зайя А., 5 гейм - Хиби М., 6 гейм - Зайя А., 7 гейм - Зайя А.<br>3 сет: 1 гейм - Зайя А., 2 гейм - Хиби М., 3 гейм - Зайя А., 4 гейм - Зайя А., 5 гейм - Зайя А., 6 гейм - Хиби М., 7 гейм - Зайя А., 8 гейм - Хиби М., 9 гейм - Зайя А.<br></div><div>&nbsp;</div><br><div id='e27022358' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кратцер Э. - Пера Б.</b><br>
-05.10.2016 00:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:6 0:6)<br></b><div class=rd><a href='javascript:showres(148);'><img id='rd_148' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_148' style='display: none;'>1 сет: 1 гейм - Кратцер Э., 2 гейм - Пера Б., 3 гейм - Кратцер Э., 4 гейм - Пера Б., 5 гейм - Кратцер Э., 6 гейм - Пера Б., 7 гейм - Пера Б., 8 гейм - Кратцер Э., 9 гейм - Пера Б., 10 гейм - Пера Б.<br>2 сет: 1 гейм - Пера Б., 2 гейм - Пера Б., 3 гейм - Пера Б., 4 гейм - Пера Б., 5 гейм - Пера Б., 6 гейм - Пера Б.<br></div><div>&nbsp;</div><br><div id='e27022356' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Заразуа Р. - Эльбаба Дж.</b><br>
-05.10.2016 00:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (1:6 3:6)<br></b><div class=rd><a href='javascript:showres(151);'><img id='rd_151' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_151' style='display: none;'>1 сет: 1 гейм - Эльбаба Дж., 2 гейм - Эльбаба Дж., 3 гейм - Эльбаба Дж., 4 гейм - Эльбаба Дж., 5 гейм - Заразуа Р., 6 гейм - Эльбаба Дж., 7 гейм - Эльбаба Дж.<br>2 сет: 1 гейм - Эльбаба Дж., 2 гейм - Эльбаба Дж., 3 гейм - Эльбаба Дж., 4 гейм - Эльбаба Дж., 5 гейм - Заразуа Р., 6 гейм - Эльбаба Дж., 7 гейм - Заразуа Р., 8 гейм - Заразуа Р., 9 гейм - Эльбаба Дж.<br></div><div>&nbsp;</div><br><div id='e27022357' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сантамария С. - Чанг Х.</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (3:6 6:1 4:6)<br></b><div class=rd><a href='javascript:showres(145);'><img id='rd_145' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_145' style='display: none;'>1 сет: 1 гейм - Сантамария С., 2 гейм - Чанг Х., 3 гейм - Сантамария С., 4 гейм - Чанг Х., 5 гейм - Сантамария С., 6 гейм - Чанг Х., 7 гейм - Чанг Х., 8 гейм - Чанг Х., 9 гейм - Чанг Х.<br>2 сет: 1 гейм - Сантамария С., 2 гейм - Чанг Х., 3 гейм - Сантамария С., 4 гейм - Сантамария С., 5 гейм - Сантамария С., 6 гейм - Сантамария С., 7 гейм - Сантамария С.<br>3 сет: 1 гейм - Сантамария С., 2 гейм - Сантамария С., 3 гейм - Чанг Х., 4 гейм - Чанг Х., 5 гейм - Сантамария С., 6 гейм - Сантамария С., 7 гейм - Чанг Х., 8 гейм - Чанг Х., 9 гейм - Чанг Х., 10 гейм - Чанг Х.<br></div><div>&nbsp;</div><br><div id='e27040711' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Врлич А. - Бултер К.</b><br>
+06.10.2016 00:40:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (2:6 1:6)<br></b><div class=rd><a href='javascript:showres(149);'><img id='rd_149' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_149' style='display: none;'>1 сет: 1 гейм - Бултер К., 2 гейм - Врлич А., 3 гейм - Бултер К., 4 гейм - Бултер К., 5 гейм - Бултер К., 6 гейм - Врлич А., 7 гейм - Бултер К., 8 гейм - Бултер К.<br>2 сет: 1 гейм - Бултер К., 2 гейм - Бултер К., 3 гейм - Бултер К., 4 гейм - Бултер К., 5 гейм - Бултер К., 6 гейм - Врлич А., 7 гейм - Бултер К.<br></div><div>&nbsp;</div><br><div id='e27040712' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Викери С. - Сэнфорд А.</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:2)<br></b><div class=rd><a href='javascript:showres(152);'><img id='rd_152' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_152' style='display: none;'>1 сет: 1 гейм - Викери С., 2 гейм - Викери С., 3 гейм - Викери С., 4 гейм - Викери С., 5 гейм - Сэнфорд А., 6 гейм - Викери С., 7 гейм - Викери С.<br>2 сет: 1 гейм - Викери С., 2 гейм - Викери С., 3 гейм - Викери С., 4 гейм - Викери С., 5 гейм - Сэнфорд А., 6 гейм - Сэнфорд А., 7 гейм - Викери С., 8 гейм - Викери С.<br></div><div>&nbsp;</div><br><div id='e27040710' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ван Нгуен Ч. - Шаедер Л.</b><br>
+06.10.2016 02:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (6:2 1:6 1:6)<br></b><div class=rd><a href='javascript:showres(155);'><img id='rd_155' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_155' style='display: none;'>1 сет: 1 гейм - Ван Нгуен Ч., 2 гейм - Ван Нгуен Ч., 3 гейм - Ван Нгуен Ч., 4 гейм - Шаедер Л., 5 гейм - Ван Нгуен Ч., 6 гейм - Шаедер Л., 7 гейм - Ван Нгуен Ч., 8 гейм - Ван Нгуен Ч.<br>2 сет: 1 гейм - Шаедер Л., 2 гейм - Шаедер Л., 3 гейм - Шаедер Л., 4 гейм - Ван Нгуен Ч., 5 гейм - Шаедер Л., 6 гейм - Шаедер Л., 7 гейм - Шаедер Л.<br>3 сет: 1 гейм - Шаедер Л., 2 гейм - Шаедер Л., 3 гейм - Шаедер Л., 4 гейм - Шаедер Л., 5 гейм - Шаедер Л., 6 гейм - Ван Нгуен Ч., 7 гейм - Шаедер Л.<br></div><div>&nbsp;</div><br><div id='e27048036' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Симмондс Ш. - Каратанчева С.</b><br>
+06.10.2016 02:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 2:6)<br></b><div class=rd><a href='javascript:showres(159);'><img id='rd_159' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_159' style='display: none;'>1 сет: 1 гейм - Симмондс Ш., 2 гейм - Каратанчева С., 3 гейм - Симмондс Ш., 4 гейм - Каратанчева С., 5 гейм - Каратанчева С., 6 гейм - Каратанчева С., 7 гейм - Каратанчева С., 8 гейм - Симмондс Ш., 9 гейм - Каратанчева С.<br>2 сет: 1 гейм - Симмондс Ш., 2 гейм - Каратанчева С., 3 гейм - Каратанчева С., 4 гейм - Каратанчева С., 5 гейм - Каратанчева С., 6 гейм - Каратанчева С., 7 гейм - Симмондс Ш., 8 гейм - Каратанчева С.<br></div><div>&nbsp;</div><br><div id='e27040859' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Олмос Г. - Кристи Ф.</b><br>
+06.10.2016 02:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (6:4 3:6 6:2)<br></b><div class=rd><a href='javascript:showres(162);'><img id='rd_162' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_162' style='display: none;'>1 сет: 1 гейм - Кристи Ф., 2 гейм - Олмос Г., 3 гейм - Кристи Ф., 4 гейм - Олмос Г., 5 гейм - Кристи Ф., 6 гейм - Олмос Г., 7 гейм - Олмос Г., 8 гейм - Олмос Г., 9 гейм - Кристи Ф., 10 гейм - Олмос Г.<br>2 сет: 1 гейм - Кристи Ф., 2 гейм - Олмос Г., 3 гейм - Кристи Ф., 4 гейм - Кристи Ф., 5 гейм - Кристи Ф., 6 гейм - Олмос Г., 7 гейм - Кристи Ф., 8 гейм - Олмос Г., 9 гейм - Кристи Ф.<br>3 сет: 1 гейм - Олмос Г., 2 гейм - Олмос Г., 3 гейм - Олмос Г., 4 гейм - Кристи Ф., 5 гейм - Олмос Г., 6 гейм - Кристи Ф., 7 гейм - Олмос Г., 8 гейм - Олмос Г.<br></div><div>&nbsp;</div><br><div id='e27040857' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Веселинович A. - Юровски Р.</b><br>
+06.10.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (2:6 6:4 4:6)<br></b><div class=rd><a href='javascript:showres(166);'><img id='rd_166' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_166' style='display: none;'>1 сет: 1 гейм - Веселинович A., 2 гейм - Юровски Р., 3 гейм - Юровски Р., 4 гейм - Юровски Р., 5 гейм - Веселинович A., 6 гейм - Юровски Р., 7 гейм - Юровски Р., 8 гейм - Юровски Р.<br>2 сет: 1 гейм - Веселинович A., 2 гейм - Юровски Р., 3 гейм - Юровски Р., 4 гейм - Юровски Р., 5 гейм - Юровски Р., 6 гейм - Веселинович A., 7 гейм - Веселинович A., 8 гейм - Веселинович A., 9 гейм - Веселинович A., 10 гейм - Веселинович A.<br></div><div>&nbsp;</div><br><div id='e27040860' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Долхайд К. - Коллинс Д.- Р.</b><br>
+06.10.2016 04:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (2:6 6:7)<br></b><div class=rd><a href='javascript:showres(169);'><img id='rd_169' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_169' style='display: none;'>1 сет: 1 гейм - Коллинс Д.- Р., 2 гейм - Долхайд К., 3 гейм - Коллинс Д.- Р., 4 гейм - Коллинс Д.- Р., 5 гейм - Коллинс Д.- Р., 6 гейм - Долхайд К., 7 гейм - Коллинс Д.- Р., 8 гейм - Коллинс Д.- Р.<br>2 сет: 1 гейм - Долхайд К., 2 гейм - Коллинс Д.- Р., 3 гейм - Долхайд К., 4 гейм - Долхайд К., 5 гейм - Долхайд К., 6 гейм - Коллинс Д.- Р., 7 гейм - Долхайд К., 8 гейм - Коллинс Д.- Р., 9 гейм - Коллинс Д.- Р., 10 гейм - Коллинс Д.- Р., 11 гейм - Коллинс Д.- Р., 12 гейм - Долхайд К.<br></div><div>&nbsp;</div><br><div id='e27040862' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Макрей М. - Абанда Ф.</b><br>
+06.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 0:6)<br></b><div class=rd><a href='javascript:showres(172);'><img id='rd_172' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_172' style='display: none;'>1 сет: 1 гейм - Макрей М., 2 гейм - Абанда Ф., 3 гейм - Макрей М., 4 гейм - Абанда Ф., 5 гейм - Абанда Ф., 6 гейм - Абанда Ф., 7 гейм - Макрей М., 8 гейм - Абанда Ф., 9 гейм - Абанда Ф.<br>2 сет: 1 гейм - Абанда Ф., 2 гейм - Абанда Ф., 3 гейм - Абанда Ф., 4 гейм - Абанда Ф., 5 гейм - Абанда Ф., 6 гейм - Абанда Ф.<br></div><div>&nbsp;</div><br><div id='e27040861' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Таракан. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фенг Ш. - Ромпис Дж.</b><br>
-05.10.2016 08:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (5:7 7:6 2:6)<br></b><div class=rd><a href='javascript:showres(154);'><img id='rd_154' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_154' style='display: none;'>1 сет: 1 гейм - Ромпис Дж., 2 гейм - Фенг Ш., 3 гейм - Фенг Ш., 4 гейм - Фенг Ш., 5 гейм - Ромпис Дж., 6 гейм - Фенг Ш., 7 гейм - Ромпис Дж., 8 гейм - Фенг Ш., 9 гейм - Ромпис Дж., 10 гейм - Ромпис Дж., 11 гейм - Ромпис Дж., 12 гейм - Ромпис Дж.<br>2 сет: 1 гейм - Ромпис Дж., 2 гейм - Фенг Ш., 3 гейм - Ромпис Дж., 4 гейм - Фенг Ш., 5 гейм - Фенг Ш., 6 гейм - Ромпис Дж., 7 гейм - Ромпис Дж., 8 гейм - Ромпис Дж., 9 гейм - Фенг Ш., 10 гейм - Фенг Ш., 11 гейм - Ромпис Дж., 12 гейм - Фенг Ш.<br>3 сет: 1 гейм - Ромпис Дж., 2 гейм - Фенг Ш., 3 гейм - Ромпис Дж., 4 гейм - Фенг Ш., 5 гейм - Ромпис Дж., 6 гейм - Ромпис Дж., 7 гейм - Ромпис Дж., 8 гейм - Ромпис Дж.<br></div><div>&nbsp;</div><br><div id='e27025993' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сайго Ю. - Тананта Л.</b><br>
-05.10.2016 08:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:6 6:4)<br></b><div class=rd><a href='javascript:showres(158);'><img id='rd_158' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_158' style='display: none;'>1 сет: 1 гейм - Тананта Л., 2 гейм - Сайго Ю., 3 гейм - Тананта Л., 4 гейм - Тананта Л., 5 гейм - Сайго Ю., 6 гейм - Тананта Л., 7 гейм - Сайго Ю., 8 гейм - Сайго Ю., 9 гейм - Тананта Л., 10 гейм - Сайго Ю., 11 гейм - Тананта Л., 12 гейм - Сайго Ю.<br>2 сет: 1 гейм - Сайго Ю., 2 гейм - Сайго Ю., 3 гейм - Сайго Ю., 4 гейм - Сайго Ю., 5 гейм - Тананта Л., 6 гейм - Тананта Л., 7 гейм - Сайго Ю., 8 гейм - Тананта Л., 9 гейм - Тананта Л., 10 гейм - Сайго Ю.<br></div><div>&nbsp;</div><br><div id='e27026114' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кристиан К. - Нурдин Дж.</b><br>
-05.10.2016 08:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:4)<br></b><div class=rd><a href='javascript:showres(161);'><img id='rd_161' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_161' style='display: none;'>1 сет: 1 гейм - Нурдин Дж., 2 гейм - Кристиан К., 3 гейм - Кристиан К., 4 гейм - Нурдин Дж., 5 гейм - Нурдин Дж., 6 гейм - Нурдин Дж., 7 гейм - Кристиан К., 8 гейм - Кристиан К., 9 гейм - Кристиан К., 10 гейм - Кристиан К.<br>2 сет: 1 гейм - Нурдин Дж., 2 гейм - Кристиан К., 3 гейм - Кристиан К., 4 гейм - Нурдин Дж., 5 гейм - Кристиан К., 6 гейм - Нурдин Дж., 7 гейм - Кристиан К., 8 гейм - Нурдин Дж., 9 гейм - Кристиан К., 10 гейм - Кристиан К.<br></div><div>&nbsp;</div><br><div id='e27025991' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Акияма М. - Вань Д.-Н.</b><br>
-05.10.2016 09:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 2:6)<br></b><div id='e27026119' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гумуля Б. - Докей Т.</b><br>
-05.10.2016 10:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:0)<br></b><div id='e27026096' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>НГ К.-Я. - Каджи Х.</b><br>
-05.10.2016 11:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (2:6 4:6)<br></b><div class=rd><a href='javascript:showres(166);'><img id='rd_166' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_166' style='display: none;'>1 сет: 1 гейм - Каджи Х., 2 гейм - Каджи Х., 3 гейм - Каджи Х., 4 гейм - Каджи Х., 5 гейм - НГ К.-Я., 6 гейм - НГ К.-Я., 7 гейм - Каджи Х., 8 гейм - Каджи Х.<br>2 сет: 1 гейм - Каджи Х., 2 гейм - Каджи Х., 3 гейм - НГ К.-Я., 4 гейм - Каджи Х., 5 гейм - Каджи Х., 6 гейм - НГ К.-Я., 7 гейм - Каджи Х., 8 гейм - НГ К.-Я., 9 гейм - НГ К.-Я., 10 гейм - Каджи Х.<br></div><div>&nbsp;</div><br><div id='e27026222' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Менг Р. - Шао И.</b><br>
-05.10.2016 11:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 7:5)<br></b><div class=rd><a href='javascript:showres(169);'><img id='rd_169' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_169' style='display: none;'>1 сет: 1 гейм - Шао И., 2 гейм - Менг Р., 3 гейм - Шао И., 4 гейм - Менг Р., 5 гейм - Менг Р., 6 гейм - Шао И., 7 гейм - Менг Р., 8 гейм - Менг Р., 9 гейм - Шао И., 10 гейм - Менг Р.<br>2 сет: 1 гейм - Шао И., 2 гейм - Шао И., 3 гейм - Менг Р., 4 гейм - Менг Р., 5 гейм - Шао И., 6 гейм - Менг Р., 7 гейм - Шао И., 8 гейм - Менг Р., 9 гейм - Шао И., 10 гейм - Менг Р., 11 гейм - Менг Р., 12 гейм - Менг Р.<br></div><div>&nbsp;</div><br><div id='e27026223' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вайдя К. - Исварамурти А.</b><br>
-05.10.2016 11:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:3)<br></b><div id='e27026331' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ромпис Дж. - Кристиан К.</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (6:1 3:6 5:7)<br></b><div class=rd><a href='javascript:showres(175);'><img id='rd_175' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_175' style='display: none;'>1 сет: 1 гейм - Ромпис Дж., 2 гейм - Ромпис Дж., 3 гейм - Ромпис Дж., 4 гейм - Ромпис Дж., 5 гейм - Ромпис Дж., 6 гейм - Кристиан К., 7 гейм - Ромпис Дж.<br>2 сет: 1 гейм - Кристиан К., 2 гейм - Ромпис Дж., 3 гейм - Ромпис Дж., 4 гейм - Кристиан К., 5 гейм - Ромпис Дж., 6 гейм - Кристиан К., 7 гейм - Кристиан К., 8 гейм - Кристиан К., 9 гейм - Кристиан К.<br>3 сет: 1 гейм - Кристиан К., 2 гейм - Ромпис Дж., 3 гейм - Кристиан К., 4 гейм - Ромпис Дж., 5 гейм - Кристиан К., 6 гейм - Ромпис Дж., 7 гейм - Кристиан К., 8 гейм - Ромпис Дж., 9 гейм - Кристиан К., 10 гейм - Ромпис Дж., 11 гейм - Кристиан К., 12 гейм - Кристиан К.<br></div><div>&nbsp;</div><br><div id='e27041994' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вайдя К. - Менг Р.</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:4 7:5)<br></b><div class=rd><a href='javascript:showres(179);'><img id='rd_179' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_179' style='display: none;'>1 сет: 1 гейм - Менг Р., 2 гейм - Менг Р., 3 гейм - Вайдя К., 4 гейм - Вайдя К., 5 гейм - Вайдя К., 6 гейм - Вайдя К., 7 гейм - Вайдя К., 8 гейм - Менг Р., 9 гейм - Менг Р., 10 гейм - Вайдя К.<br>2 сет: 1 гейм - Вайдя К., 2 гейм - Менг Р., 3 гейм - Менг Р., 4 гейм - Вайдя К., 5 гейм - Менг Р., 6 гейм - Вайдя К., 7 гейм - Вайдя К., 8 гейм - Менг Р., 9 гейм - Вайдя К., 10 гейм - Менг Р., 11 гейм - Вайдя К., 12 гейм - Вайдя К.<br></div><div>&nbsp;</div><br><div id='e27042106' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гумуля Б. - Вань Д.-Н.</b><br>
+06.10.2016 08:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:1)<br></b><div class=rd><a href='javascript:showres(182);'><img id='rd_182' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_182' style='display: none;'>1 сет: 1 гейм - Гумуля Б., 2 гейм - Гумуля Б., 3 гейм - Вань Д.-Н., 4 гейм - Гумуля Б., 5 гейм - Гумуля Б., 6 гейм - Гумуля Б., 7 гейм - Вань Д.-Н., 8 гейм - Гумуля Б.<br>2 сет: 1 гейм - Гумуля Б., 2 гейм - Вань Д.-Н., 3 гейм - Гумуля Б., 4 гейм - Гумуля Б., 5 гейм - Гумуля Б., 6 гейм - Гумуля Б., 7 гейм - Гумуля Б.<br></div><div>&nbsp;</div><br><div id='e27041874' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сайго Ю. - Каджи Х.</b><br>
+06.10.2016 09:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (2:6 4:6)<br></b><div class=rd><a href='javascript:showres(185);'><img id='rd_185' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_185' style='display: none;'>1 сет: 1 гейм - Каджи Х., 2 гейм - Каджи Х., 3 гейм - Каджи Х., 4 гейм - Сайго Ю., 5 гейм - Сайго Ю., 6 гейм - Каджи Х., 7 гейм - Каджи Х., 8 гейм - Каджи Х.<br>2 сет: 1 гейм - Сайго Ю., 2 гейм - Сайго Ю., 3 гейм - Сайго Ю., 4 гейм - Сайго Ю., 5 гейм - Каджи Х., 6 гейм - Каджи Х., 7 гейм - Каджи Х., 8 гейм - Каджи Х., 9 гейм - Каджи Х., 10 гейм - Каджи Х.<br></div><div>&nbsp;</div><br><div id='e27042107' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Тувумба. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Михаликова Т. - Сандерс С.</b><br>
-05.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:6 6:7)<br></b><div class=rd><a href='javascript:showres(173);'><img id='rd_173' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_173' style='display: none;'>1 сет: 1 гейм - Михаликова Т., 2 гейм - Сандерс С., 3 гейм - Сандерс С., 4 гейм - Сандерс С., 5 гейм - Михаликова Т., 6 гейм - Михаликова Т., 7 гейм - Сандерс С., 8 гейм - Михаликова Т., 9 гейм - Сандерс С., 10 гейм - Сандерс С.<br>2 сет: 1 гейм - Михаликова Т., 2 гейм - Сандерс С., 3 гейм - Михаликова Т., 4 гейм - Сандерс С., 5 гейм - Михаликова Т., 6 гейм - Сандерс С., 7 гейм - Михаликова Т., 8 гейм - Сандерс С., 9 гейм - Михаликова Т., 10 гейм - Сандерс С., 11 гейм - Михаликова Т., 12 гейм - Сандерс С.<br></div><div>&nbsp;</div><br><div id='e27023939' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Томич С. - Эйява Д.</b><br>
-05.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (2:6 6:1 6:1)<br></b><div class=rd><a href='javascript:showres(176);'><img id='rd_176' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_176' style='display: none;'>1 сет: 1 гейм - Томич С., 2 гейм - Томич С., 3 гейм - Эйява Д., 4 гейм - Эйява Д., 5 гейм - Эйява Д., 6 гейм - Эйява Д., 7 гейм - Эйява Д., 8 гейм - Эйява Д.<br>2 сет: 1 гейм - Томич С., 2 гейм - Эйява Д., 3 гейм - Томич С., 4 гейм - Томич С., 5 гейм - Томич С., 6 гейм - Томич С., 7 гейм - Томич С.<br>3 сет: 1 гейм - Томич С., 2 гейм - Томич С., 3 гейм - Томич С., 4 гейм - Эйява Д., 5 гейм - Томич С., 6 гейм - Томич С., 7 гейм - Томич С.<br></div><div>&nbsp;</div><br><div id='e27023941' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мендез С. - Данн К.</b><br>
-05.10.2016 07:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:6 6:7)<br></b><div class=rd><a href='javascript:showres(180);'><img id='rd_180' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_180' style='display: none;'>1 сет: 1 гейм - Данн К., 2 гейм - Данн К., 3 гейм - Мендез С. , 4 гейм - Данн К., 5 гейм - Мендез С. , 6 гейм - Мендез С. , 7 гейм - Мендез С. , 8 гейм - Данн К., 9 гейм - Данн К., 10 гейм - Данн К.<br>2 сет: 1 гейм - Мендез С. , 2 гейм - Мендез С. , 3 гейм - Данн К., 4 гейм - Мендез С. , 5 гейм - Мендез С. , 6 гейм - Данн К., 7 гейм - Данн К., 8 гейм - Данн К., 9 гейм - Данн К., 10 гейм - Мендез С. , 11 гейм - Данн К., 12 гейм - Мендез С.<br></div><div>&nbsp;</div><br><div id='e27023943' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лю Ф. - Майерс А.</b><br>
-05.10.2016 08:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (1:6 6:4 2:6)<br></b><div class=rd><a href='javascript:showres(183);'><img id='rd_183' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_183' style='display: none;'>1 сет: 1 гейм - Майерс А., 2 гейм - Майерс А., 3 гейм - Лю Ф., 4 гейм - Майерс А., 5 гейм - Майерс А., 6 гейм - Майерс А., 7 гейм - Майерс А.<br>2 сет: 1 гейм - Майерс А., 2 гейм - Майерс А., 3 гейм - Майерс А., 4 гейм - Лю Ф., 5 гейм - Лю Ф., 6 гейм - Лю Ф., 7 гейм - Лю Ф., 8 гейм - Лю Ф., 9 гейм - Майерс А., 10 гейм - Лю Ф.<br>3 сет: 1 гейм - Майерс А., 2 гейм - Лю Ф., 3 гейм - Майерс А., 4 гейм - Лю Ф., 5 гейм - Майерс А., 6 гейм - Майерс А., 7 гейм - Майерс А., 8 гейм - Майерс А.<br></div><div>&nbsp;</div><br><div id='e27023940' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Райичич В. - Эйкери У.</b><br>
-05.10.2016 09:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:2)<br></b><div class=rd><a href='javascript:showres(187);'><img id='rd_187' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_187' style='display: none;'>1 сет: 1 гейм - Эйкери У., 2 гейм - Эйкери У., 3 гейм - Райичич В., 4 гейм - Райичич В., 5 гейм - Райичич В., 6 гейм - Эйкери У., 7 гейм - Эйкери У., 8 гейм - Райичич В., 9 гейм - Райичич В., 10 гейм - Райичич В.<br>2 сет: 1 гейм - Эйкери У., 2 гейм - Райичич В., 3 гейм - Райичич В., 4 гейм - Райичич В., 5 гейм - Райичич В., 6 гейм - Эйкери У., 7 гейм - Райичич В., 8 гейм - Райичич В.<br></div><div>&nbsp;</div><br><div id='e27024050' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хозуми Э. - Аюкава М.</b><br>
-05.10.2016 09:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:5 6:1)<br></b><div class=rd><a href='javascript:showres(190);'><img id='rd_190' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_190' style='display: none;'>1 сет: 1 гейм - Хозуми Э., 2 гейм - Хозуми Э., 3 гейм - Аюкава М., 4 гейм - Аюкава М., 5 гейм - Аюкава М., 6 гейм - Хозуми Э., 7 гейм - Аюкава М., 8 гейм - Хозуми Э., 9 гейм - Аюкава М., 10 гейм - Хозуми Э., 11 гейм - Хозуми Э., 12 гейм - Хозуми Э.<br>2 сет: 1 гейм - Хозуми Э., 2 гейм - Хозуми Э., 3 гейм - Хозуми Э., 4 гейм - Хозуми Э., 5 гейм - Аюкава М., 6 гейм - Хозуми Э., 7 гейм - Хозуми Э.<br></div><div>&nbsp;</div><br><div id='e27023948' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фурлис Д. - Роговска О.</b><br>
-05.10.2016 09:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:6 4:6)<br></b><div class=rd><a href='javascript:showres(193);'><img id='rd_193' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_193' style='display: none;'>1 сет: 1 гейм - Фурлис Д., 2 гейм - Роговска О., 3 гейм - Роговска О., 4 гейм - Роговска О., 5 гейм - Фурлис Д., 6 гейм - Роговска О., 7 гейм - Фурлис Д., 8 гейм - Роговска О., 9 гейм - Фурлис Д., 10 гейм - Роговска О.<br>2 сет: 1 гейм - Фурлис Д., 2 гейм - Роговска О., 3 гейм - Фурлис Д., 4 гейм - Фурлис Д., 5 гейм - Фурлис Д., 6 гейм - Роговска О., 7 гейм - Роговска О., 8 гейм - Роговска О., 9 гейм - Роговска О., 10 гейм - Роговска О.<br></div><div>&nbsp;</div><br><div id='e27023947' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Инглис М. - Кузмова В.</b><br>
-05.10.2016 09:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (5:7 0:6)<br></b><div class=rd><a href='javascript:showres(196);'><img id='rd_196' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_196' style='display: none;'>1 сет: 1 гейм - Кузмова В., 2 гейм - Кузмова В., 3 гейм - Инглис М., 4 гейм - Кузмова В., 5 гейм - Инглис М., 6 гейм - Кузмова В., 7 гейм - Инглис М., 8 гейм - Инглис М., 9 гейм - Кузмова В., 10 гейм - Инглис М., 11 гейм - Кузмова В., 12 гейм - Кузмова В.<br>2 сет: 1 гейм - Кузмова В., 2 гейм - Кузмова В., 3 гейм - Кузмова В., 4 гейм - Кузмова В., 5 гейм - Кузмова В., 6 гейм - Кузмова В.<br></div><div>&nbsp;</div><br><div id='e27023995' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гальфи Д. - Кава К.</b><br>
-05.10.2016 09:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:2)<br></b><div class=rd><a href='javascript:showres(199);'><img id='rd_199' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_199' style='display: none;'>1 сет: 1 гейм - Гальфи Д., 2 гейм - Гальфи Д., 3 гейм - Кава К., 4 гейм - Гальфи Д., 5 гейм - Гальфи Д., 6 гейм - Гальфи Д., 7 гейм - Кава К., 8 гейм - Гальфи Д.<br>2 сет: 1 гейм - Гальфи Д., 2 гейм - Гальфи Д., 3 гейм - Гальфи Д., 4 гейм - Кава К., 5 гейм - Кава К., 6 гейм - Гальфи Д., 7 гейм - Гальфи Д., 8 гейм - Гальфи Д.<br></div><div>&nbsp;</div><br><div id='e27024049' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Да Силва Фик Г. - Родионова Ар.</b><br>
-05.10.2016 09:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 6:7)<br></b><div id='e27023945' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Паттерсон Т. - Баи Э.</b><br>
-05.10.2016 10:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:4)<br></b><div class=rd><a href='javascript:showres(203);'><img id='rd_203' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_203' style='display: none;'>1 сет: 1 гейм - Баи Э., 2 гейм - Паттерсон Т., 3 гейм - Баи Э., 4 гейм - Паттерсон Т., 5 гейм - Баи Э., 6 гейм - Паттерсон Т., 7 гейм - Баи Э., 8 гейм - Паттерсон Т., 9 гейм - Паттерсон Т., 10 гейм - Паттерсон Т.<br>2 сет: 1 гейм - Баи Э., 2 гейм - Баи Э., 3 гейм - Баи Э., 4 гейм - Паттерсон Т., 5 гейм - Паттерсон Т., 6 гейм - Паттерсон Т., 7 гейм - Паттерсон Т., 8 гейм - Паттерсон Т., 9 гейм - Баи Э., 10 гейм - Паттерсон Т.<br></div><div>&nbsp;</div><br><div id='e27024055' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Се Г. - Эли Дж.</b><br>
-05.10.2016 11:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (2:6 4:6)<br></b><div class=rd><a href='javascript:showres(206);'><img id='rd_206' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_206' style='display: none;'>1 сет: 1 гейм - Се Г., 2 гейм - Эли Дж., 3 гейм - Эли Дж., 4 гейм - Се Г., 5 гейм - Эли Дж., 6 гейм - Эли Дж., 7 гейм - Эли Дж., 8 гейм - Эли Дж.<br>2 сет: 1 гейм - Эли Дж., 2 гейм - Эли Дж., 3 гейм - Се Г., 4 гейм - Се Г., 5 гейм - Эли Дж., 6 гейм - Эли Дж., 7 гейм - Се Г., 8 гейм - Се Г., 9 гейм - Эли Дж., 10 гейм - Эли Дж.<br></div><div>&nbsp;</div><br><div id='e27024059' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Брешиа Дж. - Мухаммад А.</b><br>
-05.10.2016 11:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (2:6 4:6)<br></b><div id='e27024058' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Глушко Ю. - Чьян Ю.-К</b><br>
-05.10.2016 11:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:5 6:2)<br></b><div class=rd><a href='javascript:showres(210);'><img id='rd_210' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_210' style='display: none;'>1 сет: 1 гейм - Чьян Ю.-К, 2 гейм - Чьян Ю.-К, 3 гейм - Глушко Ю., 4 гейм - Чьян Ю.-К, 5 гейм - Глушко Ю., 6 гейм - Глушко Ю., 7 гейм - Чьян Ю.-К, 8 гейм - Чьян Ю.-К, 9 гейм - Глушко Ю., 10 гейм - Глушко Ю., 11 гейм - Глушко Ю., 12 гейм - Глушко Ю.<br>2 сет: 1 гейм - Чьян Ю.-К, 2 гейм - Глушко Ю., 3 гейм - Чьян Ю.-К, 4 гейм - Глушко Ю., 5 гейм - Глушко Ю., 6 гейм - Глушко Ю., 7 гейм - Глушко Ю., 8 гейм - Глушко Ю.<br></div><div>&nbsp;</div><br><div id='e27024054' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Райичич В. - Кузмова В.</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 1:6)<br></b><div class=rd><a href='javascript:showres(188);'><img id='rd_188' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_188' style='display: none;'>1 сет: 1 гейм - Райичич В., 2 гейм - Райичич В., 3 гейм - Кузмова В., 4 гейм - Кузмова В., 5 гейм - Кузмова В., 6 гейм - Кузмова В., 7 гейм - Райичич В., 8 гейм - Кузмова В., 9 гейм - Кузмова В.<br>2 сет: 1 гейм - Кузмова В., 2 гейм - Райичич В., 3 гейм - Кузмова В., 4 гейм - Кузмова В., 5 гейм - Кузмова В., 6 гейм - Кузмова В., 7 гейм - Кузмова В.<br></div><div>&nbsp;</div><br><div id='e27041175' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гальфи Д. - Сандерс С.</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:4 7:5)<br></b><div class=rd><a href='javascript:showres(191);'><img id='rd_191' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_191' style='display: none;'>1 сет: 1 гейм - Сандерс С., 2 гейм - Гальфи Д., 3 гейм - Сандерс С., 4 гейм - Гальфи Д., 5 гейм - Гальфи Д., 6 гейм - Гальфи Д., 7 гейм - Сандерс С., 8 гейм - Гальфи Д., 9 гейм - Сандерс С., 10 гейм - Гальфи Д.<br>2 сет: 1 гейм - Сандерс С., 2 гейм - Гальфи Д., 3 гейм - Гальфи Д., 4 гейм - Гальфи Д., 5 гейм - Сандерс С., 6 гейм - Гальфи Д., 7 гейм - Сандерс С., 8 гейм - Сандерс С., 9 гейм - Сандерс С., 10 гейм - Гальфи Д., 11 гейм - Гальфи Д., 12 гейм - Гальфи Д.<br></div><div>&nbsp;</div><br><div id='e27041176' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Майерс А. - Данн К.</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (6:4 2:6 5:7)<br></b><div class=rd><a href='javascript:showres(194);'><img id='rd_194' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_194' style='display: none;'>1 сет: 1 гейм - Данн К., 2 гейм - Майерс А., 3 гейм - Майерс А., 4 гейм - Данн К., 5 гейм - Майерс А., 6 гейм - Майерс А., 7 гейм - Данн К., 8 гейм - Данн К., 9 гейм - Майерс А., 10 гейм - Майерс А.<br>2 сет: 1 гейм - Майерс А., 2 гейм - Данн К., 3 гейм - Данн К., 4 гейм - Данн К., 5 гейм - Майерс А., 6 гейм - Данн К., 7 гейм - Данн К., 8 гейм - Данн К.<br>3 сет: 1 гейм - Данн К., 2 гейм - Данн К., 3 гейм - Данн К., 4 гейм - Данн К., 5 гейм - Майерс А., 6 гейм - Майерс А., 7 гейм - Майерс А., 8 гейм - Майерс А., 9 гейм - Майерс А., 10 гейм - Данн К., 11 гейм - Данн К., 12 гейм - Данн К.<br></div><div>&nbsp;</div><br><div id='e27041177' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Паттерсон Т. - Родионова Ар.</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (4:6 4:6)<br></b><div class=rd><a href='javascript:showres(198);'><img id='rd_198' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_198' style='display: none;'>1 сет: 1 гейм - Паттерсон Т., 2 гейм - Родионова Ар., 3 гейм - Паттерсон Т., 4 гейм - Родионова Ар., 5 гейм - Паттерсон Т., 6 гейм - Родионова Ар., 7 гейм - Паттерсон Т., 8 гейм - Родионова Ар., 9 гейм - Родионова Ар., 10 гейм - Родионова Ар.<br>2 сет: 1 гейм - Родионова Ар., 2 гейм - Паттерсон Т., 3 гейм - Паттерсон Т., 4 гейм - Родионова Ар., 5 гейм - Паттерсон Т., 6 гейм - Родионова Ар., 7 гейм - Паттерсон Т., 8 гейм - Родионова Ар., 9 гейм - Родионова Ар., 10 гейм - Родионова Ар.<br></div><div>&nbsp;</div><br><div id='e27041178' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Глушко Ю. - Томич С.</b><br>
+06.10.2016 07:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:0)<br></b><div class=rd><a href='javascript:showres(201);'><img id='rd_201' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_201' style='display: none;'>1 сет: 1 гейм - Томич С., 2 гейм - Глушко Ю., 3 гейм - Томич С., 4 гейм - Глушко Ю., 5 гейм - Глушко Ю., 6 гейм - Глушко Ю., 7 гейм - Глушко Ю., 8 гейм - Томич С., 9 гейм - Глушко Ю.<br>2 сет: 1 гейм - Глушко Ю., 2 гейм - Глушко Ю., 3 гейм - Глушко Ю., 4 гейм - Глушко Ю., 5 гейм - Глушко Ю., 6 гейм - Глушко Ю.<br></div><div>&nbsp;</div><br><div id='e27041469' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Роговска О. - Мухаммад А.</b><br>
+06.10.2016 07:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 2:6)<br></b><div class=rd><a href='javascript:showres(204);'><img id='rd_204' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_204' style='display: none;'>1 сет: 1 гейм - Роговска О., 2 гейм - Мухаммад А., 3 гейм - Мухаммад А., 4 гейм - Мухаммад А., 5 гейм - Роговска О., 6 гейм - Мухаммад А., 7 гейм - Роговска О., 8 гейм - Мухаммад А., 9 гейм - Мухаммад А.<br>2 сет: 1 гейм - Мухаммад А., 2 гейм - Мухаммад А., 3 гейм - Мухаммад А., 4 гейм - Роговска О., 5 гейм - Роговска О., 6 гейм - Мухаммад А., 7 гейм - Мухаммад А., 8 гейм - Мухаммад А.<br></div><div>&nbsp;</div><br><div id='e27041467' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хозуми Э. - Эли Дж.</b><br>
+06.10.2016 08:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (5:7 1:6)<br></b><div class=rd><a href='javascript:showres(207);'><img id='rd_207' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_207' style='display: none;'>1 сет: 1 гейм - Эли Дж., 2 гейм - Хозуми Э., 3 гейм - Эли Дж., 4 гейм - Хозуми Э., 5 гейм - Хозуми Э., 6 гейм - Эли Дж., 7 гейм - Хозуми Э., 8 гейм - Эли Дж., 9 гейм - Эли Дж., 10 гейм - Хозуми Э., 11 гейм - Эли Дж., 12 гейм - Эли Дж.<br>2 сет: 1 гейм - Эли Дж., 2 гейм - Эли Дж., 3 гейм - Эли Дж., 4 гейм - Эли Дж., 5 гейм - Хозуми Э., 6 гейм - Эли Дж., 7 гейм - Эли Дж.<br></div><div>&nbsp;</div><br><div id='e27041468' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Стэйнс К. - Като М.</b><br>
+06.10.2016 09:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:6 2:6)<br></b><div class=rd><a href='javascript:showres(210);'><img id='rd_210' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_210' style='display: none;'>1 сет: 1 гейм - Като М., 2 гейм - Като М., 3 гейм - Като М., 4 гейм - Като М., 5 гейм - Като М., 6 гейм - Като М.<br>2 сет: 1 гейм - Като М., 2 гейм - Като М., 3 гейм - Стэйнс К., 4 гейм - Като М., 5 гейм - Като М., 6 гейм - Стэйнс К., 7 гейм - Като М., 8 гейм - Като М.<br></div><div>&nbsp;</div><br><div id='e27041470' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Хуахин. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кан Ц.-К. - Лю С.-К.</b><br>
-05.10.2016 09:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:0)<br></b><div class=rd><a href='javascript:showres(213);'><img id='rd_213' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_213' style='display: none;'>1 сет: 1 гейм - Кан Ц.-К., 2 гейм - Лю С.-К., 3 гейм - Кан Ц.-К., 4 гейм - Кан Ц.-К., 5 гейм - Кан Ц.-К., 6 гейм - Кан Ц.-К., 7 гейм - Кан Ц.-К.<br>2 сет: 1 гейм - Кан Ц.-К., 2 гейм - Кан Ц.-К., 3 гейм - Кан Ц.-К., 4 гейм - Кан Ц.-К., 5 гейм - Кан Ц.-К., 6 гейм - Кан Ц.-К.<br></div><div>&nbsp;</div><br><div id='e27024475' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ли И. - Сун К.-Л.</b><br>
-05.10.2016 09:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:3 7:6)<br></b><div class=rd><a href='javascript:showres(216);'><img id='rd_216' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_216' style='display: none;'>1 сет: 1 гейм - Ли И., 2 гейм - Ли И., 3 гейм - Сун К.-Л., 4 гейм - Ли И., 5 гейм - Сун К.-Л., 6 гейм - Ли И., 7 гейм - Ли И., 8 гейм - Сун К.-Л., 9 гейм - Ли И.<br>2 сет: 1 гейм - Ли И., 2 гейм - Ли И., 3 гейм - Сун К.-Л., 4 гейм - Ли И., 5 гейм - Сун К.-Л., 6 гейм - Ли И., 7 гейм - Ли И., 8 гейм - Сун К.-Л., 9 гейм - Сун К.-Л., 10 гейм - Сун К.-Л., 11 гейм - Ли И., 12 гейм - Сун К.-Л.<br></div><div>&nbsp;</div><br><div id='e27024476' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Инуе А. - Чо И.-С.</b><br>
-05.10.2016 09:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (5:7 6:7)<br></b><div class=rd><a href='javascript:showres(219);'><img id='rd_219' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_219' style='display: none;'>1 сет: 1 гейм - Чо И.-С., 2 гейм - Инуе А., 3 гейм - Чо И.-С., 4 гейм - Инуе А., 5 гейм - Чо И.-С., 6 гейм - Инуе А., 7 гейм - Чо И.-С., 8 гейм - Инуе А., 9 гейм - Чо И.-С., 10 гейм - Инуе А., 11 гейм - Чо И.-С., 12 гейм - Чо И.-С.<br>2 сет: 1 гейм - Чо И.-С., 2 гейм - Инуе А., 3 гейм - Инуе А., 4 гейм - Инуе А., 5 гейм - Инуе А., 6 гейм - Чо И.-С., 7 гейм - Чо И.-С., 8 гейм - Инуе А., 9 гейм - Чо И.-С., 10 гейм - Чо И.-С., 11 гейм - Инуе А., 12 гейм - Чо И.-С.<br></div><div>&nbsp;</div><br><div id='e27024473' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Плипуеч П. - Лю Дж.</b><br>
-05.10.2016 09:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:2)<br></b><div class=rd><a href='javascript:showres(222);'><img id='rd_222' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_222' style='display: none;'>1 сет: 1 гейм - Плипуеч П., 2 гейм - Плипуеч П., 3 гейм - Лю Дж., 4 гейм - Плипуеч П., 5 гейм - Плипуеч П., 6 гейм - Плипуеч П., 7 гейм - Плипуеч П.<br>2 сет: 1 гейм - Плипуеч П., 2 гейм - Плипуеч П., 3 гейм - Лю Дж., 4 гейм - Плипуеч П., 5 гейм - Плипуеч П., 6 гейм - Лю Дж., 7 гейм - Плипуеч П., 8 гейм - Плипуеч П.<br></div><div>&nbsp;</div><br><div id='e27024474' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Франкати Э. - Ямасото А.</b><br>
-05.10.2016 10:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (3:6 6:4 6:7)<br></b><div id='e27024478' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Буаям К. - Чипчандедж П.</b><br>
-05.10.2016 10:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:6 6:2)<br></b><div class=rd><a href='javascript:showres(226);'><img id='rd_226' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_226' style='display: none;'>1 сет: 1 гейм - Чипчандедж П., 2 гейм - Чипчандедж П., 3 гейм - Буаям К., 4 гейм - Буаям К., 5 гейм - Буаям К., 6 гейм - Буаям К., 7 гейм - Чипчандедж П., 8 гейм - Чипчандедж П., 9 гейм - Чипчандедж П., 10 гейм - Буаям К., 11 гейм - Буаям К., 12 гейм - Чипчандедж П.<br>2 сет: 1 гейм - Буаям К., 2 гейм - Чипчандедж П., 3 гейм - Буаям К., 4 гейм - Буаям К., 5 гейм - Чипчандедж П., 6 гейм - Буаям К., 7 гейм - Буаям К., 8 гейм - Буаям К.<br></div><div>&nbsp;</div><br><div id='e27024477' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Найденова А. - Гуо М.</b><br>
-05.10.2016 11:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (5:7 1:6)<br></b><div id='e27024710' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Буаям К. - Ямасото А.</b><br>
+06.10.2016 09:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (3:6 6:0 7:5)<br></b><div class=rd><a href='javascript:showres(213);'><img id='rd_213' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_213' style='display: none;'>1 сет: 1 гейм - Ямасото А., 2 гейм - Ямасото А., 3 гейм - Ямасото А., 4 гейм - Буаям К., 5 гейм - Буаям К., 6 гейм - Ямасото А., 7 гейм - Буаям К., 8 гейм - Ямасото А., 9 гейм - Ямасото А.<br>2 сет: 1 гейм - Буаям К., 2 гейм - Буаям К., 3 гейм - Буаям К., 4 гейм - Буаям К., 5 гейм - Буаям К., 6 гейм - Буаям К.<br>3 сет: 1 гейм - Буаям К., 2 гейм - Ямасото А., 3 гейм - Буаям К., 4 гейм - Ямасото А., 5 гейм - Буаям К., 6 гейм - Буаям К., 7 гейм - Ямасото А., 8 гейм - Ямасото А., 9 гейм - Буаям К., 10 гейм - Ямасото А., 11 гейм - Буаям К., 12 гейм - Буаям К.<br></div><div>&nbsp;</div><br><div id='e27041882' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кан Ц.-К. - Чо И.-С.</b><br>
+06.10.2016 09:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (3:6 6:2 6:2)<br></b><div class=rd><a href='javascript:showres(217);'><img id='rd_217' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_217' style='display: none;'>1 сет: 1 гейм - Чо И.-С., 2 гейм - Чо И.-С., 3 гейм - Кан Ц.-К., 4 гейм - Чо И.-С., 5 гейм - Кан Ц.-К., 6 гейм - Чо И.-С., 7 гейм - Кан Ц.-К., 8 гейм - Чо И.-С., 9 гейм - Чо И.-С.<br>2 сет: 1 гейм - Чо И.-С., 2 гейм - Кан Ц.-К., 3 гейм - Кан Ц.-К., 4 гейм - Кан Ц.-К., 5 гейм - Чо И.-С., 6 гейм - Кан Ц.-К., 7 гейм - Кан Ц.-К., 8 гейм - Кан Ц.-К.<br>3 сет: 1 гейм - Чо И.-С., 2 гейм - Кан Ц.-К., 3 гейм - Кан Ц.-К., 4 гейм - Кан Ц.-К., 5 гейм - Кан Ц.-К., 6 гейм - Чо И.-С., 7 гейм - Кан Ц.-К., 8 гейм - Кан Ц.-К.<br></div><div>&nbsp;</div><br><div id='e27041880' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тханди К.-К. - Ли И.</b><br>
+06.10.2016 09:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:0)<br></b><div class=rd><a href='javascript:showres(221);'><img id='rd_221' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_221' style='display: none;'>1 сет: 1 гейм - Тханди К.-К., 2 гейм - Ли И., 3 гейм - Ли И., 4 гейм - Ли И., 5 гейм - Тханди К.-К., 6 гейм - Тханди К.-К., 7 гейм - Тханди К.-К., 8 гейм - Тханди К.-К., 9 гейм - Тханди К.-К.<br>2 сет: 1 гейм - Тханди К.-К., 2 гейм - Тханди К.-К., 3 гейм - Тханди К.-К., 4 гейм - Тханди К.-К., 5 гейм - Тханди К.-К., 6 гейм - Тханди К.-К.<br></div><div>&nbsp;</div><br><div id='e27041881' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Шарм-Эль-Шейх. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ларкин С. - Жлавикович З.</b><br>
+06.10.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (6:2 4:6 6:1)<br></b><div class=rd><a href='javascript:showres(224);'><img id='rd_224' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_224' style='display: none;'>1 сет: 1 гейм - Ларкин С., 2 гейм - Ларкин С., 3 гейм - Ларкин С., 4 гейм - Жлавикович З., 5 гейм - Ларкин С., 6 гейм - Жлавикович З., 7 гейм - Ларкин С., 8 гейм - Ларкин С.<br>2 сет: 1 гейм - Жлавикович З., 2 гейм - Жлавикович З., 3 гейм - Ларкин С., 4 гейм - Жлавикович З., 5 гейм - Ларкин С., 6 гейм - Ларкин С., 7 гейм - Жлавикович З., 8 гейм - Жлавикович З., 9 гейм - Ларкин С., 10 гейм - Жлавикович З.<br>3 сет: 1 гейм - Ларкин С., 2 гейм - Ларкин С., 3 гейм - Ларкин С., 4 гейм - Жлавикович З., 5 гейм - Ларкин С., 6 гейм - Ларкин С., 7 гейм - Ларкин С.<br></div><div>&nbsp;</div><br><div id='e27029310' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Шымкент. Грунт  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Болатова К. - Слюсар К.</b><br>
-05.10.2016 10:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (0:6 1:6)<br></b><div id='e27027037' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Калинина В. - Сизикова Я.</b><br>
-05.10.2016 10:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (5:7 6:7)<br></b><div id='e27027042' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Керимбаева К. - Хабибулина А.</b><br>
-05.10.2016 10:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:0)<br></b><div class=rd><a href='javascript:showres(232);'><img id='rd_232' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_232' style='display: none;'>1 сет: 1 гейм - Хабибулина А.<br></div><div>&nbsp;</div><br><div id='e27027041' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Керимбаева К. - Фольц А.</b><br>
+06.10.2016 11:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:3)<br></b><div class=rd><a href='javascript:showres(228);'><img id='rd_228' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_228' style='display: none;'>1 сет: 1 гейм - Керимбаева К., 2 гейм - Керимбаева К., 3 гейм - Керимбаева К., 4 гейм - Фольц А., 5 гейм - Фольц А., 6 гейм - Керимбаева К., 7 гейм - Керимбаева К., 8 гейм - Керимбаева К.<br>2 сет: 1 гейм - Керимбаева К., 2 гейм - Керимбаева К., 3 гейм - Фольц А., 4 гейм - Фольц А., 5 гейм - Керимбаева К., 6 гейм - Керимбаева К., 7 гейм - Фольц А., 8 гейм - Керимбаева К., 9 гейм - Керимбаева К.<br></div><div>&nbsp;</div><br><div id='e27044860' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Вальедупар. Хард  </TD>
+<TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Невер. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мантилья Ф. - Монтеро Х.</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (0:6 6:4 6:7)<br></b><div class=rd><a href='javascript:showres(234);'><img id='rd_234' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_234' style='display: none;'>1 сет: 1 гейм - Монтеро Х., 2 гейм - Монтеро Х., 3 гейм - Монтеро Х., 4 гейм - Монтеро Х., 5 гейм - Монтеро Х., 6 гейм - Монтеро Х.<br>2 сет: 1 гейм - Монтеро Х., 2 гейм - Мантилья Ф., 3 гейм - Мантилья Ф., 4 гейм - Мантилья Ф., 5 гейм - Монтеро Х., 6 гейм - Мантилья Ф., 7 гейм - Монтеро Х., 8 гейм - Мантилья Ф., 9 гейм - Монтеро Х., 10 гейм - Мантилья Ф.<br>3 сет: 1 гейм - Монтеро Х., 2 гейм - Мантилья Ф., 3 гейм - Монтеро Х., 4 гейм - Мантилья Ф., 5 гейм - Монтеро Х., 6 гейм - Мантилья Ф., 7 гейм - Монтеро Х., 8 гейм - Мантилья Ф., 9 гейм - Монтеро Х., 10 гейм - Мантилья Ф., 11 гейм - Монтеро Х., 12 гейм - Мантилья Ф.<br></div><div>&nbsp;</div><br><div id='e27015006' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вариллас Патино-Самудио Х.-П. - Барриос Вера М.Т.</b><br>
-05.10.2016 01:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (1:6 3:6)<br></b><div class=rd><a href='javascript:showres(238);'><img id='rd_238' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_238' style='display: none;'>1 сет: 1 гейм - Вариллас Патино-Самудио Х.-П., 2 гейм - Барриос Вера М.Т., 3 гейм - Барриос Вера М.Т., 4 гейм - Барриос Вера М.Т., 5 гейм - Барриос Вера М.Т., 6 гейм - Барриос Вера М.Т., 7 гейм - Барриос Вера М.Т.<br>2 сет: 1 гейм - Барриос Вера М.Т., 2 гейм - Вариллас Патино-Самудио Х.-П., 3 гейм - Барриос Вера М.Т., 4 гейм - Вариллас Патино-Самудио Х.-П., 5 гейм - Вариллас Патино-Самудио Х.-П., 6 гейм - Барриос Вера М.Т., 7 гейм - Барриос Вера М.Т., 8 гейм - Барриос Вера М.Т., 9 гейм - Барриос Вера М.Т.<br></div><div>&nbsp;</div><br><div id='e27015008' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гомес Х.С. - Гутьеррес О. Х.</b><br>
-05.10.2016 03:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (3:6 6:4 2:6)<br></b><div class=rd><a href='javascript:showres(241);'><img id='rd_241' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_241' style='display: none;'>1 сет: 1 гейм - Гутьеррес О. Х., 2 гейм - Гутьеррес О. Х., 3 гейм - Гутьеррес О. Х., 4 гейм - Гомес Х.С., 5 гейм - Гомес Х.С., 6 гейм - Гомес Х.С., 7 гейм - Гутьеррес О. Х., 8 гейм - Гутьеррес О. Х., 9 гейм - Гутьеррес О. Х.<br>2 сет: 1 гейм - Гомес Х.С., 2 гейм - Гомес Х.С., 3 гейм - Гутьеррес О. Х., 4 гейм - Гутьеррес О. Х., 5 гейм - Гутьеррес О. Х., 6 гейм - Гомес Х.С., 7 гейм - Гомес Х.С., 8 гейм - Гутьеррес О. Х., 9 гейм - Гомес Х.С., 10 гейм - Гомес Х.С.<br>3 сет: 1 гейм - Гомес Х.С., 2 гейм - Гутьеррес О. Х., 3 гейм - Гутьеррес О. Х., 4 гейм - Гутьеррес О. Х., 5 гейм - Гомес Х.С., 6 гейм - Гутьеррес О. Х., 7 гейм - Гутьеррес О. Х., 8 гейм - Гутьеррес О. Х.<br></div><div>&nbsp;</div><br><div id='e27015009' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Оливетти А. - Болц С.</b><br>
+06.10.2016 00:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (7:6 6:3)<br></b><div class=rd><a href='javascript:showres(231);'><img id='rd_231' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_231' style='display: none;'>1 сет: 1 гейм - Болц С., 2 гейм - Оливетти А., 3 гейм - Болц С., 4 гейм - Оливетти А., 5 гейм - Болц С., 6 гейм - Оливетти А., 7 гейм - Болц С., 8 гейм - Оливетти А., 9 гейм - Болц С., 10 гейм - Оливетти А., 11 гейм - Болц С., 12 гейм - Оливетти А.<br>2 сет: 1 гейм - Оливетти А., 2 гейм - Болц С., 3 гейм - Оливетти А., 4 гейм - Болц С., 5 гейм - Оливетти А., 6 гейм - Оливетти А., 7 гейм - Оливетти А., 8 гейм - Болц С., 9 гейм - Оливетти А.<br></div><div>&nbsp;</div><br><div id='e27030310' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Пары. Шарм-Эль-Шейх. Хард  </TD>
+<TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Пары. Вальедупар. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Баданов Д./Писарчук Д. - Гажевски К./Вальков Ш.</b><br>
-05.10.2016 00:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 3:6)<br></b><div id='e27020773' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хайек П./Вейвара Л. - Матушевски П./Зук К.</b><br>
-05.10.2016 00:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (2:6 6:4 0:1)<br></b><div class=rd><a href='javascript:showres(246);'><img id='rd_246' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_246' style='display: none;'>1 сет: 1 гейм - Матушевски П./Зук К., 2 гейм - Матушевски П./Зук К., 3 гейм - Матушевски П./Зук К., 4 гейм - Матушевски П./Зук К., 5 гейм - Матушевски П./Зук К., 6 гейм - Хайек П./Вейвара Л., 7 гейм - Хайек П./Вейвара Л., 8 гейм - Матушевски П./Зук К.<br>2 сет: 1 гейм - Матушевски П./Зук К., 2 гейм - Матушевски П./Зук К., 3 гейм - Матушевски П./Зук К., 4 гейм - Хайек П./Вейвара Л., 5 гейм - Матушевски П./Зук К., 6 гейм - Хайек П./Вейвара Л., 7 гейм - Хайек П./Вейвара Л., 8 гейм - Хайек П./Вейвара Л., 9 гейм - Хайек П./Вейвара Л., 10 гейм - Хайек П./Вейвара Л.<br>3 сет: 1 гейм - Матушевски П./Зук К.<br></div><div>&nbsp;</div><br><div id='e27020776' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Почией К./Тавил И.Х. - Рикка Дж./Видал Азорин Х.-Ф.</b><br>
-05.10.2016 00:40:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:4)<br></b><div id='e27020785' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Грей Дж./Оукли Л. - Гримолицци Г.-А./Марино А.</b><br>
-05.10.2016 00:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:1)<br></b><div class=rd><a href='javascript:showres(251);'><img id='rd_251' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_251' style='display: none;'>1 сет: 1 гейм - Грей Дж./Оукли Л., 2 гейм - Грей Дж./Оукли Л., 3 гейм - Гримолицци Г.-А./Марино А., 4 гейм - Гримолицци Г.-А./Марино А., 5 гейм - Грей Дж./Оукли Л., 6 гейм - Гримолицци Г.-А./Марино А., 7 гейм - Грей Дж./Оукли Л., 8 гейм - Грей Дж./Оукли Л., 9 гейм - Грей Дж./Оукли Л.<br>2 сет: 1 гейм - Гримолицци Г.-А./Марино А., 2 гейм - Грей Дж./Оукли Л., 3 гейм - Грей Дж./Оукли Л., 4 гейм - Грей Дж./Оукли Л., 5 гейм - Грей Дж./Оукли Л., 6 гейм - Грей Дж./Оукли Л., 7 гейм - Грей Дж./Оукли Л.<br></div><div>&nbsp;</div><br><div id='e27020781' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Трокер М./Винклер Г. - Массара А./Вавассори А.</b><br>
-05.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (2:6 3:6)<br></b><div id='e27020784' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дембек М./Вайдингер Д. - Глвач А./Косец И.</b><br>
-05.10.2016 01:40:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 6:7)<br></b><div class=rd><a href='javascript:showres(255);'><img id='rd_255' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_255' style='display: none;'>1 сет: 1 гейм - Глвач А./Косец И., 2 гейм - Дембек М./Вайдингер Д., 3 гейм - Глвач А./Косец И., 4 гейм - Глвач А./Косец И., 5 гейм - Глвач А./Косец И., 6 гейм - Дембек М./Вайдингер Д., 7 гейм - Глвач А./Косец И., 8 гейм - Дембек М./Вайдингер Д., 9 гейм - Глвач А./Косец И.<br>2 сет: 1 гейм - Дембек М./Вайдингер Д., 2 гейм - Глвач А./Косец И., 3 гейм - Дембек М./Вайдингер Д., 4 гейм - Глвач А./Косец И., 5 гейм - Дембек М./Вайдингер Д., 6 гейм - Дембек М./Вайдингер Д., 7 гейм - Глвач А./Косец И., 8 гейм - Глвач А./Косец И., 9 гейм - Дембек М./Вайдингер Д., 10 гейм - Глвач А./Косец И., 11 гейм - Дембек М./Вайдингер Д., 12 гейм - Глвач А./Косец И.<br></div><div>&nbsp;</div><br><div id='e27020782' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Барриос Вера М. Т./Монтеро Х. - Карвахал Торрес Х.-Ф./Эрасо К.-А.</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:2)<br></b><div class=rd><a href='javascript:showres(234);'><img id='rd_234' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_234' style='display: none;'>1 сет: 1 гейм - Карвахал Торрес Х.-Ф./Эрасо К.-А., 2 гейм - Карвахал Торрес Х.-Ф./Эрасо К.-А., 3 гейм - Барриос Вера М. Т./Монтеро Х., 4 гейм - Барриос Вера М. Т./Монтеро Х., 5 гейм - Барриос Вера М. Т./Монтеро Х., 6 гейм - Барриос Вера М. Т./Монтеро Х., 7 гейм - Барриос Вера М. Т./Монтеро Х., 8 гейм - Барриос Вера М. Т./Монтеро Х.<br>2 сет: 1 гейм - Карвахал Торрес Х.-Ф./Эрасо К.-А., 2 гейм - Барриос Вера М. Т./Монтеро Х., 3 гейм - Барриос Вера М. Т./Монтеро Х., 4 гейм - Барриос Вера М. Т./Монтеро Х., 5 гейм - Барриос Вера М. Т./Монтеро Х., 6 гейм - Барриос Вера М. Т./Монтеро Х., 7 гейм - Карвахал Торрес Х.-Ф./Эрасо К.-А., 8 гейм - Барриос Вера М. Т./Монтеро Х.<br></div><div>&nbsp;</div><br><div id='e27040386' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мантилла Ф./Вариллас Патино-Самудио Х. П. - Матос Р./Магальяэш Де Мезенес Ж-Л.</b><br>
+06.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (4:6 2:6)<br></b><div class=rd><a href='javascript:showres(237);'><img id='rd_237' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_237' style='display: none;'>1 сет: 1 гейм - Мантилла Ф./Вариллас Патино-Самудио Х. П., 2 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 3 гейм - Мантилла Ф./Вариллас Патино-Самудио Х. П., 4 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 5 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 6 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 7 гейм - Мантилла Ф./Вариллас Патино-Самудио Х. П., 8 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 9 гейм - Мантилла Ф./Вариллас Патино-Самудио Х. П., 10 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л.<br>2 сет: 1 гейм - Мантилла Ф./Вариллас Патино-Самудио Х. П., 2 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 3 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 4 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 5 гейм - Мантилла Ф./Вариллас Патино-Самудио Х. П., 6 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 7 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л., 8 гейм - Матос Р./Магальяэш Де Мезенес Ж-Л.<br></div><div>&nbsp;</div><br><div id='e27040388' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бойер Д./Треиз Б. - Галан Риверос Д.-Э./Менья Ф.</b><br>
+06.10.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (7:6 3:6 1:0)<br></b><div class=rd><a href='javascript:showres(240);'><img id='rd_240' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_240' style='display: none;'>1 сет: 1 гейм - Галан Риверос Д.-Э./Менья Ф., 2 гейм - Бойер Д./Треиз Б., 3 гейм - Галан Риверос Д.-Э./Менья Ф., 4 гейм - Бойер Д./Треиз Б., 5 гейм - Галан Риверос Д.-Э./Менья Ф., 6 гейм - Галан Риверос Д.-Э./Менья Ф., 7 гейм - Бойер Д./Треиз Б., 8 гейм - Бойер Д./Треиз Б., 9 гейм - Галан Риверос Д.-Э./Менья Ф., 10 гейм - Бойер Д./Треиз Б., 11 гейм - Галан Риверос Д.-Э./Менья Ф., 12 гейм - Бойер Д./Треиз Б.<br>2 сет: 1 гейм - Бойер Д./Треиз Б., 2 гейм - Галан Риверос Д.-Э./Менья Ф., 3 гейм - Галан Риверос Д.-Э./Менья Ф., 4 гейм - Галан Риверос Д.-Э./Менья Ф., 5 гейм - Бойер Д./Треиз Б., 6 гейм - Галан Риверос Д.-Э./Менья Ф., 7 гейм - Бойер Д./Треиз Б., 8 гейм - Галан Риверос Д.-Э./Менья Ф., 9 гейм - Галан Риверос Д.-Э./Менья Ф.<br>3 сет: 1 гейм - Бойер Д./Треиз Б.<br></div><div>&nbsp;</div><br><div id='e27040390' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Пары. Тувумба. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Паша Н./Полкингхорн Д. - Нкомба Б.-Б./Пирсон К.</b><br>
+06.10.2016 09:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:3)<br></b><div class=rd><a href='javascript:showres(244);'><img id='rd_244' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_244' style='display: none;'>1 сет: 1 гейм - Паша Н./Полкингхорн Д., 2 гейм - Нкомба Б.-Б./Пирсон К., 3 гейм - Паша Н./Полкингхорн Д., 4 гейм - Паша Н./Полкингхорн Д., 5 гейм - Паша Н./Полкингхорн Д., 6 гейм - Паша Н./Полкингхорн Д., 7 гейм - Паша Н./Полкингхорн Д.<br>2 сет: 1 гейм - Нкомба Б.-Б./Пирсон К., 2 гейм - Паша Н./Полкингхорн Д., 3 гейм - Нкомба Б.-Б./Пирсон К., 4 гейм - Паша Н./Полкингхорн Д., 5 гейм - Паша Н./Полкингхорн Д., 6 гейм - Паша Н./Полкингхорн Д., 7 гейм - Нкомба Б.-Б./Пирсон К., 8 гейм - Паша Н./Полкингхорн Д., 9 гейм - Паша Н./Полкингхорн Д.<br></div><div>&nbsp;</div><br><div id='e27040870' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Делани Дж./Пёрселл М. - Бэйнс М./Ван Пеперзил Г.</b><br>
+06.10.2016 12:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 3:6)<br></b><div class=rd><a href='javascript:showres(247);'><img id='rd_247' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_247' style='display: none;'>1 сет: 1 гейм - Делани Дж./Пёрселл М., 2 гейм - Бэйнс М./Ван Пеперзил Г., 3 гейм - Делани Дж./Пёрселл М., 4 гейм - Бэйнс М./Ван Пеперзил Г., 5 гейм - Делани Дж./Пёрселл М., 6 гейм - Бэйнс М./Ван Пеперзил Г., 7 гейм - Бэйнс М./Ван Пеперзил Г., 8 гейм - Бэйнс М./Ван Пеперзил Г., 9 гейм - Бэйнс М./Ван Пеперзил Г.<br>2 сет: 1 гейм - Бэйнс М./Ван Пеперзил Г., 2 гейм - Делани Дж./Пёрселл М., 3 гейм - Бэйнс М./Ван Пеперзил Г., 4 гейм - Делани Дж./Пёрселл М., 5 гейм - Бэйнс М./Ван Пеперзил Г., 6 гейм - Делани Дж./Пёрселл М., 7 гейм - Бэйнс М./Ван Пеперзил Г., 8 гейм - Бэйнс М./Ван Пеперзил Г., 9 гейм - Бэйнс М./Ван Пеперзил Г.<br></div><div>&nbsp;</div><br><div id='e27040871' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Тувумба. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эшмэйд Н. - Делани Дж.</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (6:7 6:4 6:2)<br></b><div class=rd><a href='javascript:showres(258);'><img id='rd_258' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_258' style='display: none;'>1 сет: 1 гейм - Эшмэйд Н., 2 гейм - Эшмэйд Н., 3 гейм - Делани Дж. , 4 гейм - Эшмэйд Н., 5 гейм - Делани Дж. , 6 гейм - Эшмэйд Н., 7 гейм - Эшмэйд Н., 8 гейм - Делани Дж. , 9 гейм - Делани Дж. , 10 гейм - Делани Дж. , 11 гейм - Делани Дж. , 12 гейм - Эшмэйд Н.<br>2 сет: 1 гейм - Эшмэйд Н., 2 гейм - Делани Дж. , 3 гейм - Делани Дж. , 4 гейм - Делани Дж. , 5 гейм - Эшмэйд Н., 6 гейм - Делани Дж. , 7 гейм - Эшмэйд Н., 8 гейм - Эшмэйд Н., 9 гейм - Эшмэйд Н., 10 гейм - Эшмэйд Н.<br>3 сет: 1 гейм - Эшмэйд Н., 2 гейм - Эшмэйд Н., 3 гейм - Эшмэйд Н., 4 гейм - Делани Дж. , 5 гейм - Эшмэйд Н., 6 гейм - Делани Дж. , 7 гейм - Эшмэйд Н., 8 гейм - Эшмэйд Н.<br></div><div>&nbsp;</div><br><div id='e27023388' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дженкинс Дж. - Ватануки Ю.</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:5 7:6)<br></b><div class=rd><a href='javascript:showres(262);'><img id='rd_262' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_262' style='display: none;'>1 сет: 1 гейм - Ватануки Ю., 2 гейм - Дженкинс Дж., 3 гейм - Ватануки Ю., 4 гейм - Дженкинс Дж., 5 гейм - Дженкинс Дж., 6 гейм - Ватануки Ю., 7 гейм - Ватануки Ю., 8 гейм - Дженкинс Дж., 9 гейм - Ватануки Ю., 10 гейм - Дженкинс Дж., 11 гейм - Дженкинс Дж., 12 гейм - Дженкинс Дж.<br>2 сет: 1 гейм - Дженкинс Дж., 2 гейм - Ватануки Ю., 3 гейм - Ватануки Ю., 4 гейм - Ватануки Ю., 5 гейм - Ватануки Ю., 6 гейм - Дженкинс Дж., 7 гейм - Дженкинс Дж., 8 гейм - Дженкинс Дж., 9 гейм - Ватануки Ю., 10 гейм - Дженкинс Дж., 11 гейм - Дженкинс Дж., 12 гейм - Ватануки Ю.<br></div><div>&nbsp;</div><br><div id='e27023393' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фрост И. - Мозли Б.</b><br>
-05.10.2016 06:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>отмена (матч завершен при счете: 0:0 (3:2)<br></b><div id='e27023390' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Уолкин Б. - Де Минаур А.</b><br>
-05.10.2016 06:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (2:6 1:6)<br></b><div class=rd><a href='javascript:showres(266);'><img id='rd_266' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_266' style='display: none;'>1 сет: 1 гейм - Де Минаур А., 2 гейм - Де Минаур А., 3 гейм - Де Минаур А., 4 гейм - Уолкин Б., 5 гейм - Де Минаур А., 6 гейм - Уолкин Б., 7 гейм - Де Минаур А., 8 гейм - Де Минаур А.<br>2 сет: 1 гейм - Де Минаур А., 2 гейм - Уолкин Б., 3 гейм - Де Минаур А., 4 гейм - Де Минаур А., 5 гейм - Де Минаур А., 6 гейм - Де Минаур А., 7 гейм - Де Минаур А.<br></div><div>&nbsp;</div><br><div id='e27023391' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нолан Д. - Мотт Б.</b><br>
-05.10.2016 06:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (6:2 0:6 1:6)<br></b><div class=rd><a href='javascript:showres(269);'><img id='rd_269' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_269' style='display: none;'>1 сет: 1 гейм - Мотт Б., 2 гейм - Нолан Д., 3 гейм - Мотт Б., 4 гейм - Нолан Д., 5 гейм - Нолан Д., 6 гейм - Нолан Д., 7 гейм - Нолан Д., 8 гейм - Нолан Д.<br>2 сет: 1 гейм - Мотт Б., 2 гейм - Мотт Б., 3 гейм - Мотт Б., 4 гейм - Мотт Б., 5 гейм - Мотт Б., 6 гейм - Мотт Б.<br>3 сет: 1 гейм - Мотт Б., 2 гейм - Нолан Д., 3 гейм - Мотт Б., 4 гейм - Мотт Б., 5 гейм - Мотт Б., 6 гейм - Мотт Б., 7 гейм - Мотт Б.<br></div><div>&nbsp;</div><br><div id='e27023392' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Митчелл Б. - Фрост Л.</b><br>
-05.10.2016 06:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>отмена (матч завершен при счете: 0:0 (1:2)<br></b><div id='e27023394' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Келли Д. - Бил Дж.</b><br>
-05.10.2016 06:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:1)<br></b><div class=rd><a href='javascript:showres(274);'><img id='rd_274' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_274' style='display: none;'>1 сет: 1 гейм - Бил Дж., 2 гейм - Келли Д., 3 гейм - Келли Д., 4 гейм - Келли Д., 5 гейм - Бил Дж., 6 гейм - Келли Д., 7 гейм - Бил Дж., 8 гейм - Келли Д., 9 гейм - Бил Дж., 10 гейм - Келли Д.<br>2 сет: 1 гейм - Келли Д., 2 гейм - Келли Д., 3 гейм - Келли Д., 4 гейм - Келли Д., 5 гейм - Бил Дж., 6 гейм - Келли Д., 7 гейм - Келли Д.<br></div><div>&nbsp;</div><br><div id='e27023389' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вурадин Л. - Аддисон А.</b><br>
-05.10.2016 07:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 6:7)<br></b><div class=rd><a href='javascript:showres(277);'><img id='rd_277' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_277' style='display: none;'>1 сет: 1 гейм - Аддисон А., 2 гейм - Аддисон А., 3 гейм - Аддисон А., 4 гейм - Вурадин Л., 5 гейм - Аддисон А., 6 гейм - Вурадин Л., 7 гейм - Аддисон А., 8 гейм - Вурадин Л., 9 гейм - Аддисон А.<br>2 сет: 1 гейм - Аддисон А., 2 гейм - Аддисон А., 3 гейм - Вурадин Л., 4 гейм - Вурадин Л., 5 гейм - Вурадин Л., 6 гейм - Аддисон А., 7 гейм - Вурадин Л., 8 гейм - Аддисон А., 9 гейм - Вурадин Л., 10 гейм - Аддисон А., 11 гейм - Вурадин Л., 12 гейм - Аддисон А.<br></div><div>&nbsp;</div><br><div id='e27023396' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лук М. - Полманс М.</b><br>
-05.10.2016 08:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:6 0:6)<br></b><div class=rd><a href='javascript:showres(280);'><img id='rd_280' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_280' style='display: none;'>1 сет: 1 гейм - Лук М., 2 гейм - Полманс М., 3 гейм - Лук М., 4 гейм - Полманс М., 5 гейм - Лук М., 6 гейм - Полманс М., 7 гейм - Лук М., 8 гейм - Полманс М., 9 гейм - Полманс М., 10 гейм - Полманс М.<br>2 сет: 1 гейм - Полманс М., 2 гейм - Полманс М., 3 гейм - Полманс М., 4 гейм - Полманс М., 5 гейм - Полманс М., 6 гейм - Полманс М.<br></div><div>&nbsp;</div><br><div id='e27023395' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Полкингхорн Д - Полманс М.</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (4:6 4:6)<br></b><div class=rd><a href='javascript:showres(250);'><img id='rd_250' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_250' style='display: none;'>1 сет: 1 гейм - Полманс М., 2 гейм - Полкингхорн Д, 3 гейм - Полкингхорн Д, 4 гейм - Полманс М., 5 гейм - Полкингхорн Д, 6 гейм - Полманс М., 7 гейм - Полкингхорн Д, 8 гейм - Полманс М., 9 гейм - Полманс М., 10 гейм - Полманс М.<br>2 сет: 1 гейм - Полкингхорн Д, 2 гейм - Полманс М., 3 гейм - Полкингхорн Д, 4 гейм - Полманс М., 5 гейм - Полкингхорн Д, 6 гейм - Полкингхорн Д, 7 гейм - Полманс М., 8 гейм - Полманс М., 9 гейм - Полманс М., 10 гейм - Полманс М.<br></div><div>&nbsp;</div><br><div id='e27040812' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фрост Л. - Фанкутт Т.</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (2:6 6:1 2:6)<br></b><div class=rd><a href='javascript:showres(253);'><img id='rd_253' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_253' style='display: none;'>1 сет: 1 гейм - Фрост Л., 2 гейм - Фрост Л., 3 гейм - Фанкутт Т. , 4 гейм - Фанкутт Т. , 5 гейм - Фанкутт Т. , 6 гейм - Фанкутт Т. , 7 гейм - Фанкутт Т. , 8 гейм - Фанкутт Т.<br>2 сет: 1 гейм - Фрост Л., 2 гейм - Фрост Л., 3 гейм - Фрост Л., 4 гейм - Фрост Л., 5 гейм - Фанкутт Т. , 6 гейм - Фрост Л., 7 гейм - Фрост Л.<br>3 сет: 1 гейм - Фанкутт Т. , 2 гейм - Фанкутт Т. , 3 гейм - Фрост Л., 4 гейм - Фанкутт Т. , 5 гейм - Фанкутт Т. , 6 гейм - Фанкутт Т. , 7 гейм - Фрост Л., 8 гейм - Фанкутт Т.<br></div><div>&nbsp;</div><br><div id='e27040813' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ван Пеперзил Г. - Де Минаур А.</b><br>
+06.10.2016 07:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (5:7 6:4 0:6)<br></b><div class=rd><a href='javascript:showres(257);'><img id='rd_257' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_257' style='display: none;'>1 сет: 1 гейм - Де Минаур А., 2 гейм - Ван Пеперзил Г., 3 гейм - Де Минаур А., 4 гейм - Ван Пеперзил Г., 5 гейм - Де Минаур А., 6 гейм - Ван Пеперзил Г., 7 гейм - Де Минаур А., 8 гейм - Ван Пеперзил Г., 9 гейм - Де Минаур А., 10 гейм - Ван Пеперзил Г., 11 гейм - Де Минаур А., 12 гейм - Де Минаур А.<br>2 сет: 1 гейм - Ван Пеперзил Г., 2 гейм - Ван Пеперзил Г., 3 гейм - Ван Пеперзил Г., 4 гейм - Де Минаур А., 5 гейм - Де Минаур А., 6 гейм - Ван Пеперзил Г., 7 гейм - Де Минаур А., 8 гейм - Ван Пеперзил Г., 9 гейм - Де Минаур А., 10 гейм - Ван Пеперзил Г.<br>3 сет: 1 гейм - Де Минаур А., 2 гейм - Де Минаур А., 3 гейм - Де Минаур А., 4 гейм - Де Минаур А., 5 гейм - Де Минаур А., 6 гейм - Де Минаур А.<br></div><div>&nbsp;</div><br><div id='e27040814' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Уолтон А. - Пёрселл М.</b><br>
+06.10.2016 07:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (4:6 4:6)<br></b><div class=rd><a href='javascript:showres(261);'><img id='rd_261' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_261' style='display: none;'>1 сет: 1 гейм - Уолтон А., 2 гейм - Пёрселл М., 3 гейм - Уолтон А., 4 гейм - Пёрселл М., 5 гейм - Пёрселл М., 6 гейм - Уолтон А., 7 гейм - Уолтон А., 8 гейм - Пёрселл М., 9 гейм - Пёрселл М., 10 гейм - Пёрселл М.<br>2 сет: 1 гейм - Уолтон А., 2 гейм - Пёрселл М., 3 гейм - Уолтон А., 4 гейм - Пёрселл М., 5 гейм - Пёрселл М., 6 гейм - Пёрселл М., 7 гейм - Уолтон А., 8 гейм - Пёрселл М., 9 гейм - Уолтон А., 10 гейм - Пёрселл М.<br></div><div>&nbsp;</div><br><div id='e27040817' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бэйнс М. - Буршье Х.</b><br>
+06.10.2016 08:55:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (4:6 4:6)<br></b><div class=rd><a href='javascript:showres(264);'><img id='rd_264' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_264' style='display: none;'>1 сет: 1 гейм - Бэйнс М., 2 гейм - Буршье Х., 3 гейм - Бэйнс М., 4 гейм - Буршье Х., 5 гейм - Бэйнс М., 6 гейм - Буршье Х., 7 гейм - Буршье Х., 8 гейм - Буршье Х., 9 гейм - Бэйнс М., 10 гейм - Буршье Х.<br>2 сет: 1 гейм - Бэйнс М., 2 гейм - Буршье Х., 3 гейм - Буршье Х., 4 гейм - Бэйнс М., 5 гейм - Буршье Х., 6 гейм - Буршье Х., 7 гейм - Бэйнс М., 8 гейм - Буршье Х., 9 гейм - Бэйнс М., 10 гейм - Буршье Х.<br></div><div>&nbsp;</div><br><div id='e27040816' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Аддисон А. - Мотт Б.</b><br>
+06.10.2016 09:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (2:6 2:6)<br></b><div class=rd><a href='javascript:showres(267);'><img id='rd_267' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_267' style='display: none;'>1 сет: 1 гейм - Мотт Б., 2 гейм - Мотт Б., 3 гейм - Мотт Б., 4 гейм - Мотт Б., 5 гейм - Аддисон А., 6 гейм - Мотт Б., 7 гейм - Аддисон А., 8 гейм - Мотт Б.<br>2 сет: 1 гейм - Аддисон А., 2 гейм - Мотт Б., 3 гейм - Мотт Б., 4 гейм - Мотт Б., 5 гейм - Мотт Б., 6 гейм - Мотт Б., 7 гейм - Аддисон А., 8 гейм - Мотт Б.<br></div><div>&nbsp;</div><br><div id='e27040867' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Келли Д. - Эшмэйд Н.</b><br>
+06.10.2016 09:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:3)<br></b><div class=rd><a href='javascript:showres(270);'><img id='rd_270' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_270' style='display: none;'>1 сет: 1 гейм - Эшмэйд Н., 2 гейм - Келли Д., 3 гейм - Эшмэйд Н., 4 гейм - Келли Д., 5 гейм - Эшмэйд Н., 6 гейм - Келли Д., 7 гейм - Келли Д., 8 гейм - Келли Д., 9 гейм - Келли Д.<br>2 сет: 1 гейм - Келли Д., 2 гейм - Эшмэйд Н., 3 гейм - Келли Д., 4 гейм - Эшмэйд Н., 5 гейм - Келли Д., 6 гейм - Келли Д., 7 гейм - Эшмэйд Н., 8 гейм - Келли Д., 9 гейм - Келли Д.<br></div><div>&nbsp;</div><br><div id='e27040868' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дженкинс Дж. - Фрост И.</b><br>
+06.10.2016 10:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:3)<br></b><div class=rd><a href='javascript:showres(273);'><img id='rd_273' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_273' style='display: none;'>1 сет: 1 гейм - Фрост И., 2 гейм - Фрост И., 3 гейм - Дженкинс Дж., 4 гейм - Дженкинс Дж., 5 гейм - Дженкинс Дж., 6 гейм - Дженкинс Дж., 7 гейм - Фрост И., 8 гейм - Дженкинс Дж., 9 гейм - Дженкинс Дж.<br></div><div>&nbsp;</div><br><div id='e27040869' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Шарм-Эль-Шейх. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Веджвара Л - Зук К.</b><br>
+06.10.2016 00:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (6:4 3:6 0:6)<br></b><div class=rd><a href='javascript:showres(275);'><img id='rd_275' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_275' style='display: none;'>1 сет: 1 гейм - Веджвара Л, 2 гейм - Зук К., 3 гейм - Зук К., 4 гейм - Веджвара Л, 5 гейм - Веджвара Л, 6 гейм - Зук К., 7 гейм - Веджвара Л, 8 гейм - Веджвара Л, 9 гейм - Зук К., 10 гейм - Веджвара Л<br>2 сет: 1 гейм - Зук К., 2 гейм - Веджвара Л, 3 гейм - Зук К., 4 гейм - Веджвара Л, 5 гейм - Зук К., 6 гейм - Веджвара Л, 7 гейм - Зук К., 8 гейм - Зук К., 9 гейм - Зук К.<br>3 сет: 1 гейм - Зук К., 2 гейм - Зук К., 3 гейм - Зук К., 4 гейм - Зук К., 5 гейм - Зук К., 6 гейм - Зук К.<br></div><div>&nbsp;</div><br><div id='e27037903' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сэндлер О. - Като Д.</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:4)<br></b><div id='e27039060' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Даванзо К. - Себаун Л. Ж.</b><br>
+06.10.2016 01:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (3:6 7:5 3:6)<br></b><div class=rd><a href='javascript:showres(280);'><img id='rd_280' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_280' style='display: none;'>1 сет: 1 гейм - Себаун Л. Ж., 2 гейм - Себаун Л. Ж., 3 гейм - Себаун Л. Ж., 4 гейм - Даванзо К., 5 гейм - Даванзо К., 6 гейм - Даванзо К., 7 гейм - Себаун Л. Ж., 8 гейм - Себаун Л. Ж., 9 гейм - Себаун Л. Ж.<br>2 сет: 1 гейм - Даванзо К., 2 гейм - Себаун Л. Ж., 3 гейм - Себаун Л. Ж., 4 гейм - Даванзо К., 5 гейм - Себаун Л. Ж., 6 гейм - Даванзо К., 7 гейм - Даванзо К., 8 гейм - Себаун Л. Ж., 9 гейм - Даванзо К., 10 гейм - Себаун Л. Ж., 11 гейм - Даванзо К., 12 гейм - Даванзо К.<br>3 сет: 1 гейм - Даванзо К., 2 гейм - Себаун Л. Ж., 3 гейм - Себаун Л. Ж., 4 гейм - Себаун Л. Ж., 5 гейм - Себаун Л. Ж., 6 гейм - Себаун Л. Ж., 7 гейм - Даванзо К., 8 гейм - Даванзо К., 9 гейм - Себаун Л. Ж.<br></div><div>&nbsp;</div><br><div id='e27037901' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Шымкент. Грунт  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Давыдов И. - Киямов Т.</b><br>
-05.10.2016 10:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (5:7 6:2 6:2)<br></b><div id='e27028116' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Неделько И. - Хассанов Р.</b><br>
-05.10.2016 10:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:5 6:4)<br></b><div id='e27028118' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Майга Р. - Игошин А.</b><br>
-05.10.2016 10:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (2:6 6:7)<br></b><div class=rd><a href='javascript:showres(285);'><img id='rd_285' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_285' style='display: none;'>1 сет: 1 гейм - Майга Р., 2 гейм - Игошин А., 3 гейм - Игошин А., 4 гейм - Игошин А., 5 гейм - Игошин А., 6 гейм - Игошин А., 7 гейм - Майга Р., 8 гейм - Игошин А.<br>2 сет: 1 гейм - Майга Р., 2 гейм - Игошин А., 3 гейм - Майга Р., 4 гейм - Майга Р., 5 гейм - Игошин А., 6 гейм - Игошин А., 7 гейм - Майга Р., 8 гейм - Игошин А., 9 гейм - Майга Р., 10 гейм - Игошин А., 11 гейм - Майга Р., 12 гейм - Игошин А.<br></div><div>&nbsp;</div><br><div id='e27028117' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гахов И. - Фомин С.</b><br>
-05.10.2016 11:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:0 6:1)<br></b><div id='e27028119' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Неделько И. - Цивадзе Г.</b><br>
+06.10.2016 10:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:4)<br></b><div id='e27045588' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Пары. Пекин. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сок Дж./Томич Б. - Лоренци П./Пелла Г.</b><br>
+06.10.2016 12:33:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (4:6 6:4 1:0)<br></b><div id='e27005982' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Пары. Токио. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Монро Н./Ситак А. - Клаасен Р./Рам Р.</b><br>
-05.10.2016 08:24:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:6 2:6)<br></b><div id='e26986249' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Куреши А. У. Х./Симон Ж. - Марач О./Мартин Ф.</b><br>
-05.10.2016 10:18:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (1:6 6:4 1:0)<br></b><div id='e26981403' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
-</TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Пары. Челленджер. Стоктон. Хард. Квалификация  </TD>
-</TR>
-<TR><TD vAlign=middle align=left>
-<table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Рола Б./Жемля Г. - Чаплин Дж./Кудла Д.</b><br>
-05.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (2:6 7:5 1:0)<br></b><div class=rd><a href='javascript:showres(291);'><img id='rd_291' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_291' style='display: none;'>1 сет: 1 гейм - Чаплин Дж./Кудла Д., 2 гейм - Рола Б./Жемля Г., 3 гейм - Чаплин Дж./Кудла Д., 4 гейм - Рола Б./Жемля Г., 5 гейм - Чаплин Дж./Кудла Д., 6 гейм - Чаплин Дж./Кудла Д., 7 гейм - Чаплин Дж./Кудла Д., 8 гейм - Чаплин Дж./Кудла Д.<br></div><div>&nbsp;</div><br><div id='e27031539' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
-</TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Пекин. Хард  </TD>
-</TR>
-<TR><TD vAlign=middle align=left>
-<table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гаске Р. - Куэрри С.</b><br>
-05.10.2016 10:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (2:6 6:3 6:2)<br></b><div id='e26967929' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Каррено-Буста П. - Томич Б.</b><br>
-05.10.2016 10:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:1)<br></b><div id='e26967931' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пелла Г. - Жазири М.</b><br>
-05.10.2016 10:44:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:6 4:6)<br></b><div id='e26968129' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бердых Т./Штепанек Р. - Клаасен Р./Рам Р.</b><br>
+06.10.2016 10:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27038695' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Токио. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мюллер Ж. - Бердых Т.</b><br>
-05.10.2016 08:12:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:6 6:1)<br></b><div id='e26968134' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чилич Мар. - Вердаско Ф.</b><br>
-05.10.2016 10:35:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (4:6 7:5 7:5)<br></b><div id='e27003911' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Киргиос Н. - Штепанек Р.</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27019055' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Багдатис М. - Мюллер Ж.</b><br>
+06.10.2016 09:12:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 4:6)<br></b><div id='e27037921' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Симон Ж. - Монфилс Г.</b><br>
+06.10.2016 10:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (1:6 4:6)<br></b><div id='e27024052' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Челленджер. Кампинас. Грунт  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Берлок К. - Сакамото П.</b><br>
-05.10.2016 00:44:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:1)<br></b><div id='e26999630' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эстевес М. - Лондера Х.-И.</b><br>
-05.10.2016 01:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (4:6 4:6)<br></b><div id='e26986133' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мелигени Родригес Алвес Ф - Киккер Н.</b><br>
-05.10.2016 03:02:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 2:6)<br></b><div id='e26985783' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Перейра Х. - Соуза Ж.-О.</b><br>
-05.10.2016 04:51:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Соуза Ж.-О. (матч завершен при счете: 0:1 (4:6, 0:2))<br></b><div id='e26985786' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дутра Да Сильва Д. - Зампиери К.</b><br>
+06.10.2016 02:03:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (3:6 6:1 4:6)<br></b><div id='e26985782' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Колларини А. - Сант'Анна Б.</b><br>
+06.10.2016 04:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:2)<br></b><div id='e26999632' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гем А. - Монтейро Т.-М.</b><br>
+06.10.2016 05:32:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (2:6 1:6)<br></b><div id='e26985784' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Челленджер. Монс. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дарси С. - Кьюдинелли М.</b><br>
-05.10.2016 00:41:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 4:6)<br></b><div id='e26984532' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бемельманс Р. - Албот Р.</b><br>
+06.10.2016 00:59:08</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (4:6 5:7)<br></b><div id='e26984542' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Челленджер. Пары. Кампинас. Грунт  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Линделл К./Северино К.-Э. - Колларини А./Велотти А.</b><br>
-05.10.2016 00:41:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (2:6 2:6)<br></b><div id='e27001942' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дутра Да Силва Д./Русси Э. - Ромболи Ф./Зампиери К.</b><br>
-05.10.2016 03:41:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (1:6 2:6)<br></b><div id='e27003494' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Галдос С./Гонзалез М - Дишингер Э./Гем А.</b><br>
-05.10.2016 04:17:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (4:6 6:3 1:0)<br></b><div id='e27001941' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тебет Фильо М./Ямакита Ф. - Эстевез М./Эрнандес Х.</b><br>
+06.10.2016 02:37:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (2:6 6:3 0:1)<br></b><div id='e27001940' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Луз О./Зорманн М. - Кикер Н./Перейра Ж.</b><br>
+06.10.2016 03:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>матч отменен<br></b><div id='e27003495' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Де Паула Ф./Соуса П. - Лондеро Х.-И./Сакамото П.</b><br>
+06.10.2016 04:13:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:4)<br></b><div id='e27001939' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Челленджер. Пары. Стоктон. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Рейд М./Смит Дж.-П. - Бхамбри Ю./Фрутерро Дж.-П.</b><br>
-05.10.2016 04:02:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:4)<br></b><div id='e27004371' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бангоура С./О'Хэйр Д. - Де Ваард С./Тиафо Ф.</b><br>
-05.10.2016 05:28:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (7:5 6:3)<br></b><div id='e27004372' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Халис К./Новиков Д. - Рола Б./Жемля Г.</b><br>
+06.10.2016 00:56:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:2)<br></b><div id='e27038701' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Молтени А./Подлипник-Кастильо Х. - Чамба Гомес Х./Вербеек С.</b><br>
+06.10.2016 03:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (6:7 6:2 0:1)<br></b><div id='e27003863' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Макдональд М./Маклахлан Б. - Рейес-Варела М.-А./Шнур М.-Дж.</b><br>
+06.10.2016 05:12:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (4:6 5:7)<br></b><div id='e27004374' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Джанесси А./Трунгельити М. - Бейкер Б./Грот С.</b><br>
+06.10.2016 05:42:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 1:6)<br></b><div id='e27004373' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Челленджер. Стоктон. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Карузо С. - Новиков Д.</b><br>
-05.10.2016 01:26:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:3)<br></b><div id='e27018844' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Жемля Г. - Смычек Т.</b><br>
-05.10.2016 01:39:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (4:6 6:3 1:6)<br></b><div id='e26988591' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гонсалес А. - Ммо М.</b><br>
-05.10.2016 02:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (3:6 1:6)<br></b><div id='e26988595' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бангура С. - Кинг Д.</b><br>
-05.10.2016 02:26:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (0:6 3:6)<br></b><div id='e26988590' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пол Т. - Данцевич Ф.</b><br>
-05.10.2016 02:46:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (2:6 2:6)<br></b><div id='e26988593' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Макдональд М. - Вербеек С</b><br>
-05.10.2016 03:34:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:2)<br></b><div id='e26988599' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Неволо Д. - Нильсен Ф.</b><br>
-05.10.2016 03:50:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:2)<br></b><div id='e27018845' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Джаннесси А. - Чамба Гомес Х.</b><br>
-05.10.2016 04:52:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:4)<br></b><div id='e26988600' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Джаннесси А. - Нгуйен Д.</b><br>
+06.10.2016 00:18:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (4:6 7:5 7:5)<br></b><div id='e27037609' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кудла Д. - Бейкер Б.</b><br>
+06.10.2016 00:46:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (5:7 6:4 7:5)<br></b><div id='e27035447' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Неволо Д. - Тиафо Ф.</b><br>
+06.10.2016 03:33:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (6:7 3:6)<br></b><div id='e27037773' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Турнир WTA. Пары. Пекин. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чань Х.-Ч./Чань Ю.-Я. - Арруабаррена Л./Калашникова О.</b><br>
+06.10.2016 10:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:0)<br></b><div id='e27044555' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Теннис. Турнир WTA. Пекин. Хард  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бабош Т. - Конта Дж.</b><br>
-05.10.2016 10:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (5:7 2:6)<br></b><div id='e26985313' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Радванска А. - Возняцки К.</b><br>
+06.10.2016 10:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:3 6:1)<br></b><div id='e27026559' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кербер А. - Свитолина Э.</b><br>
+06.10.2016 12:17:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 5:7)<br></b><div id='e27042108' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гаврилова Д. - Гарсия К.</b><br>
+06.10.2016 12:34:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:4 6:3)<br></b><div id='e27041561' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Алжир. Лига 1  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Англия. Истмийская Лига. 1-й дивизион. Юг  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>МО Беджая - Релизан</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div class=rd><a href='javascript:showres(317);'><img id='rd_317' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_317' style='display: none;'>Первый гол: Релизан на 77 минуте<br>Последний гол: Релизан<br></div><div>&nbsp;</div><br><div id='e27004598' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Валтон Кэжуалз - Доркинг Уондерерс</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (1:0)<br></b><div id='e27039050' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Футбол. Англия. Истмийская Лига. Премьер Дивизион  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Уэртинг - Мерстхам</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div id='e27021509' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Грейс Атлетик - Харлоу Таун</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (2:1)<br></b><div id='e27026233' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лэзерхед - Лейстон</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:3 (0:2)<br></b><div class=rd><a href='javascript:showres(310);'><img id='rd_310' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_310' style='display: none;'>Угловые: 12, Лэзерхед: 6, Лейстон: 6<br></div><div>&nbsp;</div><br><div id='e27045232' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Англия. Национальная лига  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Англия. Кубок Южной Премьер лиги  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Истли - Мейдстон Юнайтед</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:0 (2:0)<br></b><div class=rd><a href='javascript:showres(321);'><img id='rd_321' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_321' style='display: none;'>Первый гол: Истли<br>Последний гол: Истли<br>Угловые: 12, Истли: 7, Мейдстон Юнайтед: 5<br></div><div>&nbsp;</div><br><div id='e26974460' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Олдершот - Форест Грин</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:4 (0:4)<br></b><div class=rd><a href='javascript:showres(325);'><img id='rd_325' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_325' style='display: none;'>Первый гол: Форест Грин<br>Последний гол: Форест Грин<br></div><div>&nbsp;</div><br><div id='e26974461' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Солихалл Мурс - Саутпорт ФК</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 4:0 (0:0)<br></b><div class=rd><a href='javascript:showres(328);'><img id='rd_328' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_328' style='display: none;'>Первый гол: Солихалл Мурс<br>Последний гол: Солихалл Мурс<br></div><div>&nbsp;</div><br><div id='e26974462' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бромли - Уокинг</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (1:1)<br></b><div class=rd><a href='javascript:showres(331);'><img id='rd_331' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_331' style='display: none;'>Первый гол: Уокинг<br>Последний гол: Бромли<br>Угловые: 8, Бромли: 5, Уокинг: 3<br></div><div>&nbsp;</div><br><div id='e26974463' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Рексхэм - Линкольн Сити</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (0:2)<br></b><div class=rd><a href='javascript:showres(335);'><img id='rd_335' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_335' style='display: none;'>Первый гол: Линкольн Сити<br>Последний гол: Рексхэм<br>Угловые: 4, Рексхэм: 3, Линкольн Сити: 1<br></div><div>&nbsp;</div><br><div id='e26974464' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гизели - Йорк Сити</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 6:1 (4:1)<br></b><div class=rd><a href='javascript:showres(339);'><img id='rd_339' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_339' style='display: none;'>Первый гол: Йорк Сити на 11 минуте<br>Последний гол: Гизели<br></div><div>&nbsp;</div><br><div id='e26974465' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бэрроу - Маклсфилд</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:1 (0:0)<br></b><div class=rd><a href='javascript:showres(342);'><img id='rd_342' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_342' style='display: none;'>Первый гол: Бэрроу на 79 минуте<br>Второй гол: Маклсфилд<br>Последний гол: Маклсфилд<br></div><div>&nbsp;</div><br><div id='e26974466' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Довер Атлетик - Саттон Юнайтед</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:1 (1:0)<br></b><div class=rd><a href='javascript:showres(346);'><img id='rd_346' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_346' style='display: none;'>Первый гол: Довер Атлетик<br>Последний гол: Довер Атлетик<br>Угловые: 7, Довер Атлетик: 1, Саттон Юнайтед: 6<br></div><div>&nbsp;</div><br><div id='e26974467' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Норт Ферриби Юнайтед - Честер</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div class=rd><a href='javascript:showres(350);'><img id='rd_350' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_350' style='display: none;'>Первый гол: Честер<br>Последний гол: Честер<br></div><div>&nbsp;</div><br><div id='e26974468' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Брэйнтри Таун - Борехам Вуд</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (0:1)<br></b><div class=rd><a href='javascript:showres(353);'><img id='rd_353' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_353' style='display: none;'>Первый гол: Борехам Вуд на 26 минуте<br>Последний гол: Борехам Вуд<br></div><div>&nbsp;</div><br><div id='e26974469' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Транмер Роверс - Гейтсхэд</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div class=rd><a href='javascript:showres(356);'><img id='rd_356' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_356' style='display: none;'>Первый гол: Гейтсхэд<br>Последний гол: Гейтсхэд<br>Угловые: 10, Транмер Роверс: 5, Гейтсхэд: 5<br></div><div>&nbsp;</div><br><div id='e26974470' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Торки Юнайтед - Даг энд Ред</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div class=rd><a href='javascript:showres(360);'><img id='rd_360' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_360' style='display: none;'>Первый гол: Торки Юнайтед на 23 минуте<br>Последний гол: Торки Юнайтед<br></div><div>&nbsp;</div><br><div id='e26982334' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кидлингтон - Свиндон Супермарин</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (1:1)<br></b><div class=rd><a href='javascript:showres(312);'><img id='rd_312' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_312' style='display: none;'>Угловые: 11, Кидлингтон: 6, Свиндон Супермарин: 5<br>Проход: Кидлингтон<br></div><div>&nbsp;</div><br><div id='e27045367' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Футбол. Англия. Северная Премьер-Лига. Премьер Дивизион  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Саттон Колдфилд Таун - Хеднесфорд Таун</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:5 (0:3)<br></b><div id='e27021518' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Корби Таун - Стоурбридж</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (0:0)<br></b><div id='e27039051' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера Б. Метрополитана  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Англия. Южная футбольная лига. Кубок  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико Атланта (рез) - КА Барракас Сентраль (рез)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (0:1)<br></b><div id='e27003888' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ларкхалл Атлетик - Фром Таун</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e27029172' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера С  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера дивизион Б. Резерв  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Централ Кордоба - Депортиво Арменио</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (0:1)<br></b><div id='e27009550' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Колегиалес (рез) - Комуникасьонес (рез)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:0 (2:0)<br></b><div id='e27026217' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера дивизион. Резерв  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Унион Санта Фе (рез) - Белграно (рез)</b><br>
+06.10.2016 01:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div id='e27045573' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера С. Метрополитана  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Аргентино де Кильмес - Дефенсорес Камбасерес</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div class=rd><a href='javascript:showres(366);'><img id='rd_366' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_366' style='display: none;'>Угловые: 10, Аргентино де Кильмес: 6, Дефенсорес Камбасерес: 4<br></div><div>&nbsp;</div><br><div id='e27021034' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Феррокаррил Мидланд - Беразатегуи</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div id='e27021035' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Архентино де Мерло - Спортиво Барракас</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:1)<br></b><div class=rd><a href='javascript:showres(319);'><img id='rd_319' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_319' style='display: none;'>Угловые: 4, Архентино де Мерло: 2, Спортиво Барракас: 2<br></div><div>&nbsp;</div><br><div id='e27043433' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сан Мигель - Депортиво Лаферрере</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (2:1)<br></b><div id='e27043434' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Спортиво Итальяно - Лухан</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div class=rd><a href='javascript:showres(322);'><img id='rd_322' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_322' style='display: none;'>Угловые: 8, Спортиво Итальяно: 2, Лухан: 6<br></div><div>&nbsp;</div><br><div id='e27043435' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Резервная лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ривер Плейт (рез) - Велес Сарсфилд (рез)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div class=rd><a href='javascript:showres(324);'><img id='rd_324' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_324' style='display: none;'>Угловые: 9, Ривер Плейт (рез): 5, Велес Сарсфилд (рез): 4<br></div><div>&nbsp;</div><br><div id='e27021497' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Футбол. Бельгия. 2-й дивизион  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Антверпен - Юнион Сент Жиллоз</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 4:0 (3:0)<br></b><div id='e27004253' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тубизе - Хеверле Лёвен</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div id='e27004258' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Розеларе - Юнайтед Ломмель</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div id='e27004262' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Бразилия. Кубок Паулисты  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Бразилия. Кубок Рио Профессионалов  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мирасол - Сан-Паулу</b><br>
-05.10.2016 04:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div class=rd><a href='javascript:showres(370);'><img id='rd_370' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_370' style='display: none;'>Угловые: 13, Мирасол: 5, Сан-Паулу: 8<br></div><div>&nbsp;</div><br><div id='e27021631' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вольта Редонда РЖ - Кеймадус</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:0)<br></b><div id='e27029161' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Боавишта РЖ - Мадурейра</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3 (1:1)<br></b><div id='e27029162' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Америка РЖ - Бангу</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:1)<br></b><div id='e27029163' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Португеза РЖ - Фрибургенсе АК</b><br>
+06.10.2016 00:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (0:0)<br></b><div class=rd><a href='javascript:showres(331);'><img id='rd_331' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_331' style='display: none;'>Угловые: 10, Португеза РЖ: 4, Фрибургенсе АК: 6<br></div><div>&nbsp;</div><br><div id='e27044861' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Бразилия. Серия Б  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Бразилия. Серия А  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Брагантину - Наутико</b><br>
-05.10.2016 04:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div class=rd><a href='javascript:showres(372);'><img id='rd_372' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_372' style='display: none;'>Первый гол: Наутико на 85 минуте<br>Последний гол: Наутико на 85 минуте<br>Угловые: 14, Брагантину: 5, Наутико: 9<br></div><div>&nbsp;</div><br><div id='e26982201' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тупи - Крисиума</b><br>
-05.10.2016 04:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (0:2)<br></b><div class=rd><a href='javascript:showres(376);'><img id='rd_376' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_376' style='display: none;'>Первый гол: Крисиума на 25 минуте<br>Второй гол: Крисиума на 42 минуте<br>Последний гол: Крисиума на 42 минуте<br>Угловые: 14, Тупи: 6, Крисиума: 8<br></div><div>&nbsp;</div><br><div id='e26982202' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лондрина - Баия</b><br>
-05.10.2016 04:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div class=rd><a href='javascript:showres(381);'><img id='rd_381' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_381' style='display: none;'>Первый гол: Лондрина на 8 минуте<br>Последний гол: Лондрина на 8 минуте<br>Угловые: 6, Лондрина: 2, Баия: 4<br></div><div>&nbsp;</div><br><div id='e26982204' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вила Нова - Оэсте</b><br>
-05.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div class=rd><a href='javascript:showres(385);'><img id='rd_385' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_385' style='display: none;'>Первый гол: Вила Нова<br>Последний гол: Вила Нова<br>Угловые: 9, Вила Нова: 5, Оэсте: 4<br></div><div>&nbsp;</div><br><div id='e26982203' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Регатас - Атлетико ГО</b><br>
-05.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (1:0)<br></b><div class=rd><a href='javascript:showres(389);'><img id='rd_389' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_389' style='display: none;'>Первый гол: Регатас на 39 минуте<br>Последний гол: Атлетико ГО на 89 минуте<br>Угловые: 14, Регатас: 6, Атлетико ГО: 8<br></div><div>&nbsp;</div><br><div id='e26982205' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сеара - Жоинвилли</b><br>
-05.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (2:0)<br></b><div class=rd><a href='javascript:showres(393);'><img id='rd_393' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_393' style='display: none;'>Первый гол: Сеара на 35 минуте<br>Последний гол: Жоинвилли на 69 минуте<br>Угловые: 10, Сеара: 7, Жоинвилли: 3<br></div><div>&nbsp;</div><br><div id='e26982206' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Аваи - Гояс</b><br>
-05.10.2016 06:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div class=rd><a href='javascript:showres(397);'><img id='rd_397' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_397' style='display: none;'>Первый гол: Аваи на 9 минуте<br>Последний гол: Аваи<br>Угловые: 14, Аваи: 9, Гояс: 5<br></div><div>&nbsp;</div><br><div id='e26982207' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пайзанду - Васко да Гама</b><br>
-05.10.2016 06:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:1 (0:1)<br></b><div class=rd><a href='javascript:showres(401);'><img id='rd_401' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_401' style='display: none;'>Первый гол: Васко да Гама на 15 минуте<br>Второй гол: Пайзанду на 49 минуте<br>Последний гол: Пайзанду на 88 минуте<br>Угловые: 9, Пайзанду: 4, Васко да Гама: 5<br></div><div>&nbsp;</div><br><div id='e26982208' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бразил Пелотас - Сампаю Корреа</b><br>
-05.10.2016 06:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:1 (1:1)<br></b><div class=rd><a href='javascript:showres(406);'><img id='rd_406' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_406' style='display: none;'>Первый гол: Сампаю Корреа на 3 минуте<br>Второй гол: Бразил Пелотас на 9 минуте<br>Последний гол: Бразил Пелотас<br>Угловые: 10, Бразил Пелотас: 7, Сампаю Корреа: 3<br></div><div>&nbsp;</div><br><div id='e26982209' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Луверденсе - Парана</b><br>
-05.10.2016 06:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:2 (2:1)<br></b><div class=rd><a href='javascript:showres(411);'><img id='rd_411' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_411' style='display: none;'>Первый гол: Луверденсе на 18 минуте<br>Последний гол: Парана на 61 минуте<br>Угловые: 9, Луверденсе: 6, Парана: 3<br></div><div>&nbsp;</div><br><div id='e26982210' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико ПР - Шапекоэнсе</b><br>
+06.10.2016 04:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (1:1)<br></b><div class=rd><a href='javascript:showres(333);'><img id='rd_333' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_333' style='display: none;'>Первый гол: Шапекоэнсе на 19 минуте<br>Второй гол: Атлетико ПР на 42 минуте<br>Последний гол: Атлетико ПР на 88 минуте<br>Угловые: 8, Атлетико ПР: 7, Шапекоэнсе: 1<br></div><div>&nbsp;</div><br><div id='e26981986' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Витория - Гремио</b><br>
+06.10.2016 04:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div class=rd><a href='javascript:showres(338);'><img id='rd_338' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_338' style='display: none;'>Первый гол: Гремио на 53 минуте<br>Последний гол: Гремио на 53 минуте<br>Угловые: 8, Витория: 6, Гремио: 2<br></div><div>&nbsp;</div><br><div id='e26981987' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Коринтианс - Атлетико Минейро</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div class=rd><a href='javascript:showres(342);'><img id='rd_342' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_342' style='display: none;'>Угловые: 16, Коринтианс: 13, Атлетико Минейро: 3<br></div><div>&nbsp;</div><br><div id='e26981988' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сантос СП - Флуминенсе</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (0:0)<br></b><div class=rd><a href='javascript:showres(344);'><img id='rd_344' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_344' style='display: none;'>Первый гол: Сантос СП на 48 минуте<br>Последний гол: Сантос СП на 80 минуте<br>Угловые: 10, Сантос СП: 5, Флуминенсе: 5<br></div><div>&nbsp;</div><br><div id='e26981989' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Спорт Ресифи - Сан-Паулу</b><br>
+06.10.2016 06:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (1:1)<br></b><div class=rd><a href='javascript:showres(348);'><img id='rd_348' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_348' style='display: none;'>Первый гол: Сан-Паулу на 25 минуте<br>Последний гол: Спорт Ресифи на 43 минуте<br>Угловые: 6, Спорт Ресифи: 1, Сан-Паулу: 5<br></div><div>&nbsp;</div><br><div id='e26981990' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Бразилия. Суперкубок Гауча  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Венесуэла. Примера дивизион  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ново Хоризонте - Ново Хамбурго</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:3 (0:1)<br></b><div id='e27003889' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Трухильянос - Депортиво Петаре</b><br>
+06.10.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (0:1)<br></b><div class=rd><a href='javascript:showres(352);'><img id='rd_352' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_352' style='display: none;'>Первый гол: Депортиво Петаре на 31 минуте<br>Второй гол: Трухильянос на 71 минуте<br>Последний гол: Трухильянос на 71 минуте<br>Угловые: 7, Трухильянос: 4, Депортиво Петаре: 3<br></div><div>&nbsp;</div><br><div id='e26991308' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Самора ФК - Монагас</b><br>
+06.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div class=rd><a href='javascript:showres(357);'><img id='rd_357' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_357' style='display: none;'>Первый гол: Самора ФК на 17 минуте<br>Второй гол: Самора ФК на 68 минуте<br>Последний гол: Самора ФК на 68 минуте<br></div><div>&nbsp;</div><br><div id='e27038715' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Ирландия. 1-й дивизион  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Женщины. Англия. ФА Премьр-лига  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лимерик ФК - Атлон Таун</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div class=rd><a href='javascript:showres(416);'><img id='rd_416' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_416' style='display: none;'>Первый гол: Лимерик ФК<br>Последний гол: Лимерик ФК<br></div><div>&nbsp;</div><br><div id='e27002221' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>АФК Филде (жен) - Блакбарн Роверс (жен)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (0:1)<br></b><div id='e27026229' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хаддерсфилд (жен) - Бредфорд Сити (жен)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (0:0)<br></b><div id='e27026230' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Льюис (жен) - Портсмут (жен)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (1:0)<br></b><div id='e27039049' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Ирландия. Премьер-дивизион  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Женщины. Ирландия. Национальная лига  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Слиго Роверс - Финн Харпс</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e26986236' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Шелбурн (жен) - Корк Сити (жен)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:1 (1:1)<br></b><div id='e27025568' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УКД Вейвз (жен) - Вексфорд Ютс (жен)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:4 (2:1)<br></b><div id='e27025569' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Галвэй (жен) - Килкенни Юнайтед ВФК (жен)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:1 (4:0)<br></b><div id='e27025570' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Италия. Серия С1-B  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Женщины. Лига чемпионов УЕФА. 1/16 финала. Первые матчи  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Реджана - Сантаркангело</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e27002223' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Челси (жен) - Вольфсбург (жен)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:2)<br></b><div class=rd><a href='javascript:showres(367);'><img id='rd_367' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_367' style='display: none;'>Первый гол: Вольфсбург (жен)<br>Последний гол: Вольфсбург (жен)<br>Угловые: 8, Челси (жен): 2, Вольфсбург (жен): 6<br></div><div>&nbsp;</div><br><div id='e27024074' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ФСК Ст. Пёльтен (жен) - Брондбю (жен)</b><br>
+06.10.2016 00:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:1)<br></b><div class=rd><a href='javascript:showres(371);'><img id='rd_371' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_371' style='display: none;'>Первый гол: Брондбю (жен)<br>Последний гол: Брондбю (жен)<br>Угловые: 9, ФСК Ст. Пёльтен (жен): 4, Брондбю (жен): 5<br></div><div>&nbsp;</div><br><div id='e27024075' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хиберниан (жен) - Бавария (жен)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:6 (0:3)<br></b><div class=rd><a href='javascript:showres(375);'><img id='rd_375' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_375' style='display: none;'>Первый гол: Бавария (жен)<br>Последний гол: Бавария (жен)<br>Угловые: 13, Хиберниан (жен): 0, Бавария (жен): 13<br></div><div>&nbsp;</div><br><div id='e27024076' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Колумбия. Примера A. Клаусура  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Женщины. Премьер-Лига Южного дивизиона  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Альянца Петролера - Индепендьенте М</b><br>
-05.10.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:1 (1:0)<br></b><div class=rd><a href='javascript:showres(421);'><img id='rd_421' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_421' style='display: none;'>Первый гол: Альянца Петролера на 33 минуте<br>Второй гол: Альянца Петролера на 53 минуте<br>Последний гол: Альянца Петролера на 85 минуте<br>Угловые: 9, Альянца Петролера: 7, Индепендьенте М: 2<br></div><div>&nbsp;</div><br><div id='e27002226' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тоттенхэм (жен) - КПР (жен)</b><br>
+06.10.2016 01:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (0:0)<br></b><div id='e27039059' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Колумбия. Примера B  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Ирландия. Лейнстер Сеньор Лига  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Депортиво Кукута - Барранкилья</b><br>
-05.10.2016 04:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (0:0)<br></b><div id='e27005989' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Крамлин Юнайтед - ЮК Дублин</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div id='e27045936' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Испания. Кубок Каталонии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>АЕ Прат - Жирона КФ</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:1)<br></b><div id='e27022713' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гава - Льягостера</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div class=rd><a href='javascript:showres(382);'><img id='rd_382' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_382' style='display: none;'>Угловые: 12, Гава: 9, Льягостера : 3<br></div><div>&nbsp;</div><br><div id='e27045111' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ФК Сант Андреу - Химнастик</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e27025575' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Испания. Кубок Федерации  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фуенлабрада - Интернасиональ Мадрид</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div id='e27022324' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико Асторга - Вилларальбо КФ</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (0:1)<br></b><div id='e27022325' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УК Залла - Депортиво Алавеc Б</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:2)<br></b><div class=rd><a href='javascript:showres(387);'><img id='rd_387' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_387' style='display: none;'>Угловые: 10, УК Залла: 6, Депортиво Алавеc Б: 4<br></div><div>&nbsp;</div><br><div id='e27045118' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Аравака КФ - Алкобендас Спорт</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:4 (0:1)<br></b><div id='e27046295' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Канада. Канадская футбольная лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Торонто Атомик - Сербиан Вайт Иглз</b><br>
+06.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:3 (2:1)<br></b><div id='e27049588' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Милтон СК - Скарборо</b><br>
+06.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:4 (0:2)<br></b><div id='e27049590' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Футбол. Кубок Англии. Квалификация  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нантвич Таун - Хейлзоуин Таун</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (2:0)<br></b><div id='e26988468' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эгхам Таун - Фавершам Таун</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div class=rd><a href='javascript:showres(428);'><img id='rd_428' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_428' style='display: none;'>Первый гол: Эгхам Таун на 50 минуте<br>Последний гол: Эгхам Таун на 50 минуте<br>Проход: Эгхам Таун<br></div><div>&nbsp;</div><br><div id='e26988469' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Уоркингтон - Мэтлок Таун</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:3 (0:1)<br></b><div id='e26988567' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Маргейт ФК - Хастингс Юнайтед</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:2 (0:1)<br></b><div class=rd><a href='javascript:showres(433);'><img id='rd_433' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_433' style='display: none;'>Первый гол: Хастингс Юнайтед на 7 минуте<br>Последний гол: Маргейт ФК<br></div><div>&nbsp;</div><br><div id='e26988568' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бат Сити - Поттерс Бар Таун ФК</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:1 (1:1)<br></b><div class=rd><a href='javascript:showres(436);'><img id='rd_436' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_436' style='display: none;'>Первый гол: Бат Сити на 19 минуте<br>Последний гол: Поттерс Бар Таун ФК на 40 минуте<br></div><div>&nbsp;</div><br><div id='e26988569' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хэрроугэйт Таун - Юнайтед оф Манчестер</b><br>
-05.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div id='e26988570' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хадли - Истбурн Боро</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:4 (1:2)<br></b><div class=rd><a href='javascript:showres(392);'><img id='rd_392' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_392' style='display: none;'>Первый гол: Хадли на 29 минуте<br>Второй гол: Истбурн Боро на 33 минуте<br>Третий гол: Истбурн Боро на 43 минуте<br>Четвертый гол: Истбурн Боро на 74 минуте<br>Последний гол: Истбурн Боро на 84 минуте<br></div><div>&nbsp;</div><br><div id='e26988571' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Кубок Бразилии (до 20 лет)  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Кубок Аргентины. 1/4 финала  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Витория БА (до 20) - КРБ (до 20)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div id='e27005637' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Крузейру (до 20) - Коритиба (до 20)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div id='e27006210' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико ПР (до 20) - Аваи (до 20)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:0 (1:0)<br></b><div id='e27006321' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гояс (до 20) - Луверденсе (до 20)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 4:0 (2:0)<br></b><div id='e27006322' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Васко да Гама (до 20) - Наутико (до 20)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:1 (0:1)<br></b><div id='e27006323' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Палмейрас (до 20) - Спорт Ресифи (до 20)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (0:0)<br></b><div id='e27006324' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гремио (до 20) - Крисиума (до 20)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:3 (0:1)<br></b><div id='e27006325' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бельграно - Хувентуд Унида Гуалегуайчу</b><br>
+06.10.2016 06:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (0:0)<br></b><div class=rd><a href='javascript:showres(398);'><img id='rd_398' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_398' style='display: none;'>Первый гол: Бельграно на 69 минуте<br>Последний гол: Бельграно на 75 минуте<br>Угловые: 5, Бельграно: 2, Хувентуд Унида Гуалегуайчу: 3<br></div><div>&nbsp;</div><br><div id='e27006078' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Кубок Ирландии. 1/2 финала. Переигровка  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Кубок Бразилии (до 20 лет). Ответные матчи  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дерри Сити - Дундалк</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (1:1)<br></b><div class=rd><a href='javascript:showres(447);'><img id='rd_447' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_447' style='display: none;'>Проход: Дундалк<br></div><div>&nbsp;</div><br><div id='e27009086' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Флуминенсе (до 20) - Шапекоэнсе (до 20)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:0)<br></b><div id='e27022709' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сантос (до 20) - Америка МЖ (до 20)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (1:1)<br></b><div id='e27022711' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Кубок Венесуэлы. 1/2 финала. Ответные матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Депортиво Лара - Сулия ФК</b><br>
+06.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:2 (1:2)<br></b><div class=rd><a href='javascript:showres(404);'><img id='rd_404' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_404' style='display: none;'>Первый гол: Сулия ФК на 17 минуте<br>Второй гол: Депортиво Лара на 19 минуте<br>Третий гол: Сулия ФК на 30 минуте<br>Четвертый гол: Депортиво Лара на 81 минуте<br>Последний гол: Депортиво Лара на 81 минуте<br></div><div>&nbsp;</div><br><div id='e27039061' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Футбол. Кубок Колумбии. 1/2 финала. Первые матчи  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Толима - Джуниор</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div class=rd><a href='javascript:showres(449);'><img id='rd_449' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_449' style='display: none;'>Угловые: 7, Толима: 3, Джуниор: 4<br></div><div>&nbsp;</div><br><div id='e26991638' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико Насьональ - Санта Фе</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (0:1)<br></b><div class=rd><a href='javascript:showres(410);'><img id='rd_410' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_410' style='display: none;'>Первый гол: Санта Фе на 45 минуте<br>Последний гол: Атлетико Насьональ на 62 минуте<br></div><div>&nbsp;</div><br><div id='e27005988' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Сборные. Товарищеские матчи (до 19 лет)  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Кубок Шотландии  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Шотландия (до 19) - Швеция (до 19)</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (0:0)<br></b><div id='e27027242' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Камбернолд Колтс - Лейт Атлетик ФК</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div class=rd><a href='javascript:showres(413);'><img id='rd_413' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_413' style='display: none;'>Угловые: 11, Камбернолд Колтс: 9, Лейт Атлетик ФК: 2<br>Проход: Камбернолд Колтс<br></div><div>&nbsp;</div><br><div id='e27022721' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. США. NCAA  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Сальвадор. Премьер-лига  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Флорида унив. - Галф Кост Иглс</b><br>
-05.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:4 (1:0)<br></b><div class=rd><a href='javascript:showres(452);'><img id='rd_452' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_452' style='display: none;'>Первый гол: Флорида унив.<br>Второй гол: Галф Кост Иглс<br></div><div>&nbsp;</div><br><div id='e27022707' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Агила - Альянца</b><br>
+06.10.2016 07:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:0)<br></b><div class=rd><a href='javascript:showres(416);'><img id='rd_416' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_416' style='display: none;'>Угловые: 13, Агила: 7, Альянца : 6<br></div><div>&nbsp;</div><br><div id='e27044189' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Тринидад и Тобагo. Про-лига  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Сборные. Товарищеские матчи (до 20 лет)  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ма Пау - Полис (Тринидад)</b><br>
-05.10.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:5 (1:3)<br></b><div id='e27022338' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Англия (до 20) - Нидерланды (до 20)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (2:0)<br></b><div id='e27022715' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Уругвай (до 20) - Венесуэла (до 20)</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (2:1)<br></b><div id='e27029288' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Трофей Английской лиги. Групповой этап  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Северная Ирландия. Резервная лига  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Болтон - Блэкпул</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div class=rd><a href='javascript:showres(456);'><img id='rd_456' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_456' style='display: none;'>Угловые: 15, Болтон: 10, Блэкпул: 5<br></div><div>&nbsp;</div><br><div id='e26973775' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кембридж Юн - Мидлсбро (до 23)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (1:1)<br></b><div class=rd><a href='javascript:showres(458);'><img id='rd_458' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_458' style='display: none;'>Угловые: 6, Кембридж Юн: 5, Мидлсбро (до 23) : 1<br></div><div>&nbsp;</div><br><div id='e26973778' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Крю - Вулверхэмптон Уондерерс (до 23)</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:3 (0:2)<br></b><div id='e26973776' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хартлпул - Сандерленд (до 23)</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div id='e26973777' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лутон Таун - Вест Бромвич Альбион (до 23)</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (0:0)<br></b><div id='e26973779' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Питерборо - Милтон К.Д.</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div id='e26973975' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Челтенхэм - Эвертон (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (0:1)<br></b><div id='e26973885' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Брэдфорд - Бери</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (2:0)<br></b><div id='e26973886' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Карлайл - Блэкберн (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div class=rd><a href='javascript:showres(466);'><img id='rd_466' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_466' style='display: none;'>Угловые: 14, Карлайл: 4, Блэкберн (до 23): 10<br></div><div>&nbsp;</div><br><div id='e26973910' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бристоль Роверс - Йовил Таун</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e26973947' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Уимблдон - Плимут</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (0:1)<br></b><div id='e26973973' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чарльтон - Кроули Таун</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (0:1)<br></b><div id='e26973974' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Честерфилд - Аккрингтон Стэнли</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:4 (0:3)<br></b><div id='e26973976' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Моркамб - Сток Сити (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:1 (3:0)<br></b><div id='e26973979' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Флитвуд Таун - Олдхэм</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (0:2)<br></b><div id='e26974079' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Донкастер - Дерби Каунти (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:2 (0:1)<br></b><div id='e26974080' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гримсби - Лестер (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div id='e26974081' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ковентри - Нортхэмптон</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:1 (2:1)<br></b><div id='e26974082' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Колчестер - Саутгемптон (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (1:1)<br></b><div id='e26974083' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Милуолл - Джиллингем</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (1:1)<br></b><div id='e26974084' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Порт Вэйл - Мансфилд</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div id='e26974122' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Рочдейл - Ноттс Каунти</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (0:1)<br></b><div id='e26974124' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сканторп Юнайтед - Шрусбери</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div id='e26974125' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Шеффилд Юнайтед - Уолсолл</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (0:1)<br></b><div id='e26974126' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Портсмут - Рединг (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:2 (0:1)<br></b><div id='e26974127' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ньюпорт Каунти - Суонси Сити (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:2 (0:1)<br></b><div id='e26974128' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Суиндон - Оксфорд Юн</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e26974129' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Саутенд Юнайтед - Лейтон Ориент</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div id='e26974130' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Стивенэйдж - Брайтон энд Хоув Альбион (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:2 (0:1)<br></b><div id='e26974132' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Уикомб - Вест Хэм (до 23)</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:0 (1:0)<br></b><div id='e26974323' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Барнет - Норвич Сити (до 23)</b><br>
-05.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:5 (0:1)<br></b><div id='e26974324' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Портадаун (рез) - Гленавон (рез)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:2 (2:1)<br></b><div id='e27025571' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Каррик Рейнджерс (рез) - Ардс (рез)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (2:0)<br></b><div id='e27029174' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Линфилд (рез) - Гленторан (рез)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 6:1 (4:0)<br></b><div id='e27029175' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Колрейн (рез) - Баллимена Юнайтед (рез)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3 (1:1)<br></b><div id='e27045472' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. США. NASL  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тампа-Бэй Роудиес - Миннесота Юнайтед</b><br>
+06.10.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:2 (1:1)<br></b><div class=rd><a href='javascript:showres(424);'><img id='rd_424' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_424' style='display: none;'>Первый гол: Миннесота Юнайтед на 17 минуте<br>Третий гол: Миннесота Юнайтед на 51 минуте<br>Последний гол: Тампа-Бэй Роудиес на 90 минуте<br></div><div>&nbsp;</div><br><div id='e27038711' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Товарищеские матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Расинг де Ферроль - Сельта</b><br>
+06.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:2)<br></b><div class=rd><a href='javascript:showres(428);'><img id='rd_428' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_428' style='display: none;'>Угловые: 6, Расинг де Ферроль: 3, Сельта: 3<br></div><div>&nbsp;</div><br><div id='e27024487' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Реал Юнион Тфе - Пуэрто Круз</b><br>
+06.10.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div id='e27025556' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сакраменто Репаблик - Гвадалахара</b><br>
+06.10.2016 08:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (1:1)<br></b><div class=rd><a href='javascript:showres(431);'><img id='rd_431' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_431' style='display: none;'>Угловые: 5, Сакраменто Репаблик: 2, Гвадалахара : 3<br></div><div>&nbsp;</div><br><div id='e27046308' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Уругвай. Примера дивизион. Резерв  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Суд Америка (рез) - Рампла Хуниорс (рез)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:1)<br></b><div id='e27022566' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Серро (рез) - Ливерпуль Монтевидео (рез)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (1:0)<br></b><div id='e27025572' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Футбол. Уэльс. Кубок лиги. 1/8 финала  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лландудно - Рил</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div class=rd><a href='javascript:showres(490);'><img id='rd_490' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_490' style='display: none;'>Первый гол: Рил<br>Последний гол: Рил<br></div><div>&nbsp;</div><br><div id='e27005304' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нью Сэйнтс - Бала Таун</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (1:0)<br></b><div class=rd><a href='javascript:showres(493);'><img id='rd_493' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_493' style='display: none;'>Первый гол: Нью Сэйнтс<br>Последний гол: Бала Таун<br></div><div>&nbsp;</div><br><div id='e27005305' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хэверфордвест - Абериствит</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div class=rd><a href='javascript:showres(496);'><img id='rd_496' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_496' style='display: none;'>Первый гол: Хэверфордвест на 25 минуте<br>Последний гол: Хэверфордвест<br></div><div>&nbsp;</div><br><div id='e27022718' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Барри Таун - Кардифф Мет</b><br>
-05.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div class=rd><a href='javascript:showres(499);'><img id='rd_499' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_499' style='display: none;'>Первый гол: Барри Таун<br>Последний гол: Барри Таун<br></div><div>&nbsp;</div><br><div id='e27022719' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кевн Друидс - Бангор Сити</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3 (0:3)<br></b><div class=rd><a href='javascript:showres(435);'><img id='rd_435' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_435' style='display: none;'>Первый гол: Бангор Сити на 17 минуте<br>Второй гол: Бангор Сити на 25 минуте<br>Третий гол: Бангор Сити на 40 минуте<br>Четвертый гол: Кевн Друидс на 76 минуте<br>Последний гол: Кевн Друидс на 90 минуте<br>Угловые: 10, Кевн Друидс: 2, Бангор Сити: 8<br>Проход: Бангор Сити<br></div><div>&nbsp;</div><br><div id='e27024112' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Конна Квэй - Денби Таун</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (1:0)<br></b><div class=rd><a href='javascript:showres(443);'><img id='rd_443' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_443' style='display: none;'>Первый гол: Конна Квэй на 37 минуте<br>Второй гол: Денби Таун на 52 минуте<br>Последний гол: Конна Квэй на 69 минуте<br></div><div>&nbsp;</div><br><div id='e27024113' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гилсфилд Атлетик - Ньютаун</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:1)<br></b><div class=rd><a href='javascript:showres(447);'><img id='rd_447' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_447' style='display: none;'>Первый гол: Ньютаун на 30 минуте<br>Второй гол: Ньютаун на 47 минуте<br>Последний гол: Ньютаун на 60 минуте<br>Угловые: 11, Гилсфилд Атлетик: 4, Ньютаун: 7<br>Проход: Ньютаун<br></div><div>&nbsp;</div><br><div id='e27024114' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кармартен - Гойтре ФК</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:2 (2:1)<br></b><div class=rd><a href='javascript:showres(453);'><img id='rd_453' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_453' style='display: none;'>Первый гол: Кармартен<br>Последний гол: Гойтре ФК<br></div><div>&nbsp;</div><br><div id='e27038712' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футбол. Шотландия. Премьер-лига (до 20 лет)  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Фиджи. Межрайонный Чемпионат  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Килмарнок (до 20) - Сент-Миррен (до 20)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:1 (0:0)<br></b><div id='e27004020' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гамильтон (до 20) - Фалкирк ФК (до 20)</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:2 (2:2)<br></b><div id='e27004022' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Форфар Атлетик (до 20) - Коуденбит (до 20)</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 6:0 (2:0)<br></b><div id='e27021242' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Рэйт Роверс (до 20) - Ливингстон (до 20)</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:2 (1:2)<br></b><div id='e27021245' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ФК Сува - Надрога ФК</b><br>
+06.10.2016 09:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (2:0)<br></b><div id='e27052644' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Рева ФК - Нади ФК</b><br>
+06.10.2016 11:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div id='e27052645' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Футзал. Испания. Кубок Президента  </TD>
+<TD class=smwndcap Align=center valign=middle>Футбол. Швеция. Молодежная лига (до 19 лет)  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эль Палмар - Эль Посо Мурсия</b><br>
-05.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:9 (0:4)<br></b><div id='e27005635' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ИФК Аспудден (до 19) - ИФК Лидинго (до 19)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:15 (0:10)<br></b><div id='e27022326' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Шотландия. Лига Хайленд  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Баки Тистл - Брора Рейнджерс</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:0 (0:0)<br></b><div class=rd><a href='javascript:showres(459);'><img id='rd_459' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_459' style='display: none;'>Угловые: 8, Баки Тистл: 4, Брора Рейнджерс: 4<br></div><div>&nbsp;</div><br><div id='e27046065' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фразербург - Деверонвейл</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (1:0)<br></b><div class=rd><a href='javascript:showres(461);'><img id='rd_461' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_461' style='display: none;'>Угловые: 6, Фразербург: 4, Деверонвейл: 2<br></div><div>&nbsp;</div><br><div id='e27046151' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Шотландия. Лоуленд лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>БСК Глазго ФК - Вэйл оф Лейтен</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (0:0)<br></b><div class=rd><a href='javascript:showres(463);'><img id='rd_463' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_463' style='display: none;'>Угловые: 8, БСК Глазго ФК: 3, Вэйл оф Лейтен: 5<br></div><div>&nbsp;</div><br><div id='e27045485' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футзал. Товарищеские матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хумилья - Хаэн</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:9 (1:4)<br></b><div id='e27025891' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Хоккей. NHL. Предсезонные матчи  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Монреаль - Бостон</b><br>
-05.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 4:3 (0:1 2:1 2:1)<br></b><div class=rd><a href='javascript:showres(507);'><img id='rd_507' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_507' style='display: none;'>Первый гол: Бостон<br>Последний гол: Монреаль<br></div><div>&nbsp;</div><br><div id='e27018822' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Айлендерс - Рейнджерс</b><br>
-05.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:2 (0:0 1:1 1:1)<br></b><div class=rd><a href='javascript:showres(510);'><img id='rd_510' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_510' style='display: none;'>Первый гол: Рейнджерс<br>Последний гол: Рейнджерс<br>Овертайм: 1:0<br></div><div>&nbsp;</div><br><div id='e27021017' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Каролина Харрикейнз - Баффало Сейбрз</b><br>
-05.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 0:2 (0:0 0:2 0:0)<br></b><div id='e27031951' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нэшвилл - Коламбус</b><br>
-05.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:2 (0:1 1:1 1:0)<br></b><div class=rd><a href='javascript:showres(515);'><img id='rd_515' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_515' style='display: none;'>Первый гол: Коламбус<br>Последний гол: Нэшвилл<br>Овертайм: 0:1<br></div><div>&nbsp;</div><br><div id='e27021018' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Даллас - Флорида</b><br>
-05.10.2016 06:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 1:1 (0:0 0:0 1:1)<br></b><div class=rd><a href='javascript:showres(519);'><img id='rd_519' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_519' style='display: none;'>Первый гол: Флорида<br>Последний гол: Даллас<br>Овертайм: 0:0<br>Буллиты: 1:0<br></div><div>&nbsp;</div><br><div id='e27021019' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чикаго - Детройт</b><br>
-05.10.2016 06:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 6:1 (2:0 2:1 2:0)<br></b><div class=rd><a href='javascript:showres(524);'><img id='rd_524' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_524' style='display: none;'>Первый гол: Чикаго<br>Последний гол: Чикаго<br></div><div>&nbsp;</div><br><div id='e27021020' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Колорадо - Миннесота</b><br>
-05.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (0:0 2:0 0:0)<br></b><div class=rd><a href='javascript:showres(527);'><img id='rd_527' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_527' style='display: none;'>Первый гол: Колорадо<br>Последний гол: Колорадо<br></div><div>&nbsp;</div><br><div id='e27021021' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эдмонтон - Анахайм</b><br>
-05.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (1:1 1:0 0:0)<br></b><div class=rd><a href='javascript:showres(530);'><img id='rd_530' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_530' style='display: none;'>Первый гол: Эдмонтон<br>Последний гол: Эдмонтон<br></div><div>&nbsp;</div><br><div id='e27021022' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Оттава - Торонто</b><br>
-05.10.2016 07:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:2 (1:0 0:0 1:2)<br></b><div class=rd><a href='javascript:showres(533);'><img id='rd_533' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_533' style='display: none;'>Первый гол: Оттава<br>Последний гол: Оттава<br>Овертайм: 1:0<br></div><div>&nbsp;</div><br><div id='e27021023' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Питтсбург - Детройт</b><br>
+06.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:5 (0:2 2:2 0:1)<br></b><div class=rd><a href='javascript:showres(466);'><img id='rd_466' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_466' style='display: none;'>Первый гол: Детройт<br>Последний гол: Детройт<br></div><div>&nbsp;</div><br><div id='e27031209' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Каролина - Баффало</b><br>
+06.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:2 (1:0 1:1 0:1)<br></b><div class=rd><a href='javascript:showres(469);'><img id='rd_469' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_469' style='display: none;'>Первый гол: Каролина<br>Последний гол: Баффало<br>Овертайм: 0:0<br>Буллиты: 1:0<br></div><div>&nbsp;</div><br><div id='e27031210' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нью-Джерси - Айлендерс</b><br>
+06.10.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3 (1:1 1:1 0:1)<br></b><div class=rd><a href='javascript:showres(474);'><img id='rd_474' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_474' style='display: none;'>Первый гол: Айлендерс<br>Последний гол: Айлендерс<br></div><div>&nbsp;</div><br><div id='e27031211' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сент-Луис - Вашингтон</b><br>
+06.10.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:4 (1:2 0:1 1:1)<br></b><div class=rd><a href='javascript:showres(477);'><img id='rd_477' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_477' style='display: none;'>Первый гол: Вашингтон<br>Последний гол: Сент-Луис<br></div><div>&nbsp;</div><br><div id='e27031212' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Даллас - Колорадо</b><br>
+06.10.2016 06:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1 0:0 0:0)<br></b><div class=rd><a href='javascript:showres(480);'><img id='rd_480' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_480' style='display: none;'>Первый гол: Колорадо<br>Последний гол: Колорадо<br></div><div>&nbsp;</div><br><div id='e27031213' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Калгари - Аризона</b><br>
+06.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (1:1 0:0 0:0)<br></b><div class=rd><a href='javascript:showres(483);'><img id='rd_483' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_483' style='display: none;'>Первый гол: Аризона<br>Последний гол: Калгари<br>Овертайм: 0:0<br>Буллиты: 1:0<br></div><div>&nbsp;</div><br><div id='e27031214' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сан-Хосе - Анахайм</b><br>
+06.10.2016 08:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:0 0:2 0:0)<br></b><div class=rd><a href='javascript:showres(488);'><img id='rd_488' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_488' style='display: none;'>Первый гол: Анахайм<br></div><div>&nbsp;</div><br><div id='e27031215' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
 <TD class=smwndcap Align=center valign=middle>Хоккей. WHL. Регулярный чемпионат  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Свифт Керрент - Портленд Уинтер Хоукс</b><br>
-05.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 7:3 (1:1 6:1 0:1)<br></b><div class=rd><a href='javascript:showres(537);'><img id='rd_537' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_537' style='display: none;'>Первый гол: Свифт Керрент<br>Последний гол: Портленд Уинтер Хоукс<br></div><div>&nbsp;</div><br><div id='e27011617' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кутеней - Мус Джо</b><br>
-05.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:3 (1:0 1:1 0:2)<br></b><div class=rd><a href='javascript:showres(540);'><img id='rd_540' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_540' style='display: none;'>Первый гол: Кутеней<br>Последний гол: Мус Джо<br></div><div>&nbsp;</div><br><div id='e27011618' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Медисин Хат - Мус Джо</b><br>
+06.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:4 (0:1 0:3 4:0)<br></b><div class=rd><a href='javascript:showres(490);'><img id='rd_490' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_490' style='display: none;'>Овертайм: 1:0<br></div><div>&nbsp;</div><br><div id='e27038578' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Принц Альберт - Портленд Уинтер Хоукс</b><br>
+06.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:5 (0:2 0:2 3:1)<br></b><div id='e27038579' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Летбридж - Келоуна</b><br>
+06.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:6 (1:0 1:1 1:5)<br></b><div id='e27038580' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ред Дир - Камлупс</b><br>
+06.10.2016 07:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:4 (0:3 3:0 2:1)<br></b><div id='e27038581' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ванкувер Джайантс - Виктория Роялс</b><br>
+06.10.2016 08:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3 (0:1 2:1 0:1)<br></b><div class=rd><a href='javascript:showres(495);'><img id='rd_495' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_495' style='display: none;'>Первый гол: Виктория Роялс<br>Последний гол: Виктория Роялс<br></div><div>&nbsp;</div><br><div id='e27038582' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эверетт - Трай-Сити</b><br>
+06.10.2016 08:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (0:1 1:0 2:0)<br></b><div class=rd><a href='javascript:showres(498);'><img id='rd_498' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_498' style='display: none;'>Первый гол: Трай-Сити<br>Последний гол: Эверетт<br></div><div>&nbsp;</div><br><div id='e27038583' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Хоккей. Лига чемпионов. 1/16 финала. Первые матчи  </TD>
+<TD class=smwndcap Align=center valign=middle>Хоккей. Альпийская хоккейная лига  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ХВ71 - Лукко</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:0 (2:0 0:0 0:0)<br></b><div class=rd><a href='javascript:showres(543);'><img id='rd_543' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_543' style='display: none;'>Первый гол: ХВ71<br>Последний гол: ХВ71<br></div><div>&nbsp;</div><br><div id='e26935553' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
-</TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Хоккей. Чемпионат Дании  </TD>
-</TR>
-<TR><TD vAlign=middle align=left>
-<table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фредериксхавн - Сённерйюск</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:1 (1:0 0:1 1:0)<br></b><div id='e26992380' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
-</TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Хоккей. Чемпионат Франции  </TD>
-</TR>
-<TR><TD vAlign=middle align=left>
-<table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дижон - Страсбур</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 4:6 (2:1 2:3 0:2)<br></b><div id='e26981377' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Амьен - Шамони-Морзэн</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 4:2 (1:1 1:1 2:0)<br></b><div id='e26981378' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эпиналь - Ницца</b><br>
-05.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 5:0 (1:0 4:0 0:0)<br></b><div id='e26981379' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бордо - Гап</b><br>
-05.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 4:1 (0:1 3:0 1:0)<br></b><div id='e26981380' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Анже - Руан</b><br>
-05.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 6:2 (2:2 3:0 1:0)<br></b><div id='e26981381' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
-</TD></TR><TR class='m_c' align=middle>
-<TD class=smwndcap Align=center valign=middle>Хоккей. Чемпионат Швейцарии. Национальная Лига B  </TD>
-</TR>
-<TR><TD vAlign=middle align=left>
-<table class=koeftable><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тургау - ГСК Лионс</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:5 (2:1 0:3 1:1)<br></b><div id='e26990149' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лангенталь - Ольтен</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 2:5 (0:1 2:1 0:3)<br></b><div id='e26990150' style='display: none;'></div></td></tr><tr class=hi>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Винтертур - Мартиньи</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 3:2 (1:1 0:0 2:1)<br></b><div id='e26990151' style='display: none;'></div></td></tr><tr>
-<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ажуа - Висп</b><br>
-05.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
-<td width='65%' valign=middle><b>Счет: 7:3 (2:0 4:3 1:0)<br></b><div id='e26990152' style='display: none;'></div><tr><td colspan=2><b><hr class=hr1><a href='#top' class=txtmed>Наверх</a></b></td></tr></table></TD></TR> </table>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пустерталь - Риттен Спорт</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:2 (1:0 0:1 1:1)<br></b><div class=rd><a href='javascript:showres(501);'><img id='rd_501' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_501' style='display: none;'>Овертайм: 1:0<br></div><div>&nbsp;</div><br><div id='e26993295' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гардена - Фельдкирх</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3 (0:2 0:1 1:0)<br></b><div id='e26993296' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Стерзинг Випитено - Ноймаркт</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:5 (1:1 1:1 2:3)<br></b><div id='e26993297' style='display: none;'></div><tr><td colspan=2><b><hr class=hr1><a href='#top' class=txtmed>Наверх</a></b></td></tr></table></TD></TR> </table>
 <center><br> </td>
 <td class="col_td right" style="width:262px; position: relative;" valign="top">
 <div id="scroll_block" style="position: absolute; top: 0; transition: 0.4s;">
@@ -2383,10 +2391,10 @@ ENGINE DEBUG INFORMATION
 DataBase Errors: 0
 Script Errors: 0
 Script Warnings: 0
-Total time: 0.11 s
+Total time: 0.064 s
 DataBase time(1): 0 s
-DataBase time(2): 0.093 s
-Served by: s67
+DataBase time(2): 0.05 s
+Served by: s80
 C: true
 VK_I8Ud3
 </div>
