@@ -298,11 +298,11 @@ function MySearch(){
 
 			});
 
-			var name = $('[width="99%"]').children("a");	/*"td > a nazvaniya komand"*/
+			var name = $('[align="left"]').children("a");	/*"td > a nazvaniya komand"*/
 
 
 
-			var koef = $('[width="99%"]').children("font");	/*"td > font" koeffisienti*/
+			var koef = $('[align="left"]').children("font");	/*"td > font" koeffisienti*/
 
 
 

@@ -154,23 +154,24 @@ function updategame(){
 
 
 			setInterval(function(){
-				updategame();
+				//updategame();
 			},8000);
 
 			setInterval(function(){
-				updategametwo();
+				//updategametwo();
 			},5000);
 
 
 /*function srab pri dobavlenii stavki*/
 
-function game(game,k,name){
+function game(game,k,name,head){
 
 
 				var ar = {
 					"name":name,
 					"game":game,
 					"k":k,	
+                                        "head":head,
 				}
 
 				var url = $("#basek").val();
@@ -502,20 +503,48 @@ window.onload = function(){
 
             		}
             	}
-            	/*koef Б*/
+            	
+            	/*pribavlenie string total k Б*/
+            	var string_total = /Тот\(\-*\d+\.*\d*\)\s\М/gi;
 
+            	var fixB = 0;
+            	
+            	var fixB_string = "";
+            	if(string10.match(string_total)){
+            		//alert(string10);
+
+            		for(var i = 0;i < string10.length;i++){
+            			if(string10[i] == "М"){
+            				//alert(i);
+            				fixB = i;
+            			}
+            		}
+
+            		for(var i = 0;i < fixB;i++){
+            			fixB_string += string10[i];
+            		}
+            		//alert(fixB_string);
+            	}
+
+
+            	
+            	/*pribavlenie string total k Б*/
+
+            	/*koef Б*/
             	var grone = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
+
+            		stopping = 1;
+					p1.append(grone);
 
             	if(string15 != ""){
 
-            		var grtwo = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string15 + '" anttwo="' + string16 + '">' + string15 + ' ' + string16 + '</div></div>';
+            		var grtwo = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + fixB_string + string15 + '" anttwo="' + string16 + '">' + fixB_string + string15 + ' ' + string16 + '</div></div>';
 
             		p1.append(grtwo);
 
             	}
 				
-            		stopping = 1;
-					p1.append(grone);
+            		
 
             });
 
@@ -589,6 +618,7 @@ window.onload = function(){
 			var fixed28;
 			var fixed29;
 			
+                        var h;
 
 			test1.each(function(index,element){
 
@@ -764,6 +794,7 @@ window.onload = function(){
 				p1.append(b + "Голы:" + b2 + "<br>");
 				fix63 += 1;
 			}else if((string10.match(indiv)) && (fix55 <= 0)){
+                                h= "Индивидуальный тотал:";
 				p1.append(b + "Индивидуальный тотал:" + b2 + "<br>");
 				fix55 += 1;
 			}else if((string10.match(goli_po_command))  && (fix56 <= 0)){
@@ -773,6 +804,7 @@ window.onload = function(){
 
 				
 			}else if((string10.match(schet))  && (fix60 <= 0)){
+                                h = "Счет:";
 				p1.append(b + "Счет:" + b2 + "<br>");
 				fix60 += 1;
 			}else if((string10.match(dop_total))  && (fix57 <= 0)){
@@ -908,11 +940,10 @@ window.onload = function(){
 				
 			}
 
-			
 
-			var gr = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
+			var gr = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 +  '"  h="' + h +'">' + string10 + ' ' + string12 + '</div></div>';
 
-			var gr2 = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string11 + '" anttwo="' + string13 + '">' + string11 + ' ' + string13 + '</div></div>';
+			var gr2 = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string11 + '" anttwo="' + string13 + '"  h="' + h +'">' + string11 + ' ' + string13 + '</div></div>';
 			p1.append(gr);
 			p1.append(gr2);
 
@@ -926,7 +957,7 @@ window.onload = function(){
 
 
 
-				var oi = '<script>$(".tit").click(function(){ant = $(this).attr("ant");anttwo = $(this).attr("anttwo"); n = $(this).attr("n"); game(ant,anttwo,n); $("#korzina").show(); });</' + 'script>';
+				var oi = '<script>$(".tit").click(function(){ant = $(this).attr("ant");  anttwo = $(this).attr("anttwo"); n = $(this).attr("n"); game(ant,anttwo,n,h); $("#korzina").show(); });</' + 'script>';
 				p1.append(oi);
 
 

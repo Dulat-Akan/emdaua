@@ -48,43 +48,42 @@ function googleTranslateElementInit() {
 
 
 	
-       <?php
-    NavBar::begin([
+    <?php
+	NavBar::begin([
         'brandLabel' => 'AlmaBet',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top nav2',
         ],
     ]);
-	
-	
-	
-	
+	echo "<div style=\"width:200px;float:right;padding-left:20px;\" id=\"google_translate_element\"></div>";
+	if (Yii::$app->user->isGuest) {
+					$menuItems = [
+						['label' => 'Домой', 'url' => ['/index.php/site']],
+						['label' => 'О нас', 'url' => ['/index.php/site/about']],
+						['label' => 'Наши контакты', 'url' => ['/site/contact']],
+						['label' => 'Вход', 'url' => ['/index.php/site/login']],
+						['label' => 'Регистрация', 'url' => ['/index.php/site/usertwo']],
+					];
+				} else {
+					$menuItems = [
+						['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
+						['label' => 'История ставок', 'url' => ['/index.php/site/historykorzina']],
+						['label' => 'Домой', 'url' => ['/index.php/site']],
+						['label' => 'О нас', 'url' => ['/index.php/site/about']],
+						['label' => 'Наши контакты', 'url' => ['/index.php/site/contact']],
+						['label' => 'Выйти (' . Yii::$app->user->identity->username . ')',
+							'url' => ['/index.php/site/logout'],
+							'linkOptions' => ['data-method' => 'post']],
+					];	
+				}
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => [
-		 
-		
-            ['label' => 'Домой', 'url' => ['/index.php/site']],
-             ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
-            ['label' => 'О нас', 'url' => ['/index.php/site/about']],
-            ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-            Yii::$app->user->isGuest ? (
-                ['label' => 'Вход', 'url' => ['/index.php/site/login']]
-                
-            ) : (
-                '<li>'
-                . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
-        ],
-    ]);
-    NavBar::end();
+        
+				
+                'items' => $menuItems,
+            ]);
+            NavBar::end();
     ?>
 
     </div>
@@ -96,10 +95,14 @@ function googleTranslateElementInit() {
 
 
 
-<div class="container" style="" id="download">
-<div class=""><img src="<?php echo Url::to('@img') ?>/3.gif" alt=""></div>
+<div class="container" style="position:fixed;margin-top:100px;display:none;z-index:5;" id="download">
+    <div class="row">
+        <div class="col-md-12">
 
-   
+            <div class="col-md-1 col-md-offset-6"><img src="<?php echo Url::to('@img') ?>/3.gif" alt=""></div>
+
+        </div>
+    </div>
 </div>
 
 
@@ -109,25 +112,14 @@ function googleTranslateElementInit() {
     <div class="row">
         <div class="col-md-12">
 		
-	<div class="col-md-10 col-md-push-2" id="pok_searh2">
-	<div class='header-middle'>
-<div class="" style='' id="google_translate_element"></div>
-
-  </div>
-  
-<div class='clear'></div>
-
-	<?= $content ?>
-	
-</div>
+	<div class="col-md-10 col-md-push-2" id="pok_searh2"><hr/><?= $content ?></div>
 <!-- <div class="col-md-10 col-md-push-2" id=""></div> -->
 <div class="col-md-2 col-md-pull-10 kolekcii" id="mylink">
-
+ <h4>Сейчас в линии</h4>
+<div id="google_translate_element"></div>
                </br>
                 <ul class="nav nav-tabs nav-stacked kolekcii_soderzhimoe">
-				
-                  <li style="margin-left: 15px;font-size:17px;" class="nav-header">Сейчас в линии</li>
-                 
+				                
                   <li><a href="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
 
                   <li><a href="<?php echo Url::to('@control/request'); ?>" r="<?php echo Url::to('@base'); ?>/site/p">результаты</a></li>
@@ -180,8 +172,6 @@ function googleTranslateElementInit() {
 
             </div>
 </div>
-            </div>
-        </div>
 
 
 
@@ -222,7 +212,6 @@ function googleTranslateElementInit() {
                             if(result){
                             
                               $("#download").hide();
-							  //return false;
                               window.location.href = perenapravit;
 
 

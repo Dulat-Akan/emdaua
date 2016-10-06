@@ -23,21 +23,13 @@ class SiteController extends Controller
 public function actionStatus($login){
 //podtverzhden
 $this->actionStatus2($login);
-
-
-
 }
 
-
-
 protected function actionStatus2($login){
-$time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
-			//если прошло более три дня тогда результат будет больше того, что хранится в базе 
+    $time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
+	//если прошло более три дня тогда результат будет больше того, что хранится в базе 
 			//если прошло меньше трех дней тогда результат будет меньше того что в базе
 			 $login2=strip_tags($login);//функция вырезает теги если есть в запросе
-			 
-			 
-			 
 		     $baza=Usertwo::findOne(['username' => $login2]);
 		
 			 if($baza->timer){
@@ -68,18 +60,7 @@ Yii::$app->session->setFlash('error', 'Вы уже потверждали ран
  return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));    
 		     }
 			
-
-			
-	
-	
-	
-	
-	
-	
-	
-	
-    
-   public function actionUsertwo()
+    public function actionUsertwo()
         {
 	$this->layout = 'main2';		
 			
@@ -138,32 +119,19 @@ return $this->refresh();
 
             return $this->render('entry',['model'=>$model]);
 
-
-
         }
 
-
-
     }
-
-
 
     public function actionTesting(){
 
-
-
-       
-
     }
-
-
 
     public function actionSay($message = 'Привет'){
 
         return $this->render('say',['message'=>$message]);
 
     }
-
 
     public function behaviors()
     {
@@ -203,17 +171,343 @@ return $this->refresh();
 
     public function actionIndex()
     {
-	 $this->layout = 'main2';
-		$page='index';
+	$this->layout = 'main2';
+            $page='index';
         return $this->render('index');
     }
+    public function actionRecordbd2(){
+        if(isset($_POST['zogolovok'])){
+            $zogolovok = $_POST['zogolovok'];
+            $comand1 = $_POST['comand1'];
+            $comand2 = $_POST['comand2'];
+            $date = $_POST['datetime'];
+            $schet = $_POST['schet'];
+            
+            $i=0;
+            foreach ($comand1 as $c){
+                
+                $hist = new \app\models\History2();
+                $hist->name1 = $comand1[$i];
+                $hist->name2 = $comand2[$i];
+                $hist->date_time = $date[$i];
+                $hist->per1 = $schet[$i];
+                $score = stristr($hist->per1, '(', true);
+                
+                $string1 = str_replace($score,'',$hist->per1);
+                $string1 = str_replace('(','',$string1);
+                $string1 = str_replace(')','',$string1);
+                $string1 = str_replace('<br>','',$string1);
+                $schets = explode(" ", $string1);
+                $hist->per2 = $score;
+                if(isset($schets[0]))
+                $hist->per3 = $schets[0];
+                if(isset($schets[1]))
+                $hist->per4 = $schets[1];
+                if(isset($schets[2]))
+                $hist->per5 = $schets[2];
+                if(isset($schets[3]))
+                $hist->per6 = $schets[3];
+                if(isset($schets[4]))
+                $hist->per7 = $schets[4];
+                $i++;
+                $hist->save();
+            }
+        }
+    }
+    
+    
+    public function actionRecordbd(){
+        if(isset($_POST['zogolovok'])){
+            $zagolovok = $_POST['zogolovok'];
+            $comand1 = $_POST['comand1'];
+            $comand2 = $_POST['comand2'];
+            $date = $_POST['datetime'];
+            $schet = $_POST['schet'];
+            $time = $_POST['time'];
+            
+            function str_replace_first($from, $to, $subject){
+                $from = '/'.preg_quote($from, '/').'/';
 
-
+                return preg_replace($from, $to, $subject, 1);
+            }
+            
+                $i=0;
+                foreach ($comand1 as $c){
+                $hist = new \app\models\History();
+                $hist->name1 = $comand1[$i];
+                $hist->name2 = $comand2[$i];
+                
+                //$hist->date_time = $date[$i];
+                $string1 = str_replace('<b>','',$schet[$i]); 
+                $string2 = str_replace('</b>','',$string1); 
+                $score = stristr($string2, '(', true);
+                
+                // per3 (1 taim)
+                $string3 = str_replace($score,'',$string2);
+                $string4 = str_replace('(','',$string3);
+                $string5 = str_replace(')','',$string4);
+                $ftime = stristr($string5, ',', true);
+                
+                // per4 (2 taim)
+                $stime = str_replace_first($ftime,'',$string5);
+                $stime = substr_replace($stime, null, 0, 2);
+                $f = stristr($stime, ',', true);
+                if($f!='')
+                    $hist->per4 = $f;
+                if($f=='' && $stime!='')
+                    $hist->per4 = $stime;
+                
+                // per5 (3 taim)
+                $ttime = str_replace_first($hist->per4,'',$stime);
+                $ttime = substr_replace($ttime, null, 0, 2);
+                $k = stristr($ttime, ',', true);
+                if($k!='')
+                    $hist->per5 = $k;
+                if($k=='' && $ttime!='')
+                    $hist->per5 = $ttime;
+                
+                // per6 (4 taim);
+                $fourthtime = str_replace_first($hist->per5,'',$ttime);
+                $fourthtime = substr_replace($fourthtime, null, 0, 2);
+                $d = stristr($fourthtime, ',', true);
+                if($d!='')
+                    $hist->per6 = stristr($fourthtime, ',', true);
+                if($d=='' && $fourthtime!='')
+                    $hist->per6 = $fourthtime;
+                
+                // per7 (5 taim);
+                $fifthtime = str_replace_first($hist->per6,'',$fourthtime);
+                $fifthtime = substr_replace($fifthtime, null, 0, 2);
+                $f = stristr($fifthtime, ',', true);
+                if($f!='')
+                    $hist->per7 = stristr($fifthtime, ',', true);
+                if($f=='' && $fifthtime!='')
+                    $hist->per7 = $fifthtime;
+                
+                $hist->per1 = $score;
+                $hist->per2 = $time[$i];
+                $hist->per3 = $ftime;
+                $hist->per8 = $string2;
+                $hist->date_time = $date[$i];
+                $i++;
+                $hist->save();
+            }
+        }
+    }
+    
+    public function actionCompare(){
+        
+        $hist = \app\models\History2::find()->all();
+        $liveresult = \app\models\TypeSobitiya::find()->all();
+        $lr = new TypeSobitiya();
+        
+        function p1($schet){
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            if($k1>$k2)
+                return "Выиграло";
+            else
+                return "Проиграло";
+        }
+        
+        function x($schet){
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            if($k1==$k2)
+                return "Выиграло";
+            else
+                return "Проиграло";
+        }
+        
+        function p2($schet){
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            if($k1<$k2)
+                return "Выиграло";
+            else
+                return "Проиграло";
+        }
+        
+        function x1($schet){
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            if($k1>=$k2)
+                return "Выиграло";
+            else
+                return "Проиграло";
+        }
+        
+        function x2($schet){
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            if($k1<=$k2)
+                return "Выиграло";
+            else
+                return "Проиграло";
+        }
+        
+        function x12($schet){
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            if($k1!=$k2)
+                return "Выиграло";
+            else
+                return "Проиграло";
+        }
+        
+        function f1($schet, $fora){
+            $f1 = substr_replace($fora, null, 0, 4);
+            $f1 = stristr($f1, ')', true);
+             
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            
+            if(($k1+$f1)>$k2)
+                return "Выиграло";
+            else if(($k1+$f1)==$k2)
+                return "Возврат";
+            else
+                return "Проиграло";
+        }
+        
+        function f2($schet, $fora){
+            $f2 = substr_replace($fora, null, 0, 4);
+            $f2 = stristr($f2, ')', true);
+             
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            
+            if(($k2+$f2)>$k1)
+                return "Выиграло";
+            else if(($k2+$f2)==$k1)
+                return "Возврат";
+            else
+                return "Проиграло";
+        }
+        
+        function temp($schet, $fora,$com){
+            
+            $schets = explode(" - ", $com);
+            $c1 = $schets[0];
+            $c2 = $schets[1];
+            print_r($c1); //$c1.' и '.$c2;
+            
+            $f2 = substr_replace($fora, null, 0, 4);
+            $f2 = stristr($f2, ')', true);
+             
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            
+            if(($k2+$f2)>$k1)
+                return "Выиграло";
+            else if(($k2+$f2)==$k1)
+                return "Возврат";
+            else
+                return "Проиграло";
+        }
+            
+        function total($schet,$total,$id){
+            $tot = substr_replace($total, null, 0, 7);
+            $tot = stristr($tot, ')', true);
+            
+            $k1 = stristr($schet, ':', true);
+            $k2 = str_replace($k1,'',$schet);
+            $k2 = substr_replace($k2, null, 0, 1);
+            $m = stripos($total, "М");
+            $b = stripos($total, "Б");
+            
+            if(($k1+$k2)>$tot){
+                if($b !== false){
+                    return "Выиграла";
+                }
+                if($m !== false){
+                    return "Проиграла";   
+                }
+            }
+        }
+        
+        foreach($hist as $h){
+            foreach($liveresult as $l){
+                $is = stripos ($l->name_kommand, $h->name1);
+                if($is !== false){
+                    $p1 = stripos($l->ishod, "П1");
+                    $p2 = stripos($l->ishod, "П2");
+                    $x = stripos($l->ishod, "Х");
+                    $x1 = stripos($l->ishod, "1Х");
+                    $x2 = stripos($l->ishod, "Х2");
+                    $x12 = stripos($l->ishod, "12");
+                    $f1 = stripos($l->ishod, "Ф1");
+                    $f2 = stripos($l->ishod, "ф2");
+                    $total = stripos($l->ishod, "Тот(");
+                    $indtotal = stripos($l->ishod, "Тот(");
+                    
+                    if($p1 !== false){ 
+                        $r = p1($h->per2, $l->ishod);
+                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
+                    }
+                    
+                    if($p2 !== false){ 
+                        $r = p2($h->per2, $l->ishod);
+                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
+                    }
+                    
+                    if($x !== false){ 
+                        $r = x($h->per2, $l->ishod);
+                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
+                    }
+                    
+                    if($x1 !== false){ 
+                        $r = x1($h->per2, $l->ishod);
+                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
+                    }
+                    
+                    if($x2 !== false){ 
+                        $r = x2($h->per2, $l->ishod);
+                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
+                    }
+                    
+                    if($x12 !== false){ 
+                        $r = x12($h->per2, $l->ishod);
+                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
+                    }
+                    
+                    if($f1 !== false){ 
+                        $r = f1($h->per2, $l->ishod);
+                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
+                    }
+                    
+                    if($f2 !== false){ 
+                        $r = f2($h->per2, $l->ishod);
+                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
+                    }
+                    
+                    if($total !== false){ 
+                        temp($h->per2, $l->ishod,$l->name_kommand);
+                        //$r = total($h->per2, $l->ishod);
+                        //\Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
+                    }
+                      
+                }
+            }
+            
+        }
+        
+    }
+    
     public function actionRequest(){
 
         return $this->render('request');
     }
-
+    
     public function actionRequestlive(){
 
         return $this->render('request_live');
@@ -222,13 +516,8 @@ return $this->refresh();
     public function actionSoccerpage(){
 
         return $this->render('soccer_request');
-
     }
-
     
-
-
-
     public function actionSlive(){
 
         return $this->render('s_live');
@@ -237,39 +526,23 @@ return $this->refresh();
 
     public function actionLiverequest(){
 
-             $content = file_get_contents('http://olimp.kz/betting');
-          
-
+            $content = file_get_contents('http://olimp.kz/betting');
             $file = "../views/site/liverequest.php";
-           
-
             $myfile = fopen($file, 'w+');
-
             $success = fwrite($myfile, $content);
-
             fclose($myfile);
 
-            if($success){
+            if($success)
                 echo $content;
-            }else{
+            else
                 echo "файл не записан..";
-            }
-
-
+            
     }
-
 
         public function actionLiveupdate(){
 
-
-
-
             $content = file_get_contents('http://olimp.kz/betting');
-          
-
             $file = "../views/site/liverequest.php";
-           
-
             $myfile = fopen($file, 'w+');
 
             $success = fwrite($myfile, $content);
@@ -279,23 +552,13 @@ return $this->refresh();
             fclose($myfile);
 
             if($success){
-
-                if($page == $content){
+                if($page == $content)
                     echo "ok";
-                }else{
+                else
                     echo "false";
-                }
-                
-
-            }else{
-                echo "false";
-            }
-
-
-    }
-
-
-    
+            }else
+                echo "false"; 
+    }    
 
     public function actionP(){
 
@@ -779,20 +1042,15 @@ protected function checkTimer($login){
         return $this->render('about');
     }
 
-
-public function actionK(){
+    public function actionK(){
         $session = Yii::$app->session;
         $identity = \Yii::$app->user->identity;
 
         if($identity){
 
-
-
         if(isset($_POST['game'])){
 
-            /*echo $_POST['game']." | ".$_POST['k']." | ".$_POST['name'];*/
-        
-        
+
         date_default_timezone_set('Asia/Almaty');
 
         $date = date("d.m.Y");
@@ -800,29 +1058,44 @@ public function actionK(){
 
         $user = $identity['id'];
 
+        $number_kommand = 2;
+
+        $name_kommand = $_POST['name'];
+        $ish = $_POST['game'];
+
+        $arr_razd = explode("-",$name_kommand);
+
+        $arr_razd[0];//first kommand
+        $arr_razd[1];//the two kommand
+
+        
+        $number_kommand = $_POST['head'];
+        
+
         $sobitie = new TypeSobitiya();
-        $sobitie->ishod = $_POST['game'];
+        $sobitie->ishod = $ish;
         $sobitie->k = $_POST['k'];
-        $sobitie->name_kommand = $_POST['name'];
+        $sobitie->name_kommand = $name_kommand;
         $sobitie->date_stavki = $date;
         $sobitie->time_stavki = $time;
         $sobitie->res_id = $user;
+        $sobitie->number_kommand = $number_kommand;
         $sobitie->save();
 
         if($sobitie){
-            echo "ok";
+        echo "ok";
         }else{
-            echo "false";
+        echo "false";
         }
 
         }
 
         }else{
-            $message = "<h4 style='color:red;'>необходимо авторизоваться в системе!</h4>";
-             $session->setFlash('message', $message);
-            echo "false";
-         }
-    }
+        $message = "<h4 style='color:red;'>необходимо авторизоваться в системе!</h4>";
+        $session->setFlash('message', $message);
+        echo "false";
+        }
+    }    
 
 
     public function actionKorzina(){
@@ -902,7 +1175,33 @@ public function actionK(){
 
     }
 
+    public function actionDeletekorzina(){
 
+        
+            if(isset($_POST['id'])){
+
+
+
+
+                    $id = $_POST['id'];
+
+                    $sobitie = TypeSobitiya::findOne($id);
+                    $sobitie->status = "deleted";
+                    $sobitie->delete();
+                    if($sobitie){
+                        echo "ok";
+                    }else{
+                        echo "false";
+                    }
+
+            
+
+
+        }else{
+            echo "false";
+        }
+
+    }
 
 
 

@@ -28,7 +28,8 @@ use yii\helpers\Url;
 
 
 <input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/updatekorzina">
-
+<input id="baser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/deletekorzina">
+<input id="baser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/deletekorzina">
 
 <div class="col-md-8" style="display:none;" id="uvedomlenie">
 	
@@ -55,9 +56,20 @@ use yii\helpers\Url;
 
 </div>
 
+<div class="col-md-8" style="display:none;" id="uvedomlenie3">
+	
+	<div class="col-md-3 col-md-offset-4">
+		
+		<div class="alert alert-error">
+ 				<h4 style="margin-left:8px;">Событие удалена с корзины</h4>
+		</div>
+	</div>
 
+
+</div>
 
 <?php 
+$k=1;
 foreach ($model as $row) {
  ?>
 
@@ -69,7 +81,7 @@ foreach ($model as $row) {
 
 <div class="col-md-3"><?php echo $row['name_kommand']; ?></div>
 
-<div class="col-md-3"><?php echo $row['ishod']; ?>  <?php echo $row['k']; ?></div>
+<div class="col-md-2"><?php echo $row['ishod']; ?> <?php echo $row['k']; ?></div>
 
 <div class="col-md-2">
 
@@ -82,127 +94,185 @@ foreach ($model as $row) {
 
  
 	</div>
-
-
-<div class="col-md-2"><input type="submit"  id="<?php echo $row['id']; ?>" r="<?php echo $row['res_id']; ?>" class="btn btn-danger" value="поставить"></div>
-
+<div class="col-md-3">
+        <div class="col-md-5"><input type="submit" id="<?php echo $row['id']; ?>" r="<?php echo $row['res_id']; ?>" class="btn btn-danger stavka" value="поставить"></div>
+        <div class="col-md-7"><button kef="<?php echo $row['k'];?>"  type="button" id="<?php echo $row['id']; ?>" r="<?php echo $row['res_id']; ?>" class="btn btn-danger delete"><span class="glyphicon glyphicon-remove-circle">Удалить</span></div>
+         </div>
 </div>
-
 <?php 
+$k *= $row['k'];
 }
+
  ?>
+<input type="hidden" id="fk" value="<?php echo $k;?>">
+<div class="col-md-12" >
+    <br>
+    <hr>
+    <br>
+    <div class="col-md-7">Общий коэфициент для экспреса: <span class="kef"><?php echo $k;?></span></div>
+    <div class="col-md-2">
+	<div class="input-group">
+            <input class="form-control" type="number" max="1-100" required>
+            <span class="form-control-feedback"></span>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="col-md-5"><input type="submit" id="express" class="btn btn-danger stavka" value="поставить"></div>
+        <div class="col-md-7">&nbsp;</div>
+    </div>
+</div>
 
 
 <script>
 	
-$(".btn").click(function(){
+    $(".stavka").click(function(){
 
-				var check = true;
+        var check = true;
 
-				var input = $(this).parent().prev().children().children('[class="form-control"]');
+        var input = $(this).parent().parent().prev().children().children('[class="form-control"]');
 
-				var element = $(this).parent().prev().children();
+        var element = $(this).parent().parent().prev().children();
 
-				var parent = $(this).parent().parent('[class="col-md-12"]');
+        var parent = $(this).parent().parent().parent('[class="col-md-12"]');
 
-				var message = $(this).parent().prev().children("span");
-
-				var element2 = $(this).parent().prev().children().children('[class="form-control-feedback"]');
+        var message = $(this).parent().prev().children("span");
+        var element2 = $(this).parent().prev().children().children('[class="form-control-feedback"]');
 				
-				var sum = input.val();
+        var sum = input.val();
 
-				var id = $(this).attr("id");
-				var resid = $(this).attr("r");
+        var id = $(this).attr("id");
+        var resid = $(this).attr("r");
+        /*alert(resid);*/
 
+        input.each(function(){
+            if(this.checkValidity()){
+                element.addClass("has-success").removeClass("has-error");
+                element2.addClass("glyphicon glyphicon-ok").removeClass("glyphicon glyphicon-remove");
 
-				/*alert(resid);*/
+		message.hide(1000);
 
-				input.each(function(){
+            }else{	
+                element.removeClass("has-success").addClass("has-error");
+                element2.removeClass("glyphicon glyphicon-ok").addClass("glyphicon glyphicon-remove");
 
+                message.show(1000);
 
-						if(this.checkValidity()){
-
-
-							element.addClass("has-success").removeClass("has-error");
-							element2.addClass("glyphicon glyphicon-ok").removeClass("glyphicon glyphicon-remove");
-
-							message.hide(1000);
-
-						}else{
-							
-							element.removeClass("has-success").addClass("has-error");
-							element2.removeClass("glyphicon glyphicon-ok").addClass("glyphicon glyphicon-remove");
-
-							message.show(1000);
-
-							check = false;
-							
-						}
+                check = false;		
+            }
+        });
 
 
-					});
+        if(check){
+            var ar = {
+                "sum":sum,
+                "id":id,
+                "resid":resid,	
+            }
 
+            var url = $("#base").val();
 
-				if(check){
-
-				var ar = {
-					"sum":sum,
-					"id":id,
-					"resid":resid,	
-				}
-
-
-				var url = $("#base").val();
-
-
-				$.ajax({
-                    "type":"POST",
-                    "url":url,
-                  	"data":ar,
-                    "datatype":"json html script",
+            $.ajax({
+                "type":"POST",
+                "url":url,
+                "data":ar,
+                "datatype":"json html script",
                     
-                  
-                    "success":kx,
-                    "error":errorfunc
-                    
-                  });
+                "success":kx,
+                "error":errorfunc
+            });
 
-                function kx(result){
+            function kx(result){
+                if(result == "ok"){
+                    $("#uvedomlenie").show(1000);
+                    $("#uvedomlenie").delay(2000);
+                    $("#uvedomlenie").hide(1000);
+                    parent.hide(1000);
+                }else{
+                    $("#uvedomlenie2").show(1000);
+                    $("#uvedomlenie2").delay(2000);
+                    $("#uvedomlenie2").hide(1000);
+                }			
+            }
 
-                	if(result == "ok"){
-						
-                		$("#uvedomlenie").show(1000);
-                		$("#uvedomlenie").delay(2000);
-                		$("#uvedomlenie").hide(1000);
-                		parent.hide(1000);
-                	}else{
-                		$("#uvedomlenie2").show(1000);
-                		$("#uvedomlenie2").delay(2000);
-                		$("#uvedomlenie2").hide(1000);
-                	}
+            function errorfunc(){
+                alert("oshibka zaprosa");
+            }
+        }
 
-                  
+    });
 
-					
-					
-                              }
+    $(".delete").click(function(){
+        var input = $(this).parent().parent().prev().children().children('[class="form-control"]');
 
-                   function errorfunc(){
-                      alert("oshibka zaprosa");
-                   }
+        var element = $(this).parent().parent().prev().children();
 
+        var parent = $(this).parent().parent().parent('[class="col-md-12"]');
 
-                   }
+        var message = $(this).parent().prev().children("span");
 
-			
+        var element2 = $(this).parent().prev().children().children('[class="form-control-feedback"]');
+
+        var sum = input.val();
+        //var kef = $(this).attr("id");
+        var id = $(this).attr("id");
+        var resid = $(this).attr("r");
 
 
+        alert(resid);
 
-});
+        input.each(function(){
+            if(this.checkValidity()){
+                element.addClass("has-success").removeClass("has-error");
+                element2.addClass("glyphicon glyphicon-ok").removeClass("glyphicon glyphicon-remove");
 
+                message.hide(1000);
+            }else{
+                element.removeClass("has-success").addClass("has-error");
+                element2.removeClass("glyphicon glyphicon-ok").addClass("glyphicon glyphicon-remove");
+                message.show(1000);
+                check = false;
 
+            }
+        });
+        var k1 = $('#kuk').val();
+        var k2 = $('#fk').val(); 
+        var kef = $(this).attr("kef");
+        
+        var final = k2/kef;
+        
+        $('.kef').text(final);
+        
+        var ar = {
+            "sum":sum,
+            "id":id,
+            "resid":resid,	
+        }
+        var url = $("#baser").val();
+        $.ajax({
+            "type":"POST",
+            "url":url,
+            "data":ar,
+            "datatype":"json html script",
+            "success":kx,
+            "error":errorfunc
+        });
 
-
+        function kx(result){
+            if(result == "ok"){
+                $("#uvedomlenie3").show(1000);
+                $("#uvedomlenie3").delay(2000);
+                $("#uvedomlenie3").hide(1000);
+                parent.hide(1000);
+            }else{
+                $("#uvedomlenie2").show(1000);
+                $("#uvedomlenie2").delay(2000);
+                $("#uvedomlenie2").hide(1000);
+            }
+        }
+        function errorfunc(){
+            alert("oshibka zaprosa");
+        }
+    });
 </script>
 
 </div>
