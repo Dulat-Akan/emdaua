@@ -95,7 +95,9 @@ var r;
 
 					if(ar5[j] == ar2[i]){
 						cot++;
-	var string5 =  '<div class="soccerpage text2 text4'+cot+' " style="border:none"><div class="col-sm-4 line-date">' + line_date + '</div><div class="col-sm-4 title-red">' + ar6[j]+ '</div><div class="button-click col-sm-4"><button type="button" class="btn btn-primary click">свернуть</button></div><br><br><div class="col-sm-12 ul-li"> <div class="col-sm-8 col-sm-offset-2"> </div>  </div></div>';
+var string5 =  '<div class="soccerpage text2 text4'+cot+'" style="border:none"><div class="col-sm-4 line-date">' + line_date + '</div><div class="col-sm-4 title-red">' + ar6[j]+ '</div><div class="button-click col-sm-4"><button type="button" class="btn btn-primary click">свернуть</button></div><br><br><div class="col-sm-12 ul-li"> <div class="col-sm-8 col-sm-offset-2"><p class="load load3" v="' + arhref[i] + '">' + '<span class="col-sm-offset-3" style="display:block">'+ar2[i] + '</span>'+'</p> </div></div></div>';
+
+	//var string5 =  '<div class="soccerpage text2 text4'+cot+' " style="border:none"><div class="col-sm-4 line-date">' + line_date + '</div><div class="col-sm-4 title-red">' + ar6[j]+ '</div><div class="button-click col-sm-4"><button type="button" class="btn btn-primary click">свернуть</button></div><br><br><div class="col-sm-12 ul-li"> <div class="col-sm-8 col-sm-offset-2"> </div>  </div></div>';
 
 							p1.append(string5);
 							
