@@ -125,6 +125,7 @@ function googleTranslateElementInit() {
              ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
             ['label' => 'О нас', 'url' => ['/index.php/site/about']],
             ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+			['label' => 'Казино', 'url' => ['/index.php/site/online']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Вход', 'url' => ['/index.php/site/login']]
                 

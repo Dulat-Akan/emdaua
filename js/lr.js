@@ -1,8 +1,3 @@
-
-
-
-
-
 function updategame(){
 
 						var update = $("#baseupdatek").val();
@@ -83,7 +78,10 @@ function updategame(){
 /*function srab pri dobavlenii stavki*/
 
 function game(game,k,name){
-
+//game п1
+//k 2,21
+//name
+//alert(name);return false;
 
 				var ar = {
 					"name":name,
@@ -92,7 +90,7 @@ function game(game,k,name){
 				}
 
 				var url = $("#basek").val();
-
+//alert(url);return false;
 				var redirect = $("#baseredirect").val();
 
 				$.ajax({
@@ -108,17 +106,92 @@ function game(game,k,name){
                   });
 
                 function kx(result){
-
+var overlay=$("#overlay");
                 	if(result == "ok"){
+						overlay.addClass('overlay_active').css({'opacity':'0'});
+						n=setInterval(timer,30);
                 		var uvedom = $("#uvedom");
                 		uvedom.show("2000");
+	
                 		uvedom.delay("2000");
-                		uvedom.hide("2000");
+                		uvedom.hide("2000",function(){
+					$('#overlay').removeClass('overlay_active');
+					});
+						
                 	}else if(result == "false"){
                 		window.location = redirect;
 
                 	}
                 		
+						
+						
+						
+var count=0;
+var n;
+	var settings = {
+		
+			block: 			'block',	
+			buttom: 		'buttom',	
+			blockButtom: 	'close',	
+			overlay: 		'overlay',	
+			speed: 			78,			
+			step: 			5,			
+			maxOp: 			0.9			
+		}
+
+
+
+
+function timer(){
+	
+var op=overlay.css('opacity');
+
+if(overlay.css('opacity')<=1){
+
+op = op * 100;
+op = op + 5;
+op = op /100;
+	
+	if (op.toFixed(2) <= settings.maxOp){
+	
+$('#overlay').css({'opacity':op})
+	}
+	
+if ((op.toFixed(2) % settings.maxOp) == 0){
+
+//если значение прозрачности сравн¤лось с максимальным, то останавливаем интервал
+							clearInterval(n);
+							return false;
+						}
+						
+						
+			if (op.toFixed(2) > settings.maxOp){
+//если значение прозрачности больше максимальной прозрачности, то останавливаем интервал
+						clearInterval(n);
+							return false;
+					}					
+	
+}else{
+	overlay.css({'opacity':1})
+							clearInterval(n);
+							return false;
+}
+
+
+}
+
+
+
+						
+						
+						
+						$("#overlay").click(function(){
+	$(this).removeClass('overlay_active');
+})
+						
+						
+						
+						
                               }
 
                    function errorfunc(){
@@ -922,7 +995,7 @@ $('#pok_searh2').wrap('<div class="pok_searh12"></div>');
 				p1.append(oi);
 
 
-				
+				var overlay=$("#overlay");
 
 			
 			
@@ -930,9 +1003,6 @@ $('#pok_searh2').wrap('<div class="pok_searh12"></div>');
 
 
 };
-
-
-
 
 
 

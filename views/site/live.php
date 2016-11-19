@@ -43,7 +43,7 @@
 
 
 				
-				//ga('create', 'UA-37306062-1', 'auto');
+				ga('create', 'UA-37306062-1', 'auto');
 				ga('send', 'pageview');
 
 			</script>
@@ -58,6 +58,14 @@
 <link type="image/x-icon" rel="icon" href="/favicon.ico"/>
 <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico"/>
 <script type="text/javascript" src="/img/common2.js?t=123456789014"></script>
+<script type="text/javascript" src="/js/languages/lang_L0.js?6"></script>
+<script type="text/javascript">
+		var curr_lang_ui = 0;
+		var maximum_payout = 500000000;
+		var maximum_odd = 1000;
+		var currency_divider = 1;
+		var currency_decimals = 0;
+	</script>
 </head>
 <body>
 <a name="top"></a>
@@ -110,7 +118,7 @@
 <td>::</td>
 <td nowrap><a href="/index.php?page=line&action=1">Линия</a></td>
 <td>::</td>
-<td nowrap><a href="index.php?page=bonus" id=bonus_div>Бонусы и акции</a></td><td>::</td><td class="sm-hide" nowrap><a id=betgames_div_d href="/preview">Прогнозы</a></td><td class="sm-hide">::</td><td nowrap><a id=betgames_div_d href="/betgames">BetGamesTV</a></td><td>::</td>
+<td class="sm-hide" nowrap><a href="index.php?page=bonus" id=bonus_div>Бонусы и акции</a></td><td class="sm-hide">::</td><td nowrap><a id=betgames_div_d href="/preview">Прогнозы</a></td><td>::</td><td nowrap><a id=betgames_div_d href="/betgames">BetGamesTV</a></td><td>::</td>
 <td nowrap><a href="index.php?page=rules">Правила</a></td><td>::</td>
 <td nowrap><a href="index.php?page=faqnew">FAQ</a></td>
 <td>::</td>
@@ -141,21 +149,6 @@
 <td id="favorites" align="center"></td>
 </tr>
 </table>
-<script type="text/javascript" src="/js/jquery.favorites.js?v=1.4"></script>
-<script type="text/javascript">
-					$(function() {
-						$('#favorites').olimpFavorites({
-							full:              true,
-							elements:          '.fav',
-							type:              'matches',
-							show_txt:          'Показать',
-							add_txt:           'Добавить в избранное',
-							remove_txt:        'Удалить из избранного',
-							clear_txt:         'Очистить избранное',
-							clear_confirm_txt: 'Вы действительно хотите очистить избранное?'
-						});
-					});
-				</script>
 <script type="text/javascript">
 						function lang_menu(id)
 						{
@@ -271,13 +264,13 @@
 <tr><td colspan=2><hr class=hr2></td></tr>
 <tr OnMouseOver='this.style.cursor="pointer"' onclick='window.location="index.php?action=betslip";'>
 <td align=right width=25%><img src='/img/flag/nobasket.gif'>&nbsp;</td>
-<td align=left width=75% style='color: #800000'><u>Отключить Корзину</u></td></tr></table>
+<td align=left width=75% style='color: #800000'><u>Отключить купон</u></td></tr></table>
 </td></tr> <tr>
 <td align="center">
-<hr class="hr2"/><span id='hours'>06.10.2016 14:17:19</span>
+<hr class="hr2"/><span id='hours'>19.11.2016 13:27:34</span>
 <script type='text/javascript'>
-	            wr_hours(1475741839);
-	            setInterval('wr_hours(1475741839);',1000);
+	            wr_hours(1479540454);
+	            setInterval('wr_hours(1479540454);',1000);
 	            </script><br/>
 <a href="index.php?page=timezone">(GMT +06:00)</a>
 </td>
@@ -339,7 +332,7 @@ setInterval(function(){
 </tr>
 </tbody>
 </table>
-</td></tr><input type=hidden name='asid' value='7964163'><input type=hidden name='psid' value='cab44b31e9c2dc8fdb3d7143391df202'>
+</td></tr><input type=hidden name='asid' value='6207744'><input type=hidden name='psid' value='0c63bb48380eacc84a7a43112d053bb8'>
 </table></form>
 <script language='javascript'>
 function changeConn()
@@ -356,7 +349,133 @@ function changeConn()
     }
 }
 //changeConn();
-</script><br>
+</script> <br>
+<link rel="stylesheet" type="text/css" href="/css/searching.css?23"/> <!--[if !IE]><!-->
+<style>.btn-search{width:auto;height:auto;}</style> <!--<![endif]-->
+<table class="smallwnd">
+<tr>
+<td>
+<div class="search-line-block">
+<input type="text" name="search" id="search_text" placeholder="Поиск" class="searching_input"/>
+<a type="button" id="search_button" href="#popup1" class="button-search button-red-history btn-search">
+<div class="searc_ico"></div>
+</a>
+</div>
+</td>
+</tr>
+</table>
+<script>
+			$('#search_button').click(function () {
+				var search = $('#search_text').val();
+				$(".search_items").html('');
+				$("#search_total").html('0');
+				if ((search.length > 2 && 3 != 0) || (3 == 0)) {
+					//$.post('/api/ajax/search/', {'mod': 'site', 'search': search}, function (result) {
+					$.get('/ajax_index.php', {'action': 'search', 'search': search, 'lang': '0'}, function (result) {
+						$("#search_total").html(result.total);
+						$(".search_items").html('');
+						if (result.total > 0) {
+							$('.empty-search').hide();
+							$('.popup-table').show();
+							$(result.search).each(function () {
+								$(".search_items").append('<div class="list-raw">' + '   <div class="popup-tab-left"><div class="kind ' + this.class + '">' + this.status + '</div></div>' + '	<div class="popup-tab-mid"><div class="date">' + this.date + '</div></div>' + '	<div class="popup-tab-right"><a href="' + this.url + '" style="color:#800000" target="_blank"><div class="title">' + this.name + '</div></a></div>' + '</div>');
+							})
+						}
+						else {
+							$('.empty-search').show();
+							$('.popup-table').hide();
+						}
+					}, "json");
+				}
+				else {
+					$('.empty-search').show();
+					$('.popup-table').hide();
+					return false;
+				}
+			});
+			$("#search_text").keypress(function (e) {
+				if (e.keyCode == 13) {
+					$('#search_button')[0].click();
+				}
+			});
+			$('body').click(function (evt) {
+				if (evt.target.id == "popup1") {
+					$('#close_history')[0].click();
+				}
+				if ($(evt.target).closest('#popup_search').length) {
+					return;
+				}
+			});
+
+		</script>
+<div class="overlay" id="overlay"></div>
+<div id="popup1" class="search-popup">
+<div class="popup-search">
+<div class="popup-header">
+<span class="zag">РЕЗУЛЬТАТЫ ПОИСКА:</span>найдено <span id="search_total">0</span> </div>
+<div class="popup-table">
+<div class="list-raw tab-head">
+<div class="popup-tab-left">
+<div class="tab-header"></div>
+</div>
+<div class="popup-tab-mid">
+<div class="tab-header">Дата</div>
+</div>
+<div class="popup-tab-right">
+<div class="tab-header">Событие</div>
+</div>
+</div>
+<div class="main-list">
+<div style="max-height:350px; overflow:auto;">
+<div class="search_items">
+</div>
+</div>
+</div>
+</div>
+<a class="close-history" id="close_history" title="Закрыть" href="#close"></a>
+<div class="empty-search" style="display: none;">  
+<div class="alert-search-text">
+<div>Поиск не дал результатов</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+			$("#search_text").keypress(function (e) {
+				if (e.keyCode == 13) {
+					$('#search_button')[0].click();
+					$(this).parents('body').addClass('overflow')
+				}
+				else {
+					$(this).parents('body').removeClass('overflow')
+				}
+			});
+			/*$('body').click(function(evt){
+
+			 if(evt.target.id == "popup1")
+			 {$('#close_history')[0].click(); $('body').removeClass('overflow')}
+			 if($(evt.target).closest('#popup_search').length)
+			 { return;}
+
+			 });*/
+
+			/*закрытие окна по еsc*/
+			$(document).ready(function () {
+				$('#search_button').click(function () {
+					$(this).parents('body').addClass('overflow');
+				});
+				$(this).keydown(function (eventObject) {
+					if (eventObject.which == 27) {
+						$('body').removeClass('overflow')
+					}
+				});
+			});
+			//******закрытие окна
+			$('#overlay, #close_history, #searchClose').on('click', function (e) {
+				e.preventDefault();
+				($('body').removeClass('overflow'));
+			});
+		</script>
 <script>
 function flash_reg(id)
 {
@@ -380,7 +499,7 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
-<font class=txtmed color=black>Ставки</font> Live (28)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>Ставки</font> Live (24)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
@@ -390,7 +509,7 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (958)</a>
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (1238)</a>
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -398,7 +517,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (62)</a>
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (65)</a>
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -406,7 +525,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (79)</a>
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (148)</a>
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -414,7 +533,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (163)</a>
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (141)</a>
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -422,7 +541,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (82)</a>
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (23)</a>
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -430,42 +549,26 @@ setInterval(function(){
 </tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=120" style="color:#000;">NASCAR (1)</a>
+<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (29)</a>
 </td>
 <td>
-<input id="c5" type="checkbox" name="sel[]" value="120"/>
+<input id="c5" type="checkbox" name="sel[]" value="6"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (33)</a>
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (1)</a>
 </td>
 <td>
-<input id="c6" type="checkbox" name="sel[]" value="6"/>
+<input id="c6" type="checkbox" name="sel[]" value="29"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (34)</a>
+<a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (7)</a>
 </td>
 <td>
-<input id="c7" type="checkbox" name="sel[]" value="51"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (9)</a>
-</td>
-<td>
-<input id="c8" type="checkbox" name="sel[]" value="29"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (2)</a>
-</td>
-<td>
-<input id="c9" type="checkbox" name="sel[]" value="7"/>
+<input id="c7" type="checkbox" name="sel[]" value="7"/>
 </td>
 </tr>
 <tr valign="top">
@@ -473,7 +576,7 @@ setInterval(function(){
 <a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (22)</a>
 </td>
 <td>
-<input id="c10" type="checkbox" name="sel[]" value="12"/>
+<input id="c8" type="checkbox" name="sel[]" value="12"/>
 </td>
 </tr>
 <tr valign="top">
@@ -481,52 +584,68 @@ setInterval(function(){
 <a class="txtmed" href="/betting/cycle-racing" style="color:#000;">Велоспорт (1)</a>
 </td>
 <td>
-<input id="c11" type="checkbox" name="sel[]" value="44"/>
+<input id="c9" type="checkbox" name="sel[]" value="44"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (23)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=41" style="color:#000;">Водное поло (2)</a>
 </td>
 <td>
-<input id="c12" type="checkbox" name="sel[]" value="10"/>
+<input id="c10" type="checkbox" name="sel[]" value="41"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (44)</a>
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (107)</a>
 </td>
 <td>
-<input id="c13" type="checkbox" name="sel[]" value="9"/>
+<input id="c11" type="checkbox" name="sel[]" value="10"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (26)</a>
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (114)</a>
 </td>
 <td>
-<input id="c14" type="checkbox" name="sel[]" value="90"/>
+<input id="c12" type="checkbox" name="sel[]" value="9"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (2)</a>
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (17)</a>
 </td>
 <td>
-<input id="c15" type="checkbox" name="sel[]" value="75"/>
+<input id="c13" type="checkbox" name="sel[]" value="90"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (9)</a>
+<a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (4)</a>
 </td>
 <td>
-<input id="c16" type="checkbox" name="sel[]" value="47"/>
+<input id="c14" type="checkbox" name="sel[]" value="75"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (4)</a>
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (8)</a>
+</td>
+<td>
+<input id="c15" type="checkbox" name="sel[]" value="47"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=37" style="color:#000;">Керлинг (10)</a>
+</td>
+<td>
+<input id="c16" type="checkbox" name="sel[]" value="37"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (3)</a>
 </td>
 <td>
 <input id="c17" type="checkbox" name="sel[]" value="73"/>
@@ -534,7 +653,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (7)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (14)</a>
 </td>
 <td>
 <input id="c18" type="checkbox" name="sel[]" value="121"/>
@@ -542,7 +661,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/skiing" style="color:#000;">Лыжи (2)</a>
+<a class="txtmed" href="/betting/skiing" style="color:#000;">Лыжи (1)</a>
 </td>
 <td>
 <input id="c19" type="checkbox" name="sel[]" value="38"/>
@@ -550,31 +669,31 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (3)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=114" style="color:#000;">Лыжное двоеборье (1)</a>
 </td>
 <td>
-<input id="c20" type="checkbox" name="sel[]" value="117"/>
+<input id="c20" type="checkbox" name="sel[]" value="114"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (4)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (1)</a>
 </td>
 <td>
-<input id="c21" type="checkbox" name="sel[]" value="40"/>
+<input id="c21" type="checkbox" name="sel[]" value="117"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=88" style="color:#000;">Политика (2)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (6)</a>
 </td>
 <td>
-<input id="c22" type="checkbox" name="sel[]" value="88"/>
+<input id="c22" type="checkbox" name="sel[]" value="40"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (1)</a>
+<a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (3)</a>
 </td>
 <td>
 <input id="c23" type="checkbox" name="sel[]" value="39"/>
@@ -582,7 +701,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (3)</a>
+<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (4)</a>
 </td>
 <td>
 <input id="c24" type="checkbox" name="sel[]" value="85"/>
@@ -590,7 +709,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (47)</a>
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (30)</a>
 </td>
 <td>
 <input id="c25" type="checkbox" name="sel[]" value="46"/>
@@ -598,7 +717,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (36)</a>
+<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (38)</a>
 </td>
 <td>
 <input id="c26" type="checkbox" name="sel[]" value="96"/>
@@ -606,7 +725,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (8)</a>
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (28)</a>
 </td>
 <td>
 <input id="c27" type="checkbox" name="sel[]" value="4"/>
@@ -614,7 +733,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (26)</a>
+<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (30)</a>
 </td>
 <td>
 <input id="c28" type="checkbox" name="sel[]" value="113"/>
@@ -622,10 +741,26 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (5)</a>
+<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (3)</a>
 </td>
 <td>
 <input id="c29" type="checkbox" name="sel[]" value="33"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (13)</a>
+</td>
+<td>
+<input id="c30" type="checkbox" name="sel[]" value="11"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=8" style="color:#000;">Хоккей с мячом (12)</a>
+</td>
+<td>
+<input id="c31" type="checkbox" name="sel[]" value="8"/>
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -633,16 +768,16 @@ setInterval(function(){
                 {
                     if(checked==0) checked=1;
                     else checked=0;
-                    for(var ci=0;ci<30;ci++)
+                    for(var ci=0;ci<32;ci++)
                         document.getElementById('c'+ci).checked=checked;
-                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1698)</a>';
-                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1698)</a>'
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (2124)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (2124)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
 </td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1></td></tr>
 <tr><td colspan=2 id='selall' align=middle>
-<a href='javascript:selall();'>Выбрать все (1698)</a> </div>
+<a href='javascript:selall();'>Выбрать все (2124)</a> </div>
 </td>
 </tr>
 <input type="hidden" name="page" value="line"/>
@@ -658,8 +793,7 @@ setInterval(function(){
 Live-Ставки </H1>
 <style type="text/css">._block{width:250px;padding:0;color:#424242;font-size:10px;font-family:tahoma,arial;font-weight:bold;}._block ._list{padding:3px 3px;height:16px;cursor:pointer;border-radius:1px;margin:0 20px 0 0;color:#424242;border:1px solid #b7b7b7;width:242px;z-index:11;background:#ffffff;}._list #btn{width:0;height:0;margin:5px 0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #424242;float:right;}._list span{padding:2px 0 0 2px;display:inline-block;max-width:225px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}._block ul.result_list{margin-top:0px;z-index:10;background:#ffffff;position:absolute;border-radius:1px;width:248px;padding:0;border:1px solid #b7b7b7;display:none;max-height:100px;overflow:auto;}ul.result_list li{padding:6px 9px;list-style-type:none;border-top:1px solid #b7b7b7;}ul.result_list li span{color:#882211;}ul.result_list li:hover{cursor:pointer;color:#89221B;}</style>
 <script type="text/javascript">
-	function getCookie(name)
-	{
+	function getCookie(name) {
 		var cookie = " " + document.cookie;
 		var search = " " + name + "=";
 		var setStr = null;
@@ -678,8 +812,7 @@ Live-Ставки </H1>
 		}
 		return (setStr);
 	}
-	$(function ()
-	{
+	$(function () {
 		$(document).delegate("._list", 'click', function () {
 			var tv = $(this).attr("data-item");
 			$(".result_list[data-item=" + tv + "]").slideToggle("fast");
@@ -707,20 +840,25 @@ Live-Ставки </H1>
 <input type="hidden" name="page" value="setbet"/>
 <div id="betline">
 <center><table><tr><td><input type='checkbox' checked='checked' id=refresh value='1' onclick='javascript:save_upd();'></td><td><b>
-<a href='javascript:window.location="index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=27055939";'>Обновлять</a> страницу автоматически (каждые <select class=loginbox style='width:40px;' id=refrate onChange='change_rr();'>
+<a href='javascript:window.location="index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=27887392";'>Обновлять</a> страницу автоматически (каждые <select class=loginbox style='width:40px;' id=refrate onChange='change_rr();'>
 <option value='5'>5</option>
 <option value='10' selected>10</option>
  
 </select> сек)</b></td></tr></table>
+<div style='color: #800000;float: left;font-style: italic; cursor: pointer; margin: 11px;text-decoration: underline;' class='showhideAll' data-show='hide'>Свернуть всю роспись</div>
 <script language='JavaScript'>
                                       var h_int=null;
 									  function change_rr()
 									  {
 										var rr=30;
-										rr=document.getElementById('refrate').value;
+										if (document.getElementById('refrate') != 'undefined' &&
+											document.getElementById('refrate') != null
+										) {
+											rr=document.getElementById('refrate').value;
+										}
 										document.cookie="refrate="+rr+";";
 										if(h_int) clearInterval(h_int);
-									  	h_int=setInterval("ajax_rload('ajax_index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=27055939')", rr*1000);
+									  	h_int=setInterval("ajax_rload('ajax_index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=27887392')", rr*1000);
 									  }
                                       function save_upd()
                                       {
@@ -728,29 +866,28 @@ Live-Ставки </H1>
                                       	  else document.cookie="upd_disable=1;";
                                       }
                                       change_rr();
-	                                  </script><table class="smallwnd2" style="width:99%"><tr class='m_c' align=center>
-<td class=smwndcap width='90%'><font class=g>Live. </font> Футбол. Индия. Мизорам. Премьер-лига<a name='ch2822379'></a></td>
+	                                  </script><table class="smallwnd2" style="width:99%;"><tr class='m_c' align=center>
+<td class=smwndcap width='90%'><font class=g>Live. </font> Футбол. Гонконг. Премьер-лига<a name='ch649034'></a></td>
 <td class=smwndcap width='10%' align=center valign=center nowrap>- - -</td></tr>
 <tr><td colspan=2>
 <i><div align=left style='WIDTH: 96%;'>
-<a href='javascript: ShowAddons("2822379")' class='show_all_odds' data-champ_id='2822379'>
-<span id='t2822379_1' class=tab>Показать роспись</span></a><span class=tab><a class='index_lnk' href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
-<td width='20%' align=center>06.10.2016 12:30<br><i><font class=m>Онлайн</font></i></td>
-<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b>Айзаул - Чанмари Уэст<a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27055939"></a><br><font class=txtmed style='color:red; white-space: nowrap;'>0:1 (0:0) 91", Счет по угловым 4:5</font></b></font></div></td>
+<a href='javascript: ShowAddons("649034")' class='show_all_odds' data-champ_id='649034'>
+<span id='t649034_1' class=tab>Показать роспись.</span></a><span class=tab><a class='index_lnk' href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadaddLive(27887392, 0, 0);'>
+<img id='i27887392' src='/img/minus.jpg'></a></div>19.11.2016 12:30<br><i><font class=m>Онлайн</font></i></td>
+<td width='80%' style='border-right: 0 !important;'><div style='float: left; width:50%;'><font class=m><b>Юэнь Лун - Глори Скай<div style='float: left; margin-right: 10px;'><a href='javascript:openmtbr(9953695,1, true, "ru", "Asia:Dhaka");'><img src='/img/mt.png'></a></div><a class="fav" style="float:left;margin:5px 10px 5px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="27887392"></a><br><font class=txtmed style='color:red; white-space: nowrap;'>2:0 (2:0) , Счет по угловым 4:3, Перерыв</font></b></font></div></td>
 </tr>
-<tr><td colspan=2><div class=tab id='odd27055939' data-match-id='27055939' data-match-count='0' data-cont='0' data-champ='2822379'><b><i>Прием ставок приостановлен</b></i></div></td></tr></table></td></tr></table><span id="t2822379_2" style="display:none"></span><input type="hidden" name="r_max" value="1"/><input type="hidden" name="currpage" value="live"/> </div>
+<tr><td colspan=2><div class=tab id='odd27887392' data-match-id='27887392' data-match-count='0' data-cont='0' data-champ='649034'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_610835570.1" class="bet_sel koefs" data-cnt="1" data-select="610835570.1" data-v1="1.01" data-v2="1" data-v3="1" data-match="27887392" data-id="610835570.1" data-live="b1"><b>1.01</b></span>   &nbsp;</nobr> <nobr>Х -&nbsp;&nbsp;<span id="koefs_610835571.1" class="bet_sel koefs" data-cnt="1" data-select="610835571.1" data-v1="21" data-v2="1" data-v3="1" data-match="27887392" data-id="610835571.1" data-live="b1"><b>21</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_610835572.1" class="bet_sel koefs" data-cnt="1" data-select="610835572.1" data-v1="67" data-v2="1" data-v3="1" data-match="27887392" data-id="610835572.1" data-live="b1"><b>67</b></span>   &nbsp;</nobr> <nobr>12 -&nbsp;&nbsp;<span id="koefs_610835574.1" class="bet_sel koefs" data-cnt="1" data-select="610835574.1" data-v1="1.01" data-v2="1" data-v3="1" data-match="27887392" data-id="610835574.1" data-live="b1"><b>1.01</b></span>   &nbsp;</nobr> <nobr>Х2 -&nbsp;&nbsp;<span id="koefs_610835575.1" class="bet_sel koefs" data-cnt="1" data-select="610835575.1" data-v1="19" data-v2="1" data-v3="1" data-match="27887392" data-id="610835575.1" data-live="b1"><b>19</b></span>   &nbsp;</nobr> <nobr>Ф1(-2.5) -&nbsp;&nbsp;<span id="koefs_610914782:27887392:2:4:-2.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:-2.5:1:0" data-v1="-2.5" data-v2="1.68" data-v3="1" data-match="27887392" data-id="610914782:27887392:2:4:-2.5:1:0" data-live="b1"><b>1.68</b></span>   &nbsp;</nobr> <nobr>Ф2(2.5) -&nbsp;&nbsp;<span id="koefs_610914783:27887392:2:4:2.5:2:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:2.5:2:0" data-v1="2.5" data-v2="2.06" data-v3="1" data-match="27887392" data-id="610914783:27887392:2:4:2.5:2:0" data-live="b1"><b>2.06</b></span>   &nbsp;</nobr> <nobr>Тот(3.5) М -&nbsp;&nbsp;<span id="koefs_610914800:27887392:2:5:3.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:5:3.5:1:0" data-v1="3.5" data-v2="1.93" data-v3="1.78" data-match="27887392" data-id="610914800:27887392:2:5:3.5:1:0" data-live="b1"><b>1.93</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_610914800:27887392:3:5:3.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:5:3.5:1:0" data-v1="3.5" data-v2="1.93" data-v3="1.78" data-match="27887392" data-id="610914800:27887392:3:5:3.5:1:0" data-live="b1"><b>1.78</b></span>   &nbsp;</nobr> <div id="r649034_0" sh="-HM27887392" data-match-id-show="27887392" style="display: block;"><br/><b><i>Голы:</i></b><br/><nobr>Обе забьют: да -&nbsp;&nbsp;<span id="koefs_610914838.2" class="bet_sel koefs" data-cnt="1" data-select="610914838.2" data-v1="1" data-v2="2.31" data-v3="1.54" data-match="27887392" data-id="610914838.2" data-live="b1"><b>2.31</b></span>  &nbsp; Обе забьют: нет -&nbsp;&nbsp;<span id="koefs_610914838.3" class="bet_sel koefs" data-cnt="1" data-select="610914838.3" data-v1="1" data-v2="2.31" data-v3="1.54" data-match="27887392" data-id="610914838.3" data-live="b1"><b>1.54</b></span>   &nbsp;</nobr> <nobr>Юэнь Лун забьет 2-3 гола -&nbsp;&nbsp;<span id="koefs_611520573.1" class="bet_sel koefs" data-cnt="1" data-select="611520573.1" data-v1="1.47" data-v2="1" data-v3="1" data-match="27887392" data-id="611520573.1" data-live="b1"><b>1.47</b></span>   &nbsp;</nobr> <nobr>Юэнь Лун забьет 4 гола и больше -&nbsp;&nbsp;<span id="koefs_611520574.1" class="bet_sel koefs" data-cnt="1" data-select="611520574.1" data-v1="2.5" data-v2="1" data-v3="1" data-match="27887392" data-id="611520574.1" data-live="b1"><b>2.5</b></span>   &nbsp;</nobr> <nobr>Глори Скай забьет 0-1 голов -&nbsp;&nbsp;<span id="koefs_611520575.1" class="bet_sel koefs" data-cnt="1" data-select="611520575.1" data-v1="1.07" data-v2="1" data-v3="1" data-match="27887392" data-id="611520575.1" data-live="b1"><b>1.07</b></span>   &nbsp;</nobr> <nobr>Глори Скай забьет 2-3 гола -&nbsp;&nbsp;<span id="koefs_611520576.1" class="bet_sel koefs" data-cnt="1" data-select="611520576.1" data-v1="9" data-v2="1" data-v3="1" data-match="27887392" data-id="611520576.1" data-live="b1"><b>9</b></span>   &nbsp;</nobr> <nobr>Глори Скай забьет 4 гола и больше -&nbsp;&nbsp;<span id="koefs_611520577.1" class="bet_sel koefs" data-cnt="1" data-select="611520577.1" data-v1="34" data-v2="1" data-v3="1" data-match="27887392" data-id="611520577.1" data-live="b1"><b>34</b></span>   &nbsp;</nobr> <br/><br/><b><i>Инд.тотал:</i></b><br/><nobr>Юэнь Лун (3) мен -&nbsp;&nbsp;<span id="koefs_610914810:27887392:2:7:3:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:7:3:1:0" data-v1="3" data-v2="2.1" data-v3="1.65" data-match="27887392" data-id="610914810:27887392:2:7:3:1:0" data-live="b1"><b>2.1</b></span>   &nbsp;Юэнь Лун (3) бол -&nbsp;&nbsp;<span id="koefs_610914810:27887392:3:7:3:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:7:3:1:0" data-v1="3" data-v2="2.1" data-v3="1.65" data-match="27887392" data-id="610914810:27887392:3:7:3:1:0" data-live="b1"><b>1.65</b></span>   &nbsp;</nobr> <nobr>Глори Скай (0.5) мен -&nbsp;&nbsp;<span id="koefs_610914817:27887392:2:8:0.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:8:0.5:1:0" data-v1="0.5" data-v2="1.54" data-v3="2.31" data-match="27887392" data-id="610914817:27887392:2:8:0.5:1:0" data-live="b1"><b>1.54</b></span>   &nbsp;Глори Скай (0.5) бол -&nbsp;&nbsp;<span id="koefs_610914817:27887392:3:8:0.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:8:0.5:1:0" data-v1="0.5" data-v2="1.54" data-v3="2.31" data-match="27887392" data-id="610914817:27887392:3:8:0.5:1:0" data-live="b1"><b>2.31</b></span>   &nbsp;</nobr> <nobr>Юэнь Лун (3.5) мен -&nbsp;&nbsp;<span id="koefs_610914811:27887392:2:7:3.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:7:3.5:1:0" data-v1="3.5" data-v2="1.47" data-v3="2.5" data-match="27887392" data-id="610914811:27887392:2:7:3.5:1:0" data-live="b1"><b>1.47</b></span>   &nbsp;Юэнь Лун (3.5) бол -&nbsp;&nbsp;<span id="koefs_610914811:27887392:3:7:3.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:7:3.5:1:0" data-v1="3.5" data-v2="1.47" data-v3="2.5" data-match="27887392" data-id="610914811:27887392:3:7:3.5:1:0" data-live="b1"><b>2.5</b></span>   &nbsp;</nobr> <br/><br/><b><i>Голы по командам:</i></b><br/><nobr>Юэнь Лун: 2 гола -&nbsp;&nbsp;<span id="koefs_610914871.1" class="bet_sel koefs" data-cnt="1" data-select="610914871.1" data-v1="3.08" data-v2="1" data-v3="1" data-match="27887392" data-id="610914871.1" data-live="b1"><b>3.08</b></span>   &nbsp;</nobr> <nobr>Юэнь Лун: 3 гола -&nbsp;&nbsp;<span id="koefs_611520568.1" class="bet_sel koefs" data-cnt="1" data-select="611520568.1" data-v1="2.3" data-v2="1" data-v3="1" data-match="27887392" data-id="611520568.1" data-live="b1"><b>2.3</b></span>   &nbsp;</nobr> <nobr>Юэнь Лун: 4 гола -&nbsp;&nbsp;<span id="koefs_611520569.1" class="bet_sel koefs" data-cnt="1" data-select="611520569.1" data-v1="3.4" data-v2="1" data-v3="1" data-match="27887392" data-id="611520569.1" data-live="b1"><b>3.4</b></span>   &nbsp;</nobr> <nobr>Глори Скай: 0 голов -&nbsp;&nbsp;<span id="koefs_610914873.1" class="bet_sel koefs" data-cnt="1" data-select="610914873.1" data-v1="1.54" data-v2="1" data-v3="1" data-match="27887392" data-id="610914873.1" data-live="b1"><b>1.54</b></span>   &nbsp;</nobr> <nobr>Глори Скай: 1 гол -&nbsp;&nbsp;<span id="koefs_610914874.1" class="bet_sel koefs" data-cnt="1" data-select="610914874.1" data-v1="2.65" data-v2="1" data-v3="1" data-match="27887392" data-id="610914874.1" data-live="b1"><b>2.65</b></span>   &nbsp;</nobr> <nobr>Глори Скай: 2 гола -&nbsp;&nbsp;<span id="koefs_610914875.1" class="bet_sel koefs" data-cnt="1" data-select="610914875.1" data-v1="8.75" data-v2="1" data-v3="1" data-match="27887392" data-id="610914875.1" data-live="b1"><b>8.75</b></span>   &nbsp;</nobr> <nobr>Глори Скай: 3 гола -&nbsp;&nbsp;<span id="koefs_611520570.1" class="bet_sel koefs" data-cnt="1" data-select="611520570.1" data-v1="29" data-v2="1" data-v3="1" data-match="27887392" data-id="611520570.1" data-live="b1"><b>29</b></span>   &nbsp;</nobr> <nobr>Глори Скай: 4 гола -&nbsp;&nbsp;<span id="koefs_611520571.1" class="bet_sel koefs" data-cnt="1" data-select="611520571.1" data-v1="34" data-v2="1" data-v3="1" data-match="27887392" data-id="611520571.1" data-live="b1"><b>34</b></span>   &nbsp;</nobr> <br/><br/><b><i>Счет:</i></b><br/><nobr>2:0 -&nbsp;&nbsp;<span id="koefs_611520601.1" class="bet_sel koefs" data-cnt="1" data-select="611520601.1" data-v1="5" data-v2="1" data-v3="1" data-match="27887392" data-id="611520601.1" data-live="b1"><b>5</b></span>   &nbsp;</nobr> <nobr>2:1 -&nbsp;&nbsp;<span id="koefs_611520602.1" class="bet_sel koefs" data-cnt="1" data-select="611520602.1" data-v1="5.75" data-v2="1" data-v3="1" data-match="27887392" data-id="611520602.1" data-live="b1"><b>5.75</b></span>   &nbsp;</nobr> <nobr>3:0 -&nbsp;&nbsp;<span id="koefs_611520603.1" class="bet_sel koefs" data-cnt="1" data-select="611520603.1" data-v1="2.9" data-v2="1" data-v3="1" data-match="27887392" data-id="611520603.1" data-live="b1"><b>2.9</b></span>   &nbsp;</nobr> <nobr>3:1 -&nbsp;&nbsp;<span id="koefs_611520604.1" class="bet_sel koefs" data-cnt="1" data-select="611520604.1" data-v1="5" data-v2="1" data-v3="1" data-match="27887392" data-id="611520604.1" data-live="b1"><b>5</b></span>   &nbsp;</nobr> <nobr>3:2 -&nbsp;&nbsp;<span id="koefs_611520605.1" class="bet_sel koefs" data-cnt="1" data-select="611520605.1" data-v1="11" data-v2="1" data-v3="1" data-match="27887392" data-id="611520605.1" data-live="b1"><b>11</b></span>   &nbsp;</nobr> <nobr>4:0 -&nbsp;&nbsp;<span id="koefs_611520606.1" class="bet_sel koefs" data-cnt="1" data-select="611520606.1" data-v1="4" data-v2="1" data-v3="1" data-match="27887392" data-id="611520606.1" data-live="b1"><b>4</b></span>   &nbsp;</nobr> <nobr>4:1 -&nbsp;&nbsp;<span id="koefs_611520607.1" class="bet_sel koefs" data-cnt="1" data-select="611520607.1" data-v1="6.75" data-v2="1" data-v3="1" data-match="27887392" data-id="611520607.1" data-live="b1"><b>6.75</b></span>   &nbsp;</nobr> <nobr>4:2 -&nbsp;&nbsp;<span id="koefs_611520608.1" class="bet_sel koefs" data-cnt="1" data-select="611520608.1" data-v1="14" data-v2="1" data-v3="1" data-match="27887392" data-id="611520608.1" data-live="b1"><b>14</b></span>   &nbsp;</nobr> <nobr>4:3 -&nbsp;&nbsp;<span id="koefs_611520609.1" class="bet_sel koefs" data-cnt="1" data-select="611520609.1" data-v1="26" data-v2="1" data-v3="1" data-match="27887392" data-id="611520609.1" data-live="b1"><b>26</b></span>   &nbsp;</nobr> <nobr>5:0 -&nbsp;&nbsp;<span id="koefs_611520610.1" class="bet_sel koefs" data-cnt="1" data-select="611520610.1" data-v1="7.5" data-v2="1" data-v3="1" data-match="27887392" data-id="611520610.1" data-live="b1"><b>7.5</b></span>   &nbsp;</nobr> <nobr>5:1 -&nbsp;&nbsp;<span id="koefs_611520611.1" class="bet_sel koefs" data-cnt="1" data-select="611520611.1" data-v1="11" data-v2="1" data-v3="1" data-match="27887392" data-id="611520611.1" data-live="b1"><b>11</b></span>   &nbsp;</nobr> <nobr>6:0 -&nbsp;&nbsp;<span id="koefs_611520613.1" class="bet_sel koefs" data-cnt="1" data-select="611520613.1" data-v1="13.5" data-v2="1" data-v3="1" data-match="27887392" data-id="611520613.1" data-live="b1"><b>13.5</b></span>   &nbsp;</nobr> <nobr>2:2 -&nbsp;&nbsp;<span id="koefs_611520592.1" class="bet_sel koefs" data-cnt="1" data-select="611520592.1" data-v1="12.5" data-v2="1" data-v3="1" data-match="27887392" data-id="611520592.1" data-live="b1"><b>12.5</b></span>   &nbsp;</nobr> <nobr>3:3 -&nbsp;&nbsp;<span id="koefs_611520593.1" class="bet_sel koefs" data-cnt="1" data-select="611520593.1" data-v1="23" data-v2="1" data-v3="1" data-match="27887392" data-id="611520593.1" data-live="b1"><b>23</b></span>   &nbsp;</nobr> <nobr>2:3 -&nbsp;&nbsp;<span id="koefs_611520598.1" class="bet_sel koefs" data-cnt="1" data-select="611520598.1" data-v1="26" data-v2="1" data-v3="1" data-match="27887392" data-id="611520598.1" data-live="b1"><b>26</b></span>   &nbsp;</nobr> <nobr>7:0 -&nbsp;&nbsp;<span id="koefs_611527547.1" class="bet_sel koefs" data-cnt="1" data-select="611527547.1" data-v1="23" data-v2="1" data-v3="1" data-match="27887392" data-id="611527547.1" data-live="b1"><b>23</b></span>   &nbsp;</nobr> <nobr>6:1 -&nbsp;&nbsp;<span id="koefs_611520614.1" class="bet_sel koefs" data-cnt="1" data-select="611520614.1" data-v1="18.5" data-v2="1" data-v3="1" data-match="27887392" data-id="611520614.1" data-live="b1"><b>18.5</b></span>   &nbsp;</nobr> <nobr>7:1 -&nbsp;&nbsp;<span id="koefs_611527419.1" class="bet_sel koefs" data-cnt="1" data-select="611527419.1" data-v1="29" data-v2="1" data-v3="1" data-match="27887392" data-id="611527419.1" data-live="b1"><b>29</b></span>   &nbsp;</nobr> <nobr>5:2 -&nbsp;&nbsp;<span id="koefs_611520612.1" class="bet_sel koefs" data-cnt="1" data-select="611520612.1" data-v1="21" data-v2="1" data-v3="1" data-match="27887392" data-id="611520612.1" data-live="b1"><b>21</b></span>   &nbsp;</nobr> <nobr>6:2 -&nbsp;&nbsp;<span id="koefs_611520615.1" class="bet_sel koefs" data-cnt="1" data-select="611520615.1" data-v1="29" data-v2="1" data-v3="1" data-match="27887392" data-id="611520615.1" data-live="b1"><b>29</b></span>   &nbsp;</nobr> <nobr>5:3 -&nbsp;&nbsp;<span id="koefs_611527418.1" class="bet_sel koefs" data-cnt="1" data-select="611527418.1" data-v1="29" data-v2="1" data-v3="1" data-match="27887392" data-id="611527418.1" data-live="b1"><b>29</b></span>   &nbsp;</nobr> <br/><br/><b><i>Доп. тотал:</i></b><br/><nobr>Тотал (2.5) мен -&nbsp;&nbsp;<span id="koefs_610914801:27887392:2:5:2.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:5:2.5:1:0" data-v1="2.5" data-v2="5" data-v3="1.13" data-match="27887392" data-id="610914801:27887392:2:5:2.5:1:0" data-live="b1"><b>5</b></span>   &nbsp;Тотал (2.5) бол -&nbsp;&nbsp;<span id="koefs_610914801:27887392:3:5:2.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:5:2.5:1:0" data-v1="2.5" data-v2="5" data-v3="1.13" data-match="27887392" data-id="610914801:27887392:3:5:2.5:1:0" data-live="b1"><b>1.13</b></span>   &nbsp;</nobr> <nobr>Тотал (3) мен -&nbsp;&nbsp;<span id="koefs_610914802:27887392:2:5:3:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:5:3:1:0" data-v1="3" data-v2="3.56" data-v3="1.25" data-match="27887392" data-id="610914802:27887392:2:5:3:1:0" data-live="b1"><b>3.56</b></span>   &nbsp;Тотал (3) бол -&nbsp;&nbsp;<span id="koefs_610914802:27887392:3:5:3:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:5:3:1:0" data-v1="3" data-v2="3.56" data-v3="1.25" data-match="27887392" data-id="610914802:27887392:3:5:3:1:0" data-live="b1"><b>1.25</b></span>   &nbsp;</nobr> <nobr>Тотал (4) мен -&nbsp;&nbsp;<span id="koefs_610914803:27887392:2:5:4:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:5:4:1:0" data-v1="4" data-v2="1.45" data-v3="2.57" data-match="27887392" data-id="610914803:27887392:2:5:4:1:0" data-live="b1"><b>1.45</b></span>   &nbsp;Тотал (4) бол -&nbsp;&nbsp;<span id="koefs_610914803:27887392:3:5:4:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:5:4:1:0" data-v1="4" data-v2="1.45" data-v3="2.57" data-match="27887392" data-id="610914803:27887392:3:5:4:1:0" data-live="b1"><b>2.57</b></span>   &nbsp;</nobr> <nobr>Тотал (4.5) мен -&nbsp;&nbsp;<span id="koefs_610914804:27887392:2:5:4.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:5:4.5:1:0" data-v1="4.5" data-v2="1.27" data-v3="3.43" data-match="27887392" data-id="610914804:27887392:2:5:4.5:1:0" data-live="b1"><b>1.27</b></span>   &nbsp;Тотал (4.5) бол -&nbsp;&nbsp;<span id="koefs_610914804:27887392:3:5:4.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:5:4.5:1:0" data-v1="4.5" data-v2="1.27" data-v3="3.43" data-match="27887392" data-id="610914804:27887392:3:5:4.5:1:0" data-live="b1"><b>3.43</b></span>   &nbsp;</nobr> <br/><br/><b><i>Тотал матча:</i></b><br/><nobr>Чет -&nbsp;&nbsp;<span id="koefs_610914867.1" class="bet_sel koefs" data-cnt="1" data-select="610914867.1" data-v1="1.81" data-v2="1" data-v3="1" data-match="27887392" data-id="610914867.1" data-live="b1"><b>1.81</b></span>   &nbsp;</nobr> <nobr>Нечет -&nbsp;&nbsp;<span id="koefs_610914868.1" class="bet_sel koefs" data-cnt="1" data-select="610914868.1" data-v1="1.89" data-v2="1" data-v3="1" data-match="27887392" data-id="610914868.1" data-live="b1"><b>1.89</b></span>   &nbsp;</nobr> <br/><br/><b><i>Победа с учетом форы:</i></b><br/><nobr>Юэнь Лун (-3.5) -&nbsp;&nbsp;<span id="koefs_610914780:27887392:2:4:-3.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:-3.5:1:0" data-v1="-3.5" data-v2="3.3" data-v3="1" data-match="27887392" data-id="610914780:27887392:2:4:-3.5:1:0" data-live="b1"><b>3.3</b></span>   &nbsp;</nobr> <nobr>Глори Скай (3.5) -&nbsp;&nbsp;<span id="koefs_610914781:27887392:2:4:3.5:2:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:3.5:2:0" data-v1="3.5" data-v2="1.28" data-v3="1" data-match="27887392" data-id="610914781:27887392:2:4:3.5:2:0" data-live="b1"><b>1.28</b></span>   &nbsp;</nobr> <nobr>Юэнь Лун (-3) -&nbsp;&nbsp;<span id="koefs_610914784:27887392:2:4:-3:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:-3:1:0" data-v1="-3" data-v2="2.43" data-v3="1" data-match="27887392" data-id="610914784:27887392:2:4:-3:1:0" data-live="b1"><b>2.43</b></span>   &nbsp;</nobr> <nobr>Глори Скай (3) -&nbsp;&nbsp;<span id="koefs_610914785:27887392:2:4:3:2:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:3:2:0" data-v1="3" data-v2="1.49" data-v3="1" data-match="27887392" data-id="610914785:27887392:2:4:3:2:0" data-live="b1"><b>1.49</b></span>   &nbsp;</nobr> <nobr>Юэнь Лун (-2) -&nbsp;&nbsp;<span id="koefs_610914786:27887392:2:4:-2:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:-2:1:0" data-v1="-2" data-v2="1.2" data-v3="1" data-match="27887392" data-id="610914786:27887392:2:4:-2:1:0" data-live="b1"><b>1.2</b></span>   &nbsp;</nobr> <nobr>Глори Скай (2) -&nbsp;&nbsp;<span id="koefs_610914787:27887392:2:4:2:2:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:2:2:0" data-v1="2" data-v2="4.02" data-v3="1" data-match="27887392" data-id="610914787:27887392:2:4:2:2:0" data-live="b1"><b>4.02</b></span>   &nbsp;</nobr> <nobr>Юэнь Лун (-1.5) -&nbsp;&nbsp;<span id="koefs_610914788:27887392:2:4:-1.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:-1.5:1:0" data-v1="-1.5" data-v2="1.13" data-v3="1" data-match="27887392" data-id="610914788:27887392:2:4:-1.5:1:0" data-live="b1"><b>1.13</b></span>   &nbsp;</nobr> <nobr>Глори Скай (1.5) -&nbsp;&nbsp;<span id="koefs_610914789:27887392:2:4:1.5:2:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:4:1.5:2:0" data-v1="1.5" data-v2="5.14" data-v3="1" data-match="27887392" data-id="610914789:27887392:2:4:1.5:2:0" data-live="b1"><b>5.14</b></span>   &nbsp;</nobr> <br/><br/><b><i>Следующий гол:</i></b><br/><nobr>3-й гол Юэнь Лун -&nbsp;&nbsp;<span id="koefs_611535821.1" class="bet_sel koefs" data-cnt="1" data-select="611535821.1" data-v1="1.57" data-v2="1" data-v3="1" data-match="27887392" data-id="611535821.1" data-live="b1"><b>1.57</b></span>   &nbsp;</nobr> <nobr>3-й гол Глори Скай -&nbsp;&nbsp;<span id="koefs_611535823.1" class="bet_sel koefs" data-cnt="1" data-select="611535823.1" data-v1="3.55" data-v2="1" data-v3="1" data-match="27887392" data-id="611535823.1" data-live="b1"><b>3.55</b></span>   &nbsp;</nobr> <nobr>3-го гола не будет -&nbsp;&nbsp;<span id="koefs_611535822.1" class="bet_sel koefs" data-cnt="1" data-select="611535822.1" data-v1="5" data-v2="1" data-v3="1" data-match="27887392" data-id="611535822.1" data-live="b1"><b>5</b></span>   &nbsp;</nobr> <br/><br/><b><i>Время следующего гола:</i></b><br/><nobr>3-й гол с 41-й до 50-й мин -&nbsp;&nbsp;<span id="koefs_611535825.1" class="bet_sel koefs" data-cnt="1" data-select="611535825.1" data-v1="6" data-v2="1" data-v3="1" data-match="27887392" data-id="611535825.1" data-live="b1"><b>6</b></span>   &nbsp;</nobr> <nobr>3-й гол с 51-й до 60-й мин -&nbsp;&nbsp;<span id="koefs_611535826.1" class="bet_sel koefs" data-cnt="1" data-select="611535826.1" data-v1="3.4" data-v2="1" data-v3="1" data-match="27887392" data-id="611535826.1" data-live="b1"><b>3.4</b></span>   &nbsp;</nobr> <nobr>3-й гол с 61-й до 70-й мин -&nbsp;&nbsp;<span id="koefs_611535827.1" class="bet_sel koefs" data-cnt="1" data-select="611535827.1" data-v1="4.7" data-v2="1" data-v3="1" data-match="27887392" data-id="611535827.1" data-live="b1"><b>4.7</b></span>   &nbsp;</nobr> <nobr>3-й гол с 71-й до 80-й мин -&nbsp;&nbsp;<span id="koefs_611535828.1" class="bet_sel koefs" data-cnt="1" data-select="611535828.1" data-v1="6.25" data-v2="1" data-v3="1" data-match="27887392" data-id="611535828.1" data-live="b1"><b>6.25</b></span>   &nbsp;</nobr> <nobr>3-й гол с 81-й до 90-й мин -&nbsp;&nbsp;<span id="koefs_611535829.1" class="bet_sel koefs" data-cnt="1" data-select="611535829.1" data-v1="7" data-v2="1" data-v3="1" data-match="27887392" data-id="611535829.1" data-live="b1"><b>7</b></span>   &nbsp;</nobr> <nobr>3-го гола не будет -&nbsp;&nbsp;<span id="koefs_611535830.1" class="bet_sel koefs" data-cnt="1" data-select="611535830.1" data-v1="5" data-v2="1" data-v3="1" data-match="27887392" data-id="611535830.1" data-live="b1"><b>5</b></span>   &nbsp;</nobr> <br/><br/><b><i>Точное количество голов:</i></b><br/><nobr>2 гола -&nbsp;&nbsp;<span id="koefs_610914912.1" class="bet_sel koefs" data-cnt="1" data-select="610914912.1" data-v1="5" data-v2="1" data-v3="1" data-match="27887392" data-id="610914912.1" data-live="b1"><b>5</b></span>   &nbsp;</nobr> <nobr>3 гола -&nbsp;&nbsp;<span id="koefs_610914913.1" class="bet_sel koefs" data-cnt="1" data-select="610914913.1" data-v1="2.35" data-v2="1" data-v3="1" data-match="27887392" data-id="610914913.1" data-live="b1"><b>2.35</b></span>   &nbsp;</nobr> <nobr>4 гола -&nbsp;&nbsp;<span id="koefs_610914914.1" class="bet_sel koefs" data-cnt="1" data-select="610914914.1" data-v1="2.55" data-v2="1" data-v3="1" data-match="27887392" data-id="610914914.1" data-live="b1"><b>2.55</b></span>   &nbsp;</nobr> <nobr>5 голов -&nbsp;&nbsp;<span id="koefs_610914915.1" class="bet_sel koefs" data-cnt="1" data-select="610914915.1" data-v1="3.8" data-v2="1" data-v3="1" data-match="27887392" data-id="610914915.1" data-live="b1"><b>3.8</b></span>   &nbsp;</nobr> <nobr>6 голов -&nbsp;&nbsp;<span id="koefs_611520578.1" class="bet_sel koefs" data-cnt="1" data-select="611520578.1" data-v1="7.25" data-v2="1" data-v3="1" data-match="27887392" data-id="611520578.1" data-live="b1"><b>7.25</b></span>   &nbsp;</nobr> <nobr>7 голов -&nbsp;&nbsp;<span id="koefs_611520579.1" class="bet_sel koefs" data-cnt="1" data-select="611520579.1" data-v1="13" data-v2="1" data-v3="1" data-match="27887392" data-id="611520579.1" data-live="b1"><b>13</b></span>   &nbsp;</nobr> <nobr>8 голов -&nbsp;&nbsp;<span id="koefs_611520580.1" class="bet_sel koefs" data-cnt="1" data-select="611520580.1" data-v1="23" data-v2="1" data-v3="1" data-match="27887392" data-id="611520580.1" data-live="b1"><b>23</b></span>   &nbsp;</nobr> <nobr>9 голов -&nbsp;&nbsp;<span id="koefs_611520581.1" class="bet_sel koefs" data-cnt="1" data-select="611520581.1" data-v1="34" data-v2="1" data-v3="1" data-match="27887392" data-id="611520581.1" data-live="b1"><b>34</b></span>   &nbsp;</nobr> <br/><br/><b><i>Угловые:</i></b><br/><nobr>Тотал (11.5) мен -&nbsp;&nbsp;<span id="koefs_611520565:27887392:2:949:11.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:949:11.5:1:0" data-v1="11.5" data-v2="2.5" data-v3="1.5" data-match="27887392" data-id="611520565:27887392:2:949:11.5:1:0" data-live="b1"><b>2.5</b></span>   &nbsp;Тотал (11.5) бол -&nbsp;&nbsp;<span id="koefs_611520565:27887392:3:949:11.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:949:11.5:1:0" data-v1="11.5" data-v2="2.5" data-v3="1.5" data-match="27887392" data-id="611520565:27887392:3:949:11.5:1:0" data-live="b1"><b>1.5</b></span>   &nbsp;</nobr> <nobr>Тотал (12.5) мен -&nbsp;&nbsp;<span id="koefs_611520566:27887392:2:949:12.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:949:12.5:1:0" data-v1="12.5" data-v2="1.73" data-v3="2" data-match="27887392" data-id="611520566:27887392:2:949:12.5:1:0" data-live="b1"><b>1.73</b></span>   &nbsp;Тотал (12.5) бол -&nbsp;&nbsp;<span id="koefs_611520566:27887392:3:949:12.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:949:12.5:1:0" data-v1="12.5" data-v2="1.73" data-v3="2" data-match="27887392" data-id="611520566:27887392:3:949:12.5:1:0" data-live="b1"><b>2</b></span>   &nbsp;</nobr> <nobr>Тотал (13.5) мен -&nbsp;&nbsp;<span id="koefs_611520567:27887392:2:949:13.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:2:949:13.5:1:0" data-v1="13.5" data-v2="1.35" data-v3="3" data-match="27887392" data-id="611520567:27887392:2:949:13.5:1:0" data-live="b1"><b>1.35</b></span>   &nbsp;Тотал (13.5) бол -&nbsp;&nbsp;<span id="koefs_611520567:27887392:3:949:13.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="27887392:3:949:13.5:1:0" data-v1="13.5" data-v2="1.35" data-v3="3" data-match="27887392" data-id="611520567:27887392:3:949:13.5:1:0" data-live="b1"><b>3</b></span>   &nbsp;</nobr> <br/><br/><b><i>Количество угловых:</i></b><br/><nobr>5-7 -&nbsp;&nbsp;<span id="koefs_611520588.1" class="bet_sel koefs" data-cnt="1" data-select="611520588.1" data-v1="13" data-v2="1" data-v3="1" data-match="27887392" data-id="611520588.1" data-live="b1"><b>13</b></span>   &nbsp;</nobr> <nobr>8-10 -&nbsp;&nbsp;<span id="koefs_611520589.1" class="bet_sel koefs" data-cnt="1" data-select="611520589.1" data-v1="4.33" data-v2="1" data-v3="1" data-match="27887392" data-id="611520589.1" data-live="b1"><b>4.33</b></span>   &nbsp;</nobr> <nobr>11-13 -&nbsp;&nbsp;<span id="koefs_611520585.1" class="bet_sel koefs" data-cnt="1" data-select="611520585.1" data-v1="1.91" data-v2="1" data-v3="1" data-match="27887392" data-id="611520585.1" data-live="b1"><b>1.91</b></span>   &nbsp;</nobr> <nobr>14-16 -&nbsp;&nbsp;<span id="koefs_611520586.1" class="bet_sel koefs" data-cnt="1" data-select="611520586.1" data-v1="3.6" data-v2="1" data-v3="1" data-match="27887392" data-id="611520586.1" data-live="b1"><b>3.6</b></span>   &nbsp;</nobr> <nobr>17 и более -&nbsp;&nbsp;<span id="koefs_611520587.1" class="bet_sel koefs" data-cnt="1" data-select="611520587.1" data-v1="12" data-v2="1" data-v3="1" data-match="27887392" data-id="611520587.1" data-live="b1"><b>12</b></span>   &nbsp;</nobr> </div></div></td></tr></table></td></tr></table><span id="t649034_2" style="display:none"></span><input type="hidden" name="r_max" value="1"/><input type="hidden" name="currpage" value="live"/> </div>
 </form>
 </div>
 <script type="text/javascript">
-	function ajax_rload(url)
-	{
+	function ajax_rload(url) {
 		if (document.getElementById('refresh') != null) {
 			if (!document.getElementById('refresh').checked) {
 				return;
 			}
 		}
-		var ai = new AJAXInteraction(url, function (str)
-		{
+		var ai = new AJAXInteraction(url, function (str) {
 			/*if(str.indexOf("<center")==-1)
 			 {
 			 ajax_rload(url);
@@ -767,20 +904,21 @@ Live-Ставки </H1>
 				}
 			});
 			change_rr();
-			betVisualisation();					});
+			MarkOddsInLine();					});
 		ai.doPost();
 	}
-
-	function loadadd(id, cnt, r_cnt)
-	{
+	function loadadd(id, cnt, r_cnt) {
 		var path = document.getElementById('i' + id).src;
 		if (path.indexOf('plus.jpg') != -1) {
+			$('#odd' + id).html('<div align="center"><img src="/img/loading6.gif" /></div>');
 			var ai = new AJAXInteraction('ajax_index.php?page=line&addons=1&action=2&short=1&cnt=' + cnt + '&r_cnt=' + r_cnt + '&mid=' + id, function (str) {
 				document.getElementById('odd' + id).innerHTML = str;
 				document.getElementById('i' + id).src = '/img/minus.jpg';
 			});
 			ai.doPost();
-		} else {
+		}
+		else {
+			$('#odd' + id).html('<div align="center"><img src="/img/loading6.gif" /></div>');
 			var ai = new AJAXInteraction('ajax_index.php?page=line&addons=0&action=2&short=1&cnt=' + cnt + '&mid=' + id, function (str) {
 				document.getElementById('odd' + id).innerHTML = str;
 				document.getElementById('i' + id).src = '/img/plus.jpg';
@@ -788,47 +926,152 @@ Live-Ставки </H1>
 			ai.doPost();
 		}
 	}
-
-	function loadaddLive(id, cnt, r_cnt)
-	{
+	function loadaddLive(id, cnt, r_cnt) {
 		var path = document.getElementById('i' + id).src;
+		var islive = 1;
+		console.log(id);
+		console.log(islive);
 		if (path.indexOf('plus.jpg') != -1) {
-			var ai = new AJAXInteraction('ajax_index.php?page=line&addons=1&action=2&short=1&cnt=' + cnt + '&r_cnt=' + r_cnt + '&mid=' + id, function (str) {
-				document.getElementById('odd' + id).innerHTML = str;
-				document.getElementById('i' + id).src = '/img/minus.jpg';
-			});
-			ai.doPost();
-		} else {
-			var ai = new AJAXInteraction('ajax_index.php?page=line&addons=0&action=2&short=1&cnt=' + cnt + '&mid=' + id, function (str) {
-				document.getElementById('odd' + id).innerHTML = str;
-				document.getElementById('i' + id).src = '/img/plus.jpg';
-			});
-			ai.doPost();
+			if (islive) {
+				$('div[data-match-id-show=' + id + ']').show();
+				$('#i' + id).attr('src', '/img/minus.jpg');
+				setCookieD("HM" + id, 'show', {expires: 3600 * 24 * 365});
+			}
+			else {
+				var ai = new AJAXInteraction('ajax_index.php?page=line&addons=1&action=2&short=1&cnt=' + cnt + '&r_cnt=' + r_cnt + '&mid=' + id, function (str) {
+					document.getElementById('odd' + id).innerHTML = str;
+					document.getElementById('i' + id).src = '/img/minus.jpg';
+				});
+				ai.doPost();
+			}
+		}
+		else {
+			if (islive) {
+				$('div[data-match-id-show=' + id + ']').hide();
+				$('#i' + id).attr('src', '/img/plus.jpg');
+				setCookieD("HM" + id, 'hide', {expires: 3600 * 24 * 365});
+			}
+			else {
+				var ai = new AJAXInteraction('ajax_index.php?page=line&addons=0&action=2&short=1&cnt=' + cnt + '&mid=' + id, function (str) {
+					document.getElementById('odd' + id).innerHTML = str;
+					document.getElementById('i' + id).src = '/img/plus.jpg';
+				});
+				ai.doPost();
+			}
 		}
 	}
-
+	function setCookieD(name, value, options) {
+		options = options || {};
+		var expires = options.expires;
+		if (typeof expires == "number" && expires) {
+			var d = new Date();
+			d.setTime(d.getTime() + expires * 1000);
+			expires = options.expires = d;
+		}
+		if (expires && expires.toUTCString) {
+			options.expires = expires.toUTCString();
+		}
+		value = encodeURIComponent(value);
+		var updatedCookie = name + "=" + value;
+		for (var propName in options) {
+			updatedCookie += "; " + propName;
+			var propValue = options[propName];
+			if (propValue !== true) {
+				updatedCookie += "=" + propValue;
+			}
+		}
+		document.cookie = updatedCookie;
+	}
 	// DOM ready
-	$(function ()
-	{
-		$('#betline').on('click', '.show_all_odds', function ()
-		{
-			var champ = $(this).data('champ_id'), btn_this = this;
-			$('div[data-champ=' + champ + ']').each(function (index) {
-				var id = $(this).attr('data-match-id'), r_cnt = $(this).attr('data-cont'), cnt = $(this).attr('data-match-count'), path = $("#i" + id).attr('src');
-				if (path.indexOf('plus.jpg') != -1) {
-					$('#odd' + id).html('<div align="center"><img src="/img/loading6.gif" /></div>');
-					var ai = new AJAXInteraction('ajax_index.php?page=line&addons=1&action=2&short=1&cnt=' + cnt + '&r_cnt=' + r_cnt + '&mid=' + id, function (str) {
-						document.getElementById('odd' + id).innerHTML = str;
-						document.getElementById('i' + id).src = '/img/minus.jpg'
-						document.getElementById('t' + champ + '_1').innerHTML = 'Свернуть роспись';
-						document.getElementById('t' + champ + '_2').innerHTML = 'Свернуть роспись';
-					});
-					ai.doPost();
+	$(function () {
+		$('#betline').on('click', '.showhideAll', function () {
+			var ddd = $(this).attr('data-show');
+			console.info(ddd);
+			$('div[data-match-id-show]').each(function () {
+				if (ddd == 'show') {
+					$(this).hide();
+					console.log('hide' + $(this).attr('data-match-id-show'));
+					setCookieD("HM" + $(this).attr('data-match-id-show'), 'hide', {expires: 3600 * 24 * 365});
+					$('#i' + $(this).attr('data-match-id-show')).attr('src', '/img/plus.jpg');
 				}
+				else {
+					$(this).show();
+					console.log('show' + $(this).attr('data-match-id-show'));
+					setCookieD("HM" + $(this).attr('data-match-id-show'), 'show', {expires: 3600 * 24 * 365});
+					$('#i' + $(this).attr('data-match-id-show')).attr('src', '/img/minus.jpg');
+				}
+			});
+			if (ddd == 'show') {
+				$(this).attr('data-show', 'hide');
+				$(this).html('Показать всю роспись');
+				setCookieD("ALLSHOW", 'hide', {expires: 3600 * 24 * 365});
+			}
+			else {
+				$(this).attr('data-show', 'show')
+				$(this).html('Свернуть всю роспись');
+				setCookieD("ALLSHOW", 'show', {expires: 3600 * 24 * 365});
+			}
+		});
+		$('#betline').on('click', '.show_all_odds', function () {
+			var $_inst = $(this), champ = $_inst.data('champ_id'), loaded = $_inst.hasClass('loaded'), islive = 1;
+			console.log(champ);
+			$('div[data-champ=' + champ + ']').each(function () {
+				var $e_inst = $(this), id = $e_inst.attr('data-match-id'), r_cnt = $e_inst.attr('data-cont'), cnt = $e_inst.attr('data-match-count'), path = $('#i' + id).attr('src');
+				// Показать
+				if ((loaded == false) && (typeof path != 'undefined') && (path.indexOf('plus.jpg') != -1)) {
+					if (islive) {
+						$('#r' + id + '_0').show();
+						$('#i' + id).attr('src', '/img/minus.jpg');
+						$('div[id*=r' + champ + '_]').each(function () {
+							$(this).show();
+							setCookieD("HM" + $(this).attr('data-match-id-show'), 'show', {expires: 3600 * 24 * 365});
+						});
+					}
+					else {
+						$('#odd' + id).html('<div align="center"><img src="/img/loading6.gif" /></div>');
+						var ai = new AJAXInteraction('ajax_index.php?page=line&addons=1&action=2&short=1&cnt=' + cnt + '&r_cnt=' + r_cnt + '&mid=' + id, function (str) {
+							$('#odd' + id).html(str);
+							$('#i' + id).attr('src', '/img/minus.jpg');
+						});
+						ai.doPost();
+					}
+				}
+
+				// Скрыть
+				else {
+					if ((loaded == true) && (typeof path != 'undefined') && (path.indexOf('minus.jpg') != -1)) {
+						if (islive) {
+							$('#r' + id + '_0').hide();
+							$('#i' + id).attr('src', '/img/plus.jpg');
+							console.log('HIDE'.champ);
+							$('div[id*=r' + champ + '_]').each(function () {
+								$(this).hide();
+								setCookieD("HM" + $(this).attr('data-match-id-show'), 'hide', {expires: 3600 * 24 * 365});
 							});
+						}
+						else {
+							$('#odd' + id).html('<div align="center"><img src="/img/loading6.gif" /></div>');
+							var ai = new AJAXInteraction('ajax_index.php?page=line&addons=0&action=2&short=1&cnt=' + cnt + '&mid=' + id, function (str) {
+								$('#odd' + id).html(str);
+								$('#i' + id).attr('src', '/img/plus.jpg');
+							});
+							ai.doPost();
+						}
+					}
+				}
+			});
+			// Меняем состояние
+			if (loaded == false) {
+				$_inst.addClass('loaded');
+				$('#t' + champ + '_1, #t' + champ + '_2').html('Свернуть роспись');
+			}
+			else {
+				$_inst.removeClass('loaded');
+				$('#t' + champ + '_1, #t' + champ + '_2').html('Показать роспись');
+			}
 		});
 			});
-</script> </td>
+	</script> </td>
 <td class="col_td right" style="width:262px; position: relative;" valign="top">
 <div id="scroll_block" style="position: absolute; top: 0; transition: 0.4s;">
 <div id="betradar_frame" data-fullurl="Открыть полную версию">
@@ -865,11 +1108,6 @@ Live-Ставки </H1>
 <div id="betslip1" style="" class="">
 <style>.onoffswitch-inner:before{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"ON";background-color:#B33c36;color:#FFFFFF;text-align:center;}.onoffswitch-inner:after{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"OFF";color:#868686!important;text-align:center;}</style>
 <script>
-	var max_calc = 500000000;
-	var MaxKoef = 1000;
-	var basket_divider = 1;
-	var alldevider = 0;
-	var offsetTop = 0;
 	function offsetPosition(e) {
 		offsetTop = 0;
 		do {
@@ -896,9 +1134,9 @@ Live-Ставки </H1>
 	}
 
 </script>
-<link type="text/css" rel="stylesheet" href="/img/basket.css?83"/>
+<link type="text/css" rel="stylesheet" href="/img/basket.css?00"/>
 <script src="/img/jquery.modal.js"></script>
-<script src="/img/basket.js?91"></script>
+<script src="/js/basket.js?93"></script>
 <input type="hidden" value="0" name="usersumm" id="usersumm">
 <div class="busket">
 <div class="busket-header">
@@ -937,7 +1175,7 @@ Live-Ставки </H1>
 <input type="hidden" id="busket-nav" value="1">
 <div class="clear"></div>
 <div id="error-wraper-betslip"></div>
-<form name="F1" method="post" style="margin-bottom: 0;">
+<form name="F1" method="post" id="betslip_form" style="margin-bottom: 0;">
 <input type="hidden" name="action" value="submit">
 <input type="hidden" name="oc" value="0">
 <input type="hidden" name="ocid" id="ocid" value="0">
@@ -980,7 +1218,7 @@ Live-Ставки </H1>
 <div class="warning_icon"></div>
 </td>
 <td>
-<span></span>Сменился коэффициент на событие</span>
+<span>Сменился коэффициент на событие</span>
 <table width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr id="alertChangeKoefs">
@@ -1009,6 +1247,54 @@ Live-Ставки </H1>
 </div> <div class="bs-clear"><br/></div>
 </div>
 </div>
+<script type="text/javascript" src="/js/tick.js"></script>
+<script type="text/javascript" src="/js/jquery.tick.favorites.js"></script> <script type="text/javascript">
+		$(function()
+		{
+						$('#favorites').olimpFavorites({
+					full:              true,
+					elements:          '.fav',
+					type:              'matches',
+					show_txt:          'Показать',
+					add_txt:           'Добавить в избранное',
+					remove_txt:        'Удалить из избранного',
+					clear_txt:         'Очистить избранное',
+					clear_confirm_txt: 'Вы действительно хотите очистить избранное?'
+				});
+					// TICK
+						tick.config([
+							{
+					name:      'favorites',
+					interval:  5,
+					require:   [ 1,3 ],
+					condition: function()
+					{
+						var cookie_name = 'favorites',
+							found     = document.cookie.match(new RegExp(
+								'(?:^|; )' + cookie_name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + '=([^;]*)'
+							));
+
+						console.log(typeof found);
+						console.log(found);
+
+						return true;
+						//return found ? true : false;
+					},
+					callback: function(response)
+					{
+						if (response.error) {
+							console.log('Response: '+response.error);
+							return false;
+						}
+
+						// Обновляем избранное
+						$('#favorites').olimpFavorites('insertFav', response);
+					}
+				}
+			]);
+					tick.start();
+		});
+	</script>
 </td>
 </tr>
 </table>
@@ -1029,7 +1315,7 @@ window.__lc.visitor = {
 };
 window.__lc.params = [
   { name: 'Status', value: 'Not Authorized' },
-  { name: 'URL', value: 'http://olimp.kz/index.php?page=line&amp;action=2&amp;live[]=27055939' },
+  { name: 'URL', value: 'http://olimp.kz/index.php?page=line&amp;action=2&amp;live[]=27887392' },
   { name: 'Domain', value: 'kz' },
   { name: 'Type', value: 'Website' },
   { name: 'Lang', value: 'Русский' }
@@ -1103,10 +1389,10 @@ ENGINE DEBUG INFORMATION
 DataBase Errors: 0
 Script Errors: 0
 Script Warnings: 0
-Total time: 0.018 s
+Total time: 0.026 s
 DataBase time(1): 0 s
 DataBase time(2): 0.006 s
-Served by: s78
+Served by: s81
 C: true
 VK_I8Ud3
 </div>

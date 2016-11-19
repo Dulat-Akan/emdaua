@@ -28,7 +28,9 @@ $this->actionStatus2($login);
 
 }
 
-
+ public function actionOnline(){
+	   return $this->render('online');
+  }
 
 protected function actionStatus2($login){
 $time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
