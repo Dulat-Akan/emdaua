@@ -43,7 +43,7 @@
 
 
 				
-				//ga('create', 'UA-37306062-1', 'auto');
+				ga('create', 'UA-37306062-1', 'auto');
 				ga('send', 'pageview');
 
 			</script>
@@ -58,6 +58,14 @@
 <link type="image/x-icon" rel="icon" href="/favicon.ico"/>
 <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico"/>
 <script type="text/javascript" src="/img/common2.js?t=123456789014"></script>
+<script type="text/javascript" src="/js/languages/lang_L0.js?6"></script>
+<script type="text/javascript">
+		var curr_lang_ui = 0;
+		var maximum_payout = 500000000;
+		var maximum_odd = 1000;
+		var currency_divider = 1;
+		var currency_decimals = 0;
+	</script>
 </head>
 <body>
 <a name="top"></a>
@@ -110,7 +118,7 @@
 <td>::</td>
 <td nowrap><a href="/index.php?page=line&action=1">Линия</a></td>
 <td>::</td>
-<td nowrap><a href="index.php?page=bonus" id=bonus_div>Бонусы и акции</a></td><td>::</td><td class="sm-hide" nowrap><a id=betgames_div_d href="/preview">Прогнозы</a></td><td class="sm-hide">::</td><td nowrap><a id=betgames_div_d href="/betgames">BetGamesTV</a></td><td>::</td>
+<td class="sm-hide" nowrap><a href="index.php?page=bonus" id=bonus_div>Бонусы и акции</a></td><td class="sm-hide">::</td><td nowrap><a id=betgames_div_d href="/preview">Прогнозы</a></td><td>::</td><td nowrap><a id=betgames_div_d href="/betgames">BetGamesTV</a></td><td>::</td>
 <td nowrap><a href="index.php?page=rules">Правила</a></td><td>::</td>
 <td nowrap><a href="index.php?page=faqnew">FAQ</a></td>
 <td>::</td>
@@ -141,21 +149,6 @@
 <td id="favorites" align="center"></td>
 </tr>
 </table>
-<script type="text/javascript" src="/js/jquery.favorites.js?v=1.4"></script>
-<script type="text/javascript">
-					$(function() {
-						$('#favorites').olimpFavorites({
-							full:              true,
-							elements:          '.fav',
-							type:              'matches',
-							show_txt:          'Показать',
-							add_txt:           'Добавить в избранное',
-							remove_txt:        'Удалить из избранного',
-							clear_txt:         'Очистить избранное',
-							clear_confirm_txt: 'Вы действительно хотите очистить избранное?'
-						});
-					});
-				</script>
 <script type="text/javascript">
 						function lang_menu(id)
 						{
@@ -271,13 +264,13 @@
 <tr><td colspan=2><hr class=hr2></td></tr>
 <tr OnMouseOver='this.style.cursor="pointer"' onclick='window.location="index.php?action=betslip";'>
 <td align=right width=25%><img src='/img/flag/nobasket.gif'>&nbsp;</td>
-<td align=left width=75% style='color: #800000'><u>Отключить Корзину</u></td></tr></table>
+<td align=left width=75% style='color: #800000'><u>Отключить купон</u></td></tr></table>
 </td></tr> <tr>
 <td align="center">
-<hr class="hr2"/><span id='hours'>06.10.2016 02:38:29</span>
+<hr class="hr2"/><span id='hours'>23.11.2016 12:54:43</span>
 <script type='text/javascript'>
-	            wr_hours(1475699909);
-	            setInterval('wr_hours(1475699909);',1000);
+	            wr_hours(1479884083);
+	            setInterval('wr_hours(1479884083);',1000);
 	            </script><br/>
 <a href="index.php?page=timezone">(GMT +06:00)</a>
 </td>
@@ -339,7 +332,7 @@ setInterval(function(){
 </tr>
 </tbody>
 </table>
-</td></tr><input type=hidden name='asid' value='3968099'><input type=hidden name='psid' value='012f211197361530a3662c6e596dbeec'>
+</td></tr><input type=hidden name='asid' value='2706132'><input type=hidden name='psid' value='69c5d9d9c5477c0ab4557287b1f6ac73'>
 </table></form>
 <script language='javascript'>
 function changeConn()
@@ -356,7 +349,133 @@ function changeConn()
     }
 }
 //changeConn();
-</script><br>
+</script> <br>
+<link rel="stylesheet" type="text/css" href="/css/searching.css?23"/> <!--[if !IE]><!-->
+<style>.btn-search{width:auto;height:auto;}</style> <!--<![endif]-->
+<table class="smallwnd">
+<tr>
+<td>
+<div class="search-line-block">
+<input type="text" name="search" id="search_text" placeholder="Поиск" class="searching_input"/>
+<a type="button" id="search_button" href="#popup1" class="button-search button-red-history btn-search">
+<div class="searc_ico"></div>
+</a>
+</div>
+</td>
+</tr>
+</table>
+<script>
+			$('#search_button').click(function () {
+				var search = $('#search_text').val();
+				$(".search_items").html('');
+				$("#search_total").html('0');
+				if ((search.length > 2 && 3 != 0) || (3 == 0)) {
+					//$.post('/api/ajax/search/', {'mod': 'site', 'search': search}, function (result) {
+					$.get('/ajax_index.php', {'action': 'search', 'search': search, 'lang': '0'}, function (result) {
+						$("#search_total").html(result.total);
+						$(".search_items").html('');
+						if (result.total > 0) {
+							$('.empty-search').hide();
+							$('.popup-table').show();
+							$(result.search).each(function () {
+								$(".search_items").append('<div class="list-raw">' + '   <div class="popup-tab-left"><div class="kind ' + this.class + '">' + this.status + '</div></div>' + '	<div class="popup-tab-mid"><div class="date">' + this.date + '</div></div>' + '	<div class="popup-tab-right"><a href="' + this.url + '" style="color:#800000" target="_blank"><div class="title">' + this.name + '</div></a></div>' + '</div>');
+							})
+						}
+						else {
+							$('.empty-search').show();
+							$('.popup-table').hide();
+						}
+					}, "json");
+				}
+				else {
+					$('.empty-search').show();
+					$('.popup-table').hide();
+					return false;
+				}
+			});
+			$("#search_text").keypress(function (e) {
+				if (e.keyCode == 13) {
+					$('#search_button')[0].click();
+				}
+			});
+			$('body').click(function (evt) {
+				if (evt.target.id == "popup1") {
+					$('#close_history')[0].click();
+				}
+				if ($(evt.target).closest('#popup_search').length) {
+					return;
+				}
+			});
+
+		</script>
+<div class="overlay" id="overlay"></div>
+<div id="popup1" class="search-popup">
+<div class="popup-search">
+<div class="popup-header">
+<span class="zag">РЕЗУЛЬТАТЫ ПОИСКА:</span>найдено <span id="search_total">0</span> </div>
+<div class="popup-table">
+<div class="list-raw tab-head">
+<div class="popup-tab-left">
+<div class="tab-header"></div>
+</div>
+<div class="popup-tab-mid">
+<div class="tab-header">Дата</div>
+</div>
+<div class="popup-tab-right">
+<div class="tab-header">Событие</div>
+</div>
+</div>
+<div class="main-list">
+<div style="max-height:350px; overflow:auto;">
+<div class="search_items">
+</div>
+</div>
+</div>
+</div>
+<a class="close-history" id="close_history" title="Закрыть" href="#close"></a>
+<div class="empty-search" style="display: none;">  
+<div class="alert-search-text">
+<div>Поиск не дал результатов</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+			$("#search_text").keypress(function (e) {
+				if (e.keyCode == 13) {
+					$('#search_button')[0].click();
+					$(this).parents('body').addClass('overflow')
+				}
+				else {
+					$(this).parents('body').removeClass('overflow')
+				}
+			});
+			/*$('body').click(function(evt){
+
+			 if(evt.target.id == "popup1")
+			 {$('#close_history')[0].click(); $('body').removeClass('overflow')}
+			 if($(evt.target).closest('#popup_search').length)
+			 { return;}
+
+			 });*/
+
+			/*закрытие окна по еsc*/
+			$(document).ready(function () {
+				$('#search_button').click(function () {
+					$(this).parents('body').addClass('overflow');
+				});
+				$(this).keydown(function (eventObject) {
+					if (eventObject.which == 27) {
+						$('body').removeClass('overflow')
+					}
+				});
+			});
+			//******закрытие окна
+			$('#overlay, #close_history, #searchClose').on('click', function (e) {
+				e.preventDefault();
+				($('body').removeClass('overflow'));
+			});
+		</script>
 <script>
 function flash_reg(id)
 {
@@ -380,7 +499,7 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
-<font class=txtmed color=black>Ставки</font> Live (43)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>Ставки</font> Live (32)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
@@ -390,7 +509,7 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (934)</a>
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (911)</a>
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -398,7 +517,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (63)</a>
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (40)</a>
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -406,7 +525,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (78)</a>
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (140)</a>
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -414,7 +533,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (147)</a>
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (191)</a>
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -422,7 +541,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (14)</a>
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (20)</a>
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -430,50 +549,42 @@ setInterval(function(){
 </tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=120" style="color:#000;">NASCAR (1)</a>
+<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (30)</a>
 </td>
 <td>
-<input id="c5" type="checkbox" name="sel[]" value="120"/>
+<input id="c5" type="checkbox" name="sel[]" value="6"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (33)</a>
+<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (36)</a>
 </td>
 <td>
-<input id="c6" type="checkbox" name="sel[]" value="6"/>
+<input id="c6" type="checkbox" name="sel[]" value="51"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (44)</a>
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (2)</a>
 </td>
 <td>
-<input id="c7" type="checkbox" name="sel[]" value="51"/>
+<input id="c7" type="checkbox" name="sel[]" value="29"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (6)</a>
+<a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (7)</a>
 </td>
 <td>
-<input id="c8" type="checkbox" name="sel[]" value="29"/>
+<input id="c8" type="checkbox" name="sel[]" value="7"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (2)</a>
+<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (29)</a>
 </td>
 <td>
-<input id="c9" type="checkbox" name="sel[]" value="7"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (15)</a>
-</td>
-<td>
-<input id="c10" type="checkbox" name="sel[]" value="12"/>
+<input id="c9" type="checkbox" name="sel[]" value="12"/>
 </td>
 </tr>
 <tr valign="top">
@@ -481,52 +592,60 @@ setInterval(function(){
 <a class="txtmed" href="/betting/cycle-racing" style="color:#000;">Велоспорт (1)</a>
 </td>
 <td>
-<input id="c11" type="checkbox" name="sel[]" value="44"/>
+<input id="c10" type="checkbox" name="sel[]" value="44"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (20)</a>
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (28)</a>
 </td>
 <td>
-<input id="c12" type="checkbox" name="sel[]" value="10"/>
+<input id="c11" type="checkbox" name="sel[]" value="10"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (41)</a>
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (82)</a>
 </td>
 <td>
-<input id="c13" type="checkbox" name="sel[]" value="9"/>
+<input id="c12" type="checkbox" name="sel[]" value="9"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (31)</a>
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (7)</a>
 </td>
 <td>
-<input id="c14" type="checkbox" name="sel[]" value="90"/>
+<input id="c13" type="checkbox" name="sel[]" value="90"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (2)</a>
+<a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (5)</a>
 </td>
 <td>
-<input id="c15" type="checkbox" name="sel[]" value="75"/>
+<input id="c14" type="checkbox" name="sel[]" value="75"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (8)</a>
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (5)</a>
 </td>
 <td>
-<input id="c16" type="checkbox" name="sel[]" value="47"/>
+<input id="c15" type="checkbox" name="sel[]" value="47"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (4)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=37" style="color:#000;">Керлинг (10)</a>
+</td>
+<td>
+<input id="c16" type="checkbox" name="sel[]" value="37"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (6)</a>
 </td>
 <td>
 <input id="c17" type="checkbox" name="sel[]" value="73"/>
@@ -534,7 +653,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (7)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (13)</a>
 </td>
 <td>
 <input id="c18" type="checkbox" name="sel[]" value="121"/>
@@ -542,7 +661,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/skiing" style="color:#000;">Лыжи (2)</a>
+<a class="txtmed" href="/betting/skiing" style="color:#000;">Лыжи (1)</a>
 </td>
 <td>
 <input id="c19" type="checkbox" name="sel[]" value="38"/>
@@ -550,31 +669,31 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (3)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=114" style="color:#000;">Лыжное двоеборье (1)</a>
 </td>
 <td>
-<input id="c20" type="checkbox" name="sel[]" value="117"/>
+<input id="c20" type="checkbox" name="sel[]" value="114"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (7)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (1)</a>
 </td>
 <td>
-<input id="c21" type="checkbox" name="sel[]" value="40"/>
+<input id="c21" type="checkbox" name="sel[]" value="117"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=88" style="color:#000;">Политика (2)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (6)</a>
 </td>
 <td>
-<input id="c22" type="checkbox" name="sel[]" value="88"/>
+<input id="c22" type="checkbox" name="sel[]" value="40"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (1)</a>
+<a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (3)</a>
 </td>
 <td>
 <input id="c23" type="checkbox" name="sel[]" value="39"/>
@@ -582,7 +701,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (2)</a>
+<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (3)</a>
 </td>
 <td>
 <input id="c24" type="checkbox" name="sel[]" value="85"/>
@@ -590,7 +709,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (48)</a>
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (19)</a>
 </td>
 <td>
 <input id="c25" type="checkbox" name="sel[]" value="46"/>
@@ -598,7 +717,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (33)</a>
+<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (20)</a>
 </td>
 <td>
 <input id="c26" type="checkbox" name="sel[]" value="96"/>
@@ -606,7 +725,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (7)</a>
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (50)</a>
 </td>
 <td>
 <input id="c27" type="checkbox" name="sel[]" value="4"/>
@@ -614,7 +733,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (8)</a>
+<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (2)</a>
 </td>
 <td>
 <input id="c28" type="checkbox" name="sel[]" value="113"/>
@@ -622,10 +741,26 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (5)</a>
+<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (12)</a>
 </td>
 <td>
 <input id="c29" type="checkbox" name="sel[]" value="33"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (8)</a>
+</td>
+<td>
+<input id="c30" type="checkbox" name="sel[]" value="11"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=8" style="color:#000;">Хоккей с мячом (8)</a>
+</td>
+<td>
+<input id="c31" type="checkbox" name="sel[]" value="8"/>
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -633,16 +768,16 @@ setInterval(function(){
                 {
                     if(checked==0) checked=1;
                     else checked=0;
-                    for(var ci=0;ci<30;ci++)
+                    for(var ci=0;ci<32;ci++)
                         document.getElementById('c'+ci).checked=checked;
-                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1569)</a>';
-                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1569)</a>'
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1697)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1697)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
 </td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1></td></tr>
 <tr><td colspan=2 id='selall' align=middle>
-<a href='javascript:selall();'>Выбрать все (1569)</a> </div>
+<a href='javascript:selall();'>Выбрать все (1697)</a> </div>
 </td>
 </tr>
 <input type="hidden" name="page" value="line"/>
@@ -655,257 +790,162 @@ setInterval(function(){
 </td>
 <TD class=central_td vAlign=top>
 <center><H1>
-Линия на 06.10.2016 </H1>
+Линия на 23.11.2016 </H1>
+<div style="width:99%" align="left">
+<form id="timefilter_form" style="margin:0;padding:0;" action="index.php" method="post">
+<input type="hidden" name="page" value="line"/>
+<input type="hidden" name="action" value="1"/>
+<input type="hidden" name="sel[]" value="90"/> Показать матчи, начинающиеся <select class="loginbox" name="time" onchange="$('#timefilter_form').submit()">
+<option value="0" selected="selected">в любое время</option>
+<option value="2">в ближайшие 2 часа</option>
+<option value="6">в ближайшие 6 часов</option>
+<option value="12">в ближайшие 12 часов</option>
+<option value="24">в ближайшие сутки</option>
+</select>
+</form>
+</div>
 <form name="BetLine" action="index.php" method=post>
+<input type="hidden" name="page" value="line"/>
+<input type="hidden" name="action" value="2"/>
+<input type="hidden" name="currpage" value="line"/>
+<input type="hidden" name="time" value="0"/>
 <table class="smallwnd3" style="width:99%">
-<tr class="m_c" align="middle">
-<td style="width:20px" align=center valign="middle">
-<input type="checkbox" data-type="next" onclick="javascript:set_check(0,v0,this.checked);"/>
-</td>
-<td class="smwndcap" colspan="2" align="center" valign="middle">Теннис</td>
-</tr>
-<tr>
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2860_Теннис. Турнир ATP. Пары. Пекин. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a style="color:#800000;" href="index.php?page=line&action=2&sel[]=2860">Турнир ATP. Пары. Пекин. Хард</a>
-</td>
-</tr>
-<tr class="bg">
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2934_Теннис. Турнир ATP. Пары. Токио. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a style="color:#800000;" href="index.php?page=line&action=2&sel[]=2934">Турнир ATP. Пары. Токио. Хард</a>
-</td>
-</tr>
-<tr>
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2852_Теннис. Турнир ATP. Пекин. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a style="color:#800000;" href="index.php?page=line&action=2&sel[]=2852">Турнир ATP. Пекин. Хард</a>
-</td>
-</tr>
-<tr class="bg">
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="22004_Теннис. Турнир ATP. Токио. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a style="color:#800000;" href="index.php?page=line&action=2&sel[]=22004">Турнир ATP. Токио. Хард</a>
-</td>
-</tr>
-<tr>
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2853_Теннис. Турнир WTA. Пары. Пекин. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a style="color:#800000;" href="index.php?page=line&action=2&sel[]=2853">Турнир WTA. Пары. Пекин. Хард</a>
-</td>
-</tr>
-<tr class="bg">
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2848_Теннис. Турнир WTA. Пекин. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a style="color:#800000;" href="index.php?page=line&action=2&sel[]=2848">Турнир WTA. Пекин. Хард</a>
-</td>
-</tr>
-<tr>
-<td colspan="3" align="center" valign="middle"><hr class="hr2"/></td>
-</tr>
-<tr>
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2866636_Теннис. Женщины. Турнир ITF. Пары. Тельде. Грунт. Финал" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=2866636">Женщины. Турнир ITF. Пары. Тельде. Грунт. Финал</a>
-</td>
-</tr>
-<tr class="bg">
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2829531_Теннис. Женщины. Турнир ITF. Пары. Хуахин. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=2829531">Женщины. Турнир ITF. Пары. Хуахин. Хард</a>
-</td>
-</tr>
-<tr>
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2861446_Теннис. Женщины. Турнир ITF. Тельде. Грунт" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=2861446">Женщины. Турнир ITF. Тельде. Грунт</a>
-</td>
-</tr>
-<tr class="bg">
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2829429_Теннис. Женщины. Турнир ITF. Хуахин. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=2829429">Женщины. Турнир ITF. Хуахин. Хард</a>
-</td>
-</tr>
-<tr>
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="522531_Теннис. Турнир ATP. Челленджер. Кампинас. Грунт" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=522531">Турнир ATP. Челленджер. Кампинас. Грунт</a>
-</td>
-</tr>
-<tr class="bg">
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="557265_Теннис. Турнир ATP. Челленджер. Монс. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=557265">Турнир ATP. Челленджер. Монс. Хард</a>
-</td>
-</tr>
-<tr>
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="1671819_Теннис. Турнир ATP. Челленджер. Мохаммедия. Грунт" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=1671819">Турнир ATP. Челленджер. Мохаммедия. Грунт</a>
-</td>
-</tr>
-<tr class="bg">
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2859820_Теннис. Турнир ATP. Челленджер. Стоктон. Хард" name="sel[]"/>
-</td>
-<td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=2859820">Турнир ATP. Челленджер. Стоктон. Хард</a>
-</td>
-</tr><script type="text/javascript">var v0 = 14;</script><script type="text/javascript">var v1 = 20;</script>
+<script type="text/javascript">var v0 = 0;</script><script type="text/javascript">var v1 = 7;</script>
 <tr class="m_c" align="middle">
 <td style="width:20px" align="center" valign="middle">
-<input type="checkbox" data-type="outright" onclick="javascript:set_check(14,v1,this.checked);"/>
+<input type="checkbox" data-type="outright" onclick="javascript:set_check(0,v1,this.checked);"/>
 </td>
 <td class="smwndcap" colspan="2" align="center" valign="middle">Долгосрочные ставки</td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
-<input class="selchamp is_outright" type="checkbox" value="1989065" name="sel[]"/>
+<input class="selchamp is_outright" type="checkbox" value="2700597_Гольф. Open Championship. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&addons=1&action=2&sel[]=1989065">Женщины. Australian Open 2017. Итоги</a>
+<a href="index.php?page=line&addons=1&action=2&sel[]=2700597">Open Championship. Итоги</a>
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
-<input class="selchamp is_outright" type="checkbox" value="2634926" name="sel[]"/>
+<input class="selchamp is_outright" type="checkbox" value="2852997_Гольф. PGA Championship. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&addons=1&action=2&sel[]=2634926">Женщины. Roland Garros 2017. Итоги</a>
+<a href="index.php?page=line&addons=1&action=2&sel[]=2852997">PGA Championship. Итоги</a>
 </td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
-<input class="selchamp is_outright" type="checkbox" value="2801538" name="sel[]"/>
+<input class="selchamp is_outright" type="checkbox" value="2893514_Гольф. PGA Tour World Money List. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&addons=1&action=2&sel[]=2801538">Женщины. Wimbledon 2017. Итоги</a>
+<a href="index.php?page=line&addons=1&action=2&sel[]=2893514">PGA Tour World Money List. Итоги</a>
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
-<input class="selchamp is_outright" type="checkbox" value="1989066" name="sel[]"/>
+<input class="selchamp is_outright" type="checkbox" value="1670835_Гольф. Ryder Cup. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&addons=1&action=2&sel[]=1989066">Мужчины. Australian Open 2017. Итоги</a>
+<a href="index.php?page=line&addons=1&action=2&sel[]=1670835">Ryder Cup. Итоги</a>
 </td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
-<input class="selchamp is_outright" type="checkbox" value="2634927" name="sel[]"/>
+<input class="selchamp is_outright" type="checkbox" value="1670846_Гольф. US Masters. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&addons=1&action=2&sel[]=2634927">Мужчины. Roland Garros 2017. Итоги</a>
+<a href="index.php?page=line&addons=1&action=2&sel[]=1670846">US Masters. Итоги</a>
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
-<input class="selchamp is_outright" type="checkbox" value="2772695" name="sel[]"/>
+<input class="selchamp is_outright" type="checkbox" value="2099906_Гольф. US Open. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&addons=1&action=2&sel[]=2772695">Мужчины. Wimbledon 2017. Итоги</a>
+<a href="index.php?page=line&addons=1&action=2&sel[]=2099906">US Open. Итоги</a>
 </td>
-</tr></table>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<input class="selchamp is_outright" type="checkbox" value="2892268_Гольф. Кубок мира. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=2892268">Кубок мира. Итоги</a>
+</td>
+</tr> </table>
 <br/>
 <center>
 <div id="line_buttons" align="center" style="position:fixed;bottom:0;left:50%;margin-left:-300px;width:600px;padding:10px 0;border-top-left-radius:10px;border-top-right-radius:10px;background-color:rgba(255,255,255,0.8);box-shadow:0 0 10px 0 rgba(0,0,0,0.3);"> <font class="txtmed"><b>Выбор большого количества матчей и доп. ставок приведет к замедлению загрузки линии</b></font>
-<br/> <input class="msbtn1" style="width:120px" type="button" value="Выделить все" onclick="javascript:set_check(0,20,1)"/>
+<br/> <div style="margin-bottom:5px">
+<input class="msbtn1" style="width:120px" type="button" value="Выделить все" onclick="javascript:set_check(0,7,1)"/>
 <input class="msbtn1" style="width:120px" type="reset" value="Отменить все"/>
 <input class="msbtn1" style="width:120px" type="submit" value="Далее" onclick='javascript:this.disabled=1;this.form.submit();'/>
-<script type="text/javascript">
-            function set_lcheck(last, status)
-    	    {
-    	        document.forms.BetLine['live[]'].checked=status;    	    }
-
-    	    function set_lcheck2(start, last, status, pos)
-    	    {
-    	    	if (status == 0)
-                    status = 1;
-                else
-                    status = 0;
-
-                eval('vc'+pos+' = '+status+';');
-    	        document.forms.BetLine['live[]'].checked = status;
-                document.forms.BetLine['live[]'][i].focus();    	    }
-
-    		$(document).ready(function()
-            {
-    			$('.is_outright1').change(function ()
-                {
-    				$('#addons').prop('checked', false);
-    				$('.is_outright').each(function()
-                    {
-    					if ($(this).prop('checked')) {
-    						$('#addons').prop('checked', true);
-                            return true;
-    					}
-    				})
-    			})
-    		});
-
-    	    function set_check(start, last, status)
-    	    {
-    	        console.log(last);
-    	        for(var i=start; i<last; i++) {
-                    document.forms.BetLine['sel[]'][i].checked = status;
-                    $(document.forms.BetLine['sel[]'][i]).change();
-                }    	    }
-
-    	    function set_lshow(start, last, pos)
-    	    {
-    	    	for(var i=start; i<last; i++)
-    	    	{
-    	             if(document.getElementById('s'+i).style.display == 'none')
-    	             	document.getElementById('s'+i).style.display = '';
-    	             else
-                        document.getElementById('s'+i).style.display = 'none';
-
-    	             if(document.getElementById('s'+start).style.display == 'none')
-    	             	document.getElementById('a'+pos).innerHTML = '<div style="float:left;margin-right:5px;"><img src="/img/down.png" /></div>';
-    	             else
-                        document.getElementById('a'+pos).innerHTML='<div style="float:left;margin-right:5px;"><img src="/img/right.png" /></div>';
-                }
-    	    }
-        </script>
-<br/>  
+</div>
 <table width="50%" border="0" cellspacing="0" cellpadding="2">
 <tr>
 <td width="25%" align="right">
-<input type="checkbox" name="line_nums" value="1" checked="checked"></td>
+<input type="checkbox" name="line_nums" value="1" checked="checked"/>
+</td>
 <td width="75%" align="left" nowrap><i>Включить нумерацию матчей в линии</i></td>
 </tr>
 </table>
-</div><div style="height:115px"></div> <input type="hidden" name="page" value="line"/>
-<input type="hidden" name="action" value="2"/>
-<input type="hidden" name="currpage" value="line"/>
 </form>
+<script type="text/javascript">
+				function set_lcheck(last, status)
+				{
+					document.forms.BetLine['live[]'].checked=status;				}
+
+				function set_lcheck2(start, last, status, pos)
+				{
+					if (status == 0)
+						status = 1;
+					else
+						status = 0;
+
+					eval('vc'+pos+' = '+status+';');
+					document.forms.BetLine['live[]'].checked = status;
+                    document.forms.BetLine['live[]'][i].focus();				}
+
+				$(document).ready(function()
+				{
+					$('.is_outright1').change(function ()
+					{
+						$('#addons').prop('checked', false);
+						$('.is_outright').each(function()
+						{
+							if ($(this).prop('checked')) {
+								$('#addons').prop('checked', true);
+								return true;
+							}
+						})
+					})
+				});
+
+				function set_check(start, last, status)
+				{
+					console.log(last);
+					for(var i=start; i<last; i++) {
+                        document.forms.BetLine['sel[]'][i].checked = status;
+                        $(document.forms.BetLine['sel[]'][i]).change();
+                    }				}
+
+				function set_lshow(start, last, pos)
+				{
+					for(var i=start; i<last; i++)
+					{
+						if(document.getElementById('s'+i).style.display == 'none')
+							document.getElementById('s'+i).style.display = '';
+						else
+							document.getElementById('s'+i).style.display = 'none';
+
+						if(document.getElementById('s'+start).style.display == 'none')
+							document.getElementById('a'+pos).innerHTML = '<div style="float:left;margin-right:5px;"><img src="/img/down.png" /></div>';
+						else
+							document.getElementById('a'+pos).innerHTML='<div style="float:left;margin-right:5px;"><img src="/img/right.png" /></div>';
+					}
+				}
+			</script>
+</div><div style="height:115px"></div></form>
 </td>
 <td class="col_td right" style="width:262px; position: relative;" valign="top">
 <div id="scroll_block" style="position: absolute; top: 0; transition: 0.4s;">
@@ -943,11 +983,6 @@ setInterval(function(){
 <div id="betslip1" style="" class="">
 <style>.onoffswitch-inner:before{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"ON";background-color:#B33c36;color:#FFFFFF;text-align:center;}.onoffswitch-inner:after{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"OFF";color:#868686!important;text-align:center;}</style>
 <script>
-	var max_calc = 500000000;
-	var MaxKoef = 1000;
-	var basket_divider = 1;
-	var alldevider = 0;
-	var offsetTop = 0;
 	function offsetPosition(e) {
 		offsetTop = 0;
 		do {
@@ -974,9 +1009,9 @@ setInterval(function(){
 	}
 
 </script>
-<link type="text/css" rel="stylesheet" href="/img/basket.css?83"/>
+<link type="text/css" rel="stylesheet" href="/img/basket.css?00"/>
 <script src="/img/jquery.modal.js"></script>
-<script src="/img/basket.js?91"></script>
+<script src="/js/basket.js?93"></script>
 <input type="hidden" value="0" name="usersumm" id="usersumm">
 <div class="busket">
 <div class="busket-header">
@@ -1015,7 +1050,7 @@ setInterval(function(){
 <input type="hidden" id="busket-nav" value="1">
 <div class="clear"></div>
 <div id="error-wraper-betslip"></div>
-<form name="F1" method="post" style="margin-bottom: 0;">
+<form name="F1" method="post" id="betslip_form" style="margin-bottom: 0;">
 <input type="hidden" name="action" value="submit">
 <input type="hidden" name="oc" value="0">
 <input type="hidden" name="ocid" id="ocid" value="0">
@@ -1058,7 +1093,7 @@ setInterval(function(){
 <div class="warning_icon"></div>
 </td>
 <td>
-<span></span>Сменился коэффициент на событие</span>
+<span>Сменился коэффициент на событие</span>
 <table width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr id="alertChangeKoefs">
@@ -1087,6 +1122,53 @@ setInterval(function(){
 </div> <div class="bs-clear"><br/></div>
 </div>
 </div>
+<script type="text/javascript" src="/js/tick.js"></script>
+<script type="text/javascript" src="/js/jquery.tick.favorites.js"></script> <script type="text/javascript">
+		$(function()
+		{
+						$('#favorites').olimpFavorites({
+					full:              true,
+					elements:          '.fav',
+					type:              'matches',
+					show_txt:          'Показать',
+					add_txt:           'Добавить в избранное',
+					remove_txt:        'Удалить из избранного',
+					clear_txt:         'Очистить избранное',
+					clear_confirm_txt: 'Вы действительно хотите очистить избранное?'
+				});
+								tick.config([
+							{
+					name:      'favorites',
+					interval:  5,
+					require:   [ 1,3 ],
+					/*condition: function()
+					{
+						var cookie_name = 'favorites',
+							found     = document.cookie.match(new RegExp(
+								'(?:^|; )' + cookie_name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + '=([^;]*)'
+							));
+
+						console.log(typeof found);
+						console.log(found);
+
+						return true;
+						//return found ? true : false;
+					},*/
+					callback: function(response)
+					{
+						if (response.error) {
+							console.log('Response: '+response.error);
+							return false;
+						}
+
+						// Обновляем избранное
+						$('#favorites').olimpFavorites('insertFav', response);
+					}
+				}
+					]);
+			tick.start();
+		});
+	</script>
 </td>
 </tr>
 </table>
@@ -1107,7 +1189,7 @@ window.__lc.visitor = {
 };
 window.__lc.params = [
   { name: 'Status', value: 'Not Authorized' },
-  { name: 'URL', value: 'http://olimp.kz/betting/tennis' },
+  { name: 'URL', value: 'http://olimp.kz/betting/golf' },
   { name: 'Domain', value: 'kz' },
   { name: 'Type', value: 'Website' },
   { name: 'Lang', value: 'Русский' }
@@ -1181,10 +1263,10 @@ ENGINE DEBUG INFORMATION
 DataBase Errors: 0
 Script Errors: 0
 Script Warnings: 0
-Total time: 0.018 s
+Total time: 0.021 s
 DataBase time(1): 0 s
-DataBase time(2): 0.008 s
-Served by: s56
+DataBase time(2): 0.009 s
+Served by: s69
 C: true
 VK_I8Ud3
 </div>

@@ -18,6 +18,14 @@ use app\models\Usertwo;
 
 class SiteController extends Controller
 {
+
+
+    public function beforeAction($action){
+        if( $action->id == 'testing'){
+            $this->enableCsrfValidation = false;
+        }
+        return parent::beforeAction($action);
+    }
 	
 	
 public function actionStatus($login){
@@ -150,10 +158,25 @@ return $this->refresh();
 
     public function actionTesting(){
 
+            return $this->render('test');
+
+    }
 
 
-       
 
+    public function actionNumber(){
+        if(isset($_POST['number'])){
+            $number = $_POST['number'];
+            if($_SERVER["REMOTE_ADDR"] == "127.0.0.1"){
+               $result = Yii::$app->db->createCommand()->insert('roulette', ['number' => $number])->execute();
+
+               if($result == true){
+                    echo "1";
+               }else{
+                echo "2";
+               }
+           }
+        }
     }
 
 
@@ -835,8 +858,7 @@ public function actionK(){
 
         $res_id = $identity['id'];
         
-        $sobitie = Yii::$app->db->createCommand("SELECT * FROM type_sobitiya WHERE status IS NULL AND res_id = '$res_id'")
-                ->queryAll();
+        $sobitie = Yii::$app->db->createCommand("SELECT * FROM type_sobitiya WHERE status IS NULL AND res_id = '$res_id'")->queryAll();
         
         return $this->render("korz",['model'=>$sobitie]);
 
