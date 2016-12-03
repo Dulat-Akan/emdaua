@@ -4,7 +4,7 @@ $params = require(__DIR__ . '/params.php');
 $config = [
     'defaultRoute' => 'site/index',
 'aliases' => [
-	    '@status' =>'/casino/basic/img/',
+        '@status' =>'/casino/basic/img/',
         '@img' => '/casino/basic/img/',
         '@jquery' => '/casino/basic/js/',
         '@base' => '/casino/basic/web/index.php',
@@ -12,15 +12,15 @@ $config = [
         '@myfile' => '/casino/basic/views/site/myfile/myfile.html',
         '@files' => '../views/site/',
         '@basepath' => '/casino/basic/web/',
-		'@style' => '/casino/basic/web/',
-		'@site' => '/casino/basic/web/index.php/site',
+        '@style' => '/casino/basic/web/',
+        '@site' => '/casino/basic/web/index.php/site',
         /*'@bar' => 'http://www.example.com',*/
     ],
      /*'catchAll' => ['site/offline'],*/
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-	 'language' => 'ru',
+     'language' => 'ru',
     'components' => [
 
         'authManager' => [
