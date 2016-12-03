@@ -30,13 +30,6 @@ use yii\helpers\Url;
 
 
 <input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/parserlive">
-
-
-
-
-
-
-
 <div class="" style="margin-top: 15px;">
 	<div class="row">
 		<div class="col-md-12">
@@ -150,15 +143,7 @@ use yii\helpers\Url;
 				
 
 			?>
-
-
-
-
-
-			
-
-
-	</div>
+</div>
 </div>
 
 
