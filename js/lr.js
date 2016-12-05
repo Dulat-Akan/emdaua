@@ -130,7 +130,7 @@ function game(game,k,name){
 
 window.onload = function(){
 
-			var p1 = $("#pok_searh2");
+			var p1 = $("#pok_searh2");//dfdfdfdfd
 
 			var p2 = $("#pok_searh3");
 
