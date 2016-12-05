@@ -1,4 +1,4 @@
-
+<script src="<?php echo Url::to('@jquery') ?>/sl.js"></script>
 			function updategame(){
 
 
@@ -195,6 +195,8 @@ function MySearch(){
 			name_new.each(function(index,element){
 
 				var str = $(element).html();
+
+				console.log(str = "<br>");
 
 
 				//filtration 
