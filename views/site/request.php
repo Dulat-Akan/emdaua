@@ -48,6 +48,7 @@ use yii\helpers\Url;
 	</div>
 </div>
 
+<<<<<<< HEAD
 <script>
 
 function MySearch(){
@@ -435,6 +436,17 @@ function MySearch(){
 
 
 </script>
+=======
+
+
+
+
+
+
+
+
+<script src="<?php echo Url::to('@jquery') ?>/r.js"></script>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 
 
 

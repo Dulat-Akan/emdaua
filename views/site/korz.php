@@ -1,4 +1,4 @@
-<?php
+<?php //
 use yii\helpers\Url;
 ?>
 <!DOCTYPE html>
@@ -96,8 +96,9 @@ foreach ($model as $row) {
 	</div>
 <div class="col-md-3">
         <div class="col-md-5"><input type="submit" id="<?php echo $row['id']; ?>" r="<?php echo $row['res_id']; ?>" class="btn btn-danger stavka" value="поставить"></div>
-        <div class="col-md-7"><button kef="<?php echo $row['k'];?>"  type="button" id="<?php echo $row['id']; ?>" r="<?php echo $row['res_id']; ?>" class="btn btn-danger delete"><span class="glyphicon glyphicon-remove-circle">Удалить</span></div>
-         </div>
+        <div class="col-md-4"><button kef="<?php echo $row['k'];?>"  type="button" id="<?php echo $row['id']; ?>" r="<?php echo $row['res_id']; ?>" class="btn btn-danger delete"><span class="glyphicon glyphicon-remove-circle">Удалить</span></div>
+        <div class="col-md-3">&nbsp;</div>
+</div>
 </div>
 <?php 
 $k *= $row['k'];

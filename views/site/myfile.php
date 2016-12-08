@@ -274,10 +274,17 @@
 <td align=left width=75% style='color: #800000'><u>Отключить Корзину</u></td></tr></table>
 </td></tr> <tr>
 <td align="center">
+<<<<<<< HEAD
 <hr class="hr2"/><span id='hours'>06.10.2016 00:17:59</span>
 <script type='text/javascript'>
 	            wr_hours(1475691479);
 	            setInterval('wr_hours(1475691479);',1000);
+=======
+<hr class="hr2"/><span id='hours'>06.10.2016 02:38:12</span>
+<script type='text/javascript'>
+	            wr_hours(1475699892);
+	            setInterval('wr_hours(1475699892);',1000);
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 	            </script><br/>
 <a href="index.php?page=timezone">(GMT +06:00)</a>
 </td>
@@ -339,7 +346,11 @@ setInterval(function(){
 </tr>
 </tbody>
 </table>
+<<<<<<< HEAD
 </td></tr><input type=hidden name='asid' value='3894006'><input type=hidden name='psid' value='46264295230aab7db609effb63130b64'>
+=======
+</td></tr><input type=hidden name='asid' value='1151512'><input type=hidden name='psid' value='815acbce98094dfcb3b72c16fc03991b'>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </table></form>
 <script language='javascript'>
 function changeConn()
@@ -380,8 +391,13 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
+<<<<<<< HEAD
 <font class=txtmed color=black>Ставки</font> Live (88)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td>
+=======
+<font class=txtmed color=black>Ставки</font> Live (43)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
  
@@ -390,7 +406,11 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (917)</a>
+=======
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (934)</a>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -406,7 +426,11 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (82)</a>
+=======
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (78)</a>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -414,7 +438,11 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (141)</a>
+=======
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (147)</a>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -422,7 +450,11 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (12)</a>
+=======
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (14)</a>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -446,7 +478,11 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (16)</a>
+=======
+<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (44)</a>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 <td>
 <input id="c7" type="checkbox" name="sel[]" value="51"/>
@@ -474,6 +510,7 @@ setInterval(function(){
 </td>
 <td>
 <input id="c10" type="checkbox" name="sel[]" value="12"/>
+<<<<<<< HEAD
 </td>
 </tr>
 <tr valign="top">
@@ -514,11 +551,84 @@ setInterval(function(){
 </td>
 <td>
 <input id="c15" type="checkbox" name="sel[]" value="75"/>
+=======
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (10)</a>
+<a class="txtmed" href="/betting/cycle-racing" style="color:#000;">Велоспорт (1)</a>
+</td>
+<td>
+<<<<<<< HEAD
+<input id="c16" type="checkbox" name="sel[]" value="47"/>
+=======
+<input id="c11" type="checkbox" name="sel[]" value="44"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (3)</a>
+</td>
+<td>
+<input id="c17" type="checkbox" name="sel[]" value="73"/>
+=======
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (20)</a>
+</td>
+<td>
+<input id="c12" type="checkbox" name="sel[]" value="10"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<<<<<<< HEAD
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (7)</a>
+</td>
+<td>
+<input id="c18" type="checkbox" name="sel[]" value="121"/>
+=======
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (41)</a>
+</td>
+<td>
+<input id="c13" type="checkbox" name="sel[]" value="9"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/skiing" style="color:#000;">Лыжи (2)</a>
+</td>
+<td>
+<input id="c19" type="checkbox" name="sel[]" value="38"/>
+=======
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (31)</a>
+</td>
+<td>
+<input id="c14" type="checkbox" name="sel[]" value="90"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<<<<<<< HEAD
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (3)</a>
+</td>
+<td>
+<input id="c20" type="checkbox" name="sel[]" value="117"/>
+=======
+<a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (2)</a>
+</td>
+<td>
+<input id="c15" type="checkbox" name="sel[]" value="75"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (8)</a>
 </td>
 <td>
 <input id="c16" type="checkbox" name="sel[]" value="47"/>
@@ -526,7 +636,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (3)</a>
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (4)</a>
 </td>
 <td>
 <input id="c17" type="checkbox" name="sel[]" value="73"/>
@@ -558,10 +668,23 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (7)</a>
+</td>
+<td>
+<input id="c21" type="checkbox" name="sel[]" value="40"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=88" style="color:#000;">Политика (2)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c21" type="checkbox" name="sel[]" value="88"/>
+=======
+<input id="c22" type="checkbox" name="sel[]" value="88"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr>
 <tr valign="top">
@@ -569,7 +692,11 @@ setInterval(function(){
 <a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (1)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c22" type="checkbox" name="sel[]" value="39"/>
+=======
+<input id="c23" type="checkbox" name="sel[]" value="39"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr>
 <tr valign="top">
@@ -577,15 +704,26 @@ setInterval(function(){
 <a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (2)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c23" type="checkbox" name="sel[]" value="85"/>
+=======
+<input id="c24" type="checkbox" name="sel[]" value="85"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (49)</a>
 </td>
 <td>
 <input id="c24" type="checkbox" name="sel[]" value="46"/>
+=======
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (48)</a>
+</td>
+<td>
+<input id="c25" type="checkbox" name="sel[]" value="46"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr>
 <tr valign="top">
@@ -593,7 +731,11 @@ setInterval(function(){
 <a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (33)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c25" type="checkbox" name="sel[]" value="96"/>
+=======
+<input id="c26" type="checkbox" name="sel[]" value="96"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr>
 <tr valign="top">
@@ -601,7 +743,11 @@ setInterval(function(){
 <a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (7)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c26" type="checkbox" name="sel[]" value="4"/>
+=======
+<input id="c27" type="checkbox" name="sel[]" value="4"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr>
 <tr valign="top">
@@ -609,7 +755,11 @@ setInterval(function(){
 <a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (8)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c27" type="checkbox" name="sel[]" value="113"/>
+=======
+<input id="c28" type="checkbox" name="sel[]" value="113"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr>
 <tr valign="top">
@@ -617,7 +767,11 @@ setInterval(function(){
 <a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (5)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c28" type="checkbox" name="sel[]" value="33"/>
+=======
+<input id="c29" type="checkbox" name="sel[]" value="33"/>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -625,16 +779,27 @@ setInterval(function(){
                 {
                     if(checked==0) checked=1;
                     else checked=0;
+<<<<<<< HEAD
                     for(var ci=0;ci<29;ci++)
                         document.getElementById('c'+ci).checked=checked;
                     if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1523)</a>';
                     else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1523)</a>'
+=======
+                    for(var ci=0;ci<30;ci++)
+                        document.getElementById('c'+ci).checked=checked;
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1569)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1569)</a>'
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
 </td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1></td></tr>
 <tr><td colspan=2 id='selall' align=middle>
+<<<<<<< HEAD
 <a href='javascript:selall();'>Выбрать все (1523)</a> </div>
+=======
+<a href='javascript:selall();'>Выбрать все (1569)</a> </div>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 </td>
 </tr>
 <input type="hidden" name="page" value="line"/>
@@ -705,8 +870,417 @@ setInterval(function(){
 		}
 	</script>
 <table class=smallwnd2 style="WIDTH: 96%;">
+<<<<<<< HEAD
 <TR><TD align=center><br><i>Отсутствуют результаты за указанное
 число либо событие еще не рассчитано</i><br><br></TD></TR> </table>
+=======
+<TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Адриатическая лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Карпош Соколи - Игокеа</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 79:84 (18:26 14:21 22:20 25:17)<br></b><div id='e27006587' style='display: none;'></div></td></tr></table>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Кубок Израиля  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хапоэль Мигдаль-ха-Эмек - Хапоэль И</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 57:94 (15:28 22:19 12:28 8:19)<br></b><div id='e27021496' style='display: none;'></div></td></tr></table>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Бельгии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Антверпен-2 - Роял-4 Брюссель</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 101:57 (24:8 26:17 21:18 30:14)<br></b><div id='e27047008' style='display: none;'></div></td></tr></table>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Мужчины. Кубок Словении  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Чрнуче Ач 1 - ГО Волей</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (16:25 25:20 26:24 22:25 16:14)<br></b><div id='e27023631' style='display: none;'></div></td></tr></table>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Дании  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>КИФ Колдинг - Скьерн</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 27:30 (10:13)<br></b><div id='e26981410' style='display: none;'></div></td></tr></table>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Исландии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>КА Акюрейри - Хаукар</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 26:29 (10:14)<br></b><div id='e27021979' style='display: none;'></div></td></tr></table>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Испании  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пуэрто Сагунто - Натурхаус Ла Риоха</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 25:28 (13:13)<br></b><div id='e26992954' style='display: none;'></div></td></tr></table>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Норвегии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Элверум - Будё</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 32:30 (16:15)<br></b><div id='e27003804' style='display: none;'></div></td></tr></table>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Франции  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Саран - Нант</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 27:31 (11:11)<br></b><div id='e27003626' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ним - Тулуза</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 22:27 (8:15)<br></b><div id='e27003627' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Монпелье - Сессон-Ренн</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 35:28 (18:13)<br></b><div id='e27003628' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кретель - Селестат</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 30:24 (13:9)<br></b><div id='e27003629' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Дартс. Международный. World Grand Prix 2016  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Норрис А. - Уитлок С.</b><br>
+06.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3<br></b><div id='e27016202' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Долан Б. - Чизнолл Д.</b><br>
+06.10.2016 01:13:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3<br></b><div id='e27016203' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. ESL Pro League  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>NIP - FlipSid3</b><br>
+06.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (16:7)<br></b><div id='e27039386' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>EnVyUs - Fnatic</b><br>
+06.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (8:16)<br></b><div id='e27039643' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Mousesports - Heroic</b><br>
+06.10.2016 01:22:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (16:14)<br></b><div id='e27042134' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Natus Vincere - Dignitas</b><br>
+06.10.2016 01:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (8:16)<br></b><div id='e27042109' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. Gauntlet  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>INETKOXTV - Alpha</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (14:16 8:16)<br></b><div id='e27037307' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. QuickShot Arena  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Epsilon Hype - Venatores</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (14:16)<br></b><div id='e27037866' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Мехико-Сити. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ротаэче П. - Леон С.</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:6 6:7)<br></b><div class=rd><a href='javascript:showres(21);'><img id='rd_21' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_21' style='display: none;'>1 сет: 1 гейм - Леон С., 2 гейм - Леон С., 3 гейм - Леон С., 4 гейм - Леон С., 5 гейм - Ротаэче П., 6 гейм - Леон С., 7 гейм - Ротаэче П., 8 гейм - Ротаэче П., 9 гейм - Леон С.<br>2 сет: 1 гейм - Леон С., 2 гейм - Ротаэче П., 3 гейм - Ротаэче П., 4 гейм - Ротаэче П., 5 гейм - Леон С., 6 гейм - Леон С., 7 гейм - Леон С., 8 гейм - Ротаэче П., 9 гейм - Ротаэче П., 10 гейм - Леон С., 11 гейм - Леон С., 12 гейм - Ротаэче П.<br></div><div>&nbsp;</div><br><div id='e27033149' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Пары. Шарм-Эль-Шейх. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хердзелаш Д./Самир С. - Бонич Б./Кадар Е.-Т.</b><br>
+06.10.2016 01:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (6:3 1:6 0:1)<br></b><div class=rd><a href='javascript:showres(24);'><img id='rd_24' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_24' style='display: none;'>1 сет: 1 гейм - Бонич Б./Кадар Е.-Т., 2 гейм - Бонич Б./Кадар Е.-Т., 3 гейм - Хердзелаш Д./Самир С., 4 гейм - Хердзелаш Д./Самир С., 5 гейм - Хердзелаш Д./Самир С., 6 гейм - Хердзелаш Д./Самир С., 7 гейм - Хердзелаш Д./Самир С., 8 гейм - Бонич Б./Кадар Е.-Т., 9 гейм - Хердзелаш Д./Самир С.<br>2 сет: 1 гейм - Хердзелаш Д./Самир С., 2 гейм - Бонич Б./Кадар Е.-Т., 3 гейм - Бонич Б./Кадар Е.-Т., 4 гейм - Бонич Б./Кадар Е.-Т., 5 гейм - Бонич Б./Кадар Е.-Т., 6 гейм - Бонич Б./Кадар Е.-Т., 7 гейм - Бонич Б./Кадар Е.-Т.<br>3 сет: 1 гейм - Бонич Б./Кадар Е.-Т.<br></div><div>&nbsp;</div><br><div id='e27029321' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Турнир ITF. Реддинг. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Врлич А. - Бултер К.</b><br>
+06.10.2016 00:40:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (2:6 1:6)<br></b><div class=rd><a href='javascript:showres(28);'><img id='rd_28' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_28' style='display: none;'>1 сет: 1 гейм - Бултер К., 2 гейм - Врлич А., 3 гейм - Бултер К., 4 гейм - Бултер К., 5 гейм - Бултер К., 6 гейм - Врлич А., 7 гейм - Бултер К., 8 гейм - Бултер К.<br>2 сет: 1 гейм - Бултер К., 2 гейм - Бултер К., 3 гейм - Бултер К., 4 гейм - Бултер К., 5 гейм - Бултер К., 6 гейм - Врлич А., 7 гейм - Бултер К.<br></div><div>&nbsp;</div><br><div id='e27040712' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Викери С. - Сэнфорд А.</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:2)<br></b><div class=rd><a href='javascript:showres(31);'><img id='rd_31' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_31' style='display: none;'>1 сет: 1 гейм - Викери С., 2 гейм - Викери С., 3 гейм - Викери С., 4 гейм - Викери С., 5 гейм - Сэнфорд А., 6 гейм - Викери С., 7 гейм - Викери С.<br>2 сет: 1 гейм - Викери С., 2 гейм - Викери С., 3 гейм - Викери С., 4 гейм - Викери С., 5 гейм - Сэнфорд А., 6 гейм - Сэнфорд А., 7 гейм - Викери С., 8 гейм - Викери С.<br></div><div>&nbsp;</div><br><div id='e27040710' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Невер. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Оливетти А. - Болц С.</b><br>
+06.10.2016 00:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (7:6 6:3)<br></b><div class=rd><a href='javascript:showres(34);'><img id='rd_34' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_34' style='display: none;'>1 сет: 1 гейм - Болц С., 2 гейм - Оливетти А., 3 гейм - Болц С., 4 гейм - Оливетти А., 5 гейм - Болц С., 6 гейм - Оливетти А., 7 гейм - Болц С., 8 гейм - Оливетти А., 9 гейм - Болц С., 10 гейм - Оливетти А., 11 гейм - Болц С., 12 гейм - Оливетти А.<br>2 сет: 1 гейм - Оливетти А., 2 гейм - Болц С., 3 гейм - Оливетти А., 4 гейм - Болц С., 5 гейм - Оливетти А., 6 гейм - Оливетти А., 7 гейм - Оливетти А., 8 гейм - Болц С., 9 гейм - Оливетти А.<br></div><div>&nbsp;</div><br><div id='e27030310' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Пары. Вальедупар. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Барриос Вера М. Т./Монтеро Х. - Карвахал Торрес Х.-Ф./Эрасо К.-А.</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:2 6:2)<br></b><div class=rd><a href='javascript:showres(37);'><img id='rd_37' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_37' style='display: none;'>1 сет: 1 гейм - Карвахал Торрес Х.-Ф./Эрасо К.-А., 2 гейм - Карвахал Торрес Х.-Ф./Эрасо К.-А., 3 гейм - Барриос Вера М. Т./Монтеро Х., 4 гейм - Барриос Вера М. Т./Монтеро Х., 5 гейм - Барриос Вера М. Т./Монтеро Х., 6 гейм - Барриос Вера М. Т./Монтеро Х., 7 гейм - Барриос Вера М. Т./Монтеро Х., 8 гейм - Барриос Вера М. Т./Монтеро Х.<br>2 сет: 1 гейм - Карвахал Торрес Х.-Ф./Эрасо К.-А., 2 гейм - Барриос Вера М. Т./Монтеро Х., 3 гейм - Барриос Вера М. Т./Монтеро Х., 4 гейм - Барриос Вера М. Т./Монтеро Х., 5 гейм - Барриос Вера М. Т./Монтеро Х., 6 гейм - Барриос Вера М. Т./Монтеро Х., 7 гейм - Карвахал Торрес Х.-Ф./Эрасо К.-А., 8 гейм - Барриос Вера М. Т./Монтеро Х.<br></div><div>&nbsp;</div><br><div id='e27040386' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Мужчины. Турнир ITF. Шарм-Эль-Шейх. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Веджвара Л - Зук К.</b><br>
+06.10.2016 00:10:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (6:4 3:6 0:6)<br></b><div class=rd><a href='javascript:showres(40);'><img id='rd_40' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_40' style='display: none;'>1 сет: 1 гейм - Веджвара Л, 2 гейм - Зук К., 3 гейм - Зук К., 4 гейм - Веджвара Л, 5 гейм - Веджвара Л, 6 гейм - Зук К., 7 гейм - Веджвара Л, 8 гейм - Веджвара Л, 9 гейм - Зук К., 10 гейм - Веджвара Л<br>2 сет: 1 гейм - Зук К., 2 гейм - Веджвара Л, 3 гейм - Зук К., 4 гейм - Веджвара Л, 5 гейм - Зук К., 6 гейм - Веджвара Л, 7 гейм - Зук К., 8 гейм - Зук К., 9 гейм - Зук К.<br>3 сет: 1 гейм - Зук К., 2 гейм - Зук К., 3 гейм - Зук К., 4 гейм - Зук К., 5 гейм - Зук К., 6 гейм - Зук К.<br></div><div>&nbsp;</div><br><div id='e27037903' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сэндлер О. - Като Д.</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:4)<br></b><div id='e27039060' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Челленджер. Монс. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бемельманс Р. - Албот Р.</b><br>
+06.10.2016 00:59:08</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (4:6 5:7)<br></b><div id='e26984542' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Турнир ATP. Челленджер. Пары. Стоктон. Хард  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Халис К./Новиков Д. - Рола Б./Жемля Г.</b><br>
+06.10.2016 00:56:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:2)<br></b><div id='e27038701' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Англия. Истмийская Лига. Премьер Дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лэзерхед - Лейстон</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:3 (0:2)<br></b><div class=rd><a href='javascript:showres(47);'><img id='rd_47' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_47' style='display: none;'>Угловые: 12, Лэзерхед: 6, Лейстон: 6<br></div><div>&nbsp;</div><br><div id='e27045232' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Англия. Кубок Южной Премьер лиги  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кидлингтон - Свиндон Супермарин</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (1:1)<br></b><div class=rd><a href='javascript:showres(49);'><img id='rd_49' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_49' style='display: none;'>Угловые: 11, Кидлингтон: 6, Свиндон Супермарин: 5<br>Проход: Кидлингтон<br></div><div>&nbsp;</div><br><div id='e27045367' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Англия. Северная Премьер-Лига. Премьер Дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Корби Таун - Стоурбридж</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (0:0)<br></b><div id='e27039051' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера дивизион Б. Резерв  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Колегиалес (рез) - Комуникасьонес (рез)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:0 (2:0)<br></b><div id='e27026217' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера С. Метрополитана  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Архентино де Мерло - Спортиво Барракас</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:1)<br></b><div class=rd><a href='javascript:showres(54);'><img id='rd_54' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_54' style='display: none;'>Угловые: 4, Архентино де Мерло: 2, Спортиво Барракас: 2<br></div><div>&nbsp;</div><br><div id='e27043433' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сан Мигель - Депортиво Лаферрере</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (2:1)<br></b><div id='e27043434' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Спортиво Итальяно - Лухан</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div class=rd><a href='javascript:showres(57);'><img id='rd_57' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_57' style='display: none;'>Угловые: 8, Спортиво Итальяно: 2, Лухан: 6<br></div><div>&nbsp;</div><br><div id='e27043435' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Резервная лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ривер Плейт (рез) - Велес Сарсфилд (рез)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div class=rd><a href='javascript:showres(59);'><img id='rd_59' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_59' style='display: none;'>Угловые: 9, Ривер Плейт (рез): 5, Велес Сарсфилд (рез): 4<br></div><div>&nbsp;</div><br><div id='e27021497' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Бельгия. 2-й дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тубизе - Хеверле Лёвен</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div id='e27004258' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Розеларе - Юнайтед Ломмель</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div id='e27004262' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Бразилия. Кубок Рио Профессионалов  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вольта Редонда РЖ - Кеймадус</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:0)<br></b><div id='e27029161' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Боавишта РЖ - Мадурейра</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3 (1:1)<br></b><div id='e27029162' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Америка РЖ - Бангу</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:1)<br></b><div id='e27029163' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Португеза РЖ - Фрибургенсе АК</b><br>
+06.10.2016 00:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (0:0)<br></b><div class=rd><a href='javascript:showres(66);'><img id='rd_66' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_66' style='display: none;'>Угловые: 10, Португеза РЖ: 4, Фрибургенсе АК: 6<br></div><div>&nbsp;</div><br><div id='e27044861' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Женщины. Ирландия. Национальная лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Шелбурн (жен) - Корк Сити (жен)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:1 (1:1)<br></b><div id='e27025568' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УКД Вейвз (жен) - Вексфорд Ютс (жен)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:4 (2:1)<br></b><div id='e27025569' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Галвэй (жен) - Килкенни Юнайтед ВФК (жен)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:1 (4:0)<br></b><div id='e27025570' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Женщины. Лига чемпионов УЕФА. 1/16 финала. Первые матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Челси (жен) - Вольфсбург (жен)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:2)<br></b><div class=rd><a href='javascript:showres(71);'><img id='rd_71' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_71' style='display: none;'>Первый гол: Вольфсбург (жен)<br>Последний гол: Вольфсбург (жен)<br>Угловые: 8, Челси (жен): 2, Вольфсбург (жен): 6<br></div><div>&nbsp;</div><br><div id='e27024074' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ФСК Ст. Пёльтен (жен) - Брондбю (жен)</b><br>
+06.10.2016 00:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:1)<br></b><div class=rd><a href='javascript:showres(75);'><img id='rd_75' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_75' style='display: none;'>Первый гол: Брондбю (жен)<br>Последний гол: Брондбю (жен)<br>Угловые: 9, ФСК Ст. Пёльтен (жен): 4, Брондбю (жен): 5<br></div><div>&nbsp;</div><br><div id='e27024075' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хиберниан (жен) - Бавария (жен)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:6 (0:3)<br></b><div class=rd><a href='javascript:showres(79);'><img id='rd_79' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_79' style='display: none;'>Первый гол: Бавария (жен)<br>Последний гол: Бавария (жен)<br>Угловые: 13, Хиберниан (жен): 0, Бавария (жен): 13<br></div><div>&nbsp;</div><br><div id='e27024076' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Испания. Кубок Каталонии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>АЕ Прат - Жирона КФ</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:1)<br></b><div id='e27022713' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гава - Льягостера</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div class=rd><a href='javascript:showres(84);'><img id='rd_84' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_84' style='display: none;'>Угловые: 12, Гава: 9, Льягостера : 3<br></div><div>&nbsp;</div><br><div id='e27045111' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Испания. Кубок Федерации  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Фуенлабрада - Интернасиональ Мадрид</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div id='e27022324' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико Асторга - Вилларальбо КФ</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (0:1)<br></b><div id='e27022325' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УК Залла - Депортиво Алавеc Б</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:2)<br></b><div class=rd><a href='javascript:showres(88);'><img id='rd_88' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_88' style='display: none;'>Угловые: 10, УК Залла: 6, Депортиво Алавеc Б: 4<br></div><div>&nbsp;</div><br><div id='e27045118' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Кубок Бразилии (до 20 лет). Ответные матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Флуминенсе (до 20) - Шапекоэнсе (до 20)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:0)<br></b><div id='e27022709' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сантос (до 20) - Америка МЖ (до 20)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (1:1)<br></b><div id='e27022711' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Сборные. Товарищеские матчи (до 20 лет)  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Англия (до 20) - Нидерланды (до 20)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (2:0)<br></b><div id='e27022715' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Северная Ирландия. Резервная лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Портадаун (рез) - Гленавон (рез)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:2 (2:1)<br></b><div id='e27025571' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Линфилд (рез) - Гленторан (рез)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 6:1 (4:0)<br></b><div id='e27029175' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Колрейн (рез) - Баллимена Юнайтед (рез)</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3 (1:1)<br></b><div id='e27045472' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Товарищеские матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Расинг де Ферроль - Сельта</b><br>
+06.10.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:2)<br></b><div class=rd><a href='javascript:showres(96);'><img id='rd_96' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_96' style='display: none;'>Угловые: 6, Расинг де Ферроль: 3, Сельта: 3<br></div><div>&nbsp;</div><br><div id='e27024487' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Уругвай. Примера дивизион. Резерв  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Суд Америка (рез) - Рампла Хуниорс (рез)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:1)<br></b><div id='e27022566' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Серро (рез) - Ливерпуль Монтевидео (рез)</b><br>
+06.10.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (1:0)<br></b><div id='e27025572' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Швеция. Молодежная лига (до 19 лет)  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ИФК Аспудден (до 19) - ИФК Лидинго (до 19)</b><br>
+06.10.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:15 (0:10)<br></b><div id='e27022326' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Шотландия. Лоуленд лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>БСК Глазго ФК - Вэйл оф Лейтен</b><br>
+06.10.2016 00:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (0:0)<br></b><div class=rd><a href='javascript:showres(101);'><img id='rd_101' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_101' style='display: none;'>Угловые: 8, БСК Глазго ФК: 3, Вэйл оф Лейтен: 5<br></div><div>&nbsp;</div><br><div id='e27045485' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футзал. Товарищеские матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хумилья - Хаэн</b><br>
+06.10.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:9 (1:4)<br></b><div id='e27025891' style='display: none;'></div><tr><td colspan=2><b><hr class=hr1><a href='#top' class=txtmed>Наверх</a></b></td></tr></table></TD></TR> </table>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 <center><br> </td>
 <td class="col_td right" style="width:262px; position: relative;" valign="top">
 <div id="scroll_block" style="position: absolute; top: 0; transition: 0.4s;">
@@ -982,10 +1556,17 @@ ENGINE DEBUG INFORMATION
 DataBase Errors: 0
 Script Errors: 0
 Script Warnings: 0
+<<<<<<< HEAD
 Total time: 0.035 s
 DataBase time(1): 0 s
 DataBase time(2): 0.024 s
 Served by: s69
+=======
+Total time: 0.046 s
+DataBase time(1): 0 s
+DataBase time(2): 0.033 s
+Served by: s58
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 C: true
 VK_I8Ud3
 </div>

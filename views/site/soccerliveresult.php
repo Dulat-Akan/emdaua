@@ -8,16 +8,10 @@ use yii\helpers\Url;
 
 
 
- <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
 
 
-	<div class='page3 col-md-10 col-md-push-2'>
+
+	<div class='page3'>
 
 
 <!-- <div class="container">
@@ -55,7 +49,7 @@ use yii\helpers\Url;
 
 
 
-<div style="margin-top: 15px;">
+<div style="">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="col-md-8 col-md-offset-2">
@@ -67,7 +61,7 @@ use yii\helpers\Url;
 	</div>
 </div>
 
-<div style="margin-top: 15px;">
+<div style="">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="col-md-8 col-md-offset-2">
@@ -448,7 +442,7 @@ window.onload = function(){
 
            		var str7 = str6.replace(f2str,f2str + " )");
 
-           		var u = '<div class="col-md-12"><div class="col-md-9 col-md-offset-2 t1"><div><h4 class="u4">' + str7 + " - " + y + " , " + y2 + '</h4></div></div></div>';
+           		var u = '<div class="col-md-12 title-red"><div class=" t1"><div><h4 class="u4">' + str7 + " - " + y+'2' + " , " + y2+ '</h4></div></div></div>';
 
 				p1.append(u);
 
@@ -457,9 +451,7 @@ window.onload = function(){
 
            });
 
-
-
-					var h = '<div class="col-md-12"><div class="col-md-9 col-md-offset-2"><h2 class="t2">' + namear[0] + 'команды '  + namear[1] + '</h2></div></div>';
+var h = '<div class="col-md-12 title2 soccerliveptwo"><div class=""><h3 class="t2">' + namear[0]+ 'команды '  + namear[1] + '</h3></div></div>';
 
 					p1.append(h);
 
@@ -579,11 +571,11 @@ window.onload = function(){
             	}
             	/*koef Б*/
 
-            	var grone = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
+            	var grone = '<div class="col-md-4 blok2-livep soccerliveptwo "> <div class="col-md-12 tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
 
             	if(string15 != ""){
 
-            		var grtwo = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string15 + '" anttwo="' + string16 + '">' + string15 + ' ' + string16 + '</div></div>';
+            		var grtwo = '<div class="col-md-4 blok2-livep soccerliveptwo"> <div class="col-md-12 tit g" n="' + namear[0]+ '66'+ '"  ant="' + string15 + '" anttwo="' + string16 + '">' + string15 + ' ' + string16 + '</div></div>';
 
             		p1.append(grtwo);
 
@@ -597,7 +589,7 @@ window.onload = function(){
             	
             if(stopping == 0){
 
-            	var s = '<div class="col-md-8 col-md-offset-4 "> <div class="col-md-5">' + '<h3 class="jp">Ставки завершены..!</h3>' + '</div></div>';
+            	var s = '<div class="col-md-12"> <div class="col-md-12 title-red">' + '<h3 class="jp">Ставки завершены..!</h3>' + '</div></div>';
 
             	p1.append(s);
             }
@@ -985,9 +977,10 @@ window.onload = function(){
 
 			
 
-			var gr = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
-
+			var gr = '<div class="col-md-4 blok2-livep soccerliveptwo"> <div class="col-md-12 tit g" n="' + namear[0] + '"  ant="' + string10 + '" anttwo="' + string12 + '">' + string10 + ' ' + string12 + '</div></div>';
+if(string11){
 			var gr2 = '<div class="col-md-9 col-md-offset-3 "> <div class="col-md-5 tit g" n="' + namear[0] + '"  ant="' + string11 + '" anttwo="' + string13 + '">' + string11 + ' ' + string13 + '</div></div>';
+}
 			p1.append(gr);
 			p1.append(gr2);
 
@@ -1013,6 +1006,7 @@ window.onload = function(){
 
 
 };
+$('#pok_searh2').wrap('<div class="pok_searh12"></div>');
 
 
 
@@ -1029,5 +1023,4 @@ window.onload = function(){
 
 
 
-</body>
-</html>
+</div>

@@ -17,10 +17,19 @@ AppAsset::register($this);
 <!DOCTYPE html>
 
 <html lang="<?= Yii::$app->language ?>">
-
-	
 <head>
     
+    <!--scroll bar -->
+    
+    <style type="text/css">
+		#wrapper {width: 250px; height: 350px; padding: 0 10px; margin: 0 auto; background: #FFF;}
+	</style>
+    <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.css">
+	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.mousewheel.js"></script>
+                
+    <!--end scroll bar -->
     <script src="<?php echo Url::to('@jquery') ?>/jquery.min.js"></script>
     <script src="<?php echo Url::to('@jquery') ?>/jquery-ui-1.10.3.custom.js"></script>
     
@@ -39,16 +48,65 @@ function googleTranslateElementInit() {
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
-
-<div class="col-md-12">
-
 <?php $this->beginBody() ?>
+		<nav class="navbar navbar-default menu2 clearfix">
+ 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
 
-<div class="wrap">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse menu-bot" id="bs-example-navbar-collapse-2">
+	<div class="" id="mylink2">
+      	<ul class="nav nav-pills nav-justified">
+       <li style="margin-left: 15px;font-size:17px;" class="nav-header">Сейчас в линии</li>
+                 
+                  <li><a href="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
 
+                  <li><a href="<?php echo Url::to('@control/request'); ?>" r="<?php echo Url::to('@base'); ?>/site/p">результаты</a></li>
+                  <li><a href="<?php echo Url::to('@control/requestlive'); ?>" r="<?php echo Url::to('@base'); ?>/site/ptwo">результаты Live</a></li>
 
-	
-    <?php
+               
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Футбол</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Теннис</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Хоккей</a></li>
+              
+             
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Американский футбол</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Бейсбол</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Биатлон</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Бокс</a></li>
+                  
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Гандбол</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Гольф</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Горные лыжи</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Дартс</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Киберспорт</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Крикет</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Лыжи</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Мотоспорт</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Песапалло</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Прыжки с трамплина</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Ралли</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Регби-лига</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Регби-союз</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Смешанные боевые искусства</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Снукер</a></li>
+                  <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Формула 1</a></li>
+                  
+      </ul>
+    </div>
+  
+    </div><!-- /.navbar-collapse -->
+	</nav>
+       <?php
 	NavBar::begin([
         'brandLabel' => 'AlmaBet',
         'brandUrl' => Yii::$app->homeUrl,
@@ -86,8 +144,8 @@ function googleTranslateElementInit() {
             NavBar::end();
     ?>
 
-    </div>
-</div>
+  
+
 
 
     <div class="container-fluid" style="margin-top:0px;">
@@ -95,31 +153,37 @@ function googleTranslateElementInit() {
 
 
 
-<div class="container" style="position:fixed;margin-top:100px;display:none;z-index:5;" id="download">
-    <div class="row">
-        <div class="col-md-12">
+<div class="container" style="" id="download">
+<div class=""><img src="<?php echo Url::to('@img') ?>/3.gif" alt=""></div>
 
-            <div class="col-md-1 col-md-offset-6"><img src="<?php echo Url::to('@img') ?>/3.gif" alt=""></div>
-
-        </div>
-    </div>
+   
 </div>
 
 
 <div class="container-fluid container-content">
 
+       
+		<div class="col-md-10 col-md-push-2">
+	<div class="" id="pok_searh2">
+	<div class='header-middle'>
+<div class="" style='' id="google_translate_element"></div>
 
-    <div class="row">
-        <div class="col-md-12">
-		
-	<div class="col-md-10 col-md-push-2" id="pok_searh2"><hr/><?= $content ?></div>
+  </div>
+  
+<div class='clear'></div>
+
+	<?= $content ?>
+	</div>
+</div>
+
 <!-- <div class="col-md-10 col-md-push-2" id=""></div> -->
 <div class="col-md-2 col-md-pull-10 kolekcii" id="mylink">
- <h4>Сейчас в линии</h4>
-<div id="google_translate_element"></div>
+
                </br>
                 <ul class="nav nav-tabs nav-stacked kolekcii_soderzhimoe">
-				                
+				
+                  <li style="margin-left: 15px;font-size:17px;" class="nav-header">Сейчас в линии</li>
+                 
                   <li><a href="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
 
                   <li><a href="<?php echo Url::to('@control/request'); ?>" r="<?php echo Url::to('@base'); ?>/site/p">результаты</a></li>
@@ -157,174 +221,29 @@ function googleTranslateElementInit() {
 
             
         
-
+  
             </div>
 
-          
+             <div class="col-md-2" style="display:none;" id="korzina" >
+                     
+                    <a href="<?php echo Url::to('@control/korzina'); ?>"><img style="width:100px;cursor:pointer;" src="<?php echo Url::to('@img/korzina2.png'); ?>" alt=""><span class="label label-info">4 ставки</span></a>
+
+            </div>
 
 
             
 
 
-            <div class="col-md-2" style="display:none;" id="korzina">
-                     
-                    <a href="<?php echo Url::to('@control/korzina'); ?>"><img style="width:100px;cursor:pointer;" src="<?php echo Url::to('@img/korzina2.png'); ?>" alt=""><span class="label label-info">4 ставки</span></a>
+       
 
-            </div>
-</div>
+         
+        </div>
 
 
 
 
 
-            <script>
-
-            $("#mybut").click(function(){
-
-
-              MyLink();
-            });
-
-            function MyLink(perenapravit,zapros,t){
-				$("#download").show();
-
-                        var data = {
-                            "data":t,
-                            "hid":"hid",
-                        }
-
-                        $.ajax({
-                            "type":"POST",
-                            "url":zapros,
-                            "data":data,
-                            "datatype":"json html script",
-                           
-                          
-                            "success":kx,
-                            "error":errorfunc
-                            
-                          });
-
-                        function kx(result){
-
-
-
-                            if(result){
-                            
-                              $("#download").hide();
-                              window.location.href = perenapravit;
-
-
-                            }
-  
-                              }
-
-                       function errorfunc(){
-                          alert("ошибка соединения с интернетом");
-                       }
-
-
-            };
-
-
-                
-                var link = $("#mylink").children("ul").children("li").children("a");
-
-                link.click(function(event){
-
-                    event.preventDefault();
-
-                    var perenapravit = $(this).attr("href"); /*kuda perenapravit*/
-                    var zapros = $(this).attr("r");    /*kuda otpravit zapros*/
-
-                    
-                    var t = $(this).text();
-
-                    switch(t){
-                        case "Футбол":
-                        MyLink(perenapravit,zapros,t);
-
-                        break;
-                        case "Теннис":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Хоккей":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Американский футбол":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Бейсбол":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Биатлон":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Бокс":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Гандбол":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Гольф":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Горные лыжи":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Дартс":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Киберспорт":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Крикет":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Лыжи":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Мотоспорт":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Песапалло":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Прыжки с трамплина":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Ралли":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Регби-лига":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Регби-союз":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Снукер":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "Формула 1":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "результаты":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "результаты Live":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                        case "ставки LIVE":
-                        MyLink(perenapravit,zapros,t);
-                        break;
-                    }
-                    
-
-
-                });
-
-
-            </script>
+           <script src="<?php echo Url::to('@jquery') ?>/l_o.js"></script>
 
 <script>
 $('.btn.btn-primary').click(function(){
@@ -336,10 +255,14 @@ $('.alert').removeClass('alert');
 
 </script>
 
-
+<script type="text/javascript">
+		$(function(){
+			$('.kolekcii').jScrollPane();
+		});
+	</script>
        
     </div>
-</div>
+
  
 <footer class="footer">
     <div class="container">

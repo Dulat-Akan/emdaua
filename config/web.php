@@ -1,15 +1,8 @@
 <?php
 
 $params = require(__DIR__ . '/params.php');
-
-
-
 $config = [
     'defaultRoute' => 'site/index',
-
-
-
-
     'aliases' => [
 	    '@status' =>'/basic/img/',
         '@img' => '/basic/img/',
@@ -20,8 +13,7 @@ $config = [
         '@files' => '../views/site/',
         '@basepath' => '/basic/web/',
 		'@style' => '/basic/web/',
-		'@site' => '/basic/web/index.php/site',
-        /*'@bar' => 'http://www.example.com',*/
+
     ],
      /*'catchAll' => ['site/offline'],*/
    'id' => 'basic',

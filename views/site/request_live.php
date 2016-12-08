@@ -47,6 +47,7 @@ use yii\helpers\Url;
 	<div class="row" id="pok_searh3"></div>
 </div>
 
+<<<<<<< HEAD
 <script>
 
     function MySearch(){
@@ -356,6 +357,16 @@ use yii\helpers\Url;
     },500);
     
 </script>
+=======
+
+
+
+
+
+
+
+<script src="<?php echo Url::to('@jquery') ?>/r_l.js"></script>
+>>>>>>> bf8600088b9c99071fdac349cd11aa19eef1816b
 
 
 

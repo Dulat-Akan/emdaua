@@ -771,7 +771,7 @@ return $this->refresh();
             if(isset($_POST['hid'])){
 
             $hid = "http://olimp.kz/".$_POST['hid'];
-
+//$hid = "http://inza.si";
             $session->set("href",$hid);
 
             $content = file_get_contents($hid);
