@@ -1,14 +1,10 @@
 <?php
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 $params = require(__DIR__ . '/params.php');
 
 $config = [
-<<<<<<< HEAD
 
 
     
@@ -24,20 +20,6 @@ $config = [
         '@style' => '/casino/basic/web/',
         '@site' => '/casino/basic/web/index.php/site',
 
-=======
-    'defaultRoute' => 'site/index',
-'aliases' => [
-	    '@status' =>'/img/',
-        '@img' => '/img/',
-        '@jquery' => '/js/',
-        '@base' => '/web/index.php',
-        '@control' => '/web/index.php/site',
-        '@myfile' => '/views/site/myfile/myfile.html',
-        '@files' => '../views/site/',
-        '@basepath' => '/web/',
-		'@style' => '/web/',
-		'@site' => '/web/index.php/site',
->>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
         /*'@bar' => 'http://www.example.com',*/
     ],
 
@@ -50,22 +32,6 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-<<<<<<< HEAD
-=======
-	 'language' => 'ru',
-    'components' => [
-
-        'authManager' => [
-            'class' => 'yii\rbac\DbManager',
-        ],
-
-        'formatter' => [
-             'class' => 'yii\i18n\Formatter',
-             'dateFormat' => 'php:d.m.Y',
-             'datetimeFormat' => 'php:d.m.Y H:i:s',
-             'timeFormat' => 'php:H:i:s',
-                    ],
->>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 
     'components' => [
         'request' => [
