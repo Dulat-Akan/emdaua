@@ -75,6 +75,7 @@ use yii\helpers\Url;
 
 
 
+<<<<<<< HEAD
 <script>
 	
 
@@ -770,8 +771,10 @@ kan1 += '<div class="col-md-8 total"> <div class="tit" style="text-align:center"
 
 
 
+=======
+<script src="<?php echo Url::to('@jquery') ?>/lr.js"></script> 
+>>>>>>> 5f2f81ba712510410226960765d42327d7d41aca
 
-</script>
 
 
 
