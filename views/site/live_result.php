@@ -706,9 +706,9 @@ p1.append("<div class='clearfix'></div>");
 							
 							//p1.append(string21 + string22 + " | " + string23 + string24 + "<br>");
 
-var gr = '<div class="col-md-4 blok2-livep"> <div class="tit g" n="' + namear[0] + '"  ant="' + string21 + '" anttwo="' + string23 + '">' + string21 +' ' + string23 + '</div></div>';
+var gr = '<div class="col-md-4 blok2-livep"> <div class="tit g" n="' + namear[0] + '"  ant="' + string21 + '" anttwo="' + string22 + '">' + string21 +' ' + string22 + '</div></div>';
 
-var gr2 = '<div class="col-md-8 total"> <div class="tit" style="text-align:center" n="' + namear[0] + '"  ant="' + string22 + '" anttwo="' + string24 + '">' + string22 + ' ' + string24 + '</div></div>';
+var gr2 = '<div class="col-md-8 total"> <div class="tit" style="text-align:center" n="' + namear[0] + '"  ant="' + string23 + '" anttwo="' + string24 + '">' + string23 + ' ' + string24 + '</div></div>';
 			p1.append(gr);
 
 
