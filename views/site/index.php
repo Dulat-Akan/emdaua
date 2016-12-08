@@ -20,7 +20,7 @@ $this->title = 'Казино';
     </div>
 <?php endif;?>			
 					<div class="content">
-			
+
 
 					<div class="products-row">
 					<div class="row blok">

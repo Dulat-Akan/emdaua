@@ -3,6 +3,20 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
+$user_agent = $_SERVER["HTTP_USER_AGENT"];
+  if (strpos($user_agent, "Firefox") !== false) $browser = "Firefox";
+  elseif (strpos($user_agent, "Opera") !== false) $browser = "Opera";
+  elseif (strpos($user_agent, "Chrome") !== false) $browser = "Chrome";
+  elseif (strpos($user_agent, "MSIE") !== false) $browser = "Internet Explorer";
+  elseif (strpos($user_agent, "Safari") !== false) $browser = "Safari";
+  //else $browser = "Неизвестный";
+  //echo "Ваш браузер: $browser";
+  if($browser == "Internet Explorer"){
+
+	header("Location:"."/web/index.php/site/");exit();
+	  
+	  
+  }
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\Nav;
@@ -39,6 +53,7 @@ function googleTranslateElementInit() {
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
+
 
 
 
@@ -249,7 +264,7 @@ $('.alert').removeClass('alert');
        
     </div>
 </div>
- 
+
 <footer class="footer">
     <div class="container">
         <p class="pull-left"></p>
