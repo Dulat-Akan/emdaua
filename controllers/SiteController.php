@@ -718,44 +718,95 @@ echo "ok";exit();
 }
 if($option == 'baza'){
 
-$user_stavka = Ruletka::find()->asArray()->where("id_user=$res_id")->limit(1)->one();
+$user_stavka = Ruletka::find()->asArray()->where("id_user=$res_id AND status='activ'")->all();
+
 $name='activ';
   $success_result=Roulette::find()->asArray()->where("status='{$name}'")->limit(1)->one();
 $number_success=$success_result['number'];
 if($success_result){
-$arr=explode(',',$user_stavka['stavka4']);
-if(in_array($number_success,$arr)){
-
-	//$user_stavka[4]=$number_success;
-	//print_r($_SESSION['s']);exit();
+//$arr=explode(',',$user_stavka['stavka4']);
+foreach($user_stavka as $item){
 	
-		//$_SESSION['stavka']['number4'][]=$arr;
+	
 		if($_SESSION['s']){
-	if(in_array($user_stavka['stavka4'],$_SESSION['s'])){
-		
-	}else{
-		
+			if($item['stavka4']){
+				
+				//$arr=explode(',',$item['stavka4']);
+				//print_r($_SESSION['s']);exit();
+			if(in_array($item['stavka4'],$_SESSION['s'])){
+				
+				
+				//echo 600;exit();
+			}else{
+				//echo $number_success;exit();
+		$_SESSION['s'][]=$item['stavka4'];
+		$arr=explode(',',$item['stavka4']);
 		$arr[4]=$number_success;
-		$arr[5]=$user_stavka['summastavka4'];
-		$_SESSION['stavka']['number4'][]=$arr;
-		$_SESSION['s'][]=$user_stavka['stavka4'];
-		
-	}
-		}else{
+		$arr[5]=$item['summastavka4'];
 			
-		$_SESSION['s'][]=$user_stavka['stavka4'];
-		$arr[4]=$number_success;
-		$arr[5]=$user_stavka['summastavka4'];
 		$_SESSION['stavka']['number4'][]=$arr;
-		$_SESSION['s'][]=$user_stavka['stavka4'];
+				
+			}
+			}//4
+			
+			if($item['stavka2']){
+				
+					if(in_array($item['stavka2'],$_SESSION['s'])){
+						//echo 800;exit();
+					}else{
+						
+							if($item['stavka2']){
+		$_SESSION['s'][]=$item['stavka2'];
+		$arr=explode(',',$item['stavka2']);
+		$arr[2]=$number_success;
+		$arr[3]=$item['summastavka2'];
+			
+		$_SESSION['stavka']['number2'][]=$arr;
+		
+			}
+						
+					}
+				
+			}
+			
+		}else{
+			//echo 48;exit();
+		if($item['stavka4']){
+		$_SESSION['s'][]=$item['stavka4'];
+		$arr=explode(',',$item['stavka4']);
+		$arr[4]=$number_success;
+		$arr[5]=$item['summastavka4'];
+			
+		$_SESSION['stavka']['number4'][]=$arr;
+		
+			}
+			if($item['stavka2']){
+		$_SESSION['s'][]=$item['stavka2'];
+		$arr=explode(',',$item['stavka2']);
+		$arr[2]=$number_success;
+		$arr[3]=$item['summastavka2'];
+			
+		$_SESSION['stavka']['number2'][]=$arr;
+		
+			}
+			
 			
 		}
+		
+		
+	
+	
+	
 }
 
 
 
+
+
+
+
 echo "ok";exit();
-}else{
+}else{//если не пришел запрос
 	 $file = fopen('log.txt', 'w+');
   $date=date("d m Y H:i:s");
 $write = fwrite($file, "не пришел запрос с базы выигрышное число: ".$date);

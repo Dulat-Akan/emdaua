@@ -592,7 +592,11 @@ $('.modal_r-logout').click(function(){
 		$('.time').html(seconds);
 		if(seconds==5){
 			clearInterval(time);
+			
 			seconds=-1;
+			overlay.removeClass('overlay_a');
+	       $('#modal_r').hide();
+			
 				$('.time').html("ставки завершены");
 				secondsresult();
 		}
