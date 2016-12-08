@@ -1,7 +1,7 @@
-<?unset($session['stavka'])?>
+<?//unset($session['s'])?>
 <?if (isset($session['stavka'])):?>
 
-<pre><?print_r($session['stavka']['number4'])?></pre>
+<pre><?print_r($session['s'])?></pre>
 <?endif?>
 
 
@@ -27,7 +27,8 @@
                     <th>2 - число</th>
                     <th>3- число</th>
                     <th>4- число</th>
-                    <th>ставка сумма</th>
+					<th>номер выигрыша</th>
+                    <th>ставка-сумма</th>
                 </tr>
             </thead>
 			
@@ -40,7 +41,8 @@
                     <td><?= $item[1]?></td>
                     <td><?= $item[2]?></td>
 					 <td><?= $item[3]?></td>
-					 <td><span>(сумма) <?= $item[4]?></span></td>
+					 <td><span><?= $item[4]?></span></td>
+					  <td><span><?= $item[5]?></span></td>
                 </tr>
 				<tr> <td colspan='5'>следущие 4 цифры</td></tr>
             <?php endforeach?>

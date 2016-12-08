@@ -618,7 +618,7 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 		                 success:function(data){
 			
 			if(data){
-		alert(data)
+		//alert(data)
 			}
 	}
 		                    //"error":errorfunc

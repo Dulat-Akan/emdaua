@@ -725,23 +725,31 @@ $number_success=$success_result['number'];
 if($success_result){
 $arr=explode(',',$user_stavka['stavka4']);
 if(in_array($number_success,$arr)){
-	$user_stavka[4]=$number_success;
-	/*
-	foreach($_SESSION['stavka']['number4'] as $item){
+
+	//$user_stavka[4]=$number_success;
+	//print_r($_SESSION['s']);exit();
+	
+		//$_SESSION['stavka']['number4'][]=$arr;
+		if($_SESSION['s']){
+	if(in_array($user_stavka['stavka4'],$_SESSION['s'])){
+		
+	}else{
+		
+		$arr[4]=$number_success;
+		$arr[5]=$user_stavka['summastavka4'];
+		$_SESSION['stavka']['number4'][]=$arr;
+		$_SESSION['s'][]=$user_stavka['stavka4'];
 		
 	}
-	*/
-	$_SESSION['stavka']['number4'][]=$arr;
-	/*
-	foreach ($_SESSION['stavka']['number4'] as $item){
-		  $sess_num=implode(",", $item);
-		  if($sess_num == $user_stavka['stavka4']){
-			  
-		  }
-	}
-	*/
-	//$this->render('cart-modal', compact('session'));
-	
+		}else{
+			
+		$_SESSION['s'][]=$user_stavka['stavka4'];
+		$arr[4]=$number_success;
+		$arr[5]=$user_stavka['summastavka4'];
+		$_SESSION['stavka']['number4'][]=$arr;
+		$_SESSION['s'][]=$user_stavka['stavka4'];
+			
+		}
 }
 
 
