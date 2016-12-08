@@ -715,7 +715,14 @@ var gr2 = '<div class="col-md-8 total"> <div class="tit" style="text-align:cente
 			if(string21){
 				$('.blok2-livep').addClass('blok3-livep');		
      
-			p1.append(gr2);
+
+     if(string23 != ""){
+     		p1.append(gr2);
+     }
+			
+
+
+
 			p1.append("<div class='clearfix'></div>");
 			}
 						
