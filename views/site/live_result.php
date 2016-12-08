@@ -72,7 +72,12 @@ use yii\helpers\Url;
 </div>
 
 
-<script src="<?php echo Url::to('@jquery') ?>/lr.js"></script>
+
+<script src="<?php echo Url::to('@jquery') ?>/lr.js"></script> 
+
+
+
+
 
 
 
