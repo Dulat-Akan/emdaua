@@ -1,5 +1,15 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
 <head>
+<<<<<<< HEAD
+  <title>Action Required - Guest Access</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="http://10.5.50.246:8880/guest/s/default/reset-min.css" />
+  <link rel="stylesheet" type="text/css" href="http://10.5.50.246:8880/guest/s/default/styles.css" />
+  <script type="text/javascript" src="http://10.5.50.246:8880/guest/s/default/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://10.5.50.246:8880/guest/s/default/js/guest.js"></script>
+=======
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=1165"/>
 <title>Олимп - Результаты матчей</title>
@@ -66,34 +76,81 @@
 		var currency_divider = 1;
 		var currency_decimals = 0;
 	</script>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </head>
-<body>
-<a name="top"></a>
-<style type="text/css">.fontshad{box-shadow:0 0 15px 0 rgba(255,0,0,1);box-shadow:0 0 15px 0 rgba(255,0,0,1);text-shadow:4px 4px 4px,-4px -4px 4px,4px -4px 4px,-4px 4px 4px;}.bonshad{text-shadow:3px 3px 3px white;}#eu2016_lnk{display:block;width:100px;height:34px;margin-right:10px;background:transparent url('/img/eu2016/logo.png?v=2') no-repeat center top;text-decoration:none;text-indent:-1000em;overflow:hidden;}#eu2016_lnk:hover{background-position:center bottom;}body{padding-top:70px;}#main_menu{position:fixed;top:0;left:0;width:100%;box-shadow:0 5px 12px 0 rgba(0,0,0,0.4);z-index:5000;}#main_menu .menu_td{padding:2px 6px;}@media (max-width: 1170px)
-	{#olimp_logo{overflow-x:hidden;width:50px;display:block;}#main_menu .head_tbl td a{font-size:12px;}#oRightSide,.sm-hide{display:none;}}</style>
-<script type="text/javascript" src="/img/jquery-1.7.1.min.js"></script>
-<script type="text/javascript">
-	function flash_font(id)
-	{
-		var el = $(id);
-		if($(el).hasClass('fontshad')) {
-			$(el).removeClass('fontshad');
-		} else {
-			$(el).addClass('fontshad');
-		}
-	}
-
-	setInterval(function()
-	{
-		flash_font('#vipfont');
-
-	}, 700);
-
-	setInterval(function()
-	{
+<body class="login-page">
+<!-- see README.txt for HTML customization instructions -->
+<div class="page-content" style="padding-top:100px;">
+	<div class="login-content content-box">
 		
-	}, 700);
+			
 
+			
+				<form name="input" method="post" action="login">
+					<input type="hidden" name="by" value="voucher" />
+					<input type="hidden" name="page_error" value="index.html" />
+					<div class="voucher-box">
+						<!-- Title or Error -->
+						
+							<h2>I have a voucher</h2>
+						
+						<fieldset class="large-text">
+							<p class="form-element">
+								<label for="voucher" class="fieldname">Voucher</label>
+								<input id="voucher" name="voucher" type="text" class="textInput" value="" autocomplete="off" />
+							</p>
+						</fieldset>
+					</div>
+					<div class="form-controls">
+						<input type="submit" value="Use Voucher" class="button requires-tou" />
+					</div>
+				</form>
+			
+			
+		
+
+		
+	</div>
+
+<<<<<<< HEAD
+	<div class="login-content content-box">
+		<form name="input" method="post" action="login">
+			<div class="tou-box">
+				<h2>Terms of Use</h2>
+				<div class="tou-wrapper" id="tou">
+					<div class="tou">
+					<p>Terms of Use</p>
+					<p>By accessing the wireless network, you acknowledge that you're of legal age, you have read and understood and agree to be bound by this agreement</p>
+					<ul>
+						<li>The wireless network service is provided by the property owners and is completely at their discretion. Your access to the network may be blocked, suspended, or terminated at any time for any reason.</li>
+						<li>You agree not to use the wireless network for any purpose that is unlawful and take full responsibility of your acts.</li>
+						<li>The wireless network is provided &quot;as is&quot; without warranties of any kind, either expressed or implied. </li>
+					</ul>
+					</div>
+				</div>
+				<fieldset class="accept-tou">
+					<input id="accept-tou" type="checkbox" checked="checked" name="accept-tou" value="yes" />
+					<label class="normal" >I accept the <a href="javascript:void(0)" id="show-tou">Terms of Use</a></label>
+				</fieldset>
+				<div class="form-controls">
+					<!-- submit (only for no authentication) -->
+					
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(function() { 
+	$('#tou').hide();
+	$('#show-tou').click(function() {
+		$('#tou').show();
+	});
+	$('#accept-tou').click(function() {
+		if (!$('#accept-tou').checked()) {
+			$('input.requires-tou').disable();
+=======
 	function flash_bonus(id)
 	{
 		var el = $(id);
@@ -7535,19 +7592,19 @@ setInterval(function(){
 		if ((bs.offsetHeight + 10) >= document.body.clientHeight) {
 			bs.className = '';
 			return;
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 		}
-				//		bs.className = ((offset < window.pageYOffset) ? 'fcl' : '');
-		if ($widgetBetradar.length > 0) {
-			if (offset < window.pageYOffset) {
-				$widgetBetradar.addClass('fcl').css({top: ($(window).scrollTop()-1)+'px'});
-			} else {
-				$widgetBetradar.removeClass('fcl').css({top: 0});
-			}
+		else {
+			$('input.requires-tou').enable();
 		}
-
-	}
-
+	})
+});
 </script>
+<<<<<<< HEAD
+
+</body>
+</html>
+=======
 <link type="text/css" rel="stylesheet" href="/img/basket.css?83"/>
 <script src="/img/jquery.modal.js"></script>
 <script src="/img/basket.js?91"></script>
@@ -7807,3 +7864,4 @@ VK_I8Ud3
 </div>
  
 >>>>>>> f057ad9cabda09cd899af10f0b0ea8525ce06c68
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc

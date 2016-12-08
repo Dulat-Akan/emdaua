@@ -55,11 +55,23 @@
 				var show_addon = 'Показать роспись';
 			</script>
  
+<<<<<<< HEAD
+<link type="text/css" rel="stylesheet" href="/img/styles1.css?15"/>
+=======
+<<<<<<< HEAD
 <link type="text/css" rel="stylesheet" href="/img/styles1.css?15"/>
 <link type="image/x-icon" rel="icon" href="/favicon.ico"/>
 <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico"/>
 <script type="text/javascript" src="/img/common2.js?t=123456789016"></script>
+<script type="text/javascript" src="/js/languages/lang_L0.js?8"></script>
+=======
+<link type="text/css" rel="stylesheet" href="/img/styles1.css?14"/>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+<link type="image/x-icon" rel="icon" href="/favicon.ico"/>
+<link type="image/x-icon" rel="shortcut icon" href="/favicon.ico"/>
+<script type="text/javascript" src="/img/common2.js?t=123456789016"></script>
 <script type="text/javascript" src="/js/languages/lang_L0.js?7"></script>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 <script type="text/javascript">
 		var curr_lang_ui = 0;
 		var maximum_payout = 500000000;
@@ -153,7 +165,151 @@
 <span class="title-time-block">Часовой пояс:</span>
 <div class="time-item">
 <span class="active">
+<<<<<<< HEAD
 <span id='h0'>02:43:19</span>
+=======
+<<<<<<< HEAD
+<span id='h0'>00:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481047989,'h0','+06:00',0);
+			            setInterval('wr_hoursSelect(1481047989,"h0","+06:00",0);',1000);
+		            </script> </span>
+<div class="time-container" style="display: none;">
+<div onclick="window.location='index.php?action=set_tmz&id=-1080&use_DST=0'"><span id='h1'>06:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1480983189,'h1','-12:00',1);
+			            setInterval('wr_hoursSelect(1480983189,"h1","-12:00",1);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-1020&use_DST=0'"><span id='h2'>07:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1480986789,'h2','-11:00',2);
+			            setInterval('wr_hoursSelect(1480986789,"h2","-11:00",2);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-960&use_DST=0'"><span id='h3'>08:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1480990389,'h3','-10:00',3);
+			            setInterval('wr_hoursSelect(1480990389,"h3","-10:00",3);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-900&use_DST=0'"><span id='h4'>09:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1480993989,'h4','-09:00',4);
+			            setInterval('wr_hoursSelect(1480993989,"h4","-09:00",4);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-840&use_DST=0'"><span id='h5'>10:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1480997589,'h5','-08:00',5);
+			            setInterval('wr_hoursSelect(1480997589,"h5","-08:00",5);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-780&use_DST=0'"><span id='h6'>11:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481001189,'h6','-07:00',6);
+			            setInterval('wr_hoursSelect(1481001189,"h6","-07:00",6);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-720&use_DST=0'"><span id='h7'>12:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481004789,'h7','-06:00',7);
+			            setInterval('wr_hoursSelect(1481004789,"h7","-06:00",7);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-660&use_DST=0'"><span id='h8'>13:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481008389,'h8','-05:00',8);
+			            setInterval('wr_hoursSelect(1481008389,"h8","-05:00",8);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-600&use_DST=0'"><span id='h9'>14:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481011989,'h9','-04:00',9);
+			            setInterval('wr_hoursSelect(1481011989,"h9","-04:00",9);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-570&use_DST=0'"><span id='h10'>14:43:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481013789,'h10','-03:30',10);
+			            setInterval('wr_hoursSelect(1481013789,"h10","-03:30",10);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-540&use_DST=0'"><span id='h11'>15:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481015589,'h11','-03:00',11);
+			            setInterval('wr_hoursSelect(1481015589,"h11","-03:00",11);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-480&use_DST=0'"><span id='h12'>16:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481019189,'h12','-02:00',12);
+			            setInterval('wr_hoursSelect(1481019189,"h12","-02:00",12);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-420&use_DST=0'"><span id='h13'>17:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481022789,'h13','-01:00',13);
+			            setInterval('wr_hoursSelect(1481022789,"h13","-01:00",13);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-360&use_DST=0'"><span id='h14'>18:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481026389,'h14','',14);
+			            setInterval('wr_hoursSelect(1481026389,"h14","",14);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-300&use_DST=0'"><span id='h15'>19:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481029989,'h15','+01:00',15);
+			            setInterval('wr_hoursSelect(1481029989,"h15","+01:00",15);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-240&use_DST=0'"><span id='h16'>20:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481033589,'h16','+02:00',16);
+			            setInterval('wr_hoursSelect(1481033589,"h16","+02:00",16);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-180&use_DST=0'"><span id='h17'>21:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481037189,'h17','+03:00',17);
+			            setInterval('wr_hoursSelect(1481037189,"h17","+03:00",17);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-150&use_DST=0'"><span id='h18'>21:43:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481038989,'h18','+03:30',18);
+			            setInterval('wr_hoursSelect(1481038989,"h18","+03:30",18);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-120&use_DST=0'"><span id='h19'>22:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481040789,'h19','+04:00',19);
+			            setInterval('wr_hoursSelect(1481040789,"h19","+04:00",19);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-90&use_DST=0'"><span id='h20'>22:43:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481042589,'h20','+04:30',20);
+			            setInterval('wr_hoursSelect(1481042589,"h20","+04:30",20);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-60&use_DST=0'"><span id='h21'>23:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481044389,'h21','+05:00',21);
+			            setInterval('wr_hoursSelect(1481044389,"h21","+05:00",21);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-30&use_DST=0'"><span id='h22'>23:43:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481046189,'h22','+05:30',22);
+			            setInterval('wr_hoursSelect(1481046189,"h22","+05:30",22);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-15&use_DST=0'"><span id='h23'>23:58:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481047089,'h23','+05:45',23);
+			            setInterval('wr_hoursSelect(1481047089,"h23","+05:45",23);',1000);
+		            </script></div><div class="active"><span id='h24'>00:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481047989,'h24','+06:00',24);
+			            setInterval('wr_hoursSelect(1481047989,"h24","+06:00",24);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=30&use_DST=0'"><span id='h25'>00:43:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481049789,'h25','+06:30',25);
+			            setInterval('wr_hoursSelect(1481049789,"h25","+06:30",25);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=60&use_DST=0'"><span id='h26'>01:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481051589,'h26','+07:00',26);
+			            setInterval('wr_hoursSelect(1481051589,"h26","+07:00",26);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=120&use_DST=0'"><span id='h27'>02:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481055189,'h27','+08:00',27);
+			            setInterval('wr_hoursSelect(1481055189,"h27","+08:00",27);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=180&use_DST=0'"><span id='h28'>03:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481058789,'h28','+09:00',28);
+			            setInterval('wr_hoursSelect(1481058789,"h28","+09:00",28);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=210&use_DST=0'"><span id='h29'>03:43:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481060589,'h29','+09:30',29);
+			            setInterval('wr_hoursSelect(1481060589,"h29","+09:30",29);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=240&use_DST=0'"><span id='h30'>04:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481062389,'h30','+10:00',30);
+			            setInterval('wr_hoursSelect(1481062389,"h30","+10:00",30);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=300&use_DST=0'"><span id='h31'>05:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481065989,'h31','+11:00',31);
+			            setInterval('wr_hoursSelect(1481065989,"h31","+11:00",31);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=360&use_DST=0'"><span id='h32'>06:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481069589,'h32','+12:00',32);
+			            setInterval('wr_hoursSelect(1481069589,"h32","+12:00",32);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=420&use_DST=0'"><span id='h33'>07:13:09</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481073189,'h33','+13:00',33);
+			            setInterval('wr_hoursSelect(1481073189,"h33","+13:00",33);',1000);
+=======
+<span id='h0'>02:53:11</span>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 <script type='text/javascript'>
 			            wr_hoursSelect(1480970599,'h0','+06:00',0);
 			            setInterval('wr_hoursSelect(1480970599,"h0","+06:00",0);',1000);
@@ -289,8 +445,14 @@
 			            setInterval('wr_hoursSelect(1480992199,"h32","+12:00",32);',1000);
 		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=420&use_DST=0'"><span id='h33'>09:43:19</span>
 <script type='text/javascript'>
+<<<<<<< HEAD
 			            wr_hoursSelect(1480995799,'h33','+13:00',33);
 			            setInterval('wr_hoursSelect(1480995799,"h33","+13:00",33);',1000);
+=======
+			            wr_hoursSelect(1480823591,'h33','+13:00',33);
+			            setInterval('wr_hoursSelect(1480823591,"h33","+13:00",33);',1000);
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 		            </script></div> </div>
 </div>
 </div>
@@ -303,7 +465,15 @@
 <input type="text" placeholder="Логин" name="login">
 <input type="password" placeholder="Пароль" name="passw">
 <input type=checkbox id="https" style="display:none;" checked value="1">
+<<<<<<< HEAD
 <input type=hidden name='asid' value='2822233'><input type=hidden name='psid' value='e3c771a00287eac2517210d225f69047'> </div>
+=======
+<<<<<<< HEAD
+<input type=hidden name='asid' value='4670912'><input type=hidden name='psid' value='aef48fa59fab30a45d2694e3656dc69b'> </div>
+=======
+<input type=hidden name='asid' value='6029930'><input type=hidden name='psid' value='b06993842fde69bcba1af1c480a8ca6b'> </div>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 <a href="index.php?page=recover" class="remember-pass">Забыли данные?</a>
 </form>
 </div>
@@ -383,7 +553,15 @@
 							$('.empty-search').hide();
 							$('.popup-table').show();
 							$(result.search).each(function () {
+<<<<<<< HEAD
 								$(".search_items").append('<div class="list-raw">' + '   <div class="popup-tab-left"><div class="kind ' + this.class + '">' + this.status + '</div></div>' + '	<div class="popup-tab-mid"><div class="date">' + this.date + '</div></div>' + '	<div class="popup-tab-right"><a href="' + this.url + '" style="color:#882211" target="_blank"><div class="title">' + this.name + '</div></a></div>' + '</div>');
+=======
+<<<<<<< HEAD
+								$(".search_items").append('<div class="list-raw">' + '   <div class="popup-tab-left"><div class="kind ' + this.class + '">' + this.status + '</div></div>' + '	<div class="popup-tab-mid"><div class="date">' + this.date + '</div></div>' + '	<div class="popup-tab-right"><a href="' + this.url + '" style="color:#882211" target="_blank"><div class="title">' + this.name + '</div></a></div>' + '</div>');
+=======
+								$(".search_items").append('<div class="list-raw">' + '   <div class="popup-tab-left"><div class="kind ' + this.class + '">' + this.status + '</div></div>' + '	<div class="popup-tab-mid"><div class="date">' + this.date + '</div></div>' + '	<div class="popup-tab-right"><a href="' + this.url + '" style="color:#800000" target="_blank"><div class="title">' + this.name + '</div></a></div>' + '</div>');
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 							})
 						}
 						else {
@@ -516,7 +694,15 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
+<<<<<<< HEAD
 <font class=txtmed color=black>Ставки</font> Live (52)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+=======
+<<<<<<< HEAD
+<font class=txtmed color=black>Ставки</font> Live (78)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+=======
+<font class=txtmed color=black>Ставки</font> Live (74)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
@@ -526,7 +712,15 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (553)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (743)</a>
+=======
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (610)</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -534,7 +728,15 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (90)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (66)</a>
+=======
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (22)</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -542,7 +744,15 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (85)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (122)</a>
+=======
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (113)</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -550,7 +760,15 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (185)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (180)</a>
+=======
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (129)</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -558,7 +776,15 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (4)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (14)</a>
+=======
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (7)</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -566,7 +792,11 @@ setInterval(function(){
 </tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (22)</a>
+=======
+<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (27)</a>
+<<<<<<< HEAD
 </td>
 <td>
 <input id="c5" type="checkbox" name="sel[]" value="6"/>
@@ -574,26 +804,79 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (66)</a>
+</td>
+<td>
+<input id="c6" type="checkbox" name="sel[]" value="51"/>
+=======
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+<td>
+<input id="c5" type="checkbox" name="sel[]" value="6"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (2)</a>
 </td>
 <td>
 <input id="c6" type="checkbox" name="sel[]" value="29"/>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (2)</a>
+</td>
+<td>
+<input id="c7" type="checkbox" name="sel[]" value="29"/>
+=======
+<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (5)</a>
+</td>
+<td>
+<input id="c6" type="checkbox" name="sel[]" value="51"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (25)</a>
 </td>
 <td>
 <input id="c7" type="checkbox" name="sel[]" value="7"/>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (59)</a>
+</td>
+<td>
+<input id="c8" type="checkbox" name="sel[]" value="7"/>
+=======
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (1)</a>
+</td>
+<td>
+<input id="c7" type="checkbox" name="sel[]" value="29"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (23)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (27)</a>
+</td>
+<td>
+<input id="c9" type="checkbox" name="sel[]" value="12"/>
+=======
+<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (21)</a>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 <td>
 <input id="c8" type="checkbox" name="sel[]" value="12"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </td>
 </tr>
 <tr valign="top">
@@ -601,55 +884,137 @@ setInterval(function(){
 <a class="txtmed" href="/betting/cycle-racing" style="color:#000;">Велоспорт (1)</a>
 </td>
 <td>
+<<<<<<< HEAD
+<input id="c10" type="checkbox" name="sel[]" value="44"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (46)</a>
+</td>
+<td>
+<input id="c11" type="checkbox" name="sel[]" value="10"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (63)</a>
+</td>
+<td>
+<input id="c12" type="checkbox" name="sel[]" value="9"/>
+=======
 <input id="c9" type="checkbox" name="sel[]" value="44"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (37)</a>
-</td>
-<td>
-<input id="c10" type="checkbox" name="sel[]" value="10"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (61)</a>
-</td>
-<td>
-<input id="c11" type="checkbox" name="sel[]" value="9"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
+=======
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (3)</a>
 </td>
 <td>
-<input id="c12" type="checkbox" name="sel[]" value="90"/>
+<input id="c13" type="checkbox" name="sel[]" value="90"/>
+=======
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (75)</a>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+<td>
+<input id="c10" type="checkbox" name="sel[]" value="10"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (61)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (3)</a>
+</td>
+<td>
+<input id="c14" type="checkbox" name="sel[]" value="75"/>
+=======
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (55)</a>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+<td>
+<input id="c11" type="checkbox" name="sel[]" value="9"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (3)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (36)</a>
+</td>
+<td>
+<input id="c15" type="checkbox" name="sel[]" value="47"/>
+=======
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (7)</a>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+<td>
+<input id="c12" type="checkbox" name="sel[]" value="90"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (6)</a>
+</td>
+<td>
+<input id="c16" type="checkbox" name="sel[]" value="73"/>
+=======
 <a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (36)</a>
 </td>
 <td>
 <input id="c13" type="checkbox" name="sel[]" value="47"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (8)</a>
-</td>
-<td>
-<input id="c14" type="checkbox" name="sel[]" value="73"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
+=======
+<<<<<<< HEAD
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (15)</a>
 </td>
 <td>
+<input id="c17" type="checkbox" name="sel[]" value="121"/>
+=======
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (10)</a>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+<td>
+<input id="c14" type="checkbox" name="sel[]" value="73"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<<<<<<< HEAD
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (15)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (1)</a>
+</td>
+<td>
+<input id="c18" type="checkbox" name="sel[]" value="117"/>
+=======
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (16)</a>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+<td>
 <input id="c15" type="checkbox" name="sel[]" value="121"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </td>
 </tr>
 <tr valign="top">
@@ -657,7 +1022,19 @@ setInterval(function(){
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (1)</a>
 </td>
 <td>
+<<<<<<< HEAD
+<input id="c19" type="checkbox" name="sel[]" value="39"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=32" style="color:#000;">Регби (1)</a>
+</td>
+<td>
+<input id="c20" type="checkbox" name="sel[]" value="32"/>
+=======
 <input id="c16" type="checkbox" name="sel[]" value="117"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </td>
 </tr>
 <tr valign="top">
@@ -681,12 +1058,54 @@ setInterval(function(){
 <a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (3)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c19" type="checkbox" name="sel[]" value="85"/>
+=======
+<<<<<<< HEAD
+<input id="c21" type="checkbox" name="sel[]" value="85"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (25)</a>
+</td>
+<td>
+<input id="c22" type="checkbox" name="sel[]" value="46"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (24)</a>
+</td>
+<td>
+<input id="c23" type="checkbox" name="sel[]" value="96"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (25)</a>
+</td>
+<td>
+<input id="c24" type="checkbox" name="sel[]" value="4"/>
+=======
+<input id="c17" type="checkbox" name="sel[]" value="85"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (20)</a>
+=======
+<<<<<<< HEAD
+<a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (2)</a>
+</td>
+<td>
+<input id="c25" type="checkbox" name="sel[]" value="33"/>
+=======
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (16)</a>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 <td>
 <input id="c20" type="checkbox" name="sel[]" value="46"/>
@@ -729,7 +1148,12 @@ setInterval(function(){
 <a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (2)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c25" type="checkbox" name="sel[]" value="11"/>
+=======
+<input id="c23" type="checkbox" name="sel[]" value="11"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -737,14 +1161,36 @@ setInterval(function(){
                 {
                     if(checked==0) checked=1;
                     else checked=0;
+<<<<<<< HEAD
                     for(var ci=0;ci<26;ci++)
+=======
+<<<<<<< HEAD
+                    for(var ci=0;ci<26;ci++)
+                        document.getElementById('c'+ci).checked=checked;
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1561)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1561)</a>'
+                }
+                </script><tr><td nowrap colspan=2 align=left>
+<a href='/betting/outright'><b>Долгосрочные ставки</b></a>
+</td></tr><tr><td colspan=2 id="selall" align="middle"><a href="javascript:selall();">Выбрать все (1561)</a></td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1> </td>
+=======
+                    for(var ci=0;ci<24;ci++)
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
                         document.getElementById('c'+ci).checked=checked;
                     if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1204)</a>';
                     else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1204)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
+<<<<<<< HEAD
 </td></tr><tr><td colspan=2 id="selall" align="middle"><a href="javascript:selall();">Выбрать все (1204)</a></td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1> </td>
+=======
+</td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1></td></tr>
+<tr><td colspan=2 id='selall' align=middle>
+<a href='javascript:selall();'>Выбрать все (1195)</a> </div>
+</td>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </tr>
 <input type="hidden" name="page" value="line"/>
 <input type="hidden" name="action" value="1"/>
@@ -753,16 +1199,35 @@ setInterval(function(){
 </td>
 </tr>
 </table>
+<<<<<<< HEAD
 </div>
 </td>
 <TD class=central_td vAlign=top>
 <center><H1>
 Линия на 06.12.2016 </H1>
+=======
+<<<<<<< HEAD
+</div>
+</td>
+<TD class=central_td vAlign=top>
+<center><H1>
+Линия на 07.12.2016 </H1>
+=======
+</td>
+<TD class=central_td vAlign=top>
+<center><H1>
+Линия на 04.12.2016 </H1>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 <div style="width:99%" align="left">
 <form id="timefilter_form" style="margin:0;padding:0;" action="index.php" method="post">
 <input type="hidden" name="page" value="line"/>
 <input type="hidden" name="action" value="1"/>
+<<<<<<< HEAD
+<input type="hidden" name="sel[]" value="2"/> Показать матчи, начинающиеся <select class="loginbox" name="time" onchange="$('#timefilter_form').submit()">
+=======
 <input type="hidden" name="sel[]" value="1"/> Показать матчи, начинающиеся <select class="loginbox" name="time" onchange="$('#timefilter_form').submit()">
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 <option value="0" selected="selected">в любое время</option>
 <option value="2">в ближайшие 2 часа</option>
 <option value="6">в ближайшие 6 часов</option>
@@ -781,6 +1246,16 @@ setInterval(function(){
 <td style="width:20px" align=center valign="middle">
 <input type="checkbox" data-type="next" onclick="javascript:set_check(0,v0,this.checked);"/>
 </td>
+<<<<<<< HEAD
+<td class="smwndcap" colspan="2" align="center" valign="middle">Хоккей</td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<input class="selchamp" type="checkbox" value="354_Хоккей. NHL. Регулярный чемпионат" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a style="color:#882211;" href="index.php?page=line&action=2&sel[]=354">NHL. Регулярный чемпионат</a>
+=======
 <td class="smwndcap" colspan="2" align="center" valign="middle">Футбол</td>
 </tr>
 <tr>
@@ -836,7 +1311,45 @@ setInterval(function(){
 <input class="selchamp" type="checkbox" value="11676_Футбол. Франция. Лига 1" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
+<<<<<<< HEAD
 <a style="color:#882211;" href="index.php?page=line&action=2&sel[]=11676">Франция. Лига 1</a>
+=======
+<a style="color:#800000;" href="index.php?page=line&action=2&sel[]=11676">Франция. Лига 1</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr class="bg">
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="1928636_Хоккей. КХЛ. Регулярный чемпионат" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a style="color:#882211;" href="index.php?page=line&action=2&sel[]=1928636">КХЛ. Регулярный чемпионат</a>
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center" valign="middle"><hr class="hr2"/></td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<input class="selchamp" type="checkbox" value="1865969_Хоккей. AHL. Регулярный чемпионат" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=1865969">AHL. Регулярный чемпионат</a>
+=======
+<input class="selchamp" type="checkbox" value="11657_Футбол. Россия. Премьер-лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a style="color:#800000;" href="index.php?page=line&action=2&sel[]=11657">Россия. Премьер-лига</a>
+</td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<input class="selchamp" type="checkbox" value="13979_Футбол. Россия. Премьер-лига. Статистика" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a style="color:#800000;" href="index.php?page=line&action=2&sel[]=13979">Россия. Премьер-лига. Статистика</a>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr class="bg">
@@ -856,106 +1369,377 @@ setInterval(function(){
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&action=2&sel[]=11720">Австрия. Бундеслига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
 <input class="selchamp" type="checkbox" value="2897187_Футбол. Алжир. 1-я лига" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&action=2&sel[]=2897187">Алжир. 1-я лига</a>
-</td>
-</tr>
-<tr>
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="2897185_Футбол. Алжир. 2-я лига" name="sel[]"/>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="124752_Хоккей. OHL. Регулярный чемпионат" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=2897185">Алжир. 2-я лига</a>
-</td>
-</tr>
-<tr class="bg">
-<td style="width:20px" align="center" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=124752">OHL. Регулярный чемпионат</a>
+=======
 <input class="selchamp" type="checkbox" value="2018137_Футбол. Англия. Национальная лига" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&action=2&sel[]=2018137">Англия. Национальная лига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="11665_Футбол. Англия. Чемпион-лига" name="sel[]"/>
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="2897185_Футбол. Алжир. 2-я лига" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=11665">Англия. Чемпион-лига</a>
-</td>
-</tr>
-<tr class="bg">
-<td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="11666_Футбол. Англия. 1-я лига" name="sel[]"/>
+<a href="index.php?page=line&action=2&sel[]=2897185">Алжир. 2-я лига</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="21947_Хоккей. WHL. Регулярный чемпионат" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=11666">Англия. 1-я лига</a>
-</td>
-</tr>
-<tr>
-<td style="width:20px" align="center" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=21947">WHL. Регулярный чемпионат</a>
+=======
 <input class="selchamp" type="checkbox" value="11667_Футбол. Англия. 2-я лига" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&action=2&sel[]=11667">Англия. 2-я лига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="2018137_Футбол. Англия. Национальная лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=2018137">Англия. Национальная лига</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="2859014_Хоккей. Альпийская хоккейная лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=2859014">Альпийская хоккейная лига</a>
+=======
 <input class="selchamp" type="checkbox" value="14433_Футбол. Аргентина. Насьональ B" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&action=2&sel[]=14433">Аргентина. Насьональ B</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="506377_Хоккей. ВХЛ. Регулярный чемпионат" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=506377">ВХЛ. Регулярный чемпионат</a>
+=======
 <input class="selchamp" type="checkbox" value="2908360_Футбол. Аргентина. Примера B Метрополитана" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&action=2&sel[]=2908360">Аргентина. Примера B Метрополитана</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="743716_Хоккей. Лига чемпионов. 1/4 финала. Первые матчи" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=743716">Лига чемпионов. 1/4 финала. Первые матчи</a>
+=======
 <input class="selchamp" type="checkbox" value="11669_Футбол. Аргентина. Примера дивизион" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&action=2&sel[]=11669">Аргентина. Примера дивизион</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="11665_Футбол. Англия. Чемпион-лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=11665">Англия. Чемпион-лига</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="2825_Хоккей. Чемпионат Австрии" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=2825">Чемпионат Австрии</a>
+=======
+<input class="selchamp" type="checkbox" value="13989_Футбол. Армения. Премьер-лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=13989">Армения. Премьер-лига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+</tr>
+<tr class="bg">
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="11666_Футбол. Англия. 1-я лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=11666">Англия. 1-я лига</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="518_Хоккей. Чемпионат Германии" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=518">Чемпионат Германии</a>
+=======
+<input class="selchamp" type="checkbox" value="14530_Футбол. Бельгия. 2-й дивизион" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=14530">Бельгия. 2-й дивизион</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="11667_Футбол. Англия. 2-я лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=11667">Англия. 2-я лига</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="517266_Хоккей. Чемпионат Германии. 2-я лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=517266">Чемпионат Германии. 2-я лига</a>
+=======
 <input class="selchamp" type="checkbox" value="2784203_Футбол. Бельгия. Высшая лига" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&action=2&sel[]=2784203">Бельгия. Высшая лига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="11722_Футбол. Германия. 2-я бундеслига" name="sel[]"/>
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="14433_Футбол. Аргентина. Насьональ B" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=11722">Германия. 2-я бундеслига</a>
+<a href="index.php?page=line&action=2&sel[]=14433">Аргентина. Насьональ B</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="520_Хоккей. Чемпионат Норвегии" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=520">Чемпионат Норвегии</a>
+=======
+<input class="selchamp" type="checkbox" value="11761_Футбол. Болгария. Группа А" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=11761">Болгария. Группа А</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
-<input class="selchamp" type="checkbox" value="11682_Футбол. Германия. 3-я лига" name="sel[]"/>
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="2908360_Футбол. Аргентина. Примера B Метрополитана" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
-<a href="index.php?page=line&action=2&sel[]=11682">Германия. 3-я лига</a>
+<a href="index.php?page=line&action=2&sel[]=2908360">Аргентина. Примера B Метрополитана</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="1607225_Хоккей. Чемпионат Словакии. Экстралига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=1607225">Чемпионат Словакии. Экстралига</a>
+=======
+<input class="selchamp" type="checkbox" value="11816_Футбол. Боливия. LFPB. Апертура" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=11816">Боливия. LFPB. Апертура</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="11669_Футбол. Аргентина. Примера дивизион" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=11669">Аргентина. Примера дивизион</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="1620967_Хоккей. Чемпионат Финляндии. Высшая лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=1620967">Чемпионат Финляндии. Высшая лига</a>
+=======
+<input class="selchamp" type="checkbox" value="1274069_Футбол. Босния и Герцеговина. Премьер-лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=1274069">Босния и Герцеговина. Премьер-лига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="2784203_Футбол. Бельгия. Высшая лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=2784203">Бельгия. Высшая лига</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="483_Хоккей. Чемпионат Франции" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=483">Чемпионат Франции</a>
+=======
+<input class="selchamp" type="checkbox" value="586175_Футбол. Венгрия. Лига NB II" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=586175">Венгрия. Лига NB II</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+</td>
+</tr>
+<tr class="bg">
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="118636_Хоккей. Чемпионат Чехии. 1-я лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=118636">Чемпионат Чехии. 1-я лига</a>
+=======
+<input class="selchamp" type="checkbox" value="18860_Футбол. Гватемала. Плей-офф. 1/4 финала. Ответные матчи" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=18860">Гватемала. Плей-офф. 1/4 финала. Ответные матчи</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="1607421_Хоккей. Чемпионат Чехии. Экстралига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=1607421">Чемпионат Чехии. Экстралига</a>
+=======
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+<input class="selchamp" type="checkbox" value="11722_Футбол. Германия. 2-я бундеслига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=11722">Германия. 2-я бундеслига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="7839_Хоккей. Чемпионат Швейцарии. Национальная Лига B" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=7839">Чемпионат Швейцарии. Национальная Лига B</a>
+=======
+<input class="selchamp" type="checkbox" value="11682_Футбол. Германия. 3-я лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=11682">Германия. 3-я лига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<<<<<<< HEAD
+=======
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="8251_Хоккей. Чемпионат Швейцарии. Национальная Лига А" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=8251">Чемпионат Швейцарии. Национальная Лига А</a>
+=======
+<input class="selchamp" type="checkbox" value="24671_Футбол. Гондурас. LNP. Плей-офф. 1/2 финала. Ответные матчи" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=24671">Гондурас. LNP. Плей-офф. 1/2 финала. Ответные матчи</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr class="bg">
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="2892878_Хоккей. Чемпионат Швеции. SHL" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=2892878">Чемпионат Швеции. SHL</a>
+=======
+<input class="selchamp" type="checkbox" value="649034_Футбол. Гонконг. Премьер-лига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=649034">Гонконг. Премьер-лига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="6364_Хоккей. Чемпионат Швеции. Аллсвенскан" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=6364">Чемпионат Швеции. Аллсвенскан</a>
+=======
+<input class="selchamp" type="checkbox" value="11757_Футбол. Греция. Суперлига" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=11757">Греция. Суперлига</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
+<tr class="bg">
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp" type="checkbox" value="2892950_Хоккей. Чемпионат Швеции. ХоккиЭттан" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&action=2&sel[]=2892950">Чемпионат Швеции. ХоккиЭттан</a>
+</td>
+</tr><script type="text/javascript">var v0 = 22;</script><script type="text/javascript">var v1 = 31;</script>
+<tr class="m_c" align="middle">
+<td style="width:20px" align="center" valign="middle">
+<input type="checkbox" data-type="outright" onclick="javascript:set_check(22,v1,this.checked);"/>
+</td>
+<td class="smwndcap" colspan="2" align="center" valign="middle">Долгосрочные ставки</td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<input class="selchamp is_outright" type="checkbox" value="1672951_Хоккей. NHL. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1672951">NHL. Итоги</a>
+=======
 <input class="selchamp" type="checkbox" value="11743_Футбол. Дания. Суперлига" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
@@ -1629,70 +2413,196 @@ setInterval(function(){
 <input class="selchamp is_outright" type="checkbox" value="1643805_Футбол. Швейцария. Суперлига. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
+<<<<<<< HEAD
 <a href="index.php?page=line&addons=1&action=2&sel[]=1643805">Швейцария. Суперлига. Итоги</a>
+=======
+<a href="index.php?page=line&addons=1&action=2&sel[]=1657340">Кубок Италии. Итоги</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
 <input class="selchamp is_outright" type="checkbox" value="1641130_Футбол. Шотландия. 1-я лига. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&addons=1&action=2&sel[]=1641130">Шотландия. 1-я лига. Итоги</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp is_outright" type="checkbox" value="1673942_Хоккей. Чемпионат Австрии. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1673942">Чемпионат Австрии. Итоги</a>
+=======
+<input class="selchamp is_outright" type="checkbox" value="1657325_Футбол. Кубок Нидерландов. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1657325">Кубок Нидерландов. Итоги</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
 <input class="selchamp is_outright" type="checkbox" value="1657322_Футбол. Шотландия. 2-я лига. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&addons=1&action=2&sel[]=1657322">Шотландия. 2-я лига. Итоги</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp is_outright" type="checkbox" value="1673939_Хоккей. Чемпионат Германии. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1673939">Чемпионат Германии. Итоги</a>
+=======
+<input class="selchamp is_outright" type="checkbox" value="1713817_Футбол. Кубок Польши. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1713817">Кубок Польши. Итоги</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
 <input class="selchamp is_outright" type="checkbox" value="1713825_Футбол. Шотландия. Challenge Cup. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&addons=1&action=2&sel[]=1713825">Шотландия. Challenge Cup. Итоги</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp is_outright" type="checkbox" value="2674920_Хоккей. Чемпионат мира (до 20 лет). 2017. Канада. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=2674920">Чемпионат мира (до 20 лет). 2017. Канада. Итоги</a>
+=======
+<input class="selchamp is_outright" type="checkbox" value="2975820_Футбол. Кубок Румынии. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=2975820">Кубок Румынии. Итоги</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
 <input class="selchamp is_outright" type="checkbox" value="1643785_Футбол. Шотландия. Премьер-лига. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&addons=1&action=2&sel[]=1643785">Шотландия. Премьер-лига. Итоги</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp is_outright" type="checkbox" value="2381729_Хоккей. Чемпионат мира 2017. Германия-Франция. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=2381729">Чемпионат мира 2017. Германия-Франция. Итоги</a>
+=======
+<input class="selchamp is_outright" type="checkbox" value="2879364_Футбол. Россия. Кубок России. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=2879364">Россия. Кубок России. Итоги</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
 <input class="selchamp is_outright" type="checkbox" value="1643786_Футбол. Шотландия. Чемпион-лига. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&addons=1&action=2&sel[]=1643786">Шотландия. Чемпион-лига. Итоги</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp is_outright" type="checkbox" value="1673139_Хоккей. Чемпионат Финляндии. Высшая лига. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1673139">Чемпионат Финляндии. Высшая лига. Итоги</a>
+=======
+<input class="selchamp is_outright" type="checkbox" value="2936771_Футбол. Трофей Английской лиги. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=2936771">Трофей Английской лиги. Итоги</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr>
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
 <input class="selchamp is_outright" type="checkbox" value="2853477_Футбол. ЮАР. 1-й дивизион. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&addons=1&action=2&sel[]=2853477">ЮАР. 1-й дивизион. Итоги</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp is_outright" type="checkbox" value="1672914_Хоккей. Чемпионат Финляндии. Местис. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1672914">Чемпионат Финляндии. Местис. Итоги</a>
+=======
+<input class="selchamp is_outright" type="checkbox" value="1713818_Футбол. Франция. Кубок Лиги. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1713818">Франция. Кубок Лиги. Итоги</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr>
 <tr class="bg">
 <td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
 <input class="selchamp is_outright" type="checkbox" value="1643784_Футбол. ЮАР. Премьер-лига. Итоги" name="sel[]"/>
 </td>
 <td align="left" valign="middle">
 <a href="index.php?page=line&addons=1&action=2&sel[]=1643784">ЮАР. Премьер-лига. Итоги</a>
+=======
+<<<<<<< HEAD
+<input class="selchamp is_outright" type="checkbox" value="1673943_Хоккей. Чемпионат Чехии. Экстралига. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1673943">Чемпионат Чехии. Экстралига. Итоги</a>
+=======
+<input class="selchamp is_outright" type="checkbox" value="1643757_Футбол. Франция. Лига 2. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1643757">Франция. Лига 2. Итоги</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+</td>
+</tr>
+<tr>
+<td style="width:20px" align="center" valign="middle">
+<<<<<<< HEAD
+<input class="selchamp is_outright" type="checkbox" value="1672956_Хоккей. Чемпионат Швейцарии. Национальная Лига А. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1672956">Чемпионат Швейцарии. Национальная Лига А. Итоги</a>
+=======
+<input class="selchamp is_outright" type="checkbox" value="1713825_Футбол. Шотландия. Challenge Cup. Итоги" name="sel[]"/>
+</td>
+<td align="left" valign="middle">
+<a href="index.php?page=line&addons=1&action=2&sel[]=1713825">Шотландия. Challenge Cup. Итоги</a>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 </td>
 </tr> </table>
 <br/>
 <center>
 <div id="line_buttons" align="center" style="position:fixed;bottom:0;left:50%;margin-left:-300px;width:600px;padding:10px 0;border-top-left-radius:10px;border-top-right-radius:10px;background-color:rgba(255,255,255,0.8);box-shadow:0 0 10px 0 rgba(0,0,0,0.3);"> <font class="txtmed"><b>Выбор большого количества матчей и доп. ставок приведет к замедлению загрузки линии</b></font>
 <br/> <div style="margin-bottom:5px">
+<<<<<<< HEAD
 <input class="msbtn1" style="width:120px" type="button" value="Выделить все" onclick="javascript:set_check(0,112,1)"/>
+=======
+<<<<<<< HEAD
+<input class="msbtn1" style="width:120px" type="button" value="Выделить все" onclick="javascript:set_check(0,31,1)"/>
+=======
+<input class="msbtn1" style="width:120px" type="button" value="Выделить все" onclick="javascript:set_check(0,126,1)"/>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 <input class="msbtn1" style="width:120px" type="reset" value="Отменить все"/>
 <input class="msbtn1" style="width:120px" type="submit" value="Далее" onclick='javascript:this.disabled=1;this.form.submit();'/>
 </div>
@@ -1825,7 +2735,11 @@ setInterval(function(){
 </script>
 <link type="text/css" rel="stylesheet" href="/img/basket.css?19"/>
 <script src="/img/jquery.modal.js"></script>
+<<<<<<< HEAD
+<script src="/js/basket.js?01"></script>
+=======
 <script src="/js/basket.js?99"></script>
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 <input type="hidden" value="0" name="usersumm" id="usersumm">
 <div class="busket">
 <div class="busket-header">
@@ -1983,6 +2897,13 @@ setInterval(function(){
 					name:      'basket',
 					interval:  10,
 					require:   [ 1,2,3 ],
+<<<<<<< HEAD
+					condition: function()
+					{
+						return $('#betslip-button').hasClass('active');
+					},
+=======
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
 					request:   {
 						'action': 'form',
 						'currpage': $('input[name="currpage"]').val(),
@@ -2016,7 +2937,7 @@ window.__lc.visitor = {
 };
 window.__lc.params = [
   { name: 'Status', value: 'Not Authorized' },
-  { name: 'URL', value: 'http://olimp.kz/betting/soccer' },
+  { name: 'URL', value: 'http://olimp.kz/betting/hockey' },
   { name: 'Domain', value: 'kz' },
   { name: 'Type', value: 'Website' },
   { name: 'Lang', value: 'Русский' }
@@ -2092,8 +3013,17 @@ Script Errors: 0
 Script Warnings: 0
 Total time: 0.025 s
 DataBase time(1): 0 s
+<<<<<<< HEAD
 DataBase time(2): 0.016 s
 Served by: s88
+=======
+DataBase time(2): 0.014 s
+<<<<<<< HEAD
+Served by: s57
+=======
+Served by: s62
+>>>>>>> 8144b69d2be56aac305fe96ed089bdb5e09979cc
+>>>>>>> 2baab5e5cc186f1f6e8c16739e25e491ff7fb079
 C: true
 VK_I8Ud3
 </div>

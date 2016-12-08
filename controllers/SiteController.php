@@ -15,7 +15,8 @@ use app\models\Country;
 use app\models\TypeSobitiya;
 use app\models\User;
 use app\models\Usertwo;
-
+use app\models\Ruletka;
+use app\models\Roulette;
 class SiteController extends Controller
 {
 
@@ -39,7 +40,9 @@ $this->actionStatus2($login);
  public function actionOnline(){
 	   return $this->render('online');
   }
-
+ public function actionPoker(){
+	   return $this->render('poker');
+  }
 protected function actionStatus2($login){
 $time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
 			//если прошло более три дня тогда результат будет больше того, что хранится в базе 
@@ -228,6 +231,23 @@ return $this->refresh();
 
     public function actionIndex()
     {
+$user_agent = $_SERVER["HTTP_USER_AGENT"];
+  if (strpos($user_agent, "Firefox") !== false) $browser = "Firefox";
+  elseif (strpos($user_agent, "Opera") !== false) $browser = "Opera";
+  elseif (strpos($user_agent, "Chrome") !== false) $browser = "Chrome";
+  elseif (strpos($user_agent, "MSIE") !== false) $browser = "Internet Explorer";
+  elseif (strpos($user_agent, "Safari") !== false) $browser = "Safari";
+  else $browser = "Неизвестный";
+  //echo "Ваш браузер: $browser";
+  if($browser == "Internet Explorer"){
+	   $this->layout = 'explorers';
+	  return $this->render('explorer');
+	  
+	  
+  }
+		
+		
+		
 	 $this->layout = 'main2';
 		$page='index';
         return $this->render('index');
@@ -651,9 +671,111 @@ $this->layout = 'main3';
 
        
     }
+ public function actionOnlineajax(){
+	 $identity = \Yii::$app->user->identity;
+	 if($identity){
+		 $res_id = $identity['id'];
+	 }else{
+		 echo "nouser";exit();
+	 }
+	 //
+	 
+	$session =Yii::$app->session;
+        $session->open();
+	$option=trim(strip_tags($_POST['param2']));
+	
+if($option == 'number4'){
+$summ=trim(strip_tags($_POST['summa']));
+//$time = time() - (3600 * 24 * 3);
+$time = time();
+
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka4 = $tring;
+		$model->summastavka4=$summ;
+		$model->timer=$time;
+        $model->save(false);
+		   
+array_push($_POST['param'], $summ);
+
+//$_SESSION['stavka']['number4'][]=$_POST['param'];
+echo "ok";exit();
+}
+if($option == 'number2'){
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka2 = $tring;
+		$model->summastavka2=$summ;
+        $model->save(false);
+		   	
+	
+	array_push($_POST['param'], $summ);
+//$_SESSION['stavka']['number2'][]=$_POST['param'];
+echo "ok";exit();
+}
+if($option == 'baza'){
+
+$user_stavka = Ruletka::find()->asArray()->where("id_user=$res_id")->limit(1)->one();
+$name='activ';
+  $success_result=Roulette::find()->asArray()->where("status='{$name}'")->limit(1)->one();
+$number_success=$success_result['number'];
+if($success_result){
+$arr=explode(',',$user_stavka['stavka4']);
+if(in_array($number_success,$arr)){
+
+	//$user_stavka[4]=$number_success;
+	//print_r($_SESSION['s']);exit();
+	
+		//$_SESSION['stavka']['number4'][]=$arr;
+		if($_SESSION['s']){
+	if(in_array($user_stavka['stavka4'],$_SESSION['s'])){
+		
+	}else{
+		
+		$arr[4]=$number_success;
+		$arr[5]=$user_stavka['summastavka4'];
+		$_SESSION['stavka']['number4'][]=$arr;
+		$_SESSION['s'][]=$user_stavka['stavka4'];
+		
+	}
+		}else{
+			
+		$_SESSION['s'][]=$user_stavka['stavka4'];
+		$arr[4]=$number_success;
+		$arr[5]=$user_stavka['summastavka4'];
+		$_SESSION['stavka']['number4'][]=$arr;
+		$_SESSION['s'][]=$user_stavka['stavka4'];
+			
+		}
+}
 
 
 
+echo "ok";exit();
+}else{
+	 $file = fopen('log.txt', 'w+');
+  $date=date("d m Y H:i:s");
+$write = fwrite($file, "не пришел запрос с базы выигрышное число: ".$date);
+}
+
+
+	
+}//baza
+
+
+if($option == 'statistika'){
+
+	 $session =\Yii::$app->session;
+		      $session->open();
+	 $this->layout = false;
+	 return $this->render('cart-modal', compact('session'));
+}
+
+
+ }
     public function actionLivep(){
 
         return $this->render("live_result");
