@@ -702,28 +702,38 @@ p1.append("<div class='clearfix'></div>");
 						//p1.append(fix55 + "<br>");
 						//console.log(string25);
 						//console.log(string24);
-								
+								   
 							
 							//p1.append(string21 + string22 + " | " + string23 + string24 + "<br>");
+var regV =/мен/i;					
+var t=string21.match(regV);
+if(t){
+var kan1 = '<div class="col-md-4 blok2-livep"> <div class="tit g" n="' + namear[0] + '"  ant="' + string21 + '" anttwo="' + string22 + '">' + string21 +' ' + string22 + '</div></div>';
 
+}else{
 var gr = '<div class="col-md-4 blok2-livep"> <div class="tit g" n="' + namear[0] + '"  ant="' + string21 + '" anttwo="' + string22 + '">' + string21 +' ' + string22 + '</div></div>';
+}
 
-var gr2 = '<div class="col-md-8 total"> <div class="tit" style="text-align:center" n="' + namear[0] + '"  ant="' + string23 + '" anttwo="' + string24 + '">' + string23 + ' ' + string24 + '</div></div>';
+if(string23 != ""){
+kan1 += '<div class="col-md-8 total"> <div class="tit" style="text-align:center" n="' + namear[0] + '"  ant="' + string23 + '" anttwo="' + string24 + '">' + string23 + ' ' + string24 + '</div></div>';
+}
 			p1.append(gr);
 
 
 			if(string21){
-				$('.blok2-livep').addClass('blok3-livep');		
-     
+				$('.blok2-livep').addClass('blok3-livep');
+				
+   
 
      if(string23 != ""){
-     		p1.append(gr2);
+		   p1.append("<div class='clearfix'></div>");
+     		p1.append(kan1);
      }
 			
 
 
 
-			p1.append("<div class='clearfix'></div>");
+			
 			}
 						
 
