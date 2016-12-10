@@ -809,8 +809,9 @@ $_SESSION['s'][]=$item[$keys1];
 }else{
 		$arr=array();
 		$arr[1]=$number_success;
-		$arr[2][]=$item;
+		
 	for($i=0; $i < count($arrb); $i++){
+		$arr[2]=$item[$arrb1[$i]];
 		$z=$item[$arrb[$i]].$item['timer'];
 if($item[$arrb[$i]]){$arr[0]=$item[$arrb[$i]];$_SESSION['stavka'][$arrb[$i]][]=$arr;$_SESSION['s'][]=$z;}			
 		

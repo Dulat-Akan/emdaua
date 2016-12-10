@@ -1,11 +1,11 @@
 $(document).ready(function() {
-	var time_start=30;//время ставок
+	var time_start=60;//время ставок
 	var seconds2=60;//время обратного отчета или блокировки
 	var baza_check=2;//за две минуты до старта проверить базу, число 2 можно изменить
 	
 	
 	
-	
+	var time_stop=seconds2//time_stop должно быть равно seconds2
 	//alert($('.header-side').css('width'));
 	var count1=-1;
 	var count2=-1;
@@ -874,7 +874,7 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 		seconds2--;
 		$('.time2').html('<span>до начало ставок </span>'+seconds2);
 		
-		if(seconds2==baza_check){//проверяем базу на наличие выигрышного номера
+		if(seconds2 == baza_check){//проверяем базу на наличие выигрышного номера
 			          var patch=$('.patchonlinepage').val();
 				$.ajax({
 		                    "type":"POST",
@@ -901,7 +901,7 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 		
 		
 		if(seconds2==0){
-			seconds2=10;
+			seconds2 = time_stop;
 		$('.time2').html('');	
 			clearInterval(time2);
 		$('.cubeoverlay').removeClass('cube-overlay');
