@@ -672,29 +672,35 @@ $this->layout = 'main3';
        
     }
  public function actionOnlineajax(){
+	
+	 $option=trim(strip_tags($_POST['param2']));
 	 $identity = \Yii::$app->user->identity;
 	 if($identity){
 		 $res_id = $identity['id'];
 	 }else{
+		 if($option == 'statistika'){
+			 $this->layout = false;
+			  return $this->render('cart-modal');
+		 }
 		 echo "nouser";exit();
 	 }
 	 //
 	 
 	$session =Yii::$app->session;
         $session->open();
-	$option=trim(strip_tags($_POST['param2']));
+	
 	
 if($option == 'number4'){
 $summ=trim(strip_tags($_POST['summa']));
 //$time = time() - (3600 * 24 * 3);
-$time = time();
+
 
 	$model = new Ruletka();
 			 $model->id_user = $res_id;
    $tring=implode(",", $_POST['param']);
         $model->stavka4 = $tring;
 		$model->summastavka4=$summ;
-		$model->timer=$time;
+		$model->timer=time();
         $model->save(false);
 		   
 array_push($_POST['param'], $summ);
@@ -703,12 +709,15 @@ array_push($_POST['param'], $summ);
 echo "ok";exit();
 }
 if($option == 'number2'){
+	
 $summ=trim(strip_tags($_POST['summa']));
+
 	$model = new Ruletka();
 			 $model->id_user = $res_id;
    $tring=implode(",", $_POST['param']);
         $model->stavka2 = $tring;
 		$model->summastavka2=$summ;
+		$model->timer=time();
         $model->save(false);
 		   	
 	
@@ -716,82 +725,98 @@ $summ=trim(strip_tags($_POST['summa']));
 //$_SESSION['stavka']['number2'][]=$_POST['param'];
 echo "ok";exit();
 }
+if($option == 'number_2k1'){
+	
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka2k1 = $tring;
+		$model->summastavka2k1=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
+}
+if($option == 'number_2k1_middle'){
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka2k1middle = $tring;
+		$model->summastavka2k1middle=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
+}
+if($option == 'number_2k1_bottom'){
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka2k1bottom = $tring;
+		$model->summastavka2k1bottom=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
+}
+
+
+
 if($option == 'baza'){
-
-$user_stavka = Ruletka::find()->asArray()->where("id_user=$res_id AND status='activ'")->all();
-
+unset($_SESSION['s']);
+unset($_SESSION['stavka']);
+$timet = time() - (3600 * 24 * 1);
+$user_stavka = Ruletka::find()->orderBy(['id' => SORT_ASC])->asArray()->where("id_user=$res_id AND timer > $timet")->all();
+//print_r($user_stavka);exit();
 $name='activ';
-  $success_result=Roulette::find()->asArray()->where("status='{$name}'")->limit(1)->one();
+  $success_result1=Roulette::find()->asArray()->all();
+   $last=count($success_result1);
+  $success_result=$success_result1[$last-1];
+   
+  //print_r($success_result);exit();
+   
+ 
+  
 $number_success=$success_result['number'];
 if($success_result){
 //$arr=explode(',',$user_stavka['stavka4']);
+
+$arrb=array('stavka4','stavka2','stavka2k1','stavka2k1middle','stavka2k1bottom');
+$arrb1=array('summastavka4','summastavka2','summastavka2k1','summastavka2k1middle','summastavka2k1bottom');
 foreach($user_stavka as $item){
+if($_SESSION['s']){
+for($i=0; $i < count($arrb); $i++){
+$znah1=$item[$arrb[$i]];
+$keys1 = array_search($znah1,$item);
+$keys25=$keys1.$item['timer'];	
+	if($item[$keys1]){
 	
+if(in_array($keys25,$_SESSION['s'])){
 	
-		if($_SESSION['s']){
-			if($item['stavka4']){
-				
-				//$arr=explode(',',$item['stavka4']);
-				//print_r($_SESSION['s']);exit();
-			if(in_array($item['stavka4'],$_SESSION['s'])){
-				
-				
-				//echo 600;exit();
-			}else{
-				//echo $number_success;exit();
-		$_SESSION['s'][]=$item['stavka4'];
-		$arr=explode(',',$item['stavka4']);
-		$arr[4]=$number_success;
-		$arr[5]=$item['summastavka4'];
-			
-		$_SESSION['stavka']['number4'][]=$arr;
+}else{
+$arr[1]=$number_success;	
+$arr[0]=$item[$keys1];
+$arr[2]=$item[$arrb1[$i]];
+$_SESSION['stavka'][$keys1][]=$arr;
+
+$_SESSION['s'][]=$item[$keys1];		
 				
 			}
 			}//4
-			
-			if($item['stavka2']){
-				
-					if(in_array($item['stavka2'],$_SESSION['s'])){
-						//echo 800;exit();
-					}else{
-						
-							if($item['stavka2']){
-		$_SESSION['s'][]=$item['stavka2'];
-		$arr=explode(',',$item['stavka2']);
-		$arr[2]=$number_success;
-		$arr[3]=$item['summastavka2'];
-			
-		$_SESSION['stavka']['number2'][]=$arr;
+	unset($znah1);
+	unset($keys1);
+}
+}else{
+		$arr=array();
+		$arr[1]=$number_success;
+		$arr[2][]=$item;
+	for($i=0; $i < count($arrb); $i++){
+		$z=$item[$arrb[$i]].$item['timer'];
+if($item[$arrb[$i]]){$arr[0]=$item[$arrb[$i]];$_SESSION['stavka'][$arrb[$i]][]=$arr;$_SESSION['s'][]=$z;}			
 		
-			}
-						
-					}
-				
-			}
-			
-		}else{
-			//echo 48;exit();
-		if($item['stavka4']){
-		$_SESSION['s'][]=$item['stavka4'];
-		$arr=explode(',',$item['stavka4']);
-		$arr[4]=$number_success;
-		$arr[5]=$item['summastavka4'];
-			
-		$_SESSION['stavka']['number4'][]=$arr;
+}
 		
-			}
-			if($item['stavka2']){
-		$_SESSION['s'][]=$item['stavka2'];
-		$arr=explode(',',$item['stavka2']);
-		$arr[2]=$number_success;
-		$arr[3]=$item['summastavka2'];
-			
-		$_SESSION['stavka']['number2'][]=$arr;
-		
-			}
-			
-			
-		}
+}
 		
 		
 	
@@ -803,6 +828,15 @@ foreach($user_stavka as $item){
 
 
 
+
+if((int)trim($_SESSION['ses_count'][0]) == (int) trim(count($_SESSION['s']))){
+	echo "ok";exit();
+}else{
+	
+	$_SESSION['ses_count'][0]=count($_SESSION['s']);
+	//echo trim(count($_SESSION['s']));exit();
+	echo 'ok2';exit();
+}
 
 
 echo "ok";exit();

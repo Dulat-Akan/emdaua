@@ -1,9 +1,7 @@
 $(document).ready(function() {
-	
-	
-	
-	
-
+	var time_start=30;//время ставок
+	var seconds2=60;//время обратного отчета или блокировки
+	var baza_check=2;//за две минуты до старта проверить базу, число 2 можно изменить
 	
 	
 	
@@ -17,6 +15,150 @@ $(document).ready(function() {
 	var n;
 		var number_arr=new Array();
 	var arrnumber4=new Array();//массив для хранения выборки по четыре цифре
+	var obj = $('#cube .y');
+	
+	
+/*----------------------------------начало считывания боковых 2 к 1----------------------------------------------------*/
+var array_2k1 =	new Array();
+array_2k1=[3,6,9,12,15,18,21,24,27,30,33,36,36];
+
+var array1_2k1 =	new Array();
+array1_2k1=[2,5,8,11,14,17,20,23,26,29,32,35,35];
+
+var array2_2k1 =	new Array();
+array2_2k1=[1,4,7,10,13,16,19,22,25,28,31,34,34];
+
+var arrnumber_2k1=new Array();
+$('.header-side-in div').click(function(){
+	var texts=$(this).text();
+	texts=$.trim(texts);
+	var attrid=$(this).attr('id');
+	if(attrid){
+	if($('#cube #'+attrid).index() == $(this).index()){
+		
+		if(attrid=='first'){
+		for(var i=0; i < array_2k1.length; i++ ){
+			arrnumber_2k1[i]=array_2k1[i];
+		}
+			
+		}
+		
+		if(attrid=='middle'){
+		for(var i=0; i < array1_2k1.length; i++ ){
+			arrnumber_2k1[i]=array1_2k1[i];
+		}
+			
+		}
+		if(attrid=='bottom'){
+		for(var i=0; i < array2_2k1.length; i++ ){
+			arrnumber_2k1[i]=array2_2k1[i];
+		}
+			
+		}
+	
+		
+					//очищение экрана
+		 $('div.y').each(function(){
+				var rgb=$(this).find('p').css('backgroundColor');
+		     var regV=/[\d]+/gi;
+			 var result=$.trim(rgb.match(regV));
+			 if(result == '255,0,0'){
+					//alert(14)
+				$(this).find('p').css({'backgroundColor':'#FE4332','border':'none'});
+				
+			}
+			if(result == '0,0,0'){
+				$(this).find('p').css({'backgroundColor':'#373636','border':'none'});
+				
+			}
+				
+			})
+	
+	 var counter=-1;
+			 obj.each(function(){
+			 counter++;
+				
+				var number=$(this).text();
+					if(number== 36){
+					//alert(counter);return false;
+				}
+				
+				
+		if(in_array($.trim(number),arrnumber_2k1)){
+		
+		
+			var index = counter;
+					var result_2k1=obj.eq(index).find('p');
+					
+	var rgb=result_2k1.css('backgroundColor');
+	
+		     var regV=/[\d]+/gi;
+			 var result_color=$.trim(rgb.match(regV));
+	
+	
+if(result_color == '254,67,50'){
+			result_2k1.css({'backgroundColor':'red','border':'5px solid gold'});
+			
+		}
+			if(result_color == '55,54,54'){
+			result_2k1.css({'backgroundColor':'black','border':'5px solid gold'});
+			
+		}
+		
+		}
+			
+		})
+	
+	
+
+		
+		
+	
+		
+	
+
+		//arrnumber_2k1[i]=array_2k1[i];
+		
+	
+			
+	resultarr_2k1();
+		
+		
+		
+	}
+	}
+	
+
+
+	
+	
+	
+	
+	
+			
+		
+			
+			
+		
+	
+	
+	
+	
+	
+})
+
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
 /*--------------начало функции считывания двух чисел-----------------------------------*/	
 	$('#cube .s .s-in').click(function(){
 	
@@ -33,7 +175,8 @@ $(document).ready(function() {
 	    var results_prev=$.trim(rgb_prev.match(regV));
 		 var results_next=$.trim(rgb_next.match(regV));
 		 //alert(results);alert(results_next);
-		 /*--
+		
+		//очищение экрана
 		 $('div.y').each(function(){
 				var rgb=$(this).find('p').css('backgroundColor');
 		     var regV=/[\d]+/gi;
@@ -49,17 +192,31 @@ $(document).ready(function() {
 			}
 				
 			})
-		---*/
+		
 		//alert(results_next);
 		
-			if(results_prev == '255,0,0' || results_prev == '0,0,0'){
-		//prev.css({'backgroundColor':'red','border':'5px solid gold'});
+			if(results_prev == '255,0,0'){
+		prev.css({'backgroundColor':'red','border':'5px solid gold'});
 			
 		}
-		else if(results_next == '255,0,0' || results_next == '0,0,0'){
+			if(results_prev == '0,0,0'){
+		prev.css({'backgroundColor':'black','border':'5px solid gold'});
 			
+		}
+		
+		
+		if(results_next == '0,0,0'){
+			next.css({'backgroundColor':'black','border':'5px solid gold'});
 			
-		}else{
+		}
+			if(results_next == '255,0,0'){
+			
+			next.css({'backgroundColor':'red','border':'5px solid gold'});
+		}
+		
+		
+		
+		
 			if(results_next == '254,67,50'){
 			next.css({'backgroundColor':'red','border':'5px solid gold'});
 			
@@ -90,7 +247,7 @@ $(document).ready(function() {
 	resultarr2();
 			
 		}
-		}
+		
 		
 		
 	
@@ -222,9 +379,28 @@ $(document).ready(function() {
 	arr3[21]=31;
 	arr4[21]=34;
 /*-------------------------------вычисляем подсветку для выделения выбранных 4 чисел--------------------------------------------------------*/	
-	var obj = $('#cube .y');
+	
 $('#cube .s .ugol').click(function(){
 	$('input[name=summamodalr]').val("");
+	
+	
+		 $('div.y').each(function(){
+				var rgb=$(this).find('p').css('backgroundColor');
+		     var regV=/[\d]+/gi;
+			 var result=$.trim(rgb.match(regV));
+			 if(result == '255,0,0'){
+					//alert(14)
+				$(this).find('p').css({'backgroundColor':'#FE4332','border':'none'});
+				
+			}
+			if(result == '0,0,0'){
+				$(this).find('p').css({'backgroundColor':'#373636','border':'none'});
+				
+			}
+				
+			})
+	
+	
 	var obj_y1=$(this).parent().prev();
 	var obj_y2=$(this).parent().next();
 		var number1=obj_y1.text();//первое число
@@ -282,7 +458,36 @@ $('#cube .s .ugol').click(function(){
 		//alert(results_obj3_rgb)
 if(results_obj1_rgb=='255,0,0' || results_obj1_rgb=='0,0,0' || results_obj2_rgb=='0,0,0' || results_obj2_rgb=='255,0,0' || results_obj3_rgb=='0,0,0' || results_obj3_rgb=='255,0,0' || results_obj4_rgb=='255,0,0' || results_obj4_rgb=='0,0,0'){
 //если хоть одна занята, тогда невозможно выбрать эту четверку	
-}else{
+}
+	if(results_obj1_rgb=='255,0,0'){
+		obj1.css({'backgroundColor':'red','border':'5px solid blue'});
+	}
+	if(results_obj1_rgb=='0,0,0'){
+		obj1.css({'backgroundColor':'black','border':'5px solid blue'});
+	}
+	
+	if(results_obj2_rgb=='255,0,0'){
+		obj2.css({'backgroundColor':'red','border':'5px solid blue'});
+	}
+	if(results_obj2_rgb=='0,0,0'){
+		obj2.css({'backgroundColor':'black','border':'5px solid blue'});
+	}
+		if(results_obj3_rgb=='255,0,0'){
+		obj3.css({'backgroundColor':'red','border':'5px solid blue'});
+	}
+	if(results_obj3_rgb=='0,0,0'){
+		obj3.css({'backgroundColor':'black','border':'5px solid blue'});
+	}
+	
+		if(results_obj4_rgb=='255,0,0'){
+		obj4.css({'backgroundColor':'red','border':'5px solid blue'});
+	}
+	if(results_obj4_rgb=='0,0,0'){
+		obj4.css({'backgroundColor':'black','border':'5px solid blue'});
+	}
+	
+	
+	
 	
 		if(results_obj1_rgb == '254,67,50'){
 			obj1.css({'backgroundColor':'red','border':'5px solid blue'});
@@ -342,7 +547,7 @@ if(results_obj1_rgb=='255,0,0' || results_obj1_rgb=='0,0,0' || results_obj2_rgb=
 		resultarr4();
 		
 	}
-}
+
 	
 
 
@@ -358,6 +563,29 @@ if(results_obj1_rgb=='255,0,0' || results_obj1_rgb=='0,0,0' || results_obj2_rgb=
 
 
 /*----------------------------------------------------------------------------------------------------------*/
+		
+/*-------------------выводим окно для ввода суммы- первая боковая 2k1----------------------------------*/		
+	
+			
+	function resultarr_2k1(){
+		if(arrnumber_2k1[0]){
+			
+			arrnumber_2k1.pop();
+			var len=arrnumber_2k1.length;
+			$('.modal_r-in').html("<p>вы выбрали" + len + " цифр:</p> ");
+			
+		var str=arrnumber_2k1.join(' ');
+		
+			$('.modalrspan').html(str);
+			
+			overlay.addClass('overlay_a').css({'opacity':'0'});
+			n=setInterval(timer,30);
+			$('#modal_r').show();
+			
+		}
+	}
+	
+	
 	
 /*-------------------выводим окно для ввода суммы-----------------------------------*/
 /*--для двух чисел--*/
@@ -378,7 +606,7 @@ $('#modal_r').show();
 /*--для 4 чисел--*/	
 	function resultarr4(){
 		
-if(arrnumber4[0]){
+
 if(arrnumber4[0]){
 		var len=arrnumber4.length;
 		var number1 = arrnumber4[0];
@@ -396,14 +624,7 @@ $('.modalrspan').html(number1 + " " + number2 + " " + number3 + " " + number4);
 		}
 		
 				
-				
-				
-				//массив с выборками для четырех цифр
-		
-			
-			
-				
-			}
+	
 	}
 		
 	
@@ -422,6 +643,32 @@ $('#modal_r-form').submit(function(e){
 	var patch=$('.patchonlinepage').val();
 				
 	if(summa){
+		
+		if(lennum==12){
+			
+	//arrnumber4[4]=summa;
+	if(arrnumber_2k1[0]==3){
+			var arrnumber= arrnumber_2k1;
+			//alert(7);return false;
+			var options='number_2k1';
+	}
+	
+		if(arrnumber_2k1[0]==2){
+			var arrnumber= arrnumber_2k1;
+			//alert(7);return false;
+			var options='number_2k1_middle';
+	}
+	
+			if(arrnumber_2k1[0]==1){
+				
+			var arrnumber= arrnumber_2k1;
+			//alert(7);return false;
+			var options='number_2k1_bottom';
+	}
+	
+	
+			
+}//4
 		
 	if(lennum==4){
 	//arrnumber4[4]=summa;
@@ -576,6 +823,21 @@ if ((op.toFixed(2) % settings.maxOp) == 0){
 
 }
 $('.modal_r-logout').click(function(){
+		 $('div.y').each(function(){
+				var rgb=$(this).find('p').css('backgroundColor');
+		     var regV=/[\d]+/gi;
+			 var result=$.trim(rgb.match(regV));
+			 if(result == '255,0,0'){
+					//alert(14)
+				$(this).find('p').css({'backgroundColor':'#FE4332','border':'none'});
+				
+			}
+			if(result == '0,0,0'){
+				$(this).find('p').css({'backgroundColor':'#373636','border':'none'});
+				
+			}
+				
+			})
 	overlay.removeClass('overlay_a');
 	$('#modal_r').hide();
 })
@@ -583,14 +845,14 @@ $('.modal_r-logout').click(function(){
 	
 	var seconds=-1;
 	var time=setInterval(timeseconds,1000);
-				var seconds2=10;
+				
 	
 	
 	
 	function timeseconds(){
 		seconds++;
 		$('.time').html(seconds);
-		if(seconds==5){
+		if(seconds==time_start){
 			clearInterval(time);
 			
 			seconds=-1;
@@ -612,7 +874,7 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 		seconds2--;
 		$('.time2').html('<span>до начало ставок </span>'+seconds2);
 		
-		if(seconds2==2){//проверяем базу на наличие выигрышного номера
+		if(seconds2==baza_check){//проверяем базу на наличие выигрышного номера
 			          var patch=$('.patchonlinepage').val();
 				$.ajax({
 		                    "type":"POST",
@@ -623,6 +885,13 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 			
 			if(data){
 		//alert(data)
+		if(data == 'ok2'){
+		$('.time3').text("результаты определены");
+		$('.time3').show("2000");
+		$('.time3').delay("2000");
+		$('.time3').hide("2000");
+		
+			}
 			}
 	}
 		                    //"error":errorfunc
@@ -656,5 +925,10 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 		
 	}	
 	
-	
+	function in_array(value, array) {
+    for(var i=0; i<array.length; i++){
+        if(value == array[i]) return true;
+    }
+    return false;
+}
 })//ready

@@ -13,6 +13,7 @@
 	
 <div class="time"></div>
 <div class="time2"></div>
+<div class="time3"></div>
 <div id="wrapper">
 <div class="cubeoverlay"></div>
 		<div id="cube">
@@ -49,7 +50,7 @@
 		 <div class="y"><p>33</p></div>
 		  <p class="s"><span class="s-in"></span><span class="ugol"></span></p>
 		 <div class="y"><p>36</p></div>
-		<div class="y"><p>2 к 1</p></div>
+		<div class="y" id="first"><p>2 к 1</p></div>
 		<p class="clear"></p>
 		
 		 	<div class="y"><p>0</p></div>
@@ -80,16 +81,19 @@
 			<p class="s"><span class="s-in"></span><span class="ugol"></span></p>
 								<div class="y"><p>35</p></div>
 			
-			<div class="y"><p>2 к 1</p></div>
+			<div class="y" id="middle"><p>2 к 1</p></div>
 			<p class="clear"></p>
 			
 				<div class="y"><p></p></div>
 			<div class="y"><p>1</p></div>
-			<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
+			
 			<div class="y"><p>4</p></div>
-				<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
+			
 			<div class="y"><p>7</p></div>
-				<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
+				
 			<div class="y"><p>10</p></div>
 				<p class="s sepa"><span class="s-in"></span></p>
 				
@@ -111,7 +115,7 @@
 						<div class="y"><p>31</p></div>
 				<p class="s"><span class="s-in"></p>
 							<div class="y"><p>34</p></div>
-					<div class="y"><p>2 к 1</p></div>
+					<div class="y" id="bottom"><p>2 к 1</p></div>
 					<p class="clear"></p>
 					<div class="cube-bottom-wrap">
 					<div class="cube-bottom">

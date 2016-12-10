@@ -1,12 +1,19 @@
 <?//unset($session['stavka'])?>
 <?//unset($session['s'])?>
+
 <?if (isset($session['stavka'])):?>
 
-<pre><?//print_r($session['s'])?></pre>
+<pre><?//print_r($session['stavka'])?></pre>
 <?endif?>
 
 
+<? $identity = Yii::$app->user->identity;?>
 
+ <?if($identity):?>
+ 
+ <?else:?>
+ <h4>Вы не авторизованы</h4><?exit();?>
+ <?endif?>
 
 
 
@@ -15,21 +22,25 @@
             <?php foreach($session['stavka'] as $id => $item2):?>
 			
 				
-       
-		<?if($id =='number4'):?>
+   
 		
 		    <div class="table-responsive next-statistika">
 			 <table class="table table-hover table-striped">
-			<h4>статистика по ставке на 4 цифры</h4>
+			
+			   <?if($id =='stavka4'):?><h4>статистика по ставке на 4 цифры</h4><?endif?>
+		<?if($id =='stavka2'):?><h4>статистика по ставке на 2 цифры</h4><?endif?>
+	<?if($id =='stavka2k1'):?><h4>цифры от 3 до 36</h4><?endif?>
+	<?if($id =='stavka2k1middle'):?><h4>цифры от 2 до 35</h4><?endif?>
+	<?if($id =='stavka2k1bottom'):?><h4>цифры от 2 до 34</h4><?endif?>		
+			
+			
 			 
             <thead>
                 <tr>
-                    <th>1 - число</th>
-                    <th>2 - число</th>
-                    <th>3- число</th>
-                    <th>4- число</th>
-					<th>номер выигрыша</th>
-                    <th>ставка-сумма</th>
+                    <th>выбранные числа</th>
+                    <th>выигрвшное число</th>
+					 <th>сумма-ставка</th>
+                  
                 </tr>
             </thead>
 			
@@ -39,13 +50,14 @@
 			<?php foreach($item2 as $item):?>
                 <tr>
                    <td><?= $item[0]?></td>
-                    <td><?= $item[1]?></td>
-                    <td><?= $item[2]?></td>
-					 <td><?= $item[3]?></td>
-					 <td><span><?= $item[4]?></span></td>
-					  <td><span><?= $item[5]?></span></td>
+				
+					  <td><span><?= $item[1]?></span></td>
+					     <td>
+                 <?=$item[2]?>
+					 </td>
                 </tr>
-				<tr> <td colspan='5'>следущие 4 цифры</td></tr>
+			
+				
             <?php endforeach?>
 			
 			
@@ -53,46 +65,9 @@
    
         </table>
 		 </div>
-			<?endif?>
+			
 		
-             
-         	<?if($id =='number2'):?>
-			    <div class="table-responsive next-statistika">
-			<h4>статистика по ставке на 2 цифры</h4>
-			 <table class="table table-hover table-striped">
-       
-			
-            <thead>
-                <tr>
-                    <th>1 - число</th>
-                    <th>2 - число</th>
-					 <th>выигрыш число</th>
-                    <th>сумма-ставка</th>
-                   
-                </tr>
-            </thead>
-			
-			
-			  <tbody>
-			
-			<?php foreach($item2 as $item):?>
-                <tr>
-                   <td><?= $item[0]?></td>
-                    <td><?= $item[1]?></td>
-                    <td><?= $item[2]?></td>
-				 <td><?= $item[3]?></td>
-					  <td><?= $item[4]?></td>
-                </tr>
-				<tr> <td colspan='4' style='text-align:center'>следущие 2 цифры</td></tr>
-            <?php endforeach?>
-			   </tbody>
-   
-        </table>
-		 </div>
-			<?endif?>
-   
-
-
+ 
 
 			 <?php endforeach?>
 			<?else:?>
