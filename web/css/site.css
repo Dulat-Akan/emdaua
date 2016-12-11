@@ -908,11 +908,13 @@ text-align:left!important;margin-bottom:50px;
 .header-side p.sepa{
 	display:block;
 	width:7px;height:50px!important;
-	background:#fff!important;
+	
 	
 }
-
-
+.s_dosen{
+	display:block;
+	width:7px;height:50px!important;
+}
 
 
 .header-side div.y{
@@ -927,6 +929,12 @@ text-align:left!important;margin-bottom:50px;
 }
 .header-side p.sepa .ugol{
 background:#fff;
+}
+.header-side p.sepa .dozen{
+background:#fff;	
+}
+.dozen{
+	cursor: wait;height:10px!important;width:7px;z-index:2;display:block;
 }
 
 .ugol{
@@ -980,7 +988,7 @@ height:50px;
 background:#FE4332;	
 }
 .header-side .header-side-in div.y:nth-of-type(11) p,.header-side .header-side-in div.y:nth-of-type(13) p,.header-side .header-side-in div.y:nth-of-type(17) p{
-background:#FE4332;		
+background:#FE4332;	
 }
 .header-side .header-side-in div.y:nth-of-type(20) p,.header-side-in div.y:nth-of-type(23) p,.header-side-in div.y:nth-of-type(26) p{
 background:#FE4332;	
@@ -1454,6 +1462,16 @@ display:none;
 	 width: 100%;
 	 background-color:#000;
 	 z-index:1990;
+}
+.overlay_b{
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 height: 100%;
+	 width: 100%;
+	 background-color:#000;
+	 z-index:3000;
+	 
 }
 .overlay_a{
 	 position: fixed;
@@ -2440,13 +2458,20 @@ text-align:center;color:black;
 	}
   
 /*----------------timer------------------*/  
-  .time{
-	  text-align:center;
-	  font-size:50px;
+.time{
+text-align:center;
+font-size:50px;
   }
-    .time2{
-	  text-align:center;
-	  font-size:25px;
+.time2{
+text-align:center;
+font-size:25px;
+  }
+  
+.time3{
+display:none;
+text-align:center;
+font-size:25px;
+color:red;
   }
 #wrapper{
 position:relative;
@@ -2464,7 +2489,7 @@ position: absolute;
 	 height: 100%;
 	 width: 100%;
 	 background-color:rgba(255,255,255,0.8);
-	 z-index:1990;
+	 z-index:3000;
 
 }
 #cart{
