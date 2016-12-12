@@ -31,10 +31,10 @@
 		<?if($id =='stavka2'):?><h4>статистика по ставке на 2 цифры</h4><?endif?>
 	<?if($id =='stavka2k1'):?><h4>цифры от 3 до 36</h4><?endif?>
 	<?if($id =='stavka2k1middle'):?><h4>цифры от 2 до 35</h4><?endif?>
-	<?if($id =='stavka2k1bottom'):?><h4>цифры от 2 до 34</h4><?endif?>		
-			
-			
-			 
+	<?if($id =='stavka2k1bottom'):?><h4>цифры от 1 до 34</h4><?endif?>		
+	<?if($id =='dozen'):?><h4>1 дюжина</h4><?endif?>			
+	<?if($id =='dozen1'):?><h4>2 дюжина</h4><?endif?>			
+		<?if($id =='dozen2'):?><h4>3 дюжина</h4><?endif?>		 
             <thead>
                 <tr>
                     <th>выбранные числа</th>

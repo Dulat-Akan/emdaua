@@ -693,7 +693,7 @@ $this->layout = 'main3';
 if($option == 'number4'){
 $summ=trim(strip_tags($_POST['summa']));
 //$time = time() - (3600 * 24 * 3);
-
+//print_r($_POST['param']);exit();
 
 	$model = new Ruletka();
 			 $model->id_user = $res_id;
@@ -703,7 +703,7 @@ $summ=trim(strip_tags($_POST['summa']));
 		$model->timer=time();
         $model->save(false);
 		   
-array_push($_POST['param'], $summ);
+
 
 //$_SESSION['stavka']['number4'][]=$_POST['param'];
 echo "ok";exit();
@@ -759,9 +759,42 @@ $summ=trim(strip_tags($_POST['summa']));
         $model->save(false);
 		   	echo "ok";exit();
 }
-
-
-
+if($option == 'dozen'){
+	
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->dozen = $tring;
+		$model->summadozen=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
+}
+if($option == 'dozen1'){
+	
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->dozen1 = $tring;
+		$model->summadozen1=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
+}
+if($option == 'dozen2'){
+	
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->dozen2 = $tring;
+		$model->summadozen2=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
+}
 if($option == 'baza'){
 unset($_SESSION['s']);
 unset($_SESSION['stavka']);
@@ -781,8 +814,8 @@ $number_success=$success_result['number'];
 if($success_result){
 //$arr=explode(',',$user_stavka['stavka4']);
 
-$arrb=array('stavka4','stavka2','stavka2k1','stavka2k1middle','stavka2k1bottom');
-$arrb1=array('summastavka4','summastavka2','summastavka2k1','summastavka2k1middle','summastavka2k1bottom');
+$arrb=array('stavka4','stavka2','stavka2k1','stavka2k1middle','stavka2k1bottom','dozen','dozen1','dozen2');
+$arrb1=array('summastavka4','summastavka2','summastavka2k1','summastavka2k1middle','summastavka2k1bottom','summadozen','summadozen1','summadozen2');
 foreach($user_stavka as $item){
 if($_SESSION['s']){
 for($i=0; $i < count($arrb); $i++){

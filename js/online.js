@@ -14,19 +14,19 @@ $(document).ready(function() {
 	var overlay=$("#overlay_r");
 	var n;
 		var number_arr=new Array();
-	var arrnumber4=new Array();//массив для хранения выборки по четыре цифре
+	
 	var obj = $('#cube .y');
 	
 	
 /*----------------------------------начало считывания боковых 2 к 1----------------------------------------------------*/
 var array_2k1 =	new Array();
-array_2k1=[3,6,9,12,15,18,21,24,27,30,33,36,36];
+array_2k1=[3,6,9,12,15,18,21,24,27,30,33,36,'k1'];
 
 var array1_2k1 =	new Array();
-array1_2k1=[2,5,8,11,14,17,20,23,26,29,32,35,35];
+array1_2k1=[2,5,8,11,14,17,20,23,26,29,32,35,'k1'];
 
 var array2_2k1 =	new Array();
-array2_2k1=[1,4,7,10,13,16,19,22,25,28,31,34,34];
+array2_2k1=[1,4,7,10,13,16,19,22,25,28,31,34,'k1'];
 
 var arrnumber_2k1=new Array();
 $('.header-side-in div').click(function(){
@@ -34,10 +34,17 @@ $('.header-side-in div').click(function(){
 	texts=$.trim(texts);
 	var attrid=$(this).attr('id');
 	if(attrid){
-	if($('#cube #'+attrid).index() == $(this).index()){
 		
+		var lens=arrnumber_2k1.length;
+	for(i=0; i < lens; i++){
+	
+		arrnumber_2k1.pop();
+	}
+
+	
 		if(attrid=='first'){
 		for(var i=0; i < array_2k1.length; i++ ){
+		
 			arrnumber_2k1[i]=array_2k1[i];
 		}
 			
@@ -56,95 +63,10 @@ $('.header-side-in div').click(function(){
 			
 		}
 	
-		
-					//очищение экрана
-		 $('div.y').each(function(){
-				var rgb=$(this).find('p').css('backgroundColor');
-		     var regV=/[\d]+/gi;
-			 var result=$.trim(rgb.match(regV));
-			 if(result == '255,0,0'){
-					//alert(14)
-				$(this).find('p').css({'backgroundColor':'#FE4332','border':'none'});
-				
-			}
-			if(result == '0,0,0'){
-				$(this).find('p').css({'backgroundColor':'#373636','border':'none'});
-				
-			}
-				
-			})
 	
-	 var counter=-1;
-			 obj.each(function(){
-			 counter++;
-				
-				var number=$(this).text();
-					if(number== 36){
-					//alert(counter);return false;
-				}
-				
-				
-		if(in_array($.trim(number),arrnumber_2k1)){
-		
-		
-			var index = counter;
-					var result_2k1=obj.eq(index).find('p');
-					
-	var rgb=result_2k1.css('backgroundColor');
-	
-		     var regV=/[\d]+/gi;
-			 var result_color=$.trim(rgb.match(regV));
-	
-	
-if(result_color == '254,67,50'){
-			result_2k1.css({'backgroundColor':'red','border':'5px solid gold'});
-			
-		}
-			if(result_color == '55,54,54'){
-			result_2k1.css({'backgroundColor':'black','border':'5px solid gold'});
-			
-		}
-		
-		}
-			
-		})
-	
-	
-
-		
-		
-	
-		
-	
-
-		//arrnumber_2k1[i]=array_2k1[i];
-		
-	
-			
-	resultarr_2k1();
-		
-		
-		
 	}
-	}
-	
-
-
-	
-	
-	
-	
-	
-			
-		
-			
-			
-		
-	
-	
-	
-	
-	
+	resultetColor();
+	resultarr_2k1()
 })
 
 
@@ -162,104 +84,123 @@ if(result_color == '254,67,50'){
 /*--------------начало функции считывания двух чисел-----------------------------------*/	
 	$('#cube .s .s-in').click(function(){
 	
-	/*------здесь хранится числа считываемые с стола ------*/
-		var number_prev=$(this).parent().prev().text();//первое число
-		var number_next=$(this).parent().next().text();//второе число
 		
-		/*----  дальше идет вычисление для подсветки выбранных чисел  ---*/
-		var prev=$(this).parent().prev().find('p');
-		var next=$(this).parent().next().find('p');
-		var rgb_prev=prev.css('backgroundColor');
-		var rgb_next=next.css('backgroundColor');
-	    var regV=/[\d]+/gi;
-	    var results_prev=$.trim(rgb_prev.match(regV));
-		 var results_next=$.trim(rgb_next.match(regV));
-		 //alert(results);alert(results_next);
+		//вычисление крайних чисел
+		var obj_y1=$(this).parent().prev();
+	var obj_y2=$(this).parent().next();
+		var number1=obj_y1.text();//первое число
+		var number2=obj_y2.text();//второе число
+		var obj1=obj_y1.find('p');
+		var obj2=obj_y2.find('p');
+
+var lens=arrnumber_2k1.length;
+	for(i=0; i < lens; i++){
+	
+		arrnumber_2k1.pop();
+	}
+    arrnumber_2k1[0] = number1;
+	arrnumber_2k1[1]=number2;
+	var pops='g2';	
+	arrnumber_2k1.push(pops);	
 		
-		//очищение экрана
-		 $('div.y').each(function(){
-				var rgb=$(this).find('p').css('backgroundColor');
-		     var regV=/[\d]+/gi;
-			 var result=$.trim(rgb.match(regV));
-			 if(result == '255,0,0'){
-					//alert(14)
-				$(this).find('p').css({'backgroundColor':'#FE4332','border':'none'});
-				
-			}
-			if(result == '0,0,0'){
-				$(this).find('p').css({'backgroundColor':'#373636','border':'none'});
-				
-			}
-				
+	
+resultetColor();
+resultarr_2k1()	
+		
 			})
-		
-		//alert(results_next);
-		
-			if(results_prev == '255,0,0'){
-		prev.css({'backgroundColor':'red','border':'5px solid gold'});
-			
-		}
-			if(results_prev == '0,0,0'){
-		prev.css({'backgroundColor':'black','border':'5px solid gold'});
-			
-		}
-		
-		
-		if(results_next == '0,0,0'){
-			next.css({'backgroundColor':'black','border':'5px solid gold'});
-			
-		}
-			if(results_next == '255,0,0'){
-			
-			next.css({'backgroundColor':'red','border':'5px solid gold'});
-		}
-		
-		
-		
-		
-			if(results_next == '254,67,50'){
-			next.css({'backgroundColor':'red','border':'5px solid gold'});
-			
-		}
-			if(results_next == '55,54,54'){
-			next.css({'backgroundColor':'black','border':'5px solid gold'});
-			
-		}
-		
-		
-		if(results_prev == '254,67,50'){
-		prev.css({'backgroundColor':'red','border':'5px solid gold'});
-			
-		}
 	
-		if(results_prev == '55,54,54'){
-			prev.css({'backgroundColor':'black','border':'5px solid gold'});
-			
-		}
-			
-			
-			//на выходе
-				if(number_prev && number_next){
-		
-				var ttt=[number_prev, number_next];
-		arrnumber2=ttt;
-			
-	resultarr2();
-			
-		}
-		
-		
-		
-	
-		
-		
-		})
-		//var t=new Array()
-		//t[0]=25;
-		//rr_number2[0]=t;
 		
 		
 /*--------------окончание функции считывания двух чисел-----------------------------------*/	
+
+
+/*----------------------------------------------функция считывания 6 цифр--------------------------------------------------*/
+var dosen=new Array();
+dosen=[3,6,9,12,2,5,8,11,1,4,7,10,'dosen'];
+
+var dosen1=new Array();
+dosen1=[15,18,21,24,14,17,20,23,13,16,19,22, 'dosen'];
+
+var dosen2=new Array();
+dosen2=[27,30,33,36,26,29,32,35,25,28,31,34, 'dosen'];
+
+
+
+$('#cube .dozen').click(function(e){
+
+
+
+//вычисление крайних чисел
+		var obj_y1=$(this).parent().prev();
+	var obj_y2=$(this).parent().next();
+		var number1=obj_y1.text();//первое число
+		var number2=obj_y2.text();//второе число
+		var obj1=obj_y1.find('p');
+		var obj2=obj_y2.find('p');
+
+	var lens=arrnumber_2k1.length;
+	for(i=0; i < lens; i++){
+	
+		arrnumber_2k1.pop();
+	}
+		
+if(number1 == 1 && number2 == 4){
+	for(var i=0; i < dosen.length; i++ ){
+		arrnumber_2k1[i]=dosen[i];
+		}
+		}
+
+	if(number1 == 4 && number2 == 7){
+			for(var i=0; i < dosen.length; i++ ){
+		      arrnumber_2k1[i]=dosen[i];
+		}
+	}
+		if(number1 == 7 && number2 == 10){
+			for(var i=0; i < dosen.length; i++ ){
+		     arrnumber_2k1[i]=dosen[i];
+		}
+	}
+	
+/**/	
+	if(number1 == 13 && number2 == 16){
+			for(var i=0; i < dosen.length; i++ ){
+		     arrnumber_2k1[i]=dosen1[i];
+		}
+	}
+	if(number1 == 16 && number2 == 19){
+			for(var i=0; i < dosen.length; i++ ){
+		     arrnumber_2k1[i]=dosen1[i];
+		}
+	}
+	if(number1 == 19 && number2 == 22){
+			for(var i=0; i < dosen.length; i++ ){
+		     arrnumber_2k1[i]=dosen1[i];
+		}
+	}
+/**/
+		if(number1 == 25 && number2 == 28){
+			for(var i=0; i < dosen.length; i++ ){
+		     arrnumber_2k1[i]=dosen2[i];
+		}
+	}
+		if(number1 == 28 && number2 == 31){
+			for(var i=0; i < dosen.length; i++ ){
+		     arrnumber_2k1[i]=dosen2[i];
+		}
+	}
+		if(number1 == 31 && number2 == 34){
+			for(var i=0; i < dosen.length; i++ ){
+		     arrnumber_2k1[i]=dosen2[i];
+		}
+	}
+	
+	
+	
+resultetColor();
+resultarr_2k1()
+		})
+/*--------------------------------окончание считывания 6 цифр-----------------------------------------------------------------------------*/
+
 
 	
 	/*--------------начало функции считывания четырех чисел-----------------------------------*/
@@ -379,180 +320,210 @@ if(result_color == '254,67,50'){
 	arr3[21]=31;
 	arr4[21]=34;
 /*-------------------------------вычисляем подсветку для выделения выбранных 4 чисел--------------------------------------------------------*/	
+
+	
 	
 $('#cube .s .ugol').click(function(){
-	$('input[name=summamodalr]').val("");
-	
-	
-		 $('div.y').each(function(){
-				var rgb=$(this).find('p').css('backgroundColor');
-		     var regV=/[\d]+/gi;
-			 var result=$.trim(rgb.match(regV));
-			 if(result == '255,0,0'){
-					//alert(14)
-				$(this).find('p').css({'backgroundColor':'#FE4332','border':'none'});
-				
-			}
-			if(result == '0,0,0'){
-				$(this).find('p').css({'backgroundColor':'#373636','border':'none'});
-				
-			}
-				
-			})
-	
-	
-	var obj_y1=$(this).parent().prev();
+
+
+//вычисление крайних чисел
+		var obj_y1=$(this).parent().prev();
 	var obj_y2=$(this).parent().next();
 		var number1=obj_y1.text();//первое число
 		var number2=obj_y2.text();//второе число
 		var obj1=obj_y1.find('p');
 		var obj2=obj_y2.find('p');
-		
-	for(i=0; i < arr1.length; i++){
-		
-		if(arr1[i]==number1 && arr2[i]==number2){
-			
-	var number3=arr3[i]//третье число
-	var number4=arr4[i];//четвертое число
-			
-		}
-		
+	//определение массива
+	var lens=arrnumber_2k1.length;
+	for(i=0; i < lens; i++){
+	
+		arrnumber_2k1.pop();
 	}
-			var count=-1;
-		 obj.each(function(){
-			 count++;
-				//var rgb=$(this).find('p').css('backgroundColor');
-				var number=$(this).text();
-		     //var regV=/[\d]+/gi;
-			 //var result=$.trim(rgb.match(regV));
-		if(number == number3){
+	//alert(arrnumber_2k1.length);return false;
+		if(number1 == 3 && number2 == 6){
+			arrnumber_2k1[0]=arr1[0];
+			arrnumber_2k1[1]=arr2[0];
+			arrnumber_2k1[2]=arr3[0];
+			arrnumber_2k1[3]=arr4[0];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
 		
-			indexs = count;
-			//alert(indexs)
-		}
-			if(number == number4){
-		
-			indexs2 = count;
-			
-		}
-		
-		
-				
-			})
-	var obj3=obj.eq(indexs).find('p');
-	var obj4=obj.eq(indexs2).find('p');
-		
-		//находим цвет 
-	
-	var rgb1=obj1.css('backgroundColor');
-	var rgb2=obj2.css('backgroundColor');
-	var rgb3=obj3.css('backgroundColor');
-	var rgb4=obj4.css('backgroundColor');
-		
-		//переводим цвет в удобочитаемый вид
-	   var regV=/[\d]+/gi;
-	     var results_obj1_rgb=$.trim(rgb1.match(regV));
-	    var results_obj2_rgb=$.trim(rgb2.match(regV));
-	   var results_obj3_rgb=$.trim(rgb3.match(regV));
-	    var results_obj4_rgb=$.trim(rgb4.match(regV));
-		//alert(results_obj3_rgb)
-if(results_obj1_rgb=='255,0,0' || results_obj1_rgb=='0,0,0' || results_obj2_rgb=='0,0,0' || results_obj2_rgb=='255,0,0' || results_obj3_rgb=='0,0,0' || results_obj3_rgb=='255,0,0' || results_obj4_rgb=='255,0,0' || results_obj4_rgb=='0,0,0'){
-//если хоть одна занята, тогда невозможно выбрать эту четверку	
-}
-	if(results_obj1_rgb=='255,0,0'){
-		obj1.css({'backgroundColor':'red','border':'5px solid blue'});
-	}
-	if(results_obj1_rgb=='0,0,0'){
-		obj1.css({'backgroundColor':'black','border':'5px solid blue'});
-	}
-	
-	if(results_obj2_rgb=='255,0,0'){
-		obj2.css({'backgroundColor':'red','border':'5px solid blue'});
-	}
-	if(results_obj2_rgb=='0,0,0'){
-		obj2.css({'backgroundColor':'black','border':'5px solid blue'});
-	}
-		if(results_obj3_rgb=='255,0,0'){
-		obj3.css({'backgroundColor':'red','border':'5px solid blue'});
-	}
-	if(results_obj3_rgb=='0,0,0'){
-		obj3.css({'backgroundColor':'black','border':'5px solid blue'});
-	}
-	
-		if(results_obj4_rgb=='255,0,0'){
-		obj4.css({'backgroundColor':'red','border':'5px solid blue'});
-	}
-	if(results_obj4_rgb=='0,0,0'){
-		obj4.css({'backgroundColor':'black','border':'5px solid blue'});
-	}
-	
-	
-	
-	
-		if(results_obj1_rgb == '254,67,50'){
-			obj1.css({'backgroundColor':'red','border':'5px solid blue'});
-			
-		}
-			if(results_obj1_rgb == '55,54,54'){
-			obj1.css({'backgroundColor':'black','border':'5px solid blue'});
-			
-		}
-		/*--для 2 числа--*/
-	
-	if(results_obj2_rgb == '254,67,50'){
-			obj2.css({'backgroundColor':'red','border':'5px solid blue'});
-			
-		}
-			if(results_obj2_rgb == '55,54,54'){
-			obj2.css({'backgroundColor':'black','border':'5px solid blue'});
-			
-		}
-	
-	/*--для 3 числа--*/
-	if(results_obj3_rgb == '254,67,50'){
-			obj3.css({'backgroundColor':'red','border':'5px solid blue'});
-			
-		}
-			if(results_obj3_rgb == '55,54,54'){
-			obj3.css({'backgroundColor':'black','border':'5px solid blue'});
-			
-		}
-	/*--для 4 числа--*/
-		if(results_obj4_rgb == '254,67,50'){
-			obj4.css({'backgroundColor':'red','border':'5px solid blue'});
-			
-		}
-			if(results_obj4_rgb == '55,54,54'){
-			obj4.css({'backgroundColor':'black','border':'5px solid blue'});
-			
-		}
-	
-	
-	
-	//на выходе
-		if(number1 && number2 && number3 && number4){
-	
-	//запоминаем массив
-	
-	
-	
-	
-	count2++;
-	var ttt=[number1,number2,number3,number4]	
-		arrnumber4=ttt;
-		
-		
+			}
+			if(number1 == 6 && number2 == 9){
+			arrnumber_2k1[0]=arr1[1];
+			arrnumber_2k1[1]=arr2[1];
+			arrnumber_2k1[2]=arr3[1];
+			arrnumber_2k1[3]=arr4[1];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 2 && number2 == 5){
+			arrnumber_2k1[0]=arr1[2];
+			arrnumber_2k1[1]=arr2[2];
+			arrnumber_2k1[2]=arr3[2];
+			arrnumber_2k1[3]=arr4[2];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 5 && number2 == 8){
+			arrnumber_2k1[0]=arr1[3];
+			arrnumber_2k1[1]=arr2[3];
+			arrnumber_2k1[2]=arr3[3];
+			arrnumber_2k1[3]=arr4[3];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 8 && number2 == 11){
+			arrnumber_2k1[0]=arr1[4];
+			arrnumber_2k1[1]=arr2[4];
+			arrnumber_2k1[2]=arr3[4];
+			arrnumber_2k1[3]=arr4[4];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
 
-		
-		resultarr4();
-		
-	}
-
+			if(number1 == 9 && number2 == 12){
+			arrnumber_2k1[0]=arr1[5];
+			arrnumber_2k1[1]=arr2[5];
+			arrnumber_2k1[2]=arr3[5];
+			arrnumber_2k1[3]=arr4[5];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			
+			if(number1 == 12 && number2 == 15){
+			arrnumber_2k1[0]=arr1[6];
+			arrnumber_2k1[1]=arr2[6];
+			arrnumber_2k1[2]=arr3[6];
+			arrnumber_2k1[3]=arr4[6];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 18 && number2 == 21){
+			arrnumber_2k1[0]=arr1[7];
+			arrnumber_2k1[1]=arr2[7];
+			arrnumber_2k1[2]=arr3[7];
+			arrnumber_2k1[3]=arr4[7];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+	if(number1 == 21 && number2 == 24){
+			arrnumber_2k1[0]=arr1[8];
+			arrnumber_2k1[1]=arr2[8];
+			arrnumber_2k1[2]=arr3[8];
+			arrnumber_2k1[3]=arr4[8];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+		if(number1 == 14 && number2 == 17){
+			arrnumber_2k1[0]=arr1[9];
+			arrnumber_2k1[1]=arr2[9];
+			arrnumber_2k1[2]=arr3[9];
+			arrnumber_2k1[3]=arr4[9];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+		if(number1 == 17 && number2 == 20){
+			arrnumber_2k1[0]=arr1[10];
+			arrnumber_2k1[1]=arr2[10];
+			arrnumber_2k1[2]=arr3[10];
+			arrnumber_2k1[3]=arr4[10];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 20 && number2 == 23){
+			arrnumber_2k1[0]=arr1[11];
+			arrnumber_2k1[1]=arr2[11];
+			arrnumber_2k1[2]=arr3[11];
+			arrnumber_2k1[3]=arr4[11];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 15 && number2 == 18){
+			arrnumber_2k1[0]=arr1[12];
+			arrnumber_2k1[1]=arr2[12];
+			arrnumber_2k1[2]=arr3[12];
+			arrnumber_2k1[3]=arr4[12];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 11 && number2 == 14){
+			arrnumber_2k1[0]=arr1[13];
+			arrnumber_2k1[1]=arr2[13];
+			arrnumber_2k1[2]=arr3[13];
+			arrnumber_2k1[3]=arr4[13];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 24 && number2 == 27){
+			arrnumber_2k1[0]=arr1[14];
+			arrnumber_2k1[1]=arr2[14];
+			arrnumber_2k1[2]=arr3[14];
+			arrnumber_2k1[3]=arr4[14];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 23 && number2 == 26){
+			arrnumber_2k1[0]=arr1[15];
+			arrnumber_2k1[1]=arr2[15];
+			arrnumber_2k1[2]=arr3[15];
+			arrnumber_2k1[3]=arr4[15];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 27 && number2 == 30){
+			arrnumber_2k1[0]=arr1[16];
+			arrnumber_2k1[1]=arr2[16];
+			arrnumber_2k1[2]=arr3[16];
+			arrnumber_2k1[3]=arr4[16];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 30 && number2 == 33){
+			arrnumber_2k1[0]=arr1[17];
+			arrnumber_2k1[1]=arr2[17];
+			arrnumber_2k1[2]=arr3[17];
+			arrnumber_2k1[3]=arr4[17];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 33 && number2 == 36){
+			arrnumber_2k1[0]=arr1[18];
+			arrnumber_2k1[1]=arr2[18];
+			arrnumber_2k1[2]=arr3[18];
+			arrnumber_2k1[3]=arr4[18];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 26 && number2 == 29){
+			arrnumber_2k1[0]=arr1[19];
+			arrnumber_2k1[1]=arr2[19];
+			arrnumber_2k1[2]=arr3[19];
+			arrnumber_2k1[3]=arr4[19];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 29 && number2 == 32){
+			arrnumber_2k1[0]=arr1[20];
+			arrnumber_2k1[1]=arr2[20];
+			arrnumber_2k1[2]=arr3[20];
+			arrnumber_2k1[3]=arr4[20];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			if(number1 == 32 && number2 == 35){
+			arrnumber_2k1[0]=arr1[21];
+			arrnumber_2k1[1]=arr2[21];
+			arrnumber_2k1[2]=arr3[21];
+			arrnumber_2k1[3]=arr4[21];
+			var pops='g4';
+			arrnumber_2k1.push(pops);
+			}
+			
+ 
+resultetColor();	
+resultarr_2k1();
 	
-
-
-
-
 })//click	
 	
 	
@@ -568,24 +539,83 @@ if(results_obj1_rgb=='255,0,0' || results_obj1_rgb=='0,0,0' || results_obj2_rgb=
 	
 			
 	function resultarr_2k1(){
+		
 		if(arrnumber_2k1[0]){
 			
-			arrnumber_2k1.pop();
+			var vs=arrnumber_2k1.pop();
+			
 			var len=arrnumber_2k1.length;
 			$('.modal_r-in').html("<p>вы выбрали" + len + " цифр:</p> ");
 			
 		var str=arrnumber_2k1.join(' ');
 		
 			$('.modalrspan').html(str);
-			
+			arrnumber_2k1.push(vs);
 			overlay.addClass('overlay_a').css({'opacity':'0'});
 			n=setInterval(timer,30);
 			$('#modal_r').show();
 			
+			
 		}
 	}
 	
+function resultetColor(){
+	//чистка
+		 $('div.y').each(function(){
+				var rgb=$(this).find('p').css('backgroundColor');
+		     var regV=/[\d]+/gi;
+			 var result=$.trim(rgb.match(regV));
+			 if(result == '255,0,0'){
+					//alert(14)
+				$(this).find('p').css({'backgroundColor':'#FE4332','border':'none'});
+				
+			}
+			if(result == '0,0,0'){
+				$(this).find('p').css({'backgroundColor':'#373636','border':'none'});
+				
+			}
+				
+			})//чистка
 	
+	
+	
+	
+	var counter=-1;
+			 obj.each(function(){
+			 counter++;
+				
+				var number=$(this).text();
+					if(number== 36){
+					//alert(counter);return false;
+				}
+				
+				
+		if(in_array($.trim(number),arrnumber_2k1)){
+		
+		
+			var index = counter;
+					var result_2k1=obj.eq(index).find('p');
+					
+	var rgb=result_2k1.css('backgroundColor');
+	
+		     var regV=/[\d]+/gi;
+			 var result_color=$.trim(rgb.match(regV));
+	
+	
+if(result_color == '254,67,50'){
+			result_2k1.css({'backgroundColor':'red','border':'5px solid gold'});
+			
+		}
+			if(result_color == '55,54,54'){
+			result_2k1.css({'backgroundColor':'black','border':'5px solid gold'});
+			
+		}
+		
+		}
+			
+		})
+	
+}	
 	
 /*-------------------выводим окно для ввода суммы-----------------------------------*/
 /*--для двух чисел--*/
@@ -603,29 +633,7 @@ $('#modal_r').show();
 	}
 	}
 	
-/*--для 4 чисел--*/	
-	function resultarr4(){
-		
 
-if(arrnumber4[0]){
-		var len=arrnumber4.length;
-		var number1 = arrnumber4[0];
-		var number2 = arrnumber4[1];
-		var number3 = arrnumber4[2];
-		var number4 = arrnumber4[3];
-		
-		overlay.addClass('overlay_a').css({'opacity':'0'});;
-n=setInterval(timer,30);
-$('.modal_r-in').html("<p>вы выбрали 4 цифры:</p> ");
-$('.modalrspan').html(number1 + " " + number2 + " " + number3 + " " + number4);
- $('#modal_r').show();
-
-		
-		}
-		
-				
-	
-	}
 		
 	
 			
@@ -638,47 +646,80 @@ $('#modal_r-form').submit(function(e){
 	var summa=$('input[name=summamodalr]').val();
 	var summa=$.trim(summa);
 	var lennum= arr.length;
-	var len = arrnumber4.length;
+	
 	
 	var patch=$('.patchonlinepage').val();
 				
 	if(summa){
 		
-		if(lennum==12){
+if(lennum==12){
 			
-	//arrnumber4[4]=summa;
-	if(arrnumber_2k1[0]==3){
+	if(arrnumber_2k1[12]=='dosen'){		
+arrnumber_2k1.pop();
+/*дюжина*/
+			if(arrnumber_2k1[11]==10){
+				
+			var arrnumber= arrnumber_2k1;
+			
+			var options='dozen';
+			}
+			
+			if(arrnumber_2k1[11]==22){
+			var arrnumber= arrnumber_2k1;
+			
+			var options='dozen1';
+			}
+			if(arrnumber_2k1[11]==34){
+			var arrnumber= arrnumber_2k1;
+			
+			var options='dozen';
+			}
+	/*end дюжина*/
+
+	
+	}
+	
+		
+if(arrnumber_2k1[12] == 'k1'){	
+//alert(72222)	
+arrnumber_2k1.pop();	
+	if(arrnumber_2k1[11]==36){
 			var arrnumber= arrnumber_2k1;
 			//alert(7);return false;
 			var options='number_2k1';
 	}
 	
-		if(arrnumber_2k1[0]==2){
+		if(arrnumber_2k1[11]==35){
 			var arrnumber= arrnumber_2k1;
 			//alert(7);return false;
 			var options='number_2k1_middle';
 	}
 	
-			if(arrnumber_2k1[0]==1){
+			if(arrnumber_2k1[11]==34){
 				
 			var arrnumber= arrnumber_2k1;
 			//alert(7);return false;
 			var options='number_2k1_bottom';
 	}
+	}
 	
 	
-			
+	
+	
 }//4
-		
-	if(lennum==4){
+if(arrnumber_2k1[4]=='g4')	{
+	
+
 	//arrnumber4[4]=summa;
-			var arrnumber= arrnumber4;
+	arrnumber_2k1.pop();
+			var arrnumber= arrnumber_2k1;
 			var options='number4';
-			
-}//4
+}
+
 	if(lennum==2){
+		arrnumber_2k1.pop();
 	//arrnumber2[2]=summa;
-		var arrnumber=arrnumber2;
+		var arrnumber=arrnumber_2k1;;
 		var options='number2';
 	}
 	
@@ -708,7 +749,7 @@ $('#modal_r-form').submit(function(e){
 		                    //"error":errorfunc
 		                  });
 	
-	
+	return false;
 	
 })
 /*-------------------------------------------вывод статистики--------------------------------------------------*/
