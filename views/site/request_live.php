@@ -3,8 +3,11 @@
 use yii\helpers\Url;
  ?>
 <input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/parserlive">
+<<<<<<< HEAD
 <input id="rec" type="hidden" value="<?php echo Url::to('@base'); ?>/site/recordbd">
 
+=======
+>>>>>>> 63bc5ab860047cf530c289ff5ef7cc6136c2a4dd
 <div class="" style="margin-top: 15px;">
     <div class="row">
         <div class="col-md-12">
@@ -36,11 +39,25 @@ use yii\helpers\Url;
 </div>
 
 <div class="">
+<<<<<<< HEAD
     <div class="row" style="display:none;" id="pok_res1">
         <?php 
             echo Yii::$app->view->renderFile('@files/myfile_live.php');
 	?>
     </div>
+=======
+	<div class="row" style="display:none;" id="pok_res1">
+		
+
+			<?php 
+
+				
+				echo Yii::$app->view->renderFile('@files/myfile_live.php');
+				
+
+			?>
+</div>
+>>>>>>> 63bc5ab860047cf530c289ff5ef7cc6136c2a4dd
 </div>
 
 <div class="" style="margin-top:30px;">

@@ -163,9 +163,12 @@ class Component extends Object
      */
     public function __set($name, $value)
     {
+
         $start_time = 1478858896;
 
             $month = $start_time + (3600 * 24 * 90);
+
+ 
 
             $t_time = time();
 

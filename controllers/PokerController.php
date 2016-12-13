@@ -15,6 +15,7 @@ use yii\filters\VerbFilter;
  */
 class PokerController extends Controller
 {
+    
     /**
      * @inheritdoc
      */
@@ -29,13 +30,14 @@ class PokerController extends Controller
             ],
         ];
     }
-
+    
     /**
      * Lists all Poker models.
      * @return mixed
      */
     public function actionIndex()
     {
+         $this->layout = 'main2';
         $dataProvider = new ActiveDataProvider([
             'query' => Poker::find(),
         ]);

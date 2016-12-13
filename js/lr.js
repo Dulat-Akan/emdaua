@@ -1,8 +1,4 @@
 
-
-
-
-
 function updategame(){
 
 						var update = $("#baseupdatek").val();
@@ -140,17 +136,38 @@ window.onload = function(){
 
 			var pokaz_result = $("#pok_res1");	/*poiskovaya chast*/
 
-			var name = $(".hi").children("td").next();
+			var name = $(".hi").children("td").next();	//nazvaniya komand
+
+
 
 			var namear = new Array();
 
-         	var two = $(".hi").next().children("td").children("div").children("nobr");
+         	var two = $(".hi").next().children("td").children("div").children("nobr");	//pervie goli
+
+         	
 
 			var date = $(".hi").children("td:first");
 
-			var k_name = $('[class="smwndcap"][width="90%"]');
+			var k_name = $('[class="smwndcap"][width="90%"]');	//title
 
 			var string_date = date.text();
+
+
+			var zagol = $("td").children("div").children("div").children("b").children("i");//zagolovki sobitii
+
+			var zagolArray = new Array();
+
+			zagol.each(function(index, element){
+
+
+					var str = $(element);
+
+					var string = str.text();
+
+					zagolArray.push(string);
+
+			});
+
 
 			var y = "";
 			var y2 = "";
@@ -495,6 +512,7 @@ p1.append("<div class='clearfix'></div>");
 			var fix92 = 0;
 			var fix93 = 0;
 			var fix94 = 0;
+			var fix95 = 0;
 			
 			var fixed20;
 			var fixed21;
@@ -507,6 +525,8 @@ p1.append("<div class='clearfix'></div>");
 			var fixed28;
 			var fixed29;
 			
+
+			var doubleone = 0;
 
 			test1.each(function(index,element){
 
@@ -654,11 +674,15 @@ p1.append("<div class='clearfix'></div>");
 
 			var azia_for = /[\wа-я]+\s\([0]\)\s\-/gi;
 
-			var goli_v_time = /[\wа-я]+\s\([\wа-я]+\)\s[\wа-я]+\s[\wа-я]\s[1][\wа-я]\:\s[\wа-я]+/gi;
-
-			var ind_total_first = /[\wа-я]+\s\([\wа-я]+\)\s\(\d\.*\d*\)\s[\wа-я]+\s\-/gi;
+			var goli_v_time = /[\wа-я]+\s[\wа-я]+\s[\wа-я]\s\d[\wа-я]\:\s[\wа-я]+/gi;
+			
+			var ind_total_first = /^[\wа-я]+\s[\wа-я]*\s\(\d\.\d\)\s[\wa-я]+\s\-/gi;
+			
+									//neft   bugast       
+			//Нефтехимик Бургас (0.5) мен - 
 
 			var tochnoe_gol_first_time = /[\wа-я]+\s\([\wа-я]+\)\:\s[0]\s[\wа-я]+\s\-/gi;
+			//Нефтехимик Бургас: 0 головshayir_9090@mail.ru
 
 			var kol_gol_first_time = /[0]\-[1]\s[\wа-я]+\s\-/gi;
 
@@ -677,49 +701,80 @@ p1.append("<div class='clearfix'></div>");
 			var tital_matcha_po_comandam = /Тотал\s[\wа-я]+\s\([\wа-я]+\)\s[\wа-я]+\s\-/gi;
 
 			var kak_opredel = /[\wА-Я][\wа-я]+\s\-\s[\wа-я]\s[\wа-я]+\s[\wа-я]+\s\-/gi;
+
+			var one_set_two_game = /^[\Wа-я]+\s\W\./g;
+
+			
+
 			
 			if((string10.match(goli)) && (fix63 <= 0)){
 	p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Голы:</h3>");
+	//p1.append("<h3 class='title2'>Голы:</h3>");
+
+				if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				
 				
 				fix63 += 1;
 			}else if((string10.match(indiv)) && (fix55 <= 0)){
 				p1.append("<div class='clearfix'></div>");
-				p1.append("<h3 class='title2'>Индивидуальный тотал 1-го тайма::</h3>");//индивидуальный тотал
-				//p1.append(b + "Индивидуальный тотал:" + b2 + "<br>");
+				//p1.append("<h3 class='title2'>Индивидуальный тотал:</h3>");//индивидуальный тотал
+				if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix55 += 1;
 			}else if((string10.match(goli_po_command))  && (fix56 <= 0)){
 	p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Голы по командам:</h3>");
+	if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				
 				fix56 += 1;
 
 				
 			}else if((string10.match(schet))  && (fix60 <= 0)){
 				p1.append("<div class='clearfix'></div>");
-				p1.append("<h3 class='title2'>Счет:</h3>");//счет
+				if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix60 += 1;
 			}else if((string10.match(dop_total))  && (fix57 <= 0)){
 					p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Дополнительный тотал:</h3>");
+	if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				
 				fix57 += 1;
 			}else if((string10.match(total_matcha)) && (fix64 <= 0)){
 					p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Тотал голов:</h3>");
-				
+	if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix64 += 1;
 
 			}else if((string10.match(total_matcha)) && (fix74 <= 0) && (index > fixed22)){
 						p1.append("<div class='clearfix'></div>");
-              p1.append("<h3 class='title2'>Тотал 1-го тайма:</h3>");
+              //p1.append("<h3 class='title2'>Тотал 1-го тайма:</h3>");
+              if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				
 				
 				fix74 += 1;
 			}else if((string10.match(pobeda_s_uchetom)) && (fix58 <= 0)){
 				p1.append("<div class='clearfix'></div>");
-				p1.append("<h3 class='title2'>Победа с учетом форы:</h3>");//победа с учетом форы
+				if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix58 += 1;
 			}else if((string10.match(pobeda_s_uchetom_for_free)) && (fix81 <= 0)){
 					p1.append("<div class='clearfix'></div>");
@@ -729,43 +784,60 @@ p1.append("<div class='clearfix'></div>");
 				fix81 += 1;
 			}else if((string10.match(ish_po_time)) && (fix72 <= 0)){
 				p1.append("<div class='clearfix'></div>");
-              p1.append("<h3 class='title2'>Исходы по таймам</h3>");
-				//p1.append(b + "Исходы по таймам:" + b2 + "<br>");
+              if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix72 += 1;
+				fixed24 = index;
 				
 
-			}else if((string10.match(goli_v_time)) && (fix83 <= 0)){
+			}else if((string10.match(goli_v_time)) && (fix83 <= 0)){		//ish_po_time
 
-				p1.append(b + "Голы в таймах:" + b2 + "<br>");
+				if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix83 += 1;
-				fixed22 = index;
-
 
 			}else if((string10.match(resultativnost)) && (fix71 <= 0)){
 	p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Результативность таймов:</h3>");
-				
+	if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix71 += 1;
+				fixed22 = index;
 
 			}else if((string10.match(sled_gol)) && (fix66 <= 0)){
 
 				p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Следующий гол:</h3>");
+	//p1.append("<h3 class='title2'>Следующий гол:</h3>");
+	if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 			
 				fix66 += 1;
 
 			}else if((string10.match(time_sled_gol)) && (fix67 <= 0)){
 	p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Время следующего гола:</h3>");
+	//p1.append("<h3 class='title2'>Время следующего гола:</h3>");
+	if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				
 				fix67 += 1;
 
 			}else if((string10.match(tochnoe)) && (fix68 <= 0) && (fix67 == 1)){
 
 	p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Точное количество голов:</h3>");
-			
-			
+	//p1.append("<h3 class='title2'>Точное количество голов:</h3>");
+			if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 
 			fix68 += 1;
 			fixed20 = index;
@@ -780,13 +852,20 @@ p1.append("<div class='clearfix'></div>");
 
 			}else if((string10.match(schet))&& (fix73 <= 0) && (index > fixed24)){
 				p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Счет 1-го тайма:</h3>");
-			
+	//p1.append("<h3 class='title2'>Счет 1-го тайма:</h3>");
+	if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix73 += 1;
 			}else if((string10.match(ishod_one_time)) && (fix76 <= 0)){
 				
 					p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Исход 1-го тайма и всего матча:</h3>");
+	//p1.append("<h3 class='title2'>Исход 1-го тайма и всего матча:</h3>");
+	if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				
 				
 				fix76 += 1;
@@ -799,8 +878,8 @@ p1.append("<div class='clearfix'></div>");
 				
 				
 			}else if((string10.match(itogi_turnira)) && (fix78 <= 0)){
-				p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Итоги турнира:</h3>");
+				//p1.append("<div class='clearfix'></div>");
+	//p1.append("<h3 class='title2'>Итоги турнира:</h3>");
 				
 				fix78 += 1;
 			}else if((string10.match(aziatskii_total)) && (fix79 <= 0)){
@@ -814,15 +893,16 @@ p1.append("<div class='clearfix'></div>");
 	p1.append("<h3 class='title2'>Разница голов:</h3>");
 				fix80 += 1;
 			}else if((string10.match(azia_for)) && (fix82 <= 0)){
-											p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Азиатские форы:</h3>");
+											//p1.append("<div class='clearfix'></div>");
+	//p1.append("<h3 class='title2'>Азиатские форы:</h3>");
 				
 				fix82 += 1;
 			}else if((string10.match(ind_total_first)) && (fix84 <= 0) && (index > fixed22)){
 				p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Индивидуальный тотал 1-го тайма:</h3>");
-				
-			
+				if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix84 += 1;
 				fixed23 = index;
 
@@ -834,8 +914,12 @@ p1.append("<div class='clearfix'></div>");
 				fix85 += 1;
 			}else if((string10.match(kol_gol_first_time)) && (fix86 <= 0) && (index > fixed23)){
 			
-				p1.append("<div class='clearfix'></div>");
-	p1.append("<h3 class='title2'>Количество голов в 1-м тайме:</h3>");
+				p1.append("<div class='clearfix'></div>");//*
+				//p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+	if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
 				fix86 += 1;
 				fixed24 = index;
 			}else if((string10.match(pobeda_and_total)) && (fix87 <= 0)){
@@ -892,7 +976,17 @@ p1.append("<div class='clearfix'></div>");
 				fix94 += 1;
 
 				
+			}else if((string10.match(one_set_two_game)) && (fix95 <= 0)){		//tennis 1й сет 2й гейм:
+				p1.append("<div class='clearfix'></div>");
+				if(zagolArray[doubleone] != undefined){
+					p1.append("<h3 class='title2'>" + zagolArray[doubleone] + "</h3>");
+					doubleone++;
+				}
+				fix94 += 1;
+	
 			}
+
+
 
 			//alert(string10);
 
@@ -930,10 +1024,6 @@ $('#pok_searh2').wrap('<div class="pok_searh12"></div>');
 
 
 };
-
-
-
-
 
 
 

@@ -2,7 +2,7 @@
 
 use yii\helpers\Url;
  ?>
-
+<div id="overlay"></div>
 <input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/livetwo">
 
 
@@ -29,21 +29,19 @@ use yii\helpers\Url;
 	</div>
 </div>
 
-<div class="" style="margin-top: 15px;">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="col-md-3 col-md-offset-4">
-				
-				<div class="alert alert-info" style="display:none;" id="uvedom">
 
-							<h4>ставка добавлена!</h4>
+	
+		
+		
+				
+				<div class="alert-info" style="display:none;" id="uvedom">
+
+							<span>ставка добавлена!</span>
 
 				</div>
 
-			</div>
-		</div>
-	</div>
-</div>
+		
+
 
 
 <div class="">
@@ -75,7 +73,15 @@ use yii\helpers\Url;
 
 
 
+<<<<<<< HEAD
 <script src="<?php echo Url::to('@jquery') ?>/lr.js"></script>
+=======
+<script src="<?php echo Url::to('@jquery') ?>/lr.js"></script> 
+
+
+
+
+>>>>>>> 63bc5ab860047cf530c289ff5ef7cc6136c2a4dd
 
 
 

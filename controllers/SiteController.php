@@ -15,94 +15,101 @@ use app\models\Country;
 use app\models\TypeSobitiya;
 use app\models\User;
 use app\models\Usertwo;
-
+use app\models\Ruletka;
+use app\models\Roulette;
 class SiteController extends Controller
 {
+    public function beforeAction($action){
+        if( $action->id == 'testing'){
+            $this->enableCsrfValidation = false;
+        }
+        return parent::beforeAction($action);
+    }
 	
-	
-public function actionStatus($login){
-//podtverzhden
-$this->actionStatus2($login);
-}
+    public function actionStatus($login){
+        //podtverzhden
+        $this->actionStatus2($login);
+    }
 
-protected function actionStatus2($login){
-    $time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
-	//если прошло более три дня тогда результат будет больше того, что хранится в базе 
-			//если прошло меньше трех дней тогда результат будет меньше того что в базе
-			 $login2=strip_tags($login);//функция вырезает теги если есть в запросе
-		     $baza=Usertwo::findOne(['username' => $login2]);
-		
-			 if($baza->timer){
-				  if(is_numeric($baza->timer)){
-				  if($baza->timer < $time){
-					 
-			$baza->delete();
-			$model = new Usertwo();
-		 return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-			 }else{
-				 			 		 if($baza->timer==$time || $time < $baza->timer){
-					 //разрешаем потвержление в течении трех дней но не больше трех
-					 	$baza->timer='podtverzhden';
-			$baza->save(false);
-		Yii::$app->session->setFlash('success', 'Вы успешно подтвердили регистрацию, теперь можете войти на сайт');
-			 return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-			
-					 }
-			 }
-				  }
-                   else{
-Yii::$app->session->setFlash('error', 'Вы уже потверждали ранее акаунт');
- return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-				 }
-		
-}
-	  			 Yii::$app->session->setFlash('error', 'Такого логина в этой системе нет');
- return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));    
-		     }
-			
-    public function actionUsertwo()
-        {
-	$this->layout = 'main2';		
-			
-$model = new Usertwo();
+    public function actionOnline(){
+        return $this->render('online');
+    }
+    
+    public function actionPoker(){
+        return $this->render('poker');
+    }
+    
+    protected function actionStatus2($login){
+        $time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
+        //если прошло более три дня тогда результат будет больше того, что хранится в базе 
+        //если прошло меньше трех дней тогда результат будет меньше того что в базе
+        $login2=strip_tags($login);//функция вырезает теги если есть в запросе
+        $baza=Usertwo::findOne(['username' => $login2]);
 
-            if ($model->load(Yii::$app->request->post())) {
-                if($model->validate()) {
-            // form inputs are valid, do something here
-                    $model->attributes = Yii::$app->request->post('Usertwo');
-                     $model->password=Yii::$app->getSecurity()->generatePasswordHash($_POST['Usertwo']['password']);
-                    $model->timer=time();
-                    $model->save();
-                    
-$username=$_POST['Usertwo']['username'];    
-$patch="<a href='http://".$_SERVER['HTTP_HOST'].Url::to('@site')."/status?login=".$username."' target='blank'>перейдите по ссылке</a>";
-$date=date("d.m.Y"); 
-$time=date("H:i"); 
-$to=$_POST['Usertwo']['email'];//кому отправить
-$subject = "Потверждение регистрации";//тема письма
-			   $subject='=?UTF-8?B?'.base64_encode($subject).'?=';
-	          $From = ' site';
-             $message="Для потверждения регистрации ".$patch;
-                     $headers="From: $From\r\nReply-To: \r\nContent-type: text/html; charset=UTF-8\r\n";
-		              mail($to,$subject,$message,$headers);
-Yii::$app->session->setFlash('success', 'Данные приняты, вам на почту выслано письмо с активацией, необходимо сделать активацию в течениии трех дней');
-return $this->refresh();
-                        
-                        
+        if($baza->timer){
+            if(is_numeric($baza->timer)){
+                if($baza->timer < $time){
+
+                $baza->delete();
+                $model = new Usertwo();
+                return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
                 }else{
-                    Yii::$app->session->setFlash('error', 'Ошибка: такой логин в нашей системе есть');
-                     return $this->refresh();
+                    if($baza->timer==$time || $time < $baza->timer){
+                    //разрешаем потвержление в течении трех дней но не больше трех
+                        $baza->timer='podtverzhden';
+                        $baza->save(false);
+                        Yii::$app->session->setFlash('success', 'Вы успешно подтвердили регистрацию, теперь можете войти на сайт');
+                        return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+
+                    }
                 }
             }
-
-            return $this->render('usertwo', [
-                'model' => $model,
-            ]);
+            else{
+                Yii::$app->session->setFlash('error', 'Вы уже потверждали ранее акаунт');
+                return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+            }
         }
+        Yii::$app->session->setFlash('error', 'Такого логина в этой системе нет');
+        return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));    
+    }
+			
+    public function actionUsertwo(){
+	$this->layout = 'main2';		
+	$model = new Usertwo();
+        if ($model->load(Yii::$app->request->post())) {
+            if($model->validate()) {
+        // form inputs are valid, do something here
+                $model->attributes = Yii::$app->request->post('Usertwo');
+                $model->password=Yii::$app->getSecurity()->generatePasswordHash($_POST['Usertwo']['password']);
+                $model->timer=time();
+                $model->save();
+
+                $username=$_POST['Usertwo']['username'];    
+                $patch="<a href='http://".$_SERVER['HTTP_HOST'].Url::to('@site')."/status?login=".$username."' target='blank'>перейдите по ссылке</a>";
+                $date=date("d.m.Y"); 
+                $time=date("H:i"); 
+                $to=$_POST['Usertwo']['email'];//кому отправить
+                $subject = "Потверждение регистрации";//тема письма
+                $subject='=?UTF-8?B?'.base64_encode($subject).'?=';
+                $From = ' site';
+                $message="Для потверждения регистрации ".$patch;
+                $headers="From: $From\r\nReply-To: \r\nContent-type: text/html; charset=UTF-8\r\n";
+                mail($to,$subject,$message,$headers);
+                Yii::$app->session->setFlash('success', 'Данные приняты, вам на почту выслано письмо с активацией, необходимо сделать активацию в течениии трех дней');
+                return $this->refresh();
+
+
+            }else{
+                Yii::$app->session->setFlash('error', 'Ошибка: такой логин в нашей системе есть');
+                 return $this->refresh();
+            }
+        }
+
+        return $this->render('usertwo', [
+            'model' => $model,
+        ]);
+    }
     
-
-
-
     public function actionEntry(){
 
         $model = new EntryForm();
@@ -123,8 +130,22 @@ return $this->refresh();
 
     }
 
-    public function actionTesting(){
+   
 
+
+    public function actionNumber(){
+        if(isset($_POST['number'])){
+            $number = $_POST['number'];
+            if($_SERVER["REMOTE_ADDR"] == "127.0.0.1"){
+               $result = Yii::$app->db->createCommand()->insert('roulette', ['number' => $number])->execute();
+
+               if($result == true){
+                    echo "1";
+               }else{
+                echo "2";
+               }
+           }
+        }
     }
 
     public function actionSay($message = 'Привет'){
@@ -173,6 +194,26 @@ return $this->refresh();
     {
 	$this->layout = 'main2';
             $page='index';
+
+        $user_agent = $_SERVER["HTTP_USER_AGENT"];
+          if (strpos($user_agent, "Firefox") !== false) $browser = "Firefox";
+          elseif (strpos($user_agent, "Opera") !== false) $browser = "Opera";
+          elseif (strpos($user_agent, "Chrome") !== false) $browser = "Chrome";
+          elseif (strpos($user_agent, "MSIE") !== false) $browser = "Internet Explorer";
+          elseif (strpos($user_agent, "Safari") !== false) $browser = "Safari";
+          else $browser = "Неизвестный";
+          //echo "Ваш браузер: $browser";
+          if($browser == "Internet Explorer"){
+                   $this->layout = 'explorers';
+                  return $this->render('explorer');
+
+
+          }
+		
+		
+		
+	 $this->layout = 'main2';
+		$page='index';
         return $this->render('index');
     }
     public function actionRecordbd2(){
@@ -509,8 +550,8 @@ return $this->refresh();
     }
     
     public function actionRequestlive(){
-
-        return $this->render('request_live');
+$this->layout = 'main3';
+        return $this->render('request_live',['model'=>$layout]);
     }
 
     public function actionSoccerpage(){
@@ -519,7 +560,7 @@ return $this->refresh();
     }
     
     public function actionSlive(){
-
+        $this->layout = 'main2';
         return $this->render('s_live');
     }
 
@@ -889,9 +930,103 @@ return $this->refresh();
 
        
     }
+ public function actionOnlineajax(){
+	 $identity = \Yii::$app->user->identity;
+	 if($identity){
+		 $res_id = $identity['id'];
+	 }else{
+		 echo "nouser";exit();
+	 }
+	 //
+	 
+	$session =Yii::$app->session;
+        $session->open();
+	$option=trim(strip_tags($_POST['param2']));
+	
+if($option == 'number4'){
+$summ=trim(strip_tags($_POST['summa']));
+//$time = time() - (3600 * 24 * 3);
+$time = time();
+
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka4 = $tring;
+		$model->summastavka4=$summ;
+		$model->timer=$time;
+        $model->save(false);
+		   
+array_push($_POST['param'], $summ);
+
+//$_SESSION['stavka']['number4'][]=$_POST['param'];
+echo "ok";exit();
+}
+if($option == 'number2'){
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka2 = $tring;
+		$model->summastavka2=$summ;
+        $model->save(false);
+		   	
+	
+	array_push($_POST['param'], $summ);
+//$_SESSION['stavka']['number2'][]=$_POST['param'];
+echo "ok";exit();
+}
+if($option == 'baza'){
+
+$user_stavka = Ruletka::find()->asArray()->where("id_user=$res_id")->limit(1)->one();
+$name='activ';
+  $success_result=Roulette::find()->asArray()->where("status='{$name}'")->limit(1)->one();
+$number_success=$success_result['number'];
+if($success_result){
+$arr=explode(',',$user_stavka['stavka4']);
+if(in_array($number_success,$arr)){
+	$user_stavka[4]=$number_success;
+	/*
+	foreach($_SESSION['stavka']['number4'] as $item){
+		
+	}
+	*/
+	$_SESSION['stavka']['number4'][]=$arr;
+	/*
+	foreach ($_SESSION['stavka']['number4'] as $item){
+		  $sess_num=implode(",", $item);
+		  if($sess_num == $user_stavka['stavka4']){
+			  
+		  }
+	}
+	*/
+	//$this->render('cart-modal', compact('session'));
+	
+}
 
 
 
+echo "ok";exit();
+}else{
+	 $file = fopen('log.txt', 'w+');
+  $date=date("d m Y H:i:s");
+$write = fwrite($file, "не пришел запрос с базы выигрышное число: ".$date);
+}
+
+
+	
+}//baza
+
+
+if($option == 'statistika'){
+
+	 $session =\Yii::$app->session;
+		      $session->open();
+	 $this->layout = false;
+	 return $this->render('cart-modal', compact('session'));
+}
+
+
+ }
     public function actionLivep(){
 
         return $this->render("live_result");
@@ -1108,8 +1243,7 @@ protected function checkTimer($login){
 
         $res_id = $identity['id'];
         
-        $sobitie = Yii::$app->db->createCommand("SELECT * FROM type_sobitiya WHERE status IS NULL AND res_id = '$res_id'")
-                ->queryAll();
+        $sobitie = Yii::$app->db->createCommand("SELECT * FROM type_sobitiya WHERE status IS NULL AND res_id = '$res_id'")->queryAll();
         
         return $this->render("korz",['model'=>$sobitie]);
 
