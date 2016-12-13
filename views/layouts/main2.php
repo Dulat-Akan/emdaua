@@ -13,9 +13,9 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
   //echo "Ваш браузер: $browser";
   if($browser == "Internet Explorer"){
 
-	header("Location:"."/web/index.php/site/");exit();
-	  
-	  
+  header("Location:"."/web/index.php/site/");exit();
+    
+    
   }
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -32,7 +32,7 @@ AppAsset::register($this);
 
 <html lang="<?= Yii::$app->language ?>">
 
-	
+  
 <head>
     
      <!--scroll bar -->
@@ -51,9 +51,9 @@ AppAsset::register($this);
         }
     </style>
     <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.css">
-	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.min.js"></script>
-	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.min.js"></script>
+  <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.mousewheel.js"></script>
                 
     <!--end scroll bar -->
     
@@ -68,9 +68,9 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-	
-	
-				<script type="text/javascript">
+  
+  
+        <script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'ru', layout: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT}, 'google_translate_element');
 }
@@ -82,7 +82,7 @@ function googleTranslateElementInit() {
 
 
 <?php $this->beginBody() ?>
-		<nav class="navbar navbar-default menu2 clearfix">
+    <nav class="navbar navbar-default menu2 clearfix">
  
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -97,8 +97,8 @@ function googleTranslateElementInit() {
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse menu-bot" id="bs-example-navbar-collapse-2">
-	<div class="" id="mylink2">
-      	<ul class="nav nav-pills nav-justified ">
+  <div class="" id="mylink2">
+        <ul class="nav nav-pills nav-justified ">
      
                  
                   <li><a shref="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
@@ -139,40 +139,40 @@ function googleTranslateElementInit() {
   
     </div><!-- /.navbar-collapse -->
 
-			</nav>
+      </nav>
 
 
 
-	
+  
       <?php
-	NavBar::begin([
+  NavBar::begin([
         'brandLabel' => 'AlmaBet',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top nav2',
         ],
     ]);
-	echo "<div style=\"width:200px;float:right;padding-left:20px;\" id=\"google_translate_element\"></div>";
-	if (Yii::$app->user->isGuest) {
-					$menuItems = [
-						['label' => 'Домой', 'url' => ['/index.php/site']],
-						['label' => 'О нас', 'url' => ['/index.php/site/about']],
-						['label' => 'Наши контакты', 'url' => ['/site/contact']],
-						['label' => 'Вход', 'url' => ['/index.php/site/login']],
-						['label' => 'Регистрация', 'url' => ['/index.php/site/usertwo']],
-					];
-				} else {
-					$menuItems = [
-						['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
-						['label' => 'История ставок', 'url' => ['/index.php/site/historykorzina']],
-						['label' => 'Домой', 'url' => ['/index.php/site']],
-						['label' => 'О нас', 'url' => ['/index.php/site/about']],
-						['label' => 'Наши контакты', 'url' => ['/index.php/site/contact']],
-						['label' => 'Выйти (' . Yii::$app->user->identity->username . ')',
-							'url' => ['/index.php/site/logout'],
-							'linkOptions' => ['data-method' => 'post']],
-					];	
-				}
+  echo "<div style=\"width:200px;float:right;padding-left:20px;\" id=\"google_translate_element\"></div>";
+  if (Yii::$app->user->isGuest) {
+          $menuItems = [
+            ['label' => 'Домой', 'url' => ['/index.php/site']],
+            ['label' => 'О нас', 'url' => ['/index.php/site/about']],
+            ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+            ['label' => 'Вход', 'url' => ['/index.php/site/login']],
+            ['label' => 'Регистрация', 'url' => ['/index.php/site/usertwo']],
+          ];
+        } else {
+          $menuItems = [
+            ['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
+            ['label' => 'История ставок', 'url' => ['/index.php/site/historykorzina']],
+            ['label' => 'Домой', 'url' => ['/index.php/site']],
+            ['label' => 'О нас', 'url' => ['/index.php/site/about']],
+            ['label' => 'Наши контакты', 'url' => ['/index.php/site/contact']],
+            ['label' => 'Выйти (' . Yii::$app->user->identity->username . ')',
+              'url' => ['/index.php/site/logout'],
+              'linkOptions' => ['data-method' => 'post']],
+          ];  
+        }
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
 
@@ -181,7 +181,8 @@ function googleTranslateElementInit() {
              ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
             ['label' => 'О нас', 'url' => ['/index.php/site/about']],
             ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-			['label' => 'Казино', 'url' => ['/index.php/site/online']],
+            ['label' => 'Покер', 'url' => ['/index.php/poker']],
+      ['label' => 'Казино', 'url' => ['/index.php/site/online']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Вход', 'url' => ['/index.php/site/login']]
                 
@@ -221,14 +222,14 @@ function googleTranslateElementInit() {
 
     <div class="row">
         <div class="col-md-12">
-		
-	<div class="col-md-10 col-md-push-2" id="pok_searh2"><?= $content ?></div>
+    
+  <div class="col-md-10 col-md-push-2" id="pok_searh2"><?= $content ?></div>
 <!-- <div class="col-md-10 col-md-push-2" id=""></div> -->
 <div class="col-md-2 col-md-pull-10 kolekcii" id="mylink">
 <div id="google_translate_element"></div>
                </br>
                 <ul class="nav nav-tabs nav-stacked kolekcii_soderzhimoe">
-				
+        
                   <li style="margin-left: 15px;font-size:17px;" class="nav-header">Сейчас в линии</li>
                  
                   <li><a href="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
@@ -304,10 +305,10 @@ $('.alert').removeClass('alert');
 
 
        <script type="text/javascript">
-		$(function(){
-			$('.kolekcii').jScrollPane();
-		});
-	</script>
+    $(function(){
+      $('.kolekcii').jScrollPane();
+    });
+  </script>
     </div>
 </div>
 
