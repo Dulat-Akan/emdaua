@@ -33,7 +33,7 @@
 							<div class="flipper">
 								<div class="product22 front">
 								<p class="ruka-title">
-								        Выиграет рука <?=$i?>
+								        Выиграет рука <?php echo $i; ?>
 									</p>
 									<p class='karta'>
 										<span>1</span> <img  src="<?php echo Url::to('@img/pika.png'); ?>"/>
@@ -47,7 +47,7 @@
 	<!--------------- переворачивание обратная сторона--------------------->
 								<div class="product22 back">
 									<h6>
-								     Выиграет рука <?=$i?><span>6.55</span>
+								     Выиграет рука <?php echo$i?><span>6.55</span>
 									</h6>
 							
 							<p>Сумма 500</p>  
@@ -85,7 +85,7 @@
 
 <div class="col-xs-4 right">
 <h6>
-Выиграет рука <?=$i?><span>6.55</span>
+Выиграет рука <?php echo$i?><span>6.55</span>
 </h6>
 <p>Сумма 500</p>  
 							
