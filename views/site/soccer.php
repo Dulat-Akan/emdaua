@@ -153,144 +153,144 @@
 <span class="title-time-block">Часовой пояс:</span>
 <div class="time-item">
 <span class="active">
-<span id='h0'>01:14:11</span>
+<span id='h0'>01:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481656451,'h0','+06:00',0, false);
-			            setInterval('wr_hoursSelect(1481656451,"h0","+06:00",0, false);',1000);
+			            wr_hoursSelect(1481656590,'h0','+06:00',0, false);
+			            setInterval('wr_hoursSelect(1481656590,"h0","+06:00",0, false);',1000);
 		            </script> </span>
 <div class="time-container" style="display: none;">
-<div onclick="window.location='index.php?action=set_tmz&id=-1080&use_DST=0'"><span id='h1'>07:14:11</span>
+<div onclick="window.location='index.php?action=set_tmz&id=-1080&use_DST=0'"><span id='h1'>07:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481591651,'h1','-12:00',1, false);
-			            setInterval('wr_hoursSelect(1481591651,"h1","-12:00",1, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-1020&use_DST=0'"><span id='h2'>08:14:11</span>
+			            wr_hoursSelect(1481591790,'h1','-12:00',1, false);
+			            setInterval('wr_hoursSelect(1481591790,"h1","-12:00",1, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-1020&use_DST=0'"><span id='h2'>08:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481595251,'h2','-11:00',2, false);
-			            setInterval('wr_hoursSelect(1481595251,"h2","-11:00",2, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-960&use_DST=0'"><span id='h3'>09:14:11</span>
+			            wr_hoursSelect(1481595390,'h2','-11:00',2, false);
+			            setInterval('wr_hoursSelect(1481595390,"h2","-11:00",2, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-960&use_DST=0'"><span id='h3'>09:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481598851,'h3','-10:00',3, false);
-			            setInterval('wr_hoursSelect(1481598851,"h3","-10:00",3, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-900&use_DST=0'"><span id='h4'>10:14:11</span>
+			            wr_hoursSelect(1481598990,'h3','-10:00',3, false);
+			            setInterval('wr_hoursSelect(1481598990,"h3","-10:00",3, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-900&use_DST=0'"><span id='h4'>10:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481602451,'h4','-09:00',4, false);
-			            setInterval('wr_hoursSelect(1481602451,"h4","-09:00",4, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-840&use_DST=0'"><span id='h5'>11:14:11</span>
+			            wr_hoursSelect(1481602590,'h4','-09:00',4, false);
+			            setInterval('wr_hoursSelect(1481602590,"h4","-09:00",4, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-840&use_DST=0'"><span id='h5'>11:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481606051,'h5','-08:00',5, false);
-			            setInterval('wr_hoursSelect(1481606051,"h5","-08:00",5, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-780&use_DST=0'"><span id='h6'>12:14:11</span>
+			            wr_hoursSelect(1481606190,'h5','-08:00',5, false);
+			            setInterval('wr_hoursSelect(1481606190,"h5","-08:00",5, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-780&use_DST=0'"><span id='h6'>12:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481609651,'h6','-07:00',6, false);
-			            setInterval('wr_hoursSelect(1481609651,"h6","-07:00",6, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-720&use_DST=0'"><span id='h7'>13:14:11</span>
+			            wr_hoursSelect(1481609790,'h6','-07:00',6, false);
+			            setInterval('wr_hoursSelect(1481609790,"h6","-07:00",6, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-720&use_DST=0'"><span id='h7'>13:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481613251,'h7','-06:00',7, false);
-			            setInterval('wr_hoursSelect(1481613251,"h7","-06:00",7, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-660&use_DST=0'"><span id='h8'>14:14:11</span>
+			            wr_hoursSelect(1481613390,'h7','-06:00',7, false);
+			            setInterval('wr_hoursSelect(1481613390,"h7","-06:00",7, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-660&use_DST=0'"><span id='h8'>14:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481616851,'h8','-05:00',8, false);
-			            setInterval('wr_hoursSelect(1481616851,"h8","-05:00",8, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-600&use_DST=0'"><span id='h9'>15:14:11</span>
+			            wr_hoursSelect(1481616990,'h8','-05:00',8, false);
+			            setInterval('wr_hoursSelect(1481616990,"h8","-05:00",8, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-600&use_DST=0'"><span id='h9'>15:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481620451,'h9','-04:00',9, false);
-			            setInterval('wr_hoursSelect(1481620451,"h9","-04:00",9, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-570&use_DST=0'"><span id='h10'>15:44:11</span>
+			            wr_hoursSelect(1481620590,'h9','-04:00',9, false);
+			            setInterval('wr_hoursSelect(1481620590,"h9","-04:00",9, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-570&use_DST=0'"><span id='h10'>15:46:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481622251,'h10','-03:30',10, false);
-			            setInterval('wr_hoursSelect(1481622251,"h10","-03:30",10, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-540&use_DST=0'"><span id='h11'>16:14:11</span>
+			            wr_hoursSelect(1481622390,'h10','-03:30',10, false);
+			            setInterval('wr_hoursSelect(1481622390,"h10","-03:30",10, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-540&use_DST=0'"><span id='h11'>16:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481624051,'h11','-03:00',11, false);
-			            setInterval('wr_hoursSelect(1481624051,"h11","-03:00",11, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-480&use_DST=0'"><span id='h12'>17:14:11</span>
+			            wr_hoursSelect(1481624190,'h11','-03:00',11, false);
+			            setInterval('wr_hoursSelect(1481624190,"h11","-03:00",11, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-480&use_DST=0'"><span id='h12'>17:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481627651,'h12','-02:00',12, false);
-			            setInterval('wr_hoursSelect(1481627651,"h12","-02:00",12, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-420&use_DST=0'"><span id='h13'>18:14:11</span>
+			            wr_hoursSelect(1481627790,'h12','-02:00',12, false);
+			            setInterval('wr_hoursSelect(1481627790,"h12","-02:00",12, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-420&use_DST=0'"><span id='h13'>18:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481631251,'h13','-01:00',13, false);
-			            setInterval('wr_hoursSelect(1481631251,"h13","-01:00",13, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-360&use_DST=0'"><span id='h14'>19:14:11</span>
+			            wr_hoursSelect(1481631390,'h13','-01:00',13, false);
+			            setInterval('wr_hoursSelect(1481631390,"h13","-01:00",13, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-360&use_DST=0'"><span id='h14'>19:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481634851,'h14','',14, false);
-			            setInterval('wr_hoursSelect(1481634851,"h14","",14, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-300&use_DST=0'"><span id='h15'>20:14:11</span>
+			            wr_hoursSelect(1481634990,'h14','',14, false);
+			            setInterval('wr_hoursSelect(1481634990,"h14","",14, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-300&use_DST=0'"><span id='h15'>20:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481638451,'h15','+01:00',15, false);
-			            setInterval('wr_hoursSelect(1481638451,"h15","+01:00",15, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-240&use_DST=0'"><span id='h16'>21:14:11</span>
+			            wr_hoursSelect(1481638590,'h15','+01:00',15, false);
+			            setInterval('wr_hoursSelect(1481638590,"h15","+01:00",15, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-240&use_DST=0'"><span id='h16'>21:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481642051,'h16','+02:00',16, false);
-			            setInterval('wr_hoursSelect(1481642051,"h16","+02:00",16, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-180&use_DST=0'"><span id='h17'>22:14:11</span>
+			            wr_hoursSelect(1481642190,'h16','+02:00',16, false);
+			            setInterval('wr_hoursSelect(1481642190,"h16","+02:00",16, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-180&use_DST=0'"><span id='h17'>22:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481645651,'h17','+03:00',17, false);
-			            setInterval('wr_hoursSelect(1481645651,"h17","+03:00",17, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-150&use_DST=0'"><span id='h18'>22:44:11</span>
+			            wr_hoursSelect(1481645790,'h17','+03:00',17, false);
+			            setInterval('wr_hoursSelect(1481645790,"h17","+03:00",17, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-150&use_DST=0'"><span id='h18'>22:46:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481647451,'h18','+03:30',18, false);
-			            setInterval('wr_hoursSelect(1481647451,"h18","+03:30",18, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-120&use_DST=0'"><span id='h19'>23:14:11</span>
+			            wr_hoursSelect(1481647590,'h18','+03:30',18, false);
+			            setInterval('wr_hoursSelect(1481647590,"h18","+03:30",18, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-120&use_DST=0'"><span id='h19'>23:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481649251,'h19','+04:00',19, false);
-			            setInterval('wr_hoursSelect(1481649251,"h19","+04:00",19, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-90&use_DST=0'"><span id='h20'>23:44:11</span>
+			            wr_hoursSelect(1481649390,'h19','+04:00',19, false);
+			            setInterval('wr_hoursSelect(1481649390,"h19","+04:00",19, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-90&use_DST=0'"><span id='h20'>23:46:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481651051,'h20','+04:30',20, false);
-			            setInterval('wr_hoursSelect(1481651051,"h20","+04:30",20, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-60&use_DST=0'"><span id='h21'>00:14:11</span>
+			            wr_hoursSelect(1481651190,'h20','+04:30',20, false);
+			            setInterval('wr_hoursSelect(1481651190,"h20","+04:30",20, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-60&use_DST=0'"><span id='h21'>00:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481652851,'h21','+05:00',21, false);
-			            setInterval('wr_hoursSelect(1481652851,"h21","+05:00",21, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-30&use_DST=0'"><span id='h22'>00:44:11</span>
+			            wr_hoursSelect(1481652990,'h21','+05:00',21, false);
+			            setInterval('wr_hoursSelect(1481652990,"h21","+05:00",21, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-30&use_DST=0'"><span id='h22'>00:46:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481654651,'h22','+05:30',22, false);
-			            setInterval('wr_hoursSelect(1481654651,"h22","+05:30",22, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-15&use_DST=0'"><span id='h23'>00:59:11</span>
+			            wr_hoursSelect(1481654790,'h22','+05:30',22, false);
+			            setInterval('wr_hoursSelect(1481654790,"h22","+05:30",22, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-15&use_DST=0'"><span id='h23'>01:01:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481655551,'h23','+05:45',23, false);
-			            setInterval('wr_hoursSelect(1481655551,"h23","+05:45",23, false);',1000);
-		            </script></div><div class="active"><span id='h24'>01:14:11</span>
+			            wr_hoursSelect(1481655690,'h23','+05:45',23, false);
+			            setInterval('wr_hoursSelect(1481655690,"h23","+05:45",23, false);',1000);
+		            </script></div><div class="active"><span id='h24'>01:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481656451,'h24','+06:00',24, false);
-			            setInterval('wr_hoursSelect(1481656451,"h24","+06:00",24, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=30&use_DST=0'"><span id='h25'>01:44:11</span>
+			            wr_hoursSelect(1481656590,'h24','+06:00',24, false);
+			            setInterval('wr_hoursSelect(1481656590,"h24","+06:00",24, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=30&use_DST=0'"><span id='h25'>01:46:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481658251,'h25','+06:30',25, false);
-			            setInterval('wr_hoursSelect(1481658251,"h25","+06:30",25, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=60&use_DST=0'"><span id='h26'>02:14:11</span>
+			            wr_hoursSelect(1481658390,'h25','+06:30',25, false);
+			            setInterval('wr_hoursSelect(1481658390,"h25","+06:30",25, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=60&use_DST=0'"><span id='h26'>02:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481660051,'h26','+07:00',26, false);
-			            setInterval('wr_hoursSelect(1481660051,"h26","+07:00",26, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=120&use_DST=0'"><span id='h27'>03:14:11</span>
+			            wr_hoursSelect(1481660190,'h26','+07:00',26, false);
+			            setInterval('wr_hoursSelect(1481660190,"h26","+07:00",26, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=120&use_DST=0'"><span id='h27'>03:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481663651,'h27','+08:00',27, false);
-			            setInterval('wr_hoursSelect(1481663651,"h27","+08:00",27, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=180&use_DST=0'"><span id='h28'>04:14:11</span>
+			            wr_hoursSelect(1481663790,'h27','+08:00',27, false);
+			            setInterval('wr_hoursSelect(1481663790,"h27","+08:00",27, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=180&use_DST=0'"><span id='h28'>04:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481667251,'h28','+09:00',28, false);
-			            setInterval('wr_hoursSelect(1481667251,"h28","+09:00",28, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=210&use_DST=0'"><span id='h29'>04:44:11</span>
+			            wr_hoursSelect(1481667390,'h28','+09:00',28, false);
+			            setInterval('wr_hoursSelect(1481667390,"h28","+09:00",28, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=210&use_DST=0'"><span id='h29'>04:46:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481669051,'h29','+09:30',29, false);
-			            setInterval('wr_hoursSelect(1481669051,"h29","+09:30",29, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=240&use_DST=0'"><span id='h30'>05:14:11</span>
+			            wr_hoursSelect(1481669190,'h29','+09:30',29, false);
+			            setInterval('wr_hoursSelect(1481669190,"h29","+09:30",29, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=240&use_DST=0'"><span id='h30'>05:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481670851,'h30','+10:00',30, false);
-			            setInterval('wr_hoursSelect(1481670851,"h30","+10:00",30, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=300&use_DST=0'"><span id='h31'>06:14:11</span>
+			            wr_hoursSelect(1481670990,'h30','+10:00',30, false);
+			            setInterval('wr_hoursSelect(1481670990,"h30","+10:00",30, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=300&use_DST=0'"><span id='h31'>06:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481674451,'h31','+11:00',31, false);
-			            setInterval('wr_hoursSelect(1481674451,"h31","+11:00",31, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=360&use_DST=0'"><span id='h32'>07:14:11</span>
+			            wr_hoursSelect(1481674590,'h31','+11:00',31, false);
+			            setInterval('wr_hoursSelect(1481674590,"h31","+11:00",31, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=360&use_DST=0'"><span id='h32'>07:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481678051,'h32','+12:00',32, false);
-			            setInterval('wr_hoursSelect(1481678051,"h32","+12:00",32, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=420&use_DST=0'"><span id='h33'>08:14:11</span>
+			            wr_hoursSelect(1481678190,'h32','+12:00',32, false);
+			            setInterval('wr_hoursSelect(1481678190,"h32","+12:00",32, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=420&use_DST=0'"><span id='h33'>08:16:30</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1481681651,'h33','+13:00',33, false);
-			            setInterval('wr_hoursSelect(1481681651,"h33","+13:00",33, false);',1000);
+			            wr_hoursSelect(1481681790,'h33','+13:00',33, false);
+			            setInterval('wr_hoursSelect(1481681790,"h33","+13:00",33, false);',1000);
 		            </script></div> </div>
 </div>
 </div>
@@ -303,7 +303,7 @@
 <input type="text" placeholder="Логин" name="login">
 <input type="password" placeholder="Пароль" name="passw">
 <input type=checkbox id="https" style="display:none;" checked value="1">
-<input type=hidden name='asid' value='5485515'><input type=hidden name='psid' value='f0e4de0003c3041ce25fd1f0fd523295'> </div>
+<input type=hidden name='asid' value='8105888'><input type=hidden name='psid' value='dfcd9504bda7a0e168e3e579a89cb2f8'> </div>
 <a href="https://www.olimpkz.com/index.php?page=recover" class="remember-pass">Забыли данные?</a>
 </form>
 </div>
@@ -513,7 +513,7 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
-<font class=txtmed color=black>Ставки</font> Live (73)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>Ставки</font> Live (72)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
@@ -2315,10 +2315,10 @@ ENGINE DEBUG INFORMATION
 DataBase Errors: 0
 Script Errors: 0
 Script Warnings: 0
-Total time: 0.042 s
+Total time: 0.033 s
 DataBase time(1): 0 s
-DataBase time(2): 0.027 s
-Served by: s66
+DataBase time(2): 0.02 s
+Served by: s63
 C: true
 VK_I8Ud3
 </div>

@@ -12,10 +12,11 @@
 	</div>
 
 </div>
-	
+<div class='time-wrap'>
 <div class="time"></div>
 <div class="time2"></div>
 <div class="time3"></div>
+</div>
 <div id="wrapper">
 <div class="cubeoverlay"></div>
 		<div id="cube">
@@ -52,7 +53,7 @@
 		 <div class="y"><p>33</p></div>
 		  <p class="s"><span class="s-in"></span><span class="ugol"></span></p>
 		 <div class="y"><p>36</p></div>
-		<div class="y" id="first"><p>2 к 1</p></div>
+		<div class="y middle" id="first"><p>2 к 1</p></div>
 		<p class="clear"></p>
 		
 		 	<div class="y"><p>0</p></div>
@@ -83,7 +84,7 @@
 			<p class="s"><span class="s-in"></span><span class="ugol"></span></p>
 								<div class="y"><p>35</p></div>
 			
-			<div class="y" id="middle"><p>2 к 1</p></div>
+			<div class="y middle" id="middle"><p>2 к 1</p></div>
 			<p class="clear"></p>
 			
 				<div class="y"><p></p></div>
@@ -101,23 +102,23 @@
 				
 					
 			<div class="y"><p>13</p></div>
-							<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
 			<div class="y"><p>16</p></div>
-							<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>				
 			<div class="y"><p>19</p></div>
-								<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>				
 			<div class="y"><p>22</p></div>
 			<p class="s sepa"><span class="s-in"></span></p>
 			
 			
 			<div class="y"><p>25</p></div>
-				<p class="s"><span class="s-in"></p>
+				<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
 						<div class="y"><p>28</p></div>
-				<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
 						<div class="y"><p>31</p></div>
-				<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
 							<div class="y"><p>34</p></div>
-					<div class="y" id="bottom"><p>2 к 1</p></div>
+					<div class="y middle" id="bottom"><p>2 к 1</p></div>
 					<p class="clear"></p>
 					<div class="cube-bottom-wrap">
 					<div class="cube-bottom">
@@ -323,7 +324,7 @@
 <p class="modal_r-logout">выйти</p>
 </div>
 	<input class="patchonlinepage" type="hidden" value="<?php echo Url::to('@base'); ?>/site/onlineajax">
-	<input class="nouser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/login">
+	<input class="nouser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/login?ruletka=login">
 	<script src="<?php echo Url::to('@jquery') ?>/online.js"></script>	
 	<script src="js/jquery.script.js"></script>
 
