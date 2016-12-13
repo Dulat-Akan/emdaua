@@ -1010,9 +1010,23 @@ protected function checkTimer($login){
 		}
 		
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-			
-			
+			$link=$_SERVER['HTTP_REFERER'];
+			if($link){
+				 $id = Yii::$app->request->get('ruletka');
+				 $link2='http://'.$_SERVER['HTTP_HOST'].'/web/index.php/site/online';
+				 if($id=='login'){
+				
+					 header("Location:".$link2);exit();
+					 
+				 }else{
+					 return $this->goBack();
+				 }
+				
+				
+			}else{
+		
             return $this->goBack();
+			}
         }
 		
         return $this->render('login', [

@@ -322,7 +322,7 @@
 <p class="modal_r-logout">выйти</p>
 </div>
 	<input class="patchonlinepage" type="hidden" value="<?php echo Url::to('@base'); ?>/site/onlineajax">
-	<input class="nouser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/login">
+	<input class="nouser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/login?ruletka=login">
 	<script src="<?php echo Url::to('@jquery') ?>/online.js"></script>	
 	<script src="js/jquery.script.js"></script>
 

@@ -1,10 +1,4 @@
-<?//unset($session['stavka'])?>
-<?//unset($session['s'])?>
 
-<?if (isset($session['stavka'])):?>
-
-<pre><?//print_r($session['stavka'])?></pre>
-<?endif?>
 
 
 <? $identity = Yii::$app->user->identity;?>

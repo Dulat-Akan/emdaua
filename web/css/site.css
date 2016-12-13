@@ -1020,18 +1020,21 @@ border:1px solid #fff;
 	float:left;
 }
 .cube-bottom-wrap {
-	
+	background:#CCCCCC;
 }
 .cube-bottom-wrap div:nth-child(1) .cube-bottom1 {
 	border-right:7px solid #fff;
+	background:green;
 }
 
 .cube-bottom-wrap div:nth-child(2) .cube-bottom1 {
 	margin-left:0px!important;width:248px;border-right:7px solid #fff;
+	background:green;
 }
 .cube-bottom-wrap div:nth-child(3) .cube-bottom1 {
 	margin-left:0px!important;width:248px;
 	border-right:1px solid #fff;width:243px;
+	background:green;
 }
 
 .cube-bottom1{
