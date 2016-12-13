@@ -931,90 +931,215 @@ $this->layout = 'main3';
        
     }
  public function actionOnlineajax(){
+	
+	 $option=trim(strip_tags($_POST['param2']));
 	 $identity = \Yii::$app->user->identity;
 	 if($identity){
 		 $res_id = $identity['id'];
 	 }else{
+		 if($option == 'statistika'){
+			 $this->layout = false;
+			  return $this->render('cart-modal');
+		 }
 		 echo "nouser";exit();
 	 }
 	 //
 	 
 	$session =Yii::$app->session;
         $session->open();
-	$option=trim(strip_tags($_POST['param2']));
+	
 	
 if($option == 'number4'){
 $summ=trim(strip_tags($_POST['summa']));
 //$time = time() - (3600 * 24 * 3);
-$time = time();
+//print_r($_POST['param']);exit();
 
 	$model = new Ruletka();
 			 $model->id_user = $res_id;
    $tring=implode(",", $_POST['param']);
         $model->stavka4 = $tring;
 		$model->summastavka4=$summ;
-		$model->timer=$time;
+		$model->timer=time();
         $model->save(false);
 		   
-array_push($_POST['param'], $summ);
+
 
 //$_SESSION['stavka']['number4'][]=$_POST['param'];
 echo "ok";exit();
 }
 if($option == 'number2'){
-$summ=trim(strip_tags($_POST['summa']));
-	$model = new Ruletka();
-			 $model->id_user = $res_id;
-   $tring=implode(",", $_POST['param']);
-        $model->stavka2 = $tring;
-		$model->summastavka2=$summ;
-        $model->save(false);
+	
+    $summ=trim(strip_tags($_POST['summa']));
+    $model = new Ruletka();
+    $model->id_user = $res_id;
+    $tring=implode(",", $_POST['param']);
+    $model->stavka2 = $tring;
+    $model->summastavka2=$summ;
+    $model->timer=time();
+    $model->save(false);
 		   	
 	
-	array_push($_POST['param'], $summ);
-//$_SESSION['stavka']['number2'][]=$_POST['param'];
-echo "ok";exit();
+    array_push($_POST['param'], $summ);
+        //$_SESSION['stavka']['number2'][]=$_POST['param'];
+    echo "ok";exit();
 }
-if($option == 'baza'){
-
-$user_stavka = Ruletka::find()->asArray()->where("id_user=$res_id")->limit(1)->one();
-$name='activ';
-  $success_result=Roulette::find()->asArray()->where("status='{$name}'")->limit(1)->one();
-$number_success=$success_result['number'];
-if($success_result){
-$arr=explode(',',$user_stavka['stavka4']);
-if(in_array($number_success,$arr)){
-	$user_stavka[4]=$number_success;
-	/*
-	foreach($_SESSION['stavka']['number4'] as $item){
-		
-	}
-	*/
-	$_SESSION['stavka']['number4'][]=$arr;
-	/*
-	foreach ($_SESSION['stavka']['number4'] as $item){
-		  $sess_num=implode(",", $item);
-		  if($sess_num == $user_stavka['stavka4']){
-			  
-		  }
-	}
-	*/
-	//$this->render('cart-modal', compact('session'));
+if($option == 'number_2k1'){
 	
+    $summ=trim(strip_tags($_POST['summa']));
+    $model = new Ruletka();
+    $model->id_user = $res_id;
+    $tring=implode(",", $_POST['param']);
+    $model->stavka2k1 = $tring;
+    $model->summastavka2k1=$summ;
+    $model->timer=time();
+    $model->save(false);
+    echo "ok";exit();
 }
-
-
-
-echo "ok";exit();
-}else{
-	 $file = fopen('log.txt', 'w+');
-  $date=date("d m Y H:i:s");
-$write = fwrite($file, "не пришел запрос с базы выигрышное число: ".$date);
+if($option == 'number_2k1_middle'){
+    $summ=trim(strip_tags($_POST['summa']));
+    $model = new Ruletka();
+    $model->id_user = $res_id;
+    $tring=implode(",", $_POST['param']);
+    $model->stavka2k1middle = $tring;
+    $model->summastavka2k1middle=$summ;
+    $model->timer=time();
+    $model->save(false);
+		   	echo "ok";exit();
 }
-
-
+if($option == 'number_2k1_bottom'){
+    $summ=trim(strip_tags($_POST['summa']));
+    $model = new Ruletka();
+    $model->id_user = $res_id;
+    $tring=implode(",", $_POST['param']);
+    $model->stavka2k1bottom = $tring;
+    $model->summastavka2k1bottom=$summ;
+    $model->timer=time();
+    $model->save(false);
+    echo "ok";exit();
+}
+if($option == 'dozen'){
 	
-}//baza
+    $summ=trim(strip_tags($_POST['summa']));
+    $model = new Ruletka();
+    $model->id_user = $res_id;
+    $tring=implode(",", $_POST['param']);
+    $model->dozen = $tring;
+    $model->summadozen=$summ;
+    $model->timer=time();
+    $model->save(false);
+    echo "ok";exit();
+}
+if($option == 'dozen1'){
+
+    $summ=trim(strip_tags($_POST['summa']));
+    $model = new Ruletka();
+    $model->id_user = $res_id;
+    $tring=implode(",", $_POST['param']);
+    $model->dozen1 = $tring;
+    $model->summadozen1=$summ;
+    $model->timer=time();
+    $model->save(false);
+    echo "ok";exit();
+}
+if($option == 'dozen2'){
+	
+    $summ=trim(strip_tags($_POST['summa']));
+    $model = new Ruletka();
+    $model->id_user = $res_id;
+    $tring=implode(",", $_POST['param']);
+    $model->dozen2 = $tring;
+    $model->summadozen2=$summ;
+    $model->timer=time();
+    $model->save(false);
+    echo "ok";exit();
+}
+if($option == 'update'){
+    $query = $sql = "UPDATE ruletka SET status='noactiv' WHERE id_user = $res_id";
+    Ruletka::findBySql($query)->all();
+}
+
+    if($option == 'baza'){
+        unset($_SESSION['s']);
+        unset($_SESSION['stavka']);
+        $timet = time() - (3600 * 24 * 1);
+        $user_stavka = Ruletka::find()->orderBy(['id' => SORT_ASC])->asArray()->where("id_user=$res_id AND timer > $timet")->all();
+        //print_r($user_stavka);exit();
+        $name='activ';
+        $success_result1=Roulette::find()->asArray()->all();
+        $last=count($success_result1);
+        $success_result=$success_result1[$last-1];
+
+        //print_r($success_result);exit();
+
+        $number_success=$success_result['number'];
+        if($success_result){
+        //$arr=explode(',',$user_stavka['stavka4']);
+
+            $arrb=array('stavka4','stavka2','stavka2k1','stavka2k1middle','stavka2k1bottom','dozen','dozen1','dozen2');
+            $arrb1=array('summastavka4','summastavka2','summastavka2k1','summastavka2k1middle','summastavka2k1bottom','summadozen','summadozen1','summadozen2');
+            $activ=false;
+            foreach($user_stavka as $item){
+                for($i=0; $i < count($arrb); $i++){
+                $znah1=$item[$arrb[$i]];
+                $keys1 = array_search($znah1,$item);
+                $keys25=$keys1.$item['timer'];	
+                    if($item[$keys1]){
+                        if($item['status']=='activ'){
+                            //echo $item[$keys1];exit();	
+                            $d=explode(',',$item[$keys1]);
+                            if(in_array($number_success,$d)){
+                            //$shar=array($item[$keys1],$number_success);
+                            //$_SESSION['shar'][]=$shar;	
+                            $activ='activ';	
+                            $resnomer='es';	
+
+                            }else{
+                                if($resnomer=='es'){
+                                        $activ='activ';
+                                }else{
+                                        $activ='ddd';
+                                }
+                            }
+                        }
+                    }//4
+                }
+            }
+            //$number_success
+            //echo trim(count($_SESSION['s']));exit();
+            if($activ == 'activ'){
+
+            }
+            elseif($activ == 'ddd'){
+                $ss="вы проиграли";
+                echo json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
+            }
+
+            else{
+                $ss="ваших ставок нет";
+                echo json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
+            }
+            $ss='';
+
+            if($resnomer=='es'){
+                    $ss='вы выиграли';
+                    $resnomer=false;
+                    //unset($_SESSION['shar'][0]);
+            }else{
+                    //$_SESSION['shar'][0]='no';
+                    $ss='вы проиграли';
+            }
+
+            echo json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));
+
+
+            exit();
+            echo "ok";exit();
+        }else{//если не пришел запрос
+            $file = fopen('log.txt', 'w+');
+            $date=date("d m Y H:i:s");
+            $write = fwrite($file, "не пришел запрос с базы выигрышное число: ".$date);
+        }
+    }//baza
 
 
 if($option == 'statistika'){
@@ -1142,9 +1267,23 @@ protected function checkTimer($login){
 		}
 		
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-			
-			
+			$link=$_SERVER['HTTP_REFERER'];
+			if($link){
+				 $id = Yii::$app->request->get('ruletka');
+				 $link2='http://'.$_SERVER['HTTP_HOST'].'/web/index.php/site/online';
+				 if($id=='login'){
+				
+					 header("Location:".$link2);exit();
+					 
+				 }else{
+					 return $this->goBack();
+				 }
+				
+				
+			}else{
+		
             return $this->goBack();
+			}
         }
 		
         return $this->render('login', [

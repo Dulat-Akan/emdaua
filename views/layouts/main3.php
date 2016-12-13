@@ -32,7 +32,19 @@ AppAsset::register($this);
 
 <html lang="<?= Yii::$app->language ?>">
 <head>
-    
+    <style >
+        Div.kolekcii{
+            overflow: auto;
+            height:80%;
+            background-attachment: local, local, scroll, scroll;
+            position:fixed;
+        }
+
+        div.kolekcii_soderzhimoe{
+            float:left;
+            width:100%;
+        }
+    </style>
     <script src="<?php echo Url::to('@jquery') ?>/jquery.min.js"></script>
     <script src="<?php echo Url::to('@jquery') ?>/jquery-ui-1.10.3.custom.js"></script>
     

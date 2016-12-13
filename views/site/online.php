@@ -1,18 +1,29 @@
-<?use yii\helpers\Url;?>
+<?php 
+	use yii\helpers\Url;
+ ?>
 <div class="online">
 <? session_start()?>
 	<div class="mainvideo clearfix">
 
-<div class="col-sm-6"><iframe width="100%" height="480" src="https://www.youtube.com/embed/mjC2gQDqlB0" frameborder="0" allowfullscreen></iframe></div>
+<div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8090/webcam.mjpeg" width="100%" height="480"></div>
 
-<div class="col-sm-6"><iframe width="100%" height="480" src="https://www.youtube.com/embed/mjC2gQDqlB0" frameborder="0" allowfullscreen></iframe></div>
+<div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8091/webcam2.mjpeg" width="100%" height="480"></div>
 
 	</div>
 
 </div>
-	
+<div class='time-wrap'>
+<div class='time-wrap-in1'></div>
+
+<div class='time-wrap-in3'>
 <div class="time"></div>
 <div class="time2"></div>
+<div class="time3"></div>
+</div>
+<div class='time-wrap-in2'>
+</div>
+</div>
+<div class="clear"></div>
 <div id="wrapper">
 <div class="cubeoverlay"></div>
 		<div id="cube">
@@ -49,7 +60,7 @@
 		 <div class="y"><p>33</p></div>
 		  <p class="s"><span class="s-in"></span><span class="ugol"></span></p>
 		 <div class="y"><p>36</p></div>
-		<div class="y"><p>2 к 1</p></div>
+		<div class="y middle" id="first"><p>2 к 1</p></div>
 		<p class="clear"></p>
 		
 		 	<div class="y"><p>0</p></div>
@@ -80,38 +91,41 @@
 			<p class="s"><span class="s-in"></span><span class="ugol"></span></p>
 								<div class="y"><p>35</p></div>
 			
-			<div class="y"><p>2 к 1</p></div>
+			<div class="y middle" id="middle"><p>2 к 1</p></div>
 			<p class="clear"></p>
 			
 				<div class="y"><p></p></div>
 			<div class="y"><p>1</p></div>
-			<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
+			
 			<div class="y"><p>4</p></div>
-				<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
+			
 			<div class="y"><p>7</p></div>
-				<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
+				
 			<div class="y"><p>10</p></div>
 				<p class="s sepa"><span class="s-in"></span></p>
 				
 					
 			<div class="y"><p>13</p></div>
-							<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
 			<div class="y"><p>16</p></div>
-							<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>				
 			<div class="y"><p>19</p></div>
-								<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>				
 			<div class="y"><p>22</p></div>
 			<p class="s sepa"><span class="s-in"></span></p>
 			
 			
 			<div class="y"><p>25</p></div>
-				<p class="s"><span class="s-in"></p>
+				<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
 						<div class="y"><p>28</p></div>
-				<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
 						<div class="y"><p>31</p></div>
-				<p class="s"><span class="s-in"></p>
+			<p class="s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
 							<div class="y"><p>34</p></div>
-					<div class="y"><p>2 к 1</p></div>
+					<div class="y middle" id="bottom"><p>2 к 1</p></div>
 					<p class="clear"></p>
 					<div class="cube-bottom-wrap">
 					<div class="cube-bottom">
@@ -317,7 +331,7 @@
 <p class="modal_r-logout">выйти</p>
 </div>
 	<input class="patchonlinepage" type="hidden" value="<?php echo Url::to('@base'); ?>/site/onlineajax">
-	<input class="nouser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/login">
+	<input class="nouser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/login?ruletka=login">
 	<script src="<?php echo Url::to('@jquery') ?>/online.js"></script>	
 	<script src="js/jquery.script.js"></script>
 

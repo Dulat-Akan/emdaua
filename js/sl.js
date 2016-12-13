@@ -1,4 +1,5 @@
 
+			
 			function updategame(){
 
 
@@ -192,10 +193,13 @@ function MySearch(){
 
 			//new function
 
+			var betta_fix = 0;
+			var num = 0;
+
 			name_new.each(function(index,element){
 
 				var str = $(element).html();
-
+				
 
 				//filtration 
 				var kommand_filtration = /\>[\wа-я]+\s*[\wа-я]*\<\/\u|\>[\wа-я]+\s*\<\/\a\>|>Қазақша|>中文|>ქართული|>Español|>Français|>Українська|>Português|>Română|\>\<b\>[\wа-я]+\s[\wа-я]+\<\/b\>\<\/\a\>|^\>Türkçe\<\/a\>$|\>\s\<a\shref\=\"\/\"\sid\=\"olimp\_logo\"\>\<img\ssrc\=\"\/img\/logo\_L0\.gif\"\sborder\=\"\d\"\>\<\/a\>\s\<\/div\>|\>Включить\sнумерацию\sматчей\sв\sлинии\<\/b\>/gi;	
@@ -275,6 +279,11 @@ function MySearch(){
 									if(i < f5){
 
 										string_k += stringify[i];
+
+										if(betta_fix == 0){
+											num = index;
+											betta_fix++;
+										}
 
 									}
 
@@ -363,7 +372,7 @@ function MySearch(){
 			
 			var j=0;
 			var z = 0;
-			var s = 15;
+			var s = num;
 		var cot=-1;
 			for(var i = 0;i < ar5.length;i++){
 

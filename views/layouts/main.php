@@ -30,6 +30,19 @@
 
 <html lang="<?= Yii::$app->language ?>">
     <head>
+        <style >
+        Div.kolekcii{
+            overflow: auto;
+            height:80%;
+            background-attachment: local, local, scroll, scroll;
+            position:fixed;
+        }
+
+        div.kolekcii_soderzhimoe{
+            float:left;
+            width:100%;
+        }
+    </style>
     <!--scroll bar -->
         <style type="text/css">
             #wrapper {width: 250px; height: 350px; padding: 0 10px; margin: 0 auto; background: #FFF;}

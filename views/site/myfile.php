@@ -153,6 +153,7 @@
 <span class="title-time-block">Часовой пояс:</span>
 <div class="time-item">
 <span class="active">
+<<<<<<< HEAD
 <span id='h0'>21:08:06</span>
 <script type='text/javascript'>
 			            wr_hoursSelect(1481209686,'h0','+06:00',0, false);
@@ -291,20 +292,169 @@
 <script type='text/javascript'>
 			            wr_hoursSelect(1481234886,'h33','+13:00',33, false);
 			            setInterval('wr_hoursSelect(1481234886,"h33","+13:00",33, false);',1000);
+=======
+<span id='h0'>07:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481506609,'h0','+06:00',0, false);
+			            setInterval('wr_hoursSelect(1481506609,"h0","+06:00",0, false);',1000);
+		            </script> </span>
+<div class="time-container" style="display: none;">
+<div onclick="window.location='index.php?action=set_tmz&id=-1080&use_DST=0'"><span id='h1'>13:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481441809,'h1','-12:00',1, false);
+			            setInterval('wr_hoursSelect(1481441809,"h1","-12:00",1, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-1020&use_DST=0'"><span id='h2'>14:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481445409,'h2','-11:00',2, false);
+			            setInterval('wr_hoursSelect(1481445409,"h2","-11:00",2, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-960&use_DST=0'"><span id='h3'>15:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481449009,'h3','-10:00',3, false);
+			            setInterval('wr_hoursSelect(1481449009,"h3","-10:00",3, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-900&use_DST=0'"><span id='h4'>16:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481452609,'h4','-09:00',4, false);
+			            setInterval('wr_hoursSelect(1481452609,"h4","-09:00",4, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-840&use_DST=0'"><span id='h5'>17:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481456209,'h5','-08:00',5, false);
+			            setInterval('wr_hoursSelect(1481456209,"h5","-08:00",5, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-780&use_DST=0'"><span id='h6'>18:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481459809,'h6','-07:00',6, false);
+			            setInterval('wr_hoursSelect(1481459809,"h6","-07:00",6, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-720&use_DST=0'"><span id='h7'>19:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481463409,'h7','-06:00',7, false);
+			            setInterval('wr_hoursSelect(1481463409,"h7","-06:00",7, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-660&use_DST=0'"><span id='h8'>20:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481467009,'h8','-05:00',8, false);
+			            setInterval('wr_hoursSelect(1481467009,"h8","-05:00",8, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-600&use_DST=0'"><span id='h9'>21:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481470609,'h9','-04:00',9, false);
+			            setInterval('wr_hoursSelect(1481470609,"h9","-04:00",9, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-570&use_DST=0'"><span id='h10'>22:06:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481472409,'h10','-03:30',10, false);
+			            setInterval('wr_hoursSelect(1481472409,"h10","-03:30",10, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-540&use_DST=0'"><span id='h11'>22:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481474209,'h11','-03:00',11, false);
+			            setInterval('wr_hoursSelect(1481474209,"h11","-03:00",11, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-480&use_DST=0'"><span id='h12'>23:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481477809,'h12','-02:00',12, false);
+			            setInterval('wr_hoursSelect(1481477809,"h12","-02:00",12, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-420&use_DST=0'"><span id='h13'>00:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481481409,'h13','-01:00',13, false);
+			            setInterval('wr_hoursSelect(1481481409,"h13","-01:00",13, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-360&use_DST=0'"><span id='h14'>01:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481485009,'h14','',14, false);
+			            setInterval('wr_hoursSelect(1481485009,"h14","",14, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-300&use_DST=0'"><span id='h15'>02:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481488609,'h15','+01:00',15, false);
+			            setInterval('wr_hoursSelect(1481488609,"h15","+01:00",15, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-240&use_DST=0'"><span id='h16'>03:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481492209,'h16','+02:00',16, false);
+			            setInterval('wr_hoursSelect(1481492209,"h16","+02:00",16, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-180&use_DST=0'"><span id='h17'>04:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481495809,'h17','+03:00',17, false);
+			            setInterval('wr_hoursSelect(1481495809,"h17","+03:00",17, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-150&use_DST=0'"><span id='h18'>05:06:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481497609,'h18','+03:30',18, false);
+			            setInterval('wr_hoursSelect(1481497609,"h18","+03:30",18, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-120&use_DST=0'"><span id='h19'>05:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481499409,'h19','+04:00',19, false);
+			            setInterval('wr_hoursSelect(1481499409,"h19","+04:00",19, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-90&use_DST=0'"><span id='h20'>06:06:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481501209,'h20','+04:30',20, false);
+			            setInterval('wr_hoursSelect(1481501209,"h20","+04:30",20, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-60&use_DST=0'"><span id='h21'>06:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481503009,'h21','+05:00',21, false);
+			            setInterval('wr_hoursSelect(1481503009,"h21","+05:00",21, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-30&use_DST=0'"><span id='h22'>07:06:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481504809,'h22','+05:30',22, false);
+			            setInterval('wr_hoursSelect(1481504809,"h22","+05:30",22, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-15&use_DST=0'"><span id='h23'>07:21:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481505709,'h23','+05:45',23, false);
+			            setInterval('wr_hoursSelect(1481505709,"h23","+05:45",23, false);',1000);
+		            </script></div><div class="active"><span id='h24'>07:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481506609,'h24','+06:00',24, false);
+			            setInterval('wr_hoursSelect(1481506609,"h24","+06:00",24, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=30&use_DST=0'"><span id='h25'>08:06:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481508409,'h25','+06:30',25, false);
+			            setInterval('wr_hoursSelect(1481508409,"h25","+06:30",25, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=60&use_DST=0'"><span id='h26'>08:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481510209,'h26','+07:00',26, false);
+			            setInterval('wr_hoursSelect(1481510209,"h26","+07:00",26, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=120&use_DST=0'"><span id='h27'>09:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481513809,'h27','+08:00',27, false);
+			            setInterval('wr_hoursSelect(1481513809,"h27","+08:00",27, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=180&use_DST=0'"><span id='h28'>10:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481517409,'h28','+09:00',28, false);
+			            setInterval('wr_hoursSelect(1481517409,"h28","+09:00",28, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=210&use_DST=0'"><span id='h29'>11:06:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481519209,'h29','+09:30',29, false);
+			            setInterval('wr_hoursSelect(1481519209,"h29","+09:30",29, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=240&use_DST=0'"><span id='h30'>11:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481521009,'h30','+10:00',30, false);
+			            setInterval('wr_hoursSelect(1481521009,"h30","+10:00",30, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=300&use_DST=0'"><span id='h31'>12:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481524609,'h31','+11:00',31, false);
+			            setInterval('wr_hoursSelect(1481524609,"h31","+11:00",31, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=360&use_DST=0'"><span id='h32'>13:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481528209,'h32','+12:00',32, false);
+			            setInterval('wr_hoursSelect(1481528209,"h32","+12:00",32, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=420&use_DST=0'"><span id='h33'>14:36:49</span>
+<script type='text/javascript'>
+			            wr_hoursSelect(1481531809,'h33','+13:00',33, false);
+			            setInterval('wr_hoursSelect(1481531809,"h33","+13:00",33, false);',1000);
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 		            </script></div> </div>
 </div>
 </div>
 </div>
 </div>
 <div class="enter-block clearfix">
+<<<<<<< HEAD
 <form autocomplete='off' action='index.php' method=post>
+=======
+<form autocomplete='off' action='https://www.olimpkz.com/index.php' method=post>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 <div class="log-area clearfix">
 <button type="submit" class="enterBtn"></button>
 <input type="text" placeholder="Логин" name="login">
 <input type="password" placeholder="Пароль" name="passw">
 <input type=checkbox id="https" style="display:none;" checked value="1">
+<<<<<<< HEAD
 <input type=hidden name='asid' value='1041031'><input type=hidden name='psid' value='acede99b2ab1992ffb844dc5f7e8674a'> </div>
 <a href="index.php?page=recover" class="remember-pass">Забыли данные?</a>
+=======
+<input type=hidden name='asid' value='4515677'><input type=hidden name='psid' value='fea9ed066f5f88ad333870d759312cc1'> </div>
+<a href="https://www.olimpkz.com/index.php?page=recover" class="remember-pass">Забыли данные?</a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </form>
 </div>
 </div>
@@ -326,7 +476,11 @@
 </div>
 </div>
 <div class="col3">
+<<<<<<< HEAD
 <a href="index.php?page=regselect" class="registration-link"><span>Регистрация</span></a>
+=======
+<a href="https://www.olimpkz.com/index.php?page=regselect" class="registration-link"><span>Регистрация</span></a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </div>
 </div>
 <div class="bottom-line">
@@ -513,8 +667,13 @@ setInterval(function(){
 <center>
 <table width='90%'>
 <form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a href='/betting'><b>
+<<<<<<< HEAD
 <font class=txtmed color=black>Ставки</font> Live (83)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
+=======
+<font class=txtmed color=black>Ставки</font> Live (25)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<font class=txtmed color=black>BetGamesTV</font></font></b></a></td>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
  
@@ -523,7 +682,11 @@ setInterval(function(){
 <tr><td class=ns colspan=2><a href='index.php?page=ln'><font class=txtmed color=black><b>Ставки на лотереи</b></font></a></td></tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (757)</a>
+=======
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (359)</a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -531,7 +694,11 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (52)</a>
+=======
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (36)</a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -539,7 +706,11 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (132)</a>
+=======
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (18)</a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -547,7 +718,11 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (188)</a>
+=======
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (54)</a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -555,7 +730,11 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (20)</a>
+=======
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (2)</a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -563,7 +742,11 @@ setInterval(function(){
 </tr><tr><td class="ns" colspan="2"><hr class="hr2"></td></tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (29)</a>
+=======
+<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (1)</a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 <td>
 <input id="c5" type="checkbox" name="sel[]" value="6"/>
@@ -579,6 +762,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (73)</a>
 </td>
 <td>
@@ -588,9 +772,12 @@ setInterval(function(){
 <tr valign="top">
 <td class="ns">
 <a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (33)</a>
+=======
+<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (13)</a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 <td>
-<input id="c8" type="checkbox" name="sel[]" value="12"/>
+<input id="c7" type="checkbox" name="sel[]" value="12"/>
 </td>
 </tr>
 <tr valign="top">
@@ -598,6 +785,7 @@ setInterval(function(){
 <a class="txtmed" href="/betting/cycle-racing" style="color:#000;">Велоспорт (1)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c9" type="checkbox" name="sel[]" value="44"/>
 </td>
 </tr>
@@ -615,38 +803,69 @@ setInterval(function(){
 </td>
 <td>
 <input id="c11" type="checkbox" name="sel[]" value="9"/>
+=======
+<input id="c8" type="checkbox" name="sel[]" value="44"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (1)</a>
 </td>
 <td>
 <input id="c12" type="checkbox" name="sel[]" value="90"/>
+=======
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (13)</a>
+</td>
+<td>
+<input id="c9" type="checkbox" name="sel[]" value="10"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (56)</a>
 </td>
 <td>
 <input id="c13" type="checkbox" name="sel[]" value="75"/>
+=======
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (18)</a>
+</td>
+<td>
+<input id="c10" type="checkbox" name="sel[]" value="9"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (36)</a>
 </td>
 <td>
 <input id="c14" type="checkbox" name="sel[]" value="47"/>
+=======
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (6)</a>
+</td>
+<td>
+<input id="c11" type="checkbox" name="sel[]" value="90"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (9)</a>
 </td>
 <td>
 <input id="c15" type="checkbox" name="sel[]" value="73"/>
+=======
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (36)</a>
+</td>
+<td>
+<input id="c12" type="checkbox" name="sel[]" value="47"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
@@ -654,6 +873,7 @@ setInterval(function(){
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (15)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c16" type="checkbox" name="sel[]" value="121"/>
 </td>
 </tr>
@@ -663,18 +883,29 @@ setInterval(function(){
 </td>
 <td>
 <input id="c17" type="checkbox" name="sel[]" value="117"/>
+=======
+<input id="c13" type="checkbox" name="sel[]" value="73"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (7)</a>
 </td>
 <td>
 <input id="c18" type="checkbox" name="sel[]" value="40"/>
+=======
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (12)</a>
+</td>
+<td>
+<input id="c14" type="checkbox" name="sel[]" value="121"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (1)</a>
 </td>
 <td>
@@ -687,46 +918,87 @@ setInterval(function(){
 </td>
 <td>
 <input id="c20" type="checkbox" name="sel[]" value="32"/>
+=======
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (1)</a>
+</td>
+<td>
+<input id="c15" type="checkbox" name="sel[]" value="117"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (3)</a>
 </td>
 <td>
 <input id="c21" type="checkbox" name="sel[]" value="85"/>
+=======
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (11)</a>
+</td>
+<td>
+<input id="c16" type="checkbox" name="sel[]" value="40"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (35)</a>
 </td>
 <td>
 <input id="c22" type="checkbox" name="sel[]" value="46"/>
+=======
+<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (3)</a>
+</td>
+<td>
+<input id="c17" type="checkbox" name="sel[]" value="85"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (32)</a>
 </td>
 <td>
 <input id="c23" type="checkbox" name="sel[]" value="96"/>
+=======
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (7)</a>
+</td>
+<td>
+<input id="c18" type="checkbox" name="sel[]" value="46"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (21)</a>
 </td>
 <td>
 <input id="c24" type="checkbox" name="sel[]" value="4"/>
+=======
+<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (10)</a>
+</td>
+<td>
+<input id="c19" type="checkbox" name="sel[]" value="96"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (2)</a>
 </td>
 <td>
 <input id="c25" type="checkbox" name="sel[]" value="113"/>
+=======
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (64)</a>
+</td>
+<td>
+<input id="c20" type="checkbox" name="sel[]" value="4"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
@@ -734,15 +1006,23 @@ setInterval(function(){
 <a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (2)</a>
 </td>
 <td>
+<<<<<<< HEAD
 <input id="c26" type="checkbox" name="sel[]" value="33"/>
+=======
+<input id="c21" type="checkbox" name="sel[]" value="33"/>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
+<<<<<<< HEAD
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=8" style="color:#000;">Хоккей с мячом (1)</a>
+=======
+<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (1)</a>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </td>
 <td>
-<input id="c27" type="checkbox" name="sel[]" value="8"/>
+<input id="c22" type="checkbox" name="sel[]" value="11"/>
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -750,14 +1030,23 @@ setInterval(function(){
                 {
                     if(checked==0) checked=1;
                     else checked=0;
-                    for(var ci=0;ci<28;ci++)
+                    for(var ci=0;ci<23;ci++)
                         document.getElementById('c'+ci).checked=checked;
+<<<<<<< HEAD
                     if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (1607)</a>';
                     else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (1607)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
 </td></tr><tr><td colspan=2 id="selall" align="middle"><a href="javascript:selall();">Выбрать все (1607)</a></td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1> </td>
+=======
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (674)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (674)</a>'
+                }
+                </script><tr><td nowrap colspan=2 align=left>
+<a href='/betting/outright'><b>Долгосрочные ставки</b></a>
+</td></tr><tr><td colspan=2 id="selall" align="middle"><a href="javascript:selall();">Выбрать все (674)</a></td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1> </td>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 </tr>
 <input type="hidden" name="page" value="line"/>
 <input type="hidden" name="action" value="1"/>
@@ -773,7 +1062,11 @@ setInterval(function(){
 <center>
 <form method="POST" action="index.php">Вид спорта: <select class=loginbox name=id>
 <option selected value='0'>- - - Все виды - - -</option><option value=118>DTM</option><option value=120>NASCAR</option><option value=91>Австралийский футбол</option><option value=6>Американский футбол</option><option value=51>Бадминтон</option><option value=5>Баскетбол</option><option value=29>Бейсбол</option><option value=7>Биатлон</option><option value=74>Бобслей</option><option value=12>Бокс</option><option value=44>Велоспорт</option><option value=41>Водное поло</option><option value=10>Волейбол</option><option value=69>Вольная борьба</option><option value=9>Гандбол</option><option value=90>Гольф</option><option value=75>Горные лыжи</option><option value=58>Гребля академическая</option><option value=68>Гребля на байдарках и каноэ</option><option value=66>Греко-римская борьба</option><option value=47>Дартс</option><option value=52>Дзюдо</option><option value=37>Керлинг</option><option value=112>Киберспорт</option><option value=76>Конькобежный спорт</option><option value=73>Крикет</option><option value=72>Лакросс</option><option value=53>Легкая атлетика</option><option value=38>Лыжи</option><option value=77>Лыжное двоеборье</option><option value=114>Лыжное двоеборье</option><option value=89>Минифутбол</option><option value=117>Мотоспорт</option><option value=40>Настольный теннис</option><option value=50>Олимпиада-2008</option><option value=13>Олимпийские игры</option><option value=54>Парусный спорт</option><option value=115>Песапалло</option><option value=59>Плавание</option><option value=60>Пляжный волейбол</option><option value=45>Пляжный гандбол</option><option value=35>Пляжный футбол</option><option value=88>Политика</option><option value=61>Прыжки в воду</option><option value=39>Прыжки с трамплина</option><option value=55>Пулевая стрельба</option><option value=119>Ралли</option><option value=32>Регби</option><option value=101>Регби-7</option><option value=85>Регби-лига</option><option value=46>Регби-Союз</option><option value=111>Рыбная ловля</option><option value=79>Сани</option><option value=70>Синхронное плавание</option><option value=110>Скачки</option><option value=49>Скачки</option><option value=80>Скелетон</option><option value=96>Смешанные боевые искусства</option><option value=81>Сноубординг</option><option value=4>Снукер</option><option value=62>Софтбол</option><option value=116>Спидвей</option><option value=63>Спортивная гимнастика</option><option value=64>Стендовая стрельба</option><option value=56>Стрельба из лука</option><option value=57>Стрельба из пистолета</option><option value=3>Теннис</option><option value=65>Тяжелая атлетика</option><option value=82>Фигурное катание</option><option value=113>Флорбол</option><option value=33>Формула 1</option><option value=83>Фристайл</option><option value=1>Футбол</option><option value=11>Футзал</option><option value=2>Хоккей</option><option value=67>Хоккей на траве</option><option value=8>Хоккей с мячом</option><option value=93>Шары</option><option value=30>Шахматы</option><option value=84>Шорт-трек</option> </select>&nbsp;&nbsp;Дата: <select class=loginbox name=day>
+<<<<<<< HEAD
 <option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6</option><option value=7>7</option><option selected value=8>8</option><option value=9>9</option><option value=10>10</option><option value=11>11</option><option value=12>12</option><option value=13>13</option><option value=14>14</option><option value=15>15</option><option value=16>16</option><option value=17>17</option><option value=18>18</option><option value=19>19</option><option value=20>20</option><option value=21>21</option><option value=22>22</option><option value=23>23</option><option value=24>24</option><option value=25>25</option><option value=26>26</option><option value=27>27</option><option value=28>28</option><option value=29>29</option><option value=30>30</option><option value=31>31</option></select>&nbsp;<select class=loginbox name=month>
+=======
+<option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6</option><option value=7>7</option><option value=8>8</option><option value=9>9</option><option value=10>10</option><option value=11>11</option><option selected value=12>12</option><option value=13>13</option><option value=14>14</option><option value=15>15</option><option value=16>16</option><option value=17>17</option><option value=18>18</option><option value=19>19</option><option value=20>20</option><option value=21>21</option><option value=22>22</option><option value=23>23</option><option value=24>24</option><option value=25>25</option><option value=26>26</option><option value=27>27</option><option value=28>28</option><option value=29>29</option><option value=30>30</option><option value=31>31</option></select>&nbsp;<select class=loginbox name=month>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 <option value=1>
 января</option><option value=2>
 февраля</option><option value=3>
@@ -798,7 +1091,11 @@ setInterval(function(){
 2014</option><option value=2015>
 2015</option><option selected value=2016>
 2016</option></select>&nbsp;&nbsp;<INPUT type=submit value='Показать ' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1>
+<<<<<<< HEAD
 <br><font class=txtmed><a target=_blank href='index.php?page=print_res&id=0&day=8&month=12&year=2016'>Версия для печати</a></font>
+=======
+<br><font class=txtmed><a target=_blank href='index.php?page=print_res&id=0&day=12&month=12&year=2016'>Версия для печати</a></font>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 <br>
 <input type='hidden' name='page' value='result'>
 </form>
@@ -829,6 +1126,7 @@ setInterval(function(){
 	</script>
 <table class=smallwnd2 style="WIDTH: 96%;">
 <TR class='m_c' align=middle>
+<<<<<<< HEAD
 <TD class=smwndcap Align=center valign=middle>Бадминтон. Женщины. Bangladesh International  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
@@ -1325,10 +1623,213 @@ setInterval(function(){
 08.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
 <td width='65%' valign=middle><b>Счет: 75:87 (12:33 20:19 26:16 17:19)<br></b><div id='e28254308' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
 </TD></TR><TR class='m_c' align=middle>
+=======
+<TD class=smwndcap Align=center valign=middle>Американский футбол. NFL  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Баффало - Питтсбург</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 20:27 (0:7 7:7 0:7 13:6)<br></b><div id='e28254418' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Филадельфия - Вашингтон</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 22:27 (3:0 10:7 0:14 9:6)<br></b><div id='e28254425' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Майами - Аризона</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 26:23 (7:6 7:3 7:0 5:14)<br></b><div id='e28254426' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кливленд - Цинциннати</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 10:23 (0:13 0:7 7:0 3:3)<br></b><div id='e28254530' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Джексонвилл - Миннесота</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 16:25 (0:6 9:3 7:3 0:13)<br></b><div id='e28254531' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Детройт - Чикаго</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 20:17 (0:3 10:0 3:7 7:7)<br></b><div id='e28254532' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Теннесси - Денвер</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 13:10 (10:0 3:0 0:0 0:10)<br></b><div id='e28276730' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Каролина - Сан-Диего</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 28:16 (10:0 13:7 3:9 2:0)<br></b><div id='e28276731' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Индианаполис - Хьюстон</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 17:22 (3:3 0:10 7:3 7:6)<br></b><div id='e28286723' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сан-Франциско - Н.Й. Джетс</b><br>
+12.12.2016 03:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 17:17 (14:0 3:3 0:3 0:11)<br></b><div id='e28289269' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тампа-Бэй - Нью-Орлеан</b><br>
+12.12.2016 03:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 16:11 (3:0 10:8 0:3 3:0)<br></b><div id='e28254427' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лос-Анджелес - Атланта</b><br>
+12.12.2016 03:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 14:42 (0:7 0:14 0:21 14:0)<br></b><div id='e28254533' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Грин-Бэй - Сиэтл</b><br>
+12.12.2016 03:25:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 38:10 (7:3 14:0 7:0 10:7)<br></b><div id='e28276732' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. NBA. Регулярный чемпионат  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Детройт - Филадельфия</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 79:97 (12:32 23:26 29:22 15:17)<br></b><div id='e28387927' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Женщины. Аргентина. Суперлига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Клуб Атлетико Ланус - Эстрелла де Бериссо</b><br>
+12.12.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 66:58 (19:10 15:18 18:13 14:17)<br></b><div id='e28393895' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Женщины. Чемпионат Венгрии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Цеглед ЕКК - МКБ Евролисинг Вашаш</b><br>
+12.12.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 79:65 (22:17 21:15 22:16 14:17)<br></b><div id='e28383013' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Женщины. Чемпионат Исландии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хаукар - Скаллагримюр</b><br>
+12.12.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 38:74 (14:22 4:16 10:16 10:20)<br></b><div id='e28383801' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Женщины. Чемпионат Сербии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Новосадска - Црвена Звезда</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 57:78 (11:12 13:29 17:8 16:29)<br></b><div id='e28383037' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Женщины. Чемпионат Чили  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Нью Крусадерс - Спортива Италиана</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 82:67 (17:14 17:22 26:15 22:16)<br></b><div id='e28391532' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. NCAA  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кентукки - Хофстра Прайд</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 96:73 (48:33 0:0 48:40 0:0)<br></b><div id='e28383370' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Орегон Дакс - Алабама</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 65:56 (31:23 0:0 34:33 0:0)<br></b><div id='e28383372' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Адриатическая лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Будучность - Црвена Звезда</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 54:77 (18:23 10:21 18:16 8:17)<br></b><div id='e28276369' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Олимпия - Задар</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 78:76 (24:21 21:16 10:21 23:18)<br></b><div id='e28276372' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Кубок Бельгии. 1/4 финала. Ответные матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лимбург - Шарлеруа</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 91:97 (22:17 24:27 26:21 19:32)<br></b><div id='e28383365' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Кубок чемпионов Африки среди клубов  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Клаб Африкэин - Нзуи-Манто</b><br>
+12.12.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 79:77 (17:16 16:18 16:20 30:23)<br></b><div id='e28390389' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Аргентины  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Химнасия Эсгрима - Институто</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 80:85 (20:20 19:26 21:16 20:23)<br></b><div id='e28380159' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Аргентины. TNA  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико Темперлей - Унион Колон</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 100:80 (20:15 29:21 28:17 23:27)<br></b><div id='e28391546' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Греции  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Панатинаикос - АЕК</b><br>
+12.12.2016 01:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 77:68 (22:20 17:19 17:17 21:12)<br></b><div id='e28324628' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Египта  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Аль-Шамс - Аль-Шаркия Эль Докхан</b><br>
+12.12.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 69:83 (19:18 15:28 27:13 8:24)<br></b><div id='e28390059' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Израиля  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хапоэль И - Хапоэль Эйлат</b><br>
+12.12.2016 01:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 81:92 (20:24 27:20 16:27 18:21)<br></b><div id='e28365950' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Италии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Торино - Казерта</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 80:77 (19:24 27:16 21:23 13:14)<br></b><div id='e28258541' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Варезе - Реджи Эмилия</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 81:71 (21:21 17:12 16:16 27:22)<br></b><div id='e28258545' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Латвии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Баронс - Юрмала</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 91:72 (23:14 23:15 23:25 22:18)<br></b><div id='e28380165' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Мексики  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Коррекаминос - Солес</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 82:103 (18:31 23:30 14:20 27:22)<br></b><div id='e28375146' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Абехас - Барретерос</b><br>
+12.12.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 77:82 (18:15 23:20 17:18 19:29)<br></b><div id='e28375147' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 <TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Португалии  </TD>
 </TR>
 <TR><TD vAlign=middle align=left>
 <table class=koeftable><tr class=hi>
+<<<<<<< HEAD
 <td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Оваренсе - Майа</b><br>
 08.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
 <td width='65%' valign=middle><b>Счет: 81:71 (20:21 26:8 14:26 21:16)<br></b><div id='e28299973' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
@@ -3758,6 +4259,703 @@ setInterval(function(){
 	        	<td width='65%' valign=middle><b>Счет: 1:2 (1:0 0:1 0:1)<br></b><div id='e28302147' style='display: none;'></div><tr><td colspan=2><b><hr class=hr1><a href='#top' class=txtmed>Наверх</a></b></td></tr></table></TD></TR>	</table>
 	<center><br>	<script type="text/javascript" src="/js/tick.js"></script>
 	<script type="text/javascript" src="/js/jquery.tick.favorites.js"></script>	<script type="text/javascript">
+=======
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Иллиабум - Витория</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 68:71 (15:24 19:14 17:20 17:13)<br></b><div id='e28383368' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Румынии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Крайова - Атлассиб Сибиу</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 59:78 (15:23 11:10 21:23 12:22)<br></b><div id='e28383373' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Баскетбол. Мужчины. Чемпионат Чили  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>СД Эспаньол Осорно - Депортес Кастро</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 83:73 (36:16 13:23 24:13 10:21)<br></b><div id='e28387707' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вальдивиа - Пуенте Алто</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 81:68 (14:15 17:14 28:20 22:19)<br></b><div id='e28387716' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пуэрто Монтт - Тингуиририка Сан Фернандо</b><br>
+12.12.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 95:86 (22:17 22:22 23:20 28:27)<br></b><div id='e28387915' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Универсидад де Консепсион - Универсидад Католика</b><br>
+12.12.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 66:62 (13:7 20:14 13:27 20:14)<br></b><div id='e28387930' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эспаньол де Талка - Леонес Кильпуэ</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 81:75 (18:16 15:19 25:19 23:21)<br></b><div id='e28387929' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Лас-Анимас - АБА Анкуд</b><br>
+12.12.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 65:68 (16:12 21:10 15:27 13:19)<br></b><div id='e28387931' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Чемпионат Бельгии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Барбар Гёрлс - Зурсель</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (25:17 25:14 25:17)<br></b><div id='e28390285' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Чемпионат Греции. 2-й дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мегас Александрос - Мент</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (25:16 25:15 21:25 25:23)<br></b><div id='e28337548' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Чемпионат Перу. Национальная лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Унив. Сесар Вальехо - Альянса Лима</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (11:25 12:25 21:25)<br></b><div id='e28383028' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Спортинг Кристаль - Депортиво Хаамса</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (21:25 14:25 23:25)<br></b><div id='e28383395' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Женщины. Чемпионат Хорватии. 1-й дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Азена Велика-Горица - Дубровник</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (25:19 25:21 28:26)<br></b><div id='e28384393' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Волейбол. Мужчины. Чемпионат Италии. Серия А2  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бергамо - Реджо-Эмилия</b><br>
+12.12.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (21:25 25:18 22:25 25:22 15:7)<br></b><div id='e28347098' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гроттаццолина - Сполето</b><br>
+12.12.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3 (14:25 26:24 19:25 28:30)<br></b><div id='e28347099' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Женщины. Чемпионат Европы. Швеция  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дания - Норвегия</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 20:22 (9:14)<br></b><div id='e28360297' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Женщины. Чемпионат Португалии. 1-й дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Джоана-Майа - Жоао Де Баррос</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 22:26 (10:12)<br></b><div id='e28375157' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Израиля.Национальная лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хапоэль Кирьят Оно - Маккаби Петах-Тиква</b><br>
+12.12.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 24:22 (9:9)<br></b><div id='e28383020' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Маккаби Ришон Ле Цион 3 - МК Беэр Шева</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 28:25 (15:9)<br></b><div id='e28383023' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Гандбол. Мужчины. Чемпионат Швеции. 1-й дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вастерасирста - Дротт</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 37:34 (23:15)<br></b><div id='e28342211' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Киберспорт. CS:GO. ECS  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>EnVyUs - OpTic</b><br>
+12.12.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (3:16 12:16)<br></b><div id='e28385429' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Киберспорт. League of Legends. All-Star  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Team Fire - Team Ice</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1<br></b><div id='e28380747' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Киберспорт. Overwatch. Underdogs  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>The Chavs - Slav Squad</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0<br></b><div id='e28380392' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>GamersOrigin - Death eSports</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1<br></b><div id='e28380486' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Теннис. Женщины. Australian Open. Wildcard. Пары  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Баинс Н./Миерс А. - Фурлис Дж./Лин Дж.</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (6:1 6:3)<br></b><div id='e28385751' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Антигуа и Барбуда. Премьер дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Либерта - Флоу Олд Роад ФК</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3 (0:2)<br></b><div id='e28383010' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Триум ФК - Гренадес</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3 (1:0)<br></b><div id='e28383384' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Насьональ B  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Химнасия и Эсгрима Хухуй - Аргентинос Хуниорс</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div id='e28300344' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера B Метрополитана  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Тальерес - Депортиво Риестра</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div id='e28352871' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико Колегиалес - Тристан Суарес</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (0:1)<br></b><div id='e28352872' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ривер Плейт - Бока Хуниорс</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:4 (2:1)<br></b><div class=rd><a href='javascript:showres(66);'><img id='rd_66' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_66' style='display: none;'>Первый гол: Бока Хуниорс на 14 минуте<br>Последний гол: Бока Хуниорс<br>Угловые: 9, Ривер Плейт: 5, Бока Хуниорс: 4<br></div><div>&nbsp;</div><br><div id='e28273770' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Банфилд - КА Уракан</b><br>
+12.12.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div class=rd><a href='javascript:showres(70);'><img id='rd_70' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_70' style='display: none;'>Угловые: 10, Банфилд: 4, КА Уракан: 6<br></div><div>&nbsp;</div><br><div id='e28273226' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сан Мартин - Эстудиантес Ла-Плата</b><br>
+12.12.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (2:0)<br></b><div class=rd><a href='javascript:showres(72);'><img id='rd_72' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_72' style='display: none;'>Угловые: 10, Сан Мартин : 1, Эстудиантес Ла-Плата: 9<br></div><div>&nbsp;</div><br><div id='e28282626' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Колон Санта-Фе - Индепендьенте</b><br>
+12.12.2016 04:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:1)<br></b><div class=rd><a href='javascript:showres(74);'><img id='rd_74' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_74' style='display: none;'>Угловые: 10, Колон Санта-Фе: 5, Индепендьенте: 5<br></div><div>&nbsp;</div><br><div id='e28273227' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Росарио Централ - Атлетико Ланус</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (0:0)<br></b><div class=rd><a href='javascript:showres(76);'><img id='rd_76' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_76' style='display: none;'>Угловые: 4, Росарио Централ: 4, Атлетико Ланус: 0<br></div><div>&nbsp;</div><br><div id='e28282627' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Примера С. Метрополитана  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Клуб Лухан - Спортиво Док Суд</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (0:0)<br></b><div class=rd><a href='javascript:showres(78);'><img id='rd_78' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_78' style='display: none;'>Угловые: 12, Клуб Лухан: 10, Спортиво Док Суд: 2<br></div><div>&nbsp;</div><br><div id='e28391982' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико Сан Мигель - Кануелас</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div class=rd><a href='javascript:showres(80);'><img id='rd_80' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_80' style='display: none;'>Угловые: 8, Атлетико Сан Мигель: 6, Кануелас: 2<br></div><div>&nbsp;</div><br><div id='e28391985' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Торнео Федераль B  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Уракан Лас Эрас - Сентраль Норте</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:2 (1:0)<br></b><div id='e28391986' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Аргентина. Торнео Федераль А  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Индепендьенте де Неукен - Вилла Митре</b><br>
+12.12.2016 03:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:1 (0:0)<br></b><div class=rd><a href='javascript:showres(83);'><img id='rd_83' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_83' style='display: none;'>Угловые: 13, Индепендьенте де Неукен: 7, Вилла Митре: 6<br></div><div>&nbsp;</div><br><div id='e28391993' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Унион Сунчалес - Спортиво Лас Парехас</b><br>
+12.12.2016 04:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:3 (2:3)<br></b><div class=rd><a href='javascript:showres(85);'><img id='rd_85' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_85' style='display: none;'>Угловые: 15, Унион Сунчалес: 11, Спортиво Лас Парехас: 4<br></div><div>&nbsp;</div><br><div id='e28393642' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гимназия М - Гутиеррез</b><br>
+12.12.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (0:1)<br></b><div id='e28383011' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Бельгия. Высшая лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Стандард Льеж - Вестерло</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (2:0)<br></b><div class=rd><a href='javascript:showres(88);'><img id='rd_88' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_88' style='display: none;'>Первый гол: Стандард Льеж на 8 минуте<br>Последний гол: Вестерло<br>Угловые: 7, Стандард Льеж: 5, Вестерло: 2<br></div><div>&nbsp;</div><br><div id='e28238605' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Боливия. LFPB. Апертура  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Спорт Бойз - Сан Хосе Оруро</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (3:0)<br></b><div id='e28333850' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Университарио де Сукре - Ориенте Петролеро</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:0 (1:0)<br></b><div class=rd><a href='javascript:showres(93);'><img id='rd_93' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_93' style='display: none;'>Угловые: 11, Университарио де Сукре: 7, Ориенте Петролеро: 4<br></div><div>&nbsp;</div><br><div id='e28333851' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хорхе - Боливар</b><br>
+12.12.2016 03:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e28333852' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Блуминг - Гуабира</b><br>
+12.12.2016 05:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (1:1)<br></b><div id='e28333853' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Бразилия. Кубок (до 20 лет)  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сантос (до 20) - Фламенго (до 20)</b><br>
+12.12.2016 04:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:4 (1:1)<br></b><div class=rd><a href='javascript:showres(97);'><img id='rd_97' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_97' style='display: none;'>Угловые: 5, Сантос (до 20): 4, Фламенго (до 20): 1<br></div><div>&nbsp;</div><br><div id='e28383642' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Бразилия. Молодежная лига (до 20 лет)  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Толука (до 20) - Крузейро МГ (до 20)</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:2 (0:1)<br></b><div id='e28383633' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Бразилия. Серия А  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Флуминенсе - Интернасьонал</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (0:0)<br></b><div class=rd><a href='javascript:showres(100);'><img id='rd_100' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_100' style='display: none;'>Первый гол: Флуминенсе на 73 минуте<br>Второй гол: Интернасьонал на 87 минуте<br>Последний гол: Интернасьонал<br>Угловые: 14, Флуминенсе: 7, Интернасьонал: 7<br></div><div>&nbsp;</div><br><div id='e28267302' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сантос СП - Америка МЖ</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div class=rd><a href='javascript:showres(105);'><img id='rd_105' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_105' style='display: none;'>Первый гол: Сантос СП на 49 минуте<br>Последний гол: Сантос СП<br>Угловые: 11, Сантос СП: 9, Америка МЖ: 2<br></div><div>&nbsp;</div><br><div id='e28267303' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Крузейро МГ - Коринтианс</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (1:1)<br></b><div class=rd><a href='javascript:showres(109);'><img id='rd_109' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_109' style='display: none;'>Первый гол: Коринтианс на 8 минуте<br>Второй гол: Крузейро МГ на 24 минуте<br>Последний гол: Крузейро МГ на 59 минуте<br>Угловые: 11, Крузейро МГ: 6, Коринтианс: 5<br></div><div>&nbsp;</div><br><div id='e28267304' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Атлетико ПР - Фламенго РЖ</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div class=rd><a href='javascript:showres(114);'><img id='rd_114' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_114' style='display: none;'>Угловые: 10, Атлетико ПР: 6, Фламенго РЖ: 4<br></div><div>&nbsp;</div><br><div id='e28267305' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Понте Прета - Коритиба</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (0:0)<br></b><div class=rd><a href='javascript:showres(116);'><img id='rd_116' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_116' style='display: none;'>Первый гол: Понте Прета<br>Последний гол: Понте Прета<br>Угловые: 17, Понте Прета: 13, Коритиба: 4<br></div><div>&nbsp;</div><br><div id='e28267306' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сан-Паулу - Санта Круз</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:0 (2:0)<br></b><div class=rd><a href='javascript:showres(120);'><img id='rd_120' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_120' style='display: none;'>Первый гол: Сан-Паулу на 2 минуте<br>Второй гол: Сан-Паулу на 30 минуте<br>Третий гол: Сан-Паулу на 45 минуте<br>Последний гол: Сан-Паулу на 82 минуте<br>Угловые: 14, Сан-Паулу: 13, Санта Круз: 1<br></div><div>&nbsp;</div><br><div id='e28276727' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гремио РС - Ботафого РЖ</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div class=rd><a href='javascript:showres(126);'><img id='rd_126' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_126' style='display: none;'>Первый гол: Ботафого РЖ на 17 минуте<br>Последний гол: Ботафого РЖ<br></div><div>&nbsp;</div><br><div id='e28276728' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Спорт Ресифе - Фигейренсе</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (0:0)<br></b><div class=rd><a href='javascript:showres(129);'><img id='rd_129' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_129' style='display: none;'>Первый гол: Спорт Ресифе на 47 минуте<br>Второй гол: Спорт Ресифе на 89 минуте<br>Последний гол: Спорт Ресифе<br>Угловые: 8, Спорт Ресифе: 6, Фигейренсе: 2<br></div><div>&nbsp;</div><br><div id='e28276729' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Виториа БА - Палмейрас СП</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (1:2)<br></b><div class=rd><a href='javascript:showres(134);'><img id='rd_134' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_134' style='display: none;'>Первый гол: Виториа БА на 13 минуте<br>Второй гол: Палмейрас СП на 16 минуте<br>Последний гол: Палмейрас СП на 45 минуте<br>Угловые: 1, Виториа БА: 1, Палмейрас СП: 0<br></div><div>&nbsp;</div><br><div id='e28276733' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Венесуэла. Примера дивизион. Суперфинал. Ответный матч  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сулия ФК - Самора ФК</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (1:0)<br></b><div class=rd><a href='javascript:showres(139);'><img id='rd_139' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_139' style='display: none;'>Первый гол: Сулия ФК на 18 минуте<br>Последний гол: Самора ФК<br>Угловые: 5, Сулия ФК: 3, Самора ФК: 2<br>Проход: Самора ФК<br></div><div>&nbsp;</div><br><div id='e28315578' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Гаити. 1-й дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Дон Боско - Виолет</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e28383012' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Гондурас. LNP. Плей-офф. Финал. Первые матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мотагуа - Платенсе Пуэрто Кортес</b><br>
+12.12.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div class=rd><a href='javascript:showres(145);'><img id='rd_145' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_145' style='display: none;'>Угловые: 7, Мотагуа: 5, Платенсе Пуэрто Кортес: 2<br></div><div>&nbsp;</div><br><div id='e28305266' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Женщины. Кубок Либертадорес. Уругвай  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Коло Коло (жен) - Унион Эспаньола (жен)</b><br>
+12.12.2016 02:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (1:0)<br></b><div id='e28383662' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ферровиария СП (жен) - Эстудиантес Гуарико (жен)</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:0)<br></b><div id='e28383663' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Женщины. Сборные. Товарищеские матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Коста-Рика (жен) - Италия (жен)</b><br>
+12.12.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:1)<br></b><div class=rd><a href='javascript:showres(149);'><img id='rd_149' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_149' style='display: none;'>Угловые: 14, Коста-Рика (жен): 3, Италия (жен): 11<br></div><div>&nbsp;</div><br><div id='e28358464' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бразилия (жен) - Россия (жен)</b><br>
+12.12.2016 02:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:0 (2:0)<br></b><div class=rd><a href='javascript:showres(151);'><img id='rd_151' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_151' style='display: none;'>Угловые: 14, Бразилия (жен): 12, Россия (жен): 2<br></div><div>&nbsp;</div><br><div id='e28358465' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Женщины. Чемпионат Израиля  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Маккаби Холон (жен) - Хапоэль Петах Тиква (жен)</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:3 (0:2)<br></b><div id='e28337682' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Израиль. Премьер-лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хапоэль Хайфа - Маккаби Тель-Авив</b><br>
+12.12.2016 00:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:4 (0:2)<br></b><div class=rd><a href='javascript:showres(154);'><img id='rd_154' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_154' style='display: none;'>Первый гол: Маккаби Тель-Авив на 35 минуте<br>Последний гол: Маккаби Тель-Авив<br>Угловые: 11, Хапоэль Хайфа: 6, Маккаби Тель-Авив: 5<br></div><div>&nbsp;</div><br><div id='e28295129' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Испания. 2-й дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Реал Сарагоса - Овьедо</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:0)<br></b><div class=rd><a href='javascript:showres(158);'><img id='rd_158' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_158' style='display: none;'>Первый гол: Реал Сарагоса на 18 минуте<br>Последний гол: Овьедо<br>Угловые: 6, Реал Сарагоса: 3, Овьедо: 3<br></div><div>&nbsp;</div><br><div id='e28261624' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Испания. Примера дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бетис - Атлетик Б</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (1:0)<br></b><div class=rd><a href='javascript:showres(162);'><img id='rd_162' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_162' style='display: none;'>Первый гол: Бетис на 18 минуте<br>Последний гол: Бетис<br>Удаления: нет<br>Пенальти: нет<br></div><div>&nbsp;</div><br><div id='e28095702' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Испания. Примера дивизион. Статистика  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УГЛ Бетис - УГЛ Атлетик Б</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:7 (2:2)<br></b><div id='e28373800' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ЖК Бетис - ЖК Атлетик Б</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (2:1)<br></b><div id='e28373802' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Италия. Лега Про. Группа A  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Ареццо - Витербезе</b><br>
+12.12.2016 01:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div class=rd><a href='javascript:showres(169);'><img id='rd_169' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_169' style='display: none;'>Угловые: 6, Ареццо: 3, Витербезе: 3<br></div><div>&nbsp;</div><br><div id='e28317053' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Туттокуойо - Про Пьяченца</b><br>
+12.12.2016 01:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div class=rd><a href='javascript:showres(171);'><img id='rd_171' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_171' style='display: none;'>Угловые: 12, Туттокуойо: 11, Про Пьяченца: 1<br></div><div>&nbsp;</div><br><div id='e28317056' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Пистойезе - Расинг Рома</b><br>
+12.12.2016 01:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:1 (0:0)<br></b><div class=rd><a href='javascript:showres(173);'><img id='rd_173' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_173' style='display: none;'>Первый гол: Пистойезе<br>Последний гол: Расинг Рома<br>Угловые: 7, Пистойезе : 6, Расинг Рома: 1<br></div><div>&nbsp;</div><br><div id='e28317057' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Италия. Серия А  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Интер М - Дженоа</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div class=rd><a href='javascript:showres(177);'><img id='rd_177' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_177' style='display: none;'>Первый гол: Интер М на 38 минуте<br>Второй гол: Интер М на 69 минуте<br>Последний гол: Интер М на 69 минуте<br>Удаления: нет<br>Пенальти: нет<br></div><div>&nbsp;</div><br><div id='e28106697' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Италия. Серия А. Статистика  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УГЛ Интер М - УГЛ Дженоа</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:5 (2:2)<br></b><div id='e28374580' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ЖК Интер М - ЖК Дженоа</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (0:2)<br></b><div id='e28374684' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Коста-Рика. Чемпионская группа  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Депортиво Саприссa - Сантос де Гуапилес</b><br>
+12.12.2016 04:58:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (0:0)<br></b><div id='e28270255' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Кот-д’Ивуар. Лига 1  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>АС Танда - Стэйд Д'абиджан</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e28379623' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Марокко. Ботола  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Иттихад Танжер - Магриб Ассошиэйшен</b><br>
+12.12.2016 01:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div class=rd><a href='javascript:showres(187);'><img id='rd_187' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_187' style='display: none;'>Угловые: 10, Иттихад Танжер: 9, Магриб Ассошиэйшен: 1<br></div><div>&nbsp;</div><br><div id='e28348770' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Парагвай. Примера дивизион. Клаусура  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Спортиво Лукеньо - Клуб Гуарани</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:0)<br></b><div class=rd><a href='javascript:showres(189);'><img id='rd_189' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_189' style='display: none;'>Первый гол: Клуб Гуарани<br>Последний гол: Клуб Гуарани<br>Угловые: 10, Спортиво Лукеньо: 7, Клуб Гуарани: 3<br></div><div>&nbsp;</div><br><div id='e28276755' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Генерал Кабаллеро - Насьональ</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:2 (0:1)<br></b><div class=rd><a href='javascript:showres(193);'><img id='rd_193' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_193' style='display: none;'>Первый гол: Насьональ<br>Последний гол: Генерал Кабаллеро<br>Угловые: 9, Генерал Кабаллеро: 5, Насьональ: 4<br></div><div>&nbsp;</div><br><div id='e28276756' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Олимпия Асунсьон - Генерал Диаз</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (0:0)<br></b><div class=rd><a href='javascript:showres(197);'><img id='rd_197' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_197' style='display: none;'>Угловые: 10, Олимпия Асунсьон: 7, Генерал Диаз: 3<br></div><div>&nbsp;</div><br><div id='e28276759' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Перу. 2-й дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Депортива Кантолао - Спорт Анкаш</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (2:0)<br></b><div class=rd><a href='javascript:showres(199);'><img id='rd_199' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_199' style='display: none;'>Проход: Депортива Кантолао<br></div><div>&nbsp;</div><br><div id='e28391987' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Перу. Примера дивизион. Плей-офф. Финал  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Мелгар - Спортинг Кристал</b><br>
+12.12.2016 02:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (0:0)<br></b><div class=rd><a href='javascript:showres(201);'><img id='rd_201' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_201' style='display: none;'>Первый гол: Мелгар на 56 минуте<br>Последний гол: Спортинг Кристал<br>Угловые: 6, Мелгар: 3, Спортинг Кристал: 3<br></div><div>&nbsp;</div><br><div id='e28335404' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Португалия. Примейра-лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бенфика - Спортинг Л</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (1:0)<br></b><div class=rd><a href='javascript:showres(205);'><img id='rd_205' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_205' style='display: none;'>Первый гол: Бенфика на 24 минуте<br>Последний гол: Спортинг Л<br>Угловые: 11, Бенфика: 3, Спортинг Л: 8<br></div><div>&nbsp;</div><br><div id='e28223409' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Брага - Пасош Феррейра</b><br>
+12.12.2016 02:15:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (2:0)<br></b><div class=rd><a href='javascript:showres(209);'><img id='rd_209' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_209' style='display: none;'>Первый гол: Брага на 16 минуте<br>Последний гол: Брага<br>Угловые: 8, Брага: 3, Пасош Феррейра: 5<br></div><div>&nbsp;</div><br><div id='e28223410' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Сальвадор. Плей-офф. 1/2 финала. Ответные матчи  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Агила - Санта Текла</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div class=rd><a href='javascript:showres(213);'><img id='rd_213' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_213' style='display: none;'>Угловые: 9, Агила: 8, Санта Текла: 1<br></div><div>&nbsp;</div><br><div id='e28365613' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сонсонате - Альянца</b><br>
+12.12.2016 05:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:4 (0:1)<br></b><div class=rd><a href='javascript:showres(215);'><img id='rd_215' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_215' style='display: none;'>Первый гол: Альянца на 26 минуте<br>Угловые: 9, Сонсонате: 6, Альянца : 3<br></div><div>&nbsp;</div><br><div id='e28365614' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Тринидад и Тобаго. Суперлига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ФК Санта Роса - Реал Маракас</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:0 (1:0)<br></b><div id='e28383038' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Уругвай. Примера дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Данубио - Ливерпуль Монтевидео</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (2:1)<br></b><div class=rd><a href='javascript:showres(219);'><img id='rd_219' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_219' style='display: none;'>Первый гол: Данубио на 21 минуте<br>Второй гол: Ливерпуль Монтевидео на 24 минуте<br>Третий гол: Данубио на 37 минуте<br>Последний гол: Ливерпуль Монтевидео на 79 минуте<br></div><div>&nbsp;</div><br><div id='e28282974' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Насиональ Уру - Бостон Ривер</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:0 (0:0)<br></b><div class=rd><a href='javascript:showres(224);'><img id='rd_224' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_224' style='display: none;'>Первый гол: Насиональ Уру на 49 минуте<br>Последний гол: Насиональ Уру<br>Угловые: 13, Насиональ Уру: 5, Бостон Ривер: 8<br></div><div>&nbsp;</div><br><div id='e28282975' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Рампла Хуниорс - Монтевидео Уондерерс</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (1:1)<br></b><div class=rd><a href='javascript:showres(228);'><img id='rd_228' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_228' style='display: none;'>Первый гол: Рампла Хуниорс на 7 минуте<br>Второй гол: Монтевидео Уондерерс на 45 минуте<br>Последний гол: Монтевидео Уондерерс<br>Угловые: 4, Рампла Хуниорс: 3, Монтевидео Уондерерс: 1<br></div><div>&nbsp;</div><br><div id='e28310238' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Франция. Лига 1  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ПСЖ - Ницца</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:2 (0:2)<br></b><div class=rd><a href='javascript:showres(233);'><img id='rd_233' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_233' style='display: none;'>Первый гол: Ницца на 32 минуте<br>Второй гол: Ницца на 45 минуте<br>Третий гол: ПСЖ на 46 минуте<br>Четвертый гол: ПСЖ на 60 минуте<br>Последний гол: ПСЖ на 60 минуте<br>Удаления: нет<br>Пенальти: нет<br></div><div>&nbsp;</div><br><div id='e28214470' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Франция. Лига 1. Статистика  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>ЖК ПСЖ - ЖК Ницца</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:3 (1:1)<br></b><div id='e28362630' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УГЛ ПСЖ - УГЛ Ницца</b><br>
+12.12.2016 01:45:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 9:0 (7:0)<br></b><div id='e28362642' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Чили. Примера Б  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сан-Фелипе - Кокимбо</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:2 (0:0)<br></b><div class=rd><a href='javascript:showres(243);'><img id='rd_243' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_243' style='display: none;'>Угловые: 9, Сан-Фелипе: 5, Кокимбо: 4<br></div><div>&nbsp;</div><br><div id='e28358337' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кобрелоа - Депортес Магалланес</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (2:1)<br></b><div id='e28358338' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Чили. Сегунда Дивизион  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Колчагуа - Мунисипаль Ла Пинтана</b><br>
+12.12.2016 02:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (1:0)<br></b><div class=rd><a href='javascript:showres(246);'><img id='rd_246' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_246' style='display: none;'>Угловые: 10, Колчагуа: 4, Мунисипаль Ла Пинтана: 6<br></div><div>&nbsp;</div><br><div id='e28391988' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футбол. Ямайка. Премьер-лига  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Хамбл Лионс - Монтего Бэй Юнайтед</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:1 (0:1)<br></b><div id='e28370605' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>УВИ ФК - Ямалко</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:1 (0:1)<br></b><div id='e28370609' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бойс Таун - Портмор Юнайтед</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:0 (0:0)<br></b><div id='e28370614' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Марверли Хагхенден - Рено</b><br>
+12.12.2016 02:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (1:0)<br></b><div id='e28370615' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Футзал. Чемпионат Южной Америки (до 20 лет). Уругвай  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Парагвай - Венесуэла</b><br>
+12.12.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:5 (2:4)<br></b><div id='e28383775' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Бразилия - Эквадор</b><br>
+12.12.2016 06:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:6 (0:3)<br></b><div id='e28383776' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. AHL. Регулярный чемпионат  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Провиденс - Хартфорд</b><br>
+12.12.2016 02:05:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 1:1 (1:1 0:0 0:0)<br></b><div class=rd><a href='javascript:showres(254);'><img id='rd_254' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_254' style='display: none;'>Овертайм: 0:0<br>Буллиты: 1:0<br></div><div>&nbsp;</div><br><div id='e28372123' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. NHL. Регулярный чемпионат  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Анахайм - Оттава</b><br>
+12.12.2016 03:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:1 (3:1 1:0 1:0)<br></b><div id='e28363181' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Вашингтон - Ванкувер</b><br>
+12.12.2016 04:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (1:0 0:0 2:0)<br></b><div id='e28363183' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. OHL. Регулярный чемпионат  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гельф - Кингстон</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:3 (1:1 1:0 1:2)<br></b><div class=rd><a href='javascript:showres(259);'><img id='rd_259' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_259' style='display: none;'>Овертайм: 1:0<br></div><div>&nbsp;</div><br><div id='e28380184' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Оттава 67-е - Питерборо</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:6 (0:2 1:3 1:1)<br></b><div id='e28380185' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Гамильтон - Су Сент Мари</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:7 (0:4 2:2 0:1)<br></b><div id='e28380186' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Оуэн-Саунд - Барри Колтс</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 6:1 (4:0 2:1 0:0)<br></b><div id='e28380187' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Норт Бей - Виндзор</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 0:3 (0:1 0:1 0:1)<br></b><div id='e28380188' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. QMJHL. Регулярный чемпионат  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Сент-Джон СиДогз - Бленвилль</b><br>
+12.12.2016 01:20:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 4:1 (1:0 2:1 1:0)<br></b><div id='e28391646' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. Чемпионат Великобритании. Elite League  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Эдинбург - Файф</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 6:3 (2:3 2:0 2:0)<br></b><div id='e28366849' style='display: none;'></div></td></tr><tr>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Кардифф - Шеффилд</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:2 (0:0 1:1 1:1)<br></b><div class=rd><a href='javascript:showres(267);'><img id='rd_267' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_267' style='display: none;'>Овертайм: 0:0<br>Буллиты: 0:1<br></div><div>&nbsp;</div><br><div id='e28366850' style='display: none;'></div></td></tr><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Данди - Брэхэд</b><br>
+12.12.2016 00:30:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:4 (0:2 3:0 0:2)<br></b><div id='e28366851' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. Чемпионат Германии  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Штраубинг - Фиштовн</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 2:5 (1:0 1:2 0:3)<br></b><div class=rd><a href='javascript:showres(271);'><img id='rd_271' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_271' style='display: none;'>Первый гол: Штраубинг<br>Последний гол: Фиштовн<br></div><div>&nbsp;</div><br><div id='e28359158' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. Чемпионат мира (до 20 лет). Дивизион I. Группа A. Германия  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Норвегия - Австрия</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:6 (1:2 1:2 1:2)<br></b><div class=rd><a href='javascript:showres(274);'><img id='rd_274' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_274' style='display: none;'>Первый гол: Норвегия<br>Последний гол: Австрия<br></div><div>&nbsp;</div><br><div id='e28383779' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. Чемпионат мира (до 20 лет). Дивизион I. Группа Б. Венгрия  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Словения - Великобритания</b><br>
+12.12.2016 01:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:3 (0:0 2:1 1:2)<br></b><div class=rd><a href='javascript:showres(277);'><img id='rd_277' src='/img/plus.jpg' title='Результаты'></a></div><div class=rd1 id='rd1_277' style='display: none;'>Овертайм: 1:0<br></div><div>&nbsp;</div><br><div id='e28381414' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. Чемпионат мира (до 20 лет). Дивизион II. Группа A. Эстония  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Литва - Нидерланды</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 5:0 (2:0 1:0 2:0)<br></b><div id='e28337792' style='display: none;'></div></td></tr></table><b><a href='#top' class=txtmed>Наверх</a></b><br><br>
+</TD></TR><TR class='m_c' align=middle>
+<TD class=smwndcap Align=center valign=middle>Хоккей. Чемпионат Франции  </TD>
+</TR>
+<TR><TD vAlign=middle align=left>
+<table class=koeftable><tr class=hi>
+<td width='35%' valign='top' nowrap class=rs><div style='float: left;'><b>Анже - Страсбур</b><br>
+12.12.2016 00:00:00</div><div style='float: right; margin-right: 5px;'></div></td>
+<td width='65%' valign=middle><b>Счет: 3:0 (2:0 1:0 0:0)<br></b><div id='e28349958' style='display: none;'></div><tr><td colspan=2><b><hr class=hr1><a href='#top' class=txtmed>Наверх</a></b></td></tr></table></TD></TR> </table>
+<center><br> <script type="text/javascript" src="/js/tick.js"></script>
+<script type="text/javascript" src="/js/jquery.tick.favorites.js"></script> <script type="text/javascript">
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 		$(function()
 		{
 						$('#favorites').olimpFavorites({
@@ -3803,6 +5001,7 @@ setInterval(function(){
 			tick.start();
 		});
 	</script>
+<<<<<<< HEAD
 					</td>
 			</tr>
 		</table>
@@ -3811,6 +5010,16 @@ setInterval(function(){
 	       <TD class=copyright>Copyright &copy; 2006-2016 БК "Олимп"<br><a href='index.php?page=support'>Служба поддержки пользователей</a> (24/7)<br>Справочная служба: +7-727-346 65 65 (24/7)<br/> <a href='https://olimp.kz/mobile/index.php'>Мобильная версия</a></TD><TD align=right><TABLE cellSpacing=3 cellPadding=0 border=0>
 	            <TR>
 <!-- Start of LiveChat (www.livechatinc.com) code -->
+=======
+</td>
+</tr>
+</table>
+<hr class=hr1><TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+<TR>
+<TD class=copyright>Copyright &copy; 2006-2016 БК "Олимп"<br><a href='index.php?page=support'>Служба поддержки пользователей</a> (24/7)<br>Справочная служба: +7-727-346 65 65 (24/7)<br/> <a href='https://olimp.kz/mobile/index.php'>Мобильная версия</a></TD><TD align=right><TABLE cellSpacing=3 cellPadding=0 border=0>
+<TR>
+ 
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 <script type="text/javascript">
 window.__lc = window.__lc || {};
 window.__lc.license = 6897171;
@@ -3834,18 +5043,30 @@ window.__lc.params = [
   lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
 })();
+<<<<<<< HEAD
 </script>
 
 	            <script>
+=======
+</script>
+<script>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 	var LC_API = LC_API || {};
 var livechat_chat_started = false;
 LC_API.on_before_load = function(){if (LC_API.visitor_engaged() === false && livechat_chat_started === false){LC_API.hide_chat_window();}};
 LC_API.on_chat_started = function(){livechat_chat_started = true;};
 LC_API.on_chat_window_minimized = function(){LC_API.hide_chat_window();};
+<<<<<<< HEAD
 </script><TD><!--script type="text/javascript" src="https://seal.thawte.com/getthawteseal?host_name=www.olimpkz.com&amp;size=S&amp;lang=en"></script-->
                   <a href='https://seal.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&dn=WWW.OLIMPKZ.COM&lang=en' target=_blank><img src='/img/thawte.jpg'></a>
                   </TD>
 	              <TD><!-- Rating@Mail.ru counter -->
+=======
+</script><TD> 
+<a href='https://seal.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&dn=WWW.OLIMPKZ.COM&lang=en' target=_blank><img src='/img/thawte.jpg'></a>
+</TD>
+<TD> 
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 <script type="text/javascript">//<![CDATA[
 var _tmr = _tmr || [];
 _tmr.push({id: "1056127",  type: "pageView", start: (new Date()).getTime()});
@@ -3855,6 +5076,7 @@ _tmr.push({id: "1056127",  type: "pageView", start: (new Date()).getTime()});
    var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
    if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
 })(document, window);
+<<<<<<< HEAD
 //]]></script><noscript><div style="position:absolute;left:-10000px;">
 <img src="//top-fwz1.mail.ru/counter?id=1056127;js=na" style="border:0;" height="1" width="1" alt="Rating@Mail.ru" />
 </div></noscript>
@@ -3881,6 +5103,25 @@ border="0" height="31" width="88" alt="Rating@Mail.ru"></a>
 <Openstat-->
 <!--Openstat-->
 <span id="openstat743448"></span>
+=======
+//]]></script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=1056127;js=na" style="border:0;" height="1" width="1" alt="Rating@Mail.ru"/>
+</div></noscript>
+ 
+ 
+</TD>
+ 
+<span id="_zero_54280">
+<noscript>
+<a href="http://zero.kz/?s=54280" target="_blank"><img src="http://c.zero.kz/z.png?u=54280" width="88" height="31" alt="ZERO.kz"/></a>
+</noscript>
+</span>
+ 
+</td-->
+<TD> 
+ 
+<span id="openstat743448"></span>
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
 <script type="text/javascript">
 var openstat = { counter: 743448, next: openstat };
 (function(d, t, p) {
@@ -3888,6 +5129,7 @@ var j = d.createElement(t); j.async = true; j.type = "text/javascript";
 j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
 var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
 })(document, "script", document.location.protocol);
+<<<<<<< HEAD
 </script>
 <!--/Openstat-->
 	              </TD><TD><a href='http://moneybookers.com' target=_blank><img src='/img/visa.jpg' alt='Visa, MasterCard, Diners Club By MoneyBookers'></a></TD>
@@ -3918,3 +5160,32 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
     VK_I8Ud3
     </div>
 <!-- @ -->
+=======
+</script>
+ 
+</TD><TD><a href='http://moneybookers.com' target=_blank><img src='/img/visa.jpg' alt='Visa, MasterCard, Diners Club By MoneyBookers'></a></TD>
+<TD><a href='http://webmoney.ru' target=_blank><img src='/img/wm_rus.png' alt='WebMoney'></a></TD>
+<TD><a href='https://www.wooppay.com/services/olimp' target=_blank><img src="/img/wooppay.png" alt='WoopPay'/></a></TD>
+<TD><a href='http://qiwi.kz/ru/private/' target=_blank><img src="/img/qiwi.png?1" alt='Qiwi'/></a></TD>
+<TD><a href='https://www.ekzt.kz' target=_blank><img src='/img/ekzt.jpg' alt='E-KZT'></a></TD>
+ </TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+</body></html> 
+ 
+<div style='display: none;'>
+ENGINE DEBUG INFORMATION
+DataBase Errors: 0
+Script Errors: 0
+Script Warnings: 0
+Total time: 0.076 s
+DataBase time(1): 0 s
+DataBase time(2): 0.06 s
+Served by: s74
+C: true
+VK_I8Ud3
+</div>
+ 
+>>>>>>> dcbcd5f63db046114e45742be21b46cfe772389f
