@@ -12,6 +12,7 @@
 	</div>
 
 </div>
+<div class="clear"></div>
 <div class='time-wrap'>
 <div class='time-wrap-in1'></div>
 
