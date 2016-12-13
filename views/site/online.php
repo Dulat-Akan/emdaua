@@ -11,10 +11,17 @@
 
 </div>
 <div class='time-wrap'>
+<div class='time-wrap-in1'></div>
+
+<div class='time-wrap-in3'>
 <div class="time"></div>
 <div class="time2"></div>
 <div class="time3"></div>
 </div>
+<div class='time-wrap-in2'>
+</div>
+</div>
+<div class="clear"></div>
 <div id="wrapper">
 <div class="cubeoverlay"></div>
 		<div id="cube">

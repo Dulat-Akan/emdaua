@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	var time_start=60;//время ставок
-	var seconds2=60;//время обратного отчета или блокировки
+	var time_start=20;//время ставок
+	var seconds2=10;//время обратного отчета или блокировки
 	var baza_check=2;//за две минуты до старта проверить базу, число 2 можно изменить
 	
 	
@@ -892,7 +892,7 @@ $('.modal_r-logout').click(function(){
 	
 	function timeseconds(){
 		seconds++;
-		$('.time').html(seconds);
+		$('.time').html('делайте ставки '+seconds);
 		if(seconds==time_start){
 			clearInterval(time);
 			
@@ -900,7 +900,7 @@ $('.modal_r-logout').click(function(){
 			overlay.removeClass('overlay_a');
 	       $('#modal_r').hide();
 			
-				$('.time').html("ставки завершены");
+				$('.time').html("рулетка крутиться");
 				secondsresult();
 		}
 	}
@@ -914,6 +914,13 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 	function timeseconds2(){
 		seconds2--;
 		$('.time2').html('<span>до начало ставок </span>'+seconds2);
+		if(seconds2 > baza_check){
+		$('.time-wrap-in2').html('определение выигрышного числа....');
+			$('.time-wrap-in1').html('определение результата');
+		}else{
+			
+		}
+		
 		
 		if(seconds2 == baza_check){//проверяем базу на наличие выигрышного номера
 			          var patch=$('.patchonlinepage').val();
@@ -925,14 +932,47 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 		                 success:function(data){
 			
 			if(data){
-		//alert(data)
-		if(data == 'ok2'){
-		$('.time3').text("результаты определены");
+				//alert(data)
+		var result = JSON.parse(data);
+		if(result){
+			
+			if(result['param1']=='ok'){
+			$('.time-wrap-in2').html("<div class='shar'><p>шарик упал на число </p>"+result['param2']+"</div>");	
+			//return false;
+			}
+			if(result['param1']=='ok2'){
+		//$('.time3').html(result['param3']);
+		$('.time-wrap-in1').html(result['param4']);	
+		$('.time-wrap-in2').html("<div class='shar'><p>шарик упал на число </p>"+result['param2']+"</div>");
 		$('.time3').show("2000");
 		$('.time3').delay("2000");
 		$('.time3').hide("2000");
 		
+		
+		
+		
+			$.ajax({
+		                    "type":"POST",
+		                    "url":patch,          	
+		                    data:({'param2':'update'}),
+                                   text:this,
+		                 success:function(data){
+							 
+						 }
+		
+		
+			})
+		
+		
+		
+		
+		
+		
 			}
+			
+		}
+	
+
 			}
 	}
 		                    //"error":errorfunc

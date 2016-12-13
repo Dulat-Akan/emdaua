@@ -1020,7 +1020,7 @@ border:1px solid #fff;
 	float:left;
 }
 .cube-bottom-wrap {
-	background:#CCCCCC;
+	background:#fff;
 }
 .cube-bottom-wrap div:nth-child(1) .cube-bottom1 {
 	border-right:7px solid #fff;
@@ -2452,10 +2452,30 @@ text-align:center;color:black;
 .time-wrap{
 	background:#ccc;
 }
+.time-wrap-in2{
+	float:left;width:30%;height:110px;
+	text-align:center;color:black;font-size:20px;
+	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+	
+}
+.shar{
+	color:red;font-weight:bold;
+}
+.time-wrap-in1{
+	float:left;width:30%;height:110px;
+	text-align:center;color:black;font-size:20px;
+	box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.2);
+	
+}
+.time-wrap-in3{
+	float:left;width:40%;height:110px;
+	
+	
+}
 
 .time{
 text-align:center;
-font-size:50px;
+font-size:45px;
   }
 .time2{
 text-align:center;

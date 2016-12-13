@@ -42,6 +42,7 @@
 			
 			
 			<?php foreach($item2 as $item):?>
+				<pre><?print_r($item[3])?></pre>
                 <tr>
                    <td><?= $item[0]?></td>
 				

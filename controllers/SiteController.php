@@ -795,6 +795,11 @@ $summ=trim(strip_tags($_POST['summa']));
         $model->save(false);
 		   	echo "ok";exit();
 }
+if($option == 'update'){
+	$query = $sql = "UPDATE ruletka SET status='noactiv' WHERE id_user = $res_id";
+ Ruletka::findBySql($query)->all();
+}
+
 if($option == 'baza'){
 unset($_SESSION['s']);
 unset($_SESSION['stavka']);
@@ -816,41 +821,41 @@ if($success_result){
 
 $arrb=array('stavka4','stavka2','stavka2k1','stavka2k1middle','stavka2k1bottom','dozen','dozen1','dozen2');
 $arrb1=array('summastavka4','summastavka2','summastavka2k1','summastavka2k1middle','summastavka2k1bottom','summadozen','summadozen1','summadozen2');
+$activ=false;
 foreach($user_stavka as $item){
-if($_SESSION['s']){
 for($i=0; $i < count($arrb); $i++){
 $znah1=$item[$arrb[$i]];
 $keys1 = array_search($znah1,$item);
 $keys25=$keys1.$item['timer'];	
 	if($item[$keys1]){
 	
-if(in_array($keys25,$_SESSION['s'])){
-	
-}else{
-$arr[1]=$number_success;	
-$arr[0]=$item[$keys1];
-$arr[2]=$item[$arrb1[$i]];
-$_SESSION['stavka'][$keys1][]=$arr;
 
-$_SESSION['s'][]=$item[$keys1];		
+if($item['status']=='activ'){
+//echo $item[$keys1];exit();	
+$d=explode(',',$item[$keys1]);
+if(in_array($number_success,$d)){
+//$shar=array($item[$keys1],$number_success);
+//$_SESSION['shar'][]=$shar;	
+$activ='activ';	
+$resnomer='es';	
+
+}else{
+	if($resnomer=='es'){
+		$activ='activ';
+	}else{
+		$activ='ddd';
+	}
+	
+}
+	}
+	
+	
 				
-			}
+			
 			}//4
-	unset($znah1);
-	unset($keys1);
+
 }
-}else{
-		$arr=array();
-		$arr[1]=$number_success;
-		
-	for($i=0; $i < count($arrb); $i++){
-		$arr[2]=$item[$arrb1[$i]];
-		$z=$item[$arrb[$i]].$item['timer'];
-if($item[$arrb[$i]]){$arr[0]=$item[$arrb[$i]];$_SESSION['stavka'][$arrb[$i]][]=$arr;$_SESSION['s'][]=$z;}			
-		
-}
-		
-}
+
 		
 		
 	
@@ -860,17 +865,41 @@ if($item[$arrb[$i]]){$arr[0]=$item[$arrb[$i]];$_SESSION['stavka'][$arrb[$i]][]=$
 
 
 
-
-
-
-if((int)trim($_SESSION['ses_count'][0]) == (int) trim(count($_SESSION['s']))){
-	echo "ok";exit();
-}else{
+	//$number_success
 	
-	$_SESSION['ses_count'][0]=count($_SESSION['s']);
 	//echo trim(count($_SESSION['s']));exit();
-	echo 'ok2';exit();
+if($activ == 'activ'){
+	
 }
+elseif($activ == 'ddd'){
+	$ss="вы проиграли";
+	echo json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
+}
+
+else{
+	$ss="ваших ставок нет";
+	echo json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
+}
+	
+	
+	
+	$ss='';
+
+if($resnomer=='es'){
+	$ss='вы выиграли';
+	$resnomer=false;
+	//unset($_SESSION['shar'][0]);
+}else{
+	//$_SESSION['shar'][0]='no';
+	$ss='вы проиграли';
+}
+	
+	echo json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));
+	
+
+	exit();
+	
+
 
 
 echo "ok";exit();
