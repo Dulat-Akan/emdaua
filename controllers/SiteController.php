@@ -38,7 +38,7 @@ $this->actionStatus2($login);
 }
 
  public function actionOnline(){
-	 
+	 /*
 	 $identity = \Yii::$app->user->identity;
 	   if($identity){
 		   
@@ -46,7 +46,7 @@ $this->actionStatus2($login);
 		    $link2='http://'.$_SERVER['HTTP_HOST'].'/web/index.php/site/login?ruletka=login';
 					 header("Location:".$link2);exit();
 	  }
-	 
+	 */
 	 
 	 
 	   return $this->render('online');
@@ -1218,6 +1218,40 @@ public function actionK(){
     }
 
 
+
+
+    public function actionDealer(){
+
+        $this->layout = 'main4';
+
+        return $this->render('dealer');
+
+    }
+
+
+    public function actionDealercall(){
+
+        if(isset($_POST['a'])){
+
+            $m = $_POST['a'];
+
+            
+            $u = \Yii::$app->db->createCommand("UPDATE dealer SET message='$m' WHERE id = '1'")->execute();
+
+
+                $u = Yii::$app->db->createCommand()->insert('dealer', ['message' => $m])->execute();
+
+                if($u == true){
+                   $json = '{"a":"ok","b":"'.$m.'"}';
+                   echo $json;
+                }else{
+                    $json = '{"a":"false","b":"'.$m.'"}';
+                    echo $json;
+                }
+            
+        }
+
+    }
 
 
 

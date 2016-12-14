@@ -73,7 +73,10 @@ use yii\helpers\Url;
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7b6d2e4067dccb906fcf3ad4503134fdc96a2aaa
 <script src="<?php echo Url::to('@jquery') ?>/lr.js"></script> 
 
 
