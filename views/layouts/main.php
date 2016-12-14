@@ -223,7 +223,7 @@ function googleTranslateElementInit() {
     <div class="row">
         <div class="col-md-12">
 		
-	<div class="col-md-10 col-md-push-2" id="pok_searh2"><?= $content ?></div>
+	<div class="col-md-10 col-md-push-2"><div id="pok_searh2"><?= $content ?></div></div>
 <!-- <div class="col-md-10 col-md-push-2" id=""></div> -->
 <div class="col-md-2 col-md-pull-10 kolekcii" id="mylink">
 <div id="google_translate_element"></div>

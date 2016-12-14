@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	var time_start=60;//время ставок
-	var seconds2=60;//время обратного отчета или блокировки
+	var time_start=15;//время ставок
+	var seconds2=10;//время обратного отчета или блокировки
 	var baza_check=2;//за две минуты до старта проверить базу, число 2 можно изменить
 	
 	
@@ -932,23 +932,46 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 		                 success:function(data){
 			
 			if(data){
-				//alert(data)
+				//alert(data);;
+				if(data == 'noactiv'){
+					
+					
+				}
 		var result = JSON.parse(data);
 		if(result){
 			
-			if(result['param1']=='ok'){
-			$('.time-wrap-in2').html("<div class='shar'><p>шарик упал на число </p>"+result['param2']+"</div>");	
-			//return false;
-			}
+			
 			if(result['param1']=='ok2'){
 		//$('.time3').html(result['param3']);
-		$('.time-wrap-in1').html(result['param4']);	
-		$('.time-wrap-in2').html("<div class='shar'><p>шарик упал на число </p>"+result['param2']+"</div>");
+		$('.time-wrap-in1').html('<span style="color:red">'+result['param4']+'</span>');
+		
+		$('.time-wrap-in2').html("<div style='color:red;font-weight:bold'><p>шарик упал на число </p>"+'<span>'+result['param2']+'</span>'+"</div>");
+		
+	
 		$('.time3').show("2000");
 		$('.time3').delay("2000");
 		$('.time3').hide("2000");
 		
+			/*-------------------------------------------очистка экрана--------------------------------------------------*/
+	
+	
+			 $('div.y').each(function(){
+				var rgb=$(this).find('p').css('backgroundColor');
+		     var regV=/[\d]+/gi;
+			 var result=$.trim(rgb.match(regV));
+			 if(result == '255,0,0'){
+					//alert(14)
+				$(this).find('p').css({'backgroundColor':'#FE4332','border':'none'});
+				
+			}
+			if(result == '0,0,0'){
+				$(this).find('p').css({'backgroundColor':'#373636','border':'none'});
+				
+			}
+				
+			})
 		
+
 		
 		
 			$.ajax({
@@ -956,7 +979,7 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 		                    "url":patch,          	
 		                    data:({'param2':'update'}),
                                    text:this,
-		                 success:function(data){
+		                 success:function(res){
 							 
 						 }
 		
@@ -967,7 +990,7 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
 		
 		
 		
-		
+		return false;
 			}
 			
 		}
