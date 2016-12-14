@@ -1477,6 +1477,40 @@ protected function checkTimer($login){
     }
 
 
+    public function actionDealer(){
+
+        $this->layout = 'main4';
+
+        return $this->render('dealer');
+
+    }
+
+
+    public function actionDealercall(){
+
+        if(isset($_POST['a'])){
+
+            $m = $_POST['a'];
+
+            
+            $u = \Yii::$app->db->createCommand("UPDATE dealer SET message='$m' WHERE id = '1'")->execute();
+
+
+                $u = Yii::$app->db->createCommand()->insert('dealer', ['message' => $m])->execute();
+
+                if($u == true){
+                   $json = '{"a":"ok","b":"'.$m.'"}';
+                   echo $json;
+                }else{
+                    $json = '{"a":"false","b":"'.$m.'"}';
+                    echo $json;
+                }
+            
+        }
+
+    }
+
+
 
 
 }
