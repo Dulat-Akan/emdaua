@@ -19,97 +19,133 @@ use app\models\Ruletka;
 use app\models\Roulette;
 class SiteController extends Controller
 {
+
+
     public function beforeAction($action){
-        if( $action->id == 'testing'){
+        if( $action->id == 'number'){
             $this->enableCsrfValidation = false;
         }
         return parent::beforeAction($action);
     }
 	
-    public function actionStatus($login){
-        //podtverzhden
-        $this->actionStatus2($login);
-    }
+	
+public function actionStatus($login){
+//podtverzhden
+$this->actionStatus2($login);
 
-    public function actionOnline(){
-        return $this->render('online');
-    }
+
+
+}
+
+ public function actionOnline(){
+	 /*
+	 $identity = \Yii::$app->user->identity;
+	   if($identity){
+		   
+	  }else{
+		    $link2='http://'.$_SERVER['HTTP_HOST'].'/web/index.php/site/login?ruletka=login';
+					 header("Location:".$link2);exit();
+	  }
+	 */
+	 
+	 
+	   return $this->render('online');
+  }
+ public function actionPoker(){
+	   return $this->render('poker');
+  }
+protected function actionStatus2($login){
+$time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
+			//если прошло более три дня тогда результат будет больше того, что хранится в базе 
+			//если прошло меньше трех дней тогда результат будет меньше того что в базе
+			 $login2=strip_tags($login);//функция вырезает теги если есть в запросе
+			 
+			 
+			 
+		     $baza=Usertwo::findOne(['username' => $login2]);
+		
+			 if($baza->timer){
+				  if(is_numeric($baza->timer)){
+				  if($baza->timer < $time){
+					 
+			$baza->delete();
+			$model = new Usertwo();
+		 return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+			 }else{
+				 			 		 if($baza->timer==$time || $time < $baza->timer){
+					 //разрешаем потвержление в течении трех дней но не больше трех
+					 	$baza->timer='podtverzhden';
+			$baza->save(false);
+		Yii::$app->session->setFlash('success', 'Вы успешно подтвердили регистрацию, теперь можете войти на сайт');
+			 return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+			
+					 }
+			 }
+				  }
+                   else{
+Yii::$app->session->setFlash('error', 'Вы уже потверждали ранее акаунт');
+ return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+				 }
+		
+}
+	  			 Yii::$app->session->setFlash('error', 'Такого логина в этой системе нет');
+ return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));    
+		     }
+			
+
+			
+	
+	
+	
+	
+	
+	
+	
+	
     
-    public function actionPoker(){
-        return $this->render('poker');
-    }
-    
-    protected function actionStatus2($login){
-        $time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
-        //если прошло более три дня тогда результат будет больше того, что хранится в базе 
-        //если прошло меньше трех дней тогда результат будет меньше того что в базе
-        $login2=strip_tags($login);//функция вырезает теги если есть в запросе
-        $baza=Usertwo::findOne(['username' => $login2]);
+   public function actionUsertwo()
+        {
+	$this->layout = 'main2';		
+			
+$model = new Usertwo();
 
-        if($baza->timer){
-            if(is_numeric($baza->timer)){
-                if($baza->timer < $time){
-
-                $baza->delete();
-                $model = new Usertwo();
-                return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+            if ($model->load(Yii::$app->request->post())) {
+                if($model->validate()) {
+            // form inputs are valid, do something here
+                    $model->attributes = Yii::$app->request->post('Usertwo');
+                     $model->password=Yii::$app->getSecurity()->generatePasswordHash($_POST['Usertwo']['password']);
+                    $model->timer=time();
+                    $model->save();
+                    
+$username=$_POST['Usertwo']['username'];    
+$patch="<a href='http://".$_SERVER['HTTP_HOST'].Url::to('@site')."/status?login=".$username."' target='blank'>перейдите по ссылке</a>";
+$date=date("d.m.Y"); 
+$time=date("H:i"); 
+$to=$_POST['Usertwo']['email'];//кому отправить
+$subject = "Потверждение регистрации";//тема письма
+			   $subject='=?UTF-8?B?'.base64_encode($subject).'?=';
+	          $From = ' site';
+             $message="Для потверждения регистрации ".$patch;
+                     $headers="From: $From\r\nReply-To: \r\nContent-type: text/html; charset=UTF-8\r\n";
+		              mail($to,$subject,$message,$headers);
+Yii::$app->session->setFlash('success', 'Данные приняты, вам на почту выслано письмо с активацией, необходимо сделать активацию в течениии трех дней');
+return $this->refresh();
+                        
+                        
                 }else{
-                    if($baza->timer==$time || $time < $baza->timer){
-                    //разрешаем потвержление в течении трех дней но не больше трех
-                        $baza->timer='podtverzhden';
-                        $baza->save(false);
-                        Yii::$app->session->setFlash('success', 'Вы успешно подтвердили регистрацию, теперь можете войти на сайт');
-                        return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-
-                    }
+                    Yii::$app->session->setFlash('error', 'Ошибка: такой логин в нашей системе есть');
+                     return $this->refresh();
                 }
             }
-            else{
-                Yii::$app->session->setFlash('error', 'Вы уже потверждали ранее акаунт');
-                return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-            }
+
+            return $this->render('usertwo', [
+                'model' => $model,
+            ]);
         }
-        Yii::$app->session->setFlash('error', 'Такого логина в этой системе нет');
-        return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));    
-    }
-			
-    public function actionUsertwo(){
-	$this->layout = 'main2';		
-	$model = new Usertwo();
-        if ($model->load(Yii::$app->request->post())) {
-            if($model->validate()) {
-        // form inputs are valid, do something here
-                $model->attributes = Yii::$app->request->post('Usertwo');
-                $model->password=Yii::$app->getSecurity()->generatePasswordHash($_POST['Usertwo']['password']);
-                $model->timer=time();
-                $model->save();
-
-                $username=$_POST['Usertwo']['username'];    
-                $patch="<a href='http://".$_SERVER['HTTP_HOST'].Url::to('@site')."/status?login=".$username."' target='blank'>перейдите по ссылке</a>";
-                $date=date("d.m.Y"); 
-                $time=date("H:i"); 
-                $to=$_POST['Usertwo']['email'];//кому отправить
-                $subject = "Потверждение регистрации";//тема письма
-                $subject='=?UTF-8?B?'.base64_encode($subject).'?=';
-                $From = ' site';
-                $message="Для потверждения регистрации ".$patch;
-                $headers="From: $From\r\nReply-To: \r\nContent-type: text/html; charset=UTF-8\r\n";
-                mail($to,$subject,$message,$headers);
-                Yii::$app->session->setFlash('success', 'Данные приняты, вам на почту выслано письмо с активацией, необходимо сделать активацию в течениии трех дней');
-                return $this->refresh();
-
-
-            }else{
-                Yii::$app->session->setFlash('error', 'Ошибка: такой логин в нашей системе есть');
-                 return $this->refresh();
-            }
-        }
-
-        return $this->render('usertwo', [
-            'model' => $model,
-        ]);
-    }
     
+
+
+
     public function actionEntry(){
 
         $model = new EntryForm();
@@ -126,11 +162,21 @@ class SiteController extends Controller
 
             return $this->render('entry',['model'=>$model]);
 
+
+
         }
+
+
 
     }
 
-   
+
+    public function actionTesting(){
+
+            return $this->render('test');
+
+    }
+
 
 
     public function actionNumber(){
@@ -148,11 +194,14 @@ class SiteController extends Controller
         }
     }
 
+
+
     public function actionSay($message = 'Привет'){
 
         return $this->render('say',['message'=>$message]);
 
     }
+
 
     public function behaviors()
     {
@@ -192,23 +241,20 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-	$this->layout = 'main2';
-            $page='index';
-
-        $user_agent = $_SERVER["HTTP_USER_AGENT"];
-          if (strpos($user_agent, "Firefox") !== false) $browser = "Firefox";
-          elseif (strpos($user_agent, "Opera") !== false) $browser = "Opera";
-          elseif (strpos($user_agent, "Chrome") !== false) $browser = "Chrome";
-          elseif (strpos($user_agent, "MSIE") !== false) $browser = "Internet Explorer";
-          elseif (strpos($user_agent, "Safari") !== false) $browser = "Safari";
-          else $browser = "Неизвестный";
-          //echo "Ваш браузер: $browser";
-          if($browser == "Internet Explorer"){
-                   $this->layout = 'explorers';
-                  return $this->render('explorer');
-
-
-          }
+$user_agent = $_SERVER["HTTP_USER_AGENT"];
+  if (strpos($user_agent, "Firefox") !== false) $browser = "Firefox";
+  elseif (strpos($user_agent, "Opera") !== false) $browser = "Opera";
+  elseif (strpos($user_agent, "Chrome") !== false) $browser = "Chrome";
+  elseif (strpos($user_agent, "MSIE") !== false) $browser = "Internet Explorer";
+  elseif (strpos($user_agent, "Safari") !== false) $browser = "Safari";
+  else $browser = "Неизвестный";
+  //echo "Ваш браузер: $browser";
+  if($browser == "Internet Explorer"){
+	   $this->layout = 'explorers';
+	  return $this->render('explorer');
+	  
+	  
+  }
 		
 		
 		
@@ -216,339 +262,13 @@ class SiteController extends Controller
 		$page='index';
         return $this->render('index');
     }
-    public function actionRecordbd2(){
-        if(isset($_POST['zogolovok'])){
-            $zogolovok = $_POST['zogolovok'];
-            $comand1 = $_POST['comand1'];
-            $comand2 = $_POST['comand2'];
-            $date = $_POST['datetime'];
-            $schet = $_POST['schet'];
-            
-            $i=0;
-            foreach ($comand1 as $c){
-                
-                $hist = new \app\models\History2();
-                $hist->name1 = $comand1[$i];
-                $hist->name2 = $comand2[$i];
-                $hist->date_time = $date[$i];
-                $hist->per1 = $schet[$i];
-                $score = stristr($hist->per1, '(', true);
-                
-                $string1 = str_replace($score,'',$hist->per1);
-                $string1 = str_replace('(','',$string1);
-                $string1 = str_replace(')','',$string1);
-                $string1 = str_replace('<br>','',$string1);
-                $schets = explode(" ", $string1);
-                $hist->per2 = $score;
-                if(isset($schets[0]))
-                $hist->per3 = $schets[0];
-                if(isset($schets[1]))
-                $hist->per4 = $schets[1];
-                if(isset($schets[2]))
-                $hist->per5 = $schets[2];
-                if(isset($schets[3]))
-                $hist->per6 = $schets[3];
-                if(isset($schets[4]))
-                $hist->per7 = $schets[4];
-                $i++;
-                $hist->save();
-            }
-        }
-    }
-    
-    
-    public function actionRecordbd(){
-        if(isset($_POST['zogolovok'])){
-            $zagolovok = $_POST['zogolovok'];
-            $comand1 = $_POST['comand1'];
-            $comand2 = $_POST['comand2'];
-            $date = $_POST['datetime'];
-            $schet = $_POST['schet'];
-            $time = $_POST['time'];
-            
-            function str_replace_first($from, $to, $subject){
-                $from = '/'.preg_quote($from, '/').'/';
 
-                return preg_replace($from, $to, $subject, 1);
-            }
-            
-                $i=0;
-                foreach ($comand1 as $c){
-                $hist = new \app\models\History();
-                $hist->name1 = $comand1[$i];
-                $hist->name2 = $comand2[$i];
-                
-                //$hist->date_time = $date[$i];
-                $string1 = str_replace('<b>','',$schet[$i]); 
-                $string2 = str_replace('</b>','',$string1); 
-                $score = stristr($string2, '(', true);
-                
-                // per3 (1 taim)
-                $string3 = str_replace($score,'',$string2);
-                $string4 = str_replace('(','',$string3);
-                $string5 = str_replace(')','',$string4);
-                $ftime = stristr($string5, ',', true);
-                
-                // per4 (2 taim)
-                $stime = str_replace_first($ftime,'',$string5);
-                $stime = substr_replace($stime, null, 0, 2);
-                $f = stristr($stime, ',', true);
-                if($f!='')
-                    $hist->per4 = $f;
-                if($f=='' && $stime!='')
-                    $hist->per4 = $stime;
-                
-                // per5 (3 taim)
-                $ttime = str_replace_first($hist->per4,'',$stime);
-                $ttime = substr_replace($ttime, null, 0, 2);
-                $k = stristr($ttime, ',', true);
-                if($k!='')
-                    $hist->per5 = $k;
-                if($k=='' && $ttime!='')
-                    $hist->per5 = $ttime;
-                
-                // per6 (4 taim);
-                $fourthtime = str_replace_first($hist->per5,'',$ttime);
-                $fourthtime = substr_replace($fourthtime, null, 0, 2);
-                $d = stristr($fourthtime, ',', true);
-                if($d!='')
-                    $hist->per6 = stristr($fourthtime, ',', true);
-                if($d=='' && $fourthtime!='')
-                    $hist->per6 = $fourthtime;
-                
-                // per7 (5 taim);
-                $fifthtime = str_replace_first($hist->per6,'',$fourthtime);
-                $fifthtime = substr_replace($fifthtime, null, 0, 2);
-                $f = stristr($fifthtime, ',', true);
-                if($f!='')
-                    $hist->per7 = stristr($fifthtime, ',', true);
-                if($f=='' && $fifthtime!='')
-                    $hist->per7 = $fifthtime;
-                
-                $hist->per1 = $score;
-                $hist->per2 = $time[$i];
-                $hist->per3 = $ftime;
-                $hist->per8 = $string2;
-                $hist->date_time = $date[$i];
-                $i++;
-                $hist->save();
-            }
-        }
-    }
-    
-    public function actionCompare(){
-        
-        $hist = \app\models\History2::find()->all();
-        $liveresult = \app\models\TypeSobitiya::find()->all();
-        $lr = new TypeSobitiya();
-        
-        function p1($schet){
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            if($k1>$k2)
-                return "Выиграло";
-            else
-                return "Проиграло";
-        }
-        
-        function x($schet){
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            if($k1==$k2)
-                return "Выиграло";
-            else
-                return "Проиграло";
-        }
-        
-        function p2($schet){
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            if($k1<$k2)
-                return "Выиграло";
-            else
-                return "Проиграло";
-        }
-        
-        function x1($schet){
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            if($k1>=$k2)
-                return "Выиграло";
-            else
-                return "Проиграло";
-        }
-        
-        function x2($schet){
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            if($k1<=$k2)
-                return "Выиграло";
-            else
-                return "Проиграло";
-        }
-        
-        function x12($schet){
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            if($k1!=$k2)
-                return "Выиграло";
-            else
-                return "Проиграло";
-        }
-        
-        function f1($schet, $fora){
-            $f1 = substr_replace($fora, null, 0, 4);
-            $f1 = stristr($f1, ')', true);
-             
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            
-            if(($k1+$f1)>$k2)
-                return "Выиграло";
-            else if(($k1+$f1)==$k2)
-                return "Возврат";
-            else
-                return "Проиграло";
-        }
-        
-        function f2($schet, $fora){
-            $f2 = substr_replace($fora, null, 0, 4);
-            $f2 = stristr($f2, ')', true);
-             
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            
-            if(($k2+$f2)>$k1)
-                return "Выиграло";
-            else if(($k2+$f2)==$k1)
-                return "Возврат";
-            else
-                return "Проиграло";
-        }
-        
-        function temp($schet, $fora,$com){
-            
-            $schets = explode(" - ", $com);
-            $c1 = $schets[0];
-            $c2 = $schets[1];
-            print_r($c1); //$c1.' и '.$c2;
-            
-            $f2 = substr_replace($fora, null, 0, 4);
-            $f2 = stristr($f2, ')', true);
-             
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            
-            if(($k2+$f2)>$k1)
-                return "Выиграло";
-            else if(($k2+$f2)==$k1)
-                return "Возврат";
-            else
-                return "Проиграло";
-        }
-            
-        function total($schet,$total,$id){
-            $tot = substr_replace($total, null, 0, 7);
-            $tot = stristr($tot, ')', true);
-            
-            $k1 = stristr($schet, ':', true);
-            $k2 = str_replace($k1,'',$schet);
-            $k2 = substr_replace($k2, null, 0, 1);
-            $m = stripos($total, "М");
-            $b = stripos($total, "Б");
-            
-            if(($k1+$k2)>$tot){
-                if($b !== false){
-                    return "Выиграла";
-                }
-                if($m !== false){
-                    return "Проиграла";   
-                }
-            }
-        }
-        
-        foreach($hist as $h){
-            foreach($liveresult as $l){
-                $is = stripos ($l->name_kommand, $h->name1);
-                if($is !== false){
-                    $p1 = stripos($l->ishod, "П1");
-                    $p2 = stripos($l->ishod, "П2");
-                    $x = stripos($l->ishod, "Х");
-                    $x1 = stripos($l->ishod, "1Х");
-                    $x2 = stripos($l->ishod, "Х2");
-                    $x12 = stripos($l->ishod, "12");
-                    $f1 = stripos($l->ishod, "Ф1");
-                    $f2 = stripos($l->ishod, "ф2");
-                    $total = stripos($l->ishod, "Тот(");
-                    $indtotal = stripos($l->ishod, "Тот(");
-                    
-                    if($p1 !== false){ 
-                        $r = p1($h->per2, $l->ishod);
-                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
-                    }
-                    
-                    if($p2 !== false){ 
-                        $r = p2($h->per2, $l->ishod);
-                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
-                    }
-                    
-                    if($x !== false){ 
-                        $r = x($h->per2, $l->ishod);
-                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
-                    }
-                    
-                    if($x1 !== false){ 
-                        $r = x1($h->per2, $l->ishod);
-                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
-                    }
-                    
-                    if($x2 !== false){ 
-                        $r = x2($h->per2, $l->ishod);
-                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
-                    }
-                    
-                    if($x12 !== false){ 
-                        $r = x12($h->per2, $l->ishod);
-                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
-                    }
-                    
-                    if($f1 !== false){ 
-                        $r = f1($h->per2, $l->ishod);
-                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
-                    }
-                    
-                    if($f2 !== false){ 
-                        $r = f2($h->per2, $l->ishod);
-                        \Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
-                    }
-                    
-                    if($total !== false){ 
-                        temp($h->per2, $l->ishod,$l->name_kommand);
-                        //$r = total($h->per2, $l->ishod);
-                        //\Yii::$app->db->createCommand("UPDATE type_sobitiya SET status='$r' WHERE id='$l->id'")->execute(); 
-                    }
-                      
-                }
-            }
-            
-        }
-        
-    }
-    
+
     public function actionRequest(){
 
         return $this->render('request');
     }
-    
+
     public function actionRequestlive(){
 $this->layout = 'main3';
         return $this->render('request_live',['model'=>$layout]);
@@ -557,33 +277,54 @@ $this->layout = 'main3';
     public function actionSoccerpage(){
 
         return $this->render('soccer_request');
+
     }
+
     
+
+
+
     public function actionSlive(){
-        $this->layout = 'main2';
+
         return $this->render('s_live');
     }
 
 
     public function actionLiverequest(){
 
-            $content = file_get_contents('http://olimp.kz/betting');
+             $content = file_get_contents('http://olimp.kz/betting');
+          
+
             $file = "../views/site/liverequest.php";
+           
+
             $myfile = fopen($file, 'w+');
+
             $success = fwrite($myfile, $content);
+
             fclose($myfile);
 
-            if($success)
+            if($success){
                 echo $content;
-            else
+            }else{
                 echo "файл не записан..";
-            
+            }
+
+
     }
+
 
         public function actionLiveupdate(){
 
+
+
+
             $content = file_get_contents('http://olimp.kz/betting');
+          
+
             $file = "../views/site/liverequest.php";
+           
+
             $myfile = fopen($file, 'w+');
 
             $success = fwrite($myfile, $content);
@@ -593,13 +334,23 @@ $this->layout = 'main3';
             fclose($myfile);
 
             if($success){
-                if($page == $content)
+
+                if($page == $content){
                     echo "ok";
-                else
+                }else{
                     echo "false";
-            }else
-                echo "false"; 
-    }    
+                }
+                
+
+            }else{
+                echo "false";
+            }
+
+
+    }
+
+
+    
 
     public function actionP(){
 
@@ -969,177 +720,206 @@ echo "ok";exit();
 }
 if($option == 'number2'){
 	
-    $summ=trim(strip_tags($_POST['summa']));
-    $model = new Ruletka();
-    $model->id_user = $res_id;
-    $tring=implode(",", $_POST['param']);
-    $model->stavka2 = $tring;
-    $model->summastavka2=$summ;
-    $model->timer=time();
-    $model->save(false);
+$summ=trim(strip_tags($_POST['summa']));
+
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka2 = $tring;
+		$model->summastavka2=$summ;
+		$model->timer=time();
+        $model->save(false);
 		   	
 	
-    array_push($_POST['param'], $summ);
-        //$_SESSION['stavka']['number2'][]=$_POST['param'];
-    echo "ok";exit();
+	array_push($_POST['param'], $summ);
+//$_SESSION['stavka']['number2'][]=$_POST['param'];
+echo "ok";exit();
 }
 if($option == 'number_2k1'){
 	
-    $summ=trim(strip_tags($_POST['summa']));
-    $model = new Ruletka();
-    $model->id_user = $res_id;
-    $tring=implode(",", $_POST['param']);
-    $model->stavka2k1 = $tring;
-    $model->summastavka2k1=$summ;
-    $model->timer=time();
-    $model->save(false);
-    echo "ok";exit();
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka2k1 = $tring;
+		$model->summastavka2k1=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
 }
 if($option == 'number_2k1_middle'){
-    $summ=trim(strip_tags($_POST['summa']));
-    $model = new Ruletka();
-    $model->id_user = $res_id;
-    $tring=implode(",", $_POST['param']);
-    $model->stavka2k1middle = $tring;
-    $model->summastavka2k1middle=$summ;
-    $model->timer=time();
-    $model->save(false);
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka2k1middle = $tring;
+		$model->summastavka2k1middle=$summ;
+		$model->timer=time();
+        $model->save(false);
 		   	echo "ok";exit();
 }
 if($option == 'number_2k1_bottom'){
-    $summ=trim(strip_tags($_POST['summa']));
-    $model = new Ruletka();
-    $model->id_user = $res_id;
-    $tring=implode(",", $_POST['param']);
-    $model->stavka2k1bottom = $tring;
-    $model->summastavka2k1bottom=$summ;
-    $model->timer=time();
-    $model->save(false);
-    echo "ok";exit();
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->stavka2k1bottom = $tring;
+		$model->summastavka2k1bottom=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
 }
 if($option == 'dozen'){
 	
-    $summ=trim(strip_tags($_POST['summa']));
-    $model = new Ruletka();
-    $model->id_user = $res_id;
-    $tring=implode(",", $_POST['param']);
-    $model->dozen = $tring;
-    $model->summadozen=$summ;
-    $model->timer=time();
-    $model->save(false);
-    echo "ok";exit();
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->dozen = $tring;
+		$model->summadozen=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
 }
 if($option == 'dozen1'){
-
-    $summ=trim(strip_tags($_POST['summa']));
-    $model = new Ruletka();
-    $model->id_user = $res_id;
-    $tring=implode(",", $_POST['param']);
-    $model->dozen1 = $tring;
-    $model->summadozen1=$summ;
-    $model->timer=time();
-    $model->save(false);
-    echo "ok";exit();
+	
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->dozen1 = $tring;
+		$model->summadozen1=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
 }
 if($option == 'dozen2'){
 	
-    $summ=trim(strip_tags($_POST['summa']));
-    $model = new Ruletka();
-    $model->id_user = $res_id;
-    $tring=implode(",", $_POST['param']);
-    $model->dozen2 = $tring;
-    $model->summadozen2=$summ;
-    $model->timer=time();
-    $model->save(false);
-    echo "ok";exit();
+$summ=trim(strip_tags($_POST['summa']));
+	$model = new Ruletka();
+			 $model->id_user = $res_id;
+   $tring=implode(",", $_POST['param']);
+        $model->dozen2 = $tring;
+		$model->summadozen2=$summ;
+		$model->timer=time();
+        $model->save(false);
+		   	echo "ok";exit();
 }
 if($option == 'update'){
-    $query = $sql = "UPDATE ruletka SET status='noactiv' WHERE id_user = $res_id";
-    Ruletka::findBySql($query)->all();
+	$query = $sql = "UPDATE ruletka SET status='noactiv' WHERE id_user = $res_id";
+ Ruletka::findBySql($query)->all();
+ exit();
 }
 
-    if($option == 'baza'){
-        unset($_SESSION['s']);
-        unset($_SESSION['stavka']);
-        $timet = time() - (3600 * 24 * 1);
-        $user_stavka = Ruletka::find()->orderBy(['id' => SORT_ASC])->asArray()->where("id_user=$res_id AND timer > $timet")->all();
-        //print_r($user_stavka);exit();
-        $name='activ';
-        $success_result1=Roulette::find()->asArray()->all();
-        $last=count($success_result1);
-        $success_result=$success_result1[$last-1];
+if($option == 'baza'){
 
-        //print_r($success_result);exit();
+$timet = time() - (3600 * 24 * 1);
+$user_stavka = Ruletka::find()->orderBy(['id' => SORT_ASC])->asArray()->where("id_user=$res_id AND timer > $timet")->all();
 
-        $number_success=$success_result['number'];
-        if($success_result){
-        //$arr=explode(',',$user_stavka['stavka4']);
+$name='activ';
+  $success_result1=Roulette::find()->asArray()->all();
+   $last=count($success_result1);
+  $success_result=$success_result1[$last-1];
+ 
+  //print_r($success_result);exit();
+   
+ 
+  
+$number_success=$success_result['number'];
+ 
+if($number_success){
+	
+//$arr=explode(',',$user_stavka['stavka4']);
 
-            $arrb=array('stavka4','stavka2','stavka2k1','stavka2k1middle','stavka2k1bottom','dozen','dozen1','dozen2');
-            $arrb1=array('summastavka4','summastavka2','summastavka2k1','summastavka2k1middle','summastavka2k1bottom','summadozen','summadozen1','summadozen2');
-            $activ=false;
-            foreach($user_stavka as $item){
-                for($i=0; $i < count($arrb); $i++){
-                $znah1=$item[$arrb[$i]];
-                $keys1 = array_search($znah1,$item);
-                $keys25=$keys1.$item['timer'];	
-                    if($item[$keys1]){
-                        if($item['status']=='activ'){
-                            //echo $item[$keys1];exit();	
-                            $d=explode(',',$item[$keys1]);
-                            if(in_array($number_success,$d)){
-                            //$shar=array($item[$keys1],$number_success);
-                            //$_SESSION['shar'][]=$shar;	
-                            $activ='activ';	
-                            $resnomer='es';	
-
-                            }else{
-                                if($resnomer=='es'){
-                                        $activ='activ';
-                                }else{
-                                        $activ='ddd';
-                                }
-                            }
-                        }
-                    }//4
-                }
-            }
-            //$number_success
-            //echo trim(count($_SESSION['s']));exit();
-            if($activ == 'activ'){
-
-            }
-            elseif($activ == 'ddd'){
-                $ss="вы проиграли";
-                echo json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
-            }
-
-            else{
-                $ss="ваших ставок нет";
-                echo json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
-            }
-            $ss='';
-
-            if($resnomer=='es'){
-                    $ss='вы выиграли';
-                    $resnomer=false;
-                    //unset($_SESSION['shar'][0]);
-            }else{
-                    //$_SESSION['shar'][0]='no';
-                    $ss='вы проиграли';
-            }
-
-            echo json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));
+$arrb=array('stavka4','stavka2','stavka2k1','stavka2k1middle','stavka2k1bottom','dozen','dozen1','dozen2');
+$arrb1=array('summastavka4','summastavka2','summastavka2k1','summastavka2k1middle','summastavka2k1bottom','summadozen','summadozen1','summadozen2');
+$activ=false;
+$resnomer='';
+$activ='';
+$str=array();;
+//WWW
 
 
-            exit();
-            echo "ok";exit();
-        }else{//если не пришел запрос
-            $file = fopen('log.txt', 'w+');
-            $date=date("d m Y H:i:s");
-            $write = fwrite($file, "не пришел запрос с базы выигрышное число: ".$date);
-        }
-    }//baza
+
+
+foreach($user_stavka as $item){
+for($i=0; $i < count($arrb); $i++){
+if($item[$arrb[$i]]){
+		$znah1=$item[$arrb[$i]];
+	}else{
+		$znah1=false;
+	}
+
+if($znah1){
+	$keys1 = array_search($znah1,$item);
+	if($keys1){
+		if($item['status'] == 'activ'){
+			
+			$d=explode(',',$item[$keys1]);
+			if(in_array($number_success,$d)){
+				$arrdd=array($item[$keys1],$number_success);
+	$str[]=$arrdd;
+	$activ='es';
+	}else{
+		
+		$activ = 'ddd';
+	}
+		}else{
+			if($activ == 'es'){
+				
+				
+			}else{
+				$activ == 'ddd';
+			}
+		}
+	
+	}
+}
+
+
+
+}//for
+	
+}//foreach
+//echo $activ;exit();
+if($activ == 'noactiv'){
+	//echo 'noactiv';exit();
+	$ss='ставки не сделаны';
+	$resnomer=false;
+	$activ=false;
+	
+	return json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
+	
+}
+if($activ == 'es'){
+	
+	$ss='вы выиграли';
+	
+	
+	return json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
+}
+if($activ=='ddd'){
+	$resnomer=false;
+	//$activ=false;
+	$ss="вы проиграли";
+	return json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
+}
+
+exit();
+	
+
+
+
+
+}else{//если не пришел запрос
+	 $file = fopen('log.txt', 'w+');
+  $date=date("d m Y H:i:s");
+$write = fwrite($file, "не пришел запрос с базы выигрышное число: ".$date);
+}
+
+
+	
+}//baza
 
 
 if($option == 'statistika'){
@@ -1247,8 +1027,7 @@ protected function checkTimer($login){
 	
 }
 
-
-    public function actionLogin()
+   public function actionLogin()
     {
 
         if (!Yii::$app->user->isGuest) {
@@ -1316,15 +1095,20 @@ protected function checkTimer($login){
         return $this->render('about');
     }
 
-    public function actionK(){
+
+public function actionK(){
         $session = Yii::$app->session;
         $identity = \Yii::$app->user->identity;
 
         if($identity){
 
+
+
         if(isset($_POST['game'])){
 
-
+            /*echo $_POST['game']." | ".$_POST['k']." | ".$_POST['name'];*/
+        
+        
         date_default_timezone_set('Asia/Almaty');
 
         $date = date("d.m.Y");
@@ -1332,44 +1116,29 @@ protected function checkTimer($login){
 
         $user = $identity['id'];
 
-        $number_kommand = 2;
-
-        $name_kommand = $_POST['name'];
-        $ish = $_POST['game'];
-
-        $arr_razd = explode("-",$name_kommand);
-
-        $arr_razd[0];//first kommand
-        $arr_razd[1];//the two kommand
-
-        
-        $number_kommand = $_POST['head'];
-        
-
         $sobitie = new TypeSobitiya();
-        $sobitie->ishod = $ish;
+        $sobitie->ishod = $_POST['game'];
         $sobitie->k = $_POST['k'];
-        $sobitie->name_kommand = $name_kommand;
+        $sobitie->name_kommand = $_POST['name'];
         $sobitie->date_stavki = $date;
         $sobitie->time_stavki = $time;
         $sobitie->res_id = $user;
-        $sobitie->number_kommand = $number_kommand;
         $sobitie->save();
 
         if($sobitie){
-        echo "ok";
+            echo "ok";
         }else{
-        echo "false";
+            echo "false";
         }
 
         }
 
         }else{
-        $message = "<h4 style='color:red;'>необходимо авторизоваться в системе!</h4>";
-        $session->setFlash('message', $message);
-        echo "false";
-        }
-    }    
+            $message = "<h4 style='color:red;'>необходимо авторизоваться в системе!</h4>";
+             $session->setFlash('message', $message);
+            echo "false";
+         }
+    }
 
 
     public function actionKorzina(){
@@ -1448,33 +1217,7 @@ protected function checkTimer($login){
 
     }
 
-    public function actionDeletekorzina(){
 
-        
-            if(isset($_POST['id'])){
-
-
-
-
-                    $id = $_POST['id'];
-
-                    $sobitie = TypeSobitiya::findOne($id);
-                    $sobitie->status = "deleted";
-                    $sobitie->delete();
-                    if($sobitie){
-                        echo "ok";
-                    }else{
-                        echo "false";
-                    }
-
-            
-
-
-        }else{
-            echo "false";
-        }
-
-    }
 
 
     public function actionDealer(){

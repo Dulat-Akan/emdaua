@@ -676,6 +676,8 @@ kan1 += '<div class="col-md-8 total"> <div class="tit" style="text-align:center"
 
 
 				p1.append("<div class='clearfix'></div>");
+			
+			
 				$('#pok_searh2').wrap('<div class="pok_searh12"></div>');
 
 
