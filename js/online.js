@@ -900,7 +900,7 @@ $('.modal_r-logout').click(function(){
 			overlay.removeClass('overlay_a');
 	       $('#modal_r').hide();
 			
-				$('.time').html("рулетка крутиться");
+				$('.time').html("рулетка вращается..");
 				secondsresult();
 		}
 	}

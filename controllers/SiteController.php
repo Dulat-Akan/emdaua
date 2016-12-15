@@ -1492,11 +1492,8 @@ protected function checkTimer($login){
 
             $m = $_POST['a'];
 
-            
-            $u = \Yii::$app->db->createCommand("UPDATE dealer SET message='$m' WHERE id = '1'")->execute();
 
-
-                $u = Yii::$app->db->createCommand()->insert('dealer', ['message' => $m])->execute();
+                $u = \Yii::$app->db->createCommand()->insert('dealer', ['message' => $m])->execute();
 
                 if($u == true){
                    $json = '{"a":"ok","b":"'.$m.'"}';
