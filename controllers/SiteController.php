@@ -677,258 +677,24 @@ $this->layout = 'main3';
 
         echo $hash;*/
 
-        
-
-       
     }
+
+    
  public function actionOnlineajax(){
+
+    if(isset($_POST['a']) && isset($_POST['b'])){
+
+        $a = $_POST['a'];
+        $b = $_POST['b'];
 	
-	 $option=trim(strip_tags($_POST['param2']));
-	 $identity = \Yii::$app->user->identity;
-	 if($identity){
-		 $res_id = $identity['id'];
-	 }else{
-		 if($option == 'statistika'){
-			 $this->layout = false;
-			  return $this->render('cart-modal');
-		 }
-		 echo "nouser";exit();
-	 }
-	 //
-	 
-	$session =Yii::$app->session;
-        $session->open();
-	
-	
-if($option == 'number4'){
-$summ=trim(strip_tags($_POST['summa']));
-//$time = time() - (3600 * 24 * 3);
-//print_r($_POST['param']);exit();
+    $json = '{"a":"'.$a.'","b":"'.$b.'"}';
+                
+    echo $json;
 
-	$model = new Ruletka();
-			 $model->id_user = $res_id;
-   $tring=implode(",", $_POST['param']);
-        $model->stavka4 = $tring;
-		$model->summastavka4=$summ;
-		$model->timer=time();
-        $model->save(false);
-		   
-
-
-//$_SESSION['stavka']['number4'][]=$_POST['param'];
-echo "ok";exit();
-}
-if($option == 'number2'){
-	
-$summ=trim(strip_tags($_POST['summa']));
-
-	$model = new Ruletka();
-			 $model->id_user = $res_id;
-   $tring=implode(",", $_POST['param']);
-        $model->stavka2 = $tring;
-		$model->summastavka2=$summ;
-		$model->timer=time();
-        $model->save(false);
-		   	
-	
-	array_push($_POST['param'], $summ);
-//$_SESSION['stavka']['number2'][]=$_POST['param'];
-echo "ok";exit();
-}
-if($option == 'number_2k1'){
-	
-$summ=trim(strip_tags($_POST['summa']));
-	$model = new Ruletka();
-			 $model->id_user = $res_id;
-   $tring=implode(",", $_POST['param']);
-        $model->stavka2k1 = $tring;
-		$model->summastavka2k1=$summ;
-		$model->timer=time();
-        $model->save(false);
-		   	echo "ok";exit();
-}
-if($option == 'number_2k1_middle'){
-$summ=trim(strip_tags($_POST['summa']));
-	$model = new Ruletka();
-			 $model->id_user = $res_id;
-   $tring=implode(",", $_POST['param']);
-        $model->stavka2k1middle = $tring;
-		$model->summastavka2k1middle=$summ;
-		$model->timer=time();
-        $model->save(false);
-		   	echo "ok";exit();
-}
-if($option == 'number_2k1_bottom'){
-$summ=trim(strip_tags($_POST['summa']));
-	$model = new Ruletka();
-			 $model->id_user = $res_id;
-   $tring=implode(",", $_POST['param']);
-        $model->stavka2k1bottom = $tring;
-		$model->summastavka2k1bottom=$summ;
-		$model->timer=time();
-        $model->save(false);
-		   	echo "ok";exit();
-}
-if($option == 'dozen'){
-	
-$summ=trim(strip_tags($_POST['summa']));
-	$model = new Ruletka();
-			 $model->id_user = $res_id;
-   $tring=implode(",", $_POST['param']);
-        $model->dozen = $tring;
-		$model->summadozen=$summ;
-		$model->timer=time();
-        $model->save(false);
-		   	echo "ok";exit();
-}
-if($option == 'dozen1'){
-	
-$summ=trim(strip_tags($_POST['summa']));
-	$model = new Ruletka();
-			 $model->id_user = $res_id;
-   $tring=implode(",", $_POST['param']);
-        $model->dozen1 = $tring;
-		$model->summadozen1=$summ;
-		$model->timer=time();
-        $model->save(false);
-		   	echo "ok";exit();
-}
-if($option == 'dozen2'){
-	
-$summ=trim(strip_tags($_POST['summa']));
-	$model = new Ruletka();
-			 $model->id_user = $res_id;
-   $tring=implode(",", $_POST['param']);
-        $model->dozen2 = $tring;
-		$model->summadozen2=$summ;
-		$model->timer=time();
-        $model->save(false);
-		   	echo "ok";exit();
-}
-if($option == 'update'){
-	$query = $sql = "UPDATE ruletka SET status='noactiv' WHERE id_user = $res_id";
- Ruletka::findBySql($query)->all();
- exit();
-}
-
-if($option == 'baza'){
-
-$timet = time() - (3600 * 24 * 1);
-$user_stavka = Ruletka::find()->orderBy(['id' => SORT_ASC])->asArray()->where("id_user=$res_id AND timer > $timet")->all();
-
-$name='activ';
-  $success_result1=Roulette::find()->asArray()->all();
-   $last=count($success_result1);
-  $success_result=$success_result1[$last-1];
- 
-  //print_r($success_result);exit();
-   
- 
-  
-$number_success=$success_result['number'];
- 
-if($number_success){
-	
-//$arr=explode(',',$user_stavka['stavka4']);
-
-$arrb=array('stavka4','stavka2','stavka2k1','stavka2k1middle','stavka2k1bottom','dozen','dozen1','dozen2');
-$arrb1=array('summastavka4','summastavka2','summastavka2k1','summastavka2k1middle','summastavka2k1bottom','summadozen','summadozen1','summadozen2');
-$activ=false;
-$resnomer='';
-$activ='';
-$str=array();;
-//WWW
+    }
 
 
 
-
-foreach($user_stavka as $item){
-for($i=0; $i < count($arrb); $i++){
-if($item[$arrb[$i]]){
-		$znah1=$item[$arrb[$i]];
-	}else{
-		$znah1=false;
-	}
-
-if($znah1){
-	$keys1 = array_search($znah1,$item);
-	if($keys1){
-		if($item['status'] == 'activ'){
-			
-			$d=explode(',',$item[$keys1]);
-			if(in_array($number_success,$d)){
-				$arrdd=array($item[$keys1],$number_success);
-	$str[]=$arrdd;
-	$activ='es';
-	}else{
-		
-		$activ = 'ddd';
-	}
-		}else{
-			if($activ == 'es'){
-				
-				
-			}else{
-				$activ == 'ddd';
-			}
-		}
-	
-	}
-}
-
-
-
-}//for
-	
-}//foreach
-//echo $activ;exit();
-if($activ == 'noactiv'){
-	//echo 'noactiv';exit();
-	$ss='ставки не сделаны';
-	$resnomer=false;
-	$activ=false;
-	
-	return json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
-	
-}
-if($activ == 'es'){
-	
-	$ss='вы выиграли';
-	
-	
-	return json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
-}
-if($activ=='ddd'){
-	$resnomer=false;
-	//$activ=false;
-	$ss="вы проиграли";
-	return json_encode(array('param1'=>'ok2','param2'=>$number_success,'param4'=>$ss));exit();
-}
-
-exit();
-	
-
-
-
-
-}else{//если не пришел запрос
-	 $file = fopen('log.txt', 'w+');
-  $date=date("d m Y H:i:s");
-$write = fwrite($file, "не пришел запрос с базы выигрышное число: ".$date);
-}
-
-
-	
-}//baza
-
-
-if($option == 'statistika'){
-
-	 $session =\Yii::$app->session;
-		      $session->open();
-	 $this->layout = false;
-	 return $this->render('cart-modal', compact('session'));
-}
 
 
  }
@@ -1247,6 +1013,17 @@ public function actionK(){
                 }
             
         }
+
+    }
+
+
+    public function actionRoulette(){
+
+
+
+        return $this->render('roulette');
+
+
 
     }
 
