@@ -270,8 +270,10 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
     }
 
     public function actionRequestlive(){
-$this->layout = 'main3';
-        return $this->render('request_live',['model'=>$layout]);
+        //$layout = $this->layout = 'main3';
+
+       // return $this->render('request_live',['model'=>$layout]);
+        return $this->render('request_live');
     }
 
     public function actionSoccerpage(){
@@ -500,6 +502,7 @@ $this->layout = 'main3';
                     break;
             }
 
+            //zapisat v sessiyu
 
             $content = file_get_contents($url);
           
@@ -524,25 +527,6 @@ $this->layout = 'main3';
     }
 
 
-    /* public function actionSoccer(){
-
-            $content = file_get_contents('http://olimp.kz/betting/soccer');
-          
-            $file = "../views/site/soccer.php";
-           
-            $myfile = fopen($file, 'w+');
-
-            $success = fwrite($myfile, $content);
-
-            fclose($myfile);
-
-            if($success){
-                echo $content;
-            }else{
-                echo "файл не записан..";
-            }
-
-    }*/
 
         
 
@@ -564,7 +548,7 @@ $this->layout = 'main3';
 
             $hid = "http://olimp.kz/".$_POST['hid'];
 //$hid = "http://inza.si";
-            $session->set("href",$hid);
+            $session->set("hr",$hid);
 
             $content = file_get_contents($hid);
             
@@ -588,6 +572,39 @@ $this->layout = 'main3';
 
 
         
+    }
+
+     public function actionSoccerliveupdate(){
+
+             $session = Yii::$app->session;
+
+             $session->open();
+
+             $href = $session->get('hr');
+
+            if(isset($href)){
+                
+                $content = file_get_contents($href);
+                
+
+                $file = "../views/site/soccerlive.php";
+                
+               
+
+                $myfile = fopen($file, 'w+');
+
+                $success = fwrite($myfile, $content);
+
+                fclose($myfile);
+
+                if($success){
+                    echo "ok";
+                }else{
+                    echo "файл не записан..";
+                }
+
+            }
+ 
     }
 
 
@@ -646,6 +663,7 @@ $this->layout = 'main3';
                 
 
                 $file = "../views/site/live.php";
+                
                
 
                 $myfile = fopen($file, 'w+');
@@ -661,12 +679,12 @@ $this->layout = 'main3';
                 }
 
             }
-
-       
-
-
-        
+ 
     }
+
+
+
+
 
     public function actionTest(){
 
@@ -1024,6 +1042,14 @@ public function actionK(){
         return $this->render('roulette');
 
 
+
+    }
+
+    public function actionServer(){
+
+        $this->layout = 'main4';
+
+        return $this->render('server');
 
     }
 

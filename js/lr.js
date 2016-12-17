@@ -67,12 +67,13 @@ function updategame(){
 
 			}
 
-/*
-			setInterval(function(){
-				updategame();
-			},8000);
 
 			setInterval(function(){
+				//updategame();
+				window.location.reload();
+			},15000);
+
+			/*setInterval(function(){
 				updategametwo();
 			},5000);
 */
@@ -463,7 +464,9 @@ p1.append("<div class='clearfix'></div>");
             	p1.append(s);
             }
             
-			
+if(stopping == 0){
+	exit;
+}		
 			/*polnii sikl verhnei chasti*/
 
 			/*nizhniyya chast koeffisientov*/
@@ -625,7 +628,7 @@ p1.append("<div class='clearfix'></div>");
 						//console.log(string25);
 						//console.log(string24);
 								   
-							
+						
 							//p1.append(string21 + string22 + " | " + string23 + string24 + "<br>");
 var regV =/мен|да/i;					
 var t=string21.match(regV);

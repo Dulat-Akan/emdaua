@@ -1,7 +1,7 @@
 
 function updategame(){
 
-						var update = $("#baseupdatek").val();
+						var update = $("#basey").val();
 
 						 $.ajax({
 		                    "type":"POST",
@@ -35,7 +35,7 @@ function updategame(){
 
 			function updategametwo(){
 
-						var update = $("#baseupdatek2").val();
+						var update = $("#baseyl").val();
 
 						 $.ajax({
 		                    "type":"POST",
@@ -66,15 +66,13 @@ function updategame(){
 
 			}
 
-/*
-			setInterval(function(){
-				updategame();
-			},8000);
 
 			setInterval(function(){
-				updategametwo();
-			},5000);
-*/
+				//updategame();
+			},15000);
+
+		
+
 
 /*function srab pri dobavlenii stavki*/
 
@@ -226,56 +224,18 @@ window.onload = function(){
 
 					var string = str.text();
 
-					
-
 
 					for(var i = 0;i < string.length;i++){
-
-
-						for(var z = 0; z < string.length; z++){
-
-							if(x == 1){
-									break;
-								}
-						if((string[i] == z) && (string[i] != " ")){
-
-							
-								a = i;
-								
-								var x = 1;
-
-							
-							
-						}
-
-						}
-
-					}
-
-					for(var i = 0;i < a-2;i++){
-
-						b += string[i];
-
-
-					}
-
-					
-
-					for(var i = 0;i < string.length;i++){
-
-						if(i >= a){
 
 							if(string[i] != '"'){
 								c += string[i];
 							}
 
-						}
-
 					}
 					
 
 					//namear.push(b);
-					//console.log(c);
+					console.log(c);
 					namear.push(c);
 				});
 

@@ -14,38 +14,16 @@ use yii\helpers\Url;
 	<div class='page3'>
 
 
-<!-- <div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="col-md-2 col-md-offset-3">
-					
-					
-
-					<input class="btn btn-danger" id="par" type="button" value="парсинг">
-
-
-			</div>
-
-
-			<div class="col-md-2">
-				
-					<input class="btn btn-info" id="search" type="button" value="Поиск">
-
-			</div>
-		</div>
-	</div>
-</div> -->
 
 
 
 
 
+<input id="basey" type="hidden" value="<?php echo Url::to('@base'); ?>/site/soccerliveupdate">
 
-<input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/livetwo">
 
 
-<input id="basek" type="hidden" value="<?php echo Url::to('@base'); ?>/site/k">
-
+<!-- sdelat obnovlenie komand -->
 
 
 
