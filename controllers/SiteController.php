@@ -1037,7 +1037,7 @@ public function actionK(){
 
     public function actionRoulette(){
 
-
+        $this->layout = 'main4';
 
         return $this->render('roulette');
 

@@ -5,9 +5,9 @@
 <? session_start()?>
 	<div class="mainvideo clearfix">
 
-<div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8090/webcam.mjpeg" width="100%" height="480"></div>
+<!-- <div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8090/webcam.mjpeg" width="100%" height="480"></div>
 
-<div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8091/webcam2.mjpeg" width="100%" height="480"></div>
+<div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8091/webcam2.mjpeg" width="100%" height="480"></div> -->
 
 
 	</div>
@@ -234,7 +234,7 @@
 <div class="clear"></div>
 </div>
 	
-
+<div><span>13</span></div>
 <div class="sector2">
 <div class="sider-header">
 <div><span>13</span></div>

@@ -1,351 +1,410 @@
 <?php 
 	use yii\helpers\Url;
  ?>
-<div class="online">
-<? session_start()?>
-	<div class="mainvideo clearfix">
-
-<!-- <div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8090/webcam.mjpeg" width="100%" height="480"></div> -->
-
-<!-- <div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8091/webcam2.mjpeg" width="100%" height="480"></div> -->
-
-<input id="basex" type="hidden" value="<?php echo Url::to('@base'); ?>/site/onlineajax">
-	
 
 
-	</div>
 
-</div>
-<div class="clear"></div>
-<div class='time-wrap'>
-<div class='time-wrap-in1'></div>
 
-<div class='time-wrap-in3'>
-<div class="time"></div>
-<div class="time2"></div>
-<div class="time3"></div>
-</div>
-<div class='time-wrap-in2'>
+<div class="container-fluid">
+	<div class="row">
 
-</div>
-</div>
-<div class="clear"></div>
-<div id="wrapper">
-<div class="cubeoverlay"></div>
-		<div id="cube">
-	<div class="side" id="side4">
-			<div class="header-side">
-			<div class="header-side-in">
-			<div class="y"><p></p></div>
-			
-		<div class="y" vv="3"><p>3</p></div>
-	   <p class="y s" vv="3,6,2,5"><span class="s-in"></span><span class="ugol"></span></p>
-        <div class="y" vv="6"><p>6</p></div>
-	  <p class="y s" vv="6,9"><span class="s-in"></span><span class="ugol"></span></p>
-		 <div class="y"  vv="9"><p>9</p></div>
-		  <p class="y s" vv="9,12"><span class="s-in"></span><span class="ugol"></span></p>
-		 <div class="y" vv="12"><p>12</p></div>
-		<p class="s sepa"><span class="s-in"></span><span class="ugol"></span></p>
+
 		
-		 
-		<div class="y" vv="15"><p>15</p></div>
-	  <p class="y s" vv="15,18"><span class="s-in"></span><span class="ugol"></span></p>
-        <div class="y" vv="18"><p>18</p></div>
-		  <p class="y s" vv="18,21"><span class="s-in"></span><span class="ugol"></span></p>
-		 <div class="y" vv="21"><p>21</p></div>
-		  <p class="y s" vv="21,24"><span class="s-in"></span><span class="ugol"></span></p>
-		 <div class="y" vv="24"><p>24</p></div>
-		<p class="s sepa"><span class="s-in"></span><span class="ugol"></span></p>
-		<!-- третий сектор- -->
-		 
+		<div class="col-md-12">
 			
-		<div class="y" vv="27"><p>27</p></div>
-	   <p class="y s" vv="27,30"><span class="s-in"></span><span class="ugol"></span></p>
-        <div class="y" vv="30"><p>30</p></div>
-		  <p class="y s" vv="30,33"><span class="s-in"></span><span class="ugol"></span></p>
-		 <div class="y" vv="33"><p>33</p></div>
-		  <p class="y s" vv="33,36"><span class="s-in"></span><span class="ugol"></span></p>
-		 <div class="y" vv="36"><p>36</p></div>
-		<div class="y middle" id="first"><p>2 к 1</p></div>
-		<p class="clear"></p>
-		
-		 	<div class="y" vv="0"><p>0</p></div>
-			<div class="y" vv="2"><p>2</p></div>
-			 <p class="y s" vv="2,5"><span class="s-in"></span><span class="ugol"></span></p>
-			<div class="y" vv="5"><p>5</p></div>
-			 <p class="y s" vv="5,8"><span class="s-in"></span><span class="ugol"></span></p>
-			 	<div class="y" vv="8"><p>8</p></div>
-				 <p class="y s" vv="8,11"><span class="s-in"></span><span class="ugol"></span></p>
-			 	<div class="y" vv="11"><p>11</p></div>
-				<p class="s sepa"><span class="s-in"></span><span class="ugol"></span></p>
-				
-					<div class="y" vv="14"><p>14</p></div>
-						 <p class="y s" vv="14,17"><span class="s-in"></span><span class="ugol"></span></p>
-			 	<div class="y" vv="17"><p>17</p></div>
-					 <p class="y s"><span class="s-in"></span><span class="ugol"></span></p>
-			 	<div class="y" vv="20"><p>20</p></div>
-					 <p class="y s" vv="20,23"><span class="s-in"></span><span class="ugol"></span></p>
-			 	<div class="y" vv="23"><p>23</p></div>
-				<p class="s sepa"><span class="s-in"></span><span class="ugol"></span></p>
-				
-				
-				<div class="y" vv="26"><p>26</p></div>
-			<p class="y s" vv="26,29"><span class="s-in"></span><span class="ugol"></span></p>
-						<div class="y" vv="29"><p>29</p></div>
-			<p class="y s" vv="29,32"><span class="s-in"></span><span class="ugol"></span></p>
-							<div class="y" vv="32"><p>32</p></div>
-			<p class="y s" vv="32,25"><span class="s-in"></span><span class="ugol"></span></p>
-								<div class="y" vv="25"><p>35</p></div>
-			
-			<div class="y middle" vv="2,1,1" id="middle"><p>2 к 1</p></div>
-			<p class="clear"></p>
-			
-				<div class="y"><p></p></div>
-			<div class="y" vv="1"><p>1</p></div>
-			<p class="y s s_dosen" vv="1,4"><span class="s-in"></span><span class="dozen"></span></p>
-			
-			<div class="y" vv="4"><p>4</p></div>
-			<p class="y s s_dosen" vv="4,7"><span class="s-in"></span><span class="dozen"></span></p>
-			
-			<div class="y" vv="7"><p>7</p></div>
-			<p class="y s s_dosen" vv="7,10"><span class="s-in"></span><span class="dozen"></span></p>
 
-				
-			<div class="y" vv="10"><p>10</p></div>
-				<p class="s sepa"><span class="s-in"></span></p>
-				
-					
-			<div class="y" vv="13"><p>13</p></div>
-			<p class="y s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
-			<div class="y"><p>16</p></div>
-			<p class="y s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>				
-			<div class="y"><p>19</p></div>
-			<p class="y s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>				
-			<div class="y"><p>22</p></div>
-			<p class="s sepa"><span class="s-in"></span></p>
-			
-			
-			<div class="y" vv="25"><p>25</p></div>
-				<p class="y s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
-						<div class="y" vv="28"><p>28</p></div>
-			<p class="y s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
-						<div class="y" vv="31"><p>31</p></div>
-			<p class="y s s_dosen"><span class="s-in"></span><span class="dozen"></span></p>
-							<div class="y" vv="34"><p>34</p></div>
-					<div class="y middle" id="bottom"><p>2 к 1</p></div>
-					<p class="clear"></p>
-					<div class="cube-bottom-wrap">
-					<div class="cube-bottom">
-					<div class="cube-bottom1">
-				1 к 12
-					</div>
-							<div class="cube-bottom1 cube-bottom2" id="cube-bottom-in2">
-				<div>1 к 18</div><div style="font-size:18px">ЧЕТНЫЕ</div>
-				<div class="clear"></div>
-					</div>
-					</div>
-					
-				<div class="cube-bottom">
-					<div class="cube-bottom1">
-				13 к 24
-					</div>
-							<div class="cube-bottom1 cube-bottom2">
-				<div><img  src="<?php echo Url::to('@img/2.png'); ?>"/></div><div><img  src="<?php echo Url::to('@img/3.png'); ?>"/></div>
-				<div class="clear"></div>
-					</div>
-					</div>
-					
-					<div class="cube-bottom">
-					<div class="cube-bottom1">
-				25 к 36
-					</div>
-							<div class="cube-bottom1 cube-bottom2">
-				<div style="font-size:18px">НЕЧЕТНЫЕ</div><div>19 - 36</div>
-				<div class="clear"></div>
-					</div>
-					</div>
-					<div class="clear"></div>
-					</div>
-			</div>
+				<div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="" width="100%" height="480"></div>
 
-	
-	
-	
-	
-	
-		<!--<div class="colaut2"></div>-->
-			</div>
-		
-<div class="clear"></div>			
+				<div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="" width="100%" height="480"></div>
+
+
 		</div>
+
+		<div class="col-md-12" style="top:20px;height: 500px;">
+
+			<div class="col-md-8 col-md-offset-2" style="border:2px solid red;">
+				
+
+
+
+
+					<div style="border:5px solid #9225D8;border-radius: 5px;width: 775px;">		<!-- obernuli stol v div -->
+				
+					<div class="y numb" x="0">0</div>
+					
+					   	<div class="n9"></div>
+
+					    <div class="y n10" x="1x12">1st 12</div>
+
+					    <div class="n11"></div>
+					    	
+					    <div class="y n12" x="2x12">2nd 12</div>
+
+					    <div class="n14"></div>
+					    	
+					    <div class="y n15" x="3x12">3rd 12</div>
+
+					    <div class="n16"></div>
+					   	
+						<div class="y n17" x="race">race</div>
+														<!-- verhnya ramka -->
+
+						
+
+						<div class="n19"></div>
+
+						<div class="y n20" x="3x2x1"></div>
+
+						<div class="y n21" x="3x6x2x51x4"></div>
+
+						<div class="y n22" x="6x5x4"></div>
+
+						<div class="y n23" x="6x9x5x8x4x7"></div>
+
+						<div class="y n24" x="9x8x7"></div>
+
+						<div class="y n25" x="9x12x8x11x7x10"></div>
+
+						<div class="y n26" x="12x11x10"></div>
+
+						<div class="y n27" x="12x15x11x14x10x13"></div>
+
+						<div class="y n28" x="15x14x13"></div>
+						<div class="y n29" x="15x18x14x17x13x16"></div>
+						<div class="y n30" x="18x17x16"></div>
+						<div class="y n31" x="18x21x17x20x16x19"></div>
+						<div class="y n32" x="21x20x19"></div>
+						<div class="y n33" x="21x24x20x23x19x22"></div>
+						<div class="y n34" x="24x23x22"></div>
+						<div class="y n34_1" x="24x27x23x26x22x25"></div>
+						<div class="y n34_2" x="27x26x25"></div>
+						<div class="y n34_3" x="27x30x26x29x25x28"></div>
+						<div class="y n34_4" x="30x29x28"></div>
+						<div class="y n34_5" x="30x33x29x32x28x31"></div>
+						<div class="y n34_6" x="33x32x31"></div>
+						<div class="y n34_7" x="33x36x32x35x31x34"></div>
+						<div class="y n34_8" x="36x35x34"></div>
+						<div class="n34_9"></div>
+						
+				
+						
+					   								<!-- verhnya ramka -->
+
+					   								<!-- pervii ryad -->
+
+					   	<div class="y n37" x="3">3</div>
+					   	<div class="y n38" x="x3x6" ></div>
+					   	<div class="y n39" x="6">6</div>
+					   	<div class="y n40" x="6x9"></div>
+					   	<div class="y n41" x="9">9</div>
+					   	<div class="y n42" x="9x12"></div>
+					   	<div class="y n43" x="12">12</div>
+					   	<div class="y n44" x="12x15"></div>
+					   	<div class="y n45" x="15">15</div>
+					   	<div class="y n46" x="15x18"></div>
+					   	<div class="y n47" x="18">18</div>
+					   	<div class="y n48" x="18x21"></div>
+					   	<div class="y n49" x="21">21</div>
+					   	<div class="y n50" x="21x24"></div>
+					   	<div class="y n51" x="24">24</div>
+					   	<div class="y n52" x="24x27"></div>
+					   	<div class="y n53" x="27">27</div>
+					   	<div class="y n54" x="27x30"></div>
+					   	<div class="y n55" x="30">30</div>
+					   	<div class="y n56" x="30x33"></div>
+					   	<div class="y n57" x="33">33</div>
+					   	<div class="y n58" x="33x36"></div>
+					   	<div class="y n59" x="36">36</div>
+					   	<div class="n60"></div>
+					   	<div class="y n61" x="2k1-1">2 to 1</div>
+					   	
+
+					   							<!-- pervii ryad -->
+
+					   							<!-- 2 ryad ramka-->
+						
+						<div class="y n63" x="3x2"></div>
+
+						<div class="y n64" x="3x6x2x5"></div>
+
+						<div class="y n65" x="6x5"></div>
+
+						<div class="y n66" x="6x9x5x8"></div>
+
+						<div class="y n67" x="9x8"></div>
+
+						<div class="y n68" x="9x12x8x11"></div>
+
+						<div class="y n69" x="12x11"></div>
+
+						<div class="y n70" x="12x15x11x14"></div>
+
+						<div class="y n71" x="15x14"></div>
+						<div class="y n72" x="15x18x14x17"></div>
+						<div class="y n73" x="18x17"></div>
+						<div class="y n74" x="18x21x17x20"></div>
+						<div class="y n75" x="21x20"></div>
+						<div class="y n76" x="21x24x20x23"></div>
+						<div class="y n77" x="24x23"></div>
+						<div class="y n77_1" x="24x27x23x26"></div>
+						<div class="y n77_2" x="27x26"></div>
+						<div class="y n77_3" x="27x30x26x29"></div>
+						<div class="y n77_4" x="30x29"></div>
+						<div class="y n77_5" x="30x33x29x32"></div>
+						<div class="y n77_6" x="32x33"></div>
+						<div class="y n77_7" x="33x36x32x35"></div>
+						<div class="y n77_8" x="36x35"></div>
+						<div class="n77_9"></div>
+
+						
+												<!-- 2 ryad ramka -->
+												<!-- 2 ryad -->
+
+						<div class="n78"></div>
+						<div class="y n79" x="2">2</div>
+					   	<div class="y n80" x="2x5"></div>
+					   	<div class="y n81" x="5">5</div>
+					   	<div class="y n82" x="5x8"></div>
+					   	<div class="y n83" x="8">8</div>
+					   	<div class="y n84" x="8x11"></div>
+					   	<div class="y n85" x="11">11</div>
+					   	<div class="y n86" x="11x14"></div>
+					   	<div class="y n87" x="14">14</div>
+					   	<div class="y n88" x="14x17"></div>
+					   	<div class="y n89" x="17">17</div>
+					   	<div class="y n90" x="17x20"></div>
+					   	<div class="y n91" x="20">20</div>
+					   	<div class="y n92" x="20x23"></div>
+					   	<div class="y n93" x="23">23</div>
+					   	<div class="y n94" x="23x26"></div>
+					   	<div class="y n95" x="26">26</div>
+					   	<div class="y n96" x="26x29"></div>
+					   	<div class="y n97" x="29">29</div>
+					   	<div class="y n98" x="29x32"></div>
+					   	<div class="y n99" x="32">32</div>
+					   	<div class="y n100" x="32x35"></div>
+					   	<div class="y n101" x="35">35</div>
+					   	<div class="n102"></div>
+					   	<div class="y n103" x="2k1_2">2 to 1</div>
+					   
+
+
+					   							<!-- 2 ryad -->
+
+						   							<!-- 3 ryad ramka-->
+						
+						<div class="y n105" x="2x1"></div>
+
+						<div class="y n106" x="2x5x1x4"></div>
+
+						<div class="y n107" x="5x4"></div>
+
+						<div class="y n108" x="5x8x4x7"></div>
+
+						<div class="y n109" x="8x7"></div>
+
+						<div class="y n110" x="8x11x7x10"></div>
+
+						<div class="y n111" x="11x10"></div>
+
+						<div class="y n112" x="11x14x10x13"></div>
+
+						<div class="y n113" x="14x13"></div>
+						<div class="y n114" x="14x17x13x16"></div>
+						<div class="y n115" x="17x16"></div>
+						<div class="y n116" x="17x20x16x19"></div>
+						<div class="y n117" x="20x19"></div>
+						<div class="y n118" x="20x23x19x22"></div>
+						<div class="y n119" x="23x22"></div>
+						<div class="y n119_1" x="23x26x22x25"></div>
+						<div class="y n119_2" x="26x25"></div>
+						<div class="y n119_3" x="26x29x25x28"></div>
+						<div class="y n119_4" x="29x28"></div>
+						<div class="y n119_5" x="29x32x28x31"></div>
+						<div class="y n119_6" x="32x31"></div>
+						<div class="y n119_7" x="32x35x31x34"></div>
+						<div class="y n119_8" x="35x34"></div>
+						<div class="y n119_9"></div>
+
+						
+												<!-- 3 ryad ramka -->
+
+
+												<!-- 3 ryad -->
+
+						<div class="n120"></div>
+						<div class="y n121" x="1">1</div>
+					   	<div class="y n122" x="1x4"></div>
+					   	<div class="y n123" x="4">4</div>
+					   	<div class="y n124" x="4x7"></div>
+					   	<div class="y n125" x="7">7</div>
+					   	<div class="y n126" x="7x10"></div>
+					   	<div class="y n127" x="10">10</div>
+					   	<div class="y n128" x="10x13"></div>
+					   	<div class="y n129" x="13">13</div>
+					   	<div class="y n130" x="13x16"></div>
+					   	<div class="y n131" x="16">16</div>
+					   	<div class="y n132" x="16x19"></div>
+					   	<div class="y n133" x="19">19</div>
+					   	<div class="y n134" x="19x22"></div>
+					   	<div class="y n135" x="22">22</div>
+					   	<div class="y n136" x="22x25"></div>
+					   	<div class="y n137" x="25">25</div>
+					   	<div class="y n138" x="25x28"></div>
+					   	<div class="y n139" x="28">28</div>
+					   	<div class="y n140" x="28x31"></div>
+					   	<div class="y n141" x="31">31</div>
+					   	<div class="y n142" x="31x34"></div>
+					   	<div class="y n143" x="34">34</div>
+					   	<div class="y n144"></div>
+					   	<div class="y n145" x="2k1_3">2 to 1</div>
+			
+
+
+
+					   							<!-- 3 ryad -->
+
+
+
+											   		<!-- 4 ryad ramka-->
+						
+						<div class="y n147" x="3x2x1"></div>
+
+						<div class="y n148" x="1x2x3x4x5x6"></div>
+
+						<div class="y n149" x="4x5x6"></div>
+
+						<div class="y n150" x="4x5x6x9x8x7"></div>
+
+						<div class="y n151" x="7x8x9"></div>
+
+						<div class="y n152" x="7x8x9x10x11x12"></div>
+
+						<div class="y n153" x="10x11x12"></div>
+
+						<div class="y n154" x="10x13x11x14x12x15"></div>
+
+						<div class="y n155" x="13x14x15"></div>
+						<div class="y n156" x="13x16x14x17x15x18"></div>
+						<div class="y n157" x="16x17x18"></div>
+						<div class="y n158" x="16x19x17x20x18x21"></div>
+						<div class="y n159" x="19x20x21"></div>
+						<div class="y n160" x="19x22x20x23x21x24"></div>
+						<div class="y n161" x="22x23x24"></div>
+						<div class="y n161_1" x="22x25x23x26x24x27"></div>
+						<div class="y n161_2" x="25x26x27"></div>
+						<div class="y n161_3" x="25x26x27x28x29x30"></div>
+						<div class="y n161_4" x="28x29x30"></div>
+						<div class="y n161_5" x="28x31x29x32x30x33"></div>
+						<div class="y n161_6" x="31x32x33"></div>
+						<div class="y n161_7" x="31x34x32x35x33x36"></div>
+						<div class="y n161_8" x="34x35x36"></div>
+						<div class="n161_9"></div>
+
+						
+												<!-- 	4 ryad ramka7277 3916130 -->
+
+
+												<!-- 3 ryad -->
+
+						<div class="n162"></div>
+						<div class="y n163" x="1to18">1 to 18</div>
+					   	<div class="n166"></div>
+					   	<div class="y n167" x="even">even</div>
+
+					   	<div class="n170"></div>
+					   	<div  class="y n171" x="red"><canvas id="canv"></canvas></div>
+
+					   	<div class="n174"></div>
+					   	<div class="y n175" x="black"><canvas id="canv2"></canvas></div>
+
+					   	<div class="n178"></div>
+					   	<div class="y n179" x="odd">odd</div>
+
+					   	<div class="n182"></div>
+					   	<div class="y n183" x="19to36">19 to 36</div>
+
+					   	<div class="n186"></div>
+					   	<div class="y n187" x="wheel">WHEEL</div>
+
+					   	<script>
+					   		
+					   		var canvas = document.getElementById("canv");
+							var ctx = canvas.getContext("2d");
+
+							ctx.fillStyle = "red";
+							// Filled triangle
+						    ctx.beginPath();
+						    ctx.moveTo(15,25);
+						    ctx.lineTo(52,10);
+						    ctx.lineTo(90,25);
+						    ctx.lineTo(52,40);
+						    ctx.fill();
+
+						    var canvas2 = document.getElementById("canv2");
+							var ctx2 = canvas2.getContext("2d");
+
+							ctx2.fillStyle = "black";
+							// Filled triangle
+						    ctx2.beginPath();
+						    ctx2.moveTo(15,25);
+						    ctx2.lineTo(52,10);
+						    ctx2.lineTo(90,25);
+						    ctx2.lineTo(52,40);
+						    ctx2.fill();
+					   	</script>
+
+
+
+
+					   							<!-- 3 ryad -->
+
+					   							<!-- dop buttons -->
+
+
+					   							<!-- dop buttons -->
+
+					
+				    </div>		<!-- obernuli stol v div -->
+
+
+				    	<div class="ob4">
+				    	<div class="y n192" x="no">NEIGHBOURS ONE</div>
+				    	<div class="y n193" x="nt">NEIGHBOURS TWO</div>
+				    	<div class="y n194" x="nt">NEIGHBOURS THREE</div>
+				    	<div class="y n195" x="nf">NEIGHBOURS FOUR</div>
+						</div>
+
+						<div class="ob4-2">
+				    	<div class="y n188" x="bs">BIG SERIES</div>
+				    	<div class="y n189" x="ss">SMALL SERIES</div>
+				    	<div class="y n190" x="orp">ORPHANS</div>
+				    	<div class="y n191" x="zs">ZERO SPIEL</div>
+						</div>
+				    
+
+
+			</div>		
+			
+				
+		</div>
+
+
+
+
+
+		<div class="col-md-12" style="top:50px;" >
+			
+				<div class="col-md-6 col-md-offset-1">
+					
+					<!-- <img width="170%" src="<?php echo  Url::to('@img'); ?>/r.jpg" alt=""> -->
+
+				</div>
+
+		</divl>
 	</div>
-	
-	<div class="clear"></div>	
-	</div>
-	<div class="control-cube">
-	<a href="#" class="btn btn-success statistika">статистика</a>
-	<a href="#" class="btn btn-success clear-cube">очистить экран</a>
-	</div>
-
-
-	
-	
-	
-	<div class="blok-bottom"></div>
-	<div class="modal2">
-<div class="explorer-modal" style="background:#fff"><span>Мобильная версия временно не доступна</span></div>
-</div>
-<div class="sider">
-<div class="y" vv="0"><span>0</span></div>
-<div class="sector1">
-<div class="sider-header">
-<div class="y" vv="1"><span>1</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="2"><span>2</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div><span>3</span></div>
-<p></p>
-<div><span>4</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div><span>5</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div><span>6</span></div>
-<p></p>
-<div><span>7</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div><span>8</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div><span>9</span></div>
-
-<p></p>
-<div><span>10</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div><span>11</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div><span>12</span></div>
-
 </div>
 
-<div class="left">
- <div class="left-in">
-  <div class="left-in2">
-   <div><span>ЧЕТНЫЕ</span></div><div><span>1 - 18</span></div>
-   </div>
- <div class="y left-in1" vv="1-12"><span>1 - 12<span></div>
-
-<div class="clear"></div>
-</div></div>
-<div class="clear"></div>
-</div>
-	
-
-<div class="sector2">
-<div class="sider-header">
-<div class="y" vv="13"><span>13</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="14"><span>14</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="15"><span>15</span></div>
-<p></p>
-<div class="y" vv="16"><span>16</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="17"><span>17</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y"  vv="18"><span>18</span></div>
-<p></p>
-<div class="y" vv="19"><span>19</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="20"><span>20</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="21"><span>21</span></div>
-<p></p>
-<div class="y" vv="22"><span>22</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="23"><span>23</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="24"><span>24</span></div>
-</div>
-
-
-<script>
-	
-
-
-
-</script>
-
-<div class="left">
- <div class="left-in">
-  <div class="left-in2">
-   <div><img  src="<?php echo Url::to('@img/3.png'); ?>"/></div><div><img  src="<?php echo Url::to('@img/2.png'); ?>"/></div>
-   </div>
- <div class="y left-in1" vv="13-24"><span>13 - 24<span></div>
-
-<div class="clear"></div>
-</div></div>
-<div class="clear"></div>
-</div>
-
-
-
-<div class="sector3">
-<div class="sider-header">
-<div class="y"  vv="25"><span>25</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="26"><span>26</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="27"><span>27</span></div>
-<p></p>
-<div class="y" vv="28"><span>28</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="29"><span>29</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="30"><span>30</span></div>
-<p></p>
-<div class="y" vv="31"><span>31</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="32"><span>32</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="33"><span>33</span></div>
-<p></p>
-<div class="y" vv="34"><span>34</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="35"><span>35</span></div>
-<p class="y s"><span class="ugol"></span></p>
-<div class="y" vv="36"><span>36</span></div>
-<p></p>
-<div class="stavki">
-<div class="y" vv="2-1"><span>2 к 1</span></div><div><span>2 к 1</span></div><div><span>2 к 1</span></div>
-
-</div>
-
-<?print_r($_SESSION['Shar'])?>
-<div class="clear"></div>
-</div>
-<div class="left">
- <div class="left-in">
-  <div class="left-in2">
-   <div><span>НЕЧЕТНЫЕ</span></div><div class="y" vv="19-36"><span>19 - 36</span></div>
-   </div>
- <div class="y left-in1" vv="1-12"><span>1 - 12<span></div>
-
-<div class="clear"></div>
-</div></div>
-
-<div class="clear"></div>			
-</div>
-</div>
-<div id="overlay_r"></div>
-<div id="modal_r">
-<div class="modal_r-in"></div>
-<span class="modalrspan"></span>
-<form action="" method="post" id="modal_r-form">
-<input type="text" value="" name="summamodalr" placeholder="введите сумму" required>
-<input type="submit" value="сделайте ставку" class="btn btn-danger" class="submit-modal">
-</form>
-<p class="modal_r-logout">выйти</p>
-</div>
-	
 
 
 
@@ -354,3 +413,4 @@
 		<script src="<?php echo Url::to('@jquery') ?>/roulette.js"></script>
 	
 
+<!-- https://www.youtube.com/watch?v=UPYT7cJkaZo russian roulette video-->
