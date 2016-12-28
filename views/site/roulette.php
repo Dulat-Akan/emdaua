@@ -93,7 +93,7 @@
 					   								<!-- pervii ryad -->
 
 					   	<div class="y n37" x="3">3</div>
-					   	<div class="y n38" x="x3x6" ></div>
+					   	<div class="y n38" x="3x6" ></div>
 					   	<div class="y n39" x="6">6</div>
 					   	<div class="y n40" x="6x9"></div>
 					   	<div class="y n41" x="9">9</div>
@@ -313,7 +313,7 @@
 					   	<div class="y n167" x="even">even</div>
 
 					   	<div class="n170"></div>
-					   	<div  class="y n171" x="red"><canvas id="canv"></canvas></div>
+					   	<div class="y n171" x="red"><canvas  id="canv"></canvas></div>
 
 					   	<div class="n174"></div>
 					   	<div class="y n175" x="black"><canvas id="canv2"></canvas></div>
@@ -370,8 +370,8 @@
 
 				    	<div class="ob4">
 				    	<div class="y n192" x="no">NEIGHBOURS ONE</div>
-				    	<div class="y n193" x="nt">NEIGHBOURS TWO</div>
-				    	<div class="y n194" x="nt">NEIGHBOURS THREE</div>
+				    	<div class="y n193" x="ntwo">NEIGHBOURS TWO</div>
+				    	<div class="y n194" x="nthree">NEIGHBOURS THREE</div>
 				    	<div class="y n195" x="nf">NEIGHBOURS FOUR</div>
 						</div>
 
