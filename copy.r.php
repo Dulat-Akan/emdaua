@@ -53,7 +53,7 @@
 
 						<div class="n19"></div>
 
-						<div class="y n20" x="3x2x1"><div ></div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+						<div class="y n20" x="3x2x1"><div ></div><div count="0" class="i"></div></div>
 
 						<div class="y n21" x="3x6x2x5x1x4"></div>
 
@@ -92,29 +92,29 @@
 
 					   								<!-- pervii ryad -->
 
-					   	<div class="y n37" x="3"><div >3</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n37" x="3"><div >3</div><div count="0" class="i"></div></div>
 					   	<div class="y n38" x="3x6" ></div>
-					   	<div class="y n39" x="6"><div >6</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n39" x="6"><div >6</div><div count="0" class="i"></div></div>
 					   	<div class="y n40" x="6x9"></div>
-					   	<div class="y n41" x="9"><div >9</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n41" x="9"><div >9</div><div count="0" class="i"></div></div>
 					   	<div class="y n42" x="9x12"></div>
-					   	<div class="y n43" x="12"><div >12</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n43" x="12"><div >12</div><div count="0" class="i"></div></div>
 					   	<div class="y n44" x="12x15"></div>
-					   	<div class="y n45" x="15"><div >15</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n45" x="15"><div >15</div><div count="0" class="i"></div></div>
 					   	<div class="y n46" x="15x18"></div>
-					   	<div class="y n47" x="18"><div >18</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n47" x="18"><div >18</div><div count="0" class="i"></div></div>
 					   	<div class="y n48" x="18x21"></div>
-					   	<div class="y n49" x="21"><div >21</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n49" x="21"><div >21</div><div count="0" class="i"></div></div>
 					   	<div class="y n50" x="21x24"></div>
-					   	<div class="y n51" x="24"><div >24</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n51" x="24"><div >24</div><div count="0" class="i"></div></div>
 					   	<div class="y n52" x="24x27"></div>
-					   	<div class="y n53" x="27"><div >27</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n53" x="27"><div >27</div><div count="0" class="i"></div></div>
 					   	<div class="y n54" x="27x30"></div>
-					   	<div class="y n55" x="30"><div >30</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n55" x="30"><div >30</div><div count="0" class="i"></div></div>
 					   	<div class="y n56" x="30x33"></div>
-					   	<div class="y n57" x="33"><div >33</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n57" x="33"><div >33</div><div count="0" class="i"></div></div>
 					   	<div class="y n58" x="33x36"></div>
-					   	<div class="y n59" x="36"><div >36</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n59" x="36"><div >36</div><div count="0" class="i"></div></div>
 					   	<div class="n60"></div>
 					   	<div class="y n61" x="2k1-1">2 to 1</div>
 					   	
@@ -161,29 +161,29 @@
 												<!-- 2 ryad -->
 
 						<div class="n78"></div>
-						<div class="y n79" x="2"><div >2</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+						<div class="y n79" x="2"><div >2</div><div count="0" class="i"></div></div>
 					   	<div class="y n80" x="2x5"></div>
-					   	<div class="y n81" x="5"><div >5</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n81" x="5"><div >5</div><div count="0" class="i"></div></div>
 					   	<div class="y n82" x="5x8"></div>
-					   	<div class="y n83" x="8"><div >8</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n83" x="8"><div >8</div><div count="0" class="i"></div></div>
 					   	<div class="y n84" x="8x11"></div>
-					   	<div class="y n85" x="11"><div >11</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n85" x="11"><div >11</div><div count="0" class="i"></div></div>
 					   	<div class="y n86" x="11x14"></div>
-					   	<div class="y n87" x="14"><div >14</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n87" x="14"><div >14</div><div count="0" class="i"></div></div>
 					   	<div class="y n88" x="14x17"></div>
-					   	<div class="y n89" x="17"><div >17</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n89" x="17"><div >17</div><div count="0" class="i"></div></div>
 					   	<div class="y n90" x="17x20"></div>
-					   	<div class="y n91" x="20"><div >20</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n91" x="20"><div >20</div><div count="0" class="i"></div></div>
 					   	<div class="y n92" x="20x23"></div>
-					   	<div class="y n93" x="23"><div >23</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n93" x="23"><div >23</div><div count="0" class="i"></div></div>
 					   	<div class="y n94" x="23x26"></div>
-					   	<div class="y n95" x="26"><div >26</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n95" x="26"><div >26</div><div count="0" class="i"></div></div>
 					   	<div class="y n96" x="26x29"></div>
-					   	<div class="y n97" x="29"><div >29</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n97" x="29"><div >29</div><div count="0" class="i"></div></div>
 					   	<div class="y n98" x="29x32"></div>
-					   	<div class="y n99" x="32"><div >32</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n99" x="32"><div >32</div><div count="0" class="i"></div></div>
 					   	<div class="y n100" x="32x35"></div>
-					   	<div class="y n101" x="35"><div >35</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n101" x="35"><div >35</div><div count="0" class="i"></div></div>
 					   	<div class="n102"></div>
 					   	<div class="y n103" x="2k1_2">2 to 1</div>
 					   
@@ -233,29 +233,29 @@
 												<!-- 3 ryad -->
 
 						<div class="n120"></div>
-						<div class="y n121" x="1"><div >1</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+						<div class="y n121" x="1"><div >1</div><div count="0" class="i"></div></div>
 					   	<div class="y n122" x="1x4"></div>
-					   	<div class="y n123" x="4"><div >4</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n123" x="4"><div >4</div><div count="0" class="i"></div></div>
 					   	<div class="y n124" x="4x7"></div>
-					   	<div class="y n125" x="7"><div >7</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n125" x="7"><div >7</div><div count="0" class="i"></div></div>
 					   	<div class="y n126" x="7x10"></div>
-					   	<div class="y n127" x="10"><div >10</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n127" x="10"><div >10</div><div count="0" class="i"></div></div>
 					   	<div class="y n128" x="10x13"></div>
-					   	<div class="y n129" x="13"><div >13</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n129" x="13"><div >13</div><div count="0" class="i"></div></div>
 					   	<div class="y n130" x="13x16"></div>
-					   	<div class="y n131" x="16"><div >16</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n131" x="16"><div >16</div><div count="0" class="i"></div></div>
 					   	<div class="y n132" x="16x19"></div>
-					   	<div class="y n133" x="19"><div >19</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n133" x="19"><div >19</div><div count="0" class="i"></div></div>
 					   	<div class="y n134" x="19x22"></div>
-					   	<div class="y n135" x="22"><div >22</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n135" x="22"><div >22</div><div count="0" class="i"></div></div>
 					   	<div class="y n136" x="22x25"></div>
-					   	<div class="y n137" x="25"><div >25</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n137" x="25"><div >25</div><div count="0" class="i"></div></div>
 					   	<div class="y n138" x="25x28"></div>
-					   	<div class="y n139" x="28"><div >28</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n139" x="28"><div >28</div><div count="0" class="i"></div></div>
 					   	<div class="y n140" x="28x31"></div>
-					   	<div class="y n141" x="31"><div >31</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n141" x="31"><div >31</div><div count="0" class="i"></div></div>
 					   	<div class="y n142" x="31x34"></div>
-					   	<div class="y n143" x="34"><div >34</div><div class="i" style=""><img style="width: 100%;margin-left:5px;" count="0" src=""><p style="font-size:20px; margin-top: -65px; color:blue;margin-left: 27px;"></p></div></div>
+					   	<div class="y n143" x="34"><div >34</div><div count="0" class="i"></div></div>
 					   	<div class="y n144"></div>
 					   	<div class="y n145" x="2k1_3">2 to 1</div>
 			

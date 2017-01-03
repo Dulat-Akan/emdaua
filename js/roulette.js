@@ -1,8 +1,6 @@
 $(document).ready(function(){
 
-
-  var copyimage;
-  var nominal = "no";
+  var nominalurl = "no";
   var nominalnumber = 0;
   var nominalmultiply = 0;
 
@@ -56,7 +54,7 @@ $(document).ready(function(){
 
             var x = $(this).attr("x");
 
-            if(nominal == "no"){
+            if(nominalnumber == 0){
                 console.log("Выберите номинал..");
                 $("#fish_p").hide("1000");
                 $("#message").text("Выберите номинал..").show("2000").delay("1500").hide("2000");
@@ -72,25 +70,51 @@ $(document).ready(function(){
                   
 
 
-                  prevdivnumber.hide();
-                  // img.attr("src",nominal);                      /* url + "/1.png"*/
-                   var count_img = p_indecator_count.attr("count");
-                   count_img++;
-                   p_indecator_count.attr("count",count_img);
+                   prevdivnumber.hide();  //skritie perednego div s nomerom
+
+                  
                    
+                   //generasiya kartinki
 
+                    var vvv = document.createElement("CANVAS");
 
-                  var vvv = document.createElement("CANVAS");
-
-                  vvv.setAttribute("width", "50");
-                  vvv.setAttribute("height", "50");
+                    vvv.setAttribute("width", "50");
+                    vvv.setAttribute("height", "50");
 
                      var xxx = vvv.getContext('2d');
 
                     xxx.beginPath();
 
-                    xxx.fillStyle = "#49EDF8";
-                    xxx.arc(25,25,25,0,Math.PI*2,true); // Внешняя окружность
+                    var imcolor = "#49EDF8";
+
+                    if(nominalnumber == "1"){
+                        imcolor = "#49EDF8";
+                    }else if(nominalnumber == "5"){
+                        imcolor = "#FFFB36";
+                    }else if(nominalnumber == "25"){
+                        imcolor = "#87EF12";
+                    }else if(nominalnumber == "50"){
+                        imcolor = "#0079EF";
+                    }else if(nominalnumber == "100"){
+                        imcolor = "#681830";
+                    }else if(nominalnumber == "500"){
+                        imcolor = "#FC4BCD";
+                    }else if(nominalnumber == "1000"){
+                        imcolor = "#FF0600";
+                    }
+
+                    //podschet kolichestva nazhatii i stavok
+
+                   var count_img = p_indecator_count.attr("count");
+
+                   count_img = (+count_img + +nominalnumber);
+
+                   p_indecator_count.attr("count",count_img);
+
+                   //podschet kolichestva nazhatii i stavok
+
+                    xxx.fillStyle = imcolor;
+                    xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
 
                     xxx.fill();
 
@@ -100,20 +124,38 @@ $(document).ready(function(){
 
                     xxx.fillStyle = "white";
 
-                    xxx.arc(25,25,18,0,Math.PI*2,true); // Внутренняя окружность
+                    xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
 
                     xxx.fill();
 
                     xxx.beginPath();
                     xxx.fillStyle = "black";
                     xxx.font = "14px serif";
-                    xxx.fillText(count_img, 20, 30);
 
-                    document.body.appendChild(vvv);
+                    /*sentrovka texta*/
+                    var positiontext = 20;
 
-                    p_indecator_count.empty();
+                    if((count_img > 9) && (count_img <= 99)){
+                        positiontext = 17;
+                    }else if((count_img > 99) && (count_img <= 999)){
+                        positiontext = 12;
+                    }else if((count_img > 999) && (count_img <= 9999)){
+                        positiontext = 7;
+                    }else if((count_img > 9999) && (count_img <= 99999)){
+                        positiontext = 3;
+                    }
+                    xxx.fillText(count_img, positiontext, 30);
+                    /*sentrovka texta*/
 
-                    p_indecator_count.append(vvv);
+                    //generasiya kartinki
+
+                    //document.body.appendChild(vvv); //vstabka kartinki
+
+                    p_indecator_count.empty();      //ochistka diva
+
+                    p_indecator_count.append(vvv);  //vstabka kartinki
+
+                    p_indecator_count.show();       //pokaz kartinki
 
 
 
@@ -306,14 +348,105 @@ $(document).ready(function(){
                                              // for(var k = 0;k < revoar.length;k++){
 
                                                      // $('[x = "'+ revoar[k] + '"]').css("border","5px solid green");
-                                                     prevdivnumber.hide();
-                                                    img.attr("src",nominal);                      /* url + "/1.png"*/
-                                                    var count_img = img.attr("count");
-                                                    count_img++;
-                                                    img.attr("count",count_img);
-                                                    p_indecator_count.text("x" + count_img);
+                                                    //  prevdivnumber.hide();
+                                                    // img.attr("src",nominal);                      /* url + "/1.png"*/
+                                                    // var count_img = img.attr("count");
+                                                    // count_img++;
+                                                    // img.attr("count",count_img);
+                                                    // p_indecator_count.text("x" + count_img);
 
                                              // }
+
+                                                  /*new manipulation*/
+
+
+                                                     prevdivnumber.hide();  //skritie perednego div s nomerom
+
+                                                    
+                                                     
+                                                     //generasiya kartinki
+
+                                                      var vvv = document.createElement("CANVAS");
+
+                                                      vvv.setAttribute("width", "50");
+                                                      vvv.setAttribute("height", "50");
+
+                                                       var xxx = vvv.getContext('2d');
+
+                                                      xxx.beginPath();
+
+                                                      var imcolor = "#49EDF8";
+
+                                                      if(nominalnumber == "1"){
+                                                          imcolor = "#49EDF8";
+                                                      }else if(nominalnumber == "5"){
+                                                          imcolor = "#FFFB36";
+                                                      }else if(nominalnumber == "25"){
+                                                          imcolor = "#87EF12";
+                                                      }else if(nominalnumber == "50"){
+                                                          imcolor = "#0079EF";
+                                                      }else if(nominalnumber == "100"){
+                                                          imcolor = "#681830";
+                                                      }else if(nominalnumber == "500"){
+                                                          imcolor = "#FC4BCD";
+                                                      }else if(nominalnumber == "1000"){
+                                                          imcolor = "#FF0600";
+                                                      }
+
+                                                      //podschet kolichestva nazhatii i stavok
+
+                                                     var count_img = p_indecator_count.attr("count");
+
+                                                     count_img = (+count_img + +nominalnumber);
+
+                                                     p_indecator_count.attr("count",count_img);
+
+                                                     //podschet kolichestva nazhatii i stavok
+
+                                                      xxx.fillStyle = imcolor;
+                                                      xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
+
+                                                      xxx.fill();
+
+                                                      //xxx.moveTo(45,25);
+
+                                                      xxx.beginPath();
+
+                                                      xxx.fillStyle = "white";
+
+                                                      xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
+
+                                                      xxx.fill();
+
+                                                      xxx.beginPath();
+                                                      xxx.fillStyle = "black";
+                                                      xxx.font = "14px serif";
+
+                                                      /*sentrovka texta*/
+                                                      var positiontext = 20;
+
+                                                      if((count_img > 9) && (count_img <= 99)){
+                                                          positiontext = 17;
+                                                      }else if((count_img > 99) && (count_img <= 999)){
+                                                          positiontext = 12;
+                                                      }else if((count_img > 999) && (count_img <= 9999)){
+                                                          positiontext = 7;
+                                                      }else if((count_img > 9999) && (count_img <= 99999)){
+                                                          positiontext = 3;
+                                                      }
+                                                      xxx.fillText(count_img, positiontext, 30);
+                                                      /*sentrovka texta*/
+
+                                                      //generasiya kartinki
+
+                                                      //document.body.appendChild(vvv); //vstabka kartinki
+
+                                                      p_indecator_count.empty();      //ochistka diva
+
+                                                      p_indecator_count.append(vvv);  //vstabka kartinki
+
+                                                      p_indecator_count.show();       //pokaz kartinki
+                                                  /*new manipulation*/
 
                                          }
                                      }
@@ -598,46 +731,46 @@ $(document).ready(function(){
             var nom = x.attr("src");
             var numb = x.attr("v");
 
-            nominal = nom;
+            nominalurl = nom;
             nominalnumber = numb;
 
         });
              
             
 
-            // var vvv = document.getElementById('ggg');
+            /*var vvv = document.getElementById('ggg');
      
 
-            //         if (vvv.getContext) {
-            //          var xxx = vvv.getContext('2d');
+                    if (vvv.getContext) {
+                     var xxx = vvv.getContext('2d');
 
-            //         xxx.beginPath();
+                    xxx.beginPath();
 
-            //         xxx.fillStyle = "#49EDF8";
-            //         xxx.arc(25,25,25,0,Math.PI*2,true); // Внешняя окружность
+                    xxx.fillStyle = "#49EDF8";
+                    xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
 
-            //         xxx.fill();
+                    xxx.fill();
 
-            //         //xxx.moveTo(45,25);
+                    //xxx.moveTo(45,25);
 
-            //         xxx.beginPath();
+                    xxx.beginPath();
 
-            //         xxx.fillStyle = "white";
+                    xxx.fillStyle = "white";
 
-            //         xxx.arc(25,25,18,0,Math.PI*2,true); // Внутренняя окружность
+                    xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
 
-            //         xxx.fill();
+                    xxx.fill();
 
-            //         xxx.beginPath();
-            //         xxx.fillStyle = "black";
-            //         xxx.font = "14px serif";
-            //         xxx.fillText(1, 20, 30);
+                    xxx.beginPath();
+                    xxx.fillStyle = "black";
+                    xxx.font = "14px serif";
+                    xxx.fillText(1, 20, 30);
 
                     
 
-            //         copyimage = vvv;
+                    
 
-            //         }
+                    }*/
 
 
 

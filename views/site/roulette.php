@@ -2,7 +2,7 @@
 	use yii\helpers\Url;
  ?>
 
-<div id="copy"><canvas id="ggg" width="50" height="50"></canvas></div>
+<div id="copy"><canvas style="border:2px solid black;display: none;" id="ggg" width="50" height="50"></canvas></div>
 
 
 <div class="container-fluid">
@@ -24,7 +24,7 @@
 
 
 
-		<div class="col-md-12" style="top:20px;height: 500px;">
+		<div class="col-md-12 jjj" style="top:20px;height: 500px;">
 
 			<div class="col-md-8 col-md-offset-2" style="border:2px solid red;z-index: 10;">
 				
@@ -96,29 +96,29 @@
 
 					   								<!-- pervii ryad -->
 
-					   	<div class="y n37" x="3"><div>3</div><div count="0" class="i"></div></div>
-					   	<div class="y n38" x="3x6"></div>
-					   	<div class="y n39" x="6"><div>6</div><div count="0" class="i"></div></div>
-					   	<div class="y n40" x="6x9"></div>
-					   	<div class="y n41" x="9">9</div>
-					   	<div class="y n42" x="9x12"></div>
-					   	<div class="y n43" x="12">12</div>
-					   	<div class="y n44" x="12x15"></div>
-					   	<div class="y n45" x="15">15</div>
-					   	<div class="y n46" x="15x18"></div>
-					   	<div class="y n47" x="18">18</div>
-					   	<div class="y n48" x="18x21"></div>
-					   	<div class="y n49" x="21">21</div>
-					   	<div class="y n50" x="21x24"></div>
-					   	<div class="y n51" x="24">24</div>
-					   	<div class="y n52" x="24x27"></div>
-					   	<div class="y n53" x="27">27</div>
-					   	<div class="y n54" x="27x30"></div>
-					   	<div class="y n55" x="30">30</div>
-					   	<div class="y n56" x="30x33"></div>
-					   	<div class="y n57" x="33">33</div>
-					   	<div class="y n58" x="33x36"></div>
-					   	<div class="y n59" x="36">36</div>
+					   	<div class="y n37" x="3"><div >3</div><div count="0" class="i"></div></div>
+					   	<div class="y n38" x="3x6"><div count="0" class="i m"></div></div>
+					   	<div class="y n39" x="6"><div >6</div><div count="0" class="i"></div></div>
+					   	<div class="y n40" x="6x9"><div count="0" class="i m"></div></div>
+					   	<div class="y n41" x="9"><div >9</div><div count="0" class="i"></div></div>
+					   	<div class="y n42" x="9x12"><div count="0" class="i m"></div></div>
+					   	<div class="y n43" x="12"><div >12</div><div count="0" class="i"></div></div>
+					   	<div class="y n44" x="12x15"><div count="0" class="i m"></div></div>
+					   	<div class="y n45" x="15"><div >15</div><div count="0" class="i"></div></div>
+					   	<div class="y n46" x="15x18"><div count="0" class="i m"></div></div>
+					   	<div class="y n47" x="18"><div >18</div><div count="0" class="i"></div></div>
+					   	<div class="y n48" x="18x21"><div count="0" class="i m"></div></div>
+					   	<div class="y n49" x="21"><div >21</div><div count="0" class="i"></div></div>
+					   	<div class="y n50" x="21x24"><div count="0" class="i m"></div></div>
+					   	<div class="y n51" x="24"><div >24</div><div count="0" class="i"></div></div>
+					   	<div class="y n52" x="24x27"><div count="0" class="i m"></div></div>
+					   	<div class="y n53" x="27"><div >27</div><div count="0" class="i"></div></div>
+					   	<div class="y n54" x="27x30"><div count="0" class="i m"></div></div>
+					   	<div class="y n55" x="30"><div >30</div><div count="0" class="i"></div></div>
+					   	<div class="y n56" x="30x33"><div count="0" class="i m"></div></div>
+					   	<div class="y n57" x="33"><div >33</div><div count="0" class="i"></div></div>
+					   	<div class="y n58" x="33x36"><div count="0" class="i m"></div></div>
+					   	<div class="y n59" x="36"><div >36</div><div count="0" class="i"></div></div>
 					   	<div class="n60"></div>
 					   	<div class="y n61" x="2k1-1">2 to 1</div>
 					   	
@@ -127,37 +127,37 @@
 
 					   							<!-- 2 ryad ramka-->
 						
-						<div class="y n63" x="3x2"></div>
+						<div class="y n63" x="3x2"><div style="position: absolute;left:75px;top:87px;" count="0" class="i"></div></div>
 
 						<div class="y n64" x="3x6x2x5"></div>
 
-						<div class="y n65" x="6x5"></div>
+						<div class="y n65" x="6x5"><div style="position: absolute;left:130px;top:87px;" count="0" class="i"></div></div>
 
 						<div class="y n66" x="6x9x5x8"></div>
 
-						<div class="y n67" x="9x8"></div>
+						<div class="y n67" x="9x8"><div style="position: absolute;left:185px;top:87px;" count="0" class="i"></div></div>
 
 						<div class="y n68" x="9x12x8x11"></div>
 
-						<div class="y n69" x="12x11"></div>
+						<div class="y n69" x="12x11"><div style="position: absolute;left:240px;top:87px;" count="0" class="i"></div></div>
 
 						<div class="y n70" x="12x15x11x14"></div>
 
-						<div class="y n71" x="15x14"></div>
+						<div class="y n71" x="15x14"><div style="position: absolute;left:295px;top:87px;" count="0" class="i"></div></div>
 						<div class="y n72" x="15x18x14x17"></div>
-						<div class="y n73" x="18x17"></div>
+						<div class="y n73" x="18x17"><div style="position: absolute;left:350px;top:87px;" count="0" class="i"></div></div>
 						<div class="y n74" x="18x21x17x20"></div>
-						<div class="y n75" x="21x20"></div>
+						<div class="y n75" x="21x20"><div style="position: absolute;left:405px;top:87px;" count="0" class="i"></div></div>
 						<div class="y n76" x="21x24x20x23"></div>
-						<div class="y n77" x="24x23"></div>
+						<div class="y n77" x="24x23"><div style="position: absolute;left:460px;top:87px;" count="0" class="i"></div></div>
 						<div class="y n77_1" x="24x27x23x26"></div>
-						<div class="y n77_2" x="27x26"></div>
+						<div class="y n77_2" x="27x26"><div style="position: absolute;left:515px;top:87px;" count="0" class="i"></div></div>
 						<div class="y n77_3" x="27x30x26x29"></div>
-						<div class="y n77_4" x="30x29"></div>
+						<div class="y n77_4" x="30x29"><div style="position: absolute;left:570px;top:87px;" count="0" class="i"></div></div>
 						<div class="y n77_5" x="30x33x29x32"></div>
-						<div class="y n77_6" x="32x33"></div>
+						<div class="y n77_6" x="32x33"><div style="position: absolute;left:625px;top:87px;" count="0" class="i"></div></div>
 						<div class="y n77_7" x="33x36x32x35"></div>
-						<div class="y n77_8" x="36x35"></div>
+						<div class="y n77_8" x="36x35"><div style="position: absolute;left:680px;top:87px;" count="0" class="i"></div></div>
 						<div class="n77_9"></div>
 
 						
@@ -165,29 +165,29 @@
 												<!-- 2 ryad -->
 
 						<div class="n78"></div>
-						<div class="y n79" x="2">2</div>
-					   	<div class="y n80" x="2x5"></div>
-					   	<div class="y n81" x="5">5</div>
-					   	<div class="y n82" x="5x8"></div>
-					   	<div class="y n83" x="8">8</div>
-					   	<div class="y n84" x="8x11"></div>
-					   	<div class="y n85" x="11">11</div>
-					   	<div class="y n86" x="11x14"></div>
-					   	<div class="y n87" x="14">14</div>
-					   	<div class="y n88" x="14x17"></div>
-					   	<div class="y n89" x="17">17</div>
-					   	<div class="y n90" x="17x20"></div>
-					   	<div class="y n91" x="20">20</div>
-					   	<div class="y n92" x="20x23"></div>
-					   	<div class="y n93" x="23">23</div>
-					   	<div class="y n94" x="23x26"></div>
-					   	<div class="y n95" x="26">26</div>
-					   	<div class="y n96" x="26x29"></div>
-					   	<div class="y n97" x="29">29</div>
-					   	<div class="y n98" x="29x32"></div>
-					   	<div class="y n99" x="32">32</div>
-					   	<div class="y n100" x="32x35"></div>
-					   	<div class="y n101" x="35">35</div>
+						<div class="y n79" x="2"><div >2</div><div count="0" class="i"></div></div>
+					   	<div class="y n80" x="2x5"><div count="0" class="i m"></div></div>
+					   	<div class="y n81" x="5"><div >5</div><div count="0" class="i"></div></div>
+					   	<div class="y n82" x="5x8"><div count="0" class="i m"></div></div>
+					   	<div class="y n83" x="8"><div >8</div><div count="0" class="i"></div></div>
+					   	<div class="y n84" x="8x11"><div count="0" class="i m"></div></div>
+					   	<div class="y n85" x="11"><div >11</div><div count="0" class="i"></div></div>
+					   	<div class="y n86" x="11x14"><div count="0" class="i m"></div></div>
+					   	<div class="y n87" x="14"><div >14</div><div count="0" class="i"></div></div>
+					   	<div class="y n88" x="14x17"><div count="0" class="i m"></div></div>
+					   	<div class="y n89" x="17"><div >17</div><div count="0" class="i"></div></div>
+					   	<div class="y n90" x="17x20"><div count="0" class="i m"></div></div>
+					   	<div class="y n91" x="20"><div >20</div><div count="0" class="i"></div></div>
+					   	<div class="y n92" x="20x23"><div count="0" class="i m"></div></div>
+					   	<div class="y n93" x="23"><div >23</div><div count="0" class="i"></div></div>
+					   	<div class="y n94" x="23x26"><div count="0" class="i m"></div></div>
+					   	<div class="y n95" x="26"><div >26</div><div count="0" class="i"></div></div>
+					   	<div class="y n96" x="26x29"><div count="0" class="i m"></div></div>
+					   	<div class="y n97" x="29"><div >29</div><div count="0" class="i"></div></div>
+					   	<div class="y n98" x="29x32"><div count="0" class="i m"></div></div>
+					   	<div class="y n99" x="32"><div >32</div><div count="0" class="i"></div></div>
+					   	<div class="y n100" x="32x35"><div count="0" class="i m"></div></div>
+					   	<div class="y n101" x="35"><div >35</div><div count="0" class="i"></div></div>
 					   	<div class="n102"></div>
 					   	<div class="y n103" x="2k1_2">2 to 1</div>
 					   
@@ -197,37 +197,37 @@
 
 						   							<!-- 3 ryad ramka-->
 						
-						<div class="y n105" x="2x1"></div>
+						<div class="y n105" x="2x1"><div style="position: absolute;left:75px;top:144px;" count="0" class="i"></div></div>
 
 						<div class="y n106" x="2x5x1x4"></div>
 
-						<div class="y n107" x="5x4"></div>
+						<div class="y n107" x="5x4"><div style="position: absolute;left:130px;top:144px;" count="0" class="i"></div></div>
 
 						<div class="y n108" x="5x8x4x7"></div>
 
-						<div class="y n109" x="8x7"></div>
+						<div class="y n109" x="8x7"><div style="position: absolute;left:185px;top:144px;" count="0" class="i"></div></div>
 
 						<div class="y n110" x="8x11x7x10"></div>
 
-						<div class="y n111" x="11x10"></div>
+						<div class="y n111" x="11x10"><div style="position: absolute;left:240px;top:144px;" count="0" class="i"></div></div>
 
 						<div class="y n112" x="11x14x10x13"></div>
 
-						<div class="y n113" x="14x13"></div>
+						<div class="y n113" x="14x13"><div style="position: absolute;left:295px;top:144px;" count="0" class="i"></div></div>
 						<div class="y n114" x="14x17x13x16"></div>
-						<div class="y n115" x="17x16"></div>
+						<div class="y n115" x="17x16"><div style="position: absolute;left:350px;top:144px;" count="0" class="i"></div></div>
 						<div class="y n116" x="17x20x16x19"></div>
-						<div class="y n117" x="20x19"></div>
+						<div class="y n117" x="20x19"><div style="position: absolute;left:405px;top:144px;" count="0" class="i"></div></div>
 						<div class="y n118" x="20x23x19x22"></div>
-						<div class="y n119" x="23x22"></div>
+						<div class="y n119" x="23x22"><div style="position: absolute;left:460px;top:144px;" count="0" class="i"></div></div>
 						<div class="y n119_1" x="23x26x22x25"></div>
-						<div class="y n119_2" x="26x25"></div>
+						<div class="y n119_2" x="26x25"><div style="position: absolute;left:515px;top:144px;" count="0" class="i"></div></div>
 						<div class="y n119_3" x="26x29x25x28"></div>
-						<div class="y n119_4" x="29x28"></div>
+						<div class="y n119_4" x="29x28"><div style="position: absolute;left:570px;top:144px;" count="0" class="i"></div></div>
 						<div class="y n119_5" x="29x32x28x31"></div>
-						<div class="y n119_6" x="32x31"></div>
+						<div class="y n119_6" x="32x31"><div style="position: absolute;left:625px;top:144px;" count="0" class="i"></div></div>
 						<div class="y n119_7" x="32x35x31x34"></div>
-						<div class="y n119_8" x="35x34"></div>
+						<div class="y n119_8" x="35x34"><div style="position: absolute;left:680px;top:144px;" count="0" class="i"></div></div>
 						<div class="y n119_9"></div>
 
 						
@@ -237,29 +237,29 @@
 												<!-- 3 ryad -->
 
 						<div class="n120"></div>
-						<div class="y n121" x="1">1</div>
-					   	<div class="y n122" x="1x4"></div>
-					   	<div class="y n123" x="4">4</div>
-					   	<div class="y n124" x="4x7"></div>
-					   	<div class="y n125" x="7">7</div>
-					   	<div class="y n126" x="7x10"></div>
-					   	<div class="y n127" x="10">10</div>
-					   	<div class="y n128" x="10x13"></div>
-					   	<div class="y n129" x="13">13</div>
-					   	<div class="y n130" x="13x16"></div>
-					   	<div class="y n131" x="16">16</div>
-					   	<div class="y n132" x="16x19"></div>
-					   	<div class="y n133" x="19">19</div>
-					   	<div class="y n134" x="19x22"></div>
-					   	<div class="y n135" x="22">22</div>
-					   	<div class="y n136" x="22x25"></div>
-					   	<div class="y n137" x="25">25</div>
-					   	<div class="y n138" x="25x28"></div>
-					   	<div class="y n139" x="28">28</div>
-					   	<div class="y n140" x="28x31"></div>
-					   	<div class="y n141" x="31">31</div>
-					   	<div class="y n142" x="31x34"></div>
-					   	<div class="y n143" x="34">34</div>
+						<div class="y n121" x="1"><div >1</div><div count="0" class="i"></div></div>
+					   	<div class="y n122" x="1x4"><div count="0" class="i m"></div></div>
+					   	<div class="y n123" x="4"><div >4</div><div count="0" class="i"></div></div>
+					   	<div class="y n124" x="4x7"><div count="0" class="i m"></div></div>
+					   	<div class="y n125" x="7"><div >7</div><div count="0" class="i"></div></div>
+					   	<div class="y n126" x="7x10"><div count="0" class="i m"></div></div>
+					   	<div class="y n127" x="10"><div >10</div><div count="0" class="i"></div></div>
+					   	<div class="y n128" x="10x13"><div count="0" class="i m"></div></div>
+					   	<div class="y n129" x="13"><div >13</div><div count="0" class="i"></div></div>
+					   	<div class="y n130" x="13x16"><div count="0" class="i m"></div></div>
+					   	<div class="y n131" x="16"><div >16</div><div count="0" class="i"></div></div>
+					   	<div class="y n132" x="16x19"><div count="0" class="i m"></div></div>
+					   	<div class="y n133" x="19"><div >19</div><div count="0" class="i"></div></div>
+					   	<div class="y n134" x="19x22"><div count="0" class="i m"></div></div>
+					   	<div class="y n135" x="22"><div >22</div><div count="0" class="i"></div></div>
+					   	<div class="y n136" x="22x25"><div count="0" class="i m"></div></div>
+					   	<div class="y n137" x="25"><div >25</div><div count="0" class="i"></div></div>
+					   	<div class="y n138" x="25x28"><div count="0" class="i m"></div></div>
+					   	<div class="y n139" x="28"><div >28</div><div count="0" class="i"></div></div>
+					   	<div class="y n140" x="28x31"><div count="0" class="i m"></div></div>
+					   	<div class="y n141" x="31"><div >31</div><div count="0" class="i"></div></div>
+					   	<div class="y n142" x="31x34"><div count="0" class="i m"></div></div>
+					   	<div class="y n143" x="34"><div >34</div><div count="0" class="i"></div></div>
 					   	<div class="y n144"></div>
 					   	<div class="y n145" x="2k1_3">2 to 1</div>
 			

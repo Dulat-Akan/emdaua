@@ -2064,8 +2064,23 @@
 .i{
 	width:50px;
 	height:50px;
+	display:none;
 }
 										/* shirina i visota div yacheiki */
 
+										/* sdvih fishki flevo */
+										
+.m{
+	margin-left:-23px;
+}
+										/* sdvih fishki flevo */
 
+.jjj{
+	
+/* -webkit-transform: rotate(-90deg); Chrome y Safari
+-moz-transform: rotate(-90deg); Firefox
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); Internet Explorer
+-o-transform: rotate(-90deg); Opera
+display: inline-block; padding-left: 8px; vertical-align: text-top; text-indent: 0px; */
+}
 										
