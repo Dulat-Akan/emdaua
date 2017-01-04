@@ -48,11 +48,99 @@ $(document).ready(function(){
 
             var prevdivnumber = $(this).children("div:not(.i)");
 
-           
-
-            //var canvl = $(this).children("canvas");
-
             var x = $(this).attr("x");
+
+            function getimage(){
+
+              //new manipulation
+
+                                   prevdivnumber.hide();  //skritie perednego div s nomerom
+                                   //generasiya kartinki
+
+                                    var vvv = document.createElement("CANVAS");
+
+                                    vvv.setAttribute("width", "50");
+                                    vvv.setAttribute("height", "50");
+
+                                     var xxx = vvv.getContext('2d');
+
+                                    xxx.beginPath();
+
+                                    var imcolor = "#49EDF8";
+
+                                    if(nominalnumber == "1"){
+                                        imcolor = "#49EDF8";
+                                    }else if(nominalnumber == "5"){
+                                        imcolor = "#FFFB36";
+                                    }else if(nominalnumber == "25"){
+                                        imcolor = "#87EF12";
+                                    }else if(nominalnumber == "50"){
+                                        imcolor = "#0079EF";
+                                    }else if(nominalnumber == "100"){
+                                        imcolor = "#681830";
+                                    }else if(nominalnumber == "500"){
+                                        imcolor = "#FC4BCD";
+                                    }else if(nominalnumber == "1000"){
+                                        imcolor = "#FF0600";
+                                    }
+
+                                    //podschet kolichestva nazhatii i stavok
+
+                                   var count_img = p_indecator_count.attr("count");
+
+                                   count_img = (+count_img + +nominalnumber);
+
+                                   p_indecator_count.attr("count",count_img);
+
+                                   //podschet kolichestva nazhatii i stavok
+
+                                    xxx.fillStyle = imcolor;
+                                    xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
+
+                                    xxx.fill();
+
+                                    //xxx.moveTo(45,25);
+
+                                    xxx.beginPath();
+
+                                    xxx.fillStyle = "white";
+
+                                    xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
+
+                                    xxx.fill();
+
+                                    xxx.beginPath();
+                                    xxx.fillStyle = "black";
+                                    xxx.font = "14px serif";
+
+                                    /*sentrovka texta*/
+                                    var positiontext = 20;
+
+                                    if((count_img > 9) && (count_img <= 99)){
+                                        positiontext = 17;
+                                    }else if((count_img > 99) && (count_img <= 999)){
+                                        positiontext = 12;
+                                    }else if((count_img > 999) && (count_img <= 9999)){
+                                        positiontext = 7;
+                                    }else if((count_img > 9999) && (count_img <= 99999)){
+                                        positiontext = 3;
+                                    }
+                                    xxx.fillText(count_img, positiontext, 30);
+                                    /*sentrovka texta*/
+
+                                    //generasiya kartinki
+
+                                    //document.body.appendChild(vvv); //vstabka kartinki
+
+                                    p_indecator_count.empty();      //ochistka diva
+
+                                    p_indecator_count.append(vvv);  //vstabka kartinki
+
+                                    p_indecator_count.show();       //pokaz kartinki
+
+                                    //new manipulation
+
+            }
 
             if(nominalnumber == 0){
                 console.log("Выберите номинал..");
@@ -69,100 +157,14 @@ $(document).ready(function(){
                   //z.css("border","5px solid white");
                   
 
-
-                   prevdivnumber.hide();  //skritie perednego div s nomerom
-
-                  
-                   
-                   //generasiya kartinki
-
-                    var vvv = document.createElement("CANVAS");
-
-                    vvv.setAttribute("width", "50");
-                    vvv.setAttribute("height", "50");
-
-                     var xxx = vvv.getContext('2d');
-
-                    xxx.beginPath();
-
-                    var imcolor = "#49EDF8";
-
-                    if(nominalnumber == "1"){
-                        imcolor = "#49EDF8";
-                    }else if(nominalnumber == "5"){
-                        imcolor = "#FFFB36";
-                    }else if(nominalnumber == "25"){
-                        imcolor = "#87EF12";
-                    }else if(nominalnumber == "50"){
-                        imcolor = "#0079EF";
-                    }else if(nominalnumber == "100"){
-                        imcolor = "#681830";
-                    }else if(nominalnumber == "500"){
-                        imcolor = "#FC4BCD";
-                    }else if(nominalnumber == "1000"){
-                        imcolor = "#FF0600";
-                    }
-
-                    //podschet kolichestva nazhatii i stavok
-
-                   var count_img = p_indecator_count.attr("count");
-
-                   count_img = (+count_img + +nominalnumber);
-
-                   p_indecator_count.attr("count",count_img);
-
-                   //podschet kolichestva nazhatii i stavok
-
-                    xxx.fillStyle = imcolor;
-                    xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
-
-                    xxx.fill();
-
-                    //xxx.moveTo(45,25);
-
-                    xxx.beginPath();
-
-                    xxx.fillStyle = "white";
-
-                    xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
-
-                    xxx.fill();
-
-                    xxx.beginPath();
-                    xxx.fillStyle = "black";
-                    xxx.font = "14px serif";
-
-                    /*sentrovka texta*/
-                    var positiontext = 20;
-
-                    if((count_img > 9) && (count_img <= 99)){
-                        positiontext = 17;
-                    }else if((count_img > 99) && (count_img <= 999)){
-                        positiontext = 12;
-                    }else if((count_img > 999) && (count_img <= 9999)){
-                        positiontext = 7;
-                    }else if((count_img > 9999) && (count_img <= 99999)){
-                        positiontext = 3;
-                    }
-                    xxx.fillText(count_img, positiontext, 30);
-                    /*sentrovka texta*/
-
-                    //generasiya kartinki
-
-                    //document.body.appendChild(vvv); //vstabka kartinki
-
-                    p_indecator_count.empty();      //ochistka diva
-
-                    p_indecator_count.append(vvv);  //vstabka kartinki
-
-                    p_indecator_count.show();       //pokaz kartinki
-
-
+                  getimage();
 
 
               }
 
             }
+
+            
 
 
             for(var i = 0;i < arnumbercombination.length;i++){
@@ -173,87 +175,100 @@ $(document).ready(function(){
 
                               case '1x12':  // if (x === 'value1')
 
-                                  for(var r = 1;r <= 12;r++){
-                                      $('[x = "'+ r + '"]').css("border","5px solid green");
-                                  }  
+                                  // for(var r = 1;r <= 12;r++){
+                                  //     //$('[x = "'+ r + '"]').css("border","5px solid green");
+                                  // }  
+
+                                  getimage();
 
                                 break;
 
                               case '2x12':
                                 
-                                for(var e = 13;e <= 24;e++){
-                                      $('[x = "'+ e + '"]').css("border","5px solid green");
-                                  }  
+                                // for(var e = 13;e <= 24;e++){
+                                //       $('[x = "'+ e + '"]').css("border","5px solid green");
+                                //   }  
+
+                                 getimage();
 
                                 break;
 
                               case '3x12': 
 
-                                  for(var w = 25;w <= 36;w++){
-                                      $('[x = "'+ w + '"]').css("border","5px solid green");
-                                  }  
+                                  // for(var w = 25;w <= 36;w++){
+                                  //     $('[x = "'+ w + '"]').css("border","5px solid green");
+                                  // }  
+
+                                  getimage();
                               
                               break;
 
                               case '1to18': 
 
-                                  for(var o = 1;o <= 18;o++){
-                                      $('[x = "'+ o + '"]').css("border","5px solid green");
-                                  }  
+                                  // for(var o = 1;o <= 18;o++){
+                                  //     $('[x = "'+ o + '"]').css("border","5px solid green");
+                                  // }  
+
+                                  getimage();
                               
                               break;
 
                               case 'even': 
 
-                                  for(var p = 1;p <= arnumber.length;p++){
+                                  // for(var p = 1;p <= arnumber.length;p++){
 
-                                      if(arnumber[p] % 2 == 0){
-                                        $('[x = "'+ p + '"]').css("border","5px solid green");
-                                      }
+                                  //     if(arnumber[p] % 2 == 0){
+                                  //       $('[x = "'+ p + '"]').css("border","5px solid green");
+                                  //     }
 
-                                   }
+                                  //  }
+                                  getimage();
                               
                               break;
 
                               case 'odd': 
 
-                                  for(var a = 1;a <= arnumber.length;a++){
+                                  // for(var a = 1;a <= arnumber.length;a++){
 
-                                      if(arnumber[a] % 2 == 1){
-                                        $('[x = "'+ a + '"]').css("border","5px solid green");
-                                      }
+                                  //     if(arnumber[a] % 2 == 1){
+                                  //       $('[x = "'+ a + '"]').css("border","5px solid green");
+                                  //     }
 
-                                   }  
+                                  //  }  
+                                  getimage();
                               
                               break;
 
                               case '19to36': 
 
-                                  for(var s = 19;s <= 36;s++){
+                                  // for(var s = 19;s <= 36;s++){
 
-                                        $('[x = "'+ s + '"]').css("border","5px solid green");
+                                  //       $('[x = "'+ s + '"]').css("border","5px solid green");
 
-                                   }  
+                                  //  }  
+                                  getimage();
                               
                               break;
 
                               case 'red': 
 
-                                  for(var d = 0;d <= red.length;d++){
+                                  // for(var d = 0;d <= red.length;d++){
 
-                                        $('[x = "'+ red[d] + '"]').css("border","5px solid green");
+                                  //       $('[x = "'+ red[d] + '"]').css("border","5px solid green");
 
-                                   }  
+                                  //  }  
+                                  getimage();
                               
                               break;
 
                               case 'black': 
 
-                                  for(var f = 0;f <= black.length;f++){
+                                  // for(var f = 0;f <= black.length;f++){
 
-                                        $('[x = "'+ black[f] + '"]').css("border","5px solid green");
+                                  //       $('[x = "'+ black[f] + '"]').css("border","5px solid green");
 
-                                   }  
+                                  //  }  
+                                  getimage();
                               
                               break;
 
@@ -302,25 +317,31 @@ $(document).ready(function(){
 
                               case '2k1-1': 
 
-                                for(var t = 0;t < ar2k1_1.length;t++){
-                                    $('[x = "'+ ar2k1_1[t] + '"]').css("border","5px solid green");
-                                }
+                                // for(var t = 0;t < ar2k1_1.length;t++){
+                                //     $('[x = "'+ ar2k1_1[t] + '"]').css("border","5px solid green");
+                                // }
+
+                                  getimage();
                                 
                                 break;
 
                               case '2k1_2': 
 
-                                for(var y = 0;y < ar2k1_2.length;y++){
-                                    $('[x = "'+ ar2k1_2[y] + '"]').css("border","5px solid green");
-                                }
+                                // for(var y = 0;y < ar2k1_2.length;y++){
+                                //     $('[x = "'+ ar2k1_2[y] + '"]').css("border","5px solid green");
+                                // }
+
+                                  getimage();
                                 
                                 break;
 
                               case '2k1_3': 
 
-                                for(var u = 0;u < ar2k1_3.length;u++){
-                                    $('[x = "'+ ar2k1_3[u] + '"]').css("border","5px solid green");
-                                }
+                                // for(var u = 0;u < ar2k1_3.length;u++){
+                                //     $('[x = "'+ ar2k1_3[u] + '"]').css("border","5px solid green");
+                                // }
+
+                                  getimage();
                                 
                                 break;
 
@@ -793,5 +814,9 @@ $(document).ready(function(){
 
 
 });
+
+
+
+
 
 

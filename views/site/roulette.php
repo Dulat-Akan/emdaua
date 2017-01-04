@@ -38,15 +38,15 @@
 					
 					   	<div class="n9"></div>
 
-					    <div class="y n10" x="1x12">1st 12</div>
+					    <div class="y n10" x="1x12">1st 12<div style="position: absolute;left:156px;top:5px;" count="0" class="i"></div></div>
 
 					    <div class="n11"></div>
 					    	
-					    <div class="y n12" x="2x12">2nd 12</div>
+					    <div class="y n12" x="2x12">2nd 12<div style="position: absolute;left:378px;top:5px;" count="0" class="i"></div></div>
 
 					    <div class="n14"></div>
 					    	
-					    <div class="y n15" x="3x12">3rd 12</div>
+					    <div class="y n15" x="3x12">3rd 12<div style="position: absolute;left:596px;top:5px;" count="0" class="i"></div></div>
 
 					    <div class="n16"></div>
 					   	
@@ -134,7 +134,7 @@
 					   	<div class="y n58" x="33x36"><div count="0" class="i m"></div></div>
 					   	<div class="y n59" x="36"><div >36</div><div count="0" class="i"></div></div>
 					   	<div class="n60"></div>
-					   	<div class="y n61" x="2k1-1">2 to 1</div>
+					   	<div class="y n61" x="2k1-1">2 to 1<div style="position: absolute;left:735px;top:60px;" count="0" class="i"></div></div>
 					   	
 
 					   							<!-- pervii ryad -->
@@ -217,7 +217,7 @@
 					   	<div class="y n100" x="32x35"><div count="0" class="i m"></div></div>
 					   	<div class="y n101" x="35"><div >35</div><div count="0" class="i"></div></div>
 					   	<div class="n102"></div>
-					   	<div class="y n103" x="2k1_2">2 to 1</div>
+					   	<div class="y n103" x="2k1_2">2 to 1<div style="position: absolute;left:735px;top:115px;" count="0" class="i"></div></div>
 					   
 
 
@@ -303,7 +303,7 @@
 					   	<div class="y n142" x="31x34"><div count="0" class="i m"></div></div>
 					   	<div class="y n143" x="34"><div >34</div><div count="0" class="i"></div></div>
 					   	<div class="y n144"></div>
-					   	<div class="y n145" x="2k1_3">2 to 1</div>
+					   	<div class="y n145" x="2k1_3">2 to 1<div style="position: absolute;left:735px;top:170px;" count="0" class="i"></div></div>
 			
 
 
@@ -368,21 +368,21 @@
 												<!-- 3 ryad -->
 
 						<div class="n162"></div>
-						<div class="y n163" x="1to18">1 to 18</div>
+						<div class="y n163" x="1to18">1 to 18<div style="position: absolute;left:102px;top:225px;" count="0" class="i"></div></div>
 					   	<div class="n166"></div>
-					   	<div class="y n167" x="even">even</div>
+					   	<div class="y n167" x="even">even<div style="position: absolute;left:213px;top:225px;" count="0" class="i"></div></div>
 
 					   	<div class="n170"></div>
-					   	<div class="y n171" x="red"><canvas  id="canv"></canvas></div>
+					   	<div class="y n171" x="red"><div style="position: absolute;left:323px;top:225px;" count="0" class="i"></div><canvas  id="canv"></canvas></div>
 
 					   	<div class="n174"></div>
-					   	<div class="y n175" x="black"><canvas id="canv2"></canvas></div>
+					   	<div class="y n175" x="black"><div style="position: absolute;left:433px;top:225px;" count="0" class="i"></div><canvas id="canv2"></canvas></div>
 
 					   	<div class="n178"></div>
-					   	<div class="y n179" x="odd">odd</div>
+					   	<div class="y n179" x="odd">odd<div style="position: absolute;left:543px;top:225px;" count="0" class="i"></div></div>
 
 					   	<div class="n182"></div>
-					   	<div class="y n183" x="19to36">19 to 36</div>
+					   	<div class="y n183" x="19to36">19 to 36<div style="position: absolute;left:653px;top:225px;" count="0" class="i"></div></div>
 
 					   	<div class="n186"></div>
 					   	<div class="y n187" x="wheel">WHEEL</div>
@@ -429,7 +429,7 @@
 
 
 				    	<div class="ob4">
-				    	<div class="y n192" x="no">NEIGHBOURS ONE</div>
+				    	<div class="y n192" x="no">NEIGHBOURS ONE<div style="position: absolute;left:653px;top:225px;" count="0" class="i"></div></div>
 				    	<div class="y n193" x="ntwo">NEIGHBOURS TWO</div>
 				    	<div class="y n194" x="nthree">NEIGHBOURS THREE</div>
 				    	<div class="y n195" x="nf">NEIGHBOURS FOUR</div>
