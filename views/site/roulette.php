@@ -57,37 +57,51 @@
 
 						<div class="n19"></div>
 
-						<div class="y n20" x="3x2x1"></div>
+						<div class="y n20" x="3x2x1"><div style="position: absolute;left:75px;top:33px;" count="0" class="i"></div></div>
 
-						<div class="y n21" x="3x6x2x5x1x4"></div>
+						<div class="y n21" x="3x6x2x5x1x4"><div style="position: absolute;left:102px;top:33px;" count="0" class="i"></div></div>
 
-						<div class="y n22" x="6x5x4"></div>
+						<div class="y n22" x="6x5x4"><div style="position: absolute;left:130px;top:33px;" count="0" class="i"></div></div>
 
-						<div class="y n23" x="6x9x5x8x4x7"></div>
+						<div class="y n23" x="6x9x5x8x4x7"><div style="position: absolute;left:157px;top:33px;" count="0" class="i"></div></div>
 
-						<div class="y n24" x="9x8x7"></div>
+						<div class="y n24" x="9x8x7"><div style="position: absolute;left:185px;top:33px;" count="0" class="i"></div></div>
 
-						<div class="y n25" x="9x12x8x11x7x10"></div>
+						<div class="y n25" x="9x12x8x11x7x10"><div style="position: absolute;left:212px;top:33px;" count="0" class="i"></div></div>
 
-						<div class="y n26" x="12x11x10"></div>
+						<div class="y n26" x="12x11x10"><div style="position: absolute;left:240px;top:33px;" count="0" class="i"></div></div>
 
-						<div class="y n27" x="12x15x11x14x10x13"></div>
+						<div class="y n27" x="12x15x11x14x10x13"><div style="position: absolute;left:267px;top:33px;" count="0" class="i"></div></div>
 
-						<div class="y n28" x="15x14x13"></div>
-						<div class="y n29" x="15x18x14x17x13x16"></div>
-						<div class="y n30" x="18x17x16"></div>
-						<div class="y n31" x="18x21x17x20x16x19"></div>
-						<div class="y n32" x="21x20x19"></div>
-						<div class="y n33" x="21x24x20x23x19x22"></div>
-						<div class="y n34" x="24x23x22"></div>
-						<div class="y n34_1" x="24x27x23x26x22x25"></div>
-						<div class="y n34_2" x="27x26x25"></div>
-						<div class="y n34_3" x="27x30x26x29x25x28"></div>
-						<div class="y n34_4" x="30x29x28"></div>
-						<div class="y n34_5" x="30x33x29x32x28x31"></div>
-						<div class="y n34_6" x="33x32x31"></div>
-						<div class="y n34_7" x="33x36x32x35x31x34"></div>
-						<div class="y n34_8" x="36x35x34"></div>
+						<div class="y n28" x="15x14x13"><div style="position: absolute;left:295px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n29" x="15x18x14x17x13x16"><div style="position: absolute;left:322px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n30" x="18x17x16"><div style="position: absolute;left:350px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n31" x="18x21x17x20x16x19"><div style="position: absolute;left:377px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n32" x="21x20x19"><div style="position: absolute;left:405px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n33" x="21x24x20x23x19x22"><div style="position: absolute;left:432px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n34" x="24x23x22"><div style="position: absolute;left:460px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n34_1" x="24x27x23x26x22x25"><div style="position: absolute;left:487px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n34_2" x="27x26x25"><div style="position: absolute;left:515px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n34_3" x="27x30x26x29x25x28"><div style="position: absolute;left:542px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n34_4" x="30x29x28"><div style="position: absolute;left:570px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n34_5" x="30x33x29x32x28x31"><div style="position: absolute;left:597px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n34_6" x="33x32x31"><div style="position: absolute;left:625px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n34_7" x="33x36x32x35x31x34"><div style="position: absolute;left:652px;top:33px;" count="0" class="i"></div></div>
+
+						<div class="y n34_8" x="36x35x34"><div style="position: absolute;left:680px;top:33px;" count="0" class="i"></div></div>
 						<div class="n34_9"></div>
 						
 				
@@ -129,34 +143,48 @@
 						
 						<div class="y n63" x="3x2"><div style="position: absolute;left:75px;top:87px;" count="0" class="i"></div></div>
 
-						<div class="y n64" x="3x6x2x5"></div>
+						<div class="y n64" x="3x6x2x5"><div style="position: absolute;left:102px;top:87px;" count="0" class="i"></div></div>
 
 						<div class="y n65" x="6x5"><div style="position: absolute;left:130px;top:87px;" count="0" class="i"></div></div>
 
-						<div class="y n66" x="6x9x5x8"></div>
+						<div class="y n66" x="6x9x5x8"><div style="position: absolute;left:157px;top:87px;" count="0" class="i"></div></div>
 
 						<div class="y n67" x="9x8"><div style="position: absolute;left:185px;top:87px;" count="0" class="i"></div></div>
 
-						<div class="y n68" x="9x12x8x11"></div>
+						<div class="y n68" x="9x12x8x11"><div style="position: absolute;left:212px;top:87px;" count="0" class="i"></div></div>
 
 						<div class="y n69" x="12x11"><div style="position: absolute;left:240px;top:87px;" count="0" class="i"></div></div>
 
-						<div class="y n70" x="12x15x11x14"></div>
+						<div class="y n70" x="12x15x11x14"><div style="position: absolute;left:267px;top:87px;" count="0" class="i"></div></div>
 
 						<div class="y n71" x="15x14"><div style="position: absolute;left:295px;top:87px;" count="0" class="i"></div></div>
-						<div class="y n72" x="15x18x14x17"></div>
+
+						<div class="y n72" x="15x18x14x17"><div style="position: absolute;left:322px;top:87px;" count="0" class="i"></div></div>
+
 						<div class="y n73" x="18x17"><div style="position: absolute;left:350px;top:87px;" count="0" class="i"></div></div>
-						<div class="y n74" x="18x21x17x20"></div>
+
+						<div class="y n74" x="18x21x17x20"><div style="position: absolute;left:377px;top:87px;" count="0" class="i"></div></div>
+
 						<div class="y n75" x="21x20"><div style="position: absolute;left:405px;top:87px;" count="0" class="i"></div></div>
-						<div class="y n76" x="21x24x20x23"></div>
+
+						<div class="y n76" x="21x24x20x23"><div style="position: absolute;left:432px;top:87px;" count="0" class="i"></div></div>
+
 						<div class="y n77" x="24x23"><div style="position: absolute;left:460px;top:87px;" count="0" class="i"></div></div>
-						<div class="y n77_1" x="24x27x23x26"></div>
+
+						<div class="y n77_1" x="24x27x23x26"><div style="position: absolute;left:487px;top:87px;" count="0" class="i"></div></div>
+
 						<div class="y n77_2" x="27x26"><div style="position: absolute;left:515px;top:87px;" count="0" class="i"></div></div>
-						<div class="y n77_3" x="27x30x26x29"></div>
+
+						<div class="y n77_3" x="27x30x26x29"><div style="position: absolute;left:542px;top:87px;" count="0" class="i"></div></div>
+
 						<div class="y n77_4" x="30x29"><div style="position: absolute;left:570px;top:87px;" count="0" class="i"></div></div>
-						<div class="y n77_5" x="30x33x29x32"></div>
+
+						<div class="y n77_5" x="30x33x29x32"><div style="position: absolute;left:597px;top:87px;" count="0" class="i"></div></div>
+
 						<div class="y n77_6" x="32x33"><div style="position: absolute;left:625px;top:87px;" count="0" class="i"></div></div>
-						<div class="y n77_7" x="33x36x32x35"></div>
+
+						<div class="y n77_7" x="33x36x32x35"><div style="position: absolute;left:652px;top:87px;" count="0" class="i"></div></div>
+
 						<div class="y n77_8" x="36x35"><div style="position: absolute;left:680px;top:87px;" count="0" class="i"></div></div>
 						<div class="n77_9"></div>
 
@@ -199,34 +227,48 @@
 						
 						<div class="y n105" x="2x1"><div style="position: absolute;left:75px;top:144px;" count="0" class="i"></div></div>
 
-						<div class="y n106" x="2x5x1x4"></div>
+						<div class="y n106" x="2x5x1x4"><div style="position: absolute;left:102px;top:143px;" count="0" class="i"></div></div>
 
 						<div class="y n107" x="5x4"><div style="position: absolute;left:130px;top:144px;" count="0" class="i"></div></div>
 
-						<div class="y n108" x="5x8x4x7"></div>
+						<div class="y n108" x="5x8x4x7"><div style="position: absolute;left:157px;top:143px;" count="0" class="i"></div></div>
 
 						<div class="y n109" x="8x7"><div style="position: absolute;left:185px;top:144px;" count="0" class="i"></div></div>
 
-						<div class="y n110" x="8x11x7x10"></div>
+						<div class="y n110" x="8x11x7x10"><div style="position: absolute;left:212px;top:143px;" count="0" class="i"></div></div>
 
 						<div class="y n111" x="11x10"><div style="position: absolute;left:240px;top:144px;" count="0" class="i"></div></div>
 
-						<div class="y n112" x="11x14x10x13"></div>
+						<div class="y n112" x="11x14x10x13"><div style="position: absolute;left:267px;top:143px;" count="0" class="i"></div></div>
 
 						<div class="y n113" x="14x13"><div style="position: absolute;left:295px;top:144px;" count="0" class="i"></div></div>
-						<div class="y n114" x="14x17x13x16"></div>
+
+						<div class="y n114" x="14x17x13x16"><div style="position: absolute;left:322px;top:143px;" count="0" class="i"></div></div>
+
 						<div class="y n115" x="17x16"><div style="position: absolute;left:350px;top:144px;" count="0" class="i"></div></div>
-						<div class="y n116" x="17x20x16x19"></div>
+
+						<div class="y n116" x="17x20x16x19"><div style="position: absolute;left:377px;top:143px;" count="0" class="i"></div></div>
+
 						<div class="y n117" x="20x19"><div style="position: absolute;left:405px;top:144px;" count="0" class="i"></div></div>
-						<div class="y n118" x="20x23x19x22"></div>
+
+						<div class="y n118" x="20x23x19x22"><div style="position: absolute;left:432px;top:143px;" count="0" class="i"></div></div>
+
 						<div class="y n119" x="23x22"><div style="position: absolute;left:460px;top:144px;" count="0" class="i"></div></div>
-						<div class="y n119_1" x="23x26x22x25"></div>
+
+						<div class="y n119_1" x="23x26x22x25"><div style="position: absolute;left:487px;top:143px;" count="0" class="i"></div></div>
+
 						<div class="y n119_2" x="26x25"><div style="position: absolute;left:515px;top:144px;" count="0" class="i"></div></div>
-						<div class="y n119_3" x="26x29x25x28"></div>
+
+						<div class="y n119_3" x="26x29x25x28"><div style="position: absolute;left:542px;top:143px;" count="0" class="i"></div></div>
+
 						<div class="y n119_4" x="29x28"><div style="position: absolute;left:570px;top:144px;" count="0" class="i"></div></div>
-						<div class="y n119_5" x="29x32x28x31"></div>
+
+						<div class="y n119_5" x="29x32x28x31"><div style="position: absolute;left:597px;top:143px;" count="0" class="i"></div></div>
+
 						<div class="y n119_6" x="32x31"><div style="position: absolute;left:625px;top:144px;" count="0" class="i"></div></div>
-						<div class="y n119_7" x="32x35x31x34"></div>
+
+						<div class="y n119_7" x="32x35x31x34"><div style="position: absolute;left:652px;top:143px;" count="0" class="i"></div></div>
+
 						<div class="y n119_8" x="35x34"><div style="position: absolute;left:680px;top:144px;" count="0" class="i"></div></div>
 						<div class="y n119_9"></div>
 
@@ -272,37 +314,37 @@
 
 											   		<!-- 4 ryad ramka-->
 						
-						<div class="y n147" x="3x2x1"></div>
+						<div class="y n147" x="3x2x1">><div style="position: absolute;left:75px;top:198px;" count="0" class="i"></div></div>
 
 						<div class="y n148" x="1x2x3x4x5x6"></div>
 
-						<div class="y n149" x="4x5x6"></div>
+						<div class="y n149" x="4x5x6"><div style="position: absolute;left:130px;top:198px;" count="0" class="i"></div></div>
 
 						<div class="y n150" x="4x5x6x9x8x7"></div>
 
-						<div class="y n151" x="7x8x9"></div>
+						<div class="y n151" x="7x8x9"><div style="position: absolute;left:185px;top:198px;" count="0" class="i"></div></div>
 
 						<div class="y n152" x="7x8x9x10x11x12"></div>
 
-						<div class="y n153" x="10x11x12"></div>
+						<div class="y n153" x="10x11x12"><div style="position: absolute;left:240px;top:198px;" count="0" class="i"></div></div>
 
 						<div class="y n154" x="10x13x11x14x12x15"></div>
 
-						<div class="y n155" x="13x14x15"></div>
+						<div class="y n155" x="13x14x15"><div style="position: absolute;left:295px;top:198px;" count="0" class="i"></div></div>
 						<div class="y n156" x="13x16x14x17x15x18"></div>
-						<div class="y n157" x="16x17x18"></div>
+						<div class="y n157" x="16x17x18"><div style="position: absolute;left:350px;top:198px;" count="0" class="i"></div></div>
 						<div class="y n158" x="16x19x17x20x18x21"></div>
-						<div class="y n159" x="19x20x21"></div>
+						<div class="y n159" x="19x20x21"><div style="position: absolute;left:405px;top:198px;" count="0" class="i"></div></div>
 						<div class="y n160" x="19x22x20x23x21x24"></div>
-						<div class="y n161" x="22x23x24"></div>
+						<div class="y n161" x="22x23x24"><div style="position: absolute;left:460px;top:198px;" count="0" class="i"></div></div>
 						<div class="y n161_1" x="22x25x23x26x24x27"></div>
-						<div class="y n161_2" x="25x26x27"></div>
+						<div class="y n161_2" x="25x26x27"><div style="position: absolute;left:515px;top:198px;" count="0" class="i"></div></div>
 						<div class="y n161_3" x="25x26x27x28x29x30"></div>
-						<div class="y n161_4" x="28x29x30"></div>
+						<div class="y n161_4" x="28x29x30"><div style="position: absolute;left:570px;top:198px;" count="0" class="i"></div></div>
 						<div class="y n161_5" x="28x31x29x32x30x33"></div>
-						<div class="y n161_6" x="31x32x33"></div>
+						<div class="y n161_6" x="31x32x33"><div style="position: absolute;left:625px;top:198px;" count="0" class="i"></div></div>
 						<div class="y n161_7" x="31x34x32x35x33x36"></div>
-						<div class="y n161_8" x="34x35x36"></div>
+						<div class="y n161_8" x="34x35x36"><div style="position: absolute;left:680px;top:198px;" count="0" class="i"></div></div>
 						<div class="n161_9"></div>
 
 						
