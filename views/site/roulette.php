@@ -34,7 +34,7 @@
 
 					<div style="border:5px solid #9225D8;border-radius: 5px;width: 775px;">		<!-- obernuli stol v div -->
 				
-					<div class="y numb" x="0">0</div>
+					<div class="y numb" x="0">0<div style="position: absolute;left:20px;top:20px;" count="0" class="i"></div></div>
 					
 					   	<div class="n9"></div>
 
@@ -314,7 +314,7 @@
 
 											   		<!-- 4 ryad ramka-->
 						
-						<div class="y n147" x="3x2x1">><div style="position: absolute;left:75px;top:198px;" count="0" class="i"></div></div>
+						<div class="y n147" x="3x2x1"><div style="position: absolute;left:75px;top:198px;" count="0" class="i"></div></div>
 
 						<div class="y n148" x="1x2x3x4x5x6"><div style="position: absolute;left:102px;top:198px;" count="0" class="i"></div></div>
 
@@ -429,17 +429,17 @@
 
 
 				    	<div class="ob4">
-				    	<div class="y n192" x="no">NEIGHBOURS ONE<div style="position: absolute;left:653px;top:225px;" count="0" class="i"></div></div>
-				    	<div class="y n193" x="ntwo">NEIGHBOURS TWO</div>
-				    	<div class="y n194" x="nthree">NEIGHBOURS THREE</div>
-				    	<div class="y n195" x="nf">NEIGHBOURS FOUR</div>
+				    	<div class="y n192" x="no">NEIGHBOURS ONE<div style="position: absolute;left:147px;top:280px;" count="0" class="i"></div></div>
+				    	<div class="y n193" x="ntwo">NEIGHBOURS TWO<div style="position: absolute;left:302px;top:280px;" count="0" class="i"></div></div>
+				    	<div class="y n194" x="nthree">NEIGHBOURS THREE<div style="position: absolute;left:457px;top:280px;" count="0" class="i"></div></div>
+				    	<div class="y n195" x="nf">NEIGHBOURS FOUR<div style="position: absolute;left:610px;top:280px;" count="0" class="i"></div></div>
 						</div>
 
 						<div class="ob4-2">
-				    	<div class="y n188" x="bs">BIG SERIES</div>
-				    	<div class="y n189" x="ss">SMALL SERIES</div>
-				    	<div class="y n190" x="orp">ORPHANS</div>
-				    	<div class="y n191" x="zs">ZERO SPIEL</div>
+				    	<div class="y n188" x="bs">BIG SERIES<div style="position: absolute;left:195px;top:325px;" count="0" class="i"></div></div>
+				    	<div class="y n189" x="ss">SMALL SERIES<div style="position: absolute;left:325px;top:325px;" count="0" class="i"></div></div>
+				    	<div class="y n190" x="orp">ORPHANS<div style="position: absolute;left:455px;top:325px;" count="0" class="i"></div></div>
+				    	<div class="y n191" x="zs">ZERO SPIEL<div style="position: absolute;left:560px;top:325px;" count="0" class="i"></div></div>
 						</div>
 						
 						<div style="margin-top: 5px;margin-left: 125px;">

@@ -84,6 +84,9 @@ $(document).ready(function(){
                                         imcolor = "#FF0600";
                                     }
 
+
+                                    p_indecator_count.attr("colorfx",imcolor);
+
                                     //podschet kolichestva nazhatii i stavok
 
                                    var count_img = p_indecator_count.attr("count");
@@ -124,6 +127,8 @@ $(document).ready(function(){
                                         positiontext = 7;
                                     }else if((count_img > 9999) && (count_img <= 99999)){
                                         positiontext = 3;
+                                    }else if((count_img > 99999) && (count_img <= 10000000)){
+                                        positiontext = 0;
                                     }
                                     xxx.fillText(count_img, positiontext, 30);
                                     /*sentrovka texta*/
@@ -274,42 +279,46 @@ $(document).ready(function(){
 
                               case 'bs': 
 
-                                  for(var c = 0;c <= big_series.length;c++){
+                                  // for(var c = 0;c <= big_series.length;c++){
 
-                                        $('[x = "'+ big_series[c] + '"]').css("border","5px solid green");
+                                  //       $('[x = "'+ big_series[c] + '"]').css("border","5px solid green");
 
-                                   }  
+                                  //  }  
+                                  getimage();
                               
                               break;
 
                               case 'ss': 
 
-                                  for(var l = 0;l <= s_s.length;l++){
+                                  /*for(var l = 0;l <= s_s.length;l++){
 
                                         $('[x = "'+ s_s[l] + '"]').css("border","5px solid green");
 
-                                   }  
+                                   }  */
+                                   getimage();
                               
                               break;
 
 
                               case 'orp': 
 
-                                  for(var v = 0;v <= orphans.length;v++){
+                                  // for(var v = 0;v <= orphans.length;v++){
 
-                                        $('[x = "'+ orphans[v] + '"]').css("border","5px solid green");
+                                  //       $('[x = "'+ orphans[v] + '"]').css("border","5px solid green");
 
-                                   }  
+                                  //  }  
+                                  getimage();
                               
                               break;
 
                               case 'zs': 
 
-                                  for(var b = 0;b <= zero_spiel.length;b++){
+                                  // for(var b = 0;b <= zero_spiel.length;b++){
 
-                                        $('[x = "'+ zero_spiel[b] + '"]').css("border","5px solid green");
+                                  //       $('[x = "'+ zero_spiel[b] + '"]').css("border","5px solid green");
 
-                                   }  
+                                  //  }  
+                                  getimage();
                               
                               break;
 
@@ -345,16 +354,28 @@ $(document).ready(function(){
                                 
                                 break;
 
-                              case 'value2': 
+                              case 'no': 
+
+                                  getimage();
                               
                               break;
 
 
-                              case 'value2': 
+                              case 'ntwo': 
+
+                                  getimage();
                                 
                                 break;
 
-                              case 'value2': 
+                              case 'nthree': 
+
+                                  getimage();
+                              
+                              break;
+
+                              case 'nf': 
+
+                                  getimage();
                               
                               break;
 
@@ -378,96 +399,7 @@ $(document).ready(function(){
 
                                              // }
 
-                                                  /*new manipulation*/
-
-
-                                                     prevdivnumber.hide();  //skritie perednego div s nomerom
-
-                                                    
-                                                     
-                                                     //generasiya kartinki
-
-                                                      var vvv = document.createElement("CANVAS");
-
-                                                      vvv.setAttribute("width", "50");
-                                                      vvv.setAttribute("height", "50");
-
-                                                       var xxx = vvv.getContext('2d');
-
-                                                      xxx.beginPath();
-
-                                                      var imcolor = "#49EDF8";
-
-                                                      if(nominalnumber == "1"){
-                                                          imcolor = "#49EDF8";
-                                                      }else if(nominalnumber == "5"){
-                                                          imcolor = "#FFFB36";
-                                                      }else if(nominalnumber == "25"){
-                                                          imcolor = "#87EF12";
-                                                      }else if(nominalnumber == "50"){
-                                                          imcolor = "#0079EF";
-                                                      }else if(nominalnumber == "100"){
-                                                          imcolor = "#681830";
-                                                      }else if(nominalnumber == "500"){
-                                                          imcolor = "#FC4BCD";
-                                                      }else if(nominalnumber == "1000"){
-                                                          imcolor = "#FF0600";
-                                                      }
-
-                                                      //podschet kolichestva nazhatii i stavok
-
-                                                     var count_img = p_indecator_count.attr("count");
-
-                                                     count_img = (+count_img + +nominalnumber);
-
-                                                     p_indecator_count.attr("count",count_img);
-
-                                                     //podschet kolichestva nazhatii i stavok
-
-                                                      xxx.fillStyle = imcolor;
-                                                      xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
-
-                                                      xxx.fill();
-
-                                                      //xxx.moveTo(45,25);
-
-                                                      xxx.beginPath();
-
-                                                      xxx.fillStyle = "white";
-
-                                                      xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
-
-                                                      xxx.fill();
-
-                                                      xxx.beginPath();
-                                                      xxx.fillStyle = "black";
-                                                      xxx.font = "14px serif";
-
-                                                      /*sentrovka texta*/
-                                                      var positiontext = 20;
-
-                                                      if((count_img > 9) && (count_img <= 99)){
-                                                          positiontext = 17;
-                                                      }else if((count_img > 99) && (count_img <= 999)){
-                                                          positiontext = 12;
-                                                      }else if((count_img > 999) && (count_img <= 9999)){
-                                                          positiontext = 7;
-                                                      }else if((count_img > 9999) && (count_img <= 99999)){
-                                                          positiontext = 3;
-                                                      }
-                                                      xxx.fillText(count_img, positiontext, 30);
-                                                      /*sentrovka texta*/
-
-                                                      //generasiya kartinki
-
-                                                      //document.body.appendChild(vvv); //vstabka kartinki
-
-                                                      p_indecator_count.empty();      //ochistka diva
-
-                                                      p_indecator_count.append(vvv);  //vstabka kartinki
-
-                                                      p_indecator_count.show();       //pokaz kartinki
-                                                  /*new manipulation*/
+                                                  getimage();
 
                                          }
                                      }
@@ -804,7 +736,128 @@ $(document).ready(function(){
 
 
 
-                    
+                    $(".n251").click(function(){
+
+                        var betta = $(".y").children(".i");
+
+                        betta.each(function(index,element){
+
+                              var alpha = $(element);
+
+                              var gamma = alpha.attr("count");
+
+                              var summ = (+gamma * 2);
+
+                              alpha.attr("count",summ);
+
+                              console.log("удвоение выполнено");
+
+                              
+
+                        });
+
+
+                        $(".y").each(function(index,element){
+
+                              var h = $(element);
+
+                              var a = h.children(".i");
+
+                              var b = a.attr("count");
+
+                              if(b != "0"){
+
+                                    var p_indecator_count = h.children(".i");
+
+                                    var prevdivnumber = h.children("div:not(.i)");
+
+
+                                    //new manipulation
+
+                                    prevdivnumber.hide();  //skritie perednego div s nomerom
+                                   //generasiya kartinki
+
+                                    var vvv = document.createElement("CANVAS");
+
+                                    vvv.setAttribute("width", "50");
+                                    vvv.setAttribute("height", "50");
+
+                                    var xxx = vvv.getContext('2d');
+
+                                    xxx.beginPath();
+
+                                    var imcolor = p_indecator_count.attr("colorfx");
+
+                                    //podschet kolichestva nazhatii i stavok
+
+                                   var count_img = p_indecator_count.attr("count");
+
+                                   //count_img = (+count_img + +nominalnumber);
+
+                                   p_indecator_count.attr("count",count_img);
+
+                                   //podschet kolichestva nazhatii i stavok
+
+                                    xxx.fillStyle = imcolor;
+                                    xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
+
+                                    xxx.fill();
+
+                                    //xxx.moveTo(45,25);
+
+                                    xxx.beginPath();
+
+                                    xxx.fillStyle = "white";
+
+                                    xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
+
+                                    xxx.fill();
+
+                                    xxx.beginPath();
+                                    xxx.fillStyle = "black";
+                                    xxx.font = "14px serif";
+
+                                    /*sentrovka texta*/
+                                    var positiontext = 20;
+
+                                    if((count_img > 9) && (count_img <= 99)){
+                                        positiontext = 17;
+                                    }else if((count_img > 99) && (count_img <= 999)){
+                                        positiontext = 12;
+                                    }else if((count_img > 999) && (count_img <= 9999)){
+                                        positiontext = 7;
+                                    }else if((count_img > 9999) && (count_img <= 99999)){
+                                        positiontext = 3;
+                                    }else if((count_img > 99999) && (count_img <= 100000000)){
+                                        positiontext = 0;
+                                    }
+                                    xxx.fillText(count_img, positiontext, 30);
+                                    /*sentrovka texta*/
+
+                                    //generasiya kartinki
+
+                                    //document.body.appendChild(vvv); //vstabka kartinki
+
+                                    p_indecator_count.empty();      //ochistka diva
+
+                                    p_indecator_count.append(vvv);  //vstabka kartinki
+
+                                    p_indecator_count.show();       //pokaz kartinki
+
+                                    //new manipulation
+
+            
+
+
+
+                              }
+
+
+                        });
+
+                        
+
+                    });
 
                     
 
