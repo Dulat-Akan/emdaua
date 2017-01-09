@@ -1054,6 +1054,165 @@ public function actionK(){
     }
 
 
+    public function actionSenddata(){
+
+        $session = Yii::$app->session;
+
+        $session->open();
+
+        if(isset($_POST["hid"])){
+
+            $rdata = $_POST['data'];
+
+            $rdataserial = serialize($rdata);
+
+            $session->set('rdata', $rdataserial);
+
+            $time = time();
+
+            $result = Yii::$app->db->createCommand()->insert('r_koef', ['koef' => $rdataserial,'time' => $time,'status' => '2'])->execute();
+
+            if($result == true){
+                echo "1";
+            }else{
+                echo "2";
+            }
+
+        }
+    }
+
+    public function actionGamestatus(){
+
+
+
+
+
+    }
+
+    public function actionGamestatusdealer(){
+
+            $status = 1;
+
+            $result = Yii::$app->db->createCommand('SELECT * FROM r_status')->queryAll();
+
+            foreach ($result as $value) {
+                    
+                    $s = $value['dealer_status'];
+                    $status = $s;
+            }
+
+            echo $status;
+
+
+    }
+
+
+    public function actionSendgamestatus(){
+
+        if(isset($_POST["data"])){
+
+            $data = $_POST["data"];
+
+            $result = Yii::$app->db->createCommand("UPDATE r_status SET game_status='$data' WHERE id=1")->execute();
+
+            if($result == true){
+                echo "1";
+            }else{
+                echo "2";
+            }
+
+        }
+        
+
+    }
+
+
+    public function actionRouletteresult(){
+
+        $result = Yii::$app->db->createCommand("SELECT * FROM r_koef WHERE status = '2'")->queryAll();
+
+        $data = "";
+
+        foreach ($result as $value) {
+            $data = unserialize($value['koef']);
+        }
+
+        if($data != ""){
+                            /*one arrays*/
+            $d0 = $data[0];
+            $d1 = $data[1];
+                             /*one arrays*/
+
+                             /*two arrays*/
+            $d2 = $data[2];
+            $d3 = $data[3];
+                            /*two arrays*/
+
+                            /*three arrays*/
+            $d4 = $data[4];
+            $d5 = $data[5];
+                           /*three arrays*/
+
+                           /*vichisleniya one arrays*/
+
+            for($i = 0;$i < count($d1);$i++){
+                if($d1[$i] != 0){
+                    echo $d0[$i]." | ".$d1[$i]."<br>";
+                }
+            }
+
+
+                           /*vichisleniya one arrays*/
+
+                           /*vichisleniya two arrays*/
+
+            for($i = 0;$i < count($d3);$i++){
+                if($d3[$i] != 0){
+                    echo $d2[$i]." | ".$d3[$i]."<br>";
+                }
+            }
+
+
+                           /*vichisleniya two arrays*/
+
+                           /*vichisleniya two arrays*/
+
+            for($i = 0;$i < count($d5);$i++){
+                if($d5[$i] != 0){
+                    echo $d4[$i]." | ".$d5[$i]."<br>";
+                }
+            }
+
+
+                           /*vichisleniya two arrays*/
+        }
+
+
+
+        /*if($result == true){
+            echo "1";
+        }else{
+            echo "2";
+        }*/
+
+    }
+
+
+    public function actionSenddatatest(){
+        $session = Yii::$app->session;
+
+        $rdata = $session->get('rdata');
+
+        $rdataunserial = unserialize($rdata);
+
+        //$rdataunserial[0];
+
+        print_r($rdataunserial[0]);
+
+
+    }
+
+
 
 
 }

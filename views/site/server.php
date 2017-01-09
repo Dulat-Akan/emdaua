@@ -12,6 +12,8 @@ use yii\helpers\Url;
 
  			<h1>SERVER PAGE</h1>
 
+ 			<h3><button id="status">проверить статус</button></h3>
+
  		</div>
  	</div>
  </div>
@@ -28,6 +30,11 @@ use yii\helpers\Url;
 <input id="baseupdatek" type="hidden" value="<?php echo Url::to('@base'); ?>/site/updatek">
 
 <input id="baseupdatek2" type="hidden" value="<?php echo Url::to('@base'); ?>/site/liverequest">
+
+<input type="hidden" id="sa" value="<?php echo Url::to('@base'); ?>/site/sendgamestatus">
+
+<input type="hidden" id="ds" value="<?php echo Url::to('@base'); ?>/site/gamestatusdealer">
+
 
 
 

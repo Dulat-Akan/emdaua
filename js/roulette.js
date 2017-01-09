@@ -1,10 +1,16 @@
 $(document).ready(function(){
 
-  var nominalurl = "no";
-  var nominalnumber = 0;
-  var nominalmultiply = 0;
+  var sendArray = new Array();
+
+  var nominalnumber = 0;  //nominal
 
   var arnumber = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36];
+
+  var arnumbercount = new Array();
+
+  for(var i = 0;i < arnumber.length;i++){
+    arnumbercount[i] = 0;
+  }
 
   var arnumbercombination = ["1x12","2x12","3x12","3x2x1","3x6x2x5x1x4","6x5x4","6x9x5x8x4x7","9x8x7","9x12x8x11x7x10","12x11x10","12x15x11x14x10x13","15x14x13",
   "15x18x14x17x13x16","18x17x16","18x21x17x20x16x19","21x20x19","21x24x20x23x19x22","24x23x22","24x27x23x26x22x25","27x26x25","27x30x26x29x25x28","30x29x28","30x33x29x32x28x31",
@@ -16,6 +22,12 @@ $(document).ready(function(){
   "10x13x11x14x12x15","13x14x15","13x16x14x17x15x18","16x17x18","16x19x17x20x18x21","19x20x21","19x22x20x23x21x24","22x23x24","22x25x23x26x24x27","25x26x27","25x26x27x28x29x30",
   "28x29x30","28x31x29x32x30x33","31x32x33","31x34x32x35x33x36","34x35x36","1to18","even","red","black","odd","19to36","no","ntwo","nthree","nf","bs","ss","orp","zs"];
 
+  var arnumbercombinationcount = new Array();
+
+  for(var i = 0;i < arnumbercombination.length;i++){
+    arnumbercombinationcount[i] = 0;
+  }
+
   var arnumbersearchcombination = ["3x2x1","3x6x2x5x1x4","6x5x4","6x9x5x8x4x7","9x8x7","9x12x8x11x7x10","12x11x10","12x15x11x14x10x13","15x14x13",
   "15x18x14x17x13x16","18x17x16","18x21x17x20x16x19","21x20x19","21x24x20x23x19x22","24x23x22","24x27x23x26x22x25","27x26x25","27x30x26x29x25x28","30x29x28","30x33x29x32x28x31",
   "33x32x31","33x36x32x35x31x34","36x35x34","3x6","6x9","9x12","12x15","15x18","18x21","21x24","24x27","27x30","30x33","33x36","3x2","3x6x2x5","6x5","6x9x5x8","9x8",
@@ -26,6 +38,12 @@ $(document).ready(function(){
   "10x13x11x14x12x15","13x14x15","13x16x14x17x15x18","16x17x18","16x19x17x20x18x21","19x20x21","19x22x20x23x21x24","22x23x24","22x25x23x26x24x27","25x26x27","25x26x27x28x29x30",
   "28x29x30","28x31x29x32x30x33","31x32x33","31x34x32x35x33x36","34x35x36"];
 
+  var arnumbersearchcombinationcount  = new Array();
+
+  for(var i = 0;i < arnumbersearchcombination.length;i++){
+    arnumbersearchcombinationcount[i] = 0;
+  }
+
   var ar2k1_1 = [3,6,9,12,15,18,21,24,27,30,33,36];
   var ar2k1_2 = [2,5,8,11,14,17,20,23,26,29,32,35];
   var ar2k1_3 = [1,4,7,10,13,16,19,22,25,28,31,34];
@@ -35,6 +53,8 @@ $(document).ready(function(){
   var zero_spiel = [35,3,26,0,32];
   var s_s = [27,13,36,11,30,8,23,10,5,24,16,33];
   var big_series = [22,18,29,7,28,12,25,2,21,4,19,15];
+
+  
 
 
 
@@ -95,6 +115,7 @@ $(document).ready(function(){
 
                                    p_indecator_count.attr("count",count_img);
 
+                                   
                                    //podschet kolichestva nazhatii i stavok
 
                                     xxx.fillStyle = imcolor;
@@ -158,9 +179,16 @@ $(document).ready(function(){
 
             for(var i = 0;i < arnumber.length;i++){
 
-              if(x == arnumber[i]){
+              if(x == arnumber[i]){                           /*prostie chisla*/
                   //z.css("border","5px solid white");
                   
+                  var gcount = arnumbercount[i];
+
+                  gcount = (+gcount + +nominalnumber);
+
+                  arnumbercount[i] = gcount;
+
+                  console.log(arnumbercount);
 
                   getimage();
 
@@ -169,12 +197,34 @@ $(document).ready(function(){
 
             }
 
-            
+            function getcount(){
+
+                var gcount = arnumbercombinationcount[i];
+
+                  gcount = (+gcount + +nominalnumber);
+
+                  arnumbercombinationcount[i] = gcount;
+
+                  console.log(arnumbercombinationcount);
+
+            }
+
+            function getcount2(){
+
+                var gcount = arnumbersearchcombinationcount[g];
+
+                  gcount = (+gcount + +nominalnumber);
+
+                  arnumbersearchcombinationcount[g] = gcount;
+
+                  console.log(arnumbersearchcombinationcount);
+
+            }
 
 
             for(var i = 0;i < arnumbercombination.length;i++){
 
-                      if(x == arnumbercombination[i]){
+                      if(x == arnumbercombination[i]){              /*chisla s combinasiyami*/
 
                           switch(x){
 
@@ -183,7 +233,7 @@ $(document).ready(function(){
                                   // for(var r = 1;r <= 12;r++){
                                   //     //$('[x = "'+ r + '"]').css("border","5px solid green");
                                   // }  
-
+                                  getcount();
                                   getimage();
 
                                 break;
@@ -193,7 +243,7 @@ $(document).ready(function(){
                                 // for(var e = 13;e <= 24;e++){
                                 //       $('[x = "'+ e + '"]').css("border","5px solid green");
                                 //   }  
-
+                                  getcount();
                                  getimage();
 
                                 break;
@@ -203,7 +253,7 @@ $(document).ready(function(){
                                   // for(var w = 25;w <= 36;w++){
                                   //     $('[x = "'+ w + '"]').css("border","5px solid green");
                                   // }  
-
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -213,7 +263,7 @@ $(document).ready(function(){
                                   // for(var o = 1;o <= 18;o++){
                                   //     $('[x = "'+ o + '"]').css("border","5px solid green");
                                   // }  
-
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -227,6 +277,7 @@ $(document).ready(function(){
                                   //     }
 
                                   //  }
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -240,6 +291,7 @@ $(document).ready(function(){
                                   //     }
 
                                   //  }  
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -251,6 +303,7 @@ $(document).ready(function(){
                                   //       $('[x = "'+ s + '"]').css("border","5px solid green");
 
                                   //  }  
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -262,6 +315,7 @@ $(document).ready(function(){
                                   //       $('[x = "'+ red[d] + '"]').css("border","5px solid green");
 
                                   //  }  
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -273,6 +327,7 @@ $(document).ready(function(){
                                   //       $('[x = "'+ black[f] + '"]').css("border","5px solid green");
 
                                   //  }  
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -284,6 +339,7 @@ $(document).ready(function(){
                                   //       $('[x = "'+ big_series[c] + '"]').css("border","5px solid green");
 
                                   //  }  
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -295,6 +351,7 @@ $(document).ready(function(){
                                         $('[x = "'+ s_s[l] + '"]').css("border","5px solid green");
 
                                    }  */
+                                   getcount();
                                    getimage();
                               
                               break;
@@ -307,6 +364,7 @@ $(document).ready(function(){
                                   //       $('[x = "'+ orphans[v] + '"]').css("border","5px solid green");
 
                                   //  }  
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -318,6 +376,7 @@ $(document).ready(function(){
                                   //       $('[x = "'+ zero_spiel[b] + '"]').css("border","5px solid green");
 
                                   //  }  
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -329,7 +388,7 @@ $(document).ready(function(){
                                 // for(var t = 0;t < ar2k1_1.length;t++){
                                 //     $('[x = "'+ ar2k1_1[t] + '"]').css("border","5px solid green");
                                 // }
-
+                                  getcount();
                                   getimage();
                                 
                                 break;
@@ -339,7 +398,7 @@ $(document).ready(function(){
                                 // for(var y = 0;y < ar2k1_2.length;y++){
                                 //     $('[x = "'+ ar2k1_2[y] + '"]').css("border","5px solid green");
                                 // }
-
+                                  getcount();
                                   getimage();
                                 
                                 break;
@@ -349,32 +408,32 @@ $(document).ready(function(){
                                 // for(var u = 0;u < ar2k1_3.length;u++){
                                 //     $('[x = "'+ ar2k1_3[u] + '"]').css("border","5px solid green");
                                 // }
-
+                                  getcount();
                                   getimage();
                                 
                                 break;
 
                               case 'no': 
-
+                                  getcount();
                                   getimage();
                               
                               break;
 
 
                               case 'ntwo': 
-
+                                  getcount();
                                   getimage();
                                 
                                 break;
 
                               case 'nthree': 
-
+                                  getcount();
                                   getimage();
                               
                               break;
 
                               case 'nf': 
-
+                                  getcount();
                                   getimage();
                               
                               break;
@@ -385,7 +444,7 @@ $(document).ready(function(){
                                     for(var g = 0;g < arnumbersearchcombination.length;g++){
                                         if(x == arnumbersearchcombination[g]){
 
-                                              var revoar = arnumbersearchcombination[g].split('x');
+                                              var revoar = arnumbersearchcombination[g].split('x');           /*chisla s x promezhutkom*/
 
                                              // for(var k = 0;k < revoar.length;k++){
 
@@ -398,14 +457,16 @@ $(document).ready(function(){
                                                     // p_indecator_count.text("x" + count_img);
 
                                              // }
-
+                                                  getcount2();
                                                   getimage();
 
                                          }
                                      }
 
 
-                            }
+                            }   /*kones if*/
+
+
 
                           
                       }
@@ -422,7 +483,7 @@ $(document).ready(function(){
           
 
     });
-
+              /*podsvetka*/
 
     $(".y").hover(
 
@@ -644,9 +705,9 @@ $(document).ready(function(){
 
         });
 
+        /*podsvetka*/
 
-
-
+                        /*vibor i podsvetka fishek*/
 
         $(".fishki").hover(function(){
 
@@ -684,12 +745,14 @@ $(document).ready(function(){
             var nom = x.attr("src");
             var numb = x.attr("v");
 
-            nominalurl = nom;
+            
             nominalnumber = numb;
 
         });
              
-            
+            /*vibor i podsvetka fishek*/
+
+
 
             /*var vvv = document.getElementById('ggg');
      
@@ -734,7 +797,7 @@ $(document).ready(function(){
                     // ctx.fillRect(20, 20, 150, 100);
                     // document.body.appendChild(x);
 
-
+                                /*X2 double*/
 
                     $(".n251").click(function(){
 
@@ -859,7 +922,121 @@ $(document).ready(function(){
 
                     });
 
-                    
+                                        /*X2 double*/
+
+                                        /*ochistka*/
+
+
+                 $(".n252").click(function(){
+
+
+                    $(".y").each(function(index,element){
+
+                        var osn = $(element);
+
+                        var div = osn.children("div:not(.i)");
+
+                        var ii = osn.children(".i");
+
+                        ii.attr("count","0");
+
+                        ii.empty();
+
+                        ii.hide();
+
+                        div.show();
+
+
+                    });
+
+
+                 });       
+                                        /*ochistka*/
+
+                                        /*otpravka dannih test*/
+
+
+                 $("#otpr").click(function(){
+
+                    var checkkoef = 0;
+
+                    for(var i = 0;i < arnumbercount.length;i++){
+                          if(arnumbercount[i] != "0"){
+                            checkkoef = 1;
+                          }
+                    }
+
+                    for(var i = 0;i < arnumbercombinationcount.length;i++){
+                          if(arnumbercombinationcount[i] != "0"){
+                            checkkoef = 1;
+                          }
+                    }
+
+                    for(var i = 0;i < arnumbersearchcombinationcount.length;i++){
+                          if(arnumbersearchcombinationcount[i] != "0"){
+                            checkkoef = 1;
+                          }
+                    }
+
+
+                    if(checkkoef == 1){
+
+                    sendArray[0] = arnumber;
+                    sendArray[1] = arnumbercount;
+                    sendArray[2] = arnumbercombination;
+                    sendArray[3] = arnumbercombinationcount;
+                    sendArray[4] = arnumbersearchcombination;
+                    sendArray[5] = arnumbersearchcombinationcount;
+
+                    var url = $("#burl").val();
+
+            
+                  var o = {
+                      "hid":"d",
+                      "data":sendArray,
+                      };
+
+                   $.ajax({
+                              "type":"POST",
+                              "url":url,
+                              
+                              "datatype":"json html script",
+                              "data":o,
+                            
+                              "success":kx,
+                              "error":errorfunc
+                        
+                        });
+
+                    function kx(result){
+
+                      
+
+                      if(result == "1"){
+                        console.log("ставка сделана..");
+                      }else{
+                        console.log("ошибка занесения в бд..");
+                      }
+      
+                                  }
+
+                       function errorfunc(){
+                          alert("oshibka zaprosa v koef");
+                       }
+
+
+                     }else{
+
+                        console.log("данные пусты..");
+                        return false;
+
+                     }/*kones if*/
+
+
+                 });      //kones click
+
+
+                                        /*otpravka dannih test*/
 
                     
 

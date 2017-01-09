@@ -30,6 +30,7 @@
 				
 			
 					<input type="hidden" id="urll" value="<?php echo  Url::to("@img"); ?>/fishki">
+					<input type="hidden" id="burl" value="<?php echo Url::to('@base'); ?>/site/senddata">
 
 
 					<div style="border:5px solid #9225D8;border-radius: 5px;width: 775px;">		<!-- obernuli stol v div -->
@@ -474,7 +475,7 @@
 			</div>		
 			
 				
-		</div><!-- 87026983488 нина -->
+		</div>
 
 
 
@@ -487,6 +488,8 @@
 
 					
 					<!-- <img width="170%" src="<?php echo  Url::to('@img'); ?>/r.jpg" alt=""> -->
+
+					<button id="otpr" class="btn btn-primary">отправить данные на сервер</button>
 
 				</div>
 
