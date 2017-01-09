@@ -1241,7 +1241,8 @@ public function actionK(){
           $orphanss = array(1,20,14,31,9,6,34,17);
           $zero_spiel = array(35,3,26,0,32);
           $s_s = array(27,13,36,11,30,8,23,10,5,24,16,33);
-          $big_series = array(22,18,29,7,28,12,25,2,21,4,19,15);               
+          $big_series = array(22,18,29,7,28,12,25,2,21,4,19,15);       
+          $sosed = array(0,32,15,19,4,21,2,25,17,34,6,27,13,36,11,30,8,23,10,5,24,16,33,1,20,14,31,9,22,18,29,7,28,12,35,3,26);       
 
                            /*vichisleniya two arrays*/
 
@@ -1369,6 +1370,156 @@ public function actionK(){
 
 
                                 break;
+
+
+                                case 'even':
+
+                                    for($s = 0;$s <= 36;$s++){
+
+                                       if($s % 2 == 0){
+
+                                            if($s == $number){
+                                                
+                                                $d3_status[$i] = 1;
+                                                $d3_money[$i] = $d3[$i] * $chet_nechet;
+                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            }
+
+                                        }
+                                        
+                                    }
+
+
+                                break;
+
+
+                                case 'odd':
+
+                                    for($s = 0;$s <= 36;$s++){
+
+                                       if($s % 2 == 1){
+
+                                            if($s == $number){
+                                                
+                                                $d3_status[$i] = 1;
+                                                $d3_money[$i] = $d3[$i] * $chet_nechet;
+                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            }
+
+                                        }
+
+                                    }
+
+
+                                break;
+
+
+                                case 'red':
+
+                                    for($d = 0;$d < count($red);$d++){
+
+                                            if($red[$d] == $number){
+                                                
+                                                $d3_status[$i] = 1;
+                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            }
+
+                                    }
+
+
+                                break;
+
+
+                                case 'black':
+
+                                    for($f = 0;$f < count($black);$f++){
+
+                                            if($black[$f] == $number){
+                                                
+                                                $d3_status[$i] = 1;
+                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            }
+
+                                    }
+
+
+                                break;
+
+
+                                case 'bs':
+
+                                    for($g = 0;$g < count($big_series);$g++){
+
+                                            if($big_series[$g] == $number){
+                                                
+                                                $d3_status[$i] = 1;
+                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            }
+
+                                    }
+
+
+                                break;
+
+                                case 'ss':
+
+                                    for($h = 0;$h < count($s_s);$h++){
+
+                                            if($s_s[$h] == $number){
+                                                
+                                                $d3_status[$i] = 1;
+                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            }
+
+                                    }
+
+
+                                break;
+
+
+                                case 'orp':
+
+                                    for($j = 0;$j < count($orphanss);$j++){
+
+                                            if($orphanss[$j] == $number){
+                                                
+                                                $d3_status[$i] = 1;
+                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            }
+
+                                    }
+
+
+                                break;
+
+                                case 'zs':
+
+                                    for($k = 0;$k < count($zero_spiel);$k++){
+
+                                            if($zero_spiel[$k] == $number){
+                                                
+                                                $d3_status[$i] = 1;
+                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            }
+
+                                    }
+
+
+                                break;
+
+
+                                case 'no':
+
+                                    
+
+
+                                break;
                             
                             default:
                                 # code...
@@ -1378,7 +1529,7 @@ public function actionK(){
 
                         
                     }
-                    echo $d2[$i]." | ".$d3[$i]."<br>";
+                    //echo $d2[$i]." | ".$d3[$i]."<br>";
                 }
             }
 
