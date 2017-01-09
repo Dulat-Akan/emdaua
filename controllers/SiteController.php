@@ -1129,6 +1129,35 @@ public function actionK(){
 
     public function actionRouletteresult(){
 
+        $number = 2000;
+
+        $street = 12;
+        $split = 18;
+        $corner = 9;
+        $six_number = 6;
+        $stright_up = 36;
+        $dushina = 3;
+        $kolonki = 3;
+        $chet_nechet = 2;
+        $krasn_chernoe = 2;
+        $mal_bolshie = 2;
+        $none = 12;
+        $ntwo = 12;
+        $nthree = 12;
+        $nfour = 12;
+        $big_series = 9;
+        $small_series = 9;
+        $orphand = 9;
+        $zero_spiel = 9;
+
+
+        $result2 = Yii::$app->db->createCommand("SELECT * FROM roulette")->queryAll();
+
+        foreach ($result2 as $value2) {
+            $number = $value2['number'];
+        }
+
+
         $result = Yii::$app->db->createCommand("SELECT * FROM r_koef WHERE status = '2'")->queryAll();
 
         $data = "";
@@ -1141,33 +1170,214 @@ public function actionK(){
                             /*one arrays*/
             $d0 = $data[0];
             $d1 = $data[1];
+                            /*zapolnenie*/
+            $d1_money = array();
+            $d1_status = array();
+
+            for($u = 0;$u < count($d0);$u++){
+                $d1_money[$u] = 0;
+                $d1_status[$u] = 0;
+            }
+                            /*zapolnenie*/
                              /*one arrays*/
 
                              /*two arrays*/
             $d2 = $data[2];
             $d3 = $data[3];
+                            /*zapolnenie*/
+
+            $d3_money = array();
+            $d3_status = array();
+
+            for($p = 0;$p < count($d2);$p++){
+                $d3_money[$p] = 0;
+                $d3_status[$p] = 0;
+            }
+
+                            /*zapolnenie*/
                             /*two arrays*/
 
                             /*three arrays*/
             $d4 = $data[4];
             $d5 = $data[5];
+                            /*zapolnenie*/
+            $d5_money = array();
+            $d5_status = array();
+
+            for($l = 0;$l < count($d4);$l++){
+                $d5_money[$l] = 0;
+                $d5_status[$l] = 0;
+            }
+                            /*zapolnenie*/
                            /*three arrays*/
 
                            /*vichisleniya one arrays*/
 
             for($i = 0;$i < count($d1);$i++){
                 if($d1[$i] != 0){
-                    echo $d0[$i]." | ".$d1[$i]."<br>";
+
+                    if($number != 2000){
+                        if($d0[$i] == $number){
+
+                             $d1_money[$i] = $d1[$i] * $stright_up;
+                             $d1_status[$i] = 1;
+
+                             //echo $d0[$i]." | ".$d1[$i]." | ".$d1_money[$i]." | ".$d1_status[$i]."<br>";
+                        }
+                    }
+                    
+
                 }
             }
 
 
                            /*vichisleniya one arrays*/
 
+          $ar2k1_1 = array(3,6,9,12,15,18,21,24,27,30,33,36);
+          $ar2k1_2 = array(2,5,8,11,14,17,20,23,26,29,32,35);
+          $ar2k1_3 = array(1,4,7,10,13,16,19,22,25,28,31,34);
+          $red = array(1,3,5,7,9,14,16,18,19,21,23,25,27,30,32,34);
+          $black = array(2,4,6,8,10,11,12,13,15,17,20,22,24,26,28,29,31,33,35,36);
+          $orphanss = array(1,20,14,31,9,6,34,17);
+          $zero_spiel = array(35,3,26,0,32);
+          $s_s = array(27,13,36,11,30,8,23,10,5,24,16,33);
+          $big_series = array(22,18,29,7,28,12,25,2,21,4,19,15);               
+
                            /*vichisleniya two arrays*/
 
             for($i = 0;$i < count($d3);$i++){
                 if($d3[$i] != 0){
+
+                    if($number != 2000){
+                        
+                        switch ($d2[$i]) {
+                            case '1x12':
+
+                                
+
+                                for($q = 0;$q <= 12;$q++){
+                                    if($q == $number){
+                                        
+                                        $d3_status[$i] = 1;
+                                        $d3_money[$i] = $d3[$i] * $dushina;
+                                        echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                    }
+                                }
+
+                                
+
+                                break;
+
+                                case '2x12':
+
+                                    for($w = 13;$w <= 24;$w++){
+                                        if($w == $number){
+                                            
+                                            $d3_status[$i] = 1;
+                                            $d3_money[$i] = $d3[$i] * $dushina;
+                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                        }
+                                    }
+
+
+                                break;
+
+
+                                case '3x12':
+
+                                    for($e = 25;$e <= 36;$e++){
+                                        if($e == $number){
+                                            
+                                            $d3_status[$i] = 1;
+                                            $d3_money[$i] = $d3[$i] * $dushina;
+                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                        }
+                                    }
+
+
+                                break;
+
+
+                                case '2k1-1':
+
+                                    for($r = 0;$r < count($ar2k1_1);$r++){
+                                        if($ar2k1_1[$r] == $number){
+                                            
+                                            $d3_status[$i] = 1;
+                                            $d3_money[$i] = $d3[$i] * $kolonki;
+                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                        }
+                                    }
+
+
+                                break;
+
+                                case '2k1_2':
+
+                                    for($t = 0;$t < count($ar2k1_2);$t++){
+                                        if($ar2k1_2[$t] == $number){
+                                            
+                                            $d3_status[$i] = 1;
+                                            $d3_money[$i] = $d3[$i] * $kolonki;
+                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                        }
+                                    }
+
+
+                                break;
+
+
+                                case '2k1_3':
+
+                                    for($y = 0;$y < count($ar2k1_3);$y++){
+                                        if($ar2k1_3[$y] == $number){
+                                            
+                                            $d3_status[$i] = 1;
+                                            $d3_money[$i] = $d3[$i] * $kolonki;
+                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                        }
+                                    }
+
+
+                                break;
+
+                                case '1to18':
+
+                                    for($o = 1;$o <= 18;$o++){
+                                        if($o == $number){
+                                            
+                                            $d3_status[$i] = 1;
+                                            $d3_money[$i] = $d3[$i] * $mal_bolshie;
+                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                        }
+                                    }
+
+
+                                break;
+
+
+                                case '19to36':
+
+                                    for($a = 19;$a <= 36;$a++){
+                                        if($a == $number){
+                                            
+                                            $d3_status[$i] = 1;
+                                            $d3_money[$i] = $d3[$i] * $mal_bolshie;
+                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                        }
+                                    }
+
+
+                                break;
+                            
+                            default:
+                                # code...
+                                break;
+                        }
+
+
+                        
+                    }
                     echo $d2[$i]." | ".$d3[$i]."<br>";
                 }
             }
@@ -1179,7 +1389,7 @@ public function actionK(){
 
             for($i = 0;$i < count($d5);$i++){
                 if($d5[$i] != 0){
-                    echo $d4[$i]." | ".$d5[$i]."<br>";
+                    //echo $d4[$i]." | ".$d5[$i]."<br>";
                 }
             }
 
