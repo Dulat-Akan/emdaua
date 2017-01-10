@@ -317,7 +317,7 @@ $(document).ready(function(){
                       if(x == noar[jj]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
                         $("#fish_p").hide("1000");
-                        $("#message").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
+                        $("#message2").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
                         $("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
@@ -328,7 +328,7 @@ $(document).ready(function(){
                       if(x == notwoar[jp]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
                         $("#fish_p").hide("1000");
-                        $("#message").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
+                        $("#message2").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
                         $("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
@@ -339,7 +339,7 @@ $(document).ready(function(){
                       if(x == nothreear[ja]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
                         $("#fish_p").hide("1000");
-                        $("#message").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
+                        $("#message2").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
                         $("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
@@ -350,7 +350,7 @@ $(document).ready(function(){
                       if(x == nofar[jd]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
                         $("#fish_p").hide("1000");
-                        $("#message").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
+                        $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
                         $("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
