@@ -54,7 +54,17 @@ $(document).ready(function(){
   var s_s = [27,13,36,11,30,8,23,10,5,24,16,33];
   var big_series = [22,18,29,7,28,12,25,2,21,4,19,15];
 
-  
+  var fixsosed = 0;
+
+  var noar = new Array();
+  var notwoar = new Array();
+  var nothreear = new Array();
+  var nofar = new Array();
+
+  var fixno = 0;
+  var fixntwo = 0;
+  var fixnthree = 0;
+  var fixnfour = 0;
 
 
 
@@ -69,6 +79,8 @@ $(document).ready(function(){
             var prevdivnumber = $(this).children("div:not(.i)");
 
             var x = $(this).attr("x");
+
+            
 
             function getimage(){
 
@@ -168,35 +180,6 @@ $(document).ready(function(){
 
             }
 
-            if(nominalnumber == 0){
-                console.log("Выберите номинал..");
-                $("#fish_p").hide("1000");
-                $("#message").text("Выберите номинал..").show("2000").delay("1500").hide("2000");
-                $("#fish_p").delay("1500").show("1000");
-
-                return false;
-            }
-
-            for(var i = 0;i < arnumber.length;i++){
-
-              if(x == arnumber[i]){                           /*prostie chisla*/
-                  //z.css("border","5px solid white");
-                  
-                  var gcount = arnumbercount[i];
-
-                  gcount = (+gcount + +nominalnumber);
-
-                  arnumbercount[i] = gcount;
-
-                  console.log(arnumbercount);
-
-                  getimage();
-
-
-              }
-
-            }
-
             function getcount(){
 
                 var gcount = arnumbercombinationcount[i];
@@ -220,6 +203,128 @@ $(document).ready(function(){
                   console.log(arnumbersearchcombinationcount);
 
             }
+
+            function stopnumbers(){
+
+              for(var jj = 0;jj < noar.length;jj++){
+                      if(x == noar[jj]){
+                        console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        stopnumbersvalue = 1;
+                        return false;
+                      }
+                  }
+
+                  for(var jp = 0;jp < notwoar.length;jp++){
+                      if(x == notwoar[jp]){
+                        console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        stopnumbersvalue = 1;
+                        return false;
+                      }
+                  }
+
+                  for(var ja = 0;ja < nothreear.length;ja++){
+                      if(x == nothreear[ja]){
+                        console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        stopnumbersvalue = 1;
+                        return false;
+                      }
+                  }
+
+                  for(var jd = 0;jd < nofar.length;jd++){
+                      if(x == nofar[jd]){
+                        console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        stopnumbersvalue = 1;
+                        return false;
+                      }
+                  }
+
+            }
+
+            if(nominalnumber == 0){
+                console.log("Выберите номинал..");
+                $("#fish_p").hide("1000");
+                $("#message").text("Выберите номинал..").show("2000").delay("1500").hide("2000");
+                $("#fish_p").delay("1500").show("1000");
+
+                return false;
+            }
+
+              /*chisla s sosedyami*/
+            for(var m = 0;m < arnumbercombination.length;m++){
+
+                      if(x == arnumbercombination[m]){              
+
+
+            switch(x){
+
+                    case 'no': 
+                                  /*getcount();*/
+                                  getimage();
+                                  fixsosed = 1;
+                                  fixno = 1;
+
+                              break;
+
+
+                              case 'ntwo': 
+                                  /*getcount();*/
+                                  getimage();
+                                  fixsosed = 1;
+                                  fixntwo = 1;
+                                
+                                break;
+
+                              case 'nthree': 
+                                  /*getcount();*/
+                                  getimage();
+                                  fixsosed = 1;
+                                  fixnthree = 1;
+                              
+                              break;
+
+                              case 'nf': 
+                                  /*getcount();*/
+                                  getimage();
+                                  fixsosed = 1;
+                                  fixnfour = 1;
+                              
+                              break;
+            }
+
+          }}
+          /*chisla s sosedyami*/
+
+          if(fixsosed == 0){
+
+            var stopnumbersvalue = 0;
+
+                stopnumbers();
+
+                if(stopnumbersvalue == 1){
+                  return false;
+                }
+
+            for(var i = 0;i < arnumber.length;i++){
+
+              if(x == arnumber[i]){                           /*prostie chisla*/
+                  //z.css("border","5px solid white");
+                  
+                  var gcount = arnumbercount[i];
+
+                  gcount = (+gcount + +nominalnumber);
+
+                  arnumbercount[i] = gcount;
+
+                  console.log(arnumbercount);
+
+                  getimage();
+
+
+              }
+
+            }
+
+            
 
 
             for(var i = 0;i < arnumbercombination.length;i++){
@@ -413,30 +518,7 @@ $(document).ready(function(){
                                 
                                 break;
 
-                              case 'no': 
-                                  getcount();
-                                  getimage();
                               
-                              break;
-
-
-                              case 'ntwo': 
-                                  getcount();
-                                  getimage();
-                                
-                                break;
-
-                              case 'nthree': 
-                                  getcount();
-                                  getimage();
-                              
-                              break;
-
-                              case 'nf': 
-                                  getcount();
-                                  getimage();
-                              
-                              break;
 
                               default:
 
@@ -476,7 +558,59 @@ $(document).ready(function(){
             }
 
 
+          }   /*kones if glavnogo*/
 
+
+
+          if(fixsosed == 1){
+              var fh = 0;
+                      /*sosednie chisla*/
+              for(var i = 0;i < arnumber.length;i++){
+
+              if(x == arnumber[i]){     /*prostie chisla*/
+
+                  var stopnumbersvalue = 0;
+
+                  stopnumbers();
+
+                  if(stopnumbersvalue == 1){
+                    return false;
+                  }
+
+                  z.css("border","2px solid white");
+                  fh = 1;
+
+                 if(fixno == 1){
+                    noar.push(arnumber[i]);
+                    fixno = 0;
+                    console.log(noar);
+                 }else if(fixntwo == 1){
+                    notwoar.push(arnumber[i]);
+                    fixntwo = 0;
+                    console.log(notwoar);
+                 }else if(fixnthree == 1){
+                    nothreear.push(arnumber[i]);
+                    fixnthree = 0;
+                    console.log(nothreear);
+                 }else if(fixnfour == 1){
+                    nofar.push(arnumber[i]);
+                    fixnfour = 0;
+                    console.log(nofar);
+                 }
+
+                 fixsosed = 0;
+
+              }
+
+
+            }
+
+              if(fh == 0){
+                  console.log("Выберите номинал для соседних чисел");
+              }
+                      /*sosednie chisla*/
+
+          }
 
 
 
@@ -754,7 +888,7 @@ $(document).ready(function(){
 
 
 
-            /*var vvv = document.getElementById('ggg');
+            var vvv = document.getElementById('ggg');
      
 
                     if (vvv.getContext) {
@@ -786,7 +920,7 @@ $(document).ready(function(){
 
                     
 
-                    }*/
+                    }
 
 
 

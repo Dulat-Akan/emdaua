@@ -2,7 +2,7 @@
 	use yii\helpers\Url;
  ?>
 
-<div id="copy"><canvas style="border:2px solid black;display: none;" id="ggg" width="50" height="50"></canvas></div>
+<div id="copy"><canvas style="border:2px solid black;display: ;" id="ggg" width="50" height="50"></canvas></div>
 
 
 <div class="container-fluid">
