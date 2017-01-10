@@ -60,11 +60,21 @@ $(document).ready(function(){
   var notwoar = new Array();
   var nothreear = new Array();
   var nofar = new Array();
+  var obshiiars = new Array();
+
+      /*fixatori massivov*/
 
   var fixno = 0;
   var fixntwo = 0;
   var fixnthree = 0;
   var fixnfour = 0;
+      /*fixatori massivov*/
+      /*fixatori odnoi stavki na sosedei*/
+  var fixno2 = 0;
+  var fixntwo2 = 0;
+  var fixnthree2 = 0;
+  var fixnfour2 = 0;
+      /*fixatori odnoi stavki na sosedei*/
 
 
 
@@ -180,6 +190,91 @@ $(document).ready(function(){
 
             }
 
+
+            function getimage2(count){
+
+              //new manipulation
+
+                                   prevdivnumber.hide();  //skritie perednego div s nomerom
+                                   //generasiya kartinki
+
+                                    var vvv = document.createElement("CANVAS");
+
+                                    vvv.setAttribute("width", "50");
+                                    vvv.setAttribute("height", "50");
+
+                                     var xxx = vvv.getContext('2d');
+
+                                    xxx.beginPath();
+
+                                    var imcolor = "#49EDF8";
+
+                                    if(nominalnumber == "1"){
+                                        imcolor = "#49EDF8";
+                                    }else if(nominalnumber == "5"){
+                                        imcolor = "#FFFB36";
+                                    }else if(nominalnumber == "25"){
+                                        imcolor = "#87EF12";
+                                    }else if(nominalnumber == "50"){
+                                        imcolor = "#0079EF";
+                                    }else if(nominalnumber == "100"){
+                                        imcolor = "#681830";
+                                    }else if(nominalnumber == "500"){
+                                        imcolor = "#FC4BCD";
+                                    }else if(nominalnumber == "1000"){
+                                        imcolor = "#FF0600";
+                                    }
+
+
+                                    p_indecator_count.attr("colorfx",imcolor);
+
+                                    //podschet kolichestva nazhatii i stavok
+
+                                   
+
+                                   
+                                   //podschet kolichestva nazhatii i stavok
+
+                                    xxx.fillStyle = imcolor;
+                                    xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
+
+                                    xxx.fill();
+
+                                    //xxx.moveTo(45,25);
+
+                                    xxx.beginPath();
+
+                                    xxx.fillStyle = "white";
+
+                                    xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
+
+                                    xxx.fill();
+
+                                    xxx.beginPath();
+                                    xxx.fillStyle = "black";
+                                    xxx.font = "14px serif";
+
+                                    /*sentrovka texta*/
+
+                                    var snum = count + "n";
+                                   
+                                    xxx.fillText(snum, 17, 30);
+                                    /*sentrovka texta*/
+
+                                    //generasiya kartinki
+
+                                    //document.body.appendChild(vvv); //vstabka kartinki
+
+                                    p_indecator_count.empty();      //ochistka diva
+
+                                    p_indecator_count.append(vvv);  //vstabka kartinki
+
+                                    p_indecator_count.show();       //pokaz kartinki
+
+                                    //new manipulation
+
+            }
+
             function getcount(){
 
                 var gcount = arnumbercombinationcount[i];
@@ -204,11 +299,26 @@ $(document).ready(function(){
 
             }
 
+            function getcount3(){
+
+                var gcount = arnumbercombinationcount[m];
+
+                  gcount = (+gcount + +nominalnumber);
+
+                  arnumbercombinationcount[m] = gcount;
+
+                  console.log(arnumbercombinationcount);
+
+            }
+
             function stopnumbers(){
 
               for(var jj = 0;jj < noar.length;jj++){
                       if(x == noar[jj]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        $("#fish_p").hide("1000");
+                        $("#message").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
+                        $("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
                       }
@@ -217,6 +327,9 @@ $(document).ready(function(){
                   for(var jp = 0;jp < notwoar.length;jp++){
                       if(x == notwoar[jp]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        $("#fish_p").hide("1000");
+                        $("#message").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
+                        $("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
                       }
@@ -225,6 +338,9 @@ $(document).ready(function(){
                   for(var ja = 0;ja < nothreear.length;ja++){
                       if(x == nothreear[ja]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        $("#fish_p").hide("1000");
+                        $("#message").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
+                        $("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
                       }
@@ -233,6 +349,9 @@ $(document).ready(function(){
                   for(var jd = 0;jd < nofar.length;jd++){
                       if(x == nofar[jd]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        $("#fish_p").hide("1000");
+                        $("#message").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
+                        $("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
                       }
@@ -258,35 +377,39 @@ $(document).ready(function(){
             switch(x){
 
                     case 'no': 
-                                  /*getcount();*/
+                                  getcount3();
                                   getimage();
                                   fixsosed = 1;
                                   fixno = 1;
+                                  
 
                               break;
 
 
                               case 'ntwo': 
-                                  /*getcount();*/
+                                  getcount3();
                                   getimage();
                                   fixsosed = 1;
                                   fixntwo = 1;
                                 
+                                
                                 break;
 
                               case 'nthree': 
-                                  /*getcount();*/
+                                  getcount3();
                                   getimage();
                                   fixsosed = 1;
                                   fixnthree = 1;
+                                  
                               
                               break;
 
                               case 'nf': 
-                                  /*getcount();*/
+                                  getcount3();
                                   getimage();
                                   fixsosed = 1;
                                   fixnfour = 1;
+                                 
                               
                               break;
             }
@@ -563,7 +686,7 @@ $(document).ready(function(){
 
 
           if(fixsosed == 1){
-              var fh = 0;
+              var fh = 0;   /*peremennaya fixasii soobshenii*/
                       /*sosednie chisla*/
               for(var i = 0;i < arnumber.length;i++){
 
@@ -577,25 +700,42 @@ $(document).ready(function(){
                     return false;
                   }
 
-                  z.css("border","2px solid white");
+                  
                   fh = 1;
 
-                 if(fixno == 1){
+                 if((fixno == 1) && (fixno2 != 1)){
+                    //z.css("border","2px solid white");
+                    getimage2(1);
                     noar.push(arnumber[i]);
                     fixno = 0;
+                    fixno2 = 1;
                     console.log(noar);
-                 }else if(fixntwo == 1){
+                 }else if((fixntwo == 1) && (fixntwo2 != 1)){
+                    //z.css("border","2px solid white");
+                    getimage2(2);
                     notwoar.push(arnumber[i]);
                     fixntwo = 0;
+                    fixntwo2 = 1;
                     console.log(notwoar);
-                 }else if(fixnthree == 1){
+                 }else if((fixnthree == 1) && (fixnthree2 != 1)){
+                   // z.css("border","2px solid white");
+                    getimage2(3);
                     nothreear.push(arnumber[i]);
                     fixnthree = 0;
+                    fixnthree2 = 1;
                     console.log(nothreear);
-                 }else if(fixnfour == 1){
+                 }else if((fixnfour == 1) && (fixnfour2 != 1)){
+                    //z.css("border","2px solid white");
+                    getimage2(4);
                     nofar.push(arnumber[i]);
                     fixnfour = 0;
+                    fixnfour2 = 1;
                     console.log(nofar);
+                 }else if((fixno2 == 1) || (fixntwo2 == 1) || (fixnthree2 == 1) || (fixnfour2 == 1)){
+                      console.log("Ставка на выбранного соседа уже делалась..");
+                      $("#fish_p").hide("1000");
+                      $("#message2").text("Ставка на выбранного соседа уже делалась..").show("2000").delay("1500").hide("2000");
+                      $("#fish_p").delay("1500").show("1000");
                  }
 
                  fixsosed = 0;
@@ -607,6 +747,9 @@ $(document).ready(function(){
 
               if(fh == 0){
                   console.log("Выберите номинал для соседних чисел");
+                  $("#fish_p").hide("1000");
+                  $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
+                  $("#fish_p").delay("1500").show("1000");
               }
                       /*sosednie chisla*/
 
@@ -888,7 +1031,7 @@ $(document).ready(function(){
 
 
 
-            var vvv = document.getElementById('ggg');
+            /*var vvv = document.getElementById('ggg');
      
 
                     if (vvv.getContext) {
@@ -914,13 +1057,16 @@ $(document).ready(function(){
                     xxx.beginPath();
                     xxx.fillStyle = "black";
                     xxx.font = "14px serif";
-                    xxx.fillText(1, 20, 30);
+
+                    var snum = 1 + "s";
+
+                    xxx.fillText(snum, 17, 30);
 
                     
 
                     
 
-                    }
+                    }*/
 
 
 
@@ -1115,12 +1261,21 @@ $(document).ready(function(){
 
                     if(checkkoef == 1){
 
+                        /*sbor sosedei arrays*/   
+                     obshiiars[0] = noar;
+                     obshiiars[1] = notwoar;
+                     obshiiars[2] = nothreear;
+                     obshiiars[3] = nofar;
+                        /*sbor sosedei arrays*/
+
+
                     sendArray[0] = arnumber;
                     sendArray[1] = arnumbercount;
                     sendArray[2] = arnumbercombination;
                     sendArray[3] = arnumbercombinationcount;
                     sendArray[4] = arnumbersearchcombination;
                     sendArray[5] = arnumbersearchcombinationcount;
+                    sendArray[6] = obshiiars;
 
                     var url = $("#burl").val();
 

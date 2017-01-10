@@ -2,7 +2,7 @@
 	use yii\helpers\Url;
  ?>
 
-<div id="copy"><canvas style="border:2px solid black;display: ;" id="ggg" width="50" height="50"></canvas></div>
+<div id="copy"><canvas style="border:2px solid black;display:none ;" id="ggg" width="50" height="50"></canvas></div>
 
 
 <div class="container-fluid">
@@ -455,6 +455,7 @@
 								<div><img class="fishki" v="1000" style="width: 70px; float: left;margin-left: 5px;" src="<?php echo  Url::to('@img'); ?>/fishki/1000.png" alt=""></div>
 							</div>
 							<div id="message" style="display: none;font-size: 30px;color:red;margin-left:130px;"></div>
+							<div id="message2" style="display:none;font-size: 25px;color:red;"></div>
 
 						</div>
 
