@@ -1142,13 +1142,15 @@ public function actionK(){
         $krasn_chernoe = 2;
         $mal_bolshie = 2;
         $none = 12;
-        $ntwo = 12;
-        $nthree = 12;
-        $nfour = 12;
+        $ntwo = 10;
+        $nthree = 8;
+        $nfour = 6;
         $big_series = 9;
         $small_series = 9;
         $orphand = 9;
         $zero_spiel = 9;
+
+        $ostat = array();
 
 
         $result2 = Yii::$app->db->createCommand("SELECT * FROM roulette")->queryAll();
@@ -1208,6 +1210,12 @@ public function actionK(){
                 $d5_money[$l] = 0;
                 $d5_status[$l] = 0;
             }
+
+            if(isset($data[6])){
+                $d6 = $data[6];
+            }
+            
+
                             /*zapolnenie*/
                            /*three arrays*/
 
@@ -1261,7 +1269,7 @@ public function actionK(){
                                         
                                         $d3_status[$i] = 1;
                                         $d3_money[$i] = $d3[$i] * $dushina;
-                                        echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                        //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                     }
                                 }
 
@@ -1276,7 +1284,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $dushina;
-                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
 
@@ -1291,7 +1299,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $dushina;
-                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
 
@@ -1306,7 +1314,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $kolonki;
-                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
 
@@ -1320,7 +1328,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $kolonki;
-                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
 
@@ -1335,7 +1343,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $kolonki;
-                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
 
@@ -1349,7 +1357,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $mal_bolshie;
-                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
 
@@ -1364,7 +1372,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $mal_bolshie;
-                                            echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                            //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
 
@@ -1382,7 +1390,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $chet_nechet;
-                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                                //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
                                         }
@@ -1403,7 +1411,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $chet_nechet;
-                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                                //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
                                         }
@@ -1422,7 +1430,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
-                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                                //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
                                     }
@@ -1439,7 +1447,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
-                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                                //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
                                     }
@@ -1456,7 +1464,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
-                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                                //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
                                     }
@@ -1472,7 +1480,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
-                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                                //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
                                     }
@@ -1489,7 +1497,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
-                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                                //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
                                     }
@@ -1505,7 +1513,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
-                                                echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+                                                //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
                                     }
@@ -1516,7 +1524,325 @@ public function actionK(){
 
                                 case 'no':
 
-                                    
+                                    //echo "--".$d3[$i]."--";
+                                    //echo "--".$d6[0][0]."--";
+
+                                    for($z = 0;$z < count($sosed);$z++){
+                                        if(isset($d6[0][0])){
+
+                                            if($d6[0][0] == $sosed[$z]){
+
+                                                
+                                                if($z+1 > 36){
+                                                    $zm = $z+1-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zm = $z+1;
+                                                }
+
+                                                if($z-1 < 0){
+                                                    $zg = $z-1+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zg = $z-1;
+                                                }
+
+                                                if($sosed[$z] == $number || $sosed[$zg] == $number || $sosed[$zm] == $number){
+                                                    $d3_status[$i] = 1;
+
+                                                    $jjj = (($d3[$i] / 3) * $none)-1;
+                                                    $d3_money[$i] = floor($jjj);
+                                                    $ost = $jjj - $d3_money[$i] + 1;
+  
+                                                    array_push($ostat, $ost);
+                                                    //echo $ost;
+
+                                                    //$d3_money[$i] = floor(($d3[$i] / 3) * $none);
+                                                    //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+
+                                                    //echo $zm;
+                                                    // echo $sosed[$zm];
+                                                    // echo $z;
+                                                    // echo $sosed[$zg];
+                                                }
+                                            }
+
+                                        }
+                                    }
+
+
+                                break;
+
+
+                                case 'ntwo':
+
+                                    //echo "--".$d3[$i]."--";
+                                    //echo "--".$d6[1][0]."--";
+
+                                    for($n = 0;$n < count($sosed);$n++){
+                                        if(isset($d6[1][0])){
+
+                                            if($d6[1][0] == $sosed[$n]){
+
+                                                
+                                                if($n+1 > 36){
+                                                    $zm = $n+1-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zm = $n+1;
+                                                }
+
+                                                if($n+2 > 36){
+                                                    $zl = $n+2-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zl = $n+2;
+                                                }
+
+                                                if($z-1 < 0){
+                                                    $zg = $n-1+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zg = $n-1;
+                                                }
+
+                                                if($z-2 < 0){
+                                                    $zk = $n-2+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zk = $n-2;
+                                                }
+
+                                                if($sosed[$n] == $number || $sosed[$zg] == $number || $sosed[$zm] == $number || $sosed[$zk] == $number || $sosed[$zl] == $number){
+                                                    $d3_status[$i] = 1;
+
+                                                    $jjj = (($d3[$i] / 5) * $ntwo)-1;
+                                                    $d3_money[$i] = floor($jjj);
+                                                    $ost = $jjj - $d3_money[$i] + 1;
+                                                    //echo $ost;
+                                                    array_push($ostat, $ost);
+                                                    //$d3_money[$i] = floor(($d3[$i] / 5) * $ntwo);
+                                                    //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+
+                                                    //echo $zm;
+                                                    // echo $sosed[$zm];
+                                                    // echo $z;
+                                                    // echo $sosed[$zg];
+                                                }
+                                            }
+
+                                        }
+                                    }
+
+
+                                break;
+
+
+                                case 'nthree':
+
+                                    //echo "--".$d3[$i]."--";
+                                    //echo "--".$d6[1][0]."--";
+
+                                    for($n = 0;$n < count($sosed);$n++){
+                                        if(isset($d6[2][0])){
+
+                                            if($d6[2][0] == $sosed[$n]){
+
+                                                
+                                                if($n+1 > 36){
+                                                    $zm = $n+1-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zm = $n+1;
+                                                }
+
+                                                if($n+2 > 36){
+                                                    $zl = $n+2-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zl = $n+2;
+                                                }
+
+                                                if($n+3 > 36){
+                                                    $zr = $n+3-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zr = $n+3;
+                                                }
+
+                                                if($z-1 < 0){
+                                                    $zg = $n-1+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zg = $n-1;
+                                                }
+
+                                                if($z-2 < 0){
+                                                    $zk = $n-2+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zk = $n-2;
+                                                }
+
+
+                                                if($z-3 < 0){
+                                                    $zt = $n-3+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zt = $n-3;
+                                                }
+
+                                                if($sosed[$n] == $number || $sosed[$zg] == $number || $sosed[$zm] == $number || $sosed[$zk] == $number || $sosed[$zl] == $number || $sosed[$zt] == $number || $sosed[$zr] == $number){
+                                                    $d3_status[$i] = 1;
+
+                                                    $jjj = (($d3[$i] / 7) * $nthree)-1;
+                                                    $d3_money[$i] = floor($jjj);
+                                                    $ost = $jjj - $d3_money[$i] + 1;
+                                                    //echo $ost;
+                                                    array_push($ostat, $ost);
+                                                    //$d3_money[$i] = floor(($d3[$i] / 3) * $nthree);
+                                                   // echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+
+                                                    //echo $zm;
+                                                    // echo $sosed[$zm];
+                                                    // echo $z;
+                                                    // echo $sosed[$zg];
+                                                }
+                                            }
+
+                                        }
+                                    }
+
+
+                                break;
+
+
+                                case 'nf':
+
+                                    //echo "--".$d3[$i]."--";
+                                    //echo "--".$d6[1][0]."--";
+
+                                    for($n = 0;$n < count($sosed);$n++){
+                                        if(isset($d6[3][0])){
+
+                                            if($d6[3][0] == $sosed[$n]){
+
+                                                
+                                                if($n+1 > 36){
+                                                    $zm = $n+1-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zm = $n+1;
+                                                }
+
+                                                if($n+2 > 36){
+                                                    $zl = $n+2-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zl = $n+2;
+                                                }
+
+                                                if($n+3 > 36){
+                                                    $zr = $n+3-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zr = $n+3;
+                                                }
+
+                                                if($n+4 > 36){
+                                                    $zvv = $n+4-37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zm];
+
+                                                }else{
+                                                    $zvv = $n+4;
+                                                }
+
+                                                if($z-1 < 0){
+                                                    $zg = $n-1+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zg = $n-1;
+                                                }
+
+                                                if($z-2 < 0){
+                                                    $zk = $n-2+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zk = $n-2;
+                                                }
+
+
+                                                if($z-3 < 0){
+                                                    $zt = $n-3+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zt = $n-3;
+                                                }
+
+                                                if($z-4 < 0){
+                                                    $zvn = $n-4+37;
+                                                    //echo "facker";
+                                                    //echo $sosed[$zg];
+
+                                                }else{
+                                                    $zvn = $n-4;
+                                                }
+
+                                                if($sosed[$n] == $number || $sosed[$zg] == $number || $sosed[$zm] == $number || $sosed[$zk] == $number || $sosed[$zl] == $number || $sosed[$zt] == $number || $sosed[$zr] == $number || $sosed[$zvv] == $number || $sosed[$zvn] == $number){
+                                                    $d3_status[$i] = 1;
+                                                    $jjj = (($d3[$i] / 9) * $nfour)-1;
+                                                    $d3_money[$i] = floor($jjj);
+                                                    $ost = $jjj - $d3_money[$i] + 1;
+                                                    //echo $ost;
+                                                    array_push($ostat, $ost);
+                                                    //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
+
+                                                    //echo $zm;
+                                                    // echo $sosed[$zm];
+                                                    // echo $z;
+                                                    // echo $sosed[$zg];
+                                                }
+                                            }
+
+                                        }
+                                    }
 
 
                                 break;
@@ -1538,9 +1864,46 @@ public function actionK(){
 
                            /*vichisleniya two arrays*/
 
+            
+
             for($i = 0;$i < count($d5);$i++){
                 if($d5[$i] != 0){
                     //echo $d4[$i]." | ".$d5[$i]."<br>";
+
+                    $exp = explode("x", $d4[$i]);
+                        $ooo = 0;
+                        $fixit = 0;
+                    for($gm = 0;$gm < count($exp);$gm++){
+
+                        if($exp[$gm] == $number){
+
+                            $d5_status[$i] = 1;
+
+                            $fixit = 1;
+                            
+                            //echo $d4[$i]." | ".$d5[$i]." | ".$d5_money[$i]." | ".$d5_status[$i]."<br>";
+                        }
+                        $ooo++;
+                    }
+                        if($ooo == 2){
+                                $d5_money[$i] = $d5[$i] * $split;
+                               // echo "<br>----2----<br>";
+                            }
+
+                        if($ooo == 6){
+                                $d5_money[$i] = $d5[$i] * $six_number;
+                               // echo "<br>----2----<br>";
+                            }
+
+                        if($ooo == 4){
+                                $d5_money[$i] = $d5[$i] * $corner;
+                               // echo "<br>----2----<br>";
+                            }
+
+                        if($fixit == 1){
+                            //echo $d4[$i]." | ".$d5[$i]." | ".$d5_money[$i]." | ".$d5_status[$i]."<br>";
+                        }
+
                 }
             }
 

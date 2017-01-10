@@ -11,7 +11,7 @@ $(document).ready(function(){
   for(var i = 0;i < arnumber.length;i++){
     arnumbercount[i] = 0;
   }
-
+    //dlya rascheta selih blokov
   var arnumbercombination = ["1x12","2x12","3x12","3x2x1","3x6x2x5x1x4","6x5x4","6x9x5x8x4x7","9x8x7","9x12x8x11x7x10","12x11x10","12x15x11x14x10x13","15x14x13",
   "15x18x14x17x13x16","18x17x16","18x21x17x20x16x19","21x20x19","21x24x20x23x19x22","24x23x22","24x27x23x26x22x25","27x26x25","27x30x26x29x25x28","30x29x28","30x33x29x32x28x31",
   "33x32x31","33x36x32x35x31x34","36x35x34","3x6","6x9","9x12","12x15","15x18","18x21","21x24","24x27","27x30","30x33","33x36","2k1-1","3x2","3x6x2x5","6x5","6x9x5x8","9x8",
@@ -27,7 +27,7 @@ $(document).ready(function(){
   for(var i = 0;i < arnumbercombination.length;i++){
     arnumbercombinationcount[i] = 0;
   }
-
+      //chisto combinasii iz chisel
   var arnumbersearchcombination = ["3x2x1","3x6x2x5x1x4","6x5x4","6x9x5x8x4x7","9x8x7","9x12x8x11x7x10","12x11x10","12x15x11x14x10x13","15x14x13",
   "15x18x14x17x13x16","18x17x16","18x21x17x20x16x19","21x20x19","21x24x20x23x19x22","24x23x22","24x27x23x26x22x25","27x26x25","27x30x26x29x25x28","30x29x28","30x33x29x32x28x31",
   "33x32x31","33x36x32x35x31x34","36x35x34","3x6","6x9","9x12","12x15","15x18","18x21","21x24","24x27","27x30","30x33","33x36","3x2","3x6x2x5","6x5","6x9x5x8","9x8",
@@ -376,12 +376,17 @@ $(document).ready(function(){
 
             switch(x){
 
-                    case 'no': 
+                            case 'no': 
                                   getcount3();
                                   getimage();
                                   fixsosed = 1;
                                   fixno = 1;
                                   
+                                  if(fixno2 != 1){
+                                    $("#fish_p").hide("1000");
+                                    $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
+                                    $("#fish_p").delay("1500").show("1000");
+                                  }
 
                               break;
 
@@ -391,6 +396,12 @@ $(document).ready(function(){
                                   getimage();
                                   fixsosed = 1;
                                   fixntwo = 1;
+
+                                  if(fixntwo2 != 1){
+                                    $("#fish_p").hide("1000");
+                                    $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
+                                    $("#fish_p").delay("1500").show("1000");
+                                  }
                                 
                                 
                                 break;
@@ -400,6 +411,12 @@ $(document).ready(function(){
                                   getimage();
                                   fixsosed = 1;
                                   fixnthree = 1;
+
+                                  if(fixnthree2 != 1){
+                                    $("#fish_p").hide("1000");
+                                    $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
+                                    $("#fish_p").delay("1500").show("1000");
+                                  }
                                   
                               
                               break;
@@ -409,6 +426,12 @@ $(document).ready(function(){
                                   getimage();
                                   fixsosed = 1;
                                   fixnfour = 1;
+
+                                  if(fixnfour2 != 1){
+                                    $("#fish_p").hide("1000");
+                                    $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
+                                    $("#fish_p").delay("1500").show("1000");
+                                  }
                                  
                               
                               break;
@@ -686,7 +709,7 @@ $(document).ready(function(){
 
 
           if(fixsosed == 1){
-              var fh = 0;   /*peremennaya fixasii soobshenii*/
+              
                       /*sosednie chisla*/
               for(var i = 0;i < arnumber.length;i++){
 
@@ -701,7 +724,7 @@ $(document).ready(function(){
                   }
 
                   
-                  fh = 1;
+                  
 
                  if((fixno == 1) && (fixno2 != 1)){
                     //z.css("border","2px solid white");
@@ -745,12 +768,7 @@ $(document).ready(function(){
 
             }
 
-              if(fh == 0){
-                  console.log("Выберите номинал для соседних чисел");
-                  $("#fish_p").hide("1000");
-                  $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
-                  $("#fish_p").delay("1500").show("1000");
-              }
+             
                       /*sosednie chisla*/
 
           }
@@ -1273,7 +1291,7 @@ $(document).ready(function(){
                     sendArray[1] = arnumbercount;
                     sendArray[2] = arnumbercombination;
                     sendArray[3] = arnumbercombinationcount;
-                    sendArray[4] = arnumbersearchcombination;
+                    sendArray[4] = arnumbersearchcombination;         
                     sendArray[5] = arnumbersearchcombinationcount;
                     sendArray[6] = obshiiars;
 
