@@ -95,62 +95,7 @@ Yii::$app->session->setFlash('error', 'Вы уже потверждали ран
  return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));    
 		     }
 			
-
-			
-	
-	
-	
-	
-	
-	
-	
-	
-    
-   public function actionUsertwo()
-        {
-	$this->layout = 'main2';		
-			
-$model = new Usertwo();
-
-            if ($model->load(Yii::$app->request->post())) {
-                if($model->validate()) {
-            // form inputs are valid, do something here
-                    $model->attributes = Yii::$app->request->post('Usertwo');
-                     $model->password=Yii::$app->getSecurity()->generatePasswordHash($_POST['Usertwo']['password']);
-                    $model->timer=time();
-                    $model->save();
-                    
-$username=$_POST['Usertwo']['username'];    
-$patch="<a href='http://".$_SERVER['HTTP_HOST'].Url::to('@site')."/status?login=".$username."' target='blank'>перейдите по ссылке</a>";
-$date=date("d.m.Y"); 
-$time=date("H:i"); 
-$to=$_POST['Usertwo']['email'];//кому отправить
-$subject = "Потверждение регистрации";//тема письма
-			   $subject='=?UTF-8?B?'.base64_encode($subject).'?=';
-	          $From = ' site';
-             $message="Для потверждения регистрации ".$patch;
-                     $headers="From: $From\r\nReply-To: \r\nContent-type: text/html; charset=UTF-8\r\n";
-		              mail($to,$subject,$message,$headers);
-Yii::$app->session->setFlash('success', 'Данные приняты, вам на почту выслано письмо с активацией, необходимо сделать активацию в течениии трех дней');
-return $this->refresh();
-                        
-                        
-                }else{
-                    Yii::$app->session->setFlash('error', 'Ошибка: такой логин в нашей системе есть');
-                     return $this->refresh();
-                }
-            }
-
-            return $this->render('usertwo', [
-                'model' => $model,
-            ]);
-        }
-<<<<<<< HEAD
-        Yii::$app->session->setFlash('error', 'Такого логина в этой системе нет');
-        return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));    
-    }
-			
-    public function actionUsertwo(){
+public function actionUsertwo(){
 	$this->layout = 'main2';		
 	$model = new Usertwo();
         if ($model->load(Yii::$app->request->post())) {
@@ -174,9 +119,13 @@ return $this->refresh();
                 mail($to,$subject,$message,$headers);
                 Yii::$app->session->setFlash('success', 'Данные приняты, вам на почту выслано письмо с активацией, необходимо сделать активацию в течениии трех дней');
                 return $this->refresh();
-=======
-    
->>>>>>> 48c5182892f3d944603516f0497ef1d6234cbb48
+                }
+            }
+
+            return $this->render('usertwo', [
+                'model' => $model,
+            ]);
+        }
 
 
 
