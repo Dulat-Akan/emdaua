@@ -5,6 +5,12 @@
 <div id="copy"><canvas style="border:2px solid black;display:none ;" id="ggg" width="50" height="50"></canvas></div>
 
 
+
+<input type="hidden" id="us" value="<?php echo $id; ?>">
+
+
+
+
 <div class="container-fluid">
 	<div class="row">
 

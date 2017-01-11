@@ -1216,6 +1216,17 @@ $(document).ready(function(){
 
                         });
 
+                        /*udvoenie massivov*/
+
+                        for(var i = 0;i < arnumbercount.length;i++){
+
+                            if(arnumbercount[i] != 0){
+                                arnumbercount[i] = arnumbercount[i] * 2;
+                            }
+
+                        }
+                        /*udvoenie massivov*/
+
                         
 
                     });
@@ -1244,8 +1255,28 @@ $(document).ready(function(){
 
                         div.show();
 
+                        
+
 
                     });
+
+                       for(var i = 0;i < arnumbercount.length;i++){
+                            arnumbercount[i] = 0;
+                        }
+
+                        for(var j = 0;j < arnumbercombinationcount.length;j++){
+                            arnumbercombinationcount[j] = 0;
+                        }
+
+                        for(var k = 0;k < arnumbersearchcombinationcount.length;k++){
+                            arnumbersearchcombinationcount[k] = 0;
+                        }
+
+
+                        noar[0] = 0;
+                        notwoar[0] = 0;
+                        nothreear[0] = 0;
+                        nofar[0] = 0;
 
 
                  });       
@@ -1286,6 +1317,31 @@ $(document).ready(function(){
                      obshiiars[3] = nofar;
                         /*sbor sosedei arrays*/
 
+                        /*dopolnitelnie usloviya*/
+
+                        if((obshiiars[0][0] == undefined) || (obshiiars[0][0] == "-")){
+                            obshiiars[0][0] = 0;
+                        }
+
+                        if((obshiiars[1][0] == undefined) || (obshiiars[1][0] == "-")){
+                            obshiiars[1][0] = 0;
+                        }
+
+                        if((obshiiars[2][0] == undefined) || (obshiiars[2][0] == "-")){
+                            obshiiars[2][0] = 0;
+                        }
+
+                        if((obshiiars[3][0] == undefined) || (obshiiars[3][0] == "-")){
+                            obshiiars[3][0] = 0;
+                        }
+                        
+                        /*dopolnitelnie usloviya*/
+
+                        /*berem id*/
+
+                        var id = $("#us").val();
+
+                        /*berem id*/
 
                     sendArray[0] = arnumber;
                     sendArray[1] = arnumbercount;
@@ -1293,7 +1349,8 @@ $(document).ready(function(){
                     sendArray[3] = arnumbercombinationcount;
                     sendArray[4] = arnumbersearchcombination;         
                     sendArray[5] = arnumbersearchcombinationcount;
-                    sendArray[6] = obshiiars;
+                    sendArray[6] = obshiiars;     /*sosedi*/
+                    sendArray[7] = id;     /*sosedi*/
 
                     var url = $("#burl").val();
 

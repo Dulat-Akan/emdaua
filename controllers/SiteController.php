@@ -1037,9 +1037,21 @@ public function actionK(){
 
     public function actionRoulette(){
 
-        $this->layout = 'main4';
+        $identity = Yii::$app->user->identity;
 
-        return $this->render('roulette');
+        if($identity){
+
+            $id = Yii::$app->user->id;
+
+            $this->layout = 'main4';
+
+            return $this->render('roulette', ['id' => $id]);
+
+        }else{
+            return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+        }
+
+        
 
 
 
@@ -1129,6 +1141,11 @@ public function actionK(){
 
     public function actionRouletteresult(){
 
+
+        if($_SERVER['REMOTE_ADDR'] == "127.0.0.1"){    
+
+             /*proverka to chto zaprosi otpravlyaet sam server*/
+
         $number = 2000;
 
         $street = 12;
@@ -1150,7 +1167,11 @@ public function actionK(){
         $orphand = 9;
         $zero_spiel = 9;
 
+        $vinstatus = 0;
+
         $ostat = array();
+
+        
 
 
         $result2 = Yii::$app->db->createCommand("SELECT * FROM roulette")->queryAll();
@@ -1162,11 +1183,24 @@ public function actionK(){
 
         $result = Yii::$app->db->createCommand("SELECT * FROM r_koef WHERE status = '2'")->queryAll();
 
+        if($result == true){
+
         $data = "";
+
+
 
         foreach ($result as $value) {
             $data = unserialize($value['koef']);
-        }
+
+        //  print_r($data);
+
+        // echo "<br>";
+        // echo "<br>";
+        // echo "<br>";
+        // echo "<br>";
+
+       // exit;
+
 
         if($data != ""){
                             /*one arrays*/
@@ -1216,6 +1250,82 @@ public function actionK(){
             }
             
 
+            /*snyatie balansa s postavlennih stavok*/
+
+            /*raschet postavlennoi stavki*/
+                    $money_ost = 0;
+
+                    for($ii = 0;$ii < count($d1);$ii++){
+
+                        if($d1[$ii] != 0){
+                            //echo $d0[$ii]." | ".$d1_status[$ii]." | ".$d1_money[$ii];
+                            $money_ost += $d1[$ii];
+                        }
+
+
+                    }
+
+
+                   
+                    /*echo "<br>";
+                    echo "--------------";
+                     echo "<br>";*/
+
+                    for($ii = 0;$ii < count($d3);$ii++){
+
+                        if($d3[$ii] != 0){
+
+                           // echo $d2[$ii]." | ".$d3_status[$ii]." | ".$d3_money[$ii]."<br>";
+                            $money_ost += $d3[$ii];
+                        }
+
+
+                    }
+
+                    // echo "<br>";
+                    // echo "--------------";
+                    //  echo "<br>";
+
+                    for($ii = 0;$ii < count($d5);$ii++){
+
+                        if($d5[$ii] != 0){
+
+                           // echo $d4[$ii]." | ".$d5_status[$ii]." | ".$d5_money[$ii]."<br>";
+                            $money_ost += $d5[$ii];
+
+                        }
+
+
+                    }
+
+
+
+            /*raschet postavlennoi stavki*/
+
+            $id = $data[7];
+
+            $balans = 0;
+
+            $result3 = Yii::$app->db->createCommand("SELECT * FROM user WHERE id = '$id'")->queryAll();
+
+            if($result3){
+                foreach ($result3 as $value3) {
+                    $balans = $value3['balance'];
+                }
+            }
+
+            if($balans > 0 && $balans > $money_ost){
+                    $balans -= $money_ost;        
+            }
+
+
+
+
+            /*snyatie balansa s postavlennih stavok*/
+
+
+
+
                             /*zapolnenie*/
                            /*three arrays*/
 
@@ -1229,7 +1339,7 @@ public function actionK(){
 
                              $d1_money[$i] = $d1[$i] * $stright_up;
                              $d1_status[$i] = 1;
-
+                             $vinstatus = 1;
                              //echo $d0[$i]." | ".$d1[$i]." | ".$d1_money[$i]." | ".$d1_status[$i]."<br>";
                         }
                     }
@@ -1269,6 +1379,7 @@ public function actionK(){
                                         
                                         $d3_status[$i] = 1;
                                         $d3_money[$i] = $d3[$i] * $dushina;
+                                        $vinstatus = 1;
                                         //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                     }
                                 }
@@ -1284,6 +1395,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $dushina;
+                                            $vinstatus = 1;
                                             //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
@@ -1299,6 +1411,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $dushina;
+                                            $vinstatus = 1;
                                             //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
@@ -1314,6 +1427,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $kolonki;
+                                            $vinstatus = 1;
                                             //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
@@ -1328,6 +1442,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $kolonki;
+                                            $vinstatus = 1;
                                             //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
@@ -1343,6 +1458,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $kolonki;
+                                            $vinstatus = 1;
                                             //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
@@ -1357,6 +1473,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $mal_bolshie;
+                                            $vinstatus = 1;
                                             //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
@@ -1372,6 +1489,7 @@ public function actionK(){
                                             
                                             $d3_status[$i] = 1;
                                             $d3_money[$i] = $d3[$i] * $mal_bolshie;
+                                            $vinstatus = 1;
                                             //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                         }
                                     }
@@ -1390,6 +1508,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $chet_nechet;
+                                                $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
@@ -1411,6 +1530,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $chet_nechet;
+                                                $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
@@ -1430,6 +1550,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
@@ -1447,6 +1568,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
@@ -1464,6 +1586,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
@@ -1480,6 +1603,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
@@ -1497,6 +1621,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
@@ -1513,6 +1638,7 @@ public function actionK(){
                                                 
                                                 $d3_status[$i] = 1;
                                                 $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
 
@@ -1557,6 +1683,7 @@ public function actionK(){
                                                     $jjj = (($d3[$i] / 3) * $none)-1;
                                                     $d3_money[$i] = floor($jjj);
                                                     $ost = $jjj - $d3_money[$i] + 1;
+                                                    $vinstatus = 1;
   
                                                     array_push($ostat, $ost);
                                                     //echo $ost;
@@ -1607,16 +1734,17 @@ public function actionK(){
                                                     $zl = $n+2;
                                                 }
 
-                                                if($z-1 < 0){
+                                                if($n-1 < 0){
                                                     $zg = $n-1+37;
                                                     //echo "facker";
                                                     //echo $sosed[$zg];
 
                                                 }else{
                                                     $zg = $n-1;
+                                                    //echo "ddd";
                                                 }
 
-                                                if($z-2 < 0){
+                                                if($n-2 < 0){
                                                     $zk = $n-2+37;
                                                     //echo "facker";
                                                     //echo $sosed[$zg];
@@ -1624,6 +1752,10 @@ public function actionK(){
                                                 }else{
                                                     $zk = $n-2;
                                                 }
+
+                                                //echo $zm." | ".$zl." | ".$zg." | ".$zk."<br>"."<br>";
+
+                                               // exit;
 
                                                 if($sosed[$n] == $number || $sosed[$zg] == $number || $sosed[$zm] == $number || $sosed[$zk] == $number || $sosed[$zl] == $number){
                                                     $d3_status[$i] = 1;
@@ -1633,6 +1765,7 @@ public function actionK(){
                                                     $ost = $jjj - $d3_money[$i] + 1;
                                                     //echo $ost;
                                                     array_push($ostat, $ost);
+                                                    $vinstatus = 1;
                                                     //$d3_money[$i] = floor(($d3[$i] / 5) * $ntwo);
                                                     //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
 
@@ -1688,7 +1821,7 @@ public function actionK(){
                                                     $zr = $n+3;
                                                 }
 
-                                                if($z-1 < 0){
+                                                if($n-1 < 0){
                                                     $zg = $n-1+37;
                                                     //echo "facker";
                                                     //echo $sosed[$zg];
@@ -1697,7 +1830,7 @@ public function actionK(){
                                                     $zg = $n-1;
                                                 }
 
-                                                if($z-2 < 0){
+                                                if($n-2 < 0){
                                                     $zk = $n-2+37;
                                                     //echo "facker";
                                                     //echo $sosed[$zg];
@@ -1707,7 +1840,7 @@ public function actionK(){
                                                 }
 
 
-                                                if($z-3 < 0){
+                                                if($n-3 < 0){
                                                     $zt = $n-3+37;
                                                     //echo "facker";
                                                     //echo $sosed[$zg];
@@ -1724,6 +1857,7 @@ public function actionK(){
                                                     $ost = $jjj - $d3_money[$i] + 1;
                                                     //echo $ost;
                                                     array_push($ostat, $ost);
+                                                    $vinstatus = 1;
                                                     //$d3_money[$i] = floor(($d3[$i] / 3) * $nthree);
                                                    // echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
 
@@ -1788,7 +1922,7 @@ public function actionK(){
                                                     $zvv = $n+4;
                                                 }
 
-                                                if($z-1 < 0){
+                                                if($n-1 < 0){
                                                     $zg = $n-1+37;
                                                     //echo "facker";
                                                     //echo $sosed[$zg];
@@ -1797,7 +1931,7 @@ public function actionK(){
                                                     $zg = $n-1;
                                                 }
 
-                                                if($z-2 < 0){
+                                                if($n-2 < 0){
                                                     $zk = $n-2+37;
                                                     //echo "facker";
                                                     //echo $sosed[$zg];
@@ -1807,7 +1941,7 @@ public function actionK(){
                                                 }
 
 
-                                                if($z-3 < 0){
+                                                if($n-3 < 0){
                                                     $zt = $n-3+37;
                                                     //echo "facker";
                                                     //echo $sosed[$zg];
@@ -1816,7 +1950,7 @@ public function actionK(){
                                                     $zt = $n-3;
                                                 }
 
-                                                if($z-4 < 0){
+                                                if($n-4 < 0){
                                                     $zvn = $n-4+37;
                                                     //echo "facker";
                                                     //echo $sosed[$zg];
@@ -1832,6 +1966,7 @@ public function actionK(){
                                                     $ost = $jjj - $d3_money[$i] + 1;
                                                     //echo $ost;
                                                     array_push($ostat, $ost);
+                                                    $vinstatus = 1;
                                                     //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
 
                                                     //echo $zm;
@@ -1887,32 +2022,167 @@ public function actionK(){
                     }
                         if($ooo == 2){
                                 $d5_money[$i] = $d5[$i] * $split;
+                                $vinstatus = 1;
                                // echo "<br>----2----<br>";
                             }
 
                         if($ooo == 6){
                                 $d5_money[$i] = $d5[$i] * $six_number;
+                                $vinstatus = 1;
                                // echo "<br>----2----<br>";
                             }
 
                         if($ooo == 4){
                                 $d5_money[$i] = $d5[$i] * $corner;
+                                $vinstatus = 1;
                                // echo "<br>----2----<br>";
                             }
 
                         if($fixit == 1){
+
                             //echo $d4[$i]." | ".$d5[$i]." | ".$d5_money[$i]." | ".$d5_status[$i]."<br>";
                         }
 
                 }
             }
 
-
+                            
                            /*vichisleniya two arrays*/
         }
 
+        /*pribavlenie viigrisha k base*/
+
+        $money_summ = 0;
+
+        for($ii = 0;$ii < count($d1_status);$ii++){
+
+            if($d1_status[$ii] == 1){
+                //echo $d0[$ii]." | ".$d1_status[$ii]." | ".$d1_money[$ii];
+                $money_summ += $d1_money[$ii];
+            }
 
 
+        }
+
+       
+        /*echo "<br>";
+        echo "--------------";
+         echo "<br>";*/
+
+        for($ii = 0;$ii < count($d3_status);$ii++){
+
+            if($d3_status[$ii] == 1){
+
+               // echo $d2[$ii]." | ".$d3_status[$ii]." | ".$d3_money[$ii]."<br>";
+                $money_summ += $d3_money[$ii];
+            }
+
+
+        }
+
+        // echo "<br>";
+        // echo "--------------";
+        //  echo "<br>";
+
+        for($ii = 0;$ii < count($d5_status);$ii++){
+
+            if($d5_status[$ii] == 1){
+
+               // echo $d4[$ii]." | ".$d5_status[$ii]." | ".$d5_money[$ii]."<br>";
+                $money_summ += $d5_money[$ii];
+
+            }
+
+
+        }
+
+
+        /*echo "<br>";
+        echo "--------------";
+         echo "<br>";*/
+
+         /*pribavlenie viigrisha k base*/
+
+         //echo $money_summ;
+         //zanesti v bazu
+
+         $itog = $balans + $money_summ;
+
+         //echo $itog;
+         // $result4 = Yii::$app->db->createCommand("UPDATE user SET balance='$itog' WHERE id='$id'")->execute();
+
+         // if($result4){
+         //    //echo "1";
+         // }else{
+         //    //echo "2";
+         // }
+         /*pribavlenie viigrisha k base*/
+
+
+
+         
+
+        //$ostat
+         $sendarray = array();
+
+         $success1 = array();
+         $success2 = array();
+         $success3 = array();
+
+         $success1[0] = $d0;    /*stavki prostih chisel  -- massivi ravni po dline*/
+         $success1[1] = $d1;    /*postavlennie summi*/
+         $success1[2] = $d1_status; /*status stavki*/
+         $success1[3] = $d1_money;  /*kolichestvo viigrannih deneg ishodya iz statusa*/
+
+
+         $success2[0] = $d2;    /*stavki kombinasii naprimer 1-12 i t.d  -- massivi ravni po dline*/
+         $success2[1] = $d3;    /*postavlennie summi*/
+         $success2[2] = $d3_status;     /*status stavki*/
+         $success2[3] = $d3_money;      /*kolichestvo viigrannih deneg ishodya iz statusa*/
+
+
+         $success3[0] = $d4;            /*stavki grupp chisel  -- massivi ravni po dline*/
+         $success3[1] = $d5;                /*postavlennie summi*/
+         $success3[2] = $d5_status;          /*status stavki*/
+         $success3[3] = $d5_money;              /*kolichestvo viigrannih deneg ishodya iz statusa*/
+         
+         $sendarray[0] = $success1;         /*1 rascheti*/  
+         $sendarray[1] = $success2;          /*2 rascheti*/ 
+         $sendarray[2] = $success3;              /*3 rascheti*/ 
+         $sendarray[3] = $ostat;            /*ost*/
+         $sendarray[4] = $money_summ;           /*summa viigrisha*/
+
+         $sendarrayserial = serialize($sendarray);
+
+         /*struktura array[$0-4 - drevo1] -> [$0-3 - drevo2] */
+
+         /*obnovit resultati*/
+
+         $result5 = Yii::$app->db->createCommand("UPDATE r_koef SET result_koef='$sendarrayserial', status='1', win_status='$vinstatus', sum='$money_summ', user_id='$id' WHERE status='2' LIMIT 1")->execute();
+
+
+         $result6 = Yii::$app->db->createCommand("UPDATE r_status SET game_status='0' WHERE id='1'")->execute();
+
+         if($result5){
+            echo "1";
+         }else{
+            echo "2";
+         }
+
+         /*obnovit resultati*/
+
+                    /*zakritie foreach*/
+                    }
+                    /*zakritie foreach*/
+
+         }else{
+                echo "ставок не было.. ";
+         }
+
+
+        }else{
+                return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+        }      /*KONES remote addr*/
         /*if($result == true){
             echo "1";
         }else{
