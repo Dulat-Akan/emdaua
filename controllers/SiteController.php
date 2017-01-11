@@ -17,6 +17,9 @@ use app\models\User;
 use app\models\Usertwo;
 use app\models\Ruletka;
 use app\models\Roulette;
+use yii\web\UploadedFile;
+use yii\widgets\ActiveForm;
+
 class SiteController extends Controller
 {
 
@@ -92,49 +95,30 @@ Yii::$app->session->setFlash('error', 'Вы уже потверждали ран
  return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));    
 		     }
 			
-
-			
-	
-	
-	
-	
-	
-	
-	
-	
-    
-   public function actionUsertwo()
-        {
+public function actionUsertwo(){
 	$this->layout = 'main2';		
-			
-$model = new Usertwo();
+	$model = new Usertwo();
+        if ($model->load(Yii::$app->request->post())) {
+            if($model->validate()) {
+        // form inputs are valid, do something here
+                $model->attributes = Yii::$app->request->post('Usertwo');
+                $model->password=Yii::$app->getSecurity()->generatePasswordHash($_POST['Usertwo']['password']);
+                $model->timer=time();
+                $model->save();
 
-            if ($model->load(Yii::$app->request->post())) {
-                if($model->validate()) {
-            // form inputs are valid, do something here
-                    $model->attributes = Yii::$app->request->post('Usertwo');
-                     $model->password=Yii::$app->getSecurity()->generatePasswordHash($_POST['Usertwo']['password']);
-                    $model->timer=time();
-                    $model->save();
-                    
-$username=$_POST['Usertwo']['username'];    
-$patch="<a href='http://".$_SERVER['HTTP_HOST'].Url::to('@site')."/status?login=".$username."' target='blank'>перейдите по ссылке</a>";
-$date=date("d.m.Y"); 
-$time=date("H:i"); 
-$to=$_POST['Usertwo']['email'];//кому отправить
-$subject = "Потверждение регистрации";//тема письма
-			   $subject='=?UTF-8?B?'.base64_encode($subject).'?=';
-	          $From = ' site';
-             $message="Для потверждения регистрации ".$patch;
-                     $headers="From: $From\r\nReply-To: \r\nContent-type: text/html; charset=UTF-8\r\n";
-		              mail($to,$subject,$message,$headers);
-Yii::$app->session->setFlash('success', 'Данные приняты, вам на почту выслано письмо с активацией, необходимо сделать активацию в течениии трех дней');
-return $this->refresh();
-                        
-                        
-                }else{
-                    Yii::$app->session->setFlash('error', 'Ошибка: такой логин в нашей системе есть');
-                     return $this->refresh();
+                $username=$_POST['Usertwo']['username'];    
+                $patch="<a href='http://".$_SERVER['HTTP_HOST'].Url::to('@base')."/status?login=".$username."' target='blank'>перейдите по ссылке</a>";
+                $date=date("d.m.Y"); 
+                $time=date("H:i"); 
+                $to=$_POST['Usertwo']['email'];//кому отправить
+                $subject = "Потверждение регистрации";//тема письма
+                $subject='=?UTF-8?B?'.base64_encode($subject).'?=';
+                $From = ' site';
+                $message="Для потверждения регистрации ".$patch;
+                $headers="From: $From\r\nReply-To: \r\nContent-type: text/html; charset=UTF-8\r\n";
+                mail($to,$subject,$message,$headers);
+                Yii::$app->session->setFlash('success', 'Данные приняты, вам на почту выслано письмо с активацией, необходимо сделать активацию в течениии трех дней');
+                return $this->refresh();
                 }
             }
 
@@ -142,7 +126,6 @@ return $this->refresh();
                 'model' => $model,
             ]);
         }
-    
 
 
 
@@ -948,7 +931,26 @@ public function actionK(){
 
     }
 
-
+    public function actionLk(){
+        $this->layout = 'lk';	
+        if (Yii::$app->user->isGuest) 
+            return $this->redirect(["/site/login"]);
+        $id = Yii::$app->user->id;
+        
+        $model =Usertwo::findOne(['id' => $id]);
+       
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+                  $model->file1 = UploadedFile::getInstance($model,'file1');
+                  if(isset($model->file1)){
+                  $model->file1->saveAs('acc/'. date ("m.d.y H:m:s"). 'c1.' .$model->file1->extension);
+                  $model->ul ='/casino/basic/web/acc/'. date ("m.d.y H:m:s"). 'c1.' .$model->file1->extension;
+                  }
+                  $model->save();
+        }
+        return $this->render("lk",['model'=>$model]);
+        
+    }
+    
     public function actionHistorykorzina(){
 
         $identity = \Yii::$app->user->identity;

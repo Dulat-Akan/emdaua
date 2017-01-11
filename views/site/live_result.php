@@ -1,7 +1,4 @@
-<?php
-
-use yii\helpers\Url;
- ?>
+<?php use yii\helpers\Url; ?>
 <div id="overlay"></div>
 <input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/livetwo">
 
@@ -73,17 +70,23 @@ use yii\helpers\Url;
 
 
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 48c5182892f3d944603516f0497ef1d6234cbb48
 <script src="<?php echo Url::to('@jquery') ?>/lr.js"></script> 
 
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
 
+>>>>>>> 48c5182892f3d944603516f0497ef1d6234cbb48
 
 	
 

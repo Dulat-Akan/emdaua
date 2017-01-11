@@ -2,7 +2,7 @@
 
 /* @var $this \yii\web\View */
 /* @var $content string */
-
+exit();
 $user_agent = $_SERVER["HTTP_USER_AGENT"];
   if (strpos($user_agent, "Firefox") !== false) $browser = "Firefox";
   elseif (strpos($user_agent, "Opera") !== false) $browser = "Opera";
@@ -13,9 +13,9 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
   //echo "Ваш браузер: $browser";
   if($browser == "Internet Explorer"){
 
-  header("Location:"."/web/index.php/site/");exit();
-    
-    
+	header("Location:"."/web/index.php/site/");exit();
+	  
+	  
   }
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -31,12 +31,7 @@ AppAsset::register($this);
 <!DOCTYPE html>
 
 <html lang="<?= Yii::$app->language ?>">
-
-  
 <head>
-    
-     <!--scroll bar -->
-    
     <style >
         Div.kolekcii{
             overflow: auto;
@@ -49,16 +44,11 @@ AppAsset::register($this);
             float:left;
             width:100%;
         }
+        .white{
+                  line-height: 50px;
+                  color:white !important;
+        }
     </style>
-    <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.css">
-  <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.min.js"></script>
-  <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.mousewheel.js"></script>
-                
-    <!--end scroll bar -->
-    
-                
-    <!--end scroll bar -->
     <script src="<?php echo Url::to('@jquery') ?>/jquery.min.js"></script>
     <script src="<?php echo Url::to('@jquery') ?>/jquery-ui-1.10.3.custom.js"></script>
     
@@ -68,21 +58,17 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-  
-  
-        <script type="text/javascript">
+	
+	
+<script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'ru', layout: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT}, 'google_translate_element');
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
-
-
-
-
 <?php $this->beginBody() ?>
-    <nav class="navbar navbar-default menu2 clearfix">
+		<nav class="navbar navbar-default menu2 clearfix">
  
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -92,16 +78,16 @@ function googleTranslateElementInit() {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <span class="navbar-brand">Сейчас в линии</span>
+     
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse menu-bot" id="bs-example-navbar-collapse-2">
-  <div class="" id="mylink2">
-        <ul class="nav nav-pills nav-justified ">
-     
+	<div class="" id="mylink2">
+      	<ul class="nav nav-pills nav-justified">
+       <li style="margin-left: 15px;font-size:17px;" class="nav-header">Сейчас в линии</li>
                  
-                  <li><a shref="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
+                  <li><a href="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
 
                   <li><a href="<?php echo Url::to('@control/request'); ?>" r="<?php echo Url::to('@base'); ?>/site/p">результаты</a></li>
                   <li><a href="<?php echo Url::to('@control/requestlive'); ?>" r="<?php echo Url::to('@base'); ?>/site/ptwo">результаты Live</a></li>
@@ -139,72 +125,75 @@ function googleTranslateElementInit() {
   
     </div><!-- /.navbar-collapse -->
 
-      </nav>
+			</nav>
 
 
 
-  
-      <?php
-  NavBar::begin([
+
+
+
+
+	
+<?php
+    NavBar::begin([
         'brandLabel' => 'AlmaBet',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top nav2',
         ],
     ]);
-  echo "<div style=\"width:200px;float:right;padding-left:20px;\" id=\"google_translate_element\"></div>";
-  if (Yii::$app->user->isGuest) {
-          $menuItems = [
-            ['label' => 'Домой', 'url' => ['/index.php/site']],
-            ['label' => 'О нас', 'url' => ['/index.php/site/about']],
-            ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-            ['label' => 'Вход', 'url' => ['/index.php/site/login']],
-            ['label' => 'Регистрация', 'url' => ['/index.php/site/usertwo']],
-          ];
-        } else {
-          $menuItems = [
-            ['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
-            ['label' => 'История ставок', 'url' => ['/index.php/site/historykorzina']],
-            ['label' => 'Домой', 'url' => ['/index.php/site']],
-            ['label' => 'О нас', 'url' => ['/index.php/site/about']],
-            ['label' => 'Наши контакты', 'url' => ['/index.php/site/contact']],
-            ['label' => 'Выйти (' . Yii::$app->user->identity->username . ')',
-              'url' => ['/index.php/site/logout'],
-              'linkOptions' => ['data-method' => 'post']],
-          ];  
-        }
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-
-        'items' => [
-            ['label' => 'Домой', 'url' => ['/index.php/site']],
-             ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
-            ['label' => 'О нас', 'url' => ['/index.php/site/about']],
-            ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-            ['label' => 'Покер', 'url' => ['/index.php/poker']],
-      ['label' => 'Казино', 'url' => ['/index.php/site/online']],
-            Yii::$app->user->isGuest ? (
-                ['label' => 'Вход', 'url' => ['/index.php/site/login']]
-                
-            ) : (
-                '<li>'
-                . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
-        ],
-    ]);
-    NavBar::end();
-    ?>
+    echo "<div style=\"width:200px;float:right;padding-left:20px;\" id=\"google_translate_element\"></div>";
+    if(Yii::$app->user->isGuest ){
+    echo 
+            Nav::widget([
+                'options' => ['class' => 'navbar-nav navbar-right'],
+                    'items' => [
+                        ['label' => 'Домой', 'url' => ['/index.php/site']],
+                        ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                        ['label' => 'О нас', 'url' => ['/index.php/site/about']],
+                        ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+                        ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                        ['label' => 'Казино', 'url' => ['/index.php/site/online']],
+                        ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
+                    ]
+            ]); 
+            NavBar::end();
+     }
+    else{
+        echo 
+        Nav::widget([
+            'options' => ['class' => 'navbar-nav navbar-right'],
+                 'items' => [
+                     '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
+                    ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
+                    ['label' => 'Домой', 'url' => ['/index.php/site']],
+                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                    ['label' => 'О нас', 'url' => ['/index.php/site/about']],
+                    ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+                    ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                    ['label' => 'Казино', 'url' => ['/index.php/site/online']],
+                    '<li>'
+                    . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
+                    . Html::submitButton(
+                        'Logout (' . Yii::$app->user->identity->username . ')',
+                        ['class' => 'btn btn-link']
+                    )
+                    . Html::endForm()
+                    . '</li>'
+                  ]
+        ]); 
+        NavBar::end();
+     }
+ ?>	
+	
+	
+	
+    
 
   
 
 
-
+<br><br><br>
     <div class="container-fluid" style="margin-top:0px;">
         
 
@@ -217,19 +206,28 @@ function googleTranslateElementInit() {
 </div>
 
 
-<div class="container-fluid container-content2">
+<div class="container-fluid container-content">
 
+       
+		<div class="col-md-10 col-md-push-2">
+	<div class="" id="pok_searh2">
+	<div class='header-middle'>
+<div class="" style='' id="google_translate_element"></div>
 
-    <div class="row">
-        <div class="col-md-12">
-    
-  <div class="col-md-10 col-md-push-2" id="pok_searh2"><?= $content ?></div>
+  </div>
+  
+<div class='clear'></div>
+
+	<?= $content ?>
+	</div>
+</div>
+
 <!-- <div class="col-md-10 col-md-push-2" id=""></div> -->
 <div class="col-md-2 col-md-pull-10 kolekcii" id="mylink">
-<div id="google_translate_element"></div>
+
                </br>
                 <ul class="nav nav-tabs nav-stacked kolekcii_soderzhimoe">
-        
+				
                   <li style="margin-left: 15px;font-size:17px;" class="nav-header">Сейчас в линии</li>
                  
                   <li><a href="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
@@ -269,29 +267,29 @@ function googleTranslateElementInit() {
 
             
         
-
+  
             </div>
 
-          
+             <div class="col-md-2" style="display:none;" id="korzina" >
+                     
+                    <a href="<?php echo Url::to('@control/korzina'); ?>"><img style="width:100px;cursor:pointer;" src="<?php echo Url::to('@img/korzina2.png'); ?>" alt=""><span class="label label-info">4 ставки</span></a>
+
+            </div>
 
 
             
 
 
-            <div class="col-md-2" style="display:none;" id="korzina">
-                     
-                    <a href="<?php echo Url::to('@control/korzina'); ?>"><img style="width:100px;cursor:pointer;" src="<?php echo Url::to('@img/korzina2.png'); ?>" alt=""><span class="label label-info">4 ставки</span></a>
+       
 
-            </div>
-</div>
-            </div>
+         
         </div>
 
 
 
 
 
-            <script src="<?php echo Url::to('@jquery') ?>/l_o.js"></script>
+           <script src="<?php echo Url::to('@jquery') ?>/l_o.js"></script>
 
 <script>
 $('.btn.btn-primary').click(function(){
@@ -304,14 +302,10 @@ $('.alert').removeClass('alert');
 </script>
 
 
-       <script type="text/javascript">
-    $(function(){
-      $('.kolekcii').jScrollPane();
-    });
-  </script>
+       
     </div>
-</div>
 
+ 
 <footer class="footer">
     <div class="container">
         <p class="pull-left"></p>

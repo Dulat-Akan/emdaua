@@ -3,7 +3,7 @@
 namespace app\models;
 
 use Yii;
-
+use yii\web\UploadedFile;
 /**
  * This is the model class for table "user".
  *
@@ -20,7 +20,7 @@ use Yii;
 class Usertwo extends \yii\db\ActiveRecord
 {	
 
-	
+	public $file1;
     /**
      * @inheritdoc
      */
@@ -35,12 +35,13 @@ class Usertwo extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-		    [['username'], 'string', 'max' => 80],
-			[['phone'], 'string'],
-		    [['email'], 'email'],
-			[['username'], 'unique'],
-			[['password', 'email'], 'string', 'max' => 255],
-			[['username', 'phone', 'email','password'], 'required' ],
+                    [['username'], 'string', 'max' => 80],
+                    [['phone'], 'string'],
+                    [['email'], 'email'],
+                    [[ 'balance','tel'], 'integer'],
+	[['username'], 'unique'],
+	[['password', 'email','ul','name1','name2','dateb'], 'string', 'max' => 255],
+	[['username', 'phone', 'email','password'], 'required' ],
             
         ];
     }
@@ -51,16 +52,23 @@ class Usertwo extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'username' => 'Логин',
-            'password' => 'Пароль',
-            'email' => 'Email',
-			 'phone' => 'Телефон',
-            'status' => 'Статус',
-            'auth_key' => 'Auth Key',
-            'created_at' => 'Created At',
-            'updated_at' => 'Updated At',
-            'accessToken' => 'Access Token',
+                    'id' => 'ID',
+                    'username' => 'Логин',
+                    'password' => 'Пароль',
+                    'email' => 'Email',
+                    'phone' => 'Телефон',
+                    'status' => 'Статус',
+                    'auth_key' => 'Auth Key',
+                    'created_at' => 'Created At',
+                    'updated_at' => 'Updated At',
+                    'accessToken' => 'Access Token',
+                    'balance' => 'Баланс',
+                    'ul' => 'Фото У\Л',
+                    'file1'=>'Фото удостоверения личности',
+                    'name1' => 'Имя',
+                    'name2' => 'Фамилия',
+                    'dateb' => 'Дата рождения',
+                    'tel' => 'Телефон'
         ];
     }
 }
