@@ -510,9 +510,10 @@ body,.container-fluid{
 }
 
 .pok_searh12{
+
 	box-shadow: 0 8px 20px rgba(0, 0, 0, .3);
 	display:block;
-	width:1000px;margin:0 auto!important;
+	max-width:1200px;margin:0 auto!important;
 	overflow:hidden;
 	padding-bottom:40px;
 	min-height:100%;
@@ -2415,9 +2416,47 @@ text-align:center;color:black;
 	}
   
 /*----------------timer------------------*/  
+<<<<<<< HEAD
   .time{
 	  text-align:center;
 	  font-size:50px;
+=======
+.mainvideo{
+	background:#ccc;
+}
+.time-wrap{
+	background:#ccc;
+}
+.time-wrap-in2{
+	float:left;width:30%;height:110px;
+	text-align:center;color:black;font-size:20px;
+	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+	
+}
+.shar{
+	color:red;font-weight:bold;
+}
+.time-wrap-in1{
+	float:left;width:30%;height:110px;
+	text-align:center;color:black;font-size:20px;
+	box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.2);
+	
+	
+}
+.time-wrap-in3{
+	float:left;width:40%;height:110px;
+	
+	
+}
+
+.time{
+text-align:center;
+font-size:45px;
+  }
+.time2{
+text-align:center;
+font-size:25px;
+>>>>>>> 48c5182892f3d944603516f0497ef1d6234cbb48
   }
     .time2{
 	  text-align:center;
@@ -2445,3 +2484,46 @@ position: absolute;
 #cart{
 z-index:5000000;
 }
+<<<<<<< HEAD
+=======
+
+@-webkit-keyframes mashtab {
+  0% {font:15px;}
+   100% {font:30px;}
+}
+@-moz-keyframes mashtab{
+	 0% {font-size:15px;}
+   100% {font-size:50px;}
+}
+}
+.time-wrap-in2 div{
+	border:1px solid red;margin:0 auto;
+}
+
+.time-wrap-in2 span{
+	width:100%;
+	display:block;
+	animation: mashtab 2s linear infinite;
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 48c5182892f3d944603516f0497ef1d6234cbb48

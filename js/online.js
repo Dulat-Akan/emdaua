@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function() {
 	var time_start=60;//время ставок
 	var seconds2=60;//время обратного отчета или блокировки
@@ -1013,3 +1014,5 @@ var time2=setInterval(timeseconds2,1000);//	вызываем функцию об
     return false;
 }
 })//ready
+=======
+>>>>>>> 48c5182892f3d944603516f0497ef1d6234cbb48
