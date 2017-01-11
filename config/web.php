@@ -5,15 +5,15 @@ $params = require(__DIR__ . '/params.php');
 $config = [
     'defaultRoute' => 'site/index',
     'aliases' => [
-	    '@status' =>'/basic/img/',
-        '@img' => '/basic/img/',
-        '@jquery' => '/basic/js/',
-        '@base' => '/basic/web/index.php',
-        '@control' => '/basic/web/index.php/site',
-        '@myfile' => '/basic/views/site/myfile/myfile.html',
+	    '@status' =>'/casino/basic/img/',
+        '@img' => '/casino/basic/img/',
+        '@jquery' => '/casino/basic/js/',
+        '@base' => '/casino/basic/web/index.php',
+        '@control' => '/casino/basic/web/index.php/site',
+        '@myfile' => '/casino/basic/views/site/myfile/myfile.html',
         '@files' => '../views/site/',
-        '@basepath' => '/basic/web/',
-		'@style' => '/basic/web/',
+        '@basepath' => '/casino/basic/web/',
+		'@style' => '/casino/basic/web/',
 
     ],
      /*'catchAll' => ['site/offline'],*/

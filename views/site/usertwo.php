@@ -40,7 +40,8 @@ $this->title = 'Казино';
 <div class="usertwo">
 
     <?php $form = ActiveForm::begin(); ?>
-
+        <?= $form->field($model, 'name1') ?>
+        <?= $form->field($model, 'name2') ?>
         <?= $form->field($model, 'username') ?>
         <?= $form->field($model, 'phone') ?>
         <?= $form->field($model, 'email') ?>

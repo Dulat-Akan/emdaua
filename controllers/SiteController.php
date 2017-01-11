@@ -17,6 +17,9 @@ use app\models\User;
 use app\models\Usertwo;
 use app\models\Ruletka;
 use app\models\Roulette;
+use yii\web\UploadedFile;
+use yii\widgets\ActiveForm;
+
 class SiteController extends Controller
 {
     public function beforeAction($action){
@@ -85,7 +88,7 @@ class SiteController extends Controller
                 $model->save();
 
                 $username=$_POST['Usertwo']['username'];    
-                $patch="<a href='http://".$_SERVER['HTTP_HOST'].Url::to('@site')."/status?login=".$username."' target='blank'>перейдите по ссылке</a>";
+                $patch="<a href='http://".$_SERVER['HTTP_HOST'].Url::to('@base')."/status?login=".$username."' target='blank'>перейдите по ссылке</a>";
                 $date=date("d.m.Y"); 
                 $time=date("H:i"); 
                 $to=$_POST['Usertwo']['email'];//кому отправить
@@ -1395,7 +1398,26 @@ protected function checkTimer($login){
 
     }
 
-
+    public function actionLk(){
+        $this->layout = 'lk';	
+        if (Yii::$app->user->isGuest) 
+            return $this->redirect(["/site/login"]);
+        $id = Yii::$app->user->id;
+        
+        $model =Usertwo::findOne(['id' => $id]);
+       
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+                  $model->file1 = UploadedFile::getInstance($model,'file1');
+                  if(isset($model->file1)){
+                  $model->file1->saveAs('acc/'. date ("m.d.y H:m:s"). 'c1.' .$model->file1->extension);
+                  $model->ul ='/casino/basic/web/acc/'. date ("m.d.y H:m:s"). 'c1.' .$model->file1->extension;
+                  }
+                  $model->save();
+        }
+        return $this->render("lk",['model'=>$model]);
+        
+    }
+    
     public function actionHistorykorzina(){
 
         $identity = \Yii::$app->user->identity;

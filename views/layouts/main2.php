@@ -49,6 +49,10 @@ AppAsset::register($this);
             float:left;
             width:100%;
         }
+        .white{
+                  line-height: 50px;
+                  color:white !important;
+        }
     </style>
     <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.css">
 	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
@@ -141,69 +145,59 @@ function googleTranslateElementInit() {
 
 			</nav>
 
-
-
-	
-      <?php
-	NavBar::begin([
+<?php
+    NavBar::begin([
         'brandLabel' => 'AlmaBet',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top nav2',
         ],
     ]);
-	echo "<div style=\"width:200px;float:right;padding-left:20px;\" id=\"google_translate_element\"></div>";
-	if (Yii::$app->user->isGuest) {
-					$menuItems = [
-						['label' => 'Домой', 'url' => ['/index.php/site']],
-						['label' => 'О нас', 'url' => ['/index.php/site/about']],
-						['label' => 'Наши контакты', 'url' => ['/site/contact']],
-						['label' => 'Вход', 'url' => ['/index.php/site/login']],
-						['label' => 'Регистрация', 'url' => ['/index.php/site/usertwo']],
-					];
-				} else {
-					$menuItems = [
-						['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
-						['label' => 'История ставок', 'url' => ['/index.php/site/historykorzina']],
-						['label' => 'Домой', 'url' => ['/index.php/site']],
-						['label' => 'О нас', 'url' => ['/index.php/site/about']],
-						['label' => 'Наши контакты', 'url' => ['/index.php/site/contact']],
-						['label' => 'Выйти (' . Yii::$app->user->identity->username . ')',
-							'url' => ['/index.php/site/logout'],
-							'linkOptions' => ['data-method' => 'post']],
-					];	
-				}
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-
-        'items' => [
-            ['label' => 'Домой', 'url' => ['/index.php/site']],
-             ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
-            ['label' => 'О нас', 'url' => ['/index.php/site/about']],
-            ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-			['label' => 'Казино', 'url' => ['/index.php/site/online']],
-            Yii::$app->user->isGuest ? (
-                ['label' => 'Вход', 'url' => ['/index.php/site/login']]
-                
-            ) : (
-                '<li>'
-                . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
-        ],
-    ]);
-    NavBar::end();
-    ?>
+    echo "<div style=\"width:200px;float:right;padding-left:20px;\" id=\"google_translate_element\"></div>";
+    if(Yii::$app->user->isGuest ){
+    echo 
+            Nav::widget([
+                'options' => ['class' => 'navbar-nav navbar-right'],
+                    'items' => [
+                        ['label' => 'Домой', 'url' => ['/index.php/site']],
+                        ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                        ['label' => 'О нас', 'url' => ['/index.php/site/about']],
+                        ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+                        ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                        ['label' => 'Казино', 'url' => ['/index.php/site/online']],
+                        ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
+                    ]
+            ]); 
+            NavBar::end();
+     }
+    else{
+        echo 
+        Nav::widget([
+            'options' => ['class' => 'navbar-nav navbar-right'],
+                 'items' => [
+                     '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
+                    ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
+                    ['label' => 'Домой', 'url' => ['/index.php/site']],
+                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                    ['label' => 'О нас', 'url' => ['/index.php/site/about']],
+                    ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+                    ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                    ['label' => 'Казино', 'url' => ['/index.php/site/online']],
+                    '<li>'
+                    . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
+                    . Html::submitButton(
+                        'Logout (' . Yii::$app->user->identity->username . ')',
+                        ['class' => 'btn btn-link']
+                    )
+                    . Html::endForm()
+                    . '</li>'
+                  ]
+        ]); 
+        NavBar::end();
+     }
+ ?>	
 
   
-
-
-
     <div class="container-fluid" style="margin-top:0px;">
         
 
