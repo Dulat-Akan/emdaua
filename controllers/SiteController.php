@@ -1123,9 +1123,23 @@ public function actionK(){
 
     public function actionSendgamestatus(){
 
+        $session = Yii::$app->session;
+
+        if (!$session->isActive){
+            $session->open();
+        }
+
         if(isset($_POST["data"])){
 
             $data = $_POST["data"];
+
+            if($data == 2){
+                //zablokirovat
+               // $session->set('zapros', '2');
+            }else if($data == 1){
+                //razblokirovat
+               // $session->set('zapros', '1');
+            }
 
             $result = Yii::$app->db->createCommand("UPDATE r_status SET game_status='$data' WHERE id=1")->execute();
 
@@ -2204,6 +2218,24 @@ public function actionK(){
         //$rdataunserial[0];
 
         print_r($rdataunserial[0]);
+
+
+    }
+
+
+        public function actionGamestatusclient(){
+
+            $status = 1;
+
+            $result = Yii::$app->db->createCommand('SELECT * FROM r_status')->queryAll();
+
+            foreach ($result as $value) {
+                    
+                    $s = $value['game_status'];
+                    $status = $s;
+            }
+
+            echo $status;
 
 
     }

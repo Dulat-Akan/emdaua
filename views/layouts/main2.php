@@ -164,7 +164,7 @@ function googleTranslateElementInit() {
                         ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                         ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                         ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                        ['label' => 'Казино', 'url' => ['/index.php/site/online']],
+                     ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
                         ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
                     ]
             ]); 
@@ -182,7 +182,7 @@ function googleTranslateElementInit() {
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                     ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                    ['label' => 'Казино', 'url' => ['/index.php/site/online']],
+                    ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
                     '<li>'
                     . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
                     . Html::submitButton(

@@ -83,7 +83,7 @@ function updategame(){
 
 
 			/*ajax send function*/
-
+										/*Sendgamestatus*/
 			function sendajax(st){
 
 				var url = $("#sa").val();
@@ -113,6 +113,42 @@ function updategame(){
                                   }
 
                        function errorfunc(){
+                          alert("oshibka zaprosa v statuse");
+                       }
+
+               }/*kones function*/
+
+
+               function sendajax2(){
+
+				var urlk = $("#rs").val();
+
+				/*var o = {
+                      "data":st,
+                      };*/
+
+                   $.ajax({
+                              "type":"POST",
+                              "url":urlk,
+                              
+                              "datatype":"json html script",
+                              /*"data":o,*/
+                            
+                              "success":kx7,
+                              "error":errorfunc7
+                        
+                        });
+
+                    function kx7(result7){
+
+                      
+                    	//console.log(result);
+                      //alert(result7);
+                      console.log(result7);
+      
+                                  }
+
+                       function errorfunc7(){
                           alert("oshibka zaprosa v statuse");
                        }
 
@@ -184,14 +220,21 @@ function updategame(){
 					sendajax(3);
 					console.log("время блокировки клиента ..");
 				}else if(updatetime == blocksystem){
-					sendajax(2);
+					sendajax(2);	
+
+					//esli status 3 to klientu nuzhno otpravit resultati		
+					//pri statuse 0 zabrat vse resultati	//esli status 3 nuzhno zablochit clienta
+					//pri statuse 1 razblokirovat clienta
+					//pri statuse 4 ot dilera texnicheskii pereriv dilera
+
 					console.log("время блокировки системы ..");
 				}else if(updatetime == loading){
+					sendajax2();
 					console.log("обработка результатов ..");
 				}else if((updatetime == unblock) && (gamestatus != 4)){
 					sendajax(1);
-					console.log("система разблокирована ..");
 					updatetimer();
+					console.log("система разблокирована ..");
 				}else if(gamestatus == 4){
 						console.log("ждем дилера");
 				}
@@ -237,12 +280,12 @@ function updategame(){
 	                    function kxx(result2){
 
 	                      			if(result2 == "4"){
-	                      				gamestatus = 4;
+	                      				gamestatus = 4;		//ostanovka raboti dilera
 	                      				checkx = 0;
 	                      			}
 
 	                      			if(result2 == "5"){
-	                      				
+	                      									//prodolzhenie raboti dilera
 	                      				gamestatus = 1;
 	                      				if(checkx == 0){
 	                      					updatetimer();
@@ -276,7 +319,8 @@ function updategame(){
 				$("#status").click(function(){
 
 					//sendajax(1);
-					updatedealerstatus();
+					//updatedealerstatus();
+					//sendajax2();
 
 
 			});

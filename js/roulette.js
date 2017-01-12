@@ -1225,6 +1225,22 @@ $(document).ready(function(){
                             }
 
                         }
+
+                        for(var n = 0;n < arnumbercombinationcount.length;n++){
+
+                            if(arnumbercombinationcount[n] != 0){
+                                arnumbercombinationcount[n] = arnumbercombinationcount[n] * 2;
+                            }
+
+                        }
+
+                        for(var nn = 0;nn < arnumbersearchcombinationcount.length;nn++){
+
+                            if(arnumbersearchcombinationcount[nn] != 0){
+                                arnumbersearchcombinationcount[nn] = arnumbersearchcombinationcount[nn] * 2;
+                            }
+
+                        }
                         /*udvoenie massivov*/
 
                         
@@ -1280,6 +1296,53 @@ $(document).ready(function(){
 
 
                  });       
+
+
+
+                 function cleanclient(){
+
+                       $(".y").each(function(index,element){
+
+                        var osn = $(element);
+
+                        var div = osn.children("div:not(.i)");
+
+                        var ii = osn.children(".i");
+
+                        ii.attr("count","0");
+
+                        ii.empty();
+
+                        ii.hide();
+
+                        div.show();
+
+                        
+
+
+                    });
+
+                       for(var i = 0;i < arnumbercount.length;i++){
+                            arnumbercount[i] = 0;
+                        }
+
+                        for(var j = 0;j < arnumbercombinationcount.length;j++){
+                            arnumbercombinationcount[j] = 0;
+                        }
+
+                        for(var k = 0;k < arnumbersearchcombinationcount.length;k++){
+                            arnumbersearchcombinationcount[k] = 0;
+                        }
+
+
+                        noar[0] = 0;
+                        notwoar[0] = 0;
+                        nothreear[0] = 0;
+                        nofar[0] = 0;
+
+
+
+                 }
                                         /*ochistka*/
 
                                         /*otpravka dannih test*/
@@ -1377,6 +1440,7 @@ $(document).ready(function(){
                       
 
                       if(result == "1"){
+                        cleanclient();
                         console.log("ставка сделана..");
                       }else{
                         console.log("ошибка занесения в бд..");
@@ -1399,8 +1463,80 @@ $(document).ready(function(){
 
                  });      //kones click
 
+                 /*function blockclient*/
+
+                 function blockclient(){
+
+                    $(".jjj").hide("3000");
+
+                 }
+
+                 /*function blockclient*/
+
+                 /*function unblock client*/
+
+                 function ublockclient(){
+
+                     $(".jjj").show("3000");
+
+                 }
+
+                 /*function unblock client*/
+
 
                                         /*otpravka dannih test*/
+
+                function gamestatus(){
+
+                    var urla = $("#status").val();
+
+            
+                /*  var o = {
+                      "hid":"d",
+                      "data":sendArray,
+                      };
+                */
+                   $.ajax({
+                              "type":"POST",
+                              "url":urla,
+                              
+                              "datatype":"json html script",
+                              /*"data":o,*/
+                            
+                              "success":kx5,
+                              "error":errorfunc5
+                        
+                        });
+
+                    function kx5(result9){
+
+                          
+                          console.log(result9);
+
+                          if(result9 == "3"){
+
+                             // blockclient();
+
+                          }else if(result9 == "1"){
+
+                              //ublockclient();
+
+                          }
+                      
+      
+                                  }
+
+                       function errorfunc5(){
+                          alert("oshibka zaprosa v status");
+                       }
+
+                } 
+
+
+
+                setInterval(function(){
+                      gamestatus();
+                },1000);
 
                     
 
