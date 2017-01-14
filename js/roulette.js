@@ -1489,6 +1489,8 @@ $(document).ready(function(){
                      utime = 60;
                      checkutime = 0;
 
+                     getball();
+
                  }
 
                  /*function unblock client*/
@@ -1553,7 +1555,7 @@ $(document).ready(function(){
 
                  function getball(){
 
-                          var urla = $("#status").val();
+                          var ball = $("#ball").val();
 
                   
                       /*  var o = {
@@ -1563,36 +1565,52 @@ $(document).ready(function(){
                       */
                          $.ajax({
                                     "type":"POST",
-                                    "url":urla,
+                                    "url":ball,
                                     
                                     "datatype":"json html script",
                                     /*"data":o,*/
                                   
-                                    "success":kx5,
-                                    "error":errorfunc5
+                                    "success":kx10,
+                                    "error":errorfunc10
                               
                               });
 
-                          function kx5(result9){
+                          function kx10(result10){
+
+                                if(result10 != "0"){
+
+                                var obj = jQuery.parseJSON(result10);
+
+                                console.log(obj);
+
+                                $("#balltracker").empty();
+
+                                for(var i = 0;i < obj.length;i++){
+
+                                    if(i == 1){
+
+                                        $("#balltracker").append('<h3 id="g_ball" style="margin-left:20px;">' + obj[i] + '</h3>');
+
+                                    }else{
+
+                                        $("#balltracker").append('<h3 style="margin-left:20px;">' + obj[i] + '</h3>');
+                                        console.log(obj[i]);
+
+                                    }
+                                    
+                                }
 
                                 
-                                console.log(result9);
 
-                                if(result9 == "3"){
-
-                                   blockclient();
-
-                                }else if(result9 == "1"){
-
-                                    ublockclient();
-
-                                }
-                            
+                               
+                                }else{
+                                    console.log("ошибка ball");
+                                } /*kones if*/
             
-                                        }
+                             }
 
-                             function errorfunc5(){
-                                alert("oshibka zaprosa v status");
+                             function errorfunc10(){
+                                alert("oshibka zaprosa v ball");
                              }
 
                  }
@@ -1654,6 +1672,7 @@ $(document).ready(function(){
 
                 setInterval(function(){
                       //gamestatus();
+                      //getball();
                 },1000);
 
                     

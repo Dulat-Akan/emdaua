@@ -77,6 +77,8 @@ use yii\helpers\Url;
 
 					<input type="hidden" id="status" value="<?php echo Url::to('@base'); ?>/site/gamestatusclient">
 
+					<input type="hidden" id="ball" value="<?php echo Url::to('@base'); ?>/site/rouletteball">
+
 
 					<div style="border:5px solid #9225D8;border-radius: 5px;width: 775px;">		<!-- obernuli stol v div -->
 				
@@ -520,11 +522,9 @@ use yii\helpers\Url;
 
 			</div>	
 
-			<div class="col-sm-2">
+			<div class="col-sm-1" id="balltracker" style="border: 2px solid red; border-radius: 5px;margin-left:30px;margin-top: 15px;">
 
-			<h3 style="margin-left:20px;">5</h3>
-			<h3 style="margin-left:20px;">5</h3>
-			<h3 style="margin-left:20px;">5</h3>
+				
 
 
 			</div>	
