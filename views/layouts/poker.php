@@ -133,6 +133,7 @@ AppAsset::register($this);
                   color:white !important;
         }
     </style>
+    <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/table.css">
     <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.css">
     <script src="<?php echo Url::to('@jquery') ?>/jquery.min.js"></script>
     <script src="<?php echo Url::to('@jquery') ?>/jquery-ui-1.10.3.custom.js"></script>
@@ -175,7 +176,7 @@ AppAsset::register($this);
                         ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                         ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                         ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                        ['label' => 'Казино', 'url' => ['/index.php/site/online']],
+                        ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
                         ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
                     ]
             ]); 
@@ -192,7 +193,7 @@ AppAsset::register($this);
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                     ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                    ['label' => 'Казино', 'url' => ['/index.php/site/online']],
+                    ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
                     '<li>'
                     . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
                     . Html::submitButton(
@@ -207,18 +208,10 @@ AppAsset::register($this);
      }
      
      ?>
-          <div id="main">
+          <div id="main" style="margin-top: 50px;">
         <?= $content ?>
     </div>
-    <script src="<?php echo Url::to('@jquery') ?>/l_o.js"></script>
-
-    <script>
-        $('.btn.btn-primary').click(function(){
-            $('.alert').html('');
-            $('.alert').removeClass('alert-success');
-            $('.alert').removeClass('alert');
-        })
-    </script>
+   
 <?php $this->endBody() ?>
 </body>
 </html>

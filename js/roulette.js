@@ -1468,6 +1468,10 @@ $(document).ready(function(){
                  function blockclient(){
 
                     $(".jjj").hide("3000");
+                    $(".roul").show("3000");
+                    $("#butosn").hide();
+                    $("#s_p").show();
+                    checkutime = 1;
 
                  }
 
@@ -1478,10 +1482,124 @@ $(document).ready(function(){
                  function ublockclient(){
 
                      $(".jjj").show("3000");
+                     $(".roul").hide("3000");
+                     $("#butosn").show();
+                     $("#s_p").hide();
+
+                     utime = 60;
+                     checkutime = 0;
 
                  }
 
                  /*function unblock client*/
+
+                 /*table button*/
+
+                 var mod = 0;
+
+                 $("#r_mod").click(function(){
+
+                    if(mod == 0){
+
+                       // alert(1);
+                        mod = 1;
+                        $(this).text("показать дилера");
+                        $(".jjj").show("3000");
+                        $(".roul").hide("3000");
+
+                    }else if(mod == 1){
+
+                      //alert(2);
+                      mod = 0;
+                      $(".jjj").hide("3000");
+                      $(".roul").show("3000");
+                      $(this).text("показать стол");
+
+                    }
+
+
+                 });
+                 /*table button*/
+
+                 /*function timeout*/
+                 var utime = 60;
+                 var checkutime = 0;
+
+                 function updatetime(){
+
+                    if(checkutime == 0){
+                      return false;
+                    }
+
+                    utime--;
+
+                    $("#timeout").text(utime);
+
+                    if(utime == 1){
+                      utime = 60;
+                    }
+
+                    
+
+                 }
+
+                
+                    setInterval(function(){
+                          updatetime();
+                      },1000);
+                 /*function timeout*/
+
+                 /*function getball*/
+
+                 function getball(){
+
+                          var urla = $("#status").val();
+
+                  
+                      /*  var o = {
+                            "hid":"d",
+                            "data":sendArray,
+                            };
+                      */
+                         $.ajax({
+                                    "type":"POST",
+                                    "url":urla,
+                                    
+                                    "datatype":"json html script",
+                                    /*"data":o,*/
+                                  
+                                    "success":kx5,
+                                    "error":errorfunc5
+                              
+                              });
+
+                          function kx5(result9){
+
+                                
+                                console.log(result9);
+
+                                if(result9 == "3"){
+
+                                   blockclient();
+
+                                }else if(result9 == "1"){
+
+                                    ublockclient();
+
+                                }
+                            
+            
+                                        }
+
+                             function errorfunc5(){
+                                alert("oshibka zaprosa v status");
+                             }
+
+                 }
+
+
+
+                 /*function getball*/
 
 
                                         /*otpravka dannih test*/
@@ -1515,11 +1633,11 @@ $(document).ready(function(){
 
                           if(result9 == "3"){
 
-                             // blockclient();
+                             blockclient();
 
                           }else if(result9 == "1"){
 
-                              //ublockclient();
+                              ublockclient();
 
                           }
                       
@@ -1535,7 +1653,7 @@ $(document).ready(function(){
 
 
                 setInterval(function(){
-                      gamestatus();
+                      //gamestatus();
                 },1000);
 
                     

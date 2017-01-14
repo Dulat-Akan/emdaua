@@ -1045,12 +1045,12 @@ public function actionK(){
 
             $id = Yii::$app->user->id;
 
-            $this->layout = 'main4';
+            $this->layout = 'poker';
 
             return $this->render('roulette', ['id' => $id]);
 
         }else{
-            return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+            return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/login'));
         }
 
         
@@ -2238,7 +2238,39 @@ public function actionK(){
             echo $status;
 
 
-    }
+          }
+
+
+        public function actionRouletteball(){
+
+                $array = array();
+                $i = 0;
+
+                $result = Yii::$app->db->createCommand('SELECT * FROM roulette ORDER BY `id` DESC LIMIT 5')->queryAll();
+
+                
+
+                if($result == true){
+
+                            foreach ($result as $value) {
+                            
+                            $array[$i] = $value['number'];
+
+                            $i++;
+
+                              }
+
+                            $json = json_encode($array);
+
+                             echo $json;
+                }else{
+                    echo "0";
+                }
+
+
+                
+
+        }
 
 
 

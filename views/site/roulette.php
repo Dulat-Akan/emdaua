@@ -1,7 +1,8 @@
 <?php 
-	use yii\helpers\Url;
- ?>
+use yii\helpers\Url;
+?>
 
+			
 <div id="copy"><canvas style="border:2px solid black;display:none ;" id="ggg" width="50" height="50"></canvas></div>
 
 
@@ -14,14 +15,20 @@
 <div class="container-fluid">
 	<div class="row">
 
-
+			
 		
-		<div class="col-md-12">
+		<div class="col-sm-12 roul" style="display: none;">		<!-- v daln ubr/displ.none -->
 			
 
 				<!-- <div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="" width="100%" height="480"></div>
 
 				<div class="col-sm-6"><img style="user-select: none; cursor: zoom-in;" src="" width="100%" height="480"></div> -->
+
+				<div class="col-sm-12">
+					<div><iframe width="1300" height="500" src="https://www.youtube.com/embed/UPYT7cJkaZo" frameborder="0" allowfullscreen></iframe></div>
+					<div><iframe width="480" height="300" style="position: absolute;top:0px;" src="https://www.youtube.com/embed/UPYT7cJkaZo" frameborder="0" allowfullscreen></iframe></div>
+				</div>
+				
 				
 
 				
@@ -29,10 +36,40 @@
 		</div>
 
 
+		<!-- <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Большая модаль</button>
 
-		<div class="col-md-12 jjj" style="top:20px;height: 500px;">
+			<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+			    <div class="modal-content">
 
-			<div class="col-md-8 col-md-offset-2" style="border:2px solid red;z-index: 10;">
+			    
+			    </div>
+			  </div>
+			</div> -->
+
+
+<div class="col-sm-12" id="s_p" style="display: none;">
+	
+	<div class="col-sm-3 col-sm-offset-3">
+		<h3 style="color:red;">Ставки прекращены..</h3>
+	</div>
+
+	<div class="col-sm-6"><div class="col-sm-5"><h3>до начало ставок: 	</h3></div><div class="col-sm-1"><h3 style="color:red;" id="timeout"></h3></div></div>
+
+</div>
+	
+
+
+
+
+
+
+
+
+
+<div class="col-sm-12 jjj" style="top:20px;height: 500px;display: ;">		<!-- post none -->
+
+			<div class="col-sm-7 col-sm-offset-2" style="border:2px solid red;z-index: 10;">
 				
 			
 					<input type="hidden" id="urll" value="<?php echo  Url::to("@img"); ?>/fishki">
@@ -481,35 +518,44 @@
 				    
 
 
-			</div>		
+			</div>	
+
+			<div class="col-sm-2">
+
+			<h3 style="margin-left:20px;">5</h3>
+			<h3 style="margin-left:20px;">5</h3>
+			<h3 style="margin-left:20px;">5</h3>
+
+
+			</div>	
 			
 				
 		</div>
 
 
 
-
-
-		<div class="col-md-12" style="top:50px;" >
-			
-				<div class="col-md-6 col-md-offset-1">
+		<div class="col-sm-12" id="butosn" style="margin-top: 35px;">
+	
+				<div class="col-sm-2 col-sm-offset-5">
 
 
 					
 					<!-- <img width="170%" src="<?php echo  Url::to('@img'); ?>/r.jpg" alt=""> -->
 
-					<!-- <button id="otpr" class="btn btn-primary">отправить данные на сервер</button> -->
+					<button id="r_mod"  class="btn btn-primary">показать стол</button>
+					
+
+
 
 				</div>
 
+				<div class="col-sm-4"><h3 style="margin-top: 5px;">Делайте ваши ставки..</h3></div>
+
 		</divl>
-	</div>
+
+
+	</div>	<!-- kones row -->
 </div>
-
-
-
-
-
 
 		<script src="<?php echo Url::to('@jquery') ?>/roulette.js"></script>
 	
