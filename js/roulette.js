@@ -1346,11 +1346,11 @@ $(document).ready(function(){
                                         /*ochistka*/
 
                                         /*otpravka dannih test*/
+                       var checkkoef = 0; //peremennaya kotoraya soobsh/bili li statvki
 
+                 $("#rb").click(function(){
 
-                 $("#otpr").click(function(){
-
-                    var checkkoef = 0;
+                    
 
                     for(var i = 0;i < arnumbercount.length;i++){
                           if(arnumbercount[i] != "0"){
@@ -1620,6 +1620,147 @@ $(document).ready(function(){
                  /*function getball*/
 
 
+
+                 /*function getresult*/
+
+                 function getresult(){
+
+                      var g_r = $("#gresult").val();
+
+                        var id = $("#us").val();
+                        var or = {
+                            "id":id,
+                            };
+                      
+                         $.ajax({
+                                    "type":"POST",
+                                    "url":g_r,
+                                    
+                                    "datatype":"json html script",
+                                    "data":or,
+                                  
+                                    "success":kx15,
+                                    "error":errorfunc15
+                              
+                              });
+
+                          function kx15(result15){
+
+                              //console.log(result15);
+
+                               var obj = jQuery.parseJSON(result15);
+
+                              // console.log(obj[0]);
+
+                                if(result15 != "2000"){
+                                    var obj = jQuery.parseJSON(result15);
+
+                                    //if(checkkoef == 1){
+                                       // if(obj[1] == "1"){
+                                              var arkoef = jQuery.parseJSON(obj[0]);
+
+                                               // $success1[0] = $d0;    /*stavki prostih chisel  -- massivi ravni po dline*/
+                                               // $success1[1] = $d1;    /*postavlennie summi*/
+                                               // $success1[2] = $d1_status; /*status stavki*/
+                                               // $success1[3] = $d1_money;  /*kolichestvo viigrannih deneg ishodya iz statusa*/
+                                               // $success1[4] = $d1_name;  /*kolichestvo viigrannih deneg ishodya iz statusa*/
+
+
+                                               // $success2[0] = $d2;    /*stavki kombinasii naprimer 1-12 i t.d  -- massivi ravni po dline*/
+                                               // $success2[1] = $d3;    /*postavlennie summi*/
+                                               // $success2[2] = $d3_status;     /*status stavki*/
+                                               // $success2[3] = $d3_money;      /*kolichestvo viigrannih deneg ishodya iz statusa*/
+                                               // $success2[4] = $d3_name;      /*kolichestvo viigrannih deneg ishodya iz statusa*/
+
+
+                                               // $success3[0] = $d4;            stavki grupp chisel  -- massivi ravni po dline
+                                               // $success3[1] = $d5;                /*postavlennie summi*/
+                                               // $success3[2] = $d5_status;          /*status stavki*/
+                                               // $success3[3] = $d5_money;              /*kolichestvo viigrannih deneg ishodya iz statusa*/
+                                               // $success3[4] = $d5_name;              /*kolichestvo viigrannih deneg ishodya iz statusa*/
+                                               
+                                               // $sendarray[0] = $success1;         /*1 rascheti*/  
+                                               // $sendarray[1] = $success2;          /*2 rascheti*/ 
+                                               // $sendarray[2] = $success3;              /*3 rascheti*/ 
+                                               // $sendarray[3] = $ostat;            /*ost*/
+                                               // $sendarray[4] = $money_summ;           /*summa viigrisha*/
+                                               // $sendarray[5] = $number;
+
+                                              /* <div class="col-sm-12">
+                                                  <div class="col-sm-10 col-sm-offset-2">
+                                                    
+                                                    <div class="col-sm-2">стрит</div>
+                                                    <div class="col-sm-2">2500</div>
+                                                    <div class="col-sm-2">10000</div>
+                                                    <div class="col-sm-2">15</div>
+                                                    <div class="col-sm-2">16.01.2017</div>
+
+                                                  </div>
+                                                </div>*/
+
+                                              var static = $(".statictics");
+
+                                              function setstatic(a,b,c,d,e){
+
+                                                  var gmove = '<div class="col-sm-12"><div class="col-sm-10 col-sm-offset-2"> <div class="col-sm-2">' + a + 
+                                                  '</div> <div class="col-sm-2">' + b + '</div> <div class="col-sm-2">' + c + '</div> <div class="col-sm-2">' + d + 
+                                                  '</div> <div class="col-sm-2">' + e + '</div> </div> </div>';
+
+                                                  static.append(gmove);
+
+                                              }
+
+                                               for(var k = 0;k < arkoef[0][0].length;k++){
+                                                    if(arkoef[0][2][k] == "1"){
+
+                                                      //console.log(arkoef[0][4][k] + " | " + arkoef[0][1][k] + " | " + arkoef[0][2][k] +  " | " + arkoef[0][3][k] +  " | " + arkoef[5] + "<br>");
+                                                      //setstatic(arkoef[0][4][k],arkoef[0][1][k],arkoef[0][3][k],arkoef[5],obj[3]);
+                                                    }
+                                               }
+
+                                               for(var j = 0;j < arkoef[1][0].length;j++){
+                                                    if(arkoef[1][2][j] == "1"){
+
+                                                      console.log(arkoef[1][4][j] + " | " + arkoef[1][1][j] + " | " + arkoef[1][2][j] +  " | " + arkoef[1][3][j] +  " | " + arkoef[5] + "<br>");
+                                                      setstatic(arkoef[1][4][j],arkoef[1][1][j],arkoef[1][3][j],arkoef[5],obj[3]);
+                                                    }
+                                               }
+
+                                               for(var h = 0;h < arkoef[2][0].length;h++){
+                                                    if(arkoef[2][2][h] == "1"){
+
+                                                      console.log(arkoef[2][4][h] + " | " + arkoef[2][1][h] + " | " + arkoef[2][2][h] +  " | " + arkoef[2][3][h] +  " | " + arkoef[5] + "<br>");
+                                                      setstatic(arkoef[2][4][h],arkoef[2][1][h],arkoef[2][3][h],arkoef[5],obj[3]);
+                                                    }
+
+                                               }
+
+
+                                             // console.log(arkoef[0][0]);
+
+                                            
+                                       // }
+
+                                       //checkkoef = 0;
+                                   // }
+
+                                   
+                                }
+                                
+            
+                             }
+
+                             function errorfunc15(){
+                                alert("oshibka zaprosa v gr..");
+                             }
+
+
+                 }
+
+
+                 /*function getresult*/
+
+
                                         /*otpravka dannih test*/
 
                 function gamestatus(){
@@ -1673,6 +1814,7 @@ $(document).ready(function(){
                 setInterval(function(){
                       //gamestatus();
                       //getball();
+                      getresult();
                 },1000);
 
                     

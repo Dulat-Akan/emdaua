@@ -79,6 +79,8 @@ use yii\helpers\Url;
 
 					<input type="hidden" id="ball" value="<?php echo Url::to('@base'); ?>/site/rouletteball">
 
+					<input type="hidden" id="gresult" value="<?php echo Url::to('@base'); ?>/site/getresult">
+
 
 					<div style="border:5px solid #9225D8;border-radius: 5px;width: 775px;">		<!-- obernuli stol v div -->
 				
@@ -543,6 +545,8 @@ use yii\helpers\Url;
 					<!-- <img width="170%" src="<?php echo  Url::to('@img'); ?>/r.jpg" alt=""> -->
 
 					<button id="r_mod"  class="btn btn-primary">показать стол</button>
+
+					<button id="rb"  class="btn btn-primary">отпр на сервер</button>
 					
 
 
@@ -552,6 +556,27 @@ use yii\helpers\Url;
 				<div class="col-sm-4"><h3 style="margin-top: 5px;">Делайте ваши ставки..</h3></div>
 
 		</divl>
+
+
+
+
+		<div class="col-sm-12"  style="margin-bottom:10px;">
+			<div class="col-sm-10 col-sm-offset-2">
+				
+				<div class="col-sm-2">комбинация</div>
+				<div class="col-sm-2">поставлено</div>
+				<div class="col-sm-2">выиграно</div>
+				<div class="col-sm-2">№ шара</div>
+				<div class="col-sm-2">дата</div>
+
+			</div>
+		</div>
+		
+		<div class="statictics">
+
+		
+
+		</div>
 
 
 	</div>	<!-- kones row -->
