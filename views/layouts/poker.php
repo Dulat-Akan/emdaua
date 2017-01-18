@@ -187,7 +187,7 @@ AppAsset::register($this);
         Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
                  'items' => [
-                     '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
+                     '<li class="white" id="balans">Баланс: ' . Yii::$app->user->identity->balance . 'тг. </li>',
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
                     ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
@@ -207,8 +207,12 @@ AppAsset::register($this);
         NavBar::end();
      }
      
-     ?>
-          <div id="main" style="margin-top: 50px;">
+     ?> 
+    
+   
+
+
+          <div id="main" style="overflow:hidden;">
         <?= $content ?>
     </div>
    

@@ -77,6 +77,11 @@ $(document).ready(function(){
       /*fixatori odnoi stavki na sosedei*/
 
 
+/*peremennaya dlya otpravki koef tolko 1 raz*/
+
+var send = 0;
+/*peremennaya dlya otpravki koef tolko 1 raz*/
+
 
     $(".y").click(function(){
 
@@ -316,9 +321,9 @@ $(document).ready(function(){
               for(var jj = 0;jj < noar.length;jj++){
                       if(x == noar[jj]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
-                        $("#fish_p").hide("1000");
+                        //$("#fish_p").hide("1000");
                         $("#message2").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
-                        $("#fish_p").delay("1500").show("1000");
+                        //$("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
                       }
@@ -327,9 +332,9 @@ $(document).ready(function(){
                   for(var jp = 0;jp < notwoar.length;jp++){
                       if(x == notwoar[jp]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
-                        $("#fish_p").hide("1000");
+                        //$("#fish_p").hide("1000");
                         $("#message2").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
-                        $("#fish_p").delay("1500").show("1000");
+                        //$("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
                       }
@@ -338,9 +343,9 @@ $(document).ready(function(){
                   for(var ja = 0;ja < nothreear.length;ja++){
                       if(x == nothreear[ja]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
-                        $("#fish_p").hide("1000");
+                        //$("#fish_p").hide("1000");
                         $("#message2").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
-                        $("#fish_p").delay("1500").show("1000");
+                        //$("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
                       }
@@ -349,9 +354,9 @@ $(document).ready(function(){
                   for(var jd = 0;jd < nofar.length;jd++){
                       if(x == nofar[jd]){
                         console.log("нельзя вибирать одно и то же число.. выберите другое..");
-                        $("#fish_p").hide("1000");
+                        //$("#fish_p").hide("1000");
                         $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
-                        $("#fish_p").delay("1500").show("1000");
+                        //$("#fish_p").delay("1500").show("1000");
                         stopnumbersvalue = 1;
                         return false;
                       }
@@ -361,9 +366,11 @@ $(document).ready(function(){
 
             if(nominalnumber == 0){
                 console.log("Выберите номинал..");
-                $("#fish_p").hide("1000");
+                
+                //$("#fish_p").hide("1000");
                 $("#message").text("Выберите номинал..").show("2000").delay("1500").hide("2000");
-                $("#fish_p").delay("1500").show("1000");
+                //$("#fish_p").delay("1500").show("1000");
+
 
                 return false;
             }
@@ -383,9 +390,9 @@ $(document).ready(function(){
                                   fixno = 1;
                                   
                                   if(fixno2 != 1){
-                                    $("#fish_p").hide("1000");
+                                    //$("#fish_p").hide("1000");
                                     $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
-                                    $("#fish_p").delay("1500").show("1000");
+                                    //$("#fish_p").delay("1500").show("1000");
                                   }
 
                               break;
@@ -398,9 +405,9 @@ $(document).ready(function(){
                                   fixntwo = 1;
 
                                   if(fixntwo2 != 1){
-                                    $("#fish_p").hide("1000");
+                                    //$("#fish_p").hide("1000");
                                     $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
-                                    $("#fish_p").delay("1500").show("1000");
+                                    //$("#fish_p").delay("1500").show("1000");
                                   }
                                 
                                 
@@ -413,9 +420,9 @@ $(document).ready(function(){
                                   fixnthree = 1;
 
                                   if(fixnthree2 != 1){
-                                    $("#fish_p").hide("1000");
+                                    //$("#fish_p").hide("1000");
                                     $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
-                                    $("#fish_p").delay("1500").show("1000");
+                                    //$("#fish_p").delay("1500").show("1000");
                                   }
                                   
                               
@@ -428,9 +435,9 @@ $(document).ready(function(){
                                   fixnfour = 1;
 
                                   if(fixnfour2 != 1){
-                                    $("#fish_p").hide("1000");
+                                    //$("#fish_p").hide("1000");
                                     $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
-                                    $("#fish_p").delay("1500").show("1000");
+                                    //$("#fish_p").delay("1500").show("1000");
                                   }
                                  
                               
@@ -756,9 +763,9 @@ $(document).ready(function(){
                     console.log(nofar);
                  }else if((fixno2 == 1) || (fixntwo2 == 1) || (fixnthree2 == 1) || (fixnfour2 == 1)){
                       console.log("Ставка на выбранного соседа уже делалась..");
-                      $("#fish_p").hide("1000");
+                      //$("#fish_p").hide("1000");
                       $("#message2").text("Ставка на выбранного соседа уже делалась..").show("2000").delay("1500").hide("2000");
-                      $("#fish_p").delay("1500").show("1000");
+                      //$("#fish_p").delay("1500").show("1000");
                  }
 
                  fixsosed = 0;
@@ -1009,7 +1016,8 @@ $(document).ready(function(){
 
             var gretto = $(this);
 
-            gretto.css("width","90px");
+           // gretto.css("width","90px");
+           gretto.css("opacity","0.6");
 
 
         },function(){
@@ -1017,7 +1025,8 @@ $(document).ready(function(){
 
             var gretto = $(this);
 
-            gretto.css("width","70px");
+            //gretto.css("width","70px");
+            gretto.css("opacity","1");
 
 
         });
@@ -1342,6 +1351,8 @@ $(document).ready(function(){
 
 
 
+
+
                  }
                                         /*ochistka*/
 
@@ -1350,7 +1361,16 @@ $(document).ready(function(){
 
                  $("#rb").click(function(){
 
-                    
+                    $(".st_pr").modal("show");
+
+
+                    setTimeout(function(){
+
+                        $(".st_pr").modal("hide");
+
+                    },4000);
+
+                    //return false;
 
                     for(var i = 0;i < arnumbercount.length;i++){
                           if(arnumbercount[i] != "0"){
@@ -1440,7 +1460,7 @@ $(document).ready(function(){
                       
 
                       if(result == "1"){
-                        cleanclient();
+                        //cleanclient();
                         console.log("ставка сделана..");
                       }else{
                         console.log("ошибка занесения в бд..");
@@ -1463,12 +1483,145 @@ $(document).ready(function(){
 
                  });      //kones click
 
+
+
+                 function sendkoef(){
+
+                       
+
+                        //return false;
+
+                        for(var i = 0;i < arnumbercount.length;i++){
+                              if(arnumbercount[i] != "0"){
+                                checkkoef = 1;
+                              }
+                        }
+
+                        for(var i = 0;i < arnumbercombinationcount.length;i++){
+                              if(arnumbercombinationcount[i] != "0"){
+                                checkkoef = 1;
+                              }
+                        }
+
+                        for(var i = 0;i < arnumbersearchcombinationcount.length;i++){
+                              if(arnumbersearchcombinationcount[i] != "0"){
+                                checkkoef = 1;
+                              }
+                        }
+
+
+                        if((checkkoef == 1) && (send == 0)){
+
+                            /*sbor sosedei arrays*/   
+                         obshiiars[0] = noar;
+                         obshiiars[1] = notwoar;
+                         obshiiars[2] = nothreear;
+                         obshiiars[3] = nofar;
+                            /*sbor sosedei arrays*/
+
+                            /*dopolnitelnie usloviya*/
+
+                            if((obshiiars[0][0] == undefined) || (obshiiars[0][0] == "-")){
+                                obshiiars[0][0] = 0;
+                            }
+
+                            if((obshiiars[1][0] == undefined) || (obshiiars[1][0] == "-")){
+                                obshiiars[1][0] = 0;
+                            }
+
+                            if((obshiiars[2][0] == undefined) || (obshiiars[2][0] == "-")){
+                                obshiiars[2][0] = 0;
+                            }
+
+                            if((obshiiars[3][0] == undefined) || (obshiiars[3][0] == "-")){
+                                obshiiars[3][0] = 0;
+                            }
+                            
+                            /*dopolnitelnie usloviya*/
+
+                            /*berem id*/
+
+                            var id = $("#us").val();
+
+                            /*berem id*/
+
+                        sendArray[0] = arnumber;
+                        sendArray[1] = arnumbercount;
+                        sendArray[2] = arnumbercombination;
+                        sendArray[3] = arnumbercombinationcount;
+                        sendArray[4] = arnumbersearchcombination;         
+                        sendArray[5] = arnumbersearchcombinationcount;
+                        sendArray[6] = obshiiars;     /*sosedi*/
+                        sendArray[7] = id;     /*sosedi*/
+
+                        var url = $("#burl").val();
+
+                
+                      var o = {
+                          "hid":"d",
+                          "data":sendArray,
+                          };
+
+                       $.ajax({
+                                  "type":"POST",
+                                  "url":url,
+                                  
+                                  "datatype":"json html script",
+                                  "data":o,
+                                
+                                  "success":kx,
+                                  "error":errorfunc
+                            
+                            });
+
+                        function kx(result){
+
+                          
+
+                          if(result == "1"){
+                            //cleanclient();
+                            console.log("ставка сделана..");
+
+
+                            $(".st_pr").modal("show");
+
+
+                            setTimeout(function(){
+
+                                $(".st_pr").modal("hide");
+
+                            },4000);
+
+                            send = 1;
+
+                          }else{
+                            console.log("ошибка занесения в бд..");
+                          }
+          
+                                      }
+
+                           function errorfunc(){
+                              alert("oshibka zaprosa v koef");
+                           }
+
+
+                         }else{
+
+                            console.log("данные пусты..");
+                            return false;
+
+                         }/*kones if*/
+
+
+                 }
+
                  /*function blockclient*/
 
                  function blockclient(){
 
+                    sendkoef();
                     $(".jjj").hide("3000");
-                    $(".roul").show("3000");
+                   // $(".roul").show("3000");
                     $("#butosn").hide();
                     $("#s_p").show();
                     checkutime = 1;
@@ -1482,7 +1635,7 @@ $(document).ready(function(){
                  function ublockclient(){
 
                      $(".jjj").show("3000");
-                     $(".roul").hide("3000");
+                    // $(".roul").hide("3000");
                      $("#butosn").show();
                      $("#s_p").hide();
 
@@ -1491,36 +1644,39 @@ $(document).ready(function(){
 
                      getball();
 
+                     send = 0;
+                     
+
                  }
 
                  /*function unblock client*/
 
                  /*table button*/
 
-                 var mod = 0;
+                 // var mod = 0;
 
-                 $("#r_mod").click(function(){
+                 // $("#r_mod").click(function(){
 
-                    if(mod == 0){
+                 //    if(mod == 0){
 
-                       // alert(1);
-                        mod = 1;
-                        $(this).text("показать дилера");
-                        $(".jjj").show("3000");
-                        $(".roul").hide("3000");
+                 //       // alert(1);
+                 //        mod = 1;
+                 //        $(this).text("показать дилера");
+                 //        $(".jjj").show("3000");
+                 //        //$(".roul").hide("3000");
 
-                    }else if(mod == 1){
+                 //    }else if(mod == 1){
 
-                      //alert(2);
-                      mod = 0;
-                      $(".jjj").hide("3000");
-                      $(".roul").show("3000");
-                      $(this).text("показать стол");
+                 //      //alert(2);
+                 //      mod = 0;
+                 //      $(".jjj").hide("3000");
+                 //      //$(".roul").show("3000");
+                 //      $(this).text("показать стол");
 
-                    }
+                 //    }
 
 
-                 });
+                 // });
                  /*table button*/
 
                  /*function timeout*/
@@ -1655,8 +1811,21 @@ $(document).ready(function(){
                                 if(result15 != "2000"){
                                     var obj = jQuery.parseJSON(result15);
 
-                                    //if(checkkoef == 1){
-                                       // if(obj[1] == "1"){
+                                    if(checkkoef == 1){
+                                       if(obj[1] == "1"){
+
+                                              var win = $(".winmessage");
+
+                                              win.modal("show");
+                                              
+                                              setTimeout(function(){
+
+                                                  win.modal("hide");
+
+                                              },4000);
+                                              
+
+
                                               var arkoef = jQuery.parseJSON(obj[0]);
 
                                                // $success1[0] = $d0;    /*stavki prostih chisel  -- massivi ravni po dline*/
@@ -1714,14 +1883,14 @@ $(document).ready(function(){
                                                     if(arkoef[0][2][k] == "1"){
 
                                                       //console.log(arkoef[0][4][k] + " | " + arkoef[0][1][k] + " | " + arkoef[0][2][k] +  " | " + arkoef[0][3][k] +  " | " + arkoef[5] + "<br>");
-                                                      //setstatic(arkoef[0][4][k],arkoef[0][1][k],arkoef[0][3][k],arkoef[5],obj[3]);
+                                                      setstatic(arkoef[0][4][k],arkoef[0][1][k],arkoef[0][3][k],arkoef[5],obj[3]);
                                                     }
                                                }
 
                                                for(var j = 0;j < arkoef[1][0].length;j++){
                                                     if(arkoef[1][2][j] == "1"){
 
-                                                      console.log(arkoef[1][4][j] + " | " + arkoef[1][1][j] + " | " + arkoef[1][2][j] +  " | " + arkoef[1][3][j] +  " | " + arkoef[5] + "<br>");
+                                                      //console.log(arkoef[1][4][j] + " | " + arkoef[1][1][j] + " | " + arkoef[1][2][j] +  " | " + arkoef[1][3][j] +  " | " + arkoef[5] + "<br>");
                                                       setstatic(arkoef[1][4][j],arkoef[1][1][j],arkoef[1][3][j],arkoef[5],obj[3]);
                                                     }
                                                }
@@ -1729,7 +1898,7 @@ $(document).ready(function(){
                                                for(var h = 0;h < arkoef[2][0].length;h++){
                                                     if(arkoef[2][2][h] == "1"){
 
-                                                      console.log(arkoef[2][4][h] + " | " + arkoef[2][1][h] + " | " + arkoef[2][2][h] +  " | " + arkoef[2][3][h] +  " | " + arkoef[5] + "<br>");
+                                                      //console.log(arkoef[2][4][h] + " | " + arkoef[2][1][h] + " | " + arkoef[2][2][h] +  " | " + arkoef[2][3][h] +  " | " + arkoef[5] + "<br>");
                                                       setstatic(arkoef[2][4][h],arkoef[2][1][h],arkoef[2][3][h],arkoef[5],obj[3]);
                                                     }
 
@@ -1739,10 +1908,21 @@ $(document).ready(function(){
                                              // console.log(arkoef[0][0]);
 
                                             
-                                       // }
+                                       }else if(obj[1] == "0"){
 
-                                       //checkkoef = 0;
-                                   // }
+                                            $(".game_over").modal("show");
+
+                                            setTimeout(function(){
+                                                
+                                                $(".game_over").modal("hide");
+
+                                            },4000);
+
+                                       }
+
+                                       checkkoef = 0;
+                                       cleanclient();
+                                    }
 
                                    
                                 }
@@ -1757,6 +1937,54 @@ $(document).ready(function(){
 
                  }
 
+
+                 /*proverka balansa*/
+
+
+                function getbalans(){
+
+
+
+                        var urlaa = $("#gbal").val();
+
+                                
+                                    /*  var o = {
+                                          "hid":"d",
+                                          "data":sendArray,
+                                          };
+                                    */
+                                       $.ajax({
+                                                  "type":"POST",
+                                                  "url":urlaa,
+                                                  
+                                                  "datatype":"json html script",
+                                                  /*"data":o,*/
+                                                
+                                                  "success":kx20,
+                                                  "error":errorfunc20
+                                            
+                                            });
+
+                                        function kx20(result){
+
+                                              
+                                              console.log(result);
+
+                                              var t = "Баланс: " + result;
+                                              $("#balans").text(t);
+                                          
+                          
+                                                      }
+
+                                           function errorfunc20(){
+                                              alert("oshibka zaprosa v bs");
+                                           }
+
+
+                    }
+
+
+                /*proverka balansa*/
 
                  /*function getresult*/
 
@@ -1797,6 +2025,12 @@ $(document).ready(function(){
                           }else if(result9 == "1"){
 
                               ublockclient();
+                              //getresult();
+
+                          }else if(result9 == "0"){
+
+                              //ublockclient();
+                              getresult();
 
                           }
                       
@@ -1812,14 +2046,88 @@ $(document).ready(function(){
 
 
                 setInterval(function(){
-                      //gamestatus();
+                      
+                      gamestatus();
                       //getball();
-                      getresult();
+                      //getresult();
                 },1000);
 
-                    
+                setInterval(function(){
+                      getbalans();
+                },5000);
+
+
 
                     
+
+
+
+                /*function message modal*/
+
+                
+
+
+                 
+
+                /*function message modal*/
+                    
+
+                /*upravlenie modalyami*/
+
+
+                $("#mods").click(function(){
+
+
+                  $(".st_pr").modal('toggle');
+                 
+
+                });
+                /*upravlenie modalyami*/
+
+
+
+                
+
+                
+
+
+
+
+
+               /*kuat button function*/
+
+
+
+
+
+                                $("#l").click(function(){
+
+                                       $("#bottom").show(500);
+                                 //$("#l").hide(2000);
+                                      document.getElementById('r').style.display='block';
+                                      document.getElementById('l').style.display='none';
+                                      //document.getElementById('bottom').style.height = '500px';
+                                      //document.getElementById('bottom').style.display='block';
+
+
+                                      });
+
+                                $("#r").click(function(){
+
+
+                                           //$("#l").show(2000);
+                                     $("#bottom").hide(500);
+                                    document.getElementById('r').style.display='none';
+                                    document.getElementById('l').style.display='block';
+                                    document.getElementById('bottom').style.height = '0px';
+                                    //document.getElementById('bottom').style.display='none';
+
+
+
+                                });
+
+                                    
+                           /*kuat button function*/     
 
 
 });

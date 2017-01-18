@@ -2058,30 +2058,34 @@ public function actionK(){
                             $d5_status[$i] = 1;
 
                             $fixit = 1;
+
+                            echo $number."<br>";
                             
                             //echo $d4[$i]." | ".$d5[$i]." | ".$d5_money[$i]." | ".$d5_status[$i]."<br>";
                         }
                         $ooo++;
                     }
-                        if($ooo == 2){
+                        if($ooo == 2 && $fixit == 1){
                                 $d5_money[$i] = $d5[$i] * $split;
                                 $vinstatus = 1;
                                 $d5_name[$i] = "split";
-                               // echo "<br>----2----<br>";
+                                //echo "<br>----2----<br>";
                             }
 
-                        if($ooo == 6){
+                        if($ooo == 6 && $fixit == 1){
                                 $d5_money[$i] = $d5[$i] * $six_number;
                                 $vinstatus = 1;
                                 $d5_name[$i] = "six_number";
-                               // echo "<br>----2----<br>";
+                                //echo "<br>----3----<br>";
                             }
 
-                        if($ooo == 4){
+                        if($ooo == 4 && $fixit == 1){
                                 $d5_money[$i] = $d5[$i] * $corner;
                                 $vinstatus = 1;
                                 $d5_name[$i] = "corner";
-                               // echo "<br>----2----<br>";
+                                //echo "<br>----4----<br>";
+
+
                             }
 
                         if($fixit == 1){
@@ -2154,6 +2158,9 @@ public function actionK(){
 
          $itog = $balans + $money_summ;
 
+
+         //echo $itog;
+
          //echo $itog;
          // $result4 = Yii::$app->db->createCommand("UPDATE user SET balance='$itog' WHERE id='$id'")->execute();
 
@@ -2207,6 +2214,9 @@ public function actionK(){
          /*struktura array[$0-4 - drevo1] -> [$0-3 - drevo2] */
 
          /*obnovit resultati*/
+
+         $result7 = Yii::$app->db->createCommand("UPDATE user SET balance='$itog' WHERE id='$id'")->execute();
+
 
          $result5 = Yii::$app->db->createCommand("UPDATE r_koef SET result_koef='$sendarrayserial', status='1', win_status='$vinstatus', sum='$money_summ', user_id='$id' WHERE status='2' LIMIT 1")->execute();
 
@@ -2348,6 +2358,22 @@ public function actionK(){
             }  /*kones if post*/
 
         }       /*kones func*/
+
+
+        public function actionGetbalans(){
+
+            $balans = 0;
+            if(Yii::$app->user->identity){
+
+                $balans = Yii::$app->user->identity->balance;
+                echo $balans;
+            }else{
+                echo $balans;
+            }
+            
+
+
+        }
 
 
 }
