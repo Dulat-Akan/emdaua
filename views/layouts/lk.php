@@ -383,7 +383,6 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-
 <?php
     NavBar::begin([
         'brandLabel' => 'AlmaBet',
@@ -394,33 +393,54 @@ AppAsset::register($this);
     ]);
     echo "<div style=\"width:200px;float:right;padding-left:20px;\" id=\"google_translate_element\"></div>";
     if(Yii::$app->user->isGuest ){
-    
+    echo 
+            Nav::widget([
+                'options' => ['class' => 'navbar-nav navbar-right'],
+                    'items' => [
+                        ['label' => 'Домой', 'url' => ['/index.php/site']],
+                        ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                        ['label' => 'О нас', 'url' => ['/index.php/site/about']],
+                        ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+                        ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                        ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                        ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
+                    ]
+            ]); 
+            NavBar::end();
      }
     else{
         echo 
         Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
                  'items' => [
-                     '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
+                     '<li class="white" id="balans">Баланс: ' . Yii::$app->user->identity->balance . 'тг. </li>',
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
-                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                     ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                    ['label' => 'Казино', 'url' => ['/index.php/site/online']],
-                    '<li>'
-                    . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
-                    . Html::submitButton(
-                        'Logout (' . Yii::$app->user->identity->username . ')',
-                        ['class' => 'btn btn-link']
-                    )
-                    . Html::endForm()
-                    . '</li>'
+                    ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                    
+                    Yii::$app->user->isGuest ? (
+                                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']]
+                     .['label' => 'Вход', 'url' => ['/index.php/site/login']]
+                
+            ) : (
+                '<li>'
+                . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
+                . Html::submitButton(
+                    'Logout (' . Yii::$app->user->identity->username . ')',
+                    ['class' => 'btn btn-link']
+                )
+                . Html::endForm()
+                . '</li>'
+            )
+            
                   ]
         ]); 
         NavBar::end();
      }
- ?>	
+    
+   ?>
 <?= $content ?>  
 <footer class="footer">
     <div class="container">

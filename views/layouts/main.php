@@ -154,7 +154,6 @@ AppAsset::register($this);
                      '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
                     ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
-                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                     ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],

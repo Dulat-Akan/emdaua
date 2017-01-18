@@ -215,19 +215,26 @@ AppAsset::register($this);
                  'items' => [
                      '<li class="white" id="balans">Баланс: ' . Yii::$app->user->identity->balance . 'тг. </li>',
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
-                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                     ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
                     ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
-                    '<li>'
-                    . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
-                    . Html::submitButton(
-                        'Logout (' . Yii::$app->user->identity->username . ')',
-                        ['class' => 'btn btn-link']
-                    )
-                    . Html::endForm()
-                    . '</li>'
+                    
+                    Yii::$app->user->isGuest ? (
+                                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']]
+                     .['label' => 'Вход', 'url' => ['/index.php/site/login']]
+                
+            ) : (
+                '<li>'
+                . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
+                . Html::submitButton(
+                    'Logout (' . Yii::$app->user->identity->username . ')',
+                    ['class' => 'btn btn-link']
+                )
+                . Html::endForm()
+                . '</li>'
+            )
+            
                   ]
         ]); 
         NavBar::end();
