@@ -36,11 +36,14 @@ AppAsset::register($this);
 <script src="https://use.fontawesome.com/13971517a4.js"></script>
 
     <style>
-        body{
-	margin:0;
-	color:#444;
-	background:#F0C27B;
+            
+    body{
+        margin:0;
+        color:#444;
+        background:#F0C27B;
         font:400 16px/18px Roboto, sans-serif;
+        height:100%;
+        width:100%;
     }
     *,:after,:before{box-sizing:border-box}
     .pull-left{float:left}
@@ -55,9 +58,10 @@ AppAsset::register($this);
         bottom:0;
         padding:15px;
         padding-top: 100px;
-        position:fixed;
+        position:absolute;
         background: #F0C27B;
-
+        height:100%;
+        width:100%;
     }
     .accordion{
         width:90%;
@@ -105,7 +109,8 @@ AppAsset::register($this);
     .accordion .sub-nav{
         display:none;
         color:#374046;
-        overflow:hidden;
+        overflow-y:scroll;
+        overflow-x:hidden;
         background:#ecf0f1;
     }
     .accordion .sub-nav.open{
@@ -416,38 +421,7 @@ AppAsset::register($this);
         NavBar::end();
      }
  ?>	
-<div class="container-fluid" style="margin-top:0px;">
-          <div class="container" style="" id="download">
-                    <div class=""><img src="<?php echo Url::to('@img') ?>/3.gif" alt=""></div>
-          </div>
-
-          <div class="container-fluid container-content2">
-                    <div class="row">
-                              <div class="col-md-12">
-                                        <div class="col-md-10 col-md-push-2" id="pok_searh2"><?= $content ?></div>
-          <!-- <div class="col-md-10 col-md-push-2" id=""></div> -->
-                                        
-                              </div>
-                    </div>
-           </div>
-          <script src="<?php echo Url::to('@jquery') ?>/l_o.js"></script>
-
-          <script>
-          $('.btn.btn-primary').click(function(){
-          $('.alert').html('');
-          $('.alert').removeClass('alert-success');
-          $('.alert').removeClass('alert');
-
-          })
-
-          </script>
-
-          <script type="text/javascript">
-                    $(function(){
-                              $('.kolekcii').jScrollPane();
-                    });
-          </script>
-</div>
+<?= $content ?>  
 <footer class="footer">
     <div class="container">
         <p class="pull-left"></p>

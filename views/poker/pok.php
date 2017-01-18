@@ -1,6 +1,6 @@
 <?php use yii\helpers\Url; ?>
 
-<input type="hidden" id="url" value="<?php echo Url::to('@base') ?>/poker/findcart">
+<input type="hidden" id="url" value="<?php echo Url::to('@basepath') ?>/poker/findcart">
 <input type="hidden" id="beturl" value="<?php echo Url::to('@base') ?>/poker/sendhist">
 <script type="text/javascript">
 function zoom(){
@@ -31,7 +31,7 @@ function nav2(){
 </script>
 
 <div id="top">
-    <img id="r" onClick="zooml()" src="<?php echo Url::to('@img/btn_top.png'); ?>" width="40px" height="40px" style="display:none;right:50%;bottom:560px;position:absolute;z-index:5;">
+    <img id="r" onClick="zooml()" src="<?php echo Url::to('@img/btn_top.png'); ?>" width="40px" height="40px" style="display:none;right:50%;bottom:490px;position:absolute;z-index:5;">
     <img id="l" onClick="zoom()" src="<?php echo Url::to('@img/btn_dwn.png'); ?>" >
     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uNN6Pj06Cj8" frameborder="0" allowfullscreen></iframe>
     <!--<img style="user-select: none; cursor: zoom-in;top:2000px;" src="http://192.168.1.150:8092/webcam3.mjpeg" width="100%" height="100%">
@@ -82,7 +82,7 @@ function nav2(){
                     </div><!-- /.product -->
                 <!--------------- переворачивание обратная сторона--------------------->
                     <div class="product22 back">
-                        <h6 style="color:#fdd700"> Выиграет игрок 1</h6>
+                        <h6 style="color:#fdd700" > Выиграет игрок 1</h6>
                         <p style ="display: inline; color:#fdd700">коеф-т: 4.1&nbsp<p: class="p1" style ="display: inline"></p></p>  
                         <div  class="col-xs-12">
                             <input id="p1" type="text" class="col-xs-8" name="p1" value="" placeholder="введите сумму">
@@ -182,7 +182,7 @@ function nav2(){
         </div><!---окончание -блок открывается по клику игрок-->
     <!----------блок комбинации----------->				
         <div role="tabpanel" class="tab-pane" id="nav19">
-            <div class="col-md-8">
+                  <div class="col-md-8" style="overflow-y: scroll; height:300px">
                 <div onclick="k1()" class="col-xs-12 comb " id="k1">Кикер выиграет <p  style="display: inline; text-align: center; float:right">к: <b>100</b>&nbsp&nbsp</p></div>
                 <div onclick="k2()" class="col-xs-12 comb " id="k2">Одна пара выиграет     <p  style="display: inline; text-align: center; float:right">к: 5.5&nbsp&nbsp</p></div>
                 <div onclick="k3()" class="col-xs-12 comb " id="k3">Две пары выиграет      <p  style="display: inline; text-align: center; float:right">к: 3.2&nbsp&nbsp</p></div>
