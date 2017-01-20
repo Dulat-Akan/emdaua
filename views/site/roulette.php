@@ -542,10 +542,13 @@
 			<div class="jjj" style="margin-top:5px;position: absolute;top:22px;left:91%;z-index: 26;">
 							
 							<button class="n253-3">сумма ставки <p style="color:red;" id="summx"></p></button>
-							
-							<!-- <button id="rb"  class="btn btn-primary">отпр на сервер</button>
-							<button id="mods"  class="btn btn-primary">modal</button -->
-						
+
+						</div>
+
+			<div class="jjj" style="margin-top:5px;position: absolute;top:330px;left:5%;z-index: 26;">
+
+							<a href="<?php echo Url::to('@base'); ?>/site/roulettehistory" style="background-color: #330628;color:#fdd700;border:2px solid #9225D8;-webkit-border-radius: 5px ;border-radius: 5px ;height: 40px;" class="n253-4 btn btn-info">история всех ставок</a>
+
 						</div>
 
 			<div class="jjj" style="margin-top:5px;position: absolute;top:310px;left:80%;z-index: 26;">

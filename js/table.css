@@ -2089,6 +2089,21 @@
 	
 }
 
+.n253-4{
+	background-color: #330628;
+	color:#fdd700;
+	text-align:center;
+	width:180px;
+	
+	border:2px solid #9225D8;
+	-webkit-border-radius: 5px ;
+	        border-radius: 5px ;
+	line-height: 35px;
+	font-size: 16px;
+	/*margin-left: 5px;*/
+	
+}
+
 
 
 										/* sled help i t.d */
