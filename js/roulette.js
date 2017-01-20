@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  var usersum = 0;
+
   var sendArray = new Array();
 
   var nominalnumber = 0;  //nominal
@@ -81,6 +83,11 @@ $(document).ready(function(){
 
 var send = 0;
 /*peremennaya dlya otpravki koef tolko 1 raz*/
+
+/*proverka statusa igri*/
+var gamestatus2 = 0;
+/*proverka statusa igri*/
+
 
 
     $(".y").click(function(){
@@ -288,7 +295,7 @@ var send = 0;
 
                   arnumbercombinationcount[i] = gcount;
 
-                  console.log(arnumbercombinationcount);
+                  //console.log(arnumbercombinationcount);
 
             }
 
@@ -300,7 +307,7 @@ var send = 0;
 
                   arnumbersearchcombinationcount[g] = gcount;
 
-                  console.log(arnumbersearchcombinationcount);
+                  //console.log(arnumbersearchcombinationcount);
 
             }
 
@@ -312,7 +319,7 @@ var send = 0;
 
                   arnumbercombinationcount[m] = gcount;
 
-                  console.log(arnumbercombinationcount);
+                  //console.log(arnumbercombinationcount);
 
             }
 
@@ -320,7 +327,7 @@ var send = 0;
 
               for(var jj = 0;jj < noar.length;jj++){
                       if(x == noar[jj]){
-                        console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        //console.log("нельзя вибирать одно и то же число.. выберите другое..");
                         //$("#fish_p").hide("1000");
                         $("#message2").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
                         //$("#fish_p").delay("1500").show("1000");
@@ -331,7 +338,7 @@ var send = 0;
 
                   for(var jp = 0;jp < notwoar.length;jp++){
                       if(x == notwoar[jp]){
-                        console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        //console.log("нельзя вибирать одно и то же число.. выберите другое..");
                         //$("#fish_p").hide("1000");
                         $("#message2").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
                         //$("#fish_p").delay("1500").show("1000");
@@ -342,7 +349,7 @@ var send = 0;
 
                   for(var ja = 0;ja < nothreear.length;ja++){
                       if(x == nothreear[ja]){
-                        console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        //console.log("нельзя вибирать одно и то же число.. выберите другое..");
                         //$("#fish_p").hide("1000");
                         $("#message2").text("нельзя вибирать одно и то же число.. выберите другое..").show("2000").delay("1500").hide("2000");
                         //$("#fish_p").delay("1500").show("1000");
@@ -353,7 +360,7 @@ var send = 0;
 
                   for(var jd = 0;jd < nofar.length;jd++){
                       if(x == nofar[jd]){
-                        console.log("нельзя вибирать одно и то же число.. выберите другое..");
+                        //console.log("нельзя вибирать одно и то же число.. выберите другое..");
                         //$("#fish_p").hide("1000");
                         $("#message2").text("Выберите номинал для соседних чисел..").show("2000").delay("1500").hide("2000");
                         //$("#fish_p").delay("1500").show("1000");
@@ -365,7 +372,7 @@ var send = 0;
             }
 
             if(nominalnumber == 0){
-                console.log("Выберите номинал..");
+                //console.log("Выберите номинал..");
                 
                 //$("#fish_p").hide("1000");
                 $("#message").text("Выберите номинал..").show("2000").delay("1500").hide("2000");
@@ -468,7 +475,7 @@ var send = 0;
 
                   arnumbercount[i] = gcount;
 
-                  console.log(arnumbercount);
+                  //console.log(arnumbercount);
 
                   getimage();
 
@@ -739,30 +746,30 @@ var send = 0;
                     noar.push(arnumber[i]);
                     fixno = 0;
                     fixno2 = 1;
-                    console.log(noar);
+                    //console.log(noar);
                  }else if((fixntwo == 1) && (fixntwo2 != 1)){
                     //z.css("border","2px solid white");
                     getimage2(2);
                     notwoar.push(arnumber[i]);
                     fixntwo = 0;
                     fixntwo2 = 1;
-                    console.log(notwoar);
+                    //console.log(notwoar);
                  }else if((fixnthree == 1) && (fixnthree2 != 1)){
                    // z.css("border","2px solid white");
                     getimage2(3);
                     nothreear.push(arnumber[i]);
                     fixnthree = 0;
                     fixnthree2 = 1;
-                    console.log(nothreear);
+                    //console.log(nothreear);
                  }else if((fixnfour == 1) && (fixnfour2 != 1)){
                     //z.css("border","2px solid white");
                     getimage2(4);
                     nofar.push(arnumber[i]);
                     fixnfour = 0;
                     fixnfour2 = 1;
-                    console.log(nofar);
+                    //console.log(nofar);
                  }else if((fixno2 == 1) || (fixntwo2 == 1) || (fixnthree2 == 1) || (fixnfour2 == 1)){
-                      console.log("Ставка на выбранного соседа уже делалась..");
+                      //console.log("Ставка на выбранного соседа уже делалась..");
                       //$("#fish_p").hide("1000");
                       $("#message2").text("Ставка на выбранного соседа уже делалась..").show("2000").delay("1500").hide("2000");
                       //$("#fish_p").delay("1500").show("1000");
@@ -1120,7 +1127,7 @@ var send = 0;
 
                               alpha.attr("count",summ);
 
-                              console.log("удвоение выполнено");
+                              //console.log("удвоение выполнено");
 
                               
 
@@ -1426,6 +1433,8 @@ var send = 0;
 
                         /*berem id*/
 
+
+
                     sendArray[0] = arnumber;
                     sendArray[1] = arnumbercount;
                     sendArray[2] = arnumbercombination;
@@ -1469,7 +1478,7 @@ var send = 0;
                                   }
 
                        function errorfunc(){
-                          alert("oshibka zaprosa v koef");
+                          console.log("oshibka zaprosa v koef");
                        }
 
 
@@ -1484,6 +1493,63 @@ var send = 0;
                  });      //kones click
 
 
+                          /*function proverki sredstv*/
+                  function checksum(){
+
+
+                    var sumx = 0;
+
+                        
+
+                        for(var xx = 0;xx < arnumbercount.length;xx++){
+
+                            if(arnumbercount[xx] != 0){
+                              sumx += arnumbercount[xx];
+                            }
+
+                        }
+
+
+                        for(var xx2 = 0;xx2 < arnumbersearchcombinationcount.length;xx2++){
+
+                            if(arnumbersearchcombinationcount[xx2] != 0){
+                              sumx += arnumbersearchcombinationcount[xx2];
+                            }
+
+                        }
+
+                        for(var xx3 = 0;xx3 < arnumbercombinationcount.length;xx3++){
+
+                            if(arnumbercombinationcount[xx3] != 0){
+                              sumx += arnumbercombinationcount[xx3];
+                            }
+
+                        }
+
+                        if((sumx > usersum) && (usersum != 0)){
+
+                            //console.log("Ваша ставка не должна превышать суммы на счете!..");
+
+                            $(".check_momey").modal("show");
+
+                            setTimeout(function(){
+
+                              $(".check_momey").modal("hide");
+
+                            },4000);
+
+                            cleanclient();
+                            
+                        }else{
+                            //console.log(sumx + "поставленная сумма");
+
+                            $("#summx").text(sumx);
+                        }
+
+
+                  }
+
+                                    /*function proverki sredstv*/
 
                  function sendkoef(){
 
@@ -1508,6 +1574,11 @@ var send = 0;
                                 checkkoef = 1;
                               }
                         }
+                              /*podschet postavlennoi summi i proverka*/
+
+
+
+                        /*podschet postavlennoi summi i proverka*/
 
 
                         if((checkkoef == 1) && (send == 0)){
@@ -1601,7 +1672,7 @@ var send = 0;
                                       }
 
                            function errorfunc(){
-                              alert("oshibka zaprosa v koef");
+                              console.log("oshibka zaprosa v koef");
                            }
 
 
@@ -1625,6 +1696,8 @@ var send = 0;
                     $("#butosn").hide();
                     $("#s_p").show();
                     checkutime = 1;
+                    checkutime2 = 0;
+                    utime2 = 60;
 
                  }
 
@@ -1640,7 +1713,9 @@ var send = 0;
                      $("#s_p").hide();
 
                      utime = 60;
+                     
                      checkutime = 0;
+                     checkutime2 = 1;
 
                      getball();
 
@@ -1659,7 +1734,7 @@ var send = 0;
 
                  //    if(mod == 0){
 
-                 //       // alert(1);
+                 //       // console.log(1);
                  //        mod = 1;
                  //        $(this).text("показать дилера");
                  //        $(".jjj").show("3000");
@@ -1667,7 +1742,7 @@ var send = 0;
 
                  //    }else if(mod == 1){
 
-                 //      //alert(2);
+                 //      //console.log(2);
                  //      mod = 0;
                  //      $(".jjj").hide("3000");
                  //      //$(".roul").show("3000");
@@ -1701,9 +1776,34 @@ var send = 0;
 
                  }
 
+                 var utime2 = 60;
+                 var checkutime2 = 0;
+
+                 function updatetime2(){
+
+                    if(checkutime2 == 0){
+                      return false;
+                    }
+
+                    utime2--;
+
+                    //console.log(utime2);
+
+                    $(".timeout2").text(utime2);
+
+                    if(utime2 == 1){
+                      utime2 = 60;
+                    }
+
+                    
+
+                 }
+
                 
                     setInterval(function(){
                           updatetime();
+                          updatetime2();
+
                       },1000);
                  /*function timeout*/
 
@@ -1737,20 +1837,33 @@ var send = 0;
 
                                 var obj = jQuery.parseJSON(result10);
 
-                                console.log(obj);
+                                //console.log(obj);
 
                                 $("#balltracker").empty();
 
                                 for(var i = 0;i < obj.length;i++){
 
-                                    if(i == 1){
+                                    if(i == 0){
 
                                         $("#balltracker").append('<h3 id="g_ball" style="margin-left:20px;">' + obj[i] + '</h3>');
+
+                                        var jj = $("#im_r_val").val();
+                                        var jjj = jj + obj[i] + ".png";
+                                        
+                                        $(".im_r").each(function(index,element){
+
+                                            $(element).attr("src",jjj);
+
+                                        });
+
+                                        
+
+                                        //console.log(jjj);
 
                                     }else{
 
                                         $("#balltracker").append('<h3 style="margin-left:20px;">' + obj[i] + '</h3>');
-                                        console.log(obj[i]);
+                                        //console.log(obj[i]);
 
                                     }
                                     
@@ -1766,7 +1879,7 @@ var send = 0;
                              }
 
                              function errorfunc10(){
-                                alert("oshibka zaprosa v ball");
+                                console.log("oshibka zaprosa v ball");
                              }
 
                  }
@@ -1871,9 +1984,100 @@ var send = 0;
 
                                               function setstatic(a,b,c,d,e){
 
-                                                  var gmove = '<div class="col-sm-12"><div class="col-sm-10 col-sm-offset-2"> <div class="col-sm-2">' + a + 
+                                                  var a_1 = "";
+
+                                                  switch (a) {
+                                                        case "corner":
+                                                          a_1 = "угол";
+                                                          break;
+                                                        case "duzhina":
+                                                          a_1 = "дюжина";
+                                                          break;
+                                                        case "kolonki":
+                                                          a_1 = "колонка";
+                                                          break;
+
+                                                          case "mal_bol":
+                                                          a_1 = "малые_большие";
+                                                          break;
+
+                                                          case "stright_up":
+                                                          a_1 = "прямое попадание";
+                                                          break;
+
+
+                                                          case "even_odd":
+                                                          a_1 = "четное_нечетное";
+                                                          break;
+
+                                                          case "black_red":
+                                                          a_1 = "красные_черные";
+                                                          break;
+
+                                                          case "no":
+                                                          a_1 = "1 сосед";
+                                                          break;
+
+                                                          case "notwo":
+                                                          a_1 = "2 соседа";
+                                                          break;
+
+                                                          case "nothree":
+                                                          a_1 = "3 соседа";
+                                                          break;
+
+                                                          case "nofour":
+                                                          a_1 = "4 соседа";
+                                                          break;
+
+                                                          case "split":
+                                                          a_1 = "сплит";
+                                                          break;
+
+                                                          case "six_number":
+                                                          a_1 = "6 номеров";
+                                                          break;
+
+
+                                                          case "z_s":
+                                                          a_1 = "zero_speal";
+                                                          break;
+
+                                                          case "orp":
+                                                          a_1 = "orphans";
+                                                          break;
+
+                                                          case "s_s":
+                                                          a_1 = "малая серия";
+                                                          break;
+                                                          
+                                                          case "b_s":
+                                                          a_1 = "большая серия";
+                                                          break;
+
+                                                        
+                                                      }
+
+                                                      var hhh = new Date(e * 1000);
+
+                                                      var options = {
+                                                            //era: 'long',
+                                                            //era: 'long',
+                                                            year: 'numeric',
+                                                            month: 'numeric',
+                                                            day: 'numeric',
+                                                            //weekday: 'long',
+                                                            //timezone: 'UTC',
+                                                            hour: 'numeric',
+                                                            minute: 'numeric',
+                                                            second: 'numeric'
+                                                          };
+
+                                                      var strdate = hhh.toLocaleString("ru", options);
+
+                                                  var gmove = '<div class="col-sm-12"><div class="col-sm-11 col-sm-offset-1"> <div class="col-sm-2">' + a_1 + 
                                                   '</div> <div class="col-sm-2">' + b + '</div> <div class="col-sm-2">' + c + '</div> <div class="col-sm-2">' + d + 
-                                                  '</div> <div class="col-sm-2">' + e + '</div> </div> </div>';
+                                                  '</div> <div class="col-sm-3">' + strdate + '</div> </div> </div>';
 
                                                   static.append(gmove);
 
@@ -1931,7 +2135,7 @@ var send = 0;
                              }
 
                              function errorfunc15(){
-                                alert("oshibka zaprosa v gr..");
+                                console.log("oshibka zaprosa v gr..");
                              }
 
 
@@ -1968,8 +2172,8 @@ var send = 0;
                                         function kx20(result){
 
                                               
-                                              console.log(result);
-
+                                              //console.log(result);
+                                              usersum = result;
                                               var t = "Баланс: " + result;
                                               $("#balans").text(t);
                                           
@@ -1977,7 +2181,7 @@ var send = 0;
                                                       }
 
                                            function errorfunc20(){
-                                              alert("oshibka zaprosa v bs");
+                                              console.log("oshibka zaprosa v bs");
                                            }
 
 
@@ -1985,6 +2189,68 @@ var send = 0;
 
 
                 /*proverka balansa*/
+
+
+
+                /*proverka raboti dilera*/
+
+                var checkx = 0;
+
+                function updatedealerstatus(){
+
+
+                      var urll = $("#ds").val();
+
+          /*var j = {
+                        "data":st,
+                        };*/
+
+                     $.ajax({
+                                "type":"POST",
+                                "url":urll,
+                                
+                                "datatype":"json html script",
+                                /*"data":j,*/
+                              
+                                "success":kxx,
+                                "error":errorfuncv
+                          
+                          });
+
+                      function kxx(result2){
+
+                        //console.log(result2);
+
+                              if(result2 == "4"){
+                                gamestatus2 = 4;   //ostanovka raboti dilera
+                                checkx = 0;
+                              }
+
+                              if(result2 == "5"){
+                                          //prodolzhenie raboti dilera
+                                gamestatus2 = 1;
+                                if(checkx == 0){
+                                  
+                                  checkx = 1;
+                                }
+
+                              }
+        
+                                    }
+
+                         function errorfuncv(){
+                            console.log("oshibka vW");
+                         }
+
+
+
+                   }
+
+
+                /*proverka raboti dilera*/
+
+
+
 
                  /*function getresult*/
 
@@ -2016,7 +2282,7 @@ var send = 0;
                     function kx5(result9){
 
                           
-                          console.log(result9);
+                         // console.log(result9);
 
                           if(result9 == "3"){
 
@@ -2038,19 +2304,44 @@ var send = 0;
                                   }
 
                        function errorfunc5(){
-                          alert("oshibka zaprosa v status");
+                          console.log("oshibka zaprosa v status");
                        }
 
                 } 
 
+/*game status*/
 
+                var checky = 0;
+                var checky2 = 0;
 
                 setInterval(function(){
+                      checksum();
+                      updatedealerstatus();
+                      if(gamestatus2 != 4){
+                           gamestatus();
+                        //getball();
+                        //getresult();
+
+                        if(checky2 == 0){
+                           checky = 0;
+                           $(".stop_dealer").modal("hide");
+                           checky2 = 1;
+                        }
+                        
+
+                      }else if(gamestatus2 == 4){
+
+                          if(checky == 0){
+                              $(".stop_dealer").modal("show");
+                              checky = 1;
+                              checky2 = 0;
+                          }
+
+                      }
                       
-                      gamestatus();
-                      //getball();
-                      //getresult();
                 },1000);
+
+/*game status*/
 
                 setInterval(function(){
                       getbalans();
@@ -2078,7 +2369,9 @@ var send = 0;
                 $("#mods").click(function(){
 
 
-                  $(".st_pr").modal('toggle');
+                 // $(".winmessage").modal('toggle');
+                  $(".winmessage2").modal('toggle');
+                 // $(".game_over").modal('toggle');
                  
 
                 });

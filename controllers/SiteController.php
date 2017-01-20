@@ -1175,13 +1175,13 @@ public function actionK(){
         $krasn_chernoe = 2;
         $mal_bolshie = 2;
         $none = 12;
-        $ntwo = 10;
-        $nthree = 8;
-        $nfour = 6;
-        $big_series = 9;
-        $small_series = 9;
+        $ntwo = 7.2;
+        $nthree = 5;
+        $nfour = 4;
+        $big_seriess = 3;
+        $small_series = 3;
         $orphand = 9;
-        $zero_spiel = 9;
+        $zero_spiel2 = 9;
 
         $vinstatus = 0;
 
@@ -1620,8 +1620,8 @@ public function actionK(){
                                             if($big_series[$g] == $number){
                                                 
                                                 $d3_status[$i] = 1;
-                                                $d3_name[$i] = "black_red";
-                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $d3_name[$i] = "b_s";
+                                                $d3_money[$i] = $d3[$i] * $big_seriess;
                                                 $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
@@ -1638,8 +1638,8 @@ public function actionK(){
                                             if($s_s[$h] == $number){
                                                 
                                                 $d3_status[$i] = 1;
-                                                $d3_name[$i] = "black_red";
-                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $d3_name[$i] = "s_s";
+                                                $d3_money[$i] = $d3[$i] * $small_series;
                                                 $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
@@ -1657,8 +1657,8 @@ public function actionK(){
                                             if($orphanss[$j] == $number){
                                                 
                                                 $d3_status[$i] = 1;
-                                                $d3_name[$i] = "black_red";
-                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $d3_name[$i] = "orp";
+                                                $d3_money[$i] = $d3[$i] * $orphand;
                                                 $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
@@ -1675,8 +1675,8 @@ public function actionK(){
                                             if($zero_spiel[$k] == $number){
                                                 
                                                 $d3_status[$i] = 1;
-                                                $d3_name[$i] = "black_red";
-                                                $d3_money[$i] = $d3[$i] * $krasn_chernoe;
+                                                $d3_name[$i] = "z_s";
+                                                $d3_money[$i] = $d3[$i] * $zero_spiel2;
                                                 $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
                                             }
@@ -2371,6 +2371,28 @@ public function actionK(){
                 echo $balans;
             }
             
+
+
+        }
+
+
+        public function actionRoulettehistory(){
+
+             $identity = Yii::$app->user->identity;
+
+                if($identity){
+
+                    $id = Yii::$app->user->id;
+
+                    $this->layout = 'poker';
+
+                    $result = Yii::$app->db->createCommand("SELECT * FROM r_koef WHERE `user_id`='$id' ORDER BY `id`")->queryAll();
+
+                    return $this->render('r_history',['result'=>$result]);
+
+                }else{
+                    return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/login'));
+                }
 
 
         }

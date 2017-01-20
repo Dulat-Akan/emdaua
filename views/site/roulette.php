@@ -40,9 +40,9 @@
 <div id="bottom" style="height:">
 
 	<!-- <div style="position: absolute;left: 30%;top:0px;"> -->
-	    <div class="col-sm-12 jjj" style="top:20px;height: 400px; background-color: white;">		<!-- post none -->
+	    <div class="col-xs-12 jjj" style="top:20px;height: 400px; background-color: white;">		<!-- post none -->
 
-				<div class="col-sm-7 col-sm-offset-2" style="border:2px solid white;z-index: 10;">
+				<div class="col-xs-7 col-xs-offset-2" style="border:2px solid white;z-index: 10;">
 					
 				
 						<input type="hidden" id="urll" value="<?php echo  Url::to("@img"); ?>/fishki">
@@ -55,6 +55,8 @@
 						<input type="hidden" id="gresult" value="<?php echo Url::to('@base'); ?>/site/getresult">
 
 						<input type="hidden" id="gbal" value="<?php echo Url::to('@base'); ?>/site/getbalans">
+
+						<input type="hidden" id="ds" value="<?php echo Url::to('@base'); ?>/site/gamestatusdealer">
 
 
 						<div style="border:5px solid #9225D8;border-radius: 5px;width: 775px;">		<!-- obernuli stol v div -->
@@ -523,21 +525,33 @@
 
 
 
-			<div class="jjj" style="margin-top:5px;position: absolute;top:35px;left:83%;z-index: 26;">
+			<div class="jjj" style="margin-top:5px;position: absolute;top:22px;left:83%;z-index: 26;">
 							
 							<button class="n253-2" data-toggle="modal" data-target=".bs-example-modal-lg">статистика</button>
 							<div class="n250" style="">помощь</div>
 							<div class="n251"  style="">X2 double</div>
 							<div  class="n252" style="">очистить</div>
 							<div class="n253"  style="">повторить</div>
+							<div class="n253" id="mods" style="">посм.номер</div>
 							<!-- <button id="rb"  class="btn btn-primary">отпр на сервер</button>
-							<button id="mods"  class="btn btn-primary">modal</button> -->
+							<button id="mods"  class="btn btn-primary">modal</button -->
+						
+						</div>
+
+
+			<div class="jjj" style="margin-top:5px;position: absolute;top:22px;left:91%;z-index: 26;">
+							
+							<button class="n253-3">сумма ставки <p style="color:red;" id="summx"></p></button>
+							
+							<!-- <button id="rb"  class="btn btn-primary">отпр на сервер</button>
+							<button id="mods"  class="btn btn-primary">modal</button -->
 						
 						</div>
 
 			<div class="jjj" style="margin-top:5px;position: absolute;top:310px;left:80%;z-index: 26;">
 				
 					<p id="blink">Делайте ставки ..</p>
+					<p id="blink" style="margin-left:40%;margin-top:-15px;" class="timeout2"></p>
 
 
 			</div>
@@ -545,14 +559,14 @@
 
 			<div  id="s_p" style="height: 380px;background-color: white;display: none;">
 
-						<div class="col-sm-12 alert alert-danger" ">
+						<div class="col-xs-12 alert alert-danger" ">
 					
 								
-					<div class="col-sm-4 col-sm-offset-1">
+					<div class="col-xs-4 col-xs-offset-1">
 						<h3 style="color:red;font-size: 30px;text-align: center;">Ставки приостановлены..</h3>
 					</div>
 
-					<div class="col-sm-7"><div class="col-sm-6"><h3 style="color:red;font-size: 30px;text-align: center;">до начала ставок: 	</h3></div><div class="col-sm-1"><h3 style="color:red;font-size: 30px;text-align: center;" id="timeout"></h3></div></div>
+					<div class="col-xs-7"><div class="col-xs-6"><h3 style="color:red;font-size: 30px;text-align: center;">до начала ставок: 	</h3></div><div class="col-xs-1"><h3 style="color:red;font-size: 30px;text-align: center;" id="timeout"></h3></div></div>
 
 					</div>
 
@@ -573,9 +587,9 @@
 		
 
 
-		<div class="col-sm-12" id="butosn" style="position: absolute;top:0px; z-index: 15;">
+		<div class="col-xs-12" id="butosn" style="position: absolute;top:0px; z-index: 15;">
 	
-				<div class="col-sm-2 col-sm-offset-10">
+				<div class="col-xs-2 col-xs-offset-10">
 
 
 					
@@ -601,14 +615,14 @@
 			  <div class="modal-dialog modal-lg">
 			    <div class="modal-content">
 						
-						<div class="col-sm-12"  style="margin-bottom:10px;background-color: white;">
-							<div class="col-sm-10 col-sm-offset-2">
+						<div class="col-xs-12"  style="margin-bottom:10px;background-color: white;">
+							<div class="col-xs-10 col-xs-offset-2">
 								
-								<div class="col-sm-2">комбинация</div>
-								<div class="col-sm-2">поставлено</div>
-								<div class="col-sm-2">выиграно</div>
-								<div class="col-sm-2">№ шара</div>
-								<div class="col-sm-2">дата</div>
+								<div class="col-xs-2">комбинация</div>
+								<div class="col-xs-2">поставлено</div>
+								<div class="col-xs-2">выиграно</div>
+								<div class="col-xs-2">№ шара</div>
+								<div class="col-xs-2">дата</div>
 
 							</div>
 						</div>
@@ -629,10 +643,33 @@
 			    <div class="modal-content">
 						
 						
-							<div class="col-sm-4 col-sm-offset-4">
+							<div class="col-xs-4 col-xs-offset-4">
 								
 									<div class="alert alert-info">
 											  <h3 style="text-align: center;">Cтавка принята..</h3>
+										</div>
+								
+
+							</div>
+						
+						
+						
+			    
+			    </div>			<!-- kones modal -->
+			  </div>
+			</div>
+
+
+
+			<div class="modal fade stop_dealer" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+			    <div class="modal-content">
+						
+						
+							<div class="col-xs-5 col-xs-offset-3">
+								
+									<div class="alert alert-info">
+											  <h3 style="text-align: center;">Игра приостановлена..</h3>
 										</div>
 								
 
@@ -652,14 +689,47 @@
 			    <div class="modal-content">
 						
 						
-							<div class="col-sm-4 col-sm-offset-4">
-								
-									<div class="alert alert-info">
-											  <h3 style="text-align: center;">К сожалению вы проиграли..</h3>
-										</div>
-								
+							<div class="col-xs-12" id="" style="">
+									<div class="col-xs-8 col-xs-offset-2">
+										
+										<div class="alert alert-danger">
+											  <h3 style="text-align: center;">К сожалению вы проиграли.... </h3>
+											  <img class="im_r" style="width: 300px;height: 200px;margin-left:22%;" src="<?php echo Url::to('@img') ?>/roul/no_image.png" alt="">
+											  
 
-							</div>
+										</div>
+
+
+										
+									</div>
+								</div>
+						
+						
+						
+			    
+			    </div>			<!-- kones modal -->
+			  </div>
+			</div>
+
+
+
+			<div class="modal fade check_momey" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+			    <div class="modal-content">
+						
+						
+							<div class="col-xs-12" id="" style="">
+									<div class="col-xs-8 col-xs-offset-2">
+										
+										<div class="alert alert-danger">
+											  <h3 style="text-align: center;">Ваша ставка не должна превышать суммы на счете!..</h3>
+
+										</div>
+
+
+										
+									</div>
+								</div>
 						
 						
 						
@@ -677,12 +747,43 @@
 			    <div class="modal-content">
 						
 						
-								<div class="col-sm-12" id="" style="">
-									<div class="col-sm-8 col-sm-offset-2">
+								<div class="col-xs-12" id="" style="">
+									<div class="col-xs-8 col-xs-offset-2">
+										
+										<div class="alert alert-success">
+											  <h3>Вы выиграли.... подробнее см. статистику</h3>
+											  <img class="im_r" style="width: 300px;height: 200px;margin-left:22%;" src="<?php echo Url::to('@img') ?>/roul/no_image.png" alt="">
+											  <input id="im_r_val" type="hidden" value="<?php echo Url::to('@img') ?>/roul/">
+
+										</div>
+
+
+										
+									</div>
+								</div>
+			    
+			    </div>			<!-- kones modal -->
+			  </div>
+			</div>
+
+
+
+			<div class="modal fade winmessage2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+			    <div class="modal-content">
+						
+						
+								<div class="col-xs-12" id="" style="">
+									<div class="col-xs-8 col-xs-offset-2">
 										
 										<div class="alert alert-info">
-											  <h3>Вы выиграли.... подробнее см. статистику</h3>
+											  
+											  <img class="im_r" style="width: 300px;height: 200px;margin-left:22%;" src="<?php echo Url::to('@img') ?>/roul/no_image.png" alt="">
+											  
+
 										</div>
+
+
 										
 									</div>
 								</div>

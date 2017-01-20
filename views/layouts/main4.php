@@ -60,7 +60,7 @@ AppAsset::register($this);
     
                 
     <!--end scroll bar -->
-    <script src="<?php echo Url::to('@jquery') ?>/jquery.min.js"></script>
+    <!-- <script src="<?php echo Url::to('@jquery') ?>/jquery.min.js"></script> -->
     <script src="<?php echo Url::to('@jquery') ?>/jquery-ui-1.10.3.custom.js"></script>
     
     <meta charset="<?= Yii::$app->charset ?>">
