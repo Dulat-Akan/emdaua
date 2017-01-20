@@ -2408,4 +2408,20 @@ public function actionK(){
         }
 
 
+
+        public function actionRepeatnumber(){
+
+
+                $session = Yii::$app->session;
+
+                if (!$session->isActive){
+                    $session->open();
+                }
+
+                $session->get('rdata');
+
+
+        }
+
+
 }
