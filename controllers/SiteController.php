@@ -1072,26 +1072,36 @@ public function actionK(){
 
         $session = Yii::$app->session;
 
-        $session->open();
+        if (!$session->isActive){
+            $session->open();
+        }
 
-        if(isset($_POST["hid"])){
+        $keygen = $session->get('zapros');
 
-            $rdata = $_POST['data'];
+        if($keygen != 2){
 
-            $rdataserial = serialize($rdata);
+            if(isset($_POST["hid"])){
 
-            $session->set('rdata', $rdataserial);
+                $rdata = $_POST['data'];
 
-            $time = time();
+                $rdataserial = serialize($rdata);
 
-            $result = Yii::$app->db->createCommand()->insert('r_koef', ['koef' => $rdataserial,'time' => $time,'status' => '2'])->execute();
+                $session->set('rdata', $rdataserial);
 
-            if($result == true){
-                echo "1";
-            }else{
-                echo "2";
+                $time = time();
+
+                $result = Yii::$app->db->createCommand()->insert('r_koef', ['koef' => $rdataserial,'time' => $time,'status' => '2'])->execute();
+
+                if($result == true){
+                    echo "1";
+                }else{
+                    echo "2";
+                }
+
             }
 
+        }else{
+            echo "3";
         }
     }
 
@@ -1135,10 +1145,10 @@ public function actionK(){
 
             if($data == 2){
                 //zablokirovat
-               // $session->set('zapros', '2');
+               $session->set('zapros', '2');
             }else if($data == 1){
                 //razblokirovat
-               // $session->set('zapros', '1');
+                    $session->set('zapros', '1');
             }
 
             $result = Yii::$app->db->createCommand("UPDATE r_status SET game_status='$data' WHERE id=1")->execute();

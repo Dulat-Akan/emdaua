@@ -77,7 +77,7 @@
 
 						    <div class="n16"></div>
 						   	
-							<div class="y n17" x="race">race</div>
+							<div class="y n17" x="race"></div>
 															<!-- verhnya ramka -->
 
 							
@@ -412,7 +412,7 @@
 						   	<div class="y n183" x="19to36">19 to 36<div style="position: absolute;left:653px;top:225px;" count="0" class="i"></div></div>
 
 						   	<div class="n186"></div>
-						   	<div class="y n187" x="wheel">WHEEL</div>
+						   	<div class="y n187" x="wheel"></div>
 
 						   	<script>
 						   		
@@ -619,13 +619,13 @@
 			    <div class="modal-content">
 						
 						<div class="col-xs-12"  style="margin-bottom:10px;background-color: white;">
-							<div class="col-xs-10 col-xs-offset-2">
+							<div class="col-xs-11 col-xs-offset-1">
 								
 								<div class="col-xs-2">комбинация</div>
 								<div class="col-xs-2">поставлено</div>
 								<div class="col-xs-2">выиграно</div>
 								<div class="col-xs-2">№ шара</div>
-								<div class="col-xs-2">дата</div>
+								<div class="col-xs-3">дата</div>
 
 							</div>
 						</div>
@@ -725,7 +725,7 @@
 									<div class="col-xs-8 col-xs-offset-2">
 										
 										<div class="alert alert-danger">
-											  <h3 style="text-align: center;">Ваша ставка не должна превышать суммы на счете!..</h3>
+											  <h3 style="text-align: center;">Недостаточно средств!..</h3>
 
 										</div>
 

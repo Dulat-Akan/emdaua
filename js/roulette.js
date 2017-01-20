@@ -1444,7 +1444,7 @@ var gamestatus2 = 0;
                     sendArray[6] = obshiiars;     /*sosedi*/
                     sendArray[7] = id;     /*sosedi*/
 
-                    var url = $("#burl").val();
+                    var url = $("#burl").val();     /*senddata*/
 
             
                   var o = {
@@ -1526,7 +1526,7 @@ var gamestatus2 = 0;
 
                         }
 
-                        if((sumx > usersum) && (usersum != 0)){
+                        if((sumx > usersum) && (sumx != 0)){
 
                             //console.log("Ваша ставка не должна превышать суммы на счете!..");
 
@@ -1968,14 +1968,14 @@ var gamestatus2 = 0;
                                                // $sendarray[4] = $money_summ;           /*summa viigrisha*/
                                                // $sendarray[5] = $number;
 
-                                              /* <div class="col-sm-12">
-                                                  <div class="col-sm-10 col-sm-offset-2">
+                                              /* <div class="col-xs-12">
+                                                  <div class="col-xs-10 col-xs-offset-2">
                                                     
-                                                    <div class="col-sm-2">стрит</div>
-                                                    <div class="col-sm-2">2500</div>
-                                                    <div class="col-sm-2">10000</div>
-                                                    <div class="col-sm-2">15</div>
-                                                    <div class="col-sm-2">16.01.2017</div>
+                                                    <div class="col-xs-2">стрит</div>
+                                                    <div class="col-xs-2">2500</div>
+                                                    <div class="col-xs-2">10000</div>
+                                                    <div class="col-xs-2">15</div>
+                                                    <div class="col-xs-2">16.01.2017</div>
 
                                                   </div>
                                                 </div>*/
@@ -2075,9 +2075,9 @@ var gamestatus2 = 0;
 
                                                       var strdate = hhh.toLocaleString("ru", options);
 
-                                                  var gmove = '<div class="col-sm-12"><div class="col-sm-11 col-sm-offset-1"> <div class="col-sm-2">' + a_1 + 
-                                                  '</div> <div class="col-sm-2">' + b + '</div> <div class="col-sm-2">' + c + '</div> <div class="col-sm-2">' + d + 
-                                                  '</div> <div class="col-sm-3">' + strdate + '</div> </div> </div>';
+                                                  var gmove = '<div class="col-xs-12"><div class="col-xs-11 col-xs-offset-1"> <div class="col-xs-2">' + a_1 + 
+                                                  '</div> <div class="col-xs-2">' + b + '</div> <div class="col-xs-2">' + c + '</div> <div class="col-xs-2">' + d + 
+                                                  '</div> <div class="col-xs-3">' + strdate + '</div> </div> </div>';
 
                                                   static.append(gmove);
 
@@ -2174,7 +2174,7 @@ var gamestatus2 = 0;
                                               
                                               //console.log(result);
                                               usersum = result;
-                                              var t = "Баланс: " + result;
+                                              var t = "Баланс: " + result + "тг.";
                                               $("#balans").text(t);
                                           
                           
