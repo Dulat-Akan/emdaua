@@ -58,6 +58,8 @@
 
 						<input type="hidden" id="ds" value="<?php echo Url::to('@base'); ?>/site/gamestatusdealer">
 
+						<input type="hidden" id="repeat" value="<?php echo Url::to('@base'); ?>/site/repeatnumber">
+
 
 						<div style="border:5px solid #9225D8;border-radius: 5px;width: 775px;">		<!-- obernuli stol v div -->
 					

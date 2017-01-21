@@ -1305,10 +1305,10 @@ var gamestatus2 = 0;
                         }
 
 
-                        noar[0] = 0;
-                        notwoar[0] = 0;
-                        nothreear[0] = 0;
-                        nofar[0] = 0;
+                        noar[0] = 2000;
+                        notwoar[0] = 2000;
+                        nothreear[0] = 2000;
+                        nofar[0] = 2000;
 
 
                  });       
@@ -1351,10 +1351,10 @@ var gamestatus2 = 0;
                         }
 
 
-                        noar[0] = 0;
-                        notwoar[0] = 0;
-                        nothreear[0] = 0;
-                        nofar[0] = 0;
+                        noar[0] = 2000;
+                        notwoar[0] = 2000;
+                        nothreear[0] = 2000;
+                        nofar[0] = 2000;
 
 
 
@@ -1504,7 +1504,7 @@ var gamestatus2 = 0;
                         for(var xx = 0;xx < arnumbercount.length;xx++){
 
                             if(arnumbercount[xx] != 0){
-                              sumx += arnumbercount[xx];
+                              sumx += +arnumbercount[xx];
                             }
 
                         }
@@ -1513,7 +1513,7 @@ var gamestatus2 = 0;
                         for(var xx2 = 0;xx2 < arnumbersearchcombinationcount.length;xx2++){
 
                             if(arnumbersearchcombinationcount[xx2] != 0){
-                              sumx += arnumbersearchcombinationcount[xx2];
+                              sumx += +arnumbersearchcombinationcount[xx2];
                             }
 
                         }
@@ -1521,7 +1521,7 @@ var gamestatus2 = 0;
                         for(var xx3 = 0;xx3 < arnumbercombinationcount.length;xx3++){
 
                             if(arnumbercombinationcount[xx3] != 0){
-                              sumx += arnumbercombinationcount[xx3];
+                              sumx += +arnumbercombinationcount[xx3];
                             }
 
                         }
@@ -1593,19 +1593,19 @@ var gamestatus2 = 0;
                             /*dopolnitelnie usloviya*/
 
                             if((obshiiars[0][0] == undefined) || (obshiiars[0][0] == "-")){
-                                obshiiars[0][0] = 0;
+                                obshiiars[0][0] = 2000;
                             }
 
                             if((obshiiars[1][0] == undefined) || (obshiiars[1][0] == "-")){
-                                obshiiars[1][0] = 0;
+                                obshiiars[1][0] = 2000;
                             }
 
                             if((obshiiars[2][0] == undefined) || (obshiiars[2][0] == "-")){
-                                obshiiars[2][0] = 0;
+                                obshiiars[2][0] = 2000;
                             }
 
                             if((obshiiars[3][0] == undefined) || (obshiiars[3][0] == "-")){
-                                obshiiars[3][0] = 0;
+                                obshiiars[3][0] = 2000;
                             }
                             
                             /*dopolnitelnie usloviya*/
@@ -1652,7 +1652,6 @@ var gamestatus2 = 0;
                           if(result == "1"){
                             //cleanclient();
                             console.log("ставка сделана..");
-
 
                             $(".st_pr").modal("show");
 
@@ -1887,6 +1886,384 @@ var gamestatus2 = 0;
 
 
                  /*function getball*/
+
+
+                 /*function otvech za repeat fishki*/
+
+
+                 
+                    $(".n253").click(function(){
+           
+                      // sendArray[0] = arnumber;
+                      //   sendArray[1] = arnumbercount;
+                      //   sendArray[2] = arnumbercombination;
+                      //   sendArray[3] = arnumbercombinationcount;
+                      //   sendArray[4] = arnumbersearchcombination;         
+                      //   sendArray[5] = arnumbersearchcombinationcount;
+                      //   sendArray[6] = obshiiars;     /*sosedi*/
+                      //   sendArray[7] = id;     /*sosedi*/
+
+
+                        /*function imageset*/
+
+
+                                        function getimage5(target,sum){
+
+                                                  
+
+                                                  var p_indecator_count = target.children(".i");
+
+                                                  var prevdivnumber = target.children("div:not(.i)");
+
+                                                  
+
+
+                              //new manipulation
+
+                                                   prevdivnumber.hide();  //skritie perednego div s nomerom
+                                                   //generasiya kartinki
+
+                                                    var vvv = document.createElement("CANVAS");
+
+                                                    vvv.setAttribute("width", "50");
+                                                    vvv.setAttribute("height", "50");
+
+                                                     var xxx = vvv.getContext('2d');
+
+                                                    xxx.beginPath();
+
+                                                    var imcolor = "#49EDF8";
+
+                                                    if(nominalnumber == "1"){
+                                                        imcolor = "#49EDF8";
+                                                    }else if(nominalnumber == "5"){
+                                                        imcolor = "#FFFB36";
+                                                    }else if(nominalnumber == "25"){
+                                                        imcolor = "#87EF12";
+                                                    }else if(nominalnumber == "50"){
+                                                        imcolor = "#0079EF";
+                                                    }else if(nominalnumber == "100"){
+                                                        imcolor = "#681830";
+                                                    }else if(nominalnumber == "500"){
+                                                        imcolor = "#FC4BCD";
+                                                    }else if(nominalnumber == "1000"){
+                                                        imcolor = "#FF0600";
+                                                    }
+
+                                                    p_indecator_count.attr("colorfx",imcolor);
+
+                                                    //podschet kolichestva nazhatii i stavok
+
+                                                   p_indecator_count.attr("count",sum);
+ 
+                                                   //podschet kolichestva nazhatii i stavok
+
+                                                   var count_img = sum;
+
+                                                    xxx.fillStyle = imcolor;
+                                                    xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
+
+                                                    xxx.fill();
+
+                                                    //xxx.moveTo(45,25);
+
+                                                    xxx.beginPath();
+
+                                                    xxx.fillStyle = "white";
+
+                                                    xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
+
+                                                    xxx.fill();
+
+                                                    xxx.beginPath();
+                                                    xxx.fillStyle = "black";
+                                                    xxx.font = "14px serif";
+
+                                                    /*sentrovka texta*/
+                                                    var positiontext = 20;
+
+                                                    if((count_img > 9) && (count_img <= 99)){
+                                                        positiontext = 17;
+                                                    }else if((count_img > 99) && (count_img <= 999)){
+                                                        positiontext = 12;
+                                                    }else if((count_img > 999) && (count_img <= 9999)){
+                                                        positiontext = 7;
+                                                    }else if((count_img > 9999) && (count_img <= 99999)){
+                                                        positiontext = 3;
+                                                    }else if((count_img > 99999) && (count_img <= 10000000)){
+                                                        positiontext = 0;
+                                                    }
+                                                    xxx.fillText(count_img, positiontext, 30);
+                                                    /*sentrovka texta*/
+
+                                                    //generasiya kartinki
+
+                                                    //document.body.appendChild(vvv); //vstabka kartinki
+
+                                                    p_indecator_count.empty();      //ochistka diva
+
+                                                    p_indecator_count.append(vvv);  //vstabka kartinki
+
+                                                    p_indecator_count.show();       //pokaz kartinki
+
+                                                    //new manipulation
+
+                            }
+
+
+                            function getimage6(target,numb){
+
+              //new manipulation
+
+                                    var p_indecator_count = target.children(".i");
+
+                                    var prevdivnumber = target.children("div:not(.i)");
+
+                                   prevdivnumber.hide();  //skritie perednego div s nomerom
+                                   //generasiya kartinki
+
+                                    var vvv = document.createElement("CANVAS");
+
+                                    vvv.setAttribute("width", "50");
+                                    vvv.setAttribute("height", "50");
+
+                                     var xxx = vvv.getContext('2d');
+
+                                    xxx.beginPath();
+
+                                    var imcolor = "#49EDF8";
+
+                                    if(nominalnumber == "1"){
+                                        imcolor = "#49EDF8";
+                                    }else if(nominalnumber == "5"){
+                                        imcolor = "#FFFB36";
+                                    }else if(nominalnumber == "25"){
+                                        imcolor = "#87EF12";
+                                    }else if(nominalnumber == "50"){
+                                        imcolor = "#0079EF";
+                                    }else if(nominalnumber == "100"){
+                                        imcolor = "#681830";
+                                    }else if(nominalnumber == "500"){
+                                        imcolor = "#FC4BCD";
+                                    }else if(nominalnumber == "1000"){
+                                        imcolor = "#FF0600";
+                                    }
+
+
+                                    p_indecator_count.attr("colorfx",imcolor);
+
+                                    //podschet kolichestva nazhatii i stavok
+
+                                   
+
+                                   
+                                   //podschet kolichestva nazhatii i stavok
+
+                                    xxx.fillStyle = imcolor;
+                                    xxx.arc(25,25,20,0,Math.PI*2,true); // Внешняя окружность
+
+                                    xxx.fill();
+
+                                    //xxx.moveTo(45,25);
+
+                                    xxx.beginPath();
+
+                                    xxx.fillStyle = "white";
+
+                                    xxx.arc(25,25,14,0,Math.PI*2,true); // Внутренняя окружность
+
+                                    xxx.fill();
+
+                                    xxx.beginPath();
+                                    xxx.fillStyle = "black";
+                                    xxx.font = "14px serif";
+
+                                    /*sentrovka texta*/
+
+                                    var snum = numb + "n";
+                                   
+                                    xxx.fillText(snum, 17, 30);
+                                    /*sentrovka texta*/
+
+                                    //generasiya kartinki
+
+                                    //document.body.appendChild(vvv); //vstabka kartinki
+
+                                    p_indecator_count.empty();      //ochistka diva
+
+                                    p_indecator_count.append(vvv);  //vstabka kartinki
+
+                                    p_indecator_count.show();       //pokaz kartinki
+
+                                    //new manipulation
+
+            }
+
+                        /*function image*/
+
+
+
+                        var repeat = $("#repeat").val();
+
+            /*var j = {
+                          "data":st,
+                          };*/
+
+                       $.ajax({
+                                  "type":"POST",
+                                  "url":repeat,
+                                  
+                                  "datatype":"json html script",
+                                  /*"data":j,*/
+                                
+                                  "success":kxx2,
+                                  "error":errorfuncv2
+                            
+                            });
+
+                        function kxx2(res1){
+
+                              //console.log(res1);
+
+                              if(res1 != "2000"){
+
+                                var jsonar = jQuery.parseJSON(res1);
+
+                                for(var i = 0;i < jsonar[1].length;i++){
+
+                                    if(jsonar[1][i] != "0"){
+
+                                        var sum = jsonar[1][i];
+
+                                        var numb = jsonar[0][i];
+
+                                        /*zapolnyaem summ*/
+
+                                        arnumbercount = jsonar[1];
+
+                                        /*zapolnyaem summ*/
+
+                                        //console.log(numb);
+                                        var target = $('[x = ' + numb + ']');
+
+                                        getimage5(target,sum);
+                                    }
+                                }
+
+
+                                for(var i = 0;i < jsonar[2].length;i++){
+
+                                    if(jsonar[3][i] != "0"){
+
+                                        var sum = jsonar[3][i];
+
+                                        var numb = jsonar[2][i];
+
+                                        /*zapolnyaem summ*/
+
+                                        arnumbercombinationcount = jsonar[3];
+
+                                        /*zapolnyaem summ*/
+
+                                        //console.log(numb);
+                                        var target = $('[x = ' + numb + ']');
+
+                                        getimage5(target,sum);
+                                    }
+                                }
+
+
+
+                                for(var i = 0;i < jsonar[4].length;i++){
+
+                                    if(jsonar[5][i] != "0"){
+
+                                        var sum = jsonar[5][i];
+
+                                        var numb = jsonar[4][i];
+
+                                        /*zapolnyaem summ*/
+
+                                        arnumbersearchcombinationcount = jsonar[5];
+
+                                        /*zapolnyaem summ*/
+
+                                        //console.log(numb);
+                                        var target = $('[x = ' + numb + ']');
+
+                                        getimage5(target,sum);
+                                    }
+                                }
+
+
+                                for(var j = 0;j < jsonar[6].length;j++){
+
+                                    //console.log(jsonar[6]);
+
+                                    ///return false;
+                                    console.log(jsonar[6][j]);
+                                    if(jsonar[6][j][0] != "2000"){
+
+                                      if(jsonar[6][j][0] != "-"){
+
+                                        
+
+                                        //if(jsonar[6][j][0] == true){
+
+                                          
+
+                                        var target = $('[x = ' + jsonar[6][j][0] + ']');
+                                        if(j == 0){
+                                          noar[0] = jsonar[6][j][0];
+                                          getimage6(target,1);
+                                        }
+
+                                        if(j == 1){
+                                          notwoar[0] = jsonar[6][j][0];
+                                          getimage6(target,2);
+                                        }
+
+                                        if(j == 2){
+                                          nothreear[0] = jsonar[6][j][0];
+                                          getimage6(target,3);
+                                        }
+
+                                        if(j == 3){
+                                          nofar[0] = jsonar[6][j][0];
+                                          getimage6(target,4);
+                                        }
+
+                                        
+
+                                       // } 
+                                       }
+
+                                    }
+
+                                }
+                                
+
+
+
+                              }
+
+                              
+
+                                 
+          
+                                      }
+
+                           function errorfuncv2(){
+                              console.log("oshibka repeat");
+                           }
+
+                      
+
+
+                      });
+
+
+                 /*function otvech za repeat fishki*/
 
 
 
@@ -2345,7 +2722,7 @@ var gamestatus2 = 0;
 
                 setInterval(function(){
                       getbalans();
-                },5000);
+                },1000);
 
 
 

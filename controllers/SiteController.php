@@ -2418,7 +2418,20 @@ public function actionK(){
                     $session->open();
                 }
 
-                $session->get('rdata');
+                $hh = $session->get('rdata');
+
+                if(isset($hh)){
+                    $unser = unserialize($hh);
+
+                    $js = json_encode($unser);
+
+                    echo $js;
+                    
+                }else{
+                    echo "2000";
+                }
+
+                
 
 
         }
