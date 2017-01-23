@@ -51,9 +51,13 @@ AppAsset::register($this);
           </style>
           
           <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.css">
+          <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile/jquery.mobile.custom.structure.min.css">
+          <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile/jquery.mobile.custom.theme.min.css">
+          
           <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
           <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.min.js"></script>
           <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.mousewheel.js"></script>
+          <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile//js/jquery_mobile/jquery.mobile.custom.min.js">
 
           <!--end scroll bar -->
           <!--end scroll bar -->

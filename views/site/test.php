@@ -1,62 +1,21 @@
-<?php use yii\helpers\Url; ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-<input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/number">
 
 
 
-<input style="top:500px;left:500px;position: relative;" id="n" type="button" class="btn btn-info" value="тест">
+
+<div data-role="page" id="main">
+	<div data-role="header">
+	<h1>Main page header</h1>
+	</div>
+	<div data-role="content">
 
 
-<script>
-	
-			$("#n").click(function(){
+	Presentation text
+	<a href="#about" data-transition="slide">About</a><br/>
+<a href="#contact" data-transition="slide">Contact</a>
 
 
-					var t = 8855;
-					var data = {
-                            "number":t,
-                        }
-                     var base = $("#base").val();
-                        $.ajax({
-                            "type":"POST",
-                            "url":base,
-                            "data":data,
-                            "datatype":"json html script",
-                           
-                          
-                            "success":kx,
-                            "error":errorfunc
-                            
-                          });
-
-
-                         function kx(result){
-
-
-
-							if(result == "1"){
-
-								alert(1);
-
-							}
-			
-		                              }
-
-		                   function errorfunc(){
-		                      /*alert("oshibka zaprosa");*/
-		                   }
-
-
-                        });
-
-
-</script>
-	
-</body>
-</html>
+	</div>
+	<div data-role="footer">
+	© 2011, Some company
+	</div>
+</div>

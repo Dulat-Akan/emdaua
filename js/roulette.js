@@ -2768,7 +2768,13 @@ var gamestatus2 = 0;
 
                      function getimagebot(){
 
+                              for(var j = 0;j < 37;j++){
 
+                                  var d = $('[x = ' + j + ']').children("div:not(.i)");
+
+                                    d.css("color","#fdd700");
+                              }
+                              
                               function getRandomArbitrary(min, max) {
                                   return Math.random() * (max - min) + min;
                                 }

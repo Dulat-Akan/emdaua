@@ -156,6 +156,8 @@ public function actionUsertwo(){
 
     public function actionTesting(){
 
+            $this->layout = 'poker';
+
             return $this->render('test');
 
     }
@@ -1022,7 +1024,7 @@ public function actionK(){
             $m = $_POST['a'];
 
 
-                $u = \Yii::$app->db->createCommand()->insert('dealer', ['message' => $m])->execute();
+                $u = Yii::$app->db->createCommand("UPDATE r_status SET dealer_status='$m' WHERE id='1'")->execute();
 
                 if($u == true){
                    $json = '{"a":"ok","b":"'.$m.'"}';

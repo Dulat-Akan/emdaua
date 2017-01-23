@@ -33,7 +33,7 @@ use yii\helpers\Url;
 
 					<div class="col-md-7">
 						
-						<img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8090/webcam.mjpeg" width="100%">
+						<!-- <img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8090/webcam.mjpeg" width="100%"> -->
 
 
 					</div>
@@ -41,9 +41,9 @@ use yii\helpers\Url;
 
 					<div class="col-md-2 col-md-offset-1" style="margin-top:5px;margin-left: 10px;padding: 5px;">
 
-						<button v="n" style="" class="s btn btn-info">дилер готов</button>
-						<button v="o" class="s btn btn-danger">остановить игру</button>
-						<button v="p" class="s btn btn-primary">технический перерыв</button>
+						<button v="5" style="" class="s btn btn-info">дилер готов</button>
+						<button v="4" class="s btn btn-danger">остановить игру</button>
+						<button v="4" class="s btn btn-primary">технический перерыв</button>
 						
 
 					</div>
@@ -107,11 +107,11 @@ use yii\helpers\Url;
 
                 	if(obj.a == "ok"){
 
-                		if(obj.b == "n"){
+                		if(obj.b == "5"){
                 			start.text("Игра началась..").show("2000");
-                		}else if(obj.b == "o"){
+                		}else if(obj.b == "4"){
                 			start.hide("2000").text("Игра остановлена..").show("2000");
-                		}else if(obj.b == "p"){
+                		}else if(obj.b == "5"){
                 			start.hide("2000").text("Технический перерыв..").show("2000");
                 		}else{
                 			location.reload();
