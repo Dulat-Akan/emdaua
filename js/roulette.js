@@ -4,6 +4,8 @@ $(document).ready(function(){
 
   var sendArray = new Array();
 
+  var countArray = new Array();
+
   var nominalnumber = 0;  //nominal
 
   var arnumber = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36];
@@ -100,10 +102,14 @@ var gamestatus2 = 0;
 
             var prevdivnumber = $(this).children("div:not(.i)");
 
+            var colorrand = $(this).children("div:not(.i)").css("color");
+
             var x = $(this).attr("x");
 
-            
 
+            countArray.push(x);
+
+            
             function getimage(){
 
               //new manipulation
@@ -468,7 +474,9 @@ var gamestatus2 = 0;
 
               if(x == arnumber[i]){                           /*prostie chisla*/
                   //z.css("border","5px solid white");
-                  
+
+                  if(colorrand == "rgb(66, 241, 248)"){       /*ogranichenie na bota color*/
+                   
                   var gcount = arnumbercount[i];
 
                   gcount = (+gcount + +nominalnumber);
@@ -479,6 +487,9 @@ var gamestatus2 = 0;
 
                   getimage();
 
+                  }else{
+                        $("#message3").show("1000").delay("10000").hide("1000");
+                  } /*ogranichenie na bota color*/
 
               }
 
@@ -1697,12 +1708,15 @@ var gamestatus2 = 0;
                     checkutime = 1;
                     checkutime2 = 0;
                     utime2 = 60;
+                    fixbot = 0;
 
                  }
 
                  /*function blockclient*/
 
                  /*function unblock client*/
+
+                 var fixbot = 0;
 
                  function ublockclient(){
 
@@ -1715,6 +1729,12 @@ var gamestatus2 = 0;
                      
                      checkutime = 0;
                      checkutime2 = 1;
+
+                     if(fixbot == 0){
+                      getimagebot();
+                      //console.log("fixbot");
+                      fixbot = 1;
+                     }
 
                      getball();
 
@@ -1844,7 +1864,7 @@ var gamestatus2 = 0;
 
                                     if(i == 0){
 
-                                        $("#balltracker").append('<h3 id="g_ball" style="margin-left:20px;">' + obj[i] + '</h3>');
+                                        $("#balltracker").append('<h3 id="blink2" style="margin-left:20px;font-size:30px;">' + obj[i] + '</h3>');
 
                                         var jj = $("#im_r_val").val();
                                         var jjj = jj + obj[i] + ".png";
@@ -2318,44 +2338,7 @@ var gamestatus2 = 0;
 
                                               var arkoef = jQuery.parseJSON(obj[0]);
 
-                                               // $success1[0] = $d0;    /*stavki prostih chisel  -- massivi ravni po dline*/
-                                               // $success1[1] = $d1;    /*postavlennie summi*/
-                                               // $success1[2] = $d1_status; /*status stavki*/
-                                               // $success1[3] = $d1_money;  /*kolichestvo viigrannih deneg ishodya iz statusa*/
-                                               // $success1[4] = $d1_name;  /*kolichestvo viigrannih deneg ishodya iz statusa*/
-
-
-                                               // $success2[0] = $d2;    /*stavki kombinasii naprimer 1-12 i t.d  -- massivi ravni po dline*/
-                                               // $success2[1] = $d3;    /*postavlennie summi*/
-                                               // $success2[2] = $d3_status;     /*status stavki*/
-                                               // $success2[3] = $d3_money;      /*kolichestvo viigrannih deneg ishodya iz statusa*/
-                                               // $success2[4] = $d3_name;      /*kolichestvo viigrannih deneg ishodya iz statusa*/
-
-
-                                               // $success3[0] = $d4;            stavki grupp chisel  -- massivi ravni po dline
-                                               // $success3[1] = $d5;                /*postavlennie summi*/
-                                               // $success3[2] = $d5_status;          /*status stavki*/
-                                               // $success3[3] = $d5_money;              /*kolichestvo viigrannih deneg ishodya iz statusa*/
-                                               // $success3[4] = $d5_name;              /*kolichestvo viigrannih deneg ishodya iz statusa*/
-                                               
-                                               // $sendarray[0] = $success1;         /*1 rascheti*/  
-                                               // $sendarray[1] = $success2;          /*2 rascheti*/ 
-                                               // $sendarray[2] = $success3;              /*3 rascheti*/ 
-                                               // $sendarray[3] = $ostat;            /*ost*/
-                                               // $sendarray[4] = $money_summ;           /*summa viigrisha*/
-                                               // $sendarray[5] = $number;
-
-                                              /* <div class="col-xs-12">
-                                                  <div class="col-xs-10 col-xs-offset-2">
-                                                    
-                                                    <div class="col-xs-2">стрит</div>
-                                                    <div class="col-xs-2">2500</div>
-                                                    <div class="col-xs-2">10000</div>
-                                                    <div class="col-xs-2">15</div>
-                                                    <div class="col-xs-2">16.01.2017</div>
-
-                                                  </div>
-                                                </div>*/
+                                              
 
                                               var static = $(".statictics");
 
@@ -2518,6 +2501,61 @@ var gamestatus2 = 0;
 
                  }
 
+
+                 /*otmena poslednego deistviya*/
+
+
+
+                 $(".n253-5").click(function(){
+
+
+                      for(var i = 0;i < countArray.length;i++){
+                          if(i == countArray.length - 1){
+                              console.log(countArray[i]);
+
+                              var y = $('[x = ' + countArray[i] + ']');
+
+                              y.children(".i").empty();
+
+                              y.children("div:not(.i)").show();
+
+                              for(var j = 0;j < arnumber.length;j++){
+                                  if(countArray[i] == arnumber[j]){
+                                      if(arnumbercount[j] != 0){
+                                          arnumbercount[j] = 0;
+                                      }
+                                  }
+                              }
+
+                              for(var k = 0;k < arnumbercombination.length;k++){
+                                  if(countArray[i] == arnumbercombination[k]){
+                                      if(arnumbercombinationcount[k] != 0){
+                                          arnumbercombinationcount[k] = 0;
+                                      }
+                                  }
+                              }
+
+
+                              for(var l = 0;l < arnumbersearchcombination.length;l++){
+                                  if(countArray[i] == arnumbersearchcombination[l]){
+                                      if(arnumbersearchcombinationcount[l] != 0){
+                                          arnumbersearchcombinationcount[l] = 0;
+                                      }
+                                  }
+                              }
+
+
+
+
+                          }
+                      }
+
+
+                      countArray.pop();
+
+
+                 });
+                 /*otmena poslednego deistviya*/
 
                  /*proverka balansa*/
 
@@ -2726,7 +2764,39 @@ var gamestatus2 = 0;
 
 
 
-                    
+                    /*bot function*/
+
+                     function getimagebot(){
+
+
+                              function getRandomArbitrary(min, max) {
+                                  return Math.random() * (max - min) + min;
+                                }
+
+   
+                               for(var i = 0;i < 30;i++){
+
+
+                                    var z = getRandomArbitrary(0,36);
+
+                                    var b = Math.round(z)
+
+                                    var x = $('[x = ' + b + ']').children("div:not(.i)");
+
+                                    x.css("color","#42F1F8");
+                                    
+
+                                }     
+                               
+
+
+                            }
+
+
+                            /*getimagebot();*/
+
+
+                    /*bot function*/
 
 
 

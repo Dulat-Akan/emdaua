@@ -25,14 +25,26 @@
 
 
 
-<div  style="position: absolute;top:40%;left:380px;z-index: 25;">
-									<div>
+<div  style="position: absolute;top:30%;left:380px;z-index: 25;">
+			<div>
 										
 											<div id="message" style="width: 600px; display: none; border-radius: 5px; font-size: 30px;color:red;background-color: white;text-align: center;"></div>
-											<div id="message2" style="display:none;border-radius: 5px; font-size: 20px;color:red;background-color: white;text-align: center;margin-left: 130px;"></div>
+											<div id="message2" style="display:none;border-radius: 5px; font-size: 20px;color:red;background-color: white;text-align: center;margin-left: 130px; padding: 5px;"></div>
+											
 										
-									</div>
-								</div>
+				</div>
+			</div>
+
+
+
+		<div  style="position: absolute;top:30%;left:30px;z-index: 25;">
+			<div>
+				
+					
+					<div id="message3" style="display:none;border-radius: 5px; font-size: 20px;color:red;background-color: white;text-align: center; padding: 5px;">ставить ставки можно только на цифры с синим цветом, так как пользователь в казино поставил ставки только на цифры синего цвета..</div>
+				
+			</div>
+		</div>
     
 
 
@@ -544,6 +556,7 @@
 			<div class="jjj" style="margin-top:5px;position: absolute;top:22px;left:91%;z-index: 26;">
 							
 							<button class="n253-3">сумма ставки <p style="color:red;" id="summx"></p></button>
+							<div  class="n253-5" style="">отменить</div>
 
 						</div>
 
