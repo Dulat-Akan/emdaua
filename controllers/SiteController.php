@@ -2394,7 +2394,7 @@ public function actionK(){
 
                     $id = Yii::$app->user->id;
 
-                    $this->layout = 'poker';
+                    //$this->layout = 'poker';
 
                     $result = Yii::$app->db->createCommand("SELECT * FROM r_koef WHERE `user_id`='$id' ORDER BY `id`")->queryAll();
 
@@ -2435,6 +2435,29 @@ public function actionK(){
 
 
         }
+
+
+
+
+
+
+public function actionRouletteinfo(){
+
+             $identity = Yii::$app->user->identity;
+
+                if($identity){
+
+                    return $this->render('roulette_info');
+
+                }else{
+                    return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/login'));
+                }
+
+
+        }
+
+
+
 
 
 }

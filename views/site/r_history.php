@@ -1,4 +1,4 @@
-<div class="container" style="margin-top:60px;">
+<div class="container" style="">
 	<div class="row">
 
 		<div class="col-xs-12"  style="margin-bottom:10px;background-color: white;">

@@ -542,7 +542,7 @@
 			<div class="jjj" style="margin-top:5px;position: absolute;top:22px;left:83%;z-index: 26;">
 							
 							<button class="n253-2" data-toggle="modal" data-target=".bs-example-modal-lg">статистика</button>
-							<div class="n250" style="">помощь</div>
+							<div class="n250" style=""><a style="color:#fdd700;" href="<?php echo Url::to('@base'); ?>/site/rouletteinfo">помощь</a></div>
 							<div class="n251"  style="">X2 double</div>
 							<div  class="n252" style="">очистить</div>
 							<div class="n253"  style="">повторить</div>
