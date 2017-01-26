@@ -70,7 +70,7 @@ function updategame(){
 
 			setInterval(function(){
 				//updategame();
-				window.location.reload();
+				//window.location.reload();
 			},15000);
 
 			/*setInterval(function(){
