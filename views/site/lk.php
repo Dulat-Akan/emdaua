@@ -17,18 +17,20 @@ use yii\widgets\ActiveForm;
 		
 		<div class="sub-nav">
 			<div class="html about-me">
-                      <div class="photo" style="margin-left:40px;">
-					<div class="photo-overlay">
-						<span class="plus">+</span>
-					</div>
-				</div>
-                       <table  class="table table-condensed" style="width:50%; margin-left:170px;text-align: left;">                                
+                    
+                       <table  class="table table-condensed" style="width:94%; margin-left:3%;margin-top:15px;text-align: left;"> 
                                 <tr>
-                                          <th class="info" width="200px">ФИО:</th>
+                                          <th class="info" width="200px" rowspan="2">
+                                                    <div class="photo" style="margin:auto">
+                                                        <div class="photo-overlay">
+						<span class="plus">+</span>
+                                                        </div>
+                                                </div>
+                                          </th>
                                           <td style="padding-left: 30px;"><?php echo $model->name1.' '.$model->name2?></td>
                                 </tr>
                                                       <tr>
-                                          <th class="info">Телефон:</th>
+                                          
                                           <td style="padding-left: 30px;"><?php echo $model->phone;?></td>
                                 </tr>
                                 <tr>
@@ -44,7 +46,7 @@ use yii\widgets\ActiveForm;
                                                             <?php ActiveForm::end(); ?>
                                                     </div>
                                                     <div>
-                                                              <img width="400px" src="<?php echo $model->ul;?>" alt="">
+                                                              <img width="400px" id="ul" src="<?php echo $model->ul;?>" alt="">
                                                     </div>
                                           </td>
                                        
@@ -71,9 +73,9 @@ use yii\widgets\ActiveForm;
 		<a href="#" style="text-decoration: none;"><i class="fa fa-cogs"></i>  &nbsp Настройка счета</a>
 		<div class="sub-nav">
 			<div class="html chat">
-				  <table  class="table table-condensed" style="width:50%; margin-left:170px;text-align: left;">            
-                                                        <tr>
-                                                                  <th class="info">Показывть баланс:</th>
+				  <table  class="table table-condensed" style="width:94%; margin-left:3%;margin-top:15px;text-align: left;">            
+                                                        <tr >
+                                                                  <th style="width:200px" class="info">Показывть баланс:</th>
                                                                   <td style="padding-left: 30px;">
                                                                             <select class="form-control" style="width:100px">
                                                                                     <option>скрыть</option>
@@ -106,7 +108,7 @@ use yii\widgets\ActiveForm;
 		</div>
 		<a href="#"  style="text-decoration: none;"><i class="fa fa-credit-card"></i>  &nbsp Пополнить счет </a>
 		<div class="sub-nav">
-                              <table  class="table table-condensed" style="width:94%; margin-left:3%;margin-top:15px;">
+                              <table  class="table table-condensed" style="width:94%; margin-left:3%;margin-top:15px;text-align: left;">
                                         <tr class="info">
                                                   <th>Вид операции</th>
                                                   <th>Комиссия</th>
@@ -134,7 +136,7 @@ use yii\widgets\ActiveForm;
                                         
                               </table>
 		</div>
-		<a href="#"  style="text-decoration: none;"><i class="fa fa-money"></i> &nbsp Снятие денег<span class="pull-right alert-numb">&nbsp подготовлено к снятию: 14 500 тенге &nbsp</span></a>
+		<a href="#"  style="text-decoration: none;"><i class="fa fa-money"></i> &nbsp Снятие денег<span class="pull-right alert-numb">&nbsp К снятию: 14 500 тенге &nbsp</span></a>
 		<div class="sub-nav">
 			<div class="html invite">
 				<table  class="table table-condensed" style="width:94%; margin-left:3%;margin-top:15px;text-align: left;">

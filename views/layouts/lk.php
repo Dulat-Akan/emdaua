@@ -36,11 +36,14 @@ AppAsset::register($this);
 <script src="https://use.fontawesome.com/13971517a4.js"></script>
 
     <style>
-        body{
-	margin:0;
-	color:#444;
-	background:#F0C27B;
+            
+    body{
+        margin:0;
+        color:#444;
+        background:#F0C27B;
         font:400 16px/18px Roboto, sans-serif;
+        height:100%;
+        width:100%;
     }
     *,:after,:before{box-sizing:border-box}
     .pull-left{float:left}
@@ -55,9 +58,10 @@ AppAsset::register($this);
         bottom:0;
         padding:15px;
         padding-top: 100px;
-        position:fixed;
+        position:absolute;
         background: #F0C27B;
-
+        height:100%;
+        width:100%;
     }
     .accordion{
         width:90%;
@@ -105,7 +109,8 @@ AppAsset::register($this);
     .accordion .sub-nav{
         display:none;
         color:#374046;
-        overflow:hidden;
+        overflow-y:scroll;
+        overflow-x:hidden;
         background:#ecf0f1;
     }
     .accordion .sub-nav.open{
@@ -378,7 +383,6 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-
 <?php
     NavBar::begin([
         'brandLabel' => 'AlmaBet',
@@ -389,65 +393,55 @@ AppAsset::register($this);
     ]);
     echo "<div style=\"width:200px;float:right;padding-left:20px;\" id=\"google_translate_element\"></div>";
     if(Yii::$app->user->isGuest ){
-    
+    echo 
+            Nav::widget([
+                'options' => ['class' => 'navbar-nav navbar-right'],
+                    'items' => [
+                        ['label' => 'Домой', 'url' => ['/index.php/site']],
+                        ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                        ['label' => 'О нас', 'url' => ['/index.php/site/about']],
+                        ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+                        ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                        ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                        ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
+                    ]
+            ]); 
+            NavBar::end();
      }
     else{
         echo 
         Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
                  'items' => [
-                     '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
+                     '<li class="white" id="balans">Баланс: ' . Yii::$app->user->identity->balance . 'тг. </li>',
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
-                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                     ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                    ['label' => 'Казино', 'url' => ['/index.php/site/online']],
-                    '<li>'
-                    . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
-                    . Html::submitButton(
-                        'Logout (' . Yii::$app->user->identity->username . ')',
-                        ['class' => 'btn btn-link']
-                    )
-                    . Html::endForm()
-                    . '</li>'
+                    ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                    
+                    Yii::$app->user->isGuest ? (
+                                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']]
+                     .['label' => 'Вход', 'url' => ['/index.php/site/login']]
+                
+            ) : (
+                '<li>'
+                . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
+                . Html::submitButton(
+                    'Logout (' . Yii::$app->user->identity->username . ')',
+                    ['class' => 'btn btn-link']
+                )
+                . Html::endForm()
+                . '</li>'
+            )
+            
                   ]
         ]); 
         NavBar::end();
      }
- ?>	
-<div class="container-fluid" style="margin-top:0px;">
-          <div class="container" style="" id="download">
-                    <div class=""><img src="<?php echo Url::to('@img') ?>/3.gif" alt=""></div>
-          </div>
-
-          <div class="container-fluid container-content2">
-                    <div class="row">
-                              <div class="col-md-12">
-                                        <div class="col-md-10 col-md-push-2" id="pok_searh2"><?= $content ?></div>
-          <!-- <div class="col-md-10 col-md-push-2" id=""></div> -->
-                                        
-                              </div>
-                    </div>
-           </div>
-          <script src="<?php echo Url::to('@jquery') ?>/l_o.js"></script>
-
-          <script>
-          $('.btn.btn-primary').click(function(){
-          $('.alert').html('');
-          $('.alert').removeClass('alert-success');
-          $('.alert').removeClass('alert');
-
-          })
-
-          </script>
-
-          <script type="text/javascript">
-                    $(function(){
-                              $('.kolekcii').jScrollPane();
-                    });
-          </script>
-</div>
+    
+   ?>
+<?= $content ?>  
 <footer class="footer">
     <div class="container">
         <p class="pull-left"></p>
