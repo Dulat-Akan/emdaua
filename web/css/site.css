@@ -301,7 +301,7 @@ display:none;
 }
 
 .menu2{
-display:none;	
+	display:none;	
 }
 
 
@@ -509,14 +509,14 @@ body,.container-fluid{
 	height:100%;
 }
 
-.pok_searh12{
+/*.pok_searh12{
 	box-shadow: 0 8px 20px rgba(0, 0, 0, .3);
 	display:block;
 	width:1000px;margin:0 auto!important;
 	overflow:hidden;
 	padding-bottom:40px;
 	min-height:100%;
-}
+}*/
 .title-red.livep{
 	font-size:20px;
 }
