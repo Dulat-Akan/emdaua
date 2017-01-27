@@ -1047,7 +1047,7 @@ public function actionK(){
 
             $id = Yii::$app->user->id;
 
-            $this->layout = 'poker';
+            $this->layout = 'roulette';
 
             return $this->render('roulette', ['id' => $id]);
 

@@ -13,9 +13,9 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
   //echo "Ваш браузер: $browser";
   if($browser == "Internet Explorer"){
 
-	header("Location:"."/web/index.php/site/");exit();
-	  
-	  
+    header("Location:"."/web/index.php/site/");exit();
+      
+      
   }
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -32,42 +32,32 @@ AppAsset::register($this);
 
 <html lang="<?= Yii::$app->language ?>">
 
-	
+    
 <head>
     <!--scroll bar -->
     <style>
-              #nav18 .back h6{
-    color:#fff;
-    text-align:center;font-size:18px !important;
-    font-family: 'Times New Roman', Times, serif;
-    -webkit-animation: pulsate2 1.2s linear infinite;
-    animation: pulsate2 1.2s linear infinite;
-    text-shadow: 0 -1px rgba(0,0,0,.5);font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;color:#fff;
-}
-        .ruka-title{
-            font-weight:bold;
-            font-size:18px !important;
+        Div.kolekcii{
+            overflow: auto;
+            height:80%;
+            background-attachment: local, local, scroll, scroll;
+            position:fixed;
         }
-        .section-tabs {
-                padding: 0px 10px !important;
-                padding-bottom: 12px !important;
+        .section-tabs .tab-content{
+                padding: 20px !important;
         }
-        .tab-content{
-            margin: 0px !important;
-            
-        }
-        
         div.kolekcii_soderzhimoe{
             float:left;
             width:100%;
         }
         .flip-container{
-            padding:0px 5px !important;margin:10px 0px!important;
+            padding:30px 5px !important;margin:20px 0px!important;
         }
         .tab-content.clearfix{
             padding:50px !important;margin:20px!important;
-            background:node;	
+            background:node;    
+        }
+        .section-tabs {
+            padding-bottom: 20px;
         }
         #main{
             width:100%;
@@ -91,7 +81,6 @@ AppAsset::register($this);
         #bottom{
             z-index:2;
             width: 100%;
-            height: 490px;
             bottom: 0px;
             display:none;
             position:absolute;
@@ -143,21 +132,6 @@ AppAsset::register($this);
                   line-height: 50px;
                   color:white !important;
         }
-        #nav19 div.comb{
-            display: block;
-            text-decoration:none;
-            font: bold 14px arial;
-            padding: 5px 0px !important;
-            padding-left:10px;
-            margin: 0px auto;
-            color: #000;font-size:15px;cursor:pointer;
-            background-color: rgba(top,#fff 50%,#ccc);
-            border-bottom:1px solid #ccc;
-            border-radius: 3px;
-
-
-
-        }
     </style>
     <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/table.css">
     <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.css">
@@ -171,8 +145,8 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-	
-	
+    
+    
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({pageLanguage: 'ru', layout: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT}, 'google_translate_element');
@@ -215,39 +189,33 @@ AppAsset::register($this);
                  'items' => [
                      '<li class="white" id="balans">Баланс: ' . Yii::$app->user->identity->balance . 'тг. </li>',
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
+                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                     ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
                     ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
-                    
-                    Yii::$app->user->isGuest ? (
-                                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']]
-                     .['label' => 'Вход', 'url' => ['/index.php/site/login']]
-                
-            ) : (
-                '<li>'
-                . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
-            
+                    '<li>'
+                    . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
+                    . Html::submitButton(
+                        'Logout (' . Yii::$app->user->identity->username . ')',
+                        ['class' => 'btn btn-link']
+                    )
+                    . Html::endForm()
+                    . '</li>'
                   ]
         ]); 
         NavBar::end();
      }
+     
+     ?> 
     
-   ?>
+   
 
 
-        
-    <div id="main" style="overflow:hidden;">
+          <div id="main" style="overflow:hidden;">
         <?= $content ?>
     </div>
-
+   
 <?php $this->endBody() ?>
 </body>
 </html>
