@@ -13,7 +13,7 @@
 
     <div class="roul" style="height: 100%;width: 100%" >		<!-- v daln ubr/displ.none -->
 			
-		<iframe width="100%"  style="margin-top:50px;" height="100%" src="https://www.youtube.com/embed/UPYT7cJkaZo" frameborder="0" allowfullscreen></iframe>
+		<iframe width="100%"  style="margin-top:50px;" height="100%" src="https://www.youtube.com/embed/UPYT7cJkaZo" frameborder="0" allowfullscreen></iframe>	<!-- http://almagames.mypsx.net:8090/webcam.mjpeg -->
 					
 	</div>
 
