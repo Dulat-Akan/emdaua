@@ -1,77 +1,187 @@
 <?php
 use yii\helpers\Url;
  ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
+
+
+
+<div data-role="page" id="main">			<!-- glavnaya stranisa -->
+	
+
+
+	<div data-role="header" data-position="fixed">
+			
+			<h1>www.almabet.kz</h1>
+
+	</div>
+
+
+
+	<div role="main" class="ui-content">
+			
+			
+				
+					<div class="ui-grid-solo">
+					    <div class="ui-block-a"><a href="#" id="command" class="ui-btn ui-shadow ui-corner-all ui-btn-b">до запуска осталось</a></div>
+					</div>
+
+					<div class="ui-grid-solo">
+					    <div class="ui-block-a"><a href="#" id="timer" style="color:red;font-size:20px;" class="ui-btn ui-shadow ui-corner-all ui-btn-b"></a></div>
+					</div>
+
+					<div class="ui-grid-solo">
+					    <div class="ui-block-a"><a href="#" id="start" class="ui-btn ui-shadow ui-corner-all ui-btn-b">статус игры</a></div>
+					</div>
+
+
+			<div class="ui-grid-solo">
+                <div class="ui-block-a"><button v="5" class="ui-shadow ui-btn ui-corner-all s">продолжить игру</button></div>
+            </div>
+
+            <div class="ui-grid-solo">
+			    <div class="ui-block-a"><button v="4" class="ui-shadow ui-btn ui-corner-all s">технический перерыв</button></div>
+			</div>
+
+			
+				
+				
+
+
+	</div>
+
+
+	<div data-role="footer">
+		
+
+	</div>
+
+
+
+
+</div>
 
 
 
 
 
 <input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/dealercall">
-	<div class="container">
 
-
-
-		
-		<div class="row">
-
-			<div class="col-md-12">
-				<div class="col-md-4 col-md-offset-4">
-					<h1 style="text-align: center;">www.almabet.kz</h1>
-				</div>
-			</div>
-			
-
-			<div class="col-md-12" style="top:50px;">
-
-
-					<div class="col-md-7">
-						
-						<!-- <img style="user-select: none; cursor: zoom-in;" src="http://192.168.3.150:8090/webcam.mjpeg" width="100%"> -->
-
-
-					</div>
-				
-
-					<div class="col-md-2 col-md-offset-1" style="margin-top:5px;margin-left: 10px;padding: 5px;">
-
-						<button v="5" style="" class="s btn btn-info">дилер готов</button>
-						<button v="4" class="s btn btn-danger">остановить игру</button>
-						<button v="4" class="s btn btn-primary">технический перерыв</button>
-						
-
-					</div>
-
-
-
-
-
-					</div>
-
-		
-
-		<div class="col-md-12">
-			<div class="col-md-3">
-				
-				<h1 style="display:none;margin-left: 100px;" id="start"></h1>
-
-			</div>
-		</div>
+<input id="base2" type="hidden" value="<?php echo Url::to('@base'); ?>/site/gamestatusclient">
 
 			
-		</div>
-	</div>
-	
-</body>
-</html>
+
+
+
 
 <script>
+
+	var fixtime = 0; 
+
+	var command = $("#command");
+
+	var timer = $("#timer");
+
+
+
+	var gl = 120;
+
+	function updatetimer(){
+
+		gl--;
+
+		timer.text(gl);
+
+		if(gl == 0){
+			gl = 120;
+		}
+
+	}
+
+
+	var fixmissing = 0;
+
+	function gamestatus(){
+
+
+				var url2 = $("#base2").val();
+
+				
+
+				$.ajax({
+                    "type":"POST",
+                    "url":url2,
+                  	
+                    "datatype":"json html script",
+                    
+                  
+                    "success":kx2,
+                    "error":errorfunc2
+                    
+                  });
+
+                function kx2(result){
+
+                	
+                		//console.log(result);
+
+                		if(fixgames == 0){
+
+                		if(result == "1"){
+
+                			if(fixmissing == 0){
+                			command.text("до запуска осталось..!");
+                			
+                			command.css("color","white");
+                			gl = 120;
+                			fixtime = 1;
+                			fixmissing = 1;
+                			}
+
+                		}else if(result == "3"){
+
+                			if(fixmissing == 1){
+                			fixtime = 0; 
+                			timer.empty();
+                			command.text("запустите шарик..!");
+                			command.css("color","#5bc0de");
+                			fixmissing = 0;
+                			}
+                		}
+
+
+
+                		}else if(fixgames == 1){
+                			command.text("остановлено");
+                			timer.text("остановлено");
+                			
+                		}
+
+                	}
+
+                   function errorfunc2(){
+                      console.log("oshibka zaprosa");
+                   }
+
+
+	}
+
+
+
+	setInterval(function(){
+
+		if(fixtime == 1){
+			updatetimer();
+		}
+		
+
+		gamestatus();
+
+	},1000);
+
+
+
+var fixgames = 0;
+
+
 	
 	$(".s").click(function(){
 
@@ -108,11 +218,17 @@ use yii\helpers\Url;
                 	if(obj.a == "ok"){
 
                 		if(obj.b == "5"){
-                			start.text("Игра началась..").show("2000");
+                			start.hide("2000").text("игра началась..").show("2000");
+                			command.text("до запуска осталось...");
+                			timer.text("ожидание..");
+                			fixgames = 0;
+                			
                 		}else if(obj.b == "4"){
-                			start.hide("2000").text("Игра остановлена..").show("2000");
+                			start.hide("2000").text("игра остановлена..").show("2000");
+                			fixgames = 1;
                 		}else if(obj.b == "5"){
-                			start.hide("2000").text("Технический перерыв..").show("2000");
+                			start.hide("2000").text("технический перерыв..").show("2000");
+                			fixgames = 1;
                 		}else{
                 			location.reload();
                 		}

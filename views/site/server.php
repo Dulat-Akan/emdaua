@@ -12,7 +12,7 @@ use yii\helpers\Url;
 
  			<h1>SERVER PAGE</h1>
 
- 			<h3><button id="status">проверить статус</button></h3>
+ 			<!-- <h3><button id="status">проверить статус</button></h3> -->
 
  		</div>
  	</div>
