@@ -13,12 +13,14 @@
 
     <div class="roul" style="height: 100%;width: 100%" >		<!-- v daln ubr/displ.none -->
 			
-		<iframe width="100%"  style="margin-top:50px;" height="100%" src="https://www.youtube.com/embed/UPYT7cJkaZo" frameborder="0" allowfullscreen></iframe>
+		<!-- <iframe width="100%"  style="margin-top:50px;" height="100%" src="https://www.youtube.com/embed/UPYT7cJkaZo" frameborder="0" allowfullscreen></iframe> -->
+
+		<img width="100%"  style="margin-top:50px;" height="100%" src="http://almagames.mypsx.net:8091/webcam2.mjpeg" frameborder="0" allowfullscreen></img>
 					
 	</div>
 
 
-	<div class="roul" style="position: absolute;top:0px;z-index: 10"><iframe width="520px" height="330px"  src="https://www.youtube.com/embed/UPYT7cJkaZo" frameborder="0" allowfullscreen></iframe></div>
+	<div class="roul" style="position: absolute;top:0px;z-index: 10"><img width="520px" height="330px"  src="http://almagames.mypsx.net:8090/webcam.mjpeg" frameborder="0" allowfullscreen></img></div>
     <!--<img style="user-select: none; cursor: zoom-in;top:2000px;" src="http://192.168.1.150:8092/webcam3.mjpeg" width="100%" height="100%">
     -->
 </div>

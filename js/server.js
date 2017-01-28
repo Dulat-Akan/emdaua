@@ -192,13 +192,21 @@ function updategame(){
 
 			var unblocktime = 20;		/*130*/
 
-			// var blocktabletime = 58;
+			// var blocktabletime = 60;
 
-			// var blocksystemtime = 10;
+			// var blocksystemtime = 15;
 
-			// var loadingtime = 112;		
+			// var loadingtime = 115;		
 
-			// var unblocktime = 118;
+			// var unblocktime = 120;
+
+			// var blocktabletime = 117;
+
+			// var blocksystemtime = 30;
+
+			// var loadingtime = 220;		
+
+			// var unblocktime = 237;
 
 			var blocktable = date + blocktabletime;
 

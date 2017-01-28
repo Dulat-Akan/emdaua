@@ -1368,6 +1368,36 @@ var gamestatus2 = 0;
                         nofar[0] = 2000;
 
 
+                        fixno2 = 0;
+                        fixntwo2 = 0;
+                        fixnthree2 = 0;
+                        fixnfour2 = 0;
+
+                        fixno = 0;
+                        fixntwo = 0;
+                        fixnthree = 0;
+                        fixnfour = 0;
+
+
+
+                        for(var jj = 0;jj < noar.length;jj++){
+                              noar[jj] = 2000;
+                        }
+
+                        for(var jjj = 0;jjj < noar.length;jjj++){
+                              notwoar[jjj] = 2000;
+                        }
+
+
+                        for(var jjjj = 0;jjjj < noar.length;jjjj++){
+                              nothreear[jjjj] = 2000;
+                        }
+
+                        for(var jjjjj = 0;jjjjj < noar.length;jjjjj++){
+                              nofar[jjjjj] = 2000;
+                        }
+
+
 
 
 
@@ -1707,8 +1737,10 @@ var gamestatus2 = 0;
                     $("#s_p").show();
                     checkutime = 1;
                     checkutime2 = 0;
-                    utime2 = 60;
+                    utime2 = 120;
+                    //utime2 = 60;
                     fixbot = 0;
+                    getball();
 
                  }
 
@@ -1725,7 +1757,8 @@ var gamestatus2 = 0;
                      $("#butosn").show();
                      $("#s_p").hide();
 
-                     utime = 60;
+                     utime = 120;
+                     //utime = 60;
                      
                      checkutime = 0;
                      checkutime2 = 1;
@@ -1774,7 +1807,8 @@ var gamestatus2 = 0;
                  /*table button*/
 
                  /*function timeout*/
-                 var utime = 60;
+                 var utime = 120;
+                 //var utime = 60;
                  var checkutime = 0;
 
                  function updatetime(){
@@ -1788,14 +1822,16 @@ var gamestatus2 = 0;
                     $("#timeout").text(utime);
 
                     if(utime == 1){
-                      utime = 60;
+                      utime = 120;
+                     // utime = 60;
                     }
 
                     
 
                  }
 
-                 var utime2 = 60;
+                 var utime2 = 120;
+                 //var utime2 = 60;
                  var checkutime2 = 0;
 
                  function updatetime2(){
@@ -1811,7 +1847,8 @@ var gamestatus2 = 0;
                     $(".timeout2").text(utime2);
 
                     if(utime2 == 1){
-                      utime2 = 60;
+                      utime2 = 120;
+                     // utime2 = 60;
                     }
 
                     
@@ -2712,6 +2749,7 @@ var gamestatus2 = 0;
 
                               //ublockclient();
                               getresult();
+                              getball();
 
                           }
                       

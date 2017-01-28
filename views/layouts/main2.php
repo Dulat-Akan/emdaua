@@ -54,17 +54,15 @@ AppAsset::register($this);
                   color:white !important;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.css">
-	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.min.js"></script>
-	<script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.mousewheel.js"></script>
-                
-    <!--end scroll bar -->
-    
-                
-    <!--end scroll bar -->
-    <!-- <script src="<?php echo Url::to('@jquery') ?>/jquery.min.js"></script> -->
-    <script src="<?php echo Url::to('@jquery') ?>/jquery-ui-1.10.3.custom.js"></script>
+   
+	        <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile/jquery.mobile.custom.structure.min.css">
+          <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile/jquery.mobile.custom.theme.min.css">
+          
+          <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
+         
+          <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile//js/jquery_mobile/jquery.mobile.custom.min.js">
+
+
     
     <meta charset="<?= Yii::$app->charset ?>">
    

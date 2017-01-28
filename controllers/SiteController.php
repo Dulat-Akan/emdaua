@@ -167,7 +167,7 @@ public function actionUsertwo(){
     public function actionNumber(){
         if(isset($_POST['number'])){
             $number = $_POST['number'];
-            if($_SERVER["REMOTE_ADDR"] == "127.0.0.1"){
+            if($_SERVER["REMOTE_ADDR"] != "192.168.1.150"){
                $result = Yii::$app->db->createCommand()->insert('roulette', ['number' => $number])->execute();
 
                if($result == true){
@@ -1063,9 +1063,15 @@ public function actionK(){
 
     public function actionServer(){
 
+       // if($_SERVER['REMOTE_ADDR'] == "192.168.1.150"){ 
+
         $this->layout = 'main4';
 
         return $this->render('server');
+
+    // }else{
+    //     return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+    // }
 
     }
 
@@ -1170,7 +1176,7 @@ public function actionK(){
     public function actionRouletteresult(){
 
 
-        if($_SERVER['REMOTE_ADDR'] == "127.0.0.1"){    
+        if($_SERVER['REMOTE_ADDR'] != "192.168.1.150"){    
 
              /*proverka to chto zaprosi otpravlyaet sam server*/
 
@@ -1550,7 +1556,7 @@ public function actionK(){
                                             if($s == $number){
                                                 
                                                 $d3_status[$i] = 1;
-                                                $d3_name[$i] = "chet_nechet";
+                                                $d3_name[$i] = "even_odd";
                                                 $d3_money[$i] = $d3[$i] * $chet_nechet;
                                                 $vinstatus = 1;
                                                 //echo $d2[$i]." | ".$d3[$i]." | ".$d3_money[$i]." | ".$d3_status[$i]."<br>";
