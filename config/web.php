@@ -13,6 +13,8 @@ $config = [
         '@myfile' => '/casino/basic/views/site/myfile/myfile.html',
         '@files' => '../views/site/',
         '@basepath' => '/casino/basic/web/',
+        '@cam1' => ':8091/webcam2.mjpeg',
+        '@cam2' => ':8090/webcam.mjpeg',
 		'@style' => '/casino/basic/web/',
 
     ],

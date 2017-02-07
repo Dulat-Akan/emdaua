@@ -155,10 +155,27 @@ public function actionUsertwo(){
 
 
     public function actionTesting(){
+            
+            
+            $domain = "http://almagames.mypsx.net";
 
-            $this->layout = 'poker';
+            for($i = 2;$i < 255;$i++){
+                if($_SERVER["REMOTE_ADDR"] == '192.168.1.'.$i){
+                    $domain = "http://www.almabet.kz";
+                }else if($_SERVER["REMOTE_ADDR"] == '127.0.0.1'){
+                    $domain = "http://www.almabet.kz";
+                }
 
-            return $this->render('test');
+            }
+
+ 
+         $url = $domain.":8091/webcam2.mjpeg"; 
+
+        $url2 = $domain.":8090/webcam.mjpeg"; 
+
+         echo Url::to('@cam1');
+
+
 
     }
 
@@ -243,7 +260,7 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 		
 		
 		
-	 $this->layout = 'main2';
+	 $this->layout = 'main';
 		$page='index';
         return $this->render('index');
     }
@@ -921,8 +938,10 @@ public function actionK(){
         $res_id = $identity['id'];
         
         $sobitie = Yii::$app->db->createCommand("SELECT * FROM type_sobitiya WHERE status IS NULL AND res_id = '$res_id'")->queryAll();
+
+        $stopgame = Yii::$app->db->createCommand("SELECT * FROM stopgame")->queryAll();
         
-        return $this->render("korz",['model'=>$sobitie]);
+        return $this->render("korz",['model'=>$sobitie,'stopgame'=>$stopgame]);
 
          }else{
             $message = "<h4 style='color:red;'>необходимо авторизоваться в системе!</h4>";
@@ -1006,6 +1025,29 @@ public function actionK(){
     }
 
 
+    public function actionDeletekorzina(){
+
+
+        if(isset($_POST['id'])){
+
+                $id = $_POST['id'];
+
+                $res = Yii::$app->db->createCommand("DELETE FROM type_sobitiya WHERE id = '$id'")->execute();
+
+                if($res){
+                    echo "ok";
+                }else{
+                    echo "false";
+                }
+
+
+        }
+        
+
+
+    }
+
+
 
 
     public function actionDealer(){
@@ -1047,7 +1089,7 @@ public function actionK(){
 
             $id = Yii::$app->user->id;
 
-            $this->layout = 'poker';
+            $this->layout = 'main4';
 
             return $this->render('roulette', ['id' => $id]);
 
@@ -1175,6 +1217,11 @@ public function actionK(){
 
     public function actionRouletteresult(){
 
+        $session = Yii::$app->session;
+
+                if (!$session->isActive){
+                    $session->open();
+                }
 
         if($_SERVER['REMOTE_ADDR'] != "192.168.1.150"){    
 
@@ -1206,13 +1253,17 @@ public function actionK(){
         $ostat = array();
 
         
-
+        $ball_id = 2000;
 
         $result2 = Yii::$app->db->createCommand("SELECT * FROM roulette")->queryAll();
 
         foreach ($result2 as $value2) {
             $number = $value2['number'];
+            $ball_id = $value2['id'];     
         }
+
+        $session->set("ballid",$ball_id);
+        $session->set("number",$number);
 
 
         $result = Yii::$app->db->createCommand("SELECT * FROM r_koef WHERE status = '2'")->queryAll();
@@ -2254,7 +2305,7 @@ public function actionK(){
                     /*zakritie foreach*/
 
          }else{
-                echo "ставок не было.. ";
+                echo "ставок не было..";
          }
 
 
@@ -2464,6 +2515,127 @@ public function actionRouletteinfo(){
 
         }
 
+
+public function actionBallupdatestatus(){
+
+    $session = Yii::$app->session;
+
+    if (!$session->isActive){
+            $session->open();
+        }
+
+    $ballstatus = Yii::$app->db->createCommand("SELECT * FROM roulette")->queryAll();
+
+    $ball_id = 2000;
+    $number = 2000;
+
+    foreach ($ballstatus as $value2) {
+            $number = $value2['number'];
+            $ball_id = $value2['id'];
+        }
+
+            $updateballsession = "no";
+            $updatenumbersession = "no";
+
+            if($session->has("ballid")){
+
+                if($session->has("number")){
+
+                    $updateballsession = $session->get("ballid");
+                    $updatenumbersession = $session->get("number");
+
+                    }
+
+            }
+           
+
+
+    if($ball_id != 2000 && $number != 2000){
+        if(isset($updateballsession) && isset($updatenumbersession)){
+
+            if($updateballsession != "no" && $updatenumbersession != "no"){
+                if($number == $updatenumbersession && $ball_id == $updateballsession && $updatenumbersession != 0){
+                    echo "7";   /*shar ne obnovilsya*/
+                }else{
+                    echo "6";   /*shar obnovilsya*/
+                }
+            }else{
+                echo "11";
+            }
+        }else{
+            echo "9";
+        }
+    }else{
+        echo "10";
+    }
+
+
+
+
+}
+
+
+public function actionDeletefaulureuserstavki(){
+
+
+        $delete = Yii::$app->db->createCommand("DELETE FROM r_koef WHERE status = '2'")->execute();
+
+        if($delete){
+            echo "1";
+        }else{
+            echo "2";
+        }
+
+
+}
+
+
+public function actionServerlive(){
+
+        $this->layout = 'main4';
+
+        return $this->render('server_live');
+
+}
+
+
+public function actionSendstopgame(){
+
+    
+
+    
+    if(isset($_POST['send'])){
+
+        $data = $_POST['send'];
+
+        $r1 = $data[0];
+        $r2 = $data[1];
+
+        for($ii = 0;$ii < count($r1); $ii++){
+
+
+            if($r2[$ii] == "Приостановлен"){
+
+                $time = time();
+
+                $result = Yii::$app->db->createCommand()->insert('stopgame', ['name' => $r1[$ii],'status' => $r2[$ii],'date' => $time])->execute(); 
+
+                if($result){
+                    echo "данные записаны";
+                }else{
+                    echo "данных не было";
+                }
+            }
+        }
+
+        
+
+        
+
+    }
+
+
+}
 
 
 

@@ -70,11 +70,11 @@ function updategame(){
 
 
 			setInterval(function(){
-				//updategame();
+				updategame();
 			},2000);
 
 			setInterval(function(){
-				//updategametwo();
+				updategametwo();
 			},2000);
 
 			/*upravlenie vremenem ruletki*/
@@ -86,7 +86,7 @@ function updategame(){
 										/*Sendgamestatus*/
 			function sendajax(st){
 
-				var url = $("#sa").val();
+				var url = $("#sa").val();		/*sendgamestatus*/
 
 				var o = {
                       "data":st,
@@ -144,11 +144,95 @@ function updategame(){
                       
                     	//console.log(result);
                       //alert(result7);
-                      console.log(result7);
+                      //console.log(result7);
       
                                   }
 
                        function errorfunc7(){
+                          alert("oshibka zaprosa v statuse");
+                       }
+
+               }/*kones function*/
+
+
+               var fixupdateball = 0;
+
+               function sendajax3(){			/*proverka statusa stavok*/
+
+				var urlkk = $("#ball_update").val();
+
+				/*var o = {
+                      "data":st,
+                      };*/
+
+                   $.ajax({
+                              "type":"POST",
+                              "url":urlkk,
+                              
+                              "datatype":"json html script",
+                              /*"data":o,*/
+                            
+                              "success":kx9,
+                              "error":errorfunc9
+                        
+                        });
+
+                    function kx9(result9){
+
+                    	console.log(result9);
+
+                      if(result9 == "7"){	
+
+                      		//console.log("7");
+                      		fixupdateball = 1;
+                      		
+
+                      }else if(result9 == "6")
+      						
+      						//console.log("ставки были");
+      						fixupdateball = 0;
+      						
+
+                                  }
+
+                       function errorfunc9(){
+                          alert("oshibka zaprosa v statuse");
+                       }
+
+               }/*kones function*/
+
+
+               function deleteuserst(){			/*proverka statusa stavok*/
+
+				var del = $("#delete_st").val();
+
+				/*var o = {
+                      "data":st,
+                      };*/
+
+                   $.ajax({
+                              "type":"POST",
+                              "url":del,
+                              
+                              "datatype":"json html script",
+                              /*"data":o,*/
+                            
+                              "success":kxd,
+                              "error":errorfuncd
+                        
+                        });
+
+                    function kxd(resultd){
+
+                    	if(resultd == "1"){
+                    		console.log("удалены не прошедшие ставки");
+                    	}else if(resultd == "2"){
+                    		console.log("не прошедших ставок не было");
+                    	}
+
+                                  }
+
+                       function errorfuncd(){
                           alert("oshibka zaprosa v statuse");
                        }
 
@@ -176,7 +260,9 @@ function updategame(){
 
 				blocktable = date + blocktabletime;
 
-				blocksystem = date + blocktabletime + blocksystemtime;
+				protectballstatus2 = date + protectballstatus;
+
+				blocksystem = date + blocksystemtime + blocktabletime;
 
 				loading = date + loadingtime;
 
@@ -184,13 +270,15 @@ function updategame(){
 
 			}
 
-			var blocktabletime = 10;	/*60*/
+			// var blocktabletime = 10;	/*60*/		/*время блокировки клиента*/
 
-			var blocksystemtime = 2;	/*10*/
+			// var blocksystemtime = 2;	/*10*/		/*vremya  blokirovki sistemi*/
 
-			var loadingtime = 15;		/*125*/
+			// var protectballstatus = 20;	//60	proverka statusa obnovleniya sharika
 
-			var unblocktime = 20;		/*130*/
+			// var loadingtime = 22;		/*125*/		/*vremya podscheta stavok*/
+
+			// var unblocktime = 25;		/*130*/		/*vremya razblokirovki*/
 
 			// var blocktabletime = 60;
 
@@ -208,9 +296,21 @@ function updategame(){
 
 			// var unblocktime = 237;
 
+			var blocktabletime = 117;
+
+			var blocksystemtime = 30;
+
+			var protectballstatus = 167;	//60	proverka statusa obnovleniya sharika
+
+			var loadingtime = 170;		
+
+			var unblocktime = 177;
+
 			var blocktable = date + blocktabletime;
 
-			var blocksystem = date + blocktabletime + blocksystemtime;
+			var blocksystem = date + blocksystemtime + blocktabletime;	/*beretsya iz rascheta ot vremeni blokirovki clienta*/
+
+			var protectballstatus2 = date + protectballstatus;	/*proverka obnovleniya sharika*/
 
 			var loading = date + loadingtime;
 
@@ -225,20 +325,45 @@ function updategame(){
 				updatetime = Math.round(new Date().getTime() / 1000);
 
 				if(updatetime == blocktable){
-					sendajax(3);
-					console.log("время блокировки клиента ..");
-				}else if(updatetime == blocksystem){
-					sendajax(2);	
 
+					
+						sendajax(3);
+						console.log("время блокировки клиента ..");
+					
+					
+				}else if(updatetime == blocksystem){
+
+					
+						sendajax(2);	
+						console.log("время блокировки системы ..");
+					
 					//esli status 3 to klientu nuzhno otpravit resultati		
 					//pri statuse 0 zabrat vse resultati	//esli status 3 nuzhno zablochit clienta
 					//pri statuse 1 razblokirovat clienta
 					//pri statuse 4 ot dilera texnicheskii pereriv dilera
 
-					console.log("время блокировки системы ..");
+					
+				}else if(updatetime == protectballstatus2){
+
+					
+					sendajax3();
+					console.log("проверка шара");
+					
+
 				}else if(updatetime == loading){
-					sendajax2();
-					console.log("обработка результатов ..");
+
+					if(fixupdateball == 1){
+
+						sendajax(1);	/*status perekrutki ruletki*/
+						updatetimer();
+						console.log("шарик не обновился ..");
+						deleteuserst();
+
+					}else if(fixupdateball == 0){
+						sendajax2();
+						console.log("обработка результатов ..");
+					}
+					
 				}else if((updatetime == unblock) && (gamestatus != 4)){
 					sendajax(1);
 					updatetimer();

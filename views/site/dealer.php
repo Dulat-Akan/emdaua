@@ -3,29 +3,33 @@ use yii\helpers\Url;
  ?>
 
 
+<!-- background-size: 100%;background: url(<?php echo  Url::to('@img'); ?>/mobile/casinor1.jpg) no-repeat; -->
 
-<div data-role="page" id="main">			<!-- glavnaya stranisa -->
+<div data-role="page" id="main" style="">			<!-- glavnaya stranisa -->
 	
+ 
 
+    
 
 	<div data-role="header" data-position="fixed">
 			
 			<h1>www.almabet.kz</h1>
 
+
 	</div>
 
 
 
-	<div role="main" class="ui-content">
+	<div role="main" class="ui-content" style="">
 			
-			
+			         
 				
 					<div class="ui-grid-solo">
-					    <div class="ui-block-a"><a href="#" id="command" class="ui-btn ui-shadow ui-corner-all ui-btn-b">до запуска осталось</a></div>
+					    <div class="ui-block-a"><a href="#" style="font-size:16px;" id="command" class="ui-btn ui-shadow ui-corner-all ui-btn-b">до запуска осталось</a></div>
 					</div>
 
 					<div class="ui-grid-solo">
-					    <div class="ui-block-a"><a href="#" id="timer" style="color:red;font-size:20px;" class="ui-btn ui-shadow ui-corner-all ui-btn-b"></a></div>
+					    <div class="ui-block-a"><a href="#" id="timer" style="color:red;font-size:25px;" class="ui-btn ui-shadow ui-corner-all ui-btn-b"></a></div>
 					</div>
 
 					<div class="ui-grid-solo">
@@ -38,10 +42,12 @@ use yii\helpers\Url;
             </div>
 
             <div class="ui-grid-solo">
-			    <div class="ui-block-a"><button v="4" class="ui-shadow ui-btn ui-corner-all s">технический перерыв</button></div>
+                <div class="ui-block-a"><button v="4" class="ui-shadow ui-btn ui-corner-all s">технический перерыв</button></div>
+			   
 			</div>
+            
 
-			
+           
 				
 				
 
@@ -49,15 +55,18 @@ use yii\helpers\Url;
 	</div>
 
 
-	<div data-role="footer">
+	<div data-role="footer" >
 		
-
+            
 	</div>
 
 
-
+        
+ 
 
 </div>
+
+
 
 
 
@@ -143,7 +152,7 @@ use yii\helpers\Url;
                 			timer.empty();
                 			command.text("запустите шарик..!");
                 			command.css("color","#5bc0de");
-                			fixmissing = 0;
+                            fixmissing = 0;
                 			}
                 		}
 

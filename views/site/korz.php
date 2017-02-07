@@ -29,14 +29,14 @@ use yii\helpers\Url;
 
 <input id="base" type="hidden" value="<?php echo Url::to('@base'); ?>/site/updatekorzina">
 <input id="baser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/deletekorzina">
-<input id="baser" type="hidden" value="<?php echo Url::to('@base'); ?>/site/deletekorzina">
 
-<div class="col-md-8" style="display:none;" id="uvedomlenie">
+
+<div class="col-md-12" style="display:none;" id="uvedomlenie">
 	
-	<div class="col-md-3 col-md-offset-4">
+	<div class="col-md-6 col-md-offset-2">
 		
 		<div class="alert alert-success">
- 				<h4 style="margin-left:8px;">ставка принята</h4>
+ 				<h4 style="margin-left:8px;text-align: center;">ставка принята</h4>
 		</div>
 	</div>
 
@@ -44,24 +44,24 @@ use yii\helpers\Url;
 </div>
 
 
-<div class="col-md-8" style="display:none;" id="uvedomlenie2">
+<div class="col-md-12" style="display:none;" id="uvedomlenie2">
 	
-	<div class="col-md-3 col-md-offset-4">
+	<div class="col-md-6 col-md-offset-2">
 		
-		<div class="alert alert-error">
- 				<h4 style="margin-left:8px;">Внимание вы допустили ошибку!..</h4>
+		<div class="alert alert-danger">
+ 				<h4 style="margin-left:8px;text-align: center;">Внимание вы допустили ошибку!..</h4>
 		</div>
 	</div>
 
 
 </div>
 
-<div class="col-md-8" style="display:none;" id="uvedomlenie3">
+<div class="col-md-12" style="display:none;" id="uvedomlenie3">
 	
-	<div class="col-md-3 col-md-offset-4">
+	<div class="col-md-6 col-md-offset-2">
 		
-		<div class="alert alert-error">
- 				<h4 style="margin-left:8px;">Событие удалена с корзины</h4>
+		<div class="alert alert-danger">
+ 				<h4 style="margin-left:8px;text-align: center;">Событие удалено из корзины</h4>
 		</div>
 	</div>
 
@@ -69,6 +69,25 @@ use yii\helpers\Url;
 </div>
 
 <?php 
+    $session = Yii::$app->session;
+
+    if (!$session->isActive){
+            $session->open();
+        }
+
+    if($session->has("stopgame")){
+
+        $datastopgame = $session->get("stopgame");
+
+
+
+
+
+    }
+
+
+
+
 $k=1;
 foreach ($model as $row) {
  ?>
@@ -76,6 +95,8 @@ foreach ($model as $row) {
 <div class="col-md-12">
 	
 <hr>
+
+
 
 <div class="col-md-2"><?php echo $row['date_stavki']; ?>-<?php echo $row['time_stavki']; ?></div>
 
@@ -94,11 +115,67 @@ foreach ($model as $row) {
 
  
 	</div>
-<div class="col-md-3">
+
+    <?php 
+
+    $fixed = 0;
+    
+    foreach ($stopgame as $value5) {
+
+
+        $hh = strripos($value5['name'], $row['name_kommand']);
+
+        //echo $value5['name'];
+        if($hh == true){
+            $fixed = 1;
+            echo "стоп";
+        }
+    }
+
+
+?>
+
+
+
+
+<?php
+
+      
+
+if($fixed == 0){
+
+ ?>
+
+
+
+  <div class="col-md-3">
         <div class="col-md-5"><input type="submit" id="<?php echo $row['id']; ?>" r="<?php echo $row['res_id']; ?>" class="btn btn-danger stavka" value="поставить"></div>
         <div class="col-md-4"><button kef="<?php echo $row['k'];?>"  type="button" id="<?php echo $row['id']; ?>" r="<?php echo $row['res_id']; ?>" class="btn btn-danger delete"><span class="glyphicon glyphicon-remove-circle">Удалить</span></div>
         <div class="col-md-3">&nbsp;</div>
-</div>
+    </div>
+
+<?php 
+
+}
+if($fixed == 1){
+
+
+
+?>
+
+ <div class="col-md-3">
+        
+    </div>
+
+
+<?php 
+
+
+}
+
+
+?>
+
 </div>
 <?php 
 $k *= $row['k'];
@@ -203,7 +280,6 @@ $k *= $row['k'];
     });
 
     $(".delete").click(function(){
-        var input = $(this).parent().parent().prev().children().children('[class="form-control"]');
 
         var element = $(this).parent().parent().prev().children();
 
@@ -213,41 +289,19 @@ $k *= $row['k'];
 
         var element2 = $(this).parent().prev().children().children('[class="form-control-feedback"]');
 
-        var sum = input.val();
-        //var kef = $(this).attr("id");
         var id = $(this).attr("id");
+
         var resid = $(this).attr("r");
 
+        //console.log(id);
 
-        alert(resid);
 
-        input.each(function(){
-            if(this.checkValidity()){
-                element.addClass("has-success").removeClass("has-error");
-                element2.addClass("glyphicon glyphicon-ok").removeClass("glyphicon glyphicon-remove");
 
-                message.hide(1000);
-            }else{
-                element.removeClass("has-success").addClass("has-error");
-                element2.removeClass("glyphicon glyphicon-ok").addClass("glyphicon glyphicon-remove");
-                message.show(1000);
-                check = false;
-
-            }
-        });
-        var k1 = $('#kuk').val();
-        var k2 = $('#fk').val(); 
-        var kef = $(this).attr("kef");
-        
-        var final = k2/kef;
-        
-        $('.kef').text(final);
         
         var ar = {
-            "sum":sum,
             "id":id,
-            "resid":resid,	
         }
+
         var url = $("#baser").val();
         $.ajax({
             "type":"POST",
@@ -271,7 +325,7 @@ $k *= $row['k'];
             }
         }
         function errorfunc(){
-            alert("oshibka zaprosa");
+            console.log("oshibka zaprosa");
         }
     });
 </script>

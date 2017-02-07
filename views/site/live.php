@@ -59,7 +59,7 @@
 
             </script>
  
-<link type="text/css" rel="stylesheet" href="/img/styles1.css?46"/>
+<link type="text/css" rel="stylesheet" href="/img/styles1.css?60>"/>
 <link type="image/x-icon" rel="icon" href="/favicon.ico"/>
 <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico"/>
 <script type="text/javascript" src="/img/common2.js?t=123456789020"></script>
@@ -156,144 +156,144 @@
 <span class="title-time-block">Часовой пояс:</span>
 <div class="time-item">
 <span class="active">
-<span id='h0'>18:04:35</span>
+<span id='h0'>12:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485605075,'h0','+06:00',0, false);
-			            setInterval('wr_hoursSelect(1485605075,"h0","+06:00",0, false);',1000);
+			            wr_hoursSelect(1486450647,'h0','+06:00',0, false);
+			            setInterval('wr_hoursSelect(1486450647,"h0","+06:00",0, false);',1000);
 		            </script> </span>
 <div class="time-container" style="display: none;">
-<div onclick="window.location='index.php?action=set_tmz&id=-1080&use_DST=0'"><span id='h1'>00:04:35</span>
+<div onclick="window.location='index.php?action=set_tmz&id=-1080&use_DST=0'"><span id='h1'>18:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485540275,'h1','-12:00',1, false);
-			            setInterval('wr_hoursSelect(1485540275,"h1","-12:00",1, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-1020&use_DST=0'"><span id='h2'>01:04:35</span>
+			            wr_hoursSelect(1486385847,'h1','-12:00',1, false);
+			            setInterval('wr_hoursSelect(1486385847,"h1","-12:00",1, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-1020&use_DST=0'"><span id='h2'>19:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485543875,'h2','-11:00',2, false);
-			            setInterval('wr_hoursSelect(1485543875,"h2","-11:00",2, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-960&use_DST=0'"><span id='h3'>02:04:35</span>
+			            wr_hoursSelect(1486389447,'h2','-11:00',2, false);
+			            setInterval('wr_hoursSelect(1486389447,"h2","-11:00",2, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-960&use_DST=0'"><span id='h3'>20:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485547475,'h3','-10:00',3, false);
-			            setInterval('wr_hoursSelect(1485547475,"h3","-10:00",3, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-900&use_DST=0'"><span id='h4'>03:04:35</span>
+			            wr_hoursSelect(1486393047,'h3','-10:00',3, false);
+			            setInterval('wr_hoursSelect(1486393047,"h3","-10:00",3, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-900&use_DST=0'"><span id='h4'>21:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485551075,'h4','-09:00',4, false);
-			            setInterval('wr_hoursSelect(1485551075,"h4","-09:00",4, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-840&use_DST=0'"><span id='h5'>04:04:35</span>
+			            wr_hoursSelect(1486396647,'h4','-09:00',4, false);
+			            setInterval('wr_hoursSelect(1486396647,"h4","-09:00",4, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-840&use_DST=0'"><span id='h5'>22:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485554675,'h5','-08:00',5, false);
-			            setInterval('wr_hoursSelect(1485554675,"h5","-08:00",5, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-780&use_DST=0'"><span id='h6'>05:04:35</span>
+			            wr_hoursSelect(1486400247,'h5','-08:00',5, false);
+			            setInterval('wr_hoursSelect(1486400247,"h5","-08:00",5, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-780&use_DST=0'"><span id='h6'>23:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485558275,'h6','-07:00',6, false);
-			            setInterval('wr_hoursSelect(1485558275,"h6","-07:00",6, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-720&use_DST=0'"><span id='h7'>06:04:35</span>
+			            wr_hoursSelect(1486403847,'h6','-07:00',6, false);
+			            setInterval('wr_hoursSelect(1486403847,"h6","-07:00",6, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-720&use_DST=0'"><span id='h7'>00:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485561875,'h7','-06:00',7, false);
-			            setInterval('wr_hoursSelect(1485561875,"h7","-06:00",7, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-660&use_DST=0'"><span id='h8'>07:04:35</span>
+			            wr_hoursSelect(1486407447,'h7','-06:00',7, false);
+			            setInterval('wr_hoursSelect(1486407447,"h7","-06:00",7, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-660&use_DST=0'"><span id='h8'>01:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485565475,'h8','-05:00',8, false);
-			            setInterval('wr_hoursSelect(1485565475,"h8","-05:00",8, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-600&use_DST=0'"><span id='h9'>08:04:35</span>
+			            wr_hoursSelect(1486411047,'h8','-05:00',8, false);
+			            setInterval('wr_hoursSelect(1486411047,"h8","-05:00",8, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-600&use_DST=0'"><span id='h9'>02:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485569075,'h9','-04:00',9, false);
-			            setInterval('wr_hoursSelect(1485569075,"h9","-04:00",9, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-570&use_DST=0'"><span id='h10'>08:34:35</span>
+			            wr_hoursSelect(1486414647,'h9','-04:00',9, false);
+			            setInterval('wr_hoursSelect(1486414647,"h9","-04:00",9, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-570&use_DST=0'"><span id='h10'>03:27:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485570875,'h10','-03:30',10, false);
-			            setInterval('wr_hoursSelect(1485570875,"h10","-03:30",10, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-540&use_DST=0'"><span id='h11'>09:04:35</span>
+			            wr_hoursSelect(1486416447,'h10','-03:30',10, false);
+			            setInterval('wr_hoursSelect(1486416447,"h10","-03:30",10, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-540&use_DST=0'"><span id='h11'>03:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485572675,'h11','-03:00',11, false);
-			            setInterval('wr_hoursSelect(1485572675,"h11","-03:00",11, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-480&use_DST=0'"><span id='h12'>10:04:35</span>
+			            wr_hoursSelect(1486418247,'h11','-03:00',11, false);
+			            setInterval('wr_hoursSelect(1486418247,"h11","-03:00",11, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-480&use_DST=0'"><span id='h12'>04:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485576275,'h12','-02:00',12, false);
-			            setInterval('wr_hoursSelect(1485576275,"h12","-02:00",12, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-420&use_DST=0'"><span id='h13'>11:04:35</span>
+			            wr_hoursSelect(1486421847,'h12','-02:00',12, false);
+			            setInterval('wr_hoursSelect(1486421847,"h12","-02:00",12, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-420&use_DST=0'"><span id='h13'>05:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485579875,'h13','-01:00',13, false);
-			            setInterval('wr_hoursSelect(1485579875,"h13","-01:00",13, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-360&use_DST=0'"><span id='h14'>12:04:35</span>
+			            wr_hoursSelect(1486425447,'h13','-01:00',13, false);
+			            setInterval('wr_hoursSelect(1486425447,"h13","-01:00",13, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-360&use_DST=0'"><span id='h14'>06:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485583475,'h14','',14, false);
-			            setInterval('wr_hoursSelect(1485583475,"h14","",14, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-300&use_DST=0'"><span id='h15'>13:04:35</span>
+			            wr_hoursSelect(1486429047,'h14','',14, false);
+			            setInterval('wr_hoursSelect(1486429047,"h14","",14, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-300&use_DST=0'"><span id='h15'>07:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485587075,'h15','+01:00',15, false);
-			            setInterval('wr_hoursSelect(1485587075,"h15","+01:00",15, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-240&use_DST=0'"><span id='h16'>14:04:35</span>
+			            wr_hoursSelect(1486432647,'h15','+01:00',15, false);
+			            setInterval('wr_hoursSelect(1486432647,"h15","+01:00",15, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-240&use_DST=0'"><span id='h16'>08:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485590675,'h16','+02:00',16, false);
-			            setInterval('wr_hoursSelect(1485590675,"h16","+02:00",16, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-180&use_DST=0'"><span id='h17'>15:04:35</span>
+			            wr_hoursSelect(1486436247,'h16','+02:00',16, false);
+			            setInterval('wr_hoursSelect(1486436247,"h16","+02:00",16, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-180&use_DST=0'"><span id='h17'>09:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485594275,'h17','+03:00',17, false);
-			            setInterval('wr_hoursSelect(1485594275,"h17","+03:00",17, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-150&use_DST=0'"><span id='h18'>15:34:35</span>
+			            wr_hoursSelect(1486439847,'h17','+03:00',17, false);
+			            setInterval('wr_hoursSelect(1486439847,"h17","+03:00",17, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-150&use_DST=0'"><span id='h18'>10:27:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485596075,'h18','+03:30',18, false);
-			            setInterval('wr_hoursSelect(1485596075,"h18","+03:30",18, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-120&use_DST=0'"><span id='h19'>16:04:35</span>
+			            wr_hoursSelect(1486441647,'h18','+03:30',18, false);
+			            setInterval('wr_hoursSelect(1486441647,"h18","+03:30",18, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-120&use_DST=0'"><span id='h19'>10:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485597875,'h19','+04:00',19, false);
-			            setInterval('wr_hoursSelect(1485597875,"h19","+04:00",19, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-90&use_DST=0'"><span id='h20'>16:34:35</span>
+			            wr_hoursSelect(1486443447,'h19','+04:00',19, false);
+			            setInterval('wr_hoursSelect(1486443447,"h19","+04:00",19, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-90&use_DST=0'"><span id='h20'>11:27:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485599675,'h20','+04:30',20, false);
-			            setInterval('wr_hoursSelect(1485599675,"h20","+04:30",20, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-60&use_DST=0'"><span id='h21'>17:04:35</span>
+			            wr_hoursSelect(1486445247,'h20','+04:30',20, false);
+			            setInterval('wr_hoursSelect(1486445247,"h20","+04:30",20, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-60&use_DST=0'"><span id='h21'>11:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485601475,'h21','+05:00',21, false);
-			            setInterval('wr_hoursSelect(1485601475,"h21","+05:00",21, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-30&use_DST=0'"><span id='h22'>17:34:35</span>
+			            wr_hoursSelect(1486447047,'h21','+05:00',21, false);
+			            setInterval('wr_hoursSelect(1486447047,"h21","+05:00",21, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-30&use_DST=0'"><span id='h22'>12:27:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485603275,'h22','+05:30',22, false);
-			            setInterval('wr_hoursSelect(1485603275,"h22","+05:30",22, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-15&use_DST=0'"><span id='h23'>17:49:35</span>
+			            wr_hoursSelect(1486448847,'h22','+05:30',22, false);
+			            setInterval('wr_hoursSelect(1486448847,"h22","+05:30",22, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=-15&use_DST=0'"><span id='h23'>12:42:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485604175,'h23','+05:45',23, false);
-			            setInterval('wr_hoursSelect(1485604175,"h23","+05:45",23, false);',1000);
-		            </script></div><div class="active"><span id='h24'>18:04:35</span>
+			            wr_hoursSelect(1486449747,'h23','+05:45',23, false);
+			            setInterval('wr_hoursSelect(1486449747,"h23","+05:45",23, false);',1000);
+		            </script></div><div class="active"><span id='h24'>12:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485605075,'h24','+06:00',24, false);
-			            setInterval('wr_hoursSelect(1485605075,"h24","+06:00",24, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=30&use_DST=0'"><span id='h25'>18:34:35</span>
+			            wr_hoursSelect(1486450647,'h24','+06:00',24, false);
+			            setInterval('wr_hoursSelect(1486450647,"h24","+06:00",24, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=30&use_DST=0'"><span id='h25'>13:27:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485606875,'h25','+06:30',25, false);
-			            setInterval('wr_hoursSelect(1485606875,"h25","+06:30",25, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=60&use_DST=0'"><span id='h26'>19:04:35</span>
+			            wr_hoursSelect(1486452447,'h25','+06:30',25, false);
+			            setInterval('wr_hoursSelect(1486452447,"h25","+06:30",25, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=60&use_DST=0'"><span id='h26'>13:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485608675,'h26','+07:00',26, false);
-			            setInterval('wr_hoursSelect(1485608675,"h26","+07:00",26, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=120&use_DST=0'"><span id='h27'>20:04:35</span>
+			            wr_hoursSelect(1486454247,'h26','+07:00',26, false);
+			            setInterval('wr_hoursSelect(1486454247,"h26","+07:00",26, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=120&use_DST=0'"><span id='h27'>14:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485612275,'h27','+08:00',27, false);
-			            setInterval('wr_hoursSelect(1485612275,"h27","+08:00",27, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=180&use_DST=0'"><span id='h28'>21:04:35</span>
+			            wr_hoursSelect(1486457847,'h27','+08:00',27, false);
+			            setInterval('wr_hoursSelect(1486457847,"h27","+08:00",27, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=180&use_DST=0'"><span id='h28'>15:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485615875,'h28','+09:00',28, false);
-			            setInterval('wr_hoursSelect(1485615875,"h28","+09:00",28, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=210&use_DST=0'"><span id='h29'>21:34:35</span>
+			            wr_hoursSelect(1486461447,'h28','+09:00',28, false);
+			            setInterval('wr_hoursSelect(1486461447,"h28","+09:00",28, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=210&use_DST=0'"><span id='h29'>16:27:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485617675,'h29','+09:30',29, false);
-			            setInterval('wr_hoursSelect(1485617675,"h29","+09:30",29, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=240&use_DST=0'"><span id='h30'>22:04:35</span>
+			            wr_hoursSelect(1486463247,'h29','+09:30',29, false);
+			            setInterval('wr_hoursSelect(1486463247,"h29","+09:30",29, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=240&use_DST=0'"><span id='h30'>16:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485619475,'h30','+10:00',30, false);
-			            setInterval('wr_hoursSelect(1485619475,"h30","+10:00",30, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=300&use_DST=0'"><span id='h31'>23:04:35</span>
+			            wr_hoursSelect(1486465047,'h30','+10:00',30, false);
+			            setInterval('wr_hoursSelect(1486465047,"h30","+10:00",30, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=300&use_DST=0'"><span id='h31'>17:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485623075,'h31','+11:00',31, false);
-			            setInterval('wr_hoursSelect(1485623075,"h31","+11:00",31, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=360&use_DST=0'"><span id='h32'>00:04:35</span>
+			            wr_hoursSelect(1486468647,'h31','+11:00',31, false);
+			            setInterval('wr_hoursSelect(1486468647,"h31","+11:00",31, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=360&use_DST=0'"><span id='h32'>18:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485626675,'h32','+12:00',32, false);
-			            setInterval('wr_hoursSelect(1485626675,"h32","+12:00",32, false);',1000);
-		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=420&use_DST=0'"><span id='h33'>01:04:35</span>
+			            wr_hoursSelect(1486472247,'h32','+12:00',32, false);
+			            setInterval('wr_hoursSelect(1486472247,"h32","+12:00",32, false);',1000);
+		            </script></div><div onclick="window.location='index.php?action=set_tmz&id=420&use_DST=0'"><span id='h33'>19:57:27</span>
 <script type='text/javascript'>
-			            wr_hoursSelect(1485630275,'h33','+13:00',33, false);
-			            setInterval('wr_hoursSelect(1485630275,"h33","+13:00",33, false);',1000);
+			            wr_hoursSelect(1486475847,'h33','+13:00',33, false);
+			            setInterval('wr_hoursSelect(1486475847,"h33","+13:00",33, false);',1000);
 		            </script></div> </div>
 </div>
 </div>
@@ -306,7 +306,7 @@
 <input type="text" placeholder="Логин" name="login">
 <input type="password" placeholder="Пароль" name="passw">
 <input type=checkbox id="https" style="display:none;" checked value="1">
-<input type=hidden name='asid' value='5996310'><input type=hidden name='psid' value='0ce7241d078259fb9f477807bedc4329'> </div>
+<input type=hidden name='asid' value='276768'><input type=hidden name='psid' value='89d69f987b4e1f20abce2aaa4ab6cc01'> </div>
 <a href="https://www.olimpkz.com/index.php?page=recover" class="remember-pass">Забыли данные?</a>
 </form>
 </div>
@@ -515,7 +515,7 @@ setInterval(function(){
 <tr><td align=center>
 <center>
 <table width='90%'>
-<form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a data-u="2" href='/betting'><b><font class=txtmed color=black>Ставки</font> Live (93)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
+<form id=shline name=shline method=post action='index.php'><tr><td class=ns colspan=2><a data-u="2" href='/betting'><b><font class=txtmed color=black>Ставки</font> Live (16)</b></a></td><tr><td class=ns colspan=2><a href='/betgames'><b>
 <font class=txtmed color=black>BetGamesTV</font></font></b></a></td><tr><td class=ns colspan=2><a href='/betting/special-offers'><font class=txtmed color=black><b>Спец. предложения</b></font></a></td></tr>
  
 <tr><td class=ns colspan=2><a href='/betting/toto'><font class=txtmed color=black><b>Тотализатор</b></font></a></td></tr>
@@ -528,7 +528,7 @@ setInterval(function(){
 <tr><td class="ns" colspan="2"><hr class="hr2"/></td></tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (1015)</a>
+<a class="txtmed" href="/betting/soccer" style="color:#000;">Футбол (874)</a>
 </td>
 <td>
 <input id="c0" type="checkbox" name="sel[]" value="1"/>
@@ -536,7 +536,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (70)</a>
+<a class="txtmed" href="/betting/tennis" style="color:#000;">Теннис (261)</a>
 </td>
 <td>
 <input id="c1" type="checkbox" name="sel[]" value="3"/>
@@ -544,7 +544,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (160)</a>
+<a class="txtmed" href="/betting/basketball" style="color:#000;">Баскетбол (81)</a>
 </td>
 <td>
 <input id="c2" type="checkbox" name="sel[]" value="5"/>
@@ -552,7 +552,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (211)</a>
+<a class="txtmed" href="/betting/hockey" style="color:#000;">Хоккей (169)</a>
 </td>
 <td>
 <input id="c3" type="checkbox" name="sel[]" value="2"/>
@@ -560,7 +560,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (75)</a>
+<a class="txtmed" href="/betting/cybersport" style="color:#000;">Киберспорт (121)</a>
 </td>
 <td>
 <input id="c4" type="checkbox" name="sel[]" value="112"/>
@@ -576,7 +576,7 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/australian-football" style="color:#000;">Австралийский футбол (1)</a>
+<a class="txtmed" href="/betting/australian-football" style="color:#000;">Австралийский футбол (6)</a>
 </td>
 <td>
 <input id="c6" type="checkbox" name="sel[]" value="91"/>
@@ -584,42 +584,34 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/american-football" style="color:#000;">Американский футбол (4)</a>
+<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (23)</a>
 </td>
 <td>
-<input id="c7" type="checkbox" name="sel[]" value="6"/>
+<input id="c7" type="checkbox" name="sel[]" value="51"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/badminton" style="color:#000;">Бадминтон (4)</a>
+<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (4)</a>
 </td>
 <td>
-<input id="c8" type="checkbox" name="sel[]" value="51"/>
+<input id="c8" type="checkbox" name="sel[]" value="29"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/baseball" style="color:#000;">Бейсбол (3)</a>
+<a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (107)</a>
 </td>
 <td>
-<input id="c9" type="checkbox" name="sel[]" value="29"/>
+<input id="c9" type="checkbox" name="sel[]" value="7"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/biathlon" style="color:#000;">Биатлон (8)</a>
+<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (32)</a>
 </td>
 <td>
-<input id="c10" type="checkbox" name="sel[]" value="7"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/boxing" style="color:#000;">Бокс (52)</a>
-</td>
-<td>
-<input id="c11" type="checkbox" name="sel[]" value="12"/>
+<input id="c10" type="checkbox" name="sel[]" value="12"/>
 </td>
 </tr>
 <tr valign="top">
@@ -627,44 +619,52 @@ setInterval(function(){
 <a class="txtmed" href="/betting/cycle-racing" style="color:#000;">Велоспорт (3)</a>
 </td>
 <td>
-<input id="c12" type="checkbox" name="sel[]" value="44"/>
+<input id="c11" type="checkbox" name="sel[]" value="44"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=41" style="color:#000;">Водное поло (9)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=41" style="color:#000;">Водное поло (1)</a>
 </td>
 <td>
-<input id="c13" type="checkbox" name="sel[]" value="41"/>
+<input id="c12" type="checkbox" name="sel[]" value="41"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (111)</a>
+<a class="txtmed" href="/betting/volleyball" style="color:#000;">Волейбол (59)</a>
 </td>
 <td>
-<input id="c14" type="checkbox" name="sel[]" value="10"/>
+<input id="c13" type="checkbox" name="sel[]" value="10"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (82)</a>
+<a class="txtmed" href="/betting/handball" style="color:#000;">Гандбол (94)</a>
 </td>
 <td>
-<input id="c15" type="checkbox" name="sel[]" value="9"/>
+<input id="c14" type="checkbox" name="sel[]" value="9"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (1)</a>
+<a class="txtmed" href="/betting/golf" style="color:#000;">Гольф (9)</a>
 </td>
 <td>
-<input id="c16" type="checkbox" name="sel[]" value="90"/>
+<input id="c15" type="checkbox" name="sel[]" value="90"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (14)</a>
+<a class="txtmed" href="/betting/mountain-skiing" style="color:#000;">Горные лыжи (42)</a>
+</td>
+<td>
+<input id="c16" type="checkbox" name="sel[]" value="75"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/darts" style="color:#000;">Дартс (7)</a>
 </td>
 <td>
 <input id="c17" type="checkbox" name="sel[]" value="47"/>
@@ -672,18 +672,34 @@ setInterval(function(){
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (3)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=37" style="color:#000;">Керлинг (1)</a>
 </td>
 <td>
-<input id="c18" type="checkbox" name="sel[]" value="73"/>
+<input id="c18" type="checkbox" name="sel[]" value="37"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (43)</a>
+<a class="txtmed" href="/betting/cricket" style="color:#000;">Крикет (4)</a>
 </td>
 <td>
-<input id="c19" type="checkbox" name="sel[]" value="121"/>
+<input id="c19" type="checkbox" name="sel[]" value="73"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=121" style="color:#000;">Культура (42)</a>
+</td>
+<td>
+<input id="c20" type="checkbox" name="sel[]" value="121"/>
+</td>
+</tr>
+<tr valign="top">
+<td class="ns">
+<a class="txtmed" href="/betting/skiing" style="color:#000;">Лыжи (1)</a>
+</td>
+<td>
+<input id="c21" type="checkbox" name="sel[]" value="38"/>
 </td>
 </tr>
 <tr valign="top">
@@ -691,71 +707,71 @@ setInterval(function(){
 <a class="txtmed" href="index.php?page=line&action=1&sel[]=117" style="color:#000;">Мотоспорт (1)</a>
 </td>
 <td>
-<input id="c20" type="checkbox" name="sel[]" value="117"/>
+<input id="c22" type="checkbox" name="sel[]" value="117"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/ski-jumping" style="color:#000;">Прыжки с трамплина (12)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=40" style="color:#000;">Настольный теннис (8)</a>
 </td>
 <td>
-<input id="c21" type="checkbox" name="sel[]" value="39"/>
+<input id="c23" type="checkbox" name="sel[]" value="40"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=119" style="color:#000;">Ралли (1)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=119" style="color:#000;">Ралли (13)</a>
 </td>
 <td>
-<input id="c22" type="checkbox" name="sel[]" value="119"/>
+<input id="c24" type="checkbox" name="sel[]" value="119"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (9)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=32" style="color:#000;">Регби (1)</a>
 </td>
 <td>
-<input id="c23" type="checkbox" name="sel[]" value="85"/>
+<input id="c25" type="checkbox" name="sel[]" value="32"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (44)</a>
+<a class="txtmed" href="/betting/rugby-league" style="color:#000;">Регби-лига (18)</a>
 </td>
 <td>
-<input id="c24" type="checkbox" name="sel[]" value="46"/>
+<input id="c26" type="checkbox" name="sel[]" value="85"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (27)</a>
+<a class="txtmed" href="/betting/rugby-union" style="color:#000;">Регби-Союз (48)</a>
 </td>
 <td>
-<input id="c25" type="checkbox" name="sel[]" value="96"/>
+<input id="c27" type="checkbox" name="sel[]" value="46"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (18)</a>
+<a class="txtmed" href="/betting/mma" style="color:#000;">Смешанные боевые искусства (31)</a>
 </td>
 <td>
-<input id="c26" type="checkbox" name="sel[]" value="4"/>
+<input id="c28" type="checkbox" name="sel[]" value="96"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=125" style="color:#000;">Универсиада (5)</a>
+<a class="txtmed" href="/betting/snooker" style="color:#000;">Снукер (15)</a>
 </td>
 <td>
-<input id="c27" type="checkbox" name="sel[]" value="125"/>
+<input id="c29" type="checkbox" name="sel[]" value="4"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (37)</a>
+<a class="txtmed" href="/betting/floorball" style="color:#000;">Флорбол (17)</a>
 </td>
 <td>
-<input id="c28" type="checkbox" name="sel[]" value="113"/>
+<input id="c30" type="checkbox" name="sel[]" value="113"/>
 </td>
 </tr>
 <tr valign="top">
@@ -763,31 +779,15 @@ setInterval(function(){
 <a class="txtmed" href="/betting/formula1" style="color:#000;">Формула 1 (2)</a>
 </td>
 <td>
-<input id="c29" type="checkbox" name="sel[]" value="33"/>
+<input id="c31" type="checkbox" name="sel[]" value="33"/>
 </td>
 </tr>
 <tr valign="top">
 <td class="ns">
-<a class="txtmed" href="/betting/futsal" style="color:#000;">Футзал (9)</a>
+<a class="txtmed" href="index.php?page=line&action=1&sel[]=8" style="color:#000;">Хоккей с мячом (7)</a>
 </td>
 <td>
-<input id="c30" type="checkbox" name="sel[]" value="11"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="index.php?page=line&action=1&sel[]=8" style="color:#000;">Хоккей с мячом (12)</a>
-</td>
-<td>
-<input id="c31" type="checkbox" name="sel[]" value="8"/>
-</td>
-</tr>
-<tr valign="top">
-<td class="ns">
-<a class="txtmed" href="/betting/bowls" style="color:#000;">Шары (1)</a>
-</td>
-<td>
-<input id="c32" type="checkbox" name="sel[]" value="93"/>
+<input id="c32" type="checkbox" name="sel[]" value="8"/>
 </td>
 </tr><script language='javascript'>
                 var checked=0;
@@ -797,12 +797,12 @@ setInterval(function(){
                     else checked=0;
                     for(var ci=0;ci<33;ci++)
                         document.getElementById('c'+ci).checked=checked;
-                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (2048)</a>';
-                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (2048)</a>'
+                    if(checked==0) document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Выбрать все (2103)</a>';
+                    else document.getElementById('selall').innerHTML='<a href=\'javascript:selall();\'>Отменить все (2103)</a>'
                 }
                 </script><tr><td nowrap colspan=2 align=left>
 <a href='/betting/outright'><b>Долгосрочные ставки</b></a>
-</td></tr><tr><td colspan=2 id="selall" align="middle"><a href="javascript:selall();">Выбрать все (2048)</a></td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1> </td>
+</td></tr><tr><td colspan=2 id="selall" align="middle"><a href="javascript:selall();">Выбрать все (2103)</a></td></tr><tr><td nowrap colspan=2 align=middle><INPUT type=submit value='Показать' onclick='javascript:this.disabled=1;this.form.submit();' class=msbtn1> </td>
 </tr>
 <input type="hidden" name="page" value="line"/>
 <input type="hidden" name="action" value="1"/>
@@ -865,7 +865,7 @@ Live-Ставки </H1>
 <input type="hidden" name="page" value="setbet"/>
 <div id="betline">
 <center><table><tr><td><input type='checkbox' checked='checked' id=refresh value='1' onclick='javascript:save_upd();'></td><td><b>
-<a href='javascript:window.location="index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=29279438";'>Обновлять</a> страницу автоматически (каждые <select class=loginbox style='width:40px;' id=refrate onChange='change_rr();'>
+<a href='javascript:window.location="index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=29598681";'>Обновлять</a> страницу автоматически (каждые <select class=loginbox style='width:40px;' id=refrate onChange='change_rr();'>
 <option value='5'>5</option>
 <option value='10' selected>10</option>
  
@@ -883,7 +883,7 @@ Live-Ставки </H1>
 										}
 										document.cookie="refrate="+rr+";";
 										if(h_int) clearInterval(h_int);
-									  	h_int=setInterval("ajax_rload('ajax_index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=29279438')", rr*1000);
+									  	h_int=setInterval("ajax_rload('ajax_index.php?page=line&line_nums=0&action=2&mid=0&id=0&live[]=29598681')", rr*1000);
 									  }
                                       function save_upd()
                                       {
@@ -892,18 +892,17 @@ Live-Ставки </H1>
                                       }
                                       change_rr();
 	                                  </script><table class="smallwnd2 totalizator" style="width:99%;"><tr class='m_c' align=center>
-<td class=smwndcap width='90%'><font class=g>Live. </font> Баскетбол. Мужчины. Чемпионат Австралии<a name='ch7532'></a></td>
+<td class=smwndcap width='90%'><font class=g>Live. </font> Волейбол. Женщины. Казахстан. Высшая лига А. Петропавловск<a name='ch1971759'></a></td>
 <td class=smwndcap width='10%' align=center valign=center nowrap>- - -</td></tr>
 <tr><td colspan=2>
 <i><div align=left style='WIDTH: 96%;'>
-<a href='javascript: ShowAddons("7532")' class='show_all_odds' data-champ_id='7532'>
-<span id='t7532_1' class=tab>Свернуть роспись.</span></a><span class=tab><a class='index_lnk' href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
-<td width='20%' align=center><div style='float: left;'><a href='javascript:loadaddLive(29279438, 0, 0);'>
-<img id='i29279438' src='/img/minus.jpg'></a></div>28.01.2017 16:45<br><i><font class=m>Онлайн</font></i></td>
-<td width='80%' style='border-right: 0 !important;'><div style='float: left;'><font class=m><b>Перт - Мельбурн<div style='float: left; margin-right: 0px;padding-top:2px;'><a href='javascript:openvideo(29279438);'><span class='svg-ico-tv'></span></a></div><div style='float: left; margin-right: 0px;padding-top:2px;'><a href='javascript:openmtbr(10271825,3, true, "ru", "Asia:Dhaka");'><span class='svg-ico-stat'></span></a></div><a class="fav" style="float:left;margin:1px 10px 0px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="29279438"></a><br><font class=txtmed style='color:red; white-space: nowrap;'>53:54 (16:19, 25:19, 12:16) 30" 3-я четверть</font></b></font></div></td>
-</tr>
-<tr><td colspan=2><div class=tab id='odd29279438' data-match-id='29279438' data-match-count='0' data-cont='0' data-champ='7532'><nobr>П1 -&nbsp;&nbsp;<span id="koefs_647807833.1" class="bet_sel koefs" data-cnt="1" data-select="647807833.1" data-legacy="647807833.1" data-v1="1.8" data-v2="1" data-v3="1" data-match="29279438" data-id="647807833.1" data-live="b1"><b>1.8</b></span>   &nbsp;</nobr> <nobr>П2 -&nbsp;&nbsp;<span id="koefs_647807834.1" class="bet_sel koefs" data-cnt="1" data-select="647807834.1" data-legacy="647807834.1" data-v1="1.95" data-v2="1" data-v3="1" data-match="29279438" data-id="647807834.1" data-live="b1"><b>1.95</b></span>   &nbsp;</nobr> <nobr>Ф1(-1.5) -&nbsp;&nbsp;<span id="koefs_647807835:29279438:2:4:-1.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:4:-1.5:1:0" data-legacy="647807835.2" data-v1="-1.5" data-v2="1.95" data-v3="1" data-match="29279438" data-id="647807835:29279438:2:4:-1.5:1:0" data-live="b1"><b>1.95</b></span>   &nbsp;</nobr> <nobr>Ф2(1.5) -&nbsp;&nbsp;<span id="koefs_647807836:29279438:2:4:1.5:2:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:4:1.5:2:0" data-legacy="647807836.2" data-v1="1.5" data-v2="1.8" data-v3="1" data-match="29279438" data-id="647807836:29279438:2:4:1.5:2:0" data-live="b1"><b>1.8</b></span>   &nbsp;</nobr> <nobr>Тот(150.5) М -&nbsp;&nbsp;<span id="koefs_648412651:29279438:2:5:150.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:5:150.5:1:0" data-legacy="648412651.2" data-v1="150.5" data-v2="1.8" data-v3="1.95" data-match="29279438" data-id="648412651:29279438:2:5:150.5:1:0" data-live="b1"><b>1.8</b></span>   &nbsp;Б -&nbsp;&nbsp;<span id="koefs_648412651:29279438:3:5:150.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:3:5:150.5:1:0" data-legacy="648412651.3" data-v1="150.5" data-v2="1.8" data-v3="1.95" data-match="29279438" data-id="648412651:29279438:3:5:150.5:1:0" data-live="b1"><b>1.95</b></span>   &nbsp;</nobr> <div id="r7532_0" sh="-HM29279438" data-match-id-show="29279438" style="display: block;"><br/><b><i>Очки:</i></b><br/><nobr>Перт (75.5) мен -&nbsp;&nbsp;<span id="koefs_648412664:29279438:2:7:75.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:7:75.5:1:0" data-legacy="648412664.2" data-v1="75.5" data-v2="1.8" data-v3="1.95" data-match="29279438" data-id="648412664:29279438:2:7:75.5:1:0" data-live="b1"><b>1.8</b></span>   &nbsp;Перт (75.5) бол -&nbsp;&nbsp;<span id="koefs_648412664:29279438:3:7:75.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:3:7:75.5:1:0" data-legacy="648412664.3" data-v1="75.5" data-v2="1.8" data-v3="1.95" data-match="29279438" data-id="648412664:29279438:3:7:75.5:1:0" data-live="b1"><b>1.95</b></span>   &nbsp;</nobr> <nobr>Мельбурн (74.5) мен -&nbsp;&nbsp;<span id="koefs_648412667:29279438:2:8:74.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:8:74.5:1:0" data-legacy="648412667.2" data-v1="74.5" data-v2="1.95" data-v3="1.8" data-match="29279438" data-id="648412667:29279438:2:8:74.5:1:0" data-live="b1"><b>1.95</b></span>   &nbsp;Мельбурн (74.5) бол -&nbsp;&nbsp;<span id="koefs_648412667:29279438:3:8:74.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:3:8:74.5:1:0" data-legacy="648412667.3" data-v1="74.5" data-v2="1.95" data-v3="1.8" data-match="29279438" data-id="648412667:29279438:3:8:74.5:1:0" data-live="b1"><b>1.8</b></span>   &nbsp;</nobr> <br/><br/><b><i>Исходы по четвертям:</i></b><br/><nobr>П1 в 4-й ч. -&nbsp;&nbsp;<span id="koefs_648412703.1" class="bet_sel koefs" data-cnt="1" data-select="648412703.1" data-legacy="648412703.1" data-v1="1.7" data-v2="1" data-v3="1" data-match="29279438" data-id="648412703.1" data-live="b1"><b>1.7</b></span>   &nbsp;</nobr> <nobr>Х в 4-й ч. -&nbsp;&nbsp;<span id="koefs_648412704.1" class="bet_sel koefs" data-cnt="1" data-select="648412704.1" data-legacy="648412704.1" data-v1="22" data-v2="1" data-v3="1" data-match="29279438" data-id="648412704.1" data-live="b1"><b>22</b></span>   &nbsp;</nobr> <nobr>П2 в 4-й ч. -&nbsp;&nbsp;<span id="koefs_648412705.1" class="bet_sel koefs" data-cnt="1" data-select="648412705.1" data-legacy="648412705.1" data-v1="2.35" data-v2="1" data-v3="1" data-match="29279438" data-id="648412705.1" data-live="b1"><b>2.35</b></span>   &nbsp;</nobr> <nobr>П1 в 4-й ч. с форой (0) -&nbsp;&nbsp;<span id="koefs_648412681.1" class="bet_sel koefs" data-cnt="1" data-select="648412681.1" data-legacy="648412681.1" data-v1="1.6" data-v2="1" data-v3="1" data-match="29279438" data-id="648412681.1" data-live="b1"><b>1.6</b></span>   &nbsp;</nobr> <nobr>П2 в 4-й ч. с форой (0) -&nbsp;&nbsp;<span id="koefs_648412682.1" class="bet_sel koefs" data-cnt="1" data-select="648412682.1" data-legacy="648412682.1" data-v1="2.25" data-v2="1" data-v3="1" data-match="29279438" data-id="648412682.1" data-live="b1"><b>2.25</b></span>   &nbsp;</nobr> <nobr>П1 в 4-й ч. с форой (-1.5) -&nbsp;&nbsp;<span id="koefs_651026454:29279438:2:20:-1.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:20:-1.5:1:0" data-legacy="651026454.2" data-v1="-1.5" data-v2="1.95" data-v3="1" data-match="29279438" data-id="651026454:29279438:2:20:-1.5:1:0" data-live="b1"><b>1.95</b></span>   &nbsp;</nobr> <nobr>П2 в 4-й ч. с форой (1.5) -&nbsp;&nbsp;<span id="koefs_651026455:29279438:2:20:1.5:2:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:20:1.5:2:0" data-legacy="651026455.2" data-v1="1.5" data-v2="1.75" data-v3="1" data-match="29279438" data-id="651026455:29279438:2:20:1.5:2:0" data-live="b1"><b>1.75</b></span>   &nbsp;</nobr> <nobr>Тотал 4-й четверти (40.5) мен -&nbsp;&nbsp;<span id="koefs_648412683:29279438:2:21:40.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:21:40.5:1:0" data-legacy="648412683.2" data-v1="40.5" data-v2="1.9" data-v3="1.8" data-match="29279438" data-id="648412683:29279438:2:21:40.5:1:0" data-live="b1"><b>1.9</b></span>   &nbsp;Тотал 4-й четверти (40.5) бол -&nbsp;&nbsp;<span id="koefs_648412683:29279438:3:21:40.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:3:21:40.5:1:0" data-legacy="648412683.3" data-v1="40.5" data-v2="1.9" data-v3="1.8" data-match="29279438" data-id="648412683:29279438:3:21:40.5:1:0" data-live="b1"><b>1.8</b></span>   &nbsp;</nobr> <br/><br/><b><i>Доп. форы:</i></b><br/><nobr>Перт (-2.5) -&nbsp;&nbsp;<span id="koefs_647807837:29279438:2:4:-2.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:4:-2.5:1:0" data-legacy="647807837.2" data-v1="-2.5" data-v2="2.25" data-v3="1" data-match="29279438" data-id="647807837:29279438:2:4:-2.5:1:0" data-live="b1"><b>2.25</b></span>   &nbsp;</nobr> <nobr>Мельбурн (2.5) -&nbsp;&nbsp;<span id="koefs_647807838:29279438:2:4:2.5:2:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:4:2.5:2:0" data-legacy="647807838.2" data-v1="2.5" data-v2="1.6" data-v3="1" data-match="29279438" data-id="647807838:29279438:2:4:2.5:2:0" data-live="b1"><b>1.6</b></span>   &nbsp;</nobr> <nobr>Перт (-0.5) -&nbsp;&nbsp;<span id="koefs_647807839:29279438:2:4:-0.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:4:-0.5:1:0" data-legacy="647807839.2" data-v1="-0.5" data-v2="1.8" data-v3="1" data-match="29279438" data-id="647807839:29279438:2:4:-0.5:1:0" data-live="b1"><b>1.8</b></span>   &nbsp;</nobr> <nobr>Мельбурн (0.5) -&nbsp;&nbsp;<span id="koefs_647807840:29279438:2:4:0.5:2:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:4:0.5:2:0" data-legacy="647807840.2" data-v1="0.5" data-v2="1.95" data-v3="1" data-match="29279438" data-id="647807840:29279438:2:4:0.5:2:0" data-live="b1"><b>1.95</b></span>   &nbsp;</nobr> <br/><br/><b><i>Доп. тоталы:</i></b><br/><nobr>Тотал (148.5) мен -&nbsp;&nbsp;<span id="koefs_648412652:29279438:2:5:148.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:5:148.5:1:0" data-legacy="648412652.2" data-v1="148.5" data-v2="2.1" data-v3="1.7" data-match="29279438" data-id="648412652:29279438:2:5:148.5:1:0" data-live="b1"><b>2.1</b></span>   &nbsp;Тотал (148.5) бол -&nbsp;&nbsp;<span id="koefs_648412652:29279438:3:5:148.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:3:5:148.5:1:0" data-legacy="648412652.3" data-v1="148.5" data-v2="2.1" data-v3="1.7" data-match="29279438" data-id="648412652:29279438:3:5:148.5:1:0" data-live="b1"><b>1.7</b></span>   &nbsp;</nobr> <nobr>Тотал (149.5) мен -&nbsp;&nbsp;<span id="koefs_648412653:29279438:2:5:149.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:2:5:149.5:1:0" data-legacy="648412653.2" data-v1="149.5" data-v2="1.95" data-v3="1.8" data-match="29279438" data-id="648412653:29279438:2:5:149.5:1:0" data-live="b1"><b>1.95</b></span>   &nbsp;Тотал (149.5) бол -&nbsp;&nbsp;<span id="koefs_648412653:29279438:3:5:149.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29279438:3:5:149.5:1:0" data-legacy="648412653.3" data-v1="149.5" data-v2="1.95" data-v3="1.8" data-match="29279438" data-id="648412653:29279438:3:5:149.5:1:0" data-live="b1"><b>1.8</b></span>   &nbsp;</nobr> <br/><br/><b><i>Тотал в четвертях:</i></b><br/><nobr>4-я четверть: чет -&nbsp;&nbsp;<span id="koefs_648412718.1" class="bet_sel koefs" data-cnt="1" data-select="648412718.1" data-legacy="648412718.1" data-v1="1.85" data-v2="1" data-v3="1" data-match="29279438" data-id="648412718.1" data-live="b1"><b>1.85</b></span>   &nbsp;</nobr> <nobr>4-я четверть: нечет -&nbsp;&nbsp;<span id="koefs_648412719.1" class="bet_sel koefs" data-cnt="1" data-select="648412719.1" data-legacy="648412719.1" data-v1="1.85" data-v2="1" data-v3="1" data-match="29279438" data-id="648412719.1" data-live="b1"><b>1.85</b></span>   &nbsp;</nobr> <br/><br/><b><i>Тотал матча:</i></b><br/><nobr>Чет -&nbsp;&nbsp;<span id="koefs_648412706.1" class="bet_sel koefs" data-cnt="1" data-select="648412706.1" data-legacy="648412706.1" data-v1="1.85" data-v2="1" data-v3="1" data-match="29279438" data-id="648412706.1" data-live="b1"><b>1.85</b></span>   &nbsp;</nobr> <nobr>Нечет -&nbsp;&nbsp;<span id="koefs_648412707.1" class="bet_sel koefs" data-cnt="1" data-select="648412707.1" data-legacy="648412707.1" data-v1="1.85" data-v2="1" data-v3="1" data-match="29279438" data-id="648412707.1" data-live="b1"><b>1.85</b></span>   &nbsp;</nobr> <br/><br/><b><i>Овертайм:</i></b><br/><nobr>Овертайм будет -&nbsp;&nbsp;<span id="koefs_648412738.1" class="bet_sel koefs" data-cnt="1" data-select="648412738.1" data-legacy="648412738.1" data-v1="9.25" data-v2="1" data-v3="1" data-match="29279438" data-id="648412738.1" data-live="b1"><b>9.25</b></span>   &nbsp;</nobr> <nobr>Овертайма не будет -&nbsp;&nbsp;<span id="koefs_648412739.1" class="bet_sel koefs" data-cnt="1" data-select="648412739.1" data-legacy="648412739.1" data-v1="1.07" data-v2="1" data-v3="1" data-match="29279438" data-id="648412739.1" data-live="b1"><b>1.07</b></span>   &nbsp;</nobr> <br/><br/><b><i>Гонка по очкам: 4 четверть:</i></b><br/><nobr>до 10 очков: Перт -&nbsp;&nbsp;<span id="koefs_651026456.1" class="bet_sel koefs" data-cnt="1" data-select="651026456.1" data-legacy="651026456.1" data-v1="1.8" data-v2="1" data-v3="1" data-match="29279438" data-id="651026456.1" data-live="b1"><b>1.8</b></span>   &nbsp;</nobr> <nobr>до 10 очков: Мельбурн -&nbsp;&nbsp;<span id="koefs_651026457.1" class="bet_sel koefs" data-cnt="1" data-select="651026457.1" data-legacy="651026457.1" data-v1="1.95" data-v2="1" data-v3="1" data-match="29279438" data-id="651026457.1" data-live="b1"><b>1.95</b></span>   &nbsp;</nobr> <nobr>до 20 очков: Перт -&nbsp;&nbsp;<span id="koefs_651026458.1" class="bet_sel koefs" data-cnt="1" data-select="651026458.1" data-legacy="651026458.1" data-v1="1.7" data-v2="1" data-v3="1" data-match="29279438" data-id="651026458.1" data-live="b1"><b>1.7</b></span>   &nbsp;</nobr> <nobr>до 20 очков: Мельбурн -&nbsp;&nbsp;<span id="koefs_651026459.1" class="bet_sel koefs" data-cnt="1" data-select="651026459.1" data-legacy="651026459.1" data-v1="2.05" data-v2="1" data-v3="1" data-match="29279438" data-id="651026459.1" data-live="b1"><b>2.05</b></span>   &nbsp;</nobr> </div></div></td></tr></table></td></tr></table><span id="t7532_2" style="display:none"></span><input type="hidden" name="r_max" value="1"/><input type="hidden" name="currpage" value="live"/> </div>
-</form>
+<a href='javascript: ShowAddons("1971759")' class='show_all_odds' data-champ_id='1971759'>
+<span id='t1971759_1' class=tab>Свернуть роспись.</span></a><span class=tab><a class='index_lnk' href='#index'>Оглавление</a></span></div></i><table class=koeftable2 cellspacing=3 cellpadding=3><tr class=hi>
+<td width='20%' align=center><div style='float: left;'><a href='javascript:loadaddLive(29598681, 0, 0);'><img id='i29598681' src='/img/minus.jpg'></a></div>07.02.2017 12:00<br><i><font class=m>Онлайн</font></i></td><td width='80%' style='border-right: 0 !important;'><div style='float: left;'><font class=m><b><span style='float: right; padding-left:10px;'>Дворец школьников - Казыгурт</span><a class="fav"style="float:left;margin:1px 0px 0px 0;" href="#favorites" title="Добавить в избранное" data-favtype="matches" data-favid="29598681"></a><br><font class=txtmed  style='color:red; white-space: nowrap;'>1:1  (23:25, 27:25, 6:3)</font></b></font></div></td>
+
+	                          </tr>
+	                          <tr><td colspan=2><div class=tab  id='odd29598681' data-match-id='29598681' data-match-count='0' data-cont='0' data-champ='1971759'><div id="r1971759_0" sh="-HM29598681" data-match-id-show="29598681"  style="display: block;"><b><i>Ставки по партиям:</i></b><br /><nobr>Тотал 3-ей партии (42.5) мен -&nbsp;&nbsp;<span id="koefs_657154175:29598681:2:18:42.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29598681:2:18:42.5:1:0" data-legacy="657154175.2" data-v1="42.5" data-v2="2.5" data-v3="1.45" data-match="29598681" data-id="657154175:29598681:2:18:42.5:1:0" data-live="b1"><b>2.5</b></span> <!--b>2.5</b--> &nbsp;Тотал 3-ей партии (42.5) бол -&nbsp;&nbsp;<span id="koefs_657154175:29598681:3:18:42.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29598681:3:18:42.5:1:0" data-legacy="657154175.3" data-v1="42.5" data-v2="2.5" data-v3="1.45" data-match="29598681" data-id="657154175:29598681:3:18:42.5:1:0" data-live="b1"><b>1.45</b></span> <!--b>1.45</b--> &nbsp;</nobr> <nobr>Тотал 3-ей партии (43.5) мен -&nbsp;&nbsp;<span id="koefs_657154176:29598681:2:18:43.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29598681:2:18:43.5:1:0" data-legacy="657154176.2" data-v1="43.5" data-v2="2.05" data-v3="1.7" data-match="29598681" data-id="657154176:29598681:2:18:43.5:1:0" data-live="b1"><b>2.05</b></span> <!--b>2.05</b--> &nbsp;Тотал 3-ей партии (43.5) бол -&nbsp;&nbsp;<span id="koefs_657154176:29598681:3:18:43.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29598681:3:18:43.5:1:0" data-legacy="657154176.3" data-v1="43.5" data-v2="2.05" data-v3="1.7" data-match="29598681" data-id="657154176:29598681:3:18:43.5:1:0" data-live="b1"><b>1.7</b></span> <!--b>1.7</b--> &nbsp;</nobr> <nobr>Тотал 3-ей партии (44.5) мен -&nbsp;&nbsp;<span id="koefs_657154177:29598681:2:18:44.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29598681:2:18:44.5:1:0" data-legacy="657154177.2" data-v1="44.5" data-v2="1.7" data-v3="2.05" data-match="29598681" data-id="657154177:29598681:2:18:44.5:1:0" data-live="b1"><b>1.7</b></span> <!--b>1.7</b--> &nbsp;Тотал 3-ей партии (44.5) бол -&nbsp;&nbsp;<span id="koefs_657154177:29598681:3:18:44.5:1:0" class="bet_sel koefs" data-cnt="1" data-select="29598681:3:18:44.5:1:0" data-legacy="657154177.3" data-v1="44.5" data-v2="1.7" data-v3="2.05" data-match="29598681" data-id="657154177:29598681:3:18:44.5:1:0" data-live="b1"><b>2.05</b></span> <!--b>2.05</b--> &nbsp;</nobr> <br /><br /><b><i>Тотал партии:</i></b><br /><nobr>3-я партия: чет -&nbsp;&nbsp;<span id="koefs_657154187.1" class="bet_sel koefs" data-cnt="1" data-select="657154187.1" data-legacy="657154187.1" data-v1="1.65" data-v2="1" data-v3="1" data-match="29598681" data-id="657154187.1" data-live="b1"><b>1.65</b></span> <!--b>1.65</b--> &nbsp;</nobr> <nobr>3-я партия: нечет -&nbsp;&nbsp;<span id="koefs_657154188.1" class="bet_sel koefs" data-cnt="1" data-select="657154188.1" data-legacy="657154188.1" data-v1="2.1" data-v2="1" data-v3="1" data-match="29598681" data-id="657154188.1" data-live="b1"><b>2.1</b></span> <!--b>2.1</b--> &nbsp;</nobr> </div></div></td></tr></table></td></tr></table><span id="t1971759_2" style="display:none"></span><input type="hidden" name="r_max" value="1" /><input type="hidden" name="currpage" value="live" />		</div>
+	</form>
 </div>
 <script type="text/javascript">
 function ajax_rload(url) {
@@ -1167,11 +1166,11 @@ function ajax_rload(url) {
             });
 
 			});
-	</script> </td>
-<td class="col_td right" style="width:262px; position: relative;" valign="top">
-<div id="scroll_block" style="position: absolute; top: 0; transition: 0.4s;">
-<div id="betradar_frame" data-fullurl="Открыть полную версию">
-<script>
+	</script>				</td>
+				<td class="col_td right" style="width:262px; position: relative;" valign="top">
+					<div id="scroll_block" style="position: absolute; top: 0; transition: 0.4s;">
+						<div id="betradar_frame" data-fullurl="Открыть полную версию">
+							<script>
 								/*$(window).load(function(){
 									eval($('img[src="/img/mt.png"]:first').parent().attr('href'));
 								});*/
@@ -1189,19 +1188,38 @@ function ajax_rload(url) {
 									});
 								});
 							</script>
-<table class="smallwnd" style="display:none;">
-<tbody>
-<tr class="m_c" align="middle"><td class="smwndcap">Матч трекер</td></tr>
-<tr>
-<td align="middle">
-<div id="widget_betradar"></div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="betslip1" style="" class="">
-<style>.onoffswitch-inner:before{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"ON";background-color:#B33c36;color:#FFFFFF;text-align:center;}.onoffswitch-inner:after{font-size:12px;font-family:Tahoma,Verdana,Helvetica,sans-serif!important;content:"OFF";color:#868686!important;text-align:center;}</style>
+							<table class="smallwnd" style="display:none;">
+								<tbody>
+								<tr class="m_c" align="middle"><td class="smwndcap">Матч трекер</td></tr>
+								<tr>
+									<td align="middle">
+										<div id="widget_betradar"></div>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div id="betslip1" style="" class="">
+							
+<style>
+	.onoffswitch-inner:before {
+		font-size: 12px;
+		font-family: Tahoma, Verdana, Helvetica, sans-serif !important;
+		content: "ON";
+		background-color: #B33c36;
+		color: #FFFFFF;
+		text-align: center;
+	}
+
+	.onoffswitch-inner:after {
+		font-size: 12px;
+		font-family: Tahoma, Verdana, Helvetica, sans-serif !important;
+		content: "OFF";
+		color: #868686 !important;
+		text-align: center;
+	}
+</style>
 <script>
 	function offsetPosition(e) {
 		offsetTop = 0;
@@ -1233,117 +1251,124 @@ function ajax_rload(url) {
 <script src="/img/jquery.modal.js"></script>
 <script src="/js/basket.js?77"></script>
 <input type="hidden" value="0" name="usersumm" id="usersumm">
+
 <div class="busket">
-<div class="busket-header">
-<div class="busket-title active" id="betslip-button">КУПОН</div>
-<div class="busket-title" id="history-button">История</div>
-<div class="expand-button">
-</div>
-<div class="quickstake-title group5">БЫСТРАЯ СТАВКА <div class="onoffswitch" style="float:right">
-<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch_e">
-<label class="onoffswitch-label" for="myonoffswitch_e">
-<span class="onoffswitch-inner"></span>
-<span class="onoffswitch-switch"></span>
-</label>
-</div>
-</div>
-</div>
-<div class="quick_stake group6" style="display: none;">
-<div style="float:left">
-<span style="margin:auto 3px">БЫСТРАЯ СТАВКА</span>
-</div>
-<div class="onoffswitch" style="float:right">
-<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
-<label class="onoffswitch-label" for="myonoffswitch">
-<span class="onoffswitch-inner"></span>
-<span class="onoffswitch-switch"></span>
-</label>
-</div>
-</div>
-<div id="wraper_basket_b" style="display: none;">
-<div class="clear"></div>
-<div class="busket-nav">
-<a data-type="1" id="bn1" href="#">ОРДИНАР</a>
-<a data-type="2" id="bn2" href="#">ЭКСПРЕСС </a>
-<a data-type="3" id="bn3" href="#">СИСТЕМА</a>
-</div>
-<input type="hidden" id="busket-nav" value="1">
-<div class="clear"></div>
-<div id="error-wraper-betslip"></div>
-<form name="F1" method="post" id="betslip_form" style="margin-bottom: 0;">
-<input type="hidden" name="action" value="submit">
-<input type="hidden" name="oc" value="0">
-<input type="hidden" name="ocid" id="ocid" value="0">
-<input type="hidden" value="line" name="bs_curpage" id="bs_curpage">
-<div class="busket-body">
- 
-</div>
-</form>
-<div class="clear"></div>
-<div id="betok" class="warning-infoblock hide">
-<div>
-<div class="accept_icon"></div>
-Ваша ставка была принята </div>
-</div>
-</div>
-<div id="wraper_history_b" style="display: none;">
-<div style="position: relative;">
-<div id="history_body_b">
-<div class="content"></div>
-</div>
-<div id="history_b_progress_bar" style="display: none;"></div>
-</div>
-<div class="history_footer_b">
-<div id="error-wraper-history"></div>
-<div>
-<a href="/index.php?page=history" class="open-full">Открыть полную историю ставок</a>
-</div>
-</div>
-</div>
+	<div class="busket-header">
+		<div class="busket-title active" id="betslip-button">КУПОН</div>
+		<div class="busket-title" id="history-button">История</div>
+			<div class="expand-button">
+			</div>
+			<div class="quickstake-title group5">БЫСТРАЯ СТАВКА				<div class="onoffswitch" style="float:right">
+					<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch_e" >
+					<label class="onoffswitch-label" for="myonoffswitch_e">
+						<span class="onoffswitch-inner"></span>
+						<span class="onoffswitch-switch"></span>
+					</label>
+				</div>
+			</div>
+	</div>
+
+	<div class="quick_stake group6" style="display: none;">
+		<div style="float:left">
+			<span style="margin:auto 3px">БЫСТРАЯ СТАВКА</span>
+		</div>
+		<div class="onoffswitch" style="float:right">
+			<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" >
+			<label class="onoffswitch-label" for="myonoffswitch">
+				<span class="onoffswitch-inner"></span>
+				<span class="onoffswitch-switch"></span>
+			</label>
+		</div>
+	</div>
+
+	<div id="wraper_basket_b" style="display: none;">
+		<div class="clear"></div>
+
+		<div class="busket-nav">
+			<a data-type="1" id="bn1" href="#">ОРДИНАР</a>
+			<a data-type="2" id="bn2" href="#">ЭКСПРЕСС </a>
+			<a data-type="3" id="bn3" href="#">СИСТЕМА</a>
+		</div>
+		<input type="hidden" id="busket-nav" value="1">
+
+		<div class="clear"></div>
+
+		<div id="error-wraper-betslip"></div>
+		<form name="F1" method="post" id="betslip_form" style="margin-bottom: 0;">
+			<input type="hidden" name="action" value="submit">
+			<input type="hidden" name="oc" value="0">
+			<input type="hidden" name="ocid" id="ocid" value="0">
+			<input type="hidden" value="line" name="bs_curpage" id="bs_curpage">
+
+			<div class="busket-body">
+				<!-- content -->
+			</div>
+		</form>
+		<div class="clear"></div>
+		<div id="betok" class="warning-infoblock hide">
+			<div>
+				<div class="accept_icon"></div>
+				Ваша ставка была принята			</div>
+		</div>
+	</div>
+	<div id="wraper_history_b" style="display: none;">
+		<div style="position: relative;">
+			<div id="history_body_b">
+				<div class="content"></div>
+			</div>
+			<div id="history_b_progress_bar" style="display: none;"></div>
+		</div>
+		<div class="history_footer_b">
+			<div id="error-wraper-history"></div>
+			<div>
+				<a href="/index.php?page=history" class="open-full">Открыть полную историю ставок</a>
+			</div>
+		</div>
+	</div>
 </div>
 <div class="modal" id="alertmodal" style="display:none;">
-<div class="modal-header">
-<span>Подтвердите действие</span>
-<a href="#" rel="modal:close">x</a>
-</div>
-<div class="modalBox">
-<table cellspacing="0" cellpadding="0">
-<tr>
-<td style="vertical-align: top;">
-<div class="warning_icon"></div>
-</td>
-<td>
-<span>Сменился коэффициент на событие</span>
-<table width="100%" cellspacing="0" cellpadding="0">
-<tbody>
-<tr id="alertChangeKoefs">
-<td class="first-line"><span class="koef" style="float:left !important;">0</span></td>
-<td style="text-align: center !important; padding:0 !important"> =></td>
-<td class="second-line"><span class="koef">0</span></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</table>
-<table width="100%" cellspacing="0" cellpadding="0" style="border-top: 1px solid  #d4d4d4 !important;   padding-top:10px !important">
-<tr>
-<td width="45%">
-<div><input type="button" class="btn-ok modal-ok" value="Принять"/></div>
-</td>
-<td width="55%">
-<div>
-<input type="button" class="btn-cancel modal-cancel" value="Отмена"/>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</div> <div class="bs-clear"><br/></div>
-</div>
-</div>
-<script type="text/javascript" src="/js/tick.js?04"></script>
-<script type="text/javascript" src="/js/jquery.tick.favorites.js"></script><script type="text/javascript">
+	<div class="modal-header">
+		<span>Подтвердите действие</span>
+		<a href="#" rel="modal:close">x</a>
+	</div>
+	<div class="modalBox">
+		<table cellspacing="0" cellpadding="0">
+			<tr>
+				<td style="vertical-align: top;">
+					<div class="warning_icon"></div>
+				</td>
+				<td>
+					<span>Сменился коэффициент на событие</span>
+					<table width="100%" cellspacing="0" cellpadding="0">
+						<tbody>
+						<tr id="alertChangeKoefs">
+							<td class="first-line"><span class="koef" style="float:left !important;">0</span></td>
+							<td style="text-align: center !important; padding:0 !important"> =></td>
+							<td class="second-line"><span class="koef">0</span></td>
+						</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellspacing="0" cellpadding="0" style="border-top: 1px solid  #d4d4d4 !important;   padding-top:10px !important">
+			<tr>
+				<td width="45%">
+					<div><input type="button" class="btn-ok modal-ok" value="Принять"/></div>
+				</td>
+				<td width="55%">
+					<div>
+						<input type="button" class="btn-cancel modal-cancel" value="Отмена"/>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>							<div class="bs-clear"><br /></div>
+						</div>
+					</div>
+	<script type="text/javascript" src="/js/tick.js?05"></script>
+	<script type="text/javascript" src="/js/jquery.tick.favorites.js"></script><script type="text/javascript">
     $(function()
     {
                 $('#favorites').olimpFavorites({
@@ -1387,7 +1412,7 @@ function ajax_rload(url) {
             }
                         ,{
                 name:      'basket',
-                interval:  10,
+                interval:  15,
                 require:   [ 1,2,3 ],
                 condition: function()
                 {
@@ -1404,7 +1429,7 @@ function ajax_rload(url) {
             }
             ,{
                 name:      'cashout_betslip',
-                interval:  10,
+                interval:  20,
                 require:   [ 1,2 ],
                 condition: function()
                 {
@@ -1419,7 +1444,7 @@ function ajax_rload(url) {
             }
             ,{
                 name:      'score_betslip',
-                interval:  10,
+                interval:  15, // меняю с 13 на 15 для синхронизации
                 require:   [ 1,3 ],
                 condition: function()
                 {
@@ -1450,14 +1475,14 @@ function ajax_rload(url) {
                     ]);
         tick.start();
     });
-</script> </td>
-</tr>
-</table>
+</script>				</td>
+			</tr>
+		</table>
 <hr class=hr1><TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
-<TR>
-<TD class=copyright>Copyright &copy; 2006-2017 БК "Олимп"<br><a href='index.php?page=support'>Служба поддержки пользователей</a> (24/7)<br>Справочная служба: +7-727-346 65 65 (24/7)<br/> <a href='https://olimp.kz/mobile/index.php'>Мобильная версия</a></TD><TD align=right><TABLE cellSpacing=3 cellPadding=0 border=0>
-<TR>
- 
+	      <TR>
+	       <TD class=copyright>Copyright &copy; 2006-2017 БК "Олимп"<br><a href='index.php?page=support'>Служба поддержки пользователей</a> (24/7)<br>Справочная служба: +7-727-346 65 65 (24/7)<br/> <a href='https://olimp.kz/mobile/index.php'>Мобильная версия</a></TD><TD align=right><TABLE cellSpacing=3 cellPadding=0 border=0>
+	            <TR>
+<!-- Start of LiveChat (www.livechatinc.com) code -->
 <script type="text/javascript">
 window.__lc = window.__lc || {};
 window.__lc.license = 6897171;
@@ -1470,7 +1495,7 @@ window.__lc.visitor = {
 };
 window.__lc.params = [
   { name: 'Status', value: 'Not Authorized' },
-  { name: 'URL', value: 'http://olimp.kz/index.php?page=line&amp;action=2&amp;live[]=29279438' },
+  { name: 'URL', value: 'http://olimp.kz/index.php?page=line&amp;action=2&amp;live[]=29598681' },
   { name: 'Domain', value: 'kz' },
   { name: 'Type', value: 'Website' },
   { name: 'Lang', value: 'Русский' }
@@ -1482,16 +1507,17 @@ window.__lc.params = [
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
 })();
 </script>
-<script>
+
+	            <script>
 	var LC_API = LC_API || {};
 var livechat_chat_started = false;
 LC_API.on_before_load = function(){if (LC_API.visitor_engaged() === false && livechat_chat_started === false){LC_API.hide_chat_window();}};
 LC_API.on_chat_started = function(){livechat_chat_started = true;};
 LC_API.on_chat_window_minimized = function(){LC_API.hide_chat_window();};
-</script><TD> 
-<a href='https://seal.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&dn=WWW.OLIMPKZ.COM&lang=en' target=_blank><img src='/img/thawte.jpg'></a>
-</TD>
-<TD> 
+</script><TD><!--script type="text/javascript" src="https://seal.thawte.com/getthawteseal?host_name=www.olimpkz.com&amp;size=S&amp;lang=en"></script-->
+                  <a href='https://seal.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&dn=WWW.OLIMPKZ.COM&lang=en' target=_blank><img src='/img/thawte.jpg'></a>
+                  </TD>
+	              <TD><!-- Rating@Mail.ru counter -->
 <script type="text/javascript">//<![CDATA[
 var _tmr = _tmr || [];
 _tmr.push({id: "1056127",  type: "pageView", start: (new Date()).getTime()});
@@ -1502,21 +1528,30 @@ _tmr.push({id: "1056127",  type: "pageView", start: (new Date()).getTime()});
    if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
 })(document, window);
 //]]></script><noscript><div style="position:absolute;left:-10000px;">
-<img src="//top-fwz1.mail.ru/counter?id=1056127;js=na" style="border:0;" height="1" width="1" alt="Rating@Mail.ru"/>
+<img src="//top-fwz1.mail.ru/counter?id=1056127;js=na" style="border:0;" height="1" width="1" alt="Rating@Mail.ru" />
 </div></noscript>
- 
- 
-</TD>
- 
+<!-- //Rating@Mail.ru counter -->
+<!-- Rating@Mail.ru logo >
+<a target="_blank" href="http://top.mail.ru/jump?from=1056127">
+<img src="//top-fwz1.mail.ru/counter?id=1056127;t=418;l=1"
+border="0" height="31" width="88" alt="Rating@Mail.ru"></a>
+< //Rating@Mail.ru logo -->
+	                    </TD>
+	              <!--td>
+<!-- ZERO.kz -->
 <span id="_zero_54280">
 <noscript>
-<a href="http://zero.kz/?s=54280" target="_blank"><img src="http://c.zero.kz/z.png?u=54280" width="88" height="31" alt="ZERO.kz"/></a>
+<a href="http://zero.kz/?s=54280" target="_blank"><img src="http://c.zero.kz/z.png?u=54280" width="88" height="31" alt="ZERO.kz" /></a>
 </noscript>
 </span>
- 
-</td-->
-<TD> 
- 
+<!-- End ZERO.kz -->
+	              </td-->
+	              <TD><!--Openstat>
+<span id="openstat743448"></span><script type="text/javascript"> var openstat = { counter: 743448, image: 5006, next: openstat }; document.write(unescape("%3Cscript%20src=%22http" +
+(("https:" == document.location.protocol) ? "s" : "") +
+"://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E")); </script>
+<Openstat-->
+<!--Openstat-->
 <span id="openstat743448"></span>
 <script type="text/javascript">
 var openstat = { counter: 743448, next: openstat };
@@ -1526,29 +1561,32 @@ j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
 var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
 })(document, "script", document.location.protocol);
 </script>
- 
-</TD><TD><a href='http://moneybookers.com' target=_blank><img src='/img/visa.jpg' alt='Visa, MasterCard, Diners Club By MoneyBookers'></a></TD>
-<TD><a href='http://webmoney.ru' target=_blank><img src='/img/wm_rus.png' alt='WebMoney'></a></TD>
-<TD><a href='https://www.wooppay.com/services/olimp' target=_blank><img src="/img/wooppay.png" alt='WoopPay'/></a></TD>
-<TD><a href='http://qiwi.kz/ru/private/' target=_blank><img src="/img/qiwi.png?1" alt='Qiwi'/></a></TD>
-<TD><a href='https://www.ekzt.kz' target=_blank><img src='/img/ekzt.jpg' alt='E-KZT'></a></TD>
- </TR>
-</TABLE>
-</TD>
-</TR>
-</TABLE>
-</body></html> 
- 
+<!--/Openstat-->
+	              </TD><TD><a href='http://moneybookers.com' target=_blank><img src='/img/visa.jpg' alt='Visa, MasterCard, Diners Club By MoneyBookers'></a></TD>
+                  <TD><a href='http://webmoney.ru' target=_blank><img src='/img/wm_rus.png' alt='WebMoney'></a></TD>
+                  <TD><a href='https://www.wooppay.com/services/olimp' target=_blank><img src="/img/wooppay.png" alt='WoopPay'/></a></TD>
+                  <TD><a href='http://qiwi.kz/ru/private/' target=_blank><img src="/img/qiwi.png?1" alt='Qiwi'/></a></TD>
+                  <TD><a href='https://www.ekzt.kz' target=_blank><img src='/img/ekzt.jpg' alt='E-KZT'></a></TD>
+                  <!--TD><a href='http://money.yandex.ru' target=_blank><img src='/img/yandex.gif' alt='Yandex.Money'></a></TD>
+                  <TD><a href='http://moneymail.ru' target=_blank><img src='/img/moneymail.gif' alt='MoneyMail'></a></TD--></TR>
+	          </TABLE>
+	      </TD>
+	     </TR>
+	    </TABLE>
+</body></html><!--img src='https://www.olimpkz.com//img/zp.gif'-->
+<!-- @ -->
 <div style='display: none;'>
-ENGINE DEBUG INFORMATION
-DataBase Errors: 0
-Script Errors: 0
-Script Warnings: 0
-Total time: 0.026 s
-DataBase time(1): 0 s
-DataBase time(2): 0.009 s
-Served by: s92
-C: true
-VK_I8Ud3
-</div>
- 
+    ENGINE DEBUG INFORMATION
+
+    DataBase Errors: 0
+    Script Errors: 0
+    Script Warnings: 0
+    Total time: 0.022 s
+    DataBase time(1): 0 s
+    DataBase time(2): 0.006 s
+    Served by: s88
+    C: false
+
+    VK_I8Ud3
+    </div>
+<!-- @ -->

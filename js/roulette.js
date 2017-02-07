@@ -142,6 +142,8 @@ var gamestatus2 = 0;
                                         imcolor = "#FC4BCD";
                                     }else if(nominalnumber == "1000"){
                                         imcolor = "#FF0600";
+                                    }else if(nominalnumber == "10000"){
+                                        imcolor = "#FDD700";
                                     }
 
 
@@ -241,6 +243,8 @@ var gamestatus2 = 0;
                                         imcolor = "#FC4BCD";
                                     }else if(nominalnumber == "1000"){
                                         imcolor = "#FF0600";
+                                    }else if(nominalnumber == "10000"){
+                                        imcolor = "#FDD700";
                                     }
 
 
@@ -475,7 +479,7 @@ var gamestatus2 = 0;
               if(x == arnumber[i]){                           /*prostie chisla*/
                   //z.css("border","5px solid white");
 
-                  if(colorrand == "rgb(66, 241, 248)"){       /*ogranichenie na bota color*/
+                  if(colorrand != "rgb(66, 241, 248)"){       /*ogranichenie na bota color*/
                    
                   var gcount = arnumbercount[i];
 
@@ -1725,7 +1729,7 @@ var gamestatus2 = 0;
 
 
                  }
-
+                 voicefix = 0;
                  /*function blockclient*/
 
                  function blockclient(){
@@ -1735,6 +1739,13 @@ var gamestatus2 = 0;
                    // $(".roul").show("3000");
                     $("#butosn").hide();
                     $("#s_p").show();
+
+                    if(voicefix == 0){
+                    var stopvoice = $("#stopvoice")[0];
+                    stopvoice.play();
+                      voicefix = 1;
+                    }
+
                     checkutime = 1;
                     checkutime2 = 0;
                     utime2 = 120;
@@ -1756,17 +1767,22 @@ var gamestatus2 = 0;
                     // $(".roul").hide("3000");
                      $("#butosn").show();
                      $("#s_p").hide();
-
-                     utime = 120;
-                     //utime = 60;
+                     
+                     voicefix = 0;
+                     //utime = 120;
+                     utime = 60;
                      
                      checkutime = 0;
                      checkutime2 = 1;
 
                      if(fixbot == 0){
-                      getimagebot();
+                      //getimagebot();1
                       //console.log("fixbot");
                       fixbot = 1;
+
+                      var startvoice = $("#startvoice")[0];
+                      startvoice.play();
+
                      }
 
                      getball();
@@ -1807,8 +1823,8 @@ var gamestatus2 = 0;
                  /*table button*/
 
                  /*function timeout*/
-                 var utime = 120;
-                 //var utime = 60;
+                // var utime = 120;
+                 var utime = 60;
                  var checkutime = 0;
 
                  function updatetime(){
@@ -1822,8 +1838,8 @@ var gamestatus2 = 0;
                     $("#timeout").text(utime);
 
                     if(utime == 1){
-                      utime = 120;
-                     // utime = 60;
+                      utime = 60;
+                     //utime = 60;
                     }
 
                     
@@ -1848,7 +1864,7 @@ var gamestatus2 = 0;
 
                     if(utime2 == 1){
                       utime2 = 120;
-                     // utime2 = 60;
+                      //utime2 = 60;
                     }
 
                     
@@ -2005,6 +2021,8 @@ var gamestatus2 = 0;
                                                         imcolor = "#FC4BCD";
                                                     }else if(nominalnumber == "1000"){
                                                         imcolor = "#FF0600";
+                                                    }else if(nominalnumber == "10000"){
+                                                        imcolor = "#FDD700";
                                                     }
 
                                                     p_indecator_count.attr("colorfx",imcolor);
@@ -2104,6 +2122,8 @@ var gamestatus2 = 0;
                                         imcolor = "#FC4BCD";
                                     }else if(nominalnumber == "1000"){
                                         imcolor = "#FF0600";
+                                    }else if(nominalnumber == "10000"){
+                                        imcolor = "#FDD700";
                                     }
 
 
@@ -2364,10 +2384,15 @@ var gamestatus2 = 0;
                                               var win = $(".winmessage");
 
                                               win.modal("show");
+
+                                              var wins = $("#youwin")[0];
+                                              wins.play();
                                               
                                               setTimeout(function(){
 
                                                   win.modal("hide");
+
+
 
                                               },4000);
                                               
@@ -2513,6 +2538,9 @@ var gamestatus2 = 0;
 
                                             $(".game_over").modal("show");
 
+                                            var youlose = $("#youlose")[0];
+                                            youlose.play();
+
                                             setTimeout(function(){
                                                 
                                                 $(".game_over").modal("hide");
@@ -2560,6 +2588,8 @@ var gamestatus2 = 0;
                                   if(countArray[i] == arnumber[j]){
                                       if(arnumbercount[j] != 0){
                                           arnumbercount[j] = 0;
+                                          var ng = arnumber[j];
+                                          $('[x = ' + ng + ']').children(".i").attr("count","0");
                                       }
                                   }
                               }
@@ -2568,6 +2598,8 @@ var gamestatus2 = 0;
                                   if(countArray[i] == arnumbercombination[k]){
                                       if(arnumbercombinationcount[k] != 0){
                                           arnumbercombinationcount[k] = 0;
+                                          var ng = arnumbercombination[k];
+                                          $('[x = ' + ng + ']').children(".i").attr("count","0");
                                       }
                                   }
                               }
@@ -2577,6 +2609,8 @@ var gamestatus2 = 0;
                                   if(countArray[i] == arnumbersearchcombination[l]){
                                       if(arnumbersearchcombinationcount[l] != 0){
                                           arnumbersearchcombinationcount[l] = 0;
+                                          var ng = arnumbersearchcombination[l];
+                                          $('[x = ' + ng + ']').children(".i").attr("count","0");
                                       }
                                   }
                               }
@@ -2812,7 +2846,7 @@ var gamestatus2 = 0;
 
                                     d.css("color","#fdd700");
                               }
-                              
+                              //getimagebot()
                               function getRandomArbitrary(min, max) {
                                   return Math.random() * (max - min) + min;
                                 }
@@ -2912,6 +2946,33 @@ var gamestatus2 = 0;
 
                                     
                            /*kuat button function*/     
+
+
+                           /*video update function*/
+
+
+                           function updatevideo(){
+
+                              var img = $("#im1");
+                              var img2 = $("#im2");
+
+                              var im = img.attr("src");
+                              var im2 = img2.attr("src");
+
+                              img.attr("src",im);
+                              img2.attr("src",im2);
+
+
+                           }
+
+
+                           setInterval(function(){
+
+                              //updatevideo();
+
+
+                           },30000);
+                           /*video update function*/
 
 
 });

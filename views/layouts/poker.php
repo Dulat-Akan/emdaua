@@ -175,7 +175,7 @@ AppAsset::register($this);
                         ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                         ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                         ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-                        ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                        // ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
                         ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
                         ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
                     ]
@@ -192,7 +192,7 @@ AppAsset::register($this);
                     ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-                    ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                    // ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
                     ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
                     '<li>'
                     . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])

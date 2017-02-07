@@ -1,6 +1,31 @@
 
 <?php use yii\helpers\Url; ?>
 
+
+<?php 
+			 $domain1 =  Url::to('@cam1');
+			 $domain2 =  Url::to('@cam2');
+
+            for($i = 2;$i < 255;$i++){
+                if($_SERVER["REMOTE_ADDR"] == '192.168.1.'.$i){
+                    $domain1 = "http://www.almabet.kz:8091/webcam2.mjpeg";
+                    $domain2 = "http://www.almabet.kz:8090/webcam.mjpeg";
+                }else if($_SERVER["REMOTE_ADDR"] == '127.0.0.1'){
+                    $domain1 = "http://www.almabet.kz:8091/webcam2.mjpeg";
+                    $domain2 = "http://www.almabet.kz:8090/webcam.mjpeg";
+                }
+
+            }
+
+ 
+         $url = $domain1; 
+
+        $url2 = $domain2; 
+
+        //echo $domain;
+
+        ?>
+
 <div id="copy"><canvas style="border:2px solid black;display:none ;" id="ggg" width="50" height="50"></canvas></div>
 <input type="hidden" id="us" value="<?php echo $id; ?>">
 
@@ -8,26 +33,25 @@
 <div id="top">
 
 
-    <img id="r" src="<?php echo Url::to('@img/btn_top.png'); ?>" width="40px" height="40px" style="display:none;right:50%;bottom:380px;position:absolute;z-index:5;">
+    <img id="r" src="<?php echo Url::to('@img/btn_top.png'); ?>" width="40px" height="40px" style="display:none;right:50%;bottom:380px;position:absolute;z-index:5;opacity: 0.5;">
     <img id="l" src="<?php echo Url::to('@img/btn_dwn.png'); ?>" >
 
     <div class="roul" style="height: 100%;width: 100%" >		<!-- v daln ubr/displ.none -->
 			
-		<!-- <iframe width="100%"  style="margin-top:50px;" height="100%" src="https://www.youtube.com/embed/UPYT7cJkaZo" frameborder="0" allowfullscreen></iframe> -->
 
-		<img width="100%"  style="margin-top:50px;" height="100%" src="http://almagames.mypsx.net:8091/webcam2.mjpeg" frameborder="0" allowfullscreen></img>
+
+		<img id="im1" width="100%"  style="margin-top:50px;" height="100%" src="<?php echo $url; ?>" frameborder="0" allowfullscreen></img>
 					
 	</div>
 
 
-	<div class="roul" style="position: absolute;top:0px;z-index: 10"><img width="520px" height="330px"  src="http://almagames.mypsx.net:8090/webcam.mjpeg" frameborder="0" allowfullscreen></img></div>
-    <!--<img style="user-select: none; cursor: zoom-in;top:2000px;" src="http://192.168.1.150:8092/webcam3.mjpeg" width="100%" height="100%">
-    -->
+	<div class="roul" style="position: absolute;top:0px;z-index: 10"><img id="im2" width="520px" height="330px"  src="<?php echo $url2; ?>" frameborder="0" allowfullscreen></img></div>
+   
 </div>
 
 
 
-<div  style="position: absolute;top:30%;left:380px;z-index: 25;">
+<div style="position: absolute;top:30%;left:380px;z-index: 25;">
 			<div>
 										
 											<div id="message" style="width: 600px; display: none; border-radius: 5px; font-size: 30px;color:red;background-color: white;text-align: center;"></div>
@@ -51,12 +75,12 @@
 
 
 
-<div id="bottom" style="height:">
+<div id="bottom" style="height:" style="">
 
 	<!-- <div style="position: absolute;left: 30%;top:0px;"> -->
-	    <div class="col-xs-12 jjj" style="top:20px;height: 400px; background-color: white;">		<!-- post none -->
+	    <div class="col-xs-12 jjj" style="top:20px;height: 400px; background: url(<?php echo  Url::to("@img"); ?>/mobile/r1.jpg) 100% 100% no-repeat;background-size: cover;">		<!-- post none -->
 
-				<div class="col-xs-7 col-xs-offset-2" style="border:2px solid white;z-index: 10;">
+				<div class="col-xs-7 col-xs-offset-2" style="z-index: 10;">
 					
 				
 						<input type="hidden" id="urll" value="<?php echo  Url::to("@img"); ?>/fishki">
@@ -416,10 +440,10 @@
 						   	<div class="y n167" x="even">even<div style="position: absolute;left:213px;top:225px;" count="0" class="i"></div></div>
 
 						   	<div class="n170"></div>
-						   	<div class="y n171" x="red"><div style="position: absolute;left:323px;top:225px;" count="0" class="i"></div><canvas  id="canv"></canvas></div>
+						   	<div class="y n171" x="red"><div style="position: absolute;left:323px;top:225px;" count="0" class="i"></div><canvas width="100" height="40"  id="canv"></canvas></div>
 
 						   	<div class="n174"></div>
-						   	<div class="y n175" x="black"><div style="position: absolute;left:433px;top:225px;" count="0" class="i"></div><canvas id="canv2"></canvas></div>
+						   	<div class="y n175" x="black"><div style="position: absolute;left:433px;top:225px;" count="0" class="i"></div><canvas  width="100" height="40"  id="canv2"></canvas></div>
 
 						   	<div class="n178"></div>
 						   	<div class="y n179" x="odd">odd<div style="position: absolute;left:543px;top:225px;" count="0" class="i"></div></div>
@@ -530,8 +554,9 @@
 								<div style=" float:left;height: 70px"><img class="fishki" v="25" style="width: 70px;" src="<?php echo  Url::to('@img'); ?>/fishki/25.png" alt=""></div>
 								<div style="height: 70px"><img class="fishki" v="50" style="width: 70px; " src="<?php echo  Url::to('@img'); ?>/fishki/50.png" alt=""></div>
 								<div style="float:left;height: 70px"><img class="fishki" v="100" style="width: 70px;" src="<?php echo  Url::to('@img'); ?>/fishki/100.png" alt=""></div>
-								<div style=" float:left;height: 70px"><img class="fishki" v="500" style="width: 70px; " src="<?php echo  Url::to('@img'); ?>/fishki/500.png" alt=""></div>
-								<div style="height: 70px"><img class="fishki" v="1000" style="width: 70px; " src="<?php echo  Url::to('@img'); ?>/fishki/1000.png" alt=""></div>
+								<div style="float:left;height: 70px"><img class="fishki" v="500" style="width: 70px; " src="<?php echo  Url::to('@img'); ?>/fishki/500.png" alt=""></div>
+								<div style="height: 70px;float:left;"><img class="fishki" v="1000" style="width: 70px; " src="<?php echo  Url::to('@img'); ?>/fishki/1000.png" alt=""></div>
+								<div style="height: 70px;"><img class="fishki" v="10000" style="width: 70px; " src="<?php echo  Url::to('@img'); ?>/fishki/10000.png" alt=""></div>
 
 							</div>
 							
@@ -548,7 +573,7 @@
 							<div class="n251"  style="">X2 double</div>
 							<div  class="n252" style="">очистить</div>
 							<div class="n253"  style="">повторить</div>
-							<div class="n253" id="mods" style="">посм.номер</div>
+							<div  class="n253-5" style="">отменить</div>
 							<!-- <button id="rb"  class="btn btn-primary">отпр на сервер</button>
 							<button id="mods"  class="btn btn-primary">modal</button -->
 						
@@ -558,7 +583,8 @@
 			<div class="jjj" style="margin-top:5px;position: absolute;top:22px;left:91%;z-index: 26;">
 							
 							<button class="n253-3">сумма ставки <p style="color:red;" id="summx"></p></button>
-							<div  class="n253-5" style="">отменить</div>
+							<div class="n253" id="mods" style="">посм.номер</div>
+							
 
 						</div>
 
@@ -572,24 +598,28 @@
 				
 					<p id="blink">Делайте ставки ..</p>
 					<p id="blink" style="margin-left:40%;margin-top:-15px;" class="timeout2"></p>
+					<audio id="startvoice" src="<?php echo  Url::to("@img"); ?>/voice/start_stav.wav"></audio>
 
 
 			</div>
 
 
-			<div  id="s_p" style="height: 380px;background-color: white;display: none;">
+			<div  id="s_p" style="height: 380px;display:none;opacity: 0.5;">
 
-						<div class="col-xs-12 alert alert-danger" ">
+						<div class="col-xs-12 alert alert-danger" style="z-index: 1;margin:0px;">
 					
 								
 					<div class="col-xs-4 col-xs-offset-1">
 						<h3 style="color:red;font-size: 30px;text-align: center;">Ставки приостановлены..</h3>
+						<audio id="stopvoice" src="<?php echo  Url::to("@img"); ?>/voice/stop_stav.wav"></audio>
+										
 					</div>
 
 					<div class="col-xs-7"><div class="col-xs-6"><h3 style="color:red;font-size: 30px;text-align: center;">до начала ставок: 	</h3></div><div class="col-xs-1"><h3 style="color:red;font-size: 30px;text-align: center;" id="timeout"></h3></div></div>
 
 					</div>
 
+					
 			</div>
 
 
@@ -715,6 +745,7 @@
 										<div class="alert alert-danger">
 											  <h3 style="text-align: center;">К сожалению вы проиграли.... </h3>
 											  <img class="im_r" style="width: 300px;height: 200px;margin-left:22%;" src="<?php echo Url::to('@img') ?>/roul/no_image.png" alt="">
+											  <audio id="youlose" src="<?php echo  Url::to("@img"); ?>/voice/youlose.wav"></audio>
 											  
 
 										</div>
@@ -774,6 +805,7 @@
 											  <h3>Вы выиграли.... подробнее см. статистику</h3>
 											  <img class="im_r" style="width: 300px;height: 200px;margin-left:22%;" src="<?php echo Url::to('@img') ?>/roul/no_image.png" alt="">
 											  <input id="im_r_val" type="hidden" value="<?php echo Url::to('@img') ?>/roul/">
+											  <audio id="youwin" src="<?php echo  Url::to("@img"); ?>/voice/youwin.wav"></audio>
 
 										</div>
 

@@ -40,7 +40,7 @@
                               }
 
                        function errorfunc(){
-                          alert("ошибка соединения с интернетом");
+                          console.log("ошибка соединения с интернетом");
                        }
 
 
@@ -53,7 +53,7 @@
                              link2.click(function(event){
 
                     event.preventDefault();
-//alert(9)
+//console.log(9)
                     var perenapravit = $(this).attr("href"); /*kuda perenapravit*/
                     var zapros = $(this).attr("r");    /*kuda otpravit zapros*/
 
@@ -145,7 +145,7 @@
 				
 				
                 link.click(function(event){
-//alert(8)
+//console.log(8)
                     event.preventDefault();
 
                     var perenapravit = $(this).attr("href"); /*kuda perenapravit*/

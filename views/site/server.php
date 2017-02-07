@@ -40,6 +40,10 @@ use yii\helpers\Url;
 		<!-- obrabotka resultatov -->
 <input type="hidden" id="rs" value="<?php echo Url::to('@base'); ?>/site/rouletteresult">
 
+<input type="hidden" id="ball_update" value="<?php echo Url::to('@base'); ?>/site/ballupdatestatus">
+
+<input type="hidden" id="delete_st" value="<?php echo Url::to('@base'); ?>/site/deletefaulureuserstavki">
+
 <!-- server -->
 
 

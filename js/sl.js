@@ -24,7 +24,7 @@
 
 		                function kx(result){
 
-		                	/*alert(result);*/
+		                	/*console.log(result);*/
 
 							if(result == "ok"){
 
@@ -37,7 +37,7 @@
 		                              }
 
 		                   function errorfunc(){
-		                      /*alert("oshibka zaprosa");*/
+		                      /*console.log("oshibka zaprosa");*/
 		                   }
 
 
@@ -98,7 +98,7 @@
                               }
 
                    function errorfunc(){
-                      alert("oshibka zaprosa");
+                      console.log("oshibka zaprosa");
                    }
 
 
@@ -154,7 +154,7 @@ function MySearch(){
 
 					if(z == 1){
 						ar1.push(string);
-						//alert(string);
+						//console.log(string);
 						z = 1;
 					}
 	
@@ -414,7 +414,7 @@ function MySearch(){
 
 			}
 
-			var script = '<script> $(".load").click(function(){$("#download").show(); var v = $(this).attr("v"); var urltwo = $("#basetwo").val(); var baseaction = $("#baseaction").val(); var o = {"hid":v, }; $.ajax({"type":"POST", "url":urltwo, "datatype":"json html script", "data":o, "success":kx, "error":errorfunc }); function kx(result){if(result == "ok"){$("#download").hide(); window.location.href = baseaction; } } function errorfunc(){alert("oshibka zaprosa"); } });' + '</' + 'script>';
+			var script = '<script> $(".load").click(function(){$("#download").show(); var v = $(this).attr("v"); var urltwo = $("#basetwo").val(); var baseaction = $("#baseaction").val(); var o = {"hid":v, }; $.ajax({"type":"POST", "url":urltwo, "datatype":"json html script", "data":o, "success":kx, "error":errorfunc }); function kx(result){if(result == "ok"){$("#download").hide(); window.location.href = baseaction; } } function errorfunc(){console.log("oshibka zaprosa"); } });' + '</' + 'script>';
 
 			p1.append(script);	/*click*/
 			center.push(script);

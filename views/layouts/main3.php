@@ -152,7 +152,7 @@ function googleTranslateElementInit() {
                         ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                         ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                         ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-                        ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                        // ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
                          ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
                         ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
                     ]
@@ -165,12 +165,12 @@ function googleTranslateElementInit() {
             'options' => ['class' => 'navbar-nav navbar-right'],
                  'items' => [
                      '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
-                    ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
+                    // ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
                     ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-                    ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                    // ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
                      ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
                     '<li>'
                     . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
