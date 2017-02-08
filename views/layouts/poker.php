@@ -135,7 +135,7 @@ AppAsset::register($this);
     </style>
     <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/table.css">
     
-    <script src="<?php echo Url::to('@jquery') ?>/jquery.min.js"></script>
+ 
     <script src="<?php echo Url::to('@jquery') ?>/jquery-ui-1.10.3.custom.js"></script>
     <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
     

@@ -98,7 +98,7 @@ foreach ($model as $row) {
 
 
 
-<div class="col-md-2"><?php echo $row['date_stavki']; ?>-<?php echo $row['time_stavki']; ?></div>
+<div class="col-md-2"><?php  ?><?php $dd = date('d.m.y - H.i.s', $row['time_stavki']); echo $dd;?></div>
 
 <div class="col-md-3"><?php echo $row['name_kommand']; ?></div>
 
@@ -126,9 +126,12 @@ foreach ($model as $row) {
         $hh = strripos($value5['name'], $row['name_kommand']);
 
         //echo $value5['name'];
-        if($hh == true){
+        if($hh === false){
+            
+        }else{
             $fixed = 1;
-            echo "стоп";
+            //echo "стоп ".$value5['name'];
+           // echo "1111111111111111111111111111";
         }
     }
 
@@ -165,6 +168,9 @@ if($fixed == 1){
 
  <div class="col-md-3">
         
+        <div class="col-md-5"><h4 style="color:red;">отменены</h4></div>
+        <div class="col-md-4"><button kef="<?php echo $row['k'];?>"  type="button" id="<?php echo $row['id']; ?>" r="<?php echo $row['res_id']; ?>" class="btn btn-danger delete"><span class="glyphicon glyphicon-remove-circle">Удалить</span></div>
+
     </div>
 
 
@@ -183,7 +189,7 @@ $k *= $row['k'];
 
  ?>
 <input type="hidden" id="fk" value="<?php echo $k;?>">
-<div class="col-md-12" >
+<!-- <div class="col-md-12" >
     <br>
     <hr>
     <br>
@@ -198,7 +204,7 @@ $k *= $row['k'];
         <div class="col-md-5"><input type="submit" id="express" class="btn btn-danger stavka" value="поставить"></div>
         <div class="col-md-7">&nbsp;</div>
     </div>
-</div>
+</div> -->
 
 
 <script>
@@ -328,6 +334,13 @@ $k *= $row['k'];
             console.log("oshibka zaprosa");
         }
     });
+
+
+    setInterval(function(){
+
+    window.location.reload();
+
+},10000);
 </script>
 
 </div>

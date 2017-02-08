@@ -261,7 +261,16 @@ function MySearch(){
 								var string_k = "";
 
 								//p1.append(stringify);
-																		//fixator komand
+														//proverka bukv
+								// for(var jj = 0;jj < stringify.length;jj++){
+								// 	p1.append(stringify[jj]);
+								// }
+
+								// p1.append("<br>");
+								// p1.append("+++++");
+								// p1.append("<br>");
+													//proverka bukv									
+															//fixator komand
 								for(var i = 0;i < stringify.length;i++){
 									if(stringify[i] == "<"){
 
@@ -288,7 +297,58 @@ function MySearch(){
 									}
 
 								}
+								//p1.append("_________________________");
+								
+													//dopolnitelnie usloviya
 
+								if(string_k == ""){
+
+									var megfix = "";
+									var megfix2 = 0;
+									for(var i = 0;i < stringify.length;i++){
+										if((stringify[i] == '>') && (stringify[i-1] == '"')){
+
+											if(megfix2 == 0){
+												megfix = i;
+												megfix2 = 1;
+											}
+											
+											
+										}
+
+									}
+
+									var megfix3 = "";
+									var megfix4 = 0;
+									for(var i = 0;i < stringify.length;i++){
+										if((stringify[i] == '<') && (stringify[i+1] == '/')){
+
+											if(megfix4 == 0){
+												megfix3 = i;
+												megfix4 = 1;
+											}
+											
+											
+										}
+
+									}
+
+									for(var i = 0;i < stringify.length;i++){
+										if((i > megfix) && (i < megfix3)){
+
+											string_k += stringify[i];
+											
+										}
+
+									}
+									//string_k = "ggg";
+								}
+												//dopolnitelnie usloviya
+
+
+
+								//p1.append(string_k);
+								//p1.append("<br>");
 								//fixator komand
 
 								//fixator resultatov
@@ -387,7 +447,7 @@ function MySearch(){
 
 
 							//p1.append(string5);	//show content
-       p1.append(string5);
+       					p1.append(string5);
 							//center.push(string5);
 						
 							j++;
@@ -401,10 +461,10 @@ function MySearch(){
 							var string6 =   '<div class="col-sm-10 col-sm-offset-1 ul-li"> <div class="col-sm-6"> <p class="load col-sm-10 col-sm-offset-1" v="' + arhref[s] + '">' + ar5[z] + '</p> </div> <div class="col-sm-6 "> <p class="load2 col-sm-10 col-sm-offset-1"><b>' + ar6[z] + '</b></p> </div> </div>';
 
 
-
+							//console.log(ar5[z]);
 							//p1.append(string6);	//show content
 							p1.append($('.text4'+cot).append(string6));
-							//center.push(string6);
+							center.push(string6);
 
 							z++;
 							s++;

@@ -184,7 +184,8 @@ public function actionUsertwo(){
     public function actionNumber(){
         if(isset($_POST['number'])){
             $number = $_POST['number'];
-            if($_SERVER["REMOTE_ADDR"] != "192.168.1.150"){
+            //if($_SERVER["REMOTE_ADDR"] != "192.168.1.150"){
+            if($_SERVER["REMOTE_ADDR"] == "192.168.1.150"){
                $result = Yii::$app->db->createCommand()->insert('roulette', ['number' => $number])->execute();
 
                if($result == true){
@@ -892,13 +893,13 @@ public function actionK(){
 
         if(isset($_POST['game'])){
 
-            /*echo $_POST['game']." | ".$_POST['k']." | ".$_POST['name'];*/
-        
+           
+         
         
         date_default_timezone_set('Asia/Almaty');
 
         $date = date("d.m.Y");
-        $time = date("H.i.s");
+        $time = time();
 
         $user = $identity['id'];
 
@@ -936,6 +937,13 @@ public function actionK(){
         if($identity){
 
         $res_id = $identity['id'];
+
+
+        $now = time() - 300;    /*удалить записи старше 30 минут*/
+
+         $res = Yii::$app->db->createCommand("DELETE FROM type_sobitiya WHERE time_stavki < '$now'")->execute();
+
+
         
         $sobitie = Yii::$app->db->createCommand("SELECT * FROM type_sobitiya WHERE status IS NULL AND res_id = '$res_id'")->queryAll();
 
@@ -1052,7 +1060,7 @@ public function actionK(){
 
     public function actionDealer(){
 
-        $this->layout = 'main4';
+        $this->layout = 'dealer';
 
         return $this->render('dealer');
 
@@ -1105,15 +1113,16 @@ public function actionK(){
 
     public function actionServer(){
 
-       // if($_SERVER['REMOTE_ADDR'] == "192.168.1.150"){ 
+      // if($_SERVER['REMOTE_ADDR'] != "192.168.1.150"){ 
+       if($_SERVER['REMOTE_ADDR'] == "192.168.1.150"){ 
 
         $this->layout = 'main4';
 
         return $this->render('server');
 
-    // }else{
-    //     return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-    // }
+    }else{
+        return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+    }
 
     }
 
@@ -1223,7 +1232,8 @@ public function actionK(){
                     $session->open();
                 }
 
-        if($_SERVER['REMOTE_ADDR'] != "192.168.1.150"){    
+        //if($_SERVER['REMOTE_ADDR'] != "192.168.1.150"){    
+        if($_SERVER['REMOTE_ADDR'] == "192.168.1.150"){    
 
              /*proverka to chto zaprosi otpravlyaet sam server*/
 
@@ -2611,20 +2621,64 @@ public function actionSendstopgame(){
         $r1 = $data[0];
         $r2 = $data[1];
 
-        for($ii = 0;$ii < count($r1); $ii++){
+        /*(3600 * 24 * 90)*/
 
+        $now = time() - (3600 * 24);    /*удалить записи старше 24 часов*/
+
+         $res = Yii::$app->db->createCommand("DELETE FROM stopgame WHERE date < '$now'")->execute();
+
+        
+
+        for($ii = 0;$ii < count($r1); $ii++){
 
             if($r2[$ii] == "Приостановлен"){
 
-                $time = time();
+                    $time = time();
 
-                $result = Yii::$app->db->createCommand()->insert('stopgame', ['name' => $r1[$ii],'status' => $r2[$ii],'date' => $time])->execute(); 
+                    $result = Yii::$app->db->createCommand()->insert('stopgame', ['name' => $r1[$ii],'status' => $r2[$ii],'date' => $time])->execute(); 
 
-                if($result){
-                    echo "данные записаны";
+                    if($result){
+                        echo "данные записаны";
+                    }else{
+                        echo "данных не было";
+                    }
+    
+            }else{
+
+                $convert = iconv("UTF-8", "UTF-8", $r1[$ii]);
+              
+
+                $zapros = Yii::$app->db->createCommand("SELECT * FROM stopgame WHERE name = '$convert'")->queryAll();
+
+                if($zapros){
+
+
+                    $zz = Yii::$app->db->createCommand("DELETE FROM stopgame WHERE name = '$r1[$ii]'")->execute();
+
+                    if($zz){
+                        echo "запись удалена";
+                    }else{
+                        echo "запись  не удалена";
+                    }
                 }else{
-                    echo "данных не было";
+                    echo "данных не было для удаления";
                 }
+
+
+            }
+
+            $hh = strripos($r2[$ii], "Матч прерван");
+
+            if($hh === false){
+
+            }else{
+                $result2 = Yii::$app->db->createCommand()->insert('stopgame', ['name' => $r1[$ii],'status' => $r2[$ii],'date' => $time])->execute(); 
+
+                if($result2){
+                        echo "данные записаны2";
+                    }else{
+                        echo "данных не было";
+                    }
             }
         }
 

@@ -35,9 +35,9 @@ class TypeSobitiya extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['res_id'], 'integer'],
+            [['res_id', 'time_stavki'], 'integer'],
             [['name_kommand', 'ishod'], 'string'],
-            [['date_stavki', 'time_stavki'], 'string', 'max' => 80],
+            [['date_stavki'], 'string', 'max' => 80],
             [['k', 'sum', 'status'], 'string', 'max' => 45],
         ];
     }
