@@ -179,8 +179,8 @@ AppAsset::register($this);
                         ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                         ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                         ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-                        // ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                        ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                       /* ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],*/
+                        ['label' => 'Живая игра', 'url' => ['/site/about']],
                         ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
                     ]
             ]); 
@@ -191,17 +191,18 @@ AppAsset::register($this);
         Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
                  'items' => [
-                     '<li class="white" id="balans">Баланс: ' . Yii::$app->user->identity->balance . 'тг. </li>',
+                     '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
+                    ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
+                    ['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
-                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                    
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-                    // ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                    ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                    ['label' => 'Живая игра', 'url' => ['/site/about']],
                     '<li>'
                     . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
                     . Html::submitButton(
-                        'Logout (' . Yii::$app->user->identity->username . ')',
+                        'Выход (' . Yii::$app->user->identity->username . ')',
                         ['class' => 'btn btn-link']
                     )
                     . Html::endForm()
@@ -210,9 +211,7 @@ AppAsset::register($this);
         ]); 
         NavBar::end();
      }
-     
-     ?> 
-    
+ ?>    
    
 
 

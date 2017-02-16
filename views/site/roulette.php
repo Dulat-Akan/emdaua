@@ -41,13 +41,27 @@
 
 
 		<img id="im1" width="100%"  style="margin-top:50px;" height="100%" src="<?php echo $url; ?>" frameborder="0" allowfullscreen></img>
+
+		<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%">
+			<param name="movie" value="flashmovie.swf" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+				<param name="menu" value="false" />
+			<param name="wmode" value="transparent">
+			<PARAM NAME="SCALE" VALUE="exactfit">
+			<embed src="http://almagames.mypsx.net:8091/webcam2.swf" quality="high" type="application/x-shockwave-flash" width="100%" height="100%" SCALE="exactfit" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+		</object> -->
+
+		<!-- <embed name="plugin" src="http://almagames.mypsx.net:8091/webcam2.swf" type="application/x-shockwave-flash" width="100%" height="100%"  frameborder="0" allowfullscreen> -->
 					
 	</div>
 
 
 	<div class="roul" style="position: absolute;top:0px;z-index: 10"><img id="im2" width="520px" height="330px"  src="<?php echo $url2; ?>" frameborder="0" allowfullscreen></img></div>
+	<!-- <div class="roul" style="position: absolute;top:0px;z-index: 10"><embed name="plugin" src="http://almagames.mypsx.net:8090/webcam.swf" type="application/x-shockwave-flash" width="520px" height="330px" frameborder="0" allowfullscreen></div> -->
    
 </div>
+
 
 
 

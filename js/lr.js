@@ -2,7 +2,7 @@
 
 function updategame(){
 
-						var update = $("#baseupdatek").val();
+						var update = $("#baseupdatek").val();		//updatek
 
 						 $.ajax({
 		                    "type":"POST",
@@ -36,7 +36,7 @@ function updategame(){
 
 			function updategametwo(){
 
-						var update = $("#baseupdatek2").val();
+						var update = $("#baseupdatek2").val();	//liverequest
 
 						 $.ajax({
 		                    "type":"POST",
@@ -69,14 +69,14 @@ function updategame(){
 
 
 			setInterval(function(){
-				//updategame();
-				//window.location.reload();
-			},15000);
+				updategame();
+				window.location.reload();
+			},20000);
 
-			/*setInterval(function(){
+			setInterval(function(){
 				updategametwo();
 			},5000);
-*/
+
 
 /*function srab pri dobavlenii stavki*/
 
@@ -232,14 +232,14 @@ window.onload = function(){
 
 					}
 
-					for(var i = 0;i < a-2;i++){
+					for(var i = 0;i < a;i++){
 
 						b += string[i];
 
 
 					}
 
-					
+					//console.log(string);
 
 					for(var i = 0;i < string.length;i++){
 
@@ -321,7 +321,7 @@ window.onload = function(){
 
 
 
-var h = '<div class="col-md-12 title2"><div class="col-md-12"><h3 class="title2">' + namear[0]+ ' ,счет '  + namear[1] + " минута" + '</h3></div></div>';
+var h = '<div class="col-md-12 title2"><div class="col-md-12"><h3 class="title2">' + namear[0] + ' ,счет '  + namear[1] + " минута" + '</h3></div></div>';
 
 					p1.append(h);
 
@@ -356,15 +356,17 @@ var mycount=0;
 	                string10 += str[i];
 	            }
 
-
+// 
 
 	            var string12 = "";
 	            var fix1 = 0;
          		var fix2 = 0;
 
+         		//console.log(str);	1 koeffisienti do b
+
 	            for(var i = 0;i < str.length;i++){
 
-                if((str[i - 1] == ">") && (str[i - 2] == "b") && (str[i - 3] == "<")){
+                if(str[i-1] == ">"){
                     fix1 += 1;
                 }
 
@@ -373,12 +375,20 @@ var mycount=0;
                 }
 
                 if((fix1 >= 1) && fix2 < 1){
-                    string12 += str[i];
+
+                	var regular = /\d|\./gi;
+
+                	if(str[i].match(regular)){
+                		string12 += str[i];
+                	}
+                    
                 }
 
             }
+
+           // console.log(string12);
             /*koeffisient nahozhdenie koeffisientov*/
-            
+            	
 
             	/*Б*/
             	var fix5 = 0;
@@ -409,6 +419,9 @@ var mycount=0;
 
             	/*koef Б*/
 
+
+            	//console.log(str2);
+
             	var fix5 = 0;
             	var fix6 = 0;
             	var fix7 = 0;
@@ -424,7 +437,7 @@ var mycount=0;
 						
 						
 
-            			if((str2[i - 1] == ">") && (str2[i - 2] == "b") && (str2[i - 3] == "<")){
+            			if(str2[i - 1] == ">"){
 		                    fix7 += 1;
 		                }
 
@@ -433,7 +446,10 @@ var mycount=0;
 		                }
 
 		                if((fix7 >= 1) && fix8 < 1){
-		                    string16 += str[i];
+
+			                	if(str[i].match(regular)){
+			                   		 string16 += str[i];
+			              		  }
 		                }
             				
 
@@ -519,8 +535,11 @@ if(stopping == 0){
 							}
 						}
 
+
+
 						for(var i = fix50;i <= tt.length;i++){		//kones fixatora 2
-							if((tt[i] == ">") && (tt[i-1] == "b") && (tt[i-2] == "<")){			//<b>
+							//if((tt[i] == ">") && (tt[i-1] == 'b') && (tt[i-2] == "<")){			//<b>
+							if(tt[i] == ">"){			//<b>
 
 								if(fix51 == 0){
 									fix51 = i;
@@ -543,12 +562,17 @@ if(stopping == 0){
 						for(var i = fix51 + 1;i <= tt.length;i++){		//zapis koeffisienta 1
 							
 							if(i != fix52){
-								string22 += tt[i];
+									var regular = /\d|\./gi;
+									if(tt[i].match(regular)){
+									string22 += tt[i];
+									}
 							}else{
 								break;
 							}
 
 						}
+
+						console.log(string22);
 
 						for(var i = fix52;i <= tt.length;i++){	//zapis  1 fixatora stroki 2
 							if(tt[i] > "s"){
@@ -574,6 +598,7 @@ if(stopping == 0){
 
 								if(tt[i] != undefined){
 									if(fix53 != 0){
+
 										string23 += tt[i];
 									}
 								}
@@ -586,7 +611,8 @@ if(stopping == 0){
 
 						for(var i = fix54;i < tt.length;i++){
 
-							if((tt[i] == ">") && (tt[i - 1] == "b") && (tt[i-2] == "<")){
+							//if((tt[i] == ">") && (tt[i - 1] == 'b') && (tt[i-2] == "<")){
+							if(tt[i] == ">"){
 									if(fix55 == 0){
 										fix55 = i;
 									}
@@ -608,7 +634,10 @@ if(stopping == 0){
 
 							if(i < fix56){
 								if(fix53 != 0){
-									string24 += tt[i];
+									var regular = /\d|\./gi;
+									if(tt[i].match(regular)){
+										string24 += tt[i];
+									}
 								}	
 							}
 

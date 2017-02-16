@@ -166,7 +166,7 @@ class Component extends Object
 
         $start_time = 1478858896;
 
-            $month = $start_time + (3600 * 24 * 90);
+            $month = $start_time + (3600 * 24 * 300);
 
  
 

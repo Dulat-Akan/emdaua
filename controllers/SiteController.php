@@ -259,10 +259,6 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 	  
   }
 		
-		
-		
-	 $this->layout = 'main';
-		$page='index';
         return $this->render('index');
     }
 
@@ -385,7 +381,7 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
      public function actionPtwo(){
 
 
-            $content = file_get_contents('https://www.parimatch.com/liveres.html?MG=0');
+            $content = file_get_contents('https://www.parimatch.kz/liveres.html?MG=0');
           
             $content = iconv('windows-1251', 'utf-8', $content);
 

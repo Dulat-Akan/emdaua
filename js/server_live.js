@@ -291,6 +291,52 @@ function MySearch(){
 
 								//fixator komand
 
+										//dopolnitelnie usloviya
+								if(string_k == ""){
+
+									var megfix = "";
+									var megfix2 = 0;
+									for(var i = 0;i < stringify.length;i++){
+										if((stringify[i] == '>') && (stringify[i-1] == '"')){
+
+											if(megfix2 == 0){
+												megfix = i;
+												megfix2 = 1;
+											}
+											
+											
+										}
+
+									}
+
+									var megfix3 = "";
+									var megfix4 = 0;
+									for(var i = 0;i < stringify.length;i++){
+										if((stringify[i] == '<') && (stringify[i+1] == '/')){
+
+											if(megfix4 == 0){
+												megfix3 = i;
+												megfix4 = 1;
+											}
+											
+											
+										}
+
+									}
+
+									for(var i = 0;i < stringify.length;i++){
+										if((i > megfix) && (i < megfix3)){
+
+											string_k += stringify[i];
+											
+										}
+
+									}
+									//string_k = "ggg";
+								}
+												//dopolnitelnie usloviya
+
+
 								//fixator resultatov
 								var f6 = 0;
 								var f7 = 0;

@@ -51,12 +51,11 @@ AppAsset::register($this);
           </style>
           
         
-          <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile/jquery.mobile.custom.structure.min.css">
-          <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile/jquery.mobile.custom.theme.min.css">
+
           
           <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
          
-          <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile//js/jquery_mobile/jquery.mobile.custom.min.js">
+
 
           <!--end scroll bar -->
           <!--end scroll bar -->
@@ -76,54 +75,7 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-<nav class="navbar navbar-default menu2 clearfix">
-           <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                    </button>
-                    <span class="navbar-brand">Сейчас в линии</span>
-          </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse menu-bot" id="bs-example-navbar-collapse-2">
-                    <div class="" id="mylink2">
-                              <ul class="nav nav-pills nav-justified ">
-                                      <li><a shref="<?php echo Url::to('@control/slive'); ?>" r="<?php echo Url::to('@base'); ?>/site/liverequest">ставки LIVE</a></li>
-                                      <li><a href="<?php echo Url::to('@control/request'); ?>" r="<?php echo Url::to('@base'); ?>/site/p">результаты</a></li>
-                                      <li><a href="<?php echo Url::to('@control/requestlive'); ?>" r="<?php echo Url::to('@base'); ?>/site/ptwo">результаты Live</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Футбол</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Теннис</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Хоккей</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Американский футбол</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Бейсбол</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Биатлон</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Бокс</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Гандбол</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Гольф</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Горные лыжи</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Дартс</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Киберспорт</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Крикет</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Лыжи</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Мотоспорт</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Песапалло</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Прыжки с трамплина</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Ралли</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Регби-лига</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Регби-союз</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Смешанные боевые искусства</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Снукер</a></li>
-                                      <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Формула 1</a></li>
-                          </ul>
-              </div>
-  
-    </div><!-- /.navbar-collapse -->
-
-</nav>
 <?php
     NavBar::begin([
         'brandLabel' => 'AlmaBet',
@@ -143,7 +95,7 @@ AppAsset::register($this);
                         ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                         ['label' => 'Наши контакты', 'url' => ['/site/contact']],
                        /* ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],*/
-                        ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                        ['label' => 'Живая игра', 'url' => ['/site/about']],
                         ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
                     ]
             ]); 
@@ -155,17 +107,17 @@ AppAsset::register($this);
             'options' => ['class' => 'navbar-nav navbar-right'],
                  'items' => [
                      '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
-                    // ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
+                    ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
+                    ['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
-                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                    
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-                    // ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                    ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                    ['label' => 'Живая игра', 'url' => ['/site/about']],
                     '<li>'
                     . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
                     . Html::submitButton(
-                        'Logout (' . Yii::$app->user->identity->username . ')',
+                        'Выход (' . Yii::$app->user->identity->username . ')',
                         ['class' => 'btn btn-link']
                     )
                     . Html::endForm()
@@ -174,7 +126,7 @@ AppAsset::register($this);
         ]); 
         NavBar::end();
      }
- ?>	
+ ?> 
 <div class="container-fluid" style="margin-top:0px;">
           <div class="container" style="" id="download">
                     <div class=""><img src="<?php echo Url::to('@img') ?>/3.gif" alt=""></div>
@@ -183,7 +135,14 @@ AppAsset::register($this);
           <div class="container-fluid container-content2">
                     <div class="row">
                               <div class="col-md-12">
-                                        <div class="col-md-10 col-md-push-2" id="pok_searh2"><?= $content ?></div>
+                                        <div class="col-md-10 col-md-push-2" id="pok_searh2">
+
+                                        <?= $content ?>
+
+
+                                        </div>
+
+                                        </div>
           <!-- <div class="col-md-10 col-md-push-2" id=""></div> -->
                                         <div class="col-md-2 col-md-pull-10 kolekcii" id="mylink">
                                                   <div id="google_translate_element"></div>
@@ -219,6 +178,8 @@ AppAsset::register($this);
                                                   <li><a href="<?php echo Url::to('@control/soccerpage'); ?>" r="<?php echo Url::to('@base'); ?>/site/soccer">Формула 1</a></li>
                                                   </ul>
                                         </div>
+
+
                                         <div class="col-md-2" style="display:none;" id="korzina">
                                                   <a href="<?php echo Url::to('@control/korzina'); ?>"><img style="width:100px;cursor:pointer;" src="<?php echo Url::to('@img/korzina2.png'); ?>" alt=""><span class="label label-info">4 ставки</span></a>
                                         </div>
@@ -243,6 +204,11 @@ AppAsset::register($this);
                     });
           </script>
 </div>
+
+
+
+
+
 <footer class="footer">
     <div class="container">
         <p class="pull-left"></p>
