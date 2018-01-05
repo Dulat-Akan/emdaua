@@ -50,7 +50,7 @@
 
 
                 
-                var link = $("#mylink").children("ul").children("li").children("a");
+                var link = $(".mylink").children("ul").children("li").children("a");
 				
 
 				

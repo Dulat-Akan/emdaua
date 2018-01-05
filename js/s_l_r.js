@@ -313,9 +313,7 @@ window.onload = function(){
             two.each(function(index,element){
 
             	var str = $(element).html();
-            	//var str = $(element).next().children("td").children("div").children("nobr").html();
             	var str2 = $(element).html();
-            	//var str2 = $(element).next().children("td").children("div").children("nobr").html();
 
             	var checkx = 0;
 	            var fix = 0;
@@ -338,15 +336,17 @@ window.onload = function(){
 	                string10 += str[i];
 	            }
 
-
+// 
 
 	            var string12 = "";
 	            var fix1 = 0;
          		var fix2 = 0;
 
+         		//console.log(str);	1 koeffisienti do b
+
 	            for(var i = 0;i < str.length;i++){
 
-                if((str[i - 1] == ">") && (str[i - 2] == "b") && (str[i - 3] == "<")){
+                if(str[i-1] == ">"){
                     fix1 += 1;
                 }
 
@@ -355,12 +355,20 @@ window.onload = function(){
                 }
 
                 if((fix1 >= 1) && fix2 < 1){
-                    string12 += str[i];
+
+                	var regular = /\d|\./gi;
+
+                	if(str[i].match(regular)){
+                		string12 += str[i];
+                	}
+                    
                 }
 
             }
+
+           // console.log(string12);
             /*koeffisient nahozhdenie koeffisientov*/
-            
+            	
 
             	/*Б*/
             	var fix5 = 0;
@@ -391,6 +399,9 @@ window.onload = function(){
 
             	/*koef Б*/
 
+
+            	//console.log(str2);
+
             	var fix5 = 0;
             	var fix6 = 0;
             	var fix7 = 0;
@@ -406,7 +417,7 @@ window.onload = function(){
 						
 						
 
-            			if((str2[i - 1] == ">") && (str2[i - 2] == "b") && (str2[i - 3] == "<")){
+            			if(str2[i - 1] == ">"){
 		                    fix7 += 1;
 		                }
 
@@ -415,14 +426,16 @@ window.onload = function(){
 		                }
 
 		                if((fix7 >= 1) && fix8 < 1){
-		                    string16 += str[i];
+
+			                	if(str[i].match(regular)){
+			                   		 string16 += str[i];
+			              		  }
 		                }
             				
 
             		}
             	}
             	/*koef Б*/
-
             	var megafix = 0;
 
 					if(string10 == "П1 -"){

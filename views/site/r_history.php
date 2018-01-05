@@ -6,8 +6,6 @@
 								
 								<div class="col-xs-4 col-xs-offset-4"><h2>История ставок</h2></div>
 								
-								
-
 							</div>
 						</div>
 

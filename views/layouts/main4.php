@@ -127,19 +127,27 @@ AppAsset::register($this);
             bottom:560px;
             left:calc(100% - 30em);
             position:absolute;
+
+            display:none;
+            right:50%;bottom:380px;
+            position:absolute;
+            z-index:20;
+            opacity: 0.5;
         }
         .white{
                   line-height: 50px;
                   color:white !important;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/table.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile/jquery.mobile.custom.structure.min.css.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery_mobile/jquery.mobile.custom.theme.min.css">
+    
     
    
-    <script src="<?php echo Url::to('@jquery') ?>/jquery-ui-1.10.3.custom.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/table.css">
+   
+    
     <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
+     
     
     
     
@@ -191,7 +199,7 @@ AppAsset::register($this);
         Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
                  'items' => [
-                     '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
+                     '<li id="balans" class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
                     ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
                     ['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
                     ['label' => 'Домой', 'url' => ['/index.php/site']],

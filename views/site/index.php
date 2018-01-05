@@ -56,7 +56,7 @@ $this->title = 'Казино';
 							
 								<div class="col-sm-4">
 								<div class="product">
-							             <img style="margin-top: 5px;" src="<?php echo Url::to('@img/delov.jpg'); ?>"/>
+							             <a href="<?php echo Url::to('@control/about'); ?>"><img style="margin-top: 5px;" src="<?php echo Url::to('@img/delov.jpg'); ?>"/></a>
 
 								</div><!-- /.product -->
 							</div>
@@ -99,7 +99,6 @@ $this->title = 'Казино';
 				</div>
 
 			
-        
 
 
 

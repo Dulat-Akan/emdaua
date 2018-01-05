@@ -75,7 +75,22 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
+<nav class="navbar navbar-default menu2 clearfix">
+           <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                    </button>
+                    <span class="navbar-brand">Сейчас в линии</span>
+          </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+ 
+
+</nav>
 <?php
     NavBar::begin([
         'brandLabel' => 'AlmaBet',

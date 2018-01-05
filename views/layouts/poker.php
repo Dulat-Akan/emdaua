@@ -36,28 +36,38 @@ AppAsset::register($this);
 <head>
     <!--scroll bar -->
     <style>
-        Div.kolekcii{
-            overflow: auto;
-            height:80%;
-            background-attachment: local, local, scroll, scroll;
-            position:fixed;
+              #nav18 .back h6{
+    color:#fff;
+    text-align:center;font-size:18px !important;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-animation: pulsate2 1.2s linear infinite;
+    animation: pulsate2 1.2s linear infinite;
+    text-shadow: 0 -1px rgba(0,0,0,.5);font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;color:#fff;
+}
+        .ruka-title{
+            font-weight:bold;
+            font-size:18px !important;
         }
-        .section-tabs .tab-content{
-                padding: 20px !important;
+        .section-tabs {
+                padding: 0px 10px !important;
+                padding-bottom: 12px !important;
         }
+        .tab-content{
+            margin: 0px !important;
+            
+        }
+        
         div.kolekcii_soderzhimoe{
             float:left;
             width:100%;
         }
         .flip-container{
-            padding:30px 5px !important;margin:20px 0px!important;
+            padding:0px 5px !important;margin:10px 0px!important;
         }
         .tab-content.clearfix{
             padding:50px !important;margin:20px!important;
             background:node;	
-        }
-        .section-tabs {
-            padding-bottom: 20px;
         }
         #main{
             width:100%;
@@ -81,6 +91,7 @@ AppAsset::register($this);
         #bottom{
             z-index:2;
             width: 100%;
+            height: 490px;
             bottom: 0px;
             display:none;
             position:absolute;
@@ -132,14 +143,30 @@ AppAsset::register($this);
                   line-height: 50px;
                   color:white !important;
         }
+        #nav19 div.comb{
+            display: block;
+            text-decoration:none;
+            font: bold 14px arial;
+            padding: 5px 0px !important;
+            padding-left:10px;
+            margin: 0px auto;
+            color: #000;font-size:15px;cursor:pointer;
+            background-color: rgba(top,#fff 50%,#ccc);
+            border-bottom:1px solid #ccc;
+            border-radius: 3px;
+
+
+
+        }
+        
     </style>
     <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/table.css">
-    
- 
+    <link rel="stylesheet" type="text/css" href="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.css">
+    <script src="<?php echo Url::to('@jquery') ?>/jquery.min.js"></script>
     <script src="<?php echo Url::to('@jquery') ?>/jquery-ui-1.10.3.custom.js"></script>
     <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery-1.11.1.min.js"></script>
-    
-   
+    <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="<?php echo Url::to('@jquery') ?>/jquery.mousewheel.js"></script>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
@@ -158,7 +185,19 @@ AppAsset::register($this);
 
 <?php $this->beginBody() ?>
 <?php
-    NavBar::begin([
+    function setInterval($f, $milliseconds)
+    {
+        $seconds=(int)$milliseconds/1000;
+        while(true)
+        {
+            $f();
+            sleep($seconds);
+        }
+    }
+    $t = Yii::$app->user->identity->balance;
+       
+    
+        NavBar::begin([
         'brandLabel' => 'AlmaBet',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
@@ -175,8 +214,8 @@ AppAsset::register($this);
                         ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                         ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                         ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-                        // ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                        ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                       /* ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],*/
+                        ['label' => 'Живая игра', 'url' => ['/site/about']],
                         ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
                     ]
             ]); 
@@ -187,17 +226,18 @@ AppAsset::register($this);
         Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
                  'items' => [
-                     '<li class="white" id="balans">Баланс: ' . Yii::$app->user->identity->balance . 'тг. </li>',
+                     '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
+                    ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
+                    ['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
                     ['label' => 'Домой', 'url' => ['/index.php/site']],
-                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                    
                     ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                     ['label' => 'Наши контакты', 'url' => ['/site/contact']],
-                    // ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
-                    ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                    ['label' => 'Живая игра', 'url' => ['/site/about']],
                     '<li>'
                     . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
                     . Html::submitButton(
-                        'Logout (' . Yii::$app->user->identity->username . ')',
+                        'Выход (' . Yii::$app->user->identity->username . ')',
                         ['class' => 'btn btn-link']
                     )
                     . Html::endForm()
@@ -206,16 +246,15 @@ AppAsset::register($this);
         ]); 
         NavBar::end();
      }
-     
-     ?> 
     
-   
+   ?>
 
 
-          <div id="main" style="overflow:hidden;">
+        
+    <div id="main" style="overflow:hidden;">
         <?= $content ?>
     </div>
-   
+
 <?php $this->endBody() ?>
 </body>
 </html>

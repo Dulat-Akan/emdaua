@@ -15,7 +15,7 @@ function updategame(){
 
 		                function kx(result){
 
-		                	/*alert(result);*/
+		                	/*console.log(result);*/
 
 							if(result == "ok"){
 
@@ -28,7 +28,7 @@ function updategame(){
 		                              }
 
 		                   function errorfunc(){
-		                      /*alert("oshibka zaprosa");*/
+		                      /*console.log("oshibka zaprosa");*/
 		                   }
 
 
@@ -62,20 +62,20 @@ function updategame(){
 		                              }
 
 		                   function errorfunc(){
-		                      /*alert("oshibka zaprosa");*/
+		                      /*console.log("oshibka zaprosa");*/
 		                   }
 
 
 			}
 
 
-			setInterval(function(){
-				updategame();
-			},2000);
+			// setInterval(function(){
+			// 	updategame();
+			// },2000);
 
-			setInterval(function(){
-				updategametwo();
-			},2000);
+			// setInterval(function(){
+			// 	updategametwo();
+			// },2000);
 
 			/*upravlenie vremenem ruletki*/
 
@@ -108,18 +108,18 @@ function updategame(){
 
                       
                     	//console.log(result);
-                      //alert(result);
+                      //console.log(result);
       
                                   }
 
                        function errorfunc(){
-                          alert("oshibka zaprosa v statuse");
+                          console.log("oshibka zaprosa v statuse");
                        }
 
                }/*kones function*/
 
 
-               function sendajax2(){
+               function sendajax2(){		//rouletteresult
 
 				var urlk = $("#rs").val();
 
@@ -143,13 +143,13 @@ function updategame(){
 
                       
                     	//console.log(result);
-                      //alert(result7);
+                      //console.log(result7);
                       //console.log(result7);
       
                                   }
 
                        function errorfunc7(){
-                          alert("oshibka zaprosa v statuse");
+                          console.log("oshibka zaprosa v statuse2");
                        }
 
                }/*kones function*/
@@ -196,7 +196,7 @@ function updategame(){
                                   }
 
                        function errorfunc9(){
-                          alert("oshibka zaprosa v statuse");
+                          console.log("oshibka zaprosa v statuse");
                        }
 
                }/*kones function*/
@@ -233,7 +233,7 @@ function updategame(){
                                   }
 
                        function errorfuncd(){
-                          alert("oshibka zaprosa v statuse");
+                          console.log("oshibka zaprosa v statuse");
                        }
 
                }/*kones function*/
@@ -258,6 +258,8 @@ function updategame(){
 
 				date = Math.round(new Date().getTime() / 1000);
 
+				startdealer = date + blockdealertime;
+
 				blocktable = date + blocktabletime;
 
 				protectballstatus2 = date + protectballstatus;
@@ -280,31 +282,29 @@ function updategame(){
 
 			// var unblocktime = 25;		/*130*/		/*vremya razblokirovki*/
 
-			// var blocktabletime = 60;
+			var blockdealertime = 53;	//time to start dealer
+			//var blockdealertime = 43;	//time to start dealer
 
-			// var blocksystemtime = 15;
+			var blocktabletime = 58; //time to block players
 
-			// var loadingtime = 115;		
+			var blocksystemtime = 63;	//90 sec
 
-			// var unblocktime = 120;
+			//var protectballstatus = 167;	//60	proverka statusa obnovleniya sharika
+			//var protectballstatus = 107;	//60	proverka statusa obnovleniya sharika
+			//var protectballstatus = 112;	//60	proverka statusa obnovleniya sharika
+			var protectballstatus = 98;	//60	proverka statusa obnovleniya sharika
 
-			// var blocktabletime = 117;
+			//var loadingtime = 170;		
+			//var loadingtime = 110;		
+			//var loadingtime = 114;		//obsaya obrabotka resultatov
+			var loadingtime = 100;		//obsaya obrabotka resultatov
 
-			// var blocksystemtime = 30;
+			//var unblocktime = 177;
+			//var unblocktime = 117;
+			//var unblocktime = 117;
+			var unblocktime = 105;
 
-			// var loadingtime = 220;		
-
-			// var unblocktime = 237;
-
-			var blocktabletime = 117;
-
-			var blocksystemtime = 30;
-
-			var protectballstatus = 167;	//60	proverka statusa obnovleniya sharika
-
-			var loadingtime = 170;		
-
-			var unblocktime = 177;
+			var startdealer = date + blockdealertime;
 
 			var blocktable = date + blocktabletime;
 
@@ -324,7 +324,12 @@ function updategame(){
 
 				updatetime = Math.round(new Date().getTime() / 1000);
 
-				if(updatetime == blocktable){
+				if(updatetime == startdealer){
+
+						sendajax(7);
+						console.log("старт диллера ..");
+
+				}else if(updatetime == blocktable){
 
 					
 						sendajax(3);
@@ -359,7 +364,7 @@ function updategame(){
 						console.log("шарик не обновился ..");
 						deleteuserst();
 
-					}else if(fixupdateball == 0){
+					}else if(fixupdateball == 0){ //vremya vichisleniya dlya clientov
 						sendajax2();
 						console.log("обработка результатов ..");
 					}
@@ -430,7 +435,7 @@ function updategame(){
 	                                  }
 
 	                       function errorfuncv(){
-	                          alert("oshibka vW");
+	                          console.log("oshibka vW");
 	                       }
 
 

@@ -20,6 +20,26 @@ use app\models\Roulette;
 use yii\web\UploadedFile;
 use yii\widgets\ActiveForm;
 
+
+
+
+//livegame - команды с коэффициентами
+//livelist - команды играющие live
+//soccerlist = обычные ставки на игры запрос конкретной игры
+//resultlist = результаты обычные
+//resultlivelist = list live result
+//soccerlivetwo = внутренняя страница простых ставок на игры
+
+
+
+//liverequest -> slive -> livelist
+//actionlive->livep -> livegame
+//Liverequest ->livelist    -- обновление списка live
+
+//Liveupdate ->livelist    -- обновление списка live
+
+//actionptwo - > requestlive - > resultlivelist
+
 class SiteController extends Controller
 {
 
@@ -30,8 +50,8 @@ class SiteController extends Controller
         }
         return parent::beforeAction($action);
     }
-	
-	
+    
+    
 public function actionStatus($login){
 //podtverzhden
 $this->actionStatus2($login);
@@ -40,64 +60,51 @@ $this->actionStatus2($login);
 
 }
 
- public function actionOnline(){
-	 /*
-	 $identity = \Yii::$app->user->identity;
-	   if($identity){
-		   
-	  }else{
-		    $link2='http://'.$_SERVER['HTTP_HOST'].'/web/index.php/site/login?ruletka=login';
-					 header("Location:".$link2);exit();
-	  }
-	 */
-	 
-	 
-	   return $this->render('online');
-  }
+
  public function actionPoker(){
-	   return $this->render('poker');
+       return $this->render('poker');
   }
 protected function actionStatus2($login){
 $time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
-			//если прошло более три дня тогда результат будет больше того, что хранится в базе 
-			//если прошло меньше трех дней тогда результат будет меньше того что в базе
-			 $login2=strip_tags($login);//функция вырезает теги если есть в запросе
-			 
-			 
-			 
-		     $baza=Usertwo::findOne(['username' => $login2]);
-		
-			 if($baza->timer){
-				  if(is_numeric($baza->timer)){
-				  if($baza->timer < $time){
-					 
-			$baza->delete();
-			$model = new Usertwo();
-		 return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-			 }else{
-				 			 		 if($baza->timer==$time || $time < $baza->timer){
-					 //разрешаем потвержление в течении трех дней но не больше трех
-					 	$baza->timer='podtverzhden';
-			$baza->save(false);
-		Yii::$app->session->setFlash('success', 'Вы успешно подтвердили регистрацию, теперь можете войти на сайт');
-			 return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-			
-					 }
-			 }
-				  }
+            //если прошло более три дня тогда результат будет больше того, что хранится в базе 
+            //если прошло меньше трех дней тогда результат будет меньше того что в базе
+             $login2=strip_tags($login);//функция вырезает теги если есть в запросе
+             
+             
+             
+             $baza=Usertwo::findOne(['username' => $login2]);
+        
+             if($baza->timer){
+                  if(is_numeric($baza->timer)){
+                  if($baza->timer < $time){
+                     
+            $baza->delete();
+            $model = new Usertwo();
+         return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+             }else{
+                                     if($baza->timer==$time || $time < $baza->timer){
+                     //разрешаем потвержление в течении трех дней но не больше трех
+                        $baza->timer='podtverzhden';
+            $baza->save(false);
+        Yii::$app->session->setFlash('success', 'Вы успешно подтвердили регистрацию, теперь можете войти на сайт');
+             return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
+            
+                     }
+             }
+                  }
                    else{
 Yii::$app->session->setFlash('error', 'Вы уже потверждали ранее акаунт');
  return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-				 }
-		
+                 }
+        
 }
-	  			 Yii::$app->session->setFlash('error', 'Такого логина в этой системе нет');
+                 Yii::$app->session->setFlash('error', 'Такого логина в этой системе нет');
  return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));    
-		     }
-			
+             }
+            
 public function actionUsertwo(){
-	$this->layout = 'main2';		
-	$model = new Usertwo();
+   // $this->layout = 'main2';        
+    $model = new Usertwo();
         if ($model->load(Yii::$app->request->post())) {
             if($model->validate()) {
         // form inputs are valid, do something here
@@ -185,7 +192,7 @@ public function actionUsertwo(){
         if(isset($_POST['number'])){
             $number = $_POST['number'];
             //if($_SERVER["REMOTE_ADDR"] != "192.168.1.150"){
-            if($_SERVER["REMOTE_ADDR"] == "192.168.1.150"){
+            if($_SERVER["REMOTE_ADDR"] == "192.168.1.151"){
                $result = Yii::$app->db->createCommand()->insert('roulette', ['number' => $number])->execute();
 
                if($result == true){
@@ -244,40 +251,54 @@ public function actionUsertwo(){
 
     public function actionIndex()
     {
-$user_agent = $_SERVER["HTTP_USER_AGENT"];
-  if (strpos($user_agent, "Firefox") !== false) $browser = "Firefox";
-  elseif (strpos($user_agent, "Opera") !== false) $browser = "Opera";
-  elseif (strpos($user_agent, "Chrome") !== false) $browser = "Chrome";
-  elseif (strpos($user_agent, "MSIE") !== false) $browser = "Internet Explorer";
-  elseif (strpos($user_agent, "Safari") !== false) $browser = "Safari";
-  else $browser = "Неизвестный";
-  //echo "Ваш браузер: $browser";
-  if($browser == "Internet Explorer"){
-	   $this->layout = 'explorers';
-	  return $this->render('explorer');
-	  
-	  
-  }
-		
-        return $this->render('index');
+        echo "Страница на модернизации";
+        //return $this->render('index');
     }
 
 
     public function actionRequest(){
 
-        return $this->render('request');
+        $session = Yii::$app->session;
+
+        $resultlist = $session->get("resultlist");
+
+        $m = unserialize($resultlist);
+
+  
+
+        return $this->render('request',[
+            'm' => $m,
+        ]);
     }
 
-    public function actionRequestlive(){
-        //$layout = $this->layout = 'main3';
+   public function actionRequestlive(){
 
-       // return $this->render('request_live',['model'=>$layout]);
-        return $this->render('request_live');
+        $session = Yii::$app->session;
+
+        $resultlivelist = $session->get("resultlivelist");
+
+        $m = unserialize($resultlivelist);
+
+
+
+        return $this->render('request_live',[
+            'm' => $m,
+        ]);
     }
 
     public function actionSoccerpage(){
 
-        return $this->render('soccer_request');
+        $session = Yii::$app->session;
+
+        $soccerlist = $session->get("soccerlist");
+
+        $m = unserialize($soccerlist);
+
+
+
+        return $this->render('soccer_request',[
+            'm' => $m,
+        ]);
 
     }
 
@@ -285,27 +306,44 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 
 
 
-    public function actionSlive(){
+   public function actionSlive(){         //otobrazhenie livecomand
 
-        return $this->render('s_live');
+        $session = Yii::$app->session;
+
+        $livelist = $session->get("livelist");
+
+        $m = unserialize($livelist);
+
+        return $this->render('s_live',[
+            'm' => $m,
+        ]);
     }
 
 
-    public function actionLiverequest(){
+   public function actionLiverequest(){            //s_live zaproz livespiska igr
 
-             $content = file_get_contents('http://olimp.kz/betting');
+            //livegame - команды с коэффициентами
+            //livelist - команды играющие live
+
+            $session = Yii::$app->session;
+
+            $content = file_get_contents('http://olimp.kz/betting');
+
+            $serial = serialize($content);
+
+            $session->set("livelist",$serial);
           
 
-            $file = "../views/site/liverequest.php";
+            // $file = "../views/site/liverequest.php";
            
 
-            $myfile = fopen($file, 'w+');
+            // $myfile = fopen($file, 'w+');
 
-            $success = fwrite($myfile, $content);
+            // $success = fwrite($myfile, $content);
 
-            fclose($myfile);
+            // fclose($myfile);
 
-            if($success){
+            if($content){
                 echo $content;
             }else{
                 echo "файл не записан..";
@@ -315,26 +353,30 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
     }
 
 
-        public function actionLiveupdate(){
+         public function actionLiveupdate(){         //obnovlenie live igr
 
 
-
+            $session = Yii::$app->session;
 
             $content = file_get_contents('http://olimp.kz/betting');
+
+            $serial = serialize($content);
+
+            $session->set("livelist",$serial);
           
+            $page = unserialize($session->get("livelist"));
 
-            $file = "../views/site/liverequest.php";
+            // $file = "../views/site/liverequest.php";
            
+            // $myfile = fopen($file, 'w+');
 
-            $myfile = fopen($file, 'w+');
+            // $success = fwrite($myfile, $content);
 
-            $success = fwrite($myfile, $content);
+            // $page = Yii::$app->view->renderFile('@files/liverequest.php');
 
-            $page = Yii::$app->view->renderFile('@files/liverequest.php');
+            // fclose($myfile);
 
-            fclose($myfile);
-
-            if($success){
+            if($content){
 
                 if($page == $content){
                     echo "ok";
@@ -350,25 +392,29 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 
     }
 
-
     
 
-    public function actionP(){
+   public function actionP(){
 
+            $session = Yii::$app->session;
 
             $content = file_get_contents('http://olimp.kz/result');
+
+            $serial = serialize($content);
+
+            $session->set("resultlist",$serial);
           
 
-            $file = "../views/site/myfile.php";
+            // $file = "../views/site/myfile.php";
            
 
-            $myfile = fopen($file, 'w+');
+            // $myfile = fopen($file, 'w+');
 
-            $success = fwrite($myfile, $content);
+            // $success = fwrite($myfile, $content);
 
-            fclose($myfile);
+            // fclose($myfile);
 
-            if($success){
+            if($content){
                 echo $content;
             }else{
                 echo "файл не записан..";
@@ -380,21 +426,26 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 
      public function actionPtwo(){
 
+            $session = Yii::$app->session;
 
-            $content = file_get_contents('https://www.parimatch.kz/liveres.html?MG=0');
+            $content = file_get_contents('http://www.parimatch.kz/liveres.html?MG=0');
           
-            $content = iconv('windows-1251', 'utf-8', $content);
+            $contentf = iconv('windows-1251', 'utf-8', $content);
 
-            $file = "../views/site/myfile_live.php";
+            $serial = serialize($contentf);
+
+            $session->set("resultlivelist",$serial);
+
+            // $file = "../views/site/myfile_live.php";
            
 
-            $myfile = fopen($file, 'w+');
+            // $myfile = fopen($file, 'w+');
 
-            $success = fwrite($myfile, $content);
+            // $success = fwrite($myfile, $content);
 
-            fclose($myfile);
+            // fclose($myfile);
 
-            if($success){
+            if($serial){
                 echo $content;
             }else{
                 echo "файл не записан..";
@@ -408,7 +459,9 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 
 
 
-    public function actionSoccer(){
+     public function actionSoccer(){
+
+            $session = Yii::$app->session;
 
             if(isset($_POST['data']) && isset($_POST['hid'])){
 
@@ -503,17 +556,21 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 
             //zapisat v sessiyu
 
-            $content = file_get_contents($url);
+             $content = file_get_contents($url);
+
+             $serial = serialize($content);
+
+             $session->set("soccerlist",$serial);
           
-            $file = "../views/site/soccer.php";
+            // $file = "../views/site/soccer.php";
            
-            $myfile = fopen($file, 'w+');
+            // $myfile = fopen($file, 'w+');
 
-            $success = fwrite($myfile, $content);
+            // $success = fwrite($myfile, $content);
 
-            fclose($myfile);
+            // fclose($myfile);
 
-            if($success){
+            if($content){
                 echo $content;
             }else{
                 echo "файл не записан..";
@@ -526,17 +583,24 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
     }
 
 
-
         
 
-      public function actionSoccerliveptwo(){
- 
-        return $this->render("soccerliveresult");
+     public function actionSoccerliveptwo(){
+
+        $session = Yii::$app->session;
+
+        $getlivesoccer = $session->get("soccerlivetwo");
+
+        $unserial = unserialize($getlivesoccer);
+
+        return $this->render("soccerliveresult",[
+            'm' => $unserial,
+        ]);
 
     }
 
 
-     public function actionSoccerlive(){
+     public function actionSoccerlive(){        /*prostie igri click*/
 
             $session = Yii::$app->session;
 
@@ -550,18 +614,22 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
             $session->set("hr",$hid);
 
             $content = file_get_contents($hid);
+
+            $serial = serialize($content);
+
+            $session->set("soccerlivetwo",$serial);
             
 
-            $file = "../views/site/soccerlive.php";
+            // $file = "../views/site/soccerlive.php";
            
 
-            $myfile = fopen($file, 'w+');
+            // $myfile = fopen($file, 'w+');
 
-            $success = fwrite($myfile, $content);
+            // $success = fwrite($myfile, $content);
 
-            fclose($myfile);
+            // fclose($myfile);
 
-            if($success){
+            if($content){
                 echo "ok";
             }else{
                 echo "файл не записан..";
@@ -608,7 +676,7 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 
 
 
-    public function actionLive(){
+      public function actionLive(){
 
             $session = Yii::$app->session;
 
@@ -622,21 +690,29 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
             $session->set("href",$hid);
 
             $content = file_get_contents($hid);
+
+            $serial = serialize($content);
+            
+            $livegame = $session->set("livegame",$serial);
+
             
 
-            $file = "../views/site/live.php";
+
+
+            // $file = "../views/site/live.php";
            
 
-            $myfile = fopen($file, 'w+');
+            // $myfile = fopen($file, 'w+');
 
-            $success = fwrite($myfile, $content);
+            // $success = fwrite($myfile, $content);
 
-            $session->close();
+            // $session->close();
 
-            fclose($myfile);
+            // fclose($myfile);
 
-            if($success){
+            if(isset($content)){
                 echo "ok";
+            
             }else{
                 echo "файл не записан..";
             }
@@ -703,7 +779,7 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 
         $a = $_POST['a'];
         $b = $_POST['b'];
-	
+    
     $json = '{"a":"'.$a.'","b":"'.$b.'"}';
                 
     echo $json;
@@ -715,9 +791,18 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
 
 
  }
-    public function actionLivep(){
+     public function actionLivep(){
 
-        return $this->render("live_result");
+        $session = Yii::$app->session;
+
+        $livegame = $session->get("livegame");
+
+        $m = unserialize($livegame);
+
+
+        return $this->render("live_result",[
+            'm' => $m,
+        ]);
 
     }
 
@@ -772,82 +857,71 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
    
 
 protected function checkTimer($login){
-		$time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
-			//если прошло более три дня тогда результат будет больше того, что хранится в базе 
-			//если прошло меньше трех дней тогда результат будет меньше того что в базе
-			$login2=strip_tags($login);//функция вырезает теги если есть в запросе
-			
-		     $baza=Usertwo::findOne(['username' => $login2]);
-			 if($baza){//если нашел такой логин
-			 
-			if($baza->timer){
-			//если есть значение в переменой из базы
-					  if(is_numeric($baza->timer)){
-						  //если числовое значениеж переменой, не числовое это когда потвержден
-				if($baza->timer < $time){
-				//если просрочено потверждение
-			$baza->delete();
-		return true;
-			 }else{
-				 //если еще есть время для потвержления но еще не потвержден
-				 Yii::$app->session->setFlash('error', 'Акаунт не потвержден, вы можете его потвердить в течении трех дней с момента регистрации');
+        $time = time() - (3600 * 24 * 3);//если прошло ровно три дня тогда то что хранится в базе будет равно результату,  
+            //если прошло более три дня тогда результат будет больше того, что хранится в базе 
+            //если прошло меньше трех дней тогда результат будет меньше того что в базе
+            $login2=strip_tags($login);//функция вырезает теги если есть в запросе
+            
+             $baza=Usertwo::findOne(['username' => $login2]);
+             if($baza){//если нашел такой логин
+             
+            if($baza->timer){
+            //если есть значение в переменой из базы
+                      if(is_numeric($baza->timer)){
+                          //если числовое значениеж переменой, не числовое это когда потвержден
+                if($baza->timer < $time){
+                //если просрочено потверждение
+            $baza->delete();
+        return true;
+             }else{
+                 //если еще есть время для потвержления но еще не потвержден
+                 Yii::$app->session->setFlash('error', 'Акаунт не потвержден, вы можете его потвердить в течении трех дней с момента регистрации');
             return false;exit();
-			 }
-				}
-				else{
-					//если записано потвержден
-					if($baza->timer=='podtverzhden'){
-						return true;
-					}else{
-						echo 99999;exit();
-					}
-				}
-					 }//если есть в базе
-				 
-			 }
-			
-	return true;
-	
+             }
+                }
+                else{
+                    //если записано потвержден
+                    if($baza->timer=='podtverzhden'){
+                        return true;
+                    }else{
+                        echo 99999;exit();
+                    }
+                }
+                     }//если есть в базе
+                 
+             }
+            
+    return true;
+    
 }
 
    public function actionLogin()
     {
 
+         $this->layout = 'default';
+
         if (!Yii::$app->user->isGuest) {
-            return $this->goHome();
+
+            if (Url::remember()) {
+
+                return Yii::$app->response->redirect(Url::previous());
+            //Url::remember();
+//echo Url::previous();
+                }else{
+                    return $this->goHome();
+                }
         }
 
         $model = new LoginForm();
-		if(isset($_POST['LoginForm'])){
-			$login=$_POST['LoginForm']['username'];
-			$result=$this->checkTimer($login);//проверка просрочено ли подтверждение
-			if($result==false){
-				   return Yii::$app->response->redirect(Url::to('@basepath/index.php/site/index'));
-				exit();
-			}
-		
-		}
-		
+
+
+        
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-			$link=$_SERVER['HTTP_REFERER'];
-			if($link){
-				 $id = Yii::$app->request->get('ruletka');
-				 $link2='http://'.$_SERVER['HTTP_HOST'].'/web/index.php/site/online';
-				 if($id=='login'){
-				
-					 header("Location:".$link2);exit();
-					 
-				 }else{
-					 return $this->goBack();
-				 }
-				
-				
-			}else{
-		
+      
             return $this->goBack();
-			}
+            
         }
-		
+        
         return $this->render('login', [
             'model' => $model,
         ]);
@@ -875,6 +949,10 @@ protected function checkTimer($login){
 
     public function actionAbout()
     {
+        Url::remember();
+         if (Yii::$app->user->isGuest) 
+            return $this->redirect(["/site/login"]);
+        $this->layout = 'poker';
         return $this->render('about');
     }
 
@@ -899,16 +977,14 @@ public function actionK(){
 
         $user = $identity['id'];
 
-        $sobitie = new TypeSobitiya();
-        $sobitie->ishod = $_POST['game'];
-        $sobitie->k = $_POST['k'];
-        $sobitie->name_kommand = $_POST['name'];
-        $sobitie->date_stavki = $date;
-        $sobitie->time_stavki = $time;
-        $sobitie->res_id = $user;
-        $sobitie->save();
+        $game = $_POST['game'];
+        $k = $_POST['k'];
+        $name = $_POST['name'];
+        
 
-        if($sobitie){
+        $res = Yii::$app->db->createCommand()->insert('type_sobitiya', ['ishod' => $game,'k' => $k,'name_kommand' => $name,'date_stavki' => $date,'time_stavki' => $time,'res_id' => $user])->execute();
+
+        if($res){
             echo "ok";
         }else{
             echo "false";
@@ -957,7 +1033,7 @@ public function actionK(){
     }
 
     public function actionLk(){
-        $this->layout = 'lk';	
+        $this->layout = 'lk';   
         if (Yii::$app->user->isGuest) 
             return $this->redirect(["/site/login"]);
         $id = Yii::$app->user->id;
@@ -968,7 +1044,7 @@ public function actionK(){
                   $model->file1 = UploadedFile::getInstance($model,'file1');
                   if(isset($model->file1)){
                   $model->file1->saveAs('acc/'. date ("m.d.y H:m:s"). 'c1.' .$model->file1->extension);
-                  $model->ul ='/casino/basic/web/acc/'. date ("m.d.y H:m:s"). 'c1.' .$model->file1->extension;
+                  $model->ul ='http://almagames.mypsx.net/acc/'. date ("m.d.y H:m:s"). 'c1.' .$model->file1->extension;
                   }
                   $model->save();
         }
@@ -1056,6 +1132,7 @@ public function actionK(){
 
     public function actionDealer(){
 
+       
         $this->layout = 'dealer';
 
         return $this->render('dealer');
@@ -1087,6 +1164,7 @@ public function actionK(){
 
     public function actionRoulette(){
 
+        Url::remember();
         $identity = Yii::$app->user->identity;
 
         if($identity){
@@ -1109,7 +1187,7 @@ public function actionK(){
 
     public function actionServer(){
 
-      // if($_SERVER['REMOTE_ADDR'] != "192.168.1.150"){ 
+       //if($_SERVER['REMOTE_ADDR'] != "192.168.1.150"){ 
        if($_SERVER['REMOTE_ADDR'] == "192.168.1.150"){ 
 
         $this->layout = 'main4';
@@ -1228,8 +1306,8 @@ public function actionK(){
                     $session->open();
                 }
 
-        //if($_SERVER['REMOTE_ADDR'] != "192.168.1.150"){    
         if($_SERVER['REMOTE_ADDR'] == "192.168.1.150"){    
+        //if($_SERVER['REMOTE_ADDR'] != "192.168.1.150"){    
 
              /*proverka to chto zaprosi otpravlyaet sam server*/
 
@@ -1249,9 +1327,9 @@ public function actionK(){
         $ntwo = 7.2;
         $nthree = 5;
         $nfour = 4;
-        $big_seriess = 3;
-        $small_series = 3;
-        $orphand = 9;
+        $big_seriess = 2;
+        $small_series = 2;
+        $orphand = 3.6;
         $zero_spiel2 = 9;
 
         $vinstatus = 0;
@@ -1281,6 +1359,8 @@ public function actionK(){
 
 
         foreach ($result as $value) {
+
+
             $data = unserialize($value['koef']);
 
         //  print_r($data);
@@ -1402,17 +1482,24 @@ public function actionK(){
             $id = $data[7];
 
             $balans = 0;
+            $fixbalans = 0;
+
+            $startingbalance = 0;
 
             $result3 = Yii::$app->db->createCommand("SELECT * FROM user WHERE id = '$id'")->queryAll();
 
             if($result3){
                 foreach ($result3 as $value3) {
                     $balans = $value3['balance'];
+                    $startingbalance = $value3['balance'];
                 }
             }
 
-            if($balans > 0 && $balans > $money_ost){
-                    $balans -= $money_ost;        
+            
+
+            if($balans > 0 && $balans >= $money_ost){
+                    $balans -= $money_ost;
+                    $fixbalans = 1;        
             }
 
 
@@ -1431,6 +1518,8 @@ public function actionK(){
             for($i = 0;$i < count($d1);$i++){
                 if($d1[$i] != 0){
 
+                    
+
                     if($number != 2000){
                         if($d0[$i] == $number){
 
@@ -1438,6 +1527,7 @@ public function actionK(){
                              $d1_status[$i] = 1;
                              $d1_name[$i] = "stright_up";
                              $vinstatus = 1;
+
                              //echo $d0[$i]." | ".$d1[$i]." | ".$d1_money[$i]." | ".$d1_status[$i]."<br>";
                         }
                     }
@@ -1452,8 +1542,8 @@ public function actionK(){
           $ar2k1_1 = array(3,6,9,12,15,18,21,24,27,30,33,36);
           $ar2k1_2 = array(2,5,8,11,14,17,20,23,26,29,32,35);
           $ar2k1_3 = array(1,4,7,10,13,16,19,22,25,28,31,34);
-          $red = array(1,3,5,7,9,14,16,18,19,21,23,25,27,30,32,34);
-          $black = array(2,4,6,8,10,11,12,13,15,17,20,22,24,26,28,29,31,33,35,36);
+          $red = array(1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36);
+          $black = array(2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35);
           $orphanss = array(1,20,14,31,9,6,34,17);
           $zero_spiel = array(35,3,26,0,32);
           $s_s = array(27,13,36,11,30,8,23,10,5,24,16,33);
@@ -1472,7 +1562,7 @@ public function actionK(){
 
                                 
 
-                                for($q = 0;$q <= 12;$q++){
+                                for($q = 1;$q <= 12;$q++){
                                     if($q == $number){
                                         
                                         $d3_status[$i] = 1;
@@ -2134,7 +2224,7 @@ public function actionK(){
 
                             $fixit = 1;
 
-                            echo $number."<br>";
+                            //echo $number."<br>";
                             
                             //echo $d4[$i]." | ".$d5[$i]." | ".$d5_money[$i]." | ".$d5_status[$i]."<br>";
                         }
@@ -2145,6 +2235,8 @@ public function actionK(){
                                 $vinstatus = 1;
                                 $d5_name[$i] = "split";
                                 //echo "<br>----2----<br>";
+
+                                //echo "hhh";
                             }
 
                         if($ooo == 6 && $fixit == 1){
@@ -2152,12 +2244,22 @@ public function actionK(){
                                 $vinstatus = 1;
                                 $d5_name[$i] = "six_number";
                                 //echo "<br>----3----<br>";
+                                //echo "3hhh";
                             }
 
                         if($ooo == 4 && $fixit == 1){
                                 $d5_money[$i] = $d5[$i] * $corner;
                                 $vinstatus = 1;
                                 $d5_name[$i] = "corner";
+                                //echo "<br>----4----<br>";
+
+
+                            }
+
+                        if($ooo == 3 && $fixit == 1){
+                                $d5_money[$i] = $d5[$i] * $street;
+                                $vinstatus = 1;
+                                $d5_name[$i] = "street";
                                 //echo "<br>----4----<br>";
 
 
@@ -2231,7 +2333,13 @@ public function actionK(){
          //echo $money_summ;
          //zanesti v bazu
 
-         $itog = $balans + $money_summ;
+         if($fixbalans == 1){
+            $itog = $balans + $money_summ;
+        }else{
+            $itog = $balans;
+        }
+
+         
 
 
          //echo $itog;
@@ -2283,6 +2391,9 @@ public function actionK(){
          $sendarray[3] = $ostat;            /*ost*/
          $sendarray[4] = $money_summ;           /*summa viigrisha*/
          $sendarray[5] = $number;
+         $sendarray[6] = $startingbalance;
+         $sendarray[7] = $ball_id;
+         $sendarray[8] = $itog;
 
          $sendarrayserial = serialize($sendarray);
 
@@ -2324,7 +2435,7 @@ public function actionK(){
             echo "2";
         }*/
 
-    }
+        }
 
 
     public function actionSenddatatest(){
@@ -2459,7 +2570,7 @@ public function actionK(){
 
                     $id = Yii::$app->user->id;
 
-                    //$this->layout = 'poker';
+                    $this->layout = 'clear';
 
                     $result = Yii::$app->db->createCommand("SELECT * FROM r_koef WHERE `user_id`='$id' ORDER BY `id`")->queryAll();
 
@@ -2684,6 +2795,18 @@ public function actionSendstopgame(){
 
     }
 
+
+}
+
+
+
+public function actionAboutme(){
+
+    Url::remember();
+
+    $model = Yii::$app->db->createCommand("SELECT * FROM admin_panel")->queryAll();
+
+    return $this->renderPartial("aboutme",['model'=>$model]);
 
 }
 

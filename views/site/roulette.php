@@ -8,11 +8,11 @@
 
             for($i = 2;$i < 255;$i++){
                 if($_SERVER["REMOTE_ADDR"] == '192.168.1.'.$i){
-                    $domain1 = "http://www.almabet.kz:8091/webcam2.mjpeg";
-                    $domain2 = "http://www.almabet.kz:8090/webcam.mjpeg";
+                    $domain1 = "http://www.almabet.kz:8091/webcam2.swf";
+                    $domain2 = "http://www.almabet.kz:8090/webcam.swf";
                 }else if($_SERVER["REMOTE_ADDR"] == '127.0.0.1'){
-                    $domain1 = "http://www.almabet.kz:8091/webcam2.mjpeg";
-                    $domain2 = "http://www.almabet.kz:8090/webcam.mjpeg";
+                    $domain1 = "http://www.almabet.kz:8091/webcam2.swf";
+                    $domain2 = "http://www.almabet.kz:8090/webcam.swf";
                 }
 
             }
@@ -26,39 +26,70 @@
 
         ?>
 
+
+<img id="r" src="<?php echo Url::to('@img/btn_top.png'); ?>" width="40px" height="40px">
+    <img id="l" src="<?php echo Url::to('@img/btn_dwn.png'); ?>"  >
+
+
+
 <div id="copy"><canvas style="border:2px solid black;display:none ;" id="ggg" width="50" height="50"></canvas></div>
 <input type="hidden" id="us" value="<?php echo $id; ?>">
 
 
+    
+
 <div id="top">
 
 
-    <img id="r" src="<?php echo Url::to('@img/btn_top.png'); ?>" width="40px" height="40px" style="display:none;right:50%;bottom:380px;position:absolute;z-index:5;opacity: 0.5;">
-    <img id="l" src="<?php echo Url::to('@img/btn_dwn.png'); ?>" >
 
-    <div class="roul" style="height: 100%;width: 100%" >		<!-- v daln ubr/displ.none -->
+
+    <div class="roul" style="height: 100%;width: 100%;" >		<!-- v daln ubr/displ.none -->
 			
 
 
-		<img id="im1" width="100%"  style="margin-top:50px;" height="100%" src="<?php echo $url; ?>" frameborder="0" allowfullscreen></img>
+		
+		
+			
+			<!-- <embed id="r_obn" src="http://almabets.com:8091/webcam2.swf" quality="high" type="application/x-shockwave-flash" width="100%" height="100%" SCALE="exactfit"  /> -->
 
-		<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%">
-			<param name="movie" value="flashmovie.swf" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-				<param name="menu" value="false" />
-			<param name="wmode" value="transparent">
-			<PARAM NAME="SCALE" VALUE="exactfit">
-			<embed src="http://almagames.mypsx.net:8091/webcam2.swf" quality="high" type="application/x-shockwave-flash" width="100%" height="100%" SCALE="exactfit" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-		</object> -->
+			<embed id="r_obn" src="<?php echo $url ?>" quality="high" type="application/x-shockwave-flash" width="100%" height="100%" SCALE="exactfit"  />
+			
+		<!-- </object> -->
 
-		<!-- <embed name="plugin" src="http://almagames.mypsx.net:8091/webcam2.swf" type="application/x-shockwave-flash" width="100%" height="100%"  frameborder="0" allowfullscreen> -->
+		<script>
+			
+
+			setInterval(function(){
+
+				var src = $("#r_obn").attr("src");
+
+				$("#r_obn").attr("src",src);
+
+
+			},40000);
+		</script>
+
+		
 					
 	</div>
 
 
-	<div class="roul" style="position: absolute;top:0px;z-index: 10"><img id="im2" width="520px" height="330px"  src="<?php echo $url2; ?>" frameborder="0" allowfullscreen></img></div>
-	<!-- <div class="roul" style="position: absolute;top:0px;z-index: 10"><embed name="plugin" src="http://almagames.mypsx.net:8090/webcam.swf" type="application/x-shockwave-flash" width="520px" height="330px" frameborder="0" allowfullscreen></div> -->
+
+	<!-- <div class="roul" style="position: absolute;top:0px;z-index: 10"><embed id="r_obn2" src="http://almabets.com:8090/webcam.swf" quality="high" type="application/x-shockwave-flash" width="520px" height="330px" SCALE="exactfit"/></div> -->
+
+	<div class="roul" style="position: absolute;top:0px;z-index: 10"><embed id="r_obn2" src="<?php echo $url2; ?>" quality="high" type="application/x-shockwave-flash" width="520px" height="330px" SCALE="exactfit"/></div>
+
+		<script>
+			
+
+			setInterval(function(){
+
+				var src = $("#r_obn2").attr("src");
+
+				$("#r_obn2").attr("src",src);
+
+			},40000);
+		</script>
    
 </div>
 
@@ -89,7 +120,7 @@
 
 
 
-<div id="bottom" style="height:" style="">
+<div id="bottom" style="" style="">
 
 	<!-- <div style="position: absolute;left: 30%;top:0px;"> -->
 	    <div class="col-xs-12 jjj" style="top:20px;height: 400px; background: url(<?php echo  Url::to("@img"); ?>/mobile/r1.jpg) 100% 100% no-repeat;background-size: cover;">		<!-- post none -->

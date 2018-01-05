@@ -138,9 +138,14 @@ foreach ($model as $row) {
 
 ?>
 
+
+
+
 <?php
 
-    if($fixed == 0){
+      
+
+if($fixed == 0){
 
  ?>
 
@@ -154,8 +159,11 @@ foreach ($model as $row) {
 
 <?php 
 
-        }
-    if($fixed == 1){
+}
+if($fixed == 1){
+
+
+
 ?>
 
  <div class="col-md-3">
@@ -167,13 +175,16 @@ foreach ($model as $row) {
 
 
 <?php 
-        }
+
+
+}
+
+
 ?>
 
-</div>      <!-- col-md-12 -->
+</div>
 <?php 
 $k *= $row['k'];
-
 }
 
  ?>
@@ -207,7 +218,6 @@ $k *= $row['k'];
         var element = $(this).parent().parent().prev().children();
 
         var parent = $(this).parent().parent().parent('[class="col-md-12"]');
-        //var parent = $(this).parent().parent().parent();
 
         var message = $(this).parent().prev().children("span");
         var element2 = $(this).parent().prev().children().children('[class="form-control-feedback"]');
@@ -242,9 +252,7 @@ $k *= $row['k'];
                 "id":id,
                 "resid":resid,	
             }
-            parent.hide(1000);
 
-            console.log(parent.attr("class"));
             var url = $("#base").val();
 
             $.ajax({
@@ -330,7 +338,7 @@ $k *= $row['k'];
 
     setInterval(function(){
 
-    //window.location.reload();
+    window.location.reload();
 
 },10000);
 </script>

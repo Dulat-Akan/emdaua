@@ -2,11 +2,8 @@
 
 namespace app\models;
 use yii\db\ActiveRecord;
-use yii\web\UploadedFile;
-
 class User extends ActiveRecord implements \yii\web\IdentityInterface
 {
-    public $file1;
    public static function tableName()
     {
         return 'user';

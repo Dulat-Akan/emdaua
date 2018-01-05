@@ -11,7 +11,7 @@ use yii\helpers\Url;
 
     
 
-	<div data-role="header" data-position="fixed">
+	<div data-role="header" data-position="fixed" data-theme="b">
 			
 			<h1>www.almabet.kz</h1>
 
@@ -20,7 +20,7 @@ use yii\helpers\Url;
 
 
 
-	<div role="main" class="ui-content" style="">
+	<div role="main" class="ui-content" >
 			
 			         
 				
@@ -55,8 +55,10 @@ use yii\helpers\Url;
 	</div>
 
 
-	<div data-role="footer" >
+	<div data-role="footer" data-theme="b" >
 		
+
+        <p style="text-align: center;">email разработчика: "astana7777777@gmail.com"</p>
             
 	</div>
 
