@@ -130,6 +130,7 @@ class UserpayController extends Controller
      */
     public function actionView($id)
     {
+        date_default_timezone_set("Asia/Almaty");
         $this->layout = 'default'; 
         return $this->render('view', [
             'model' => $this->findModel($id),
@@ -480,39 +481,59 @@ class UserpayController extends Controller
                     $resultsum = 0;
 
                  
-                    // $m = (string) $account;
-
-                    // echo mb_strtolower($m);
                     
-                   //echo $newaccount;
+                        $match = "/^(\d{10})$/";
+                        $match2 = "/^(\d{11})$/";
+                        $match3 = "/^(\d{12})$/";
+                        $match4 = "/^\s(\d{10})$/";
+                        $match5 = "/^\s(\d{11})$/";
 
-                    $a = 0;
-                
-                    if($account[0] == "7" && $account[1] == "7"){
-                            
-                                $newaccount = "+".$account;
-                                $a = 1;
+                        $preg = preg_match_all($match, $account);
+                        $preg2 = preg_match_all($match2, $account);
+                        $preg3 = preg_match_all($match3, $account);
+                        $preg4 = preg_match_all($match4, $account);
+                        $preg5 = preg_match_all($match5, $account);
 
-                        }else if($account[0] == " " && $account[1] == "7"){
-                            $newaccount = str_replace(" ", "+", $account);
-                            $a = 2;
-                        }else if($account[0] == "8"){
-                            $newaccount = str_replace("8", "+7", $account);
-                            $a = 3;
-                        }else if($account[0] == "+" && $account[1] == "7"){
-                            $newaccount = $account;
-                            $a = 4;
-                        }else if($account[0] == "7" && $account[1] == "0"){
+                        if($preg == 1){
+
                             $newaccount = "+7".$account;
+                            $a = 2;
+
+                        }else if($preg2 == 1){
+
+                            $newaccount = "+".$account;
+                            $a = 3;
+
+                            $newaccount = str_replace("+8", "+7", $newaccount);
+
+                        }else if($preg3 == 1){
+
+                            $newaccount = "+".$account;
+                            $a = 4;
+
+                        }else if($preg4 == 1){
+
+                            $newaccount = str_replace(" ", "+7", $account);
                             $a = 5;
+
+                        }else if($preg5 == 1){
+
+                            $newaccount = str_replace(" ", "+", $account);
+                            $a = 6;
+
                         }
+
+
+                        
 
                         $file = "../views/userpay/logs.php";
            
 
                         $myfile = fopen($file, 'a');
 
-                        $success = fwrite($myfile, "\n|".$account." : ".$_SERVER["REMOTE_ADDR"]." : ".$sum." newacount :".$newaccount."|");
+                        $countnumber = count((string) $account);
+
+                        $success = fwrite($myfile, "\n|".$account." : ".$_SERVER["REMOTE_ADDR"]." : ".$sum." newacount :".$newaccount."| a |".$a."|");
                         //$success = fwrite($myfile, "|".$_GET."|");
 
                         fclose($myfile);
@@ -521,7 +542,7 @@ class UserpayController extends Controller
                         //echo "|".$newaccount."|".$a."|"."|".$account."|";
                         //print_r($account);
 
-                        //exit;
+                       // exit;
 
                     //
 

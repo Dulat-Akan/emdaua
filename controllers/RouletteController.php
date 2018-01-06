@@ -977,6 +977,10 @@ protected function checkTimer($login){
 
     public function actionRegistrationapp(){
 
+            date_default_timezone_set("Asia/Almaty");
+
+            $fixdatabase = 0;
+
             if(isset($_GET['phone'])){
 
                 $phone = $_GET['phone'];
@@ -1001,7 +1005,12 @@ protected function checkTimer($login){
 
                     $now = date('Y-m-d H:i:s');
 
-            Yii::$app->db->createCommand()->insert('transaction', ['number' => $phone, 'action' => 'payment', 'amount' => '200', 'typet' => "systembot",'date' => $now,])->execute();
+                    if($fixdatabase == 0){
+                        Yii::$app->db->createCommand()->insert('transaction', ['number' => $phone, 'action' => 'payment', 'amount' => '200', 'typet' => "systembot",'date' => $now,])->execute();
+                        $fixdatabase = 1;
+                    }
+
+            
 
                     $command = $connection->createCommand($sql);
 
