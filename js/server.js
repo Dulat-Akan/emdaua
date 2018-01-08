@@ -282,27 +282,27 @@ function updategame(){
 
 			// var unblocktime = 25;		/*130*/		/*vremya razblokirovki*/
 
-			var blockdealertime = 53;	//time to start dealer
+			var blockdealertime = 46;	//time to start dealer
 			//var blockdealertime = 43;	//time to start dealer
 
-			var blocktabletime = 58; //time to block players
+			var blocktabletime = 57; //time to block players
 
-			var blocksystemtime = 63;	//90 sec
+			var blocksystemtime = 7;	//90 sec
 
 			//var protectballstatus = 167;	//60	proverka statusa obnovleniya sharika
 			//var protectballstatus = 107;	//60	proverka statusa obnovleniya sharika
 			//var protectballstatus = 112;	//60	proverka statusa obnovleniya sharika
-			var protectballstatus = 98;	//60	proverka statusa obnovleniya sharika
+			var protectballstatus = 95;	//60	proverka statusa obnovleniya sharika
 
 			//var loadingtime = 170;		
 			//var loadingtime = 110;		
 			//var loadingtime = 114;		//obsaya obrabotka resultatov
-			var loadingtime = 100;		//obsaya obrabotka resultatov
+			var loadingtime = 97;		//obsaya obrabotka resultatov
 
 			//var unblocktime = 177;
 			//var unblocktime = 117;
 			//var unblocktime = 117;
-			var unblocktime = 105;
+			var unblocktime = 102;
 
 			var startdealer = date + blockdealertime;
 

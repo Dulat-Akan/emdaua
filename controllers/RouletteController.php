@@ -986,6 +986,15 @@ protected function checkTimer($login){
                 $phone = $_GET['phone'];
                 //$role = $_GET['role'];
                 $email = $_GET['email'];
+
+                if(isset( $_GET['phoneid'])){
+                    $phoneid = $_GET['phoneid'];
+                }else{
+                    $phoneid = "oldversion";
+                }
+
+                
+
                 $password = $_GET['password'];
 
                 $passwordhash = Yii::$app->getSecurity()->generatePasswordHash($password);
@@ -998,10 +1007,30 @@ protected function checkTimer($login){
 
                 $model2 = $command2->queryAll();
 
+
+                $sql3 = "SELECT * FROM user WHERE email = '$email'";
+
+                $command3 = $connection->createCommand($sql3);
+
+                $model3 = $command3->queryAll();
+
+
+                $sql4 = "SELECT * FROM user WHERE phoneid = '$phoneid'";
+
+                $command4 = $connection->createCommand($sql4);
+
+                $model4 = $command4->queryAll();
+
                 if(!$model2){
 
+                    if(!$model3){
 
-                    $sql = "INSERT INTO user (phone,email,role,password,balance) VALUES('$phone','$email','2','$passwordhash','200')";
+                        if(!$model4){
+
+                        
+
+
+                    $sql = "INSERT INTO user (phone,email,role,password,phoneid,balance) VALUES('$phone','$email','2','$passwordhash','$phoneid','200')";
 
                     $now = date('Y-m-d H:i:s');
 
@@ -1035,7 +1064,22 @@ protected function checkTimer($login){
                         echo $_GET['callback'] . '(' . json_encode($arr) . ')';
                         
                     }else{
+                        
                         $arr = array('false','ssss');   /*vneshnii massiv*/
+
+                        echo $_GET['callback'] . '(' . json_encode($arr) . ')';
+                    }
+
+                }else{
+
+                        $arr = array('phoneid','ssss');   /*polzovatel uzhe suzhestviet*/
+
+                        echo $_GET['callback'] . '(' . json_encode($arr) . ')';
+
+                }//kones phoneid
+
+                    }else{
+                        $arr = array('issetemail','ssss');   /*polzovatel uzhe suzhestviet*/
 
                         echo $_GET['callback'] . '(' . json_encode($arr) . ')';
                     }
@@ -1057,6 +1101,14 @@ protected function checkTimer($login){
                     $phone = $_GET['phone'];
                     $password = $_GET['password'];
 
+                    $phoneid = "";
+
+                    if(isset($_GET['phoneid'])){
+                        $phoneid = $_GET['phoneid'];
+                    }else{
+                        $phoneid = "oldversion";
+                    }
+
                     
 
                     $connection = Yii::$app->db;
@@ -1071,6 +1123,7 @@ protected function checkTimer($login){
                     $role = 0;
                     $basephone = 0;
                     $baseid = 0;
+                    $basephoneid = 0;
 
                    
 
@@ -1082,13 +1135,29 @@ protected function checkTimer($login){
                                 $role = $value['role'];
                                 $basephone = $value['phone'];
                                 $baseid = $value['id'];
+                                $basephoneid = $value['phoneid'];
                             }      
                         }
 
                         if($fixed == 1){
-                            $arr = array('ok',$role,$basephone,$baseid);   /*polzovatel est v sisteme*/
 
-                            echo $_GET['callback'] . '(' . json_encode($arr) . ')';
+                            if($basephoneid == null || $basephoneid == "" || $basephoneid == "oldversion" || $basephoneid == $phoneid){
+           //hhh                     
+                                Yii::$app->db->createCommand("UPDATE user SET phoneid = '$phoneid' WHERE phone = '$basephone'")->execute();
+
+                                $arr = array('ok',$role,$basephone,$baseid);   /*polzovatel est v sisteme*/
+
+                                echo $_GET['callback'] . '(' . json_encode($arr) . ')';
+
+                            }else{
+                                    $arr = array('phoneid','ssss');   /*nepravilnii parol*/
+
+                                    echo $_GET['callback'] . '(' . json_encode($arr) . ')';
+                            }
+
+                            
+
+
                         }else{
                             $arr = array('false','ssss');   /*nepravilnii parol*/
 

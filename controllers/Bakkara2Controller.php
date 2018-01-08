@@ -419,7 +419,9 @@ class Bakkara2Controller extends \yii\web\Controller
 
               $hpass = Yii::$app->getSecurity()->generatePasswordHash($pass);
 
-              $lastgame = Yii::$app->db->createCommand("UPDATE `user` SET `password`='$hpass' WHERE `id` = '$userid'")->execute();
+              $newphoneid = "oldversion";
+
+              $lastgame = Yii::$app->db->createCommand("UPDATE `user` SET `password`='$hpass',`phoneid` = '$newphoneid'  WHERE `id` = '$userid'")->execute();
               
               $arr1 = array($email,$pass); 
               /*$ch = curl_init("http://almagames.kz");
