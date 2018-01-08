@@ -1600,6 +1600,7 @@ text-align:left!important;margin-bottom:50px;
 
 .section-tabs{
 	/*background:rgba(77,77,77,0.8)!important;*/
+        padding-bottom: 12px !important;
 	background-image:radial-gradient(#b8ddf2,#0b4673);
 }
 /*=====================speakers===================*/
@@ -1647,7 +1648,7 @@ text-align:left!important;margin-bottom:50px;
 	color: #abb1ba;
 }
 .section-tabs .tab-content{
-	padding: 10px 10px !important;
+	padding: 0px 10px !important;
 }
 .section-tabs .tab-content ul{
 	padding-left: 10px;
@@ -1746,7 +1747,14 @@ text-align:left!important;margin-bottom:50px;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+          #ul{
+                    display: none;
+          }
+          .accordion{
+                    width: 100%;
+                    max-width: 100%;
+                    margin-left:1%;
+          }
 }
 
 
@@ -1897,7 +1905,7 @@ a.button17:focus:not(:active) {
 }
 
 .ruka-title{
-	font-weight:bold;font-size:25px;font-family: 'Times New Roman', Times, serif;
+	font-weight:bold;font-size:18px;font-family: 'Times New Roman', Times, serif;
 }
 .karta img{
 	width:50px;
@@ -2034,14 +2042,15 @@ a.button17:focus:not(:active) {
 }
 #nav18 .back h6{
     color:#fff;
-    text-align:center;font-size:25px;font-family: 'Times New Roman', Times, serif;
+    text-align:center;font-size:18px !important;
+    font-family: 'Times New Roman', Times, serif;
     -webkit-animation: pulsate2 1.2s linear infinite;
     animation: pulsate2 1.2s linear infinite;
     text-shadow: 0 -1px rgba(0,0,0,.5);font-weight: 700;
     font-family: 'Times New Roman', Times, serif;color:#fff;
 }
 #nav18 .back p{
-    color:#fff;font-weight:bold;font-size:20px;
+    color:#fff;font-weight:bold;font-size:18px;
     -webkit-animation: pulsate2 1.2s linear infinite;
     animation: pulsate2 1.2s linear infinite;
     text-shadow: 0 -1px rgba(0,0,0,.5);font-weight: 700;
@@ -2082,7 +2091,7 @@ text-decoration:none;
 
 font: bold 14px arial;
 
-padding: 15px 0px;
+padding: 5px 0px;
 padding-left:10px;
 margin: 0px auto;
 color: #000;font-size:15px;cursor:pointer;
@@ -2097,7 +2106,7 @@ border-radius: 3px;
 background:#ccc;
 }
 #nav19 .right h6{
-	text-align:center;font-size:25px;font-family: 'Times New Roman', Times, serif;
+	text-align:center;font-size:18px;font-family: 'Times New Roman', Times, serif;
 }
 #nav19 .right{
 	background:rgba(0,0,0,.1);
@@ -2153,9 +2162,9 @@ body{
 .flip-container{
 	padding:0!important;margin:0!important;
 }
-.tab-content.clearfix{
+.tab-content .clearfix{
 	padding:0!important;margin:0!important;
-	background:node;	
+	background:none;	
 }
 
 .menu2 #bs-example-navbar-collapse-2 #mylink2 .nav > li > a {

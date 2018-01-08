@@ -58,6 +58,7 @@
 
 		<script>
 			
+<<<<<<< HEAD
 
 			setInterval(function(){
 
@@ -70,10 +71,15 @@
 		</script>
 
 		
+=======
+		
+		<iframe width="100%"  style="margin-top:50px;" height="100%" src="https://www.youtube.com/embed/UPYT7cJkaZo" frameborder="0" allowfullscreen></iframe>	<!-- http://almagames.mypsx.net:8090/webcam.mjpeg -->
+>>>>>>> 54977dd36ee1bbc224055ea4e4f873928da52f4f
 					
 	</div>
 
 
+<<<<<<< HEAD
 
 	<!-- <div class="roul" style="position: absolute;top:0px;z-index: 10"><embed id="r_obn2" src="http://almabets.com:8090/webcam.swf" quality="high" type="application/x-shockwave-flash" width="520px" height="330px" SCALE="exactfit"/></div> -->
 
@@ -91,6 +97,11 @@
 			},40000);
 		</script>
    
+=======
+	<div class="roul" style="position: absolute;top:0px;z-index: 10"><img width="520px" height="330px"  src="http://almagames.mypsx.net:8090/webcam.mjpeg" frameborder="0" allowfullscreen></img></div>
+    <!--<img style="user-select: none; cursor: zoom-in;top:2000px;" src="http://192.168.1.150:8092/webcam3.mjpeg" width="100%" height="100%">
+    -->
+>>>>>>> 54977dd36ee1bbc224055ea4e4f873928da52f4f
 </div>
 
 

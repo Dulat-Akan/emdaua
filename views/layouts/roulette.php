@@ -175,8 +175,13 @@ AppAsset::register($this);
                         ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
                         ['label' => 'О нас', 'url' => ['/index.php/site/about']],
                         ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+<<<<<<< HEAD
                        /* ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],*/
                         ['label' => 'Живая игра', 'url' => ['/site/about']],
+=======
+                        ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                        ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+>>>>>>> 54977dd36ee1bbc224055ea4e4f873928da52f4f
                         ['label' => 'Вход', 'url' => ['/index.php/site/login']]       
                     ]
             ]); 
@@ -187,6 +192,7 @@ AppAsset::register($this);
         Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
                  'items' => [
+<<<<<<< HEAD
                      '<li class="white">Баланс: ' . Yii::$app->user->identity->balance . ' тг. </li>',
                     ['label' => 'Кабинет', 'url' => ['/index.php/site/lk']],
                     ['label' => 'Корзина', 'url' => ['/index.php/site/korzina']],
@@ -199,6 +205,19 @@ AppAsset::register($this);
                     . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
                     . Html::submitButton(
                         'Выход (' . Yii::$app->user->identity->username . ')',
+=======
+                     '<li class="white" id="balans">Баланс: ' . Yii::$app->user->identity->balance . 'тг. </li>',
+                    ['label' => 'Домой', 'url' => ['/index.php/site']],
+                    ['label' => 'регистрация', 'url' => ['/index.php/site/usertwo']],
+                    ['label' => 'О нас', 'url' => ['/index.php/site/about']],
+                    ['label' => 'Наши контакты', 'url' => ['/site/contact']],
+                    ['label' => 'Покер', 'url' => ['/index.php/poker/pok']],
+                    ['label' => 'Рулетка', 'url' => ['/index.php/site/roulette']],
+                    '<li>'
+                    . Html::beginForm(['/index.php/site/logout'], 'post', ['class' => 'navbar-form'])
+                    . Html::submitButton(
+                        'Logout (' . Yii::$app->user->identity->username . ')',
+>>>>>>> 54977dd36ee1bbc224055ea4e4f873928da52f4f
                         ['class' => 'btn btn-link']
                     )
                     . Html::endForm()
@@ -207,7 +226,13 @@ AppAsset::register($this);
         ]); 
         NavBar::end();
      }
+<<<<<<< HEAD
  ?>
+=======
+     
+     ?> 
+    
+>>>>>>> 54977dd36ee1bbc224055ea4e4f873928da52f4f
    
 
 
