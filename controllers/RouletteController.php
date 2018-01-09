@@ -3151,6 +3151,8 @@ public function actionK(){
 
             $balans = 0;
             $cashstatus = 0;
+            $phoneid = 0;
+
             if(isset($_GET['userid'])){
 
                 $id = $_GET['userid'];
@@ -3165,6 +3167,7 @@ public function actionK(){
 
                 foreach ($model as $value) {
                     $balans = $value['balance'];
+                    $phoneid = $value['phoneid'];
 
                     if($value['cashstatus'] != null){
                         $cashstatus = $value['cashstatus'];
@@ -3172,12 +3175,12 @@ public function actionK(){
                     
                 }
                 //echo $balans;
-                $arr = array($balans,$cashstatus);
+                $arr = array($balans,$cashstatus,$phoneid);
 
                 echo $_GET['callback'] . '(' . json_encode($arr) . ')';
             }else{
                 //echo $balans;
-                $arr = array($balans,$cashstatus);
+                $arr = array($balans,$cashstatus,$phoneid);
 
                 echo $_GET['callback'] . '(' . json_encode($arr) . ')';
             }

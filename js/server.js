@@ -287,7 +287,7 @@ function updategame(){
 
 			var blocktabletime = 57; //time to block players
 
-			var blocksystemtime = 7;	//90 sec
+			var blocksystemtime = 5;	//90 sec
 
 			//var protectballstatus = 167;	//60	proverka statusa obnovleniya sharika
 			//var protectballstatus = 107;	//60	proverka statusa obnovleniya sharika
