@@ -3197,7 +3197,7 @@ public function actionK(){
 
                 $id = $_GET['userid'];
 
-                $result = Yii::$app->db->createCommand("SELECT * FROM r_koef WHERE `user_id`='$id' AND `sum` != '0' ORDER BY `id` DESC LIMIT 5")->queryAll();
+                $result = Yii::$app->db->createCommand("SELECT * FROM r_koef WHERE `user_id`='$id' AND `sum` != '0' ORDER BY `id` DESC LIMIT 1")->queryAll();
 
                
                 $arrayresultkoef = array();
